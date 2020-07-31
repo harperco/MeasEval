@@ -1,0 +1,14 @@
+T1	Quantity 243 250	±10 min
+T2	MeasuredEntity 219 230	time period
+T3	Qualifier 251 274	around closest approach
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Quantity 1396 1406	56–100 keV
+A1	QuantityQualifier T4 IsRange
+T5	MeasuredEntity 1385 1394	electrons
+T6	MeasuredProperty 1350 1381	measured differential intensity
+R3	HasQuantity Arg1:T6 Arg2:T4	
+R4	HasProperty Arg1:T5 Arg2:T6	
+R1	Qualifies Arg1:T3 Arg2:T1	
+A2	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	min
+#2	AnnotatorNotes T4	meV

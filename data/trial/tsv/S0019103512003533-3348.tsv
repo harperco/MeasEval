@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3348	1	Quantity	326	328	T4	2°	{unit: °}
+S0019103512003533-3348	1	MeasuredProperty	300	308	T5	latitude	{HasQuantity: T4}
+S0019103512003533-3348	1	MeasuredEntity	252	277	T13	simulations in this study	{HasProperty: T5}
+S0019103512003533-3348	1	Qualifier	289	299	T6	spacing in	{Qualifies: T5}
+S0019103512003533-3348	2	Quantity	333	336	T2	10°	{unit: °}
+S0019103512003533-3348	2	MeasuredProperty	313	322	T3	longitude	{HasQuantity: T2}
+S0019103512003533-3348	2	MeasuredEntity	252	277	T13	simulations in this study	{HasProperty: T3}
+S0019103512003533-3348	2	Qualifier	289	299	T6	spacing in	{Qualifies: T3}
+S0019103512003533-3348	3	Quantity	381	398	T8	0.4 scale heights	{unit: scale heights}
+S0019103512003533-3348	3	MeasuredProperty	358	377	T7	vertical resolution	{HasQuantity: T8}
+S0019103512003533-3348	3	MeasuredEntity	252	277	T13	simulations in this study	{HasProperty: T7}
+S0019103512003533-3348	4	Quantity	430	433	T1	5 s	{unit: s}
+S0019103512003533-3348	4	MeasuredProperty	404	425	T10	time integration step	{HasQuantity: T1}
+S0019103512003533-3348	4	MeasuredEntity	252	277	T13	simulations in this study	{HasProperty: T10}
+S0019103512003533-3348	5	Quantity	458	461	T14	500	{mods: [IsCount], unit: count}
+S0019103512003533-3348	5	MeasuredEntity	462	478	T12	Saturn rotations	{HasQuantity: T14}

@@ -1,0 +1,91 @@
+T1	Quantity 1004 1012	66.8 ppm
+T5	Quantity 446 454	1000 ppm
+T7	Quantity 714 722	1000 ppm
+T9	Quantity 764 771	135 ppm
+T10	Quantity 858 873	close to 10 ppm
+T11	Quantity 791 798	407 ppm
+T15	Quantity 989 992	9.4
+T16	Quantity 996 1000	14.1
+T3	Quantity 354 367	0 to 1000 ppm
+A1	QuantityQualifier T3 IsRange
+T4	Quantity 287 304	1000 and 2000 ppm
+A2	QuantityQualifier T4 IsList
+T6	Quantity 484 498	0 and 2000 ppm
+A3	QuantityQualifier T6 IsList
+T32	Qualifier 772 789	for single column
+T33	Qualifier 799 815	for looping test
+T31	MeasuredEntity 760 762	Ti
+R14	HasProperty Arg1:T31 Arg2:T20	
+T22	MeasuredEntity 184 187	SO2
+T36	MeasuredProperty 188 201	concentration
+R2	HasProperty Arg1:T22 Arg2:T36	
+R19	HasQuantity Arg1:T36 Arg2:T4	
+T8	Quantity 829 843	0 and 2000 ppm
+A4	QuantityQualifier T8 IsList
+T38	Qualifier 829 847	0 and 2000 ppm SO2
+T39	Qualifier 877 890	in both tests
+T40	MeasuredEntity 892 894	Zn
+R27	HasProperty Arg1:T40 Arg2:T21	
+T42	MeasuredEntity 1017 1020	SO2
+T43	MeasuredProperty 1021 1035	concentrations
+R29	HasProperty Arg1:T42 Arg2:T43	
+T20	MeasuredProperty 742 756	concentrations
+R17	HasQuantity Arg1:T20 Arg2:T9	
+R18	HasQuantity Arg1:T20 Arg2:T11	
+T21	MeasuredProperty 949 962	concentration
+R24	HasQuantity Arg1:T21 Arg2:T15	
+R25	HasQuantity Arg1:T21 Arg2:T16	
+R26	HasQuantity Arg1:T21 Arg2:T1	
+#6	AnnotatorNotes T3	ppm
+R1	HasQuantity Arg1:T36 Arg2:T3	
+#7	AnnotatorNotes T4	ppm
+R3	HasQuantity Arg1:T36 Arg2:T5	
+#1	AnnotatorNotes T5	ppm
+#4	AnnotatorNotes T6	ppm
+R4	HasQuantity Arg1:T36 Arg2:T6	
+#5	AnnotatorNotes T7	ppm
+R5	HasQuantity Arg1:T36 Arg2:T7	
+#8	AnnotatorNotes T9	ppm
+T12	Qualifier 714 726	1000 ppm SO2
+R6	Qualifies Arg1:T12 Arg2:T9	
+R7	Qualifies Arg1:T12 Arg2:T11	
+R8	Qualifies Arg1:T32 Arg2:T9	
+R9	Qualifies Arg1:T33 Arg2:T11	
+#9	AnnotatorNotes T11	ppm
+R10	HasQuantity Arg1:T36 Arg2:T8	
+#2	AnnotatorNotes T8	ppm
+#10	AnnotatorNotes T10	ppm
+T13	Qualifier 1009 1012	ppm
+R12	Qualifies Arg1:T13 Arg2:T16	
+R13	Qualifies Arg1:T13 Arg2:T15	
+T14	Qualifier 1017 1035	SO2 concentrations
+T2	Quantity 1051 1059	2000 ppm
+#11	AnnotatorNotes T2	ppm
+T17	Quantity 1039 1040	0
+#12	AnnotatorNotes T17	ppm
+T18	Quantity 1042 1046	1000
+#13	AnnotatorNotes T18	ppm
+T19	Qualifier 1056 1059	ppm
+R11	Qualifies Arg1:T19 Arg2:T18	
+R15	Qualifies Arg1:T19 Arg2:T17	
+R16	HasQuantity Arg1:T43 Arg2:T17	
+R20	HasQuantity Arg1:T43 Arg2:T18	
+R28	HasQuantity Arg1:T43 Arg2:T2	
+T23	Qualifier 1039 1040	0
+T24	Qualifier 1042 1046	1000
+T25	Qualifier 1051 1059	2000 ppm
+R30	Qualifies Arg1:T19 Arg2:T24	
+R31	Qualifies Arg1:T19 Arg2:T23	
+R32	Qualifies Arg1:T14 Arg2:T23	
+R33	Qualifies Arg1:T14 Arg2:T24	
+R34	Qualifies Arg1:T14 Arg2:T25	
+R35	Qualifies Arg1:T23 Arg2:T15	
+R36	Qualifies Arg1:T24 Arg2:T16	
+R37	Qualifies Arg1:T25 Arg2:T1	
+#14	AnnotatorNotes T1	ppm
+#15	AnnotatorNotes T15	ppm
+#16	AnnotatorNotes T16	ppm
+A5	IsApproximate T10
+R38	HasQuantity Arg1:T20 Arg2:T10	
+R21	Qualifies Arg1:T39 Arg2:T10	
+R22	Qualifies Arg1:T38 Arg2:T10	

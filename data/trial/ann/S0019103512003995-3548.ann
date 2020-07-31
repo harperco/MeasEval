@@ -1,0 +1,32 @@
+T1	Quantity 851 863	about 8250 K
+T2	Quantity 1033 1041	11,000 K
+T3	Quantity 1008 1028	approximately 6000 K
+T4	Quantity 651 657	1 μbar
+T5	MeasuredEntity 624 647	lower boundary pressure
+R1	HasQuantity Arg1:T5 Arg2:T4	
+T6	MeasuredProperty 836 847	temperature
+R2	HasQuantity Arg1:T6 Arg2:T1	
+T7	MeasuredEntity 871 893	thermosphere below 3Rp
+T8	Qualifier 961 966	upper
+T9	Qualifier 971 976	lower
+#1	AnnotatorNotes T4	μbar
+T10	Qualifier 831 835	mean
+R3	Qualifies Arg1:T10 Arg2:T1	
+A1	QuantityQualifier T1 IsMean
+#2	AnnotatorNotes T1	K
+R6	HasProperty Arg1:T7 Arg2:T6	
+T11	MeasuredProperty 992 1003	temperature
+T12	Qualifier 977 983	limits
+R4	Qualifies Arg1:T12 Arg2:T9	
+R5	Qualifies Arg1:T12 Arg2:T8	
+R7	Qualifies Arg1:T8 Arg2:T3	
+R8	Qualifies Arg1:T9 Arg2:T2	
+R9	HasProperty Arg1:T7 Arg2:T11	
+R10	HasQuantity Arg1:T11 Arg2:T3	
+#3	AnnotatorNotes T3	K
+#4	AnnotatorNotes T2	K
+A2	IsApproximate T1
+A3	IsApproximate T3
+T13	Qualifier 1008 1021	approximately
+A4	IsApproximate T2
+R11	Qualifies Arg1:T13 Arg2:T2	

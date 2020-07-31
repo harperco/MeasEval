@@ -1,0 +1,42 @@
+T1	Qualifier 661 665	last
+T2	Quantity 666 671	3 byr
+#1	AnnotatorNotes T2	byr
+T3	MeasuredEntity 677 690	Amazonian eon
+R1	HasQuantity Arg1:T3 Arg2:T2	
+R2	Qualifies Arg1:T1 Arg2:T2	
+T4	MeasuredEntity 795 799	soil
+T5	Qualifier 809 838	mixed by impact perturbations
+R3	Qualifies Arg1:T5 Arg2:T4	
+T6	Quantity 868 872	∼2 m
+A1	IsApproximate T6
+#2	AnnotatorNotes T6	m
+T7	MeasuredProperty 859 864	depth
+R4	HasProperty Arg1:T4 Arg2:T7	
+R5	HasQuantity Arg1:T7 Arg2:T6	
+T8	MeasuredProperty 899 925	time-average volcanic flux
+T9	Quantity 926 930	0.1%
+#3	AnnotatorNotes T9	%
+T10	MeasuredEntity 938 970	modern terrestrial volcanic flux
+R6	HasProperty Arg1:T10 Arg2:T8	
+R7	HasQuantity Arg1:T8 Arg2:T9	
+T11	Quantity 1028 1040	1.0–1.7 wt.%
+#4	AnnotatorNotes T11	wt.%
+T12	Quantity 1051 1063	0.2–0.4 wt.%
+#5	AnnotatorNotes T12	wt.%
+T13	MeasuredProperty 1064 1065	N
+T14	MeasuredProperty 1041 1046	SO42-
+T15	MeasuredEntity 1000 1004	soil
+R8	HasProperty Arg1:T15 Arg2:T14	
+R9	HasQuantity Arg1:T14 Arg2:T11	
+R10	HasProperty Arg1:T15 Arg2:T13	
+R11	HasQuantity Arg1:T13 Arg2:T12	
+T16	Quantity 1474 1486	0.4–0.6 wt.%
+A2	QuantityQualifier T16 IsRange
+#6	AnnotatorNotes T16	wt.%
+A3	QuantityQualifier T11 IsRange
+A4	QuantityQualifier T12 IsRange
+T17	MeasuredProperty 1487 1492	ClO4-
+R12	HasProperty Arg1:T15 Arg2:T17	
+R13	HasQuantity Arg1:T17 Arg2:T16	
+T18	Qualifier 1493 1527	measured by NASA’s Phoenix Lander.
+R14	Qualifies Arg1:T18 Arg2:T16	

@@ -1,0 +1,31 @@
+T2	Quantity 212 220	0.51 ppm
+T3	Quantity 257 265	1000 ppm
+T5	Quantity 203 207	0.63
+T1	Quantity 139 145	<1 ppm
+A1	QuantityQualifier T1 IsRange
+T7	MeasuredProperty 100 114	Concentrations
+T8	MeasuredEntity 18 39	gaseous major element
+R1	HasProperty Arg1:T8 Arg2:T7	
+R2	HasQuantity Arg1:T7 Arg2:T1	
+T9	MeasuredEntity 152 154	Fe
+T11	MeasuredEntity 266 269	SO2
+R6	HasQuantity Arg1:T11 Arg2:T3	
+T4	Quantity 424 438	0 and 2000 ppm
+A2	QuantityQualifier T4 IsList
+T6	MeasuredEntity 439 442	SO2
+#2	AnnotatorNotes T6	Concentration
+T10	MeasuredProperty 185 199	concentrations
+R4	HasQuantity Arg1:T10 Arg2:T2	
+#4	AnnotatorNotes T1	ppm
+T18	MeasuredProperty 185 199	concentrations
+R3	HasQuantity Arg1:T18 Arg2:T5	
+T19	MeasuredEntity 159 161	Si
+R5	HasProperty Arg1:T9 Arg2:T18	
+R12	HasProperty Arg1:T19 Arg2:T10	
+R11	HasQuantity Arg1:T6 Arg2:T4	
+#1	AnnotatorNotes T4	ppm
+#3	AnnotatorNotes T3	ppm
+T12	Qualifier 217 220	ppm
+R7	Qualifies Arg1:T12 Arg2:T5	
+#5	AnnotatorNotes T5	ppm
+#6	AnnotatorNotes T2	ppm

@@ -1,0 +1,10 @@
+T1	Quantity 324 333	11 km s−1
+T2	MeasuredProperty 299 314	radial velocity
+T3	MeasuredEntity 261 271	SOL2 model
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 334 340	by 5Rp
+R3	Qualifies Arg1:T4 Arg2:T1	
+#1	AnnotatorNotes T1	km s−1
+T5	Quantity 337 340	5Rp
+#2	AnnotatorNotes T5	Rp

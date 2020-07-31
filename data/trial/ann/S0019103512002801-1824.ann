@@ -1,0 +1,16 @@
+T3	Quantity 133 137	6–8%
+T4	MeasuredProperty 29 54	observed ∣B∣ disturbances
+#1	AnnotatorNotes T4	Disturbance
+T5	MeasuredEntity 58 62	Rhea
+R1	HasProperty Arg1:T5 Arg2:T4	
+T1	Quantity 101 119	between 6% and 13%
+A1	QuantityQualifier T1 IsRange
+A2	QuantityQualifier T3 IsRange
+T2	MeasuredEntity 141 150	Enceladus
+R2	HasProperty Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+R4	HasQuantity Arg1:T4 Arg2:T3	
+T6	Qualifier 63 97	with respect to the background ∣B∣
+R5	Qualifies Arg1:T6 Arg2:T4	
+#2	AnnotatorNotes T1	%
+#3	AnnotatorNotes T3	%

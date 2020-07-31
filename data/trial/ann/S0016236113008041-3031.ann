@@ -1,0 +1,100 @@
+T2	Quantity 964 971	∼15 ppm
+T1	Quantity 868 886	from ∼20 to 40 ppm
+T9	Qualifier 850 867	over eight cycles
+T10	Qualifier 808 821	Lea Hall coal
+T11	MeasuredProperty 848 849	B
+R2	HasQuantity Arg1:T11 Arg2:T1	
+R3	Qualifies Arg1:T9 Arg2:T11	
+T12	MeasuredEntity 921 928	sorbent
+T13	MeasuredProperty 917 919	Cu
+T14	Qualifier 944 962	in the first cycle
+T15	Quantity 597 598	2
+T16	MeasuredEntity 599 614	different coals
+R7	HasQuantity Arg1:T16 Arg2:T15	
+T17	Quantity 855 860	eight
+T18	MeasuredEntity 861 867	cycles
+R8	HasQuantity Arg1:T18 Arg2:T17	
+T19	Quantity 996 1001	eight
+T20	MeasuredEntity 1002 1008	cycles
+R9	HasQuantity Arg1:T20 Arg2:T19	
+T21	Quantity 1017 1020	two
+T22	MeasuredEntity 1021 1026	coals
+R10	HasQuantity Arg1:T22 Arg2:T21	
+T23	Quantity 1047 1051	five
+T24	MeasuredEntity 1052 1058	cycles
+R11	HasQuantity Arg1:T24 Arg2:T23	
+T3	Quantity 1082 1106	from ∼20 ppm to ∼180 ppm
+T6	Quantity 1244 1265	from ∼250 to ∼550 ppm
+T5	Quantity 1270 1290	from ∼200 to 400 ppm
+T25	Qualifier 1222 1235	Lea Hall coal
+T26	Qualifier 1240 1243	RDF
+T28	Quantity 1410 1413	two
+T29	MeasuredEntity 1414 1419	fuels
+R18	HasQuantity Arg1:T29 Arg2:T28	
+T30	Quantity 1460 1465	eight
+T31	MeasuredEntity 1466 1472	cycles
+R19	HasQuantity Arg1:T31 Arg2:T30	
+T7	Quantity 1559 1583	from ∼50 ppm to ∼150 ppm
+T8	Qualifier 1512 1558	cycled in the presence of RDF over five cycles
+T32	MeasuredEntity 1504 1511	sorbent
+T33	MeasuredProperty 1421 1423	Ti
+R20	HasProperty Arg1:T32 Arg2:T33	
+R21	HasQuantity Arg1:T33 Arg2:T7	
+A1	IsCount T15
+A2	IsCount T17
+A3	IsApproximate T1
+A4	QuantityQualifier T1 IsRange
+T34	Qualifier 836 844	increase
+R23	Qualifies Arg1:T34 Arg2:T1	
+#1	AnnotatorNotes T1	ppm
+A5	IsApproximate T2
+#2	AnnotatorNotes T2	ppm
+T35	Quantity 951 956	first
+A6	IsCount T35
+T36	MeasuredEntity 957 962	cycle
+R24	HasQuantity Arg1:T36 Arg2:T35	
+R6	Qualifies Arg1:T14 Arg2:T2	
+T37	Qualifier 973 1026	remained the same over eight cycles for the two coals
+R25	Qualifies Arg1:T37 Arg2:T2	
+A7	IsApproximate T3
+A8	QuantityQualifier T3 IsRange
+T38	Qualifier 1032 1081	increased over five cycles in the presence of RDF
+R13	Qualifies Arg1:T38 Arg2:T3	
+T4	Qualifier 1198 1206	increase
+R14	Qualifies Arg1:T4 Arg2:T5	
+A9	IsApproximate T5
+A10	QuantityQualifier T5 IsRange
+#3	AnnotatorNotes T5	ppm
+A11	IsApproximate T6
+A12	QuantityQualifier T6 IsRange
+#4	AnnotatorNotes T6	ppm
+T39	MeasuredProperty 1108 1110	Na
+R16	HasQuantity Arg1:T39 Arg2:T6	
+A13	IsCount T28
+R1	Qualifies Arg1:T10 Arg2:T1	
+T40	MeasuredEntity 41 50	limestone
+R27	HasProperty Arg1:T40 Arg2:T11	
+R4	HasProperty Arg1:T12 Arg2:T13	
+R5	HasQuantity Arg1:T13 Arg2:T2	
+R12	HasQuantity Arg1:T13 Arg2:T3	
+T41	MeasuredEntity 1137 1144	sorbent
+R15	HasProperty Arg1:T41 Arg2:T39	
+R17	HasQuantity Arg1:T39 Arg2:T5	
+R26	Qualifies Arg1:T4 Arg2:T6	
+R28	Qualifies Arg1:T25 Arg2:T6	
+R29	Qualifies Arg1:T26 Arg2:T5	
+T27	Qualifier 1488 1496	increase
+R30	Qualifies Arg1:T27 Arg2:T7	
+A14	IsApproximate T7
+A15	QuantityQualifier T7 IsRange
+#5	AnnotatorNotes T7	ppm
+T42	Quantity 1547 1551	five
+A16	IsCount T42
+T43	MeasuredEntity 1552 1558	cycles
+R31	HasQuantity Arg1:T43 Arg2:T42	
+R22	Qualifies Arg1:T8 Arg2:T7	
+A17	IsCount T19
+A18	IsCount T21
+A19	IsCount T23
+A20	IsCount T30
+#6	AnnotatorNotes T3	ppm

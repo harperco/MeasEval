@@ -1,0 +1,5 @@
+T1	Quantity 84 98	about 5 km s−1
+T2	MeasuredEntity 57 80	outward radial velocity
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+#1	AnnotatorNotes T1	km s−1

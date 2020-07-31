@@ -1,0 +1,28 @@
+T1	Quantity 430 433	5 s
+T3	MeasuredProperty 313 322	longitude
+T2	Quantity 333 336	10°
+T4	Quantity 326 328	2°
+R1	HasQuantity Arg1:T3 Arg2:T2	
+T5	MeasuredProperty 300 308	latitude
+R2	HasQuantity Arg1:T5 Arg2:T4	
+T6	Qualifier 289 299	spacing in
+T7	MeasuredProperty 358 377	vertical resolution
+T8	Quantity 381 398	0.4 scale heights
+R5	HasQuantity Arg1:T7 Arg2:T8	
+T10	MeasuredProperty 404 425	time integration step
+R8	HasQuantity Arg1:T10 Arg2:T1	
+T14	Quantity 458 461	500
+T12	MeasuredEntity 462 478	Saturn rotations
+R9	HasQuantity Arg1:T12 Arg2:T14	
+T13	MeasuredEntity 252 277	simulations in this study
+R3	HasProperty Arg1:T13 Arg2:T5	
+R4	HasProperty Arg1:T13 Arg2:T3	
+R11	Qualifies Arg1:T6 Arg2:T5	
+R12	Qualifies Arg1:T6 Arg2:T3	
+#1	AnnotatorNotes T4	°
+#2	AnnotatorNotes T2	°
+A1	IsCount T14
+#3	AnnotatorNotes T1	s
+#4	AnnotatorNotes T8	scale heights
+R6	HasProperty Arg1:T13 Arg2:T7	
+R7	HasProperty Arg1:T13 Arg2:T10	

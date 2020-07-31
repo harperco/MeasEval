@@ -1,0 +1,49 @@
+T1	Quantity 92 98	17.7 m
+#1	AnnotatorNotes T1	m
+T2	MeasuredProperty 99 104	thick
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 105 179	section of the Bridge Creek Limestone (∼12 m) and Hartland Shale (∼12.6 m)
+T4	MeasuredEntity 120 142	Bridge Creek Limestone
+T5	Quantity 144 149	∼12 m
+A1	IsApproximate T5
+#2	AnnotatorNotes T5	m
+T6	MeasuredEntity 155 169	Hartland Shale
+T7	Quantity 171 178	∼12.6 m
+A2	IsApproximate T7
+#3	AnnotatorNotes T7	m
+R2	HasQuantity Arg1:T4 Arg2:T5	
+R3	HasQuantity Arg1:T6 Arg2:T7	
+T8	Quantity 422 426	four
+A3	IsCount T8
+T9	MeasuredEntity 427 442	bentonite units
+R4	HasQuantity Arg1:T9 Arg2:T8	
+T10	Quantity 446 456	1 to 20 cm
+A4	QuantityQualifier T10 IsRange
+#4	AnnotatorNotes T10	cm
+R5	HasQuantity Arg1:T9 Arg2:T10	
+T11	MeasuredEntity 617 620	CTB
+T12	Quantity 624 637	93.90±0.15 Ma
+A5	QuantityQualifier T12 HasTolerance
+#5	AnnotatorNotes T12	Ma
+T13	Quantity 1134 1135	F
+A6	IsCount T13
+T14	MeasuredProperty 1135 1136	O
+R6	HasQuantity Arg1:T14 Arg2:T13	
+T15	Quantity 1138 1143	first
+A7	IsCount T15
+T16	MeasuredProperty 1144 1154	occurrence
+T17	MeasuredEntity 1163 1193	ammonite Watinoceras devonense
+R7	HasProperty Arg1:T17 Arg2:T14	
+R8	HasProperty Arg1:T17 Arg2:T16	
+T18	Quantity 1388 1389	F
+A8	IsCount T18
+T19	MeasuredProperty 1389 1390	O
+T20	MeasuredEntity 1394 1406	W. devonense
+R9	HasProperty Arg1:T20 Arg2:T19	
+R10	HasQuantity Arg1:T19 Arg2:T18	
+T21	Quantity 1426 1427	F
+A9	IsCount T21
+T22	MeasuredProperty 1427 1428	O
+T23	MeasuredEntity 1432 1454	Mytiloides puebloensis
+R11	HasProperty Arg1:T23 Arg2:T22	
+R12	HasQuantity Arg1:T22 Arg2:T21	

@@ -1,0 +1,38 @@
+T1	Quantity 55 61	8250 K
+A1	QuantityQualifier T1 IsMean
+T2	MeasuredProperty 35 51	mean temperature
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 69 94	thermosphere of HD209458b
+R3	HasProperty Arg1:T4 Arg2:T2	
+T5	Qualifier 95 111	with p0 = 1 μbar
+R4	Qualifies Arg1:T5 Arg2:T2	
+T6	Quantity 105 111	1 μbar
+T7	Quantity 258 268	ηnet = 0.5
+T9	MeasuredProperty 291 299	XUV flux
+T11	Qualifier 253 268	with ηnet = 0.5
+R5	Qualifies Arg1:T11 Arg2:T9	
+T8	Quantity 316 326	5–10 times
+A2	QuantityQualifier T8 IsRange
+R7	HasQuantity Arg1:T9 Arg2:T8	
+T12	Quantity 518 523	twice
+T13	MeasuredProperty 485 498	rotation rate
+R8	HasQuantity Arg1:T13 Arg2:T12	
+T14	MeasuredEntity 502 510	HD209458
+R9	HasProperty Arg1:T14 Arg2:T13	
+T15	Qualifier 334 367	than the corresponding solar flux
+R10	Qualifies Arg1:T15 Arg2:T9	
+T16	Qualifier 532 563	as the rotation rate of the Sun
+R11	Qualifies Arg1:T16 Arg2:T13	
+T3	MeasuredEntity 100 102	p0
+R2	HasQuantity Arg1:T3 Arg2:T6	
+#1	AnnotatorNotes T7	ηnet
+T10	MeasuredEntity 303 312	HD209458b
+T17	Qualifier 327 333	higher
+R6	Qualifies Arg1:T17 Arg2:T8	
+R12	HasProperty Arg1:T10 Arg2:T9	
+#2	AnnotatorNotes T8	times
+T18	Qualifier 524 531	as fast
+R13	Qualifies Arg1:T18 Arg2:T12	
+#3	AnnotatorNotes T12	Unspecified
+#4	AnnotatorNotes T6	μbar
+#5	AnnotatorNotes T1	K

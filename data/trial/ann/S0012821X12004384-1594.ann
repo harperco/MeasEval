@@ -1,0 +1,12 @@
+T1	Quantity 156 168	above 2618 m
+T2	MeasuredEntity 180 189	CIE onset
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 169 175	before
+#1	AnnotatorNotes T1	m
+T4	MeasuredProperty 283 300	southern boundary
+T5	MeasuredEntity 259 277	northern rain belt
+T6	Quantity 310 314	40°N
+#2	AnnotatorNotes T6	°N
+R1	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T6	

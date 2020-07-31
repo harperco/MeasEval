@@ -1,0 +1,63 @@
+T1	Quantity 550 552	5%
+T2	Quantity 557 560	95%
+T3	Quantity 148 154	40 min
+T4	Quantity 174 180	1 week
+T5	Quantity 137 143	100 °C
+T6	Quantity 123 128	0.2 M
+T7	MeasuredProperty 129 133	NaOH
+R1	HasQuantity Arg1:T7 Arg2:T6	
+T8	MeasuredEntity 49 71	wet alkaline digestion
+R2	HasProperty Arg1:T8 Arg2:T7	
+R3	HasQuantity Arg1:T8 Arg2:T5	
+R4	HasQuantity Arg1:T8 Arg2:T3	
+R5	HasQuantity Arg1:T8 Arg2:T4	
+T9	Qualifier 182 197	sponge spicules
+R6	Qualifies Arg1:T9 Arg2:T4	
+T10	Qualifier 156 163	diatoms
+R7	Qualifies Arg1:T10 Arg2:T3	
+T11	Quantity 230 234	pH∼2
+T12	MeasuredEntity 204 211	samples
+T14	Quantity 240 245	0.2 M
+T15	MeasuredEntity 246 269	thermally distilled HCl
+R10	HasQuantity Arg1:T15 Arg2:T14	
+T16	MeasuredProperty 537 546	m/Δm∼3500
+R11	HasQuantity Arg1:T16 Arg2:T1	
+R12	HasQuantity Arg1:T16 Arg2:T2	
+T17	Quantity 706 718	six to eight
+A1	QuantityQualifier T17 IsRange
+T18	MeasuredEntity 719 743	standard-sample brackets
+R13	HasQuantity Arg1:T18 Arg2:T17	
+T19	Quantity 857 869	eight-second
+T20	MeasuredEntity 870 882	integrations
+T21	Quantity 850 856	twenty
+R15	HasQuantity Arg1:T20 Arg2:T19	
+R16	HasQuantity Arg1:T20 Arg2:T21	
+T22	Quantity 978 987	1.26±0.2‰
+A2	QuantityQualifier T22 IsMeanHasSD
+T23	MeasuredProperty 949 976	external diatomite standard
+R17	HasQuantity Arg1:T23 Arg2:T22	
+T24	Quantity 1038 1048	1.23±0.25‰
+A3	QuantityQualifier T24 IsMeanHasSD
+T26	Qualifier 1022 1034	mean and 2SD
+T28	Quantity 1050 1055	n=104
+#1	AnnotatorNotes T24	‰
+#2	AnnotatorNotes T28	n
+#3	AnnotatorNotes T6	M
+#4	AnnotatorNotes T5	°C
+#5	AnnotatorNotes T3	min
+#6	AnnotatorNotes T4	week
+#7	AnnotatorNotes T11	pH
+#8	AnnotatorNotes T14	M
+R8	HasQuantity Arg1:T12 Arg2:T11	
+T13	MeasuredEntity 488 505	mass spectrometer
+R9	HasProperty Arg1:T13 Arg2:T16	
+#9	AnnotatorNotes T1	%
+#10	AnnotatorNotes T2	%
+A4	IsCount T17
+A5	IsCount T21
+#11	AnnotatorNotes T19	second
+T25	MeasuredEntity 884 891	Samples
+R14	HasQuantity Arg1:T25 Arg2:T24	
+R18	HasQuantity Arg1:T25 Arg2:T28	
+R19	Qualifies Arg1:T26 Arg2:T24	
+#12	AnnotatorNotes T22	‰

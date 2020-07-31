@@ -1,0 +1,6 @@
+T1	Quantity 103 107	1 μs
+T2	MeasuredProperty 97 101	skew
+T3	MeasuredEntity 66 72	pulses
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+#1	AnnotatorNotes T1	μs

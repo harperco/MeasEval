@@ -1,0 +1,26 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4210	1	Quantity	143	146	T1	2 m	{mods: [IsMean], unit: m}
+S0019103513005058-4210	1	MeasuredProperty	134	139	T2	depth	{HasQuantity: T1}
+S0019103513005058-4210	1	MeasuredEntity	106	110	T4	soil	{HasProperty: T2}
+S0019103513005058-4210	1	Qualifier	126	133	T3	average	{Qualifies: T1}
+S0019103513005058-4210	1	Qualifier	114	119	T5	mixed	{Qualifies: T2}
+S0019103513005058-4210	2	Quantity	230	246	T8	4.3 × 10−8 wt. %	{unit: wt. %}
+S0019103513005058-4210	2	MeasuredProperty	212	226	T21	concentrations	{HasQuantity: T8}
+S0019103513005058-4210	2	Qualifier	170	179	T6	Ca(ClO4)2	{Qualifies: T8}
+S0019103513005058-4210	2	Qualifier	33	44	T20	perchlorate	{Qualifies: T21}
+S0019103513005058-4210	3	Quantity	251	268	T9	4.0 × 10−10 wt. %	{unit: wt. %}
+S0019103513005058-4210	3	MeasuredProperty	212	226	T21	concentrations	{HasQuantity: T9}
+S0019103513005058-4210	3	Qualifier	183	192	T7	Mg(ClO4)2	{Qualifies: T9}
+S0019103513005058-4210	3	Qualifier	33	44	T20	perchlorate	{Qualifies: T21}
+S0019103513005058-4210	4	Quantity	402	415	T10	0.4–0.6 wt. %	{unit: wt. %}
+S0019103513005058-4210	4	MeasuredProperty	354	372	T12	observed abundance	{HasQuantity: T10}
+S0019103513005058-4210	4	MeasuredEntity	380	400	T11	Phoenix landing site	{HasProperty: T12}
+S0019103513005058-4210	4	Qualifier	33	44	T20	perchlorate	{Qualifies: T12}
+S0019103513005058-4210	5	Quantity	548	553	T15	∼1:60	{mods: [IsApproximate], unit: ratio}
+S0019103513005058-4210	5	MeasuredProperty	541	547	T22	ratios	{HasQuantity: T15}
+S0019103513005058-4210	5	MeasuredEntity	521	540	T14	perchlorate:nitrate	{HasProperty: T22}
+S0019103513005058-4210	5	Qualifier	554	575	T16	measured in EETA79001	{Qualifies: T15}
+S0019103513005058-4210	6	Quantity	639	646	T19	∼1:1000	{mods: [IsApproximate], unit: ratio}
+S0019103513005058-4210	6	MeasuredProperty	541	547	T13	ratios	{HasQuantity: T19}
+S0019103513005058-4210	6	MeasuredEntity	616	635	T18	perchlorate:nitrate	{HasProperty: T13}
+S0019103513005058-4210	6	Qualifier	608	615	T17	Atacama	{Qualifies: T19}

@@ -1,0 +1,24 @@
+T1	Quantity 446 461	as low as 25 km
+T3	Qualifier 462 479	above the surface
+T4	MeasuredEntity 380 402	the Cassini spacecraft
+T5	Quantity 426 434	14 times
+T6	MeasuredProperty 403 425	flew close by the moon
+R2	HasProperty Arg1:T4 Arg2:T6	
+R3	HasQuantity Arg1:T6 Arg2:T5	
+T2	Quantity 739 755	27 keV to 21 MeV
+A1	QuantityQualifier T2 IsRange
+R5	HasQuantity Arg1:T4 Arg2:T1	
+R1	Qualifies Arg1:T3 Arg2:T1	
+T7	MeasuredProperty 726 732	energy
+T8	MeasuredEntity 697 705	electron
+R4	HasProperty Arg1:T8 Arg2:T7	
+R6	HasQuantity Arg1:T7 Arg2:T2	
+T9	MeasuredEntity 358 369	time period
+T10	Quantity 370 379	2005–2010
+A2	QuantityQualifier T10 IsRange
+R7	HasQuantity Arg1:T9 Arg2:T10	
+#1	AnnotatorNotes T2	keV / MeV
+#2	AnnotatorNotes T10	Unspecified
+#3	AnnotatorNotes T5	times
+#4	AnnotatorNotes T1	km
+A3	QuantityQualifier T1 IsRange

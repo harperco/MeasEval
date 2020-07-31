@@ -1,0 +1,13 @@
+T4	Quantity 626 628	20
+T5	MeasuredEntity 602 609	Samples
+T6	MeasuredProperty 726 760	%low salinity dinoflagellate cysts
+T2	Quantity 775 784	0% to 80%
+A1	QuantityQualifier T2 IsRange
+R2	HasQuantity Arg1:T6 Arg2:T2	
+R3	HasProperty Arg1:T5 Arg2:T6	
+T3	Qualifier 610 657	with fewer than 20 specimens were also excluded
+R1	Qualifies Arg1:T3 Arg2:T5	
+#2	AnnotatorNotes T2	%
+T1	MeasuredEntity 629 638	specimens
+R4	HasQuantity Arg1:T1 Arg2:T4	
+A2	IsCount T4

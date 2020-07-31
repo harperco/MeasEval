@@ -1,11 +1,11 @@
 ### Welcome to MeasEval: Counts and Measurements!
 
-Counts and measurements are an important part of scientific discourse. It is relatively easy to find measurements in text, but a bare measurement like 17 mg is not informative. However, relatively little attention has been given to pars- ing and extracting these important semantic relations. This is challenging because the way sci- entists write can be ambiguous and inconsistent, and the location of this information relative to the measurement can vary greatly.
+Counts and measurements are an important part of scientific discourse. It is relatively easy to find measurements in text, but a bare measurement like 17 mg is not informative. However, relatively little attention has been given to parsing and extracting these important semantic relations. This is challenging because the way scientists write can be ambiguous and inconsistent, and the location of this information relative to the measurement can vary greatly.
 
 MeasEval is a new entity and semantic relation extraction task focused on finding counts and measurements, attributes of these quantities, and additional information including measured entities, properties, and measurement contexts.
 
 For more details and to participate, head over to our CodaLab pages:
-[https://competitions.codalab.org/competitions/25706](https://competitions.codalab.org/competitions/25706) CHANGE THIS!
+[https://competitions.codalab.org/competitions/25770](https://competitions.codalab.org/competitions/25770)
 
 ### Data Formats and Availability
 
@@ -17,7 +17,7 @@ For example, given the BRAT annotations illustrated in the image below, the Tria
 
 ![Brat Example](assets/brat-example.jpg)
 
-##### 1-S0016236113008041-3153.txt (Raw Text File):
+##### S0016236113008041-3153.txt (Raw Text File):
 
 ```
 Results of ICP-MS flue gas analysis provided in Fig. 5 show that most of the major
@@ -27,7 +27,7 @@ inventory of 13 kg e.g., Ti, Cr, and Mn. However, all elements included within F
 5 can be considered to be at very low concentrations of <2 ppm.
 ```
 
-##### 1-S0016236113008041-3153.ann (BRAT Annotation Format):
+##### S0016236113008041-3153.ann (BRAT Annotation Format):
 
 ```
 T1      Quantity 256 261        13 kg
@@ -41,15 +41,15 @@ R3      HasQuantity Arg1:T4 Arg2:T2
 A1      QuantityQualifier T2 IsRange
 ```
 
-##### 1-S0016236113008041-3153.tsv (Official Competition TSV Format):<
+##### S0016236113008041-3153.tsv (Official Competition TSV Format):<
 
 ```
 docId   annotSet        annotType       startOffset     endOffset       annotId text    other
-1-S0016236113008041-3153        1       Quantity        256     261     T1      13 kg {unit: kg}
-1-S0016236113008041-3153        1       MeasuredEntity  239     252     T3      bed inventory   {HasQuantity: T1}
-1-S0016236113008041-3153        2       Quantity        383     389     T2      <2 ppm  {mods: [IsRange], unit: ppm}
-1-S0016236113008041-3153        2       MeasuredProperty        365     379     T4      concentrations  {HasQuantity: T2}
-1-S0016236113008041-3153        2       MeasuredEntity  297     305     T6      elements        {HasProperty: T4}
+S0016236113008041-3153        1       Quantity        256     261     T1      13 kg {unit: kg}
+S0016236113008041-3153        1       MeasuredEntity  239     252     T3      bed inventory   {HasQuantity: T1}
+S0016236113008041-3153        2       Quantity        383     389     T2      <2 ppm  {mods: [IsRange], unit: ppm}
+S0016236113008041-3153        2       MeasuredProperty        365     379     T4      concentrations  {HasQuantity: T2}
+S0016236113008041-3153        2       MeasuredEntity  297     305     T6      elements        {HasProperty: T4}
 ```
 
 For the TSV format, the following fields are used:
@@ -58,7 +58,7 @@ For the TSV format, the following fields are used:
 * annotSet: refers to the logical grouping of annotations, one per annotated quantity, in the order that the appear in the text document.
 * annotType, one of Quantity, MeasuredEntity, MeasuredProperty, or Qualifier.
 * startOffset: character ofset of the start of the annotation in the text.
-* endOffset: character offset of the end of the annotation in the text.
+* endOffset: character offset pointing to the character after the last character in the annotation.
 * annotId: an identifier for the row in the file, unique per annotSet.
 * text: the text of the annotation.
 * other: additional properties used in the task, including:

@@ -1,0 +1,42 @@
+T1	Quantity 604 607	40%
+T2	Quantity 848 856	12–20 μm
+T3	Quantity 1083 1102	between 2 and 20 μm
+T4	Quantity 1708 1715	2–10 μm
+T5	Quantity 1720 1728	10–20 μm
+T7	MeasuredEntity 1068 1082	size fractions
+T8	MeasuredEntity 1729 1743	size fractions
+T9	MeasuredEntity 857 865	fraction
+A1	QuantityQualifier T3 IsRange
+A2	QuantityQualifier T2 IsRange
+R1	HasQuantity Arg1:T7 Arg2:T3	
+R2	HasQuantity Arg1:T9 Arg2:T2	
+R3	HasQuantity Arg1:T8 Arg2:T5	
+R4	HasQuantity Arg1:T8 Arg2:T4	
+T10	MeasuredProperty 608 636	differences in the abundance
+R6	HasQuantity Arg1:T10 Arg2:T1	
+T6	MeasuredEntity 646 653	diatoms
+R5	HasProperty Arg1:T6 Arg2:T10	
+T11	MeasuredEntity 92 135	diatom silicon isotope fractionation factor
+T12	MeasuredProperty 309 312	30ε
+T13	Quantity 347 351	∼−1‰
+A3	IsApproximate T13
+R7	HasProperty Arg1:T11 Arg2:T12	
+R8	HasQuantity Arg1:T12 Arg2:T13	
+T15	Quantity 1131 1138	r2=0.92
+T16	MeasuredEntity 1052 1102	δ30Si values of size fractions between 2 and 20 μm
+T17	MeasuredProperty 1311 1323	apparent 30ε
+T18	Quantity 1327 1331	∼–1‰
+A4	IsApproximate T18
+R9	HasProperty Arg1:T16 Arg2:T17	
+R10	HasQuantity Arg1:T17 Arg2:T18	
+T14	MeasuredProperty 1118 1129	correlation
+R11	HasProperty Arg1:T16 Arg2:T14	
+R12	HasQuantity Arg1:T14 Arg2:T15	
+#1	AnnotatorNotes T13	‰
+#2	AnnotatorNotes T1	‰
+#3	AnnotatorNotes T2	μm
+#4	AnnotatorNotes T3	μm
+#5	AnnotatorNotes T15	r2
+#6	AnnotatorNotes T18	‰
+#7	AnnotatorNotes T4	μm
+#8	AnnotatorNotes T5	μm

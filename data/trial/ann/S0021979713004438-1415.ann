@@ -1,0 +1,7 @@
+T1	Quantity 345 357	25 ± 0.02 °C
+T2	MeasuredProperty 293 304	temperature
+T3	MeasuredEntity 312 326	measuring cell
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 HasTolerance
+#1	AnnotatorNotes T1	°C

@@ -1,0 +1,25 @@
+T1	Quantity 286 296	7.2 km s−1
+T2	Quantity 416 422	7100 K
+T3	Quantity 366 386	approximately 7100 K
+T4	MeasuredProperty 302 329	volume averaged temperature
+T5	MeasuredEntity 337 345	C1 model
+R1	HasProperty Arg1:T5 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T3	
+T6	Quantity 657 662	0.9mH
+T7	MeasuredEntity 630 649	mean atomic weight2
+R3	HasQuantity Arg1:T7 Arg2:T6	
+T8	Quantity 266 271	7.2Rp
+#1	AnnotatorNotes T8	Rp
+T9	MeasuredEntity 243 251	C1 model
+T10	MeasuredProperty 255 265	located at
+R4	HasProperty Arg1:T9 Arg2:T10	
+R5	HasQuantity Arg1:T10 Arg2:T8	
+T11	MeasuredEntity 278 283	c(ξc)
+#2	AnnotatorNotes T1	km s−1
+R6	HasQuantity Arg1:T11 Arg2:T1	
+A1	IsApproximate T3
+A2	QuantityQualifier T3 IsMean
+#3	AnnotatorNotes T2	K
+A3	QuantityQualifier T6 IsMean
+#4	AnnotatorNotes T6	mH
+#5	AnnotatorNotes T3	K

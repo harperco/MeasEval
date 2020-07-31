@@ -1,0 +1,5 @@
+T4	MeasuredEntity 63 70	sorbent
+T1	Quantity 40 62	4.5 kg, 6 kg and 13 kg
+R1	HasQuantity Arg1:T4 Arg2:T1	
+A1	QuantityQualifier T1 IsList
+#1	AnnotatorNotes T1	kg

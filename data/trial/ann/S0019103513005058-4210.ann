@@ -1,0 +1,49 @@
+T1	Quantity 143 146	2 m
+T2	MeasuredProperty 134 139	depth
+T3	Qualifier 126 133	average
+T4	MeasuredEntity 106 110	soil
+T5	Qualifier 114 119	mixed
+R1	Qualifies Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsMean
+R2	HasQuantity Arg1:T2 Arg2:T1	
+R3	Qualifies Arg1:T5 Arg2:T2	
+R4	HasProperty Arg1:T4 Arg2:T2	
+T6	Qualifier 170 179	Ca(ClO4)2
+T7	Qualifier 183 192	Mg(ClO4)2
+T8	Quantity 230 246	4.3 × 10−8 wt. %
+T9	Quantity 251 268	4.0 × 10−10 wt. %
+T10	Quantity 402 415	0.4–0.6 wt. %
+T11	MeasuredEntity 380 400	Phoenix landing site
+T12	MeasuredProperty 354 372	observed abundance
+T13	MeasuredProperty 541 547	ratios
+T14	MeasuredEntity 521 540	perchlorate:nitrate
+T15	Quantity 548 553	∼1:60
+T16	Qualifier 554 575	measured in EETA79001
+R13	Qualifies Arg1:T16 Arg2:T15	
+T17	Qualifier 608 615	Atacama
+T18	MeasuredEntity 616 635	perchlorate:nitrate
+T19	Quantity 639 646	∼1:1000
+R14	HasProperty Arg1:T18 Arg2:T13	
+R15	HasQuantity Arg1:T13 Arg2:T19	
+R16	Qualifies Arg1:T17 Arg2:T19	
+#1	AnnotatorNotes T1	m
+#2	AnnotatorNotes T8	wt. %
+#3	AnnotatorNotes T9	wt. %
+T20	Qualifier 33 44	perchlorate
+R8	Qualifies Arg1:T6 Arg2:T8	
+R17	Qualifies Arg1:T7 Arg2:T9	
+T21	MeasuredProperty 212 226	concentrations
+R5	Qualifies Arg1:T20 Arg2:T21	
+R6	HasQuantity Arg1:T21 Arg2:T8	
+R7	HasQuantity Arg1:T21 Arg2:T9	
+R9	HasProperty Arg1:T11 Arg2:T12	
+R10	HasQuantity Arg1:T12 Arg2:T10	
+R18	Qualifies Arg1:T20 Arg2:T12	
+T22	MeasuredProperty 541 547	ratios
+R11	HasProperty Arg1:T14 Arg2:T22	
+R12	HasQuantity Arg1:T22 Arg2:T15	
+#4	AnnotatorNotes T10	wt. %
+#5	AnnotatorNotes T15	ratio
+A2	IsApproximate T19
+#6	AnnotatorNotes T19	ratio
+A3	IsApproximate T15

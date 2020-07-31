@@ -1,0 +1,25 @@
+T1	Quantity 46 50	2–3‰
+A1	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	‰
+T2	MeasuredProperty 64 78	positive shift
+T3	MeasuredEntity 51 63	VPDB δ13Corg
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredProperty 51 63	VPDB δ13Corg
+T5	Quantity 94 99	∼−27‰
+#2	AnnotatorNotes T5	‰
+R3	HasQuantity Arg1:T4 Arg2:T5	
+T6	MeasuredEntity 107 127	upper Hartland Shale
+R4	HasProperty Arg1:T6 Arg2:T4	
+T7	MeasuredProperty 135 148	below the CTB
+T8	Quantity 129 134	4.3 m
+#3	AnnotatorNotes T8	m
+R5	HasQuantity Arg1:T7 Arg2:T8	
+R6	HasProperty Arg1:T6 Arg2:T7	
+T9	MeasuredEntity 708 715	δ13Corg
+T10	Quantity 724 729	∼−27‰
+A2	IsApproximate T10
+#4	AnnotatorNotes T10	‰
+T11	MeasuredProperty 692 704	gradual fall
+R7	HasProperty Arg1:T9 Arg2:T11	
+R8	HasQuantity Arg1:T11 Arg2:T10	

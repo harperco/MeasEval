@@ -1,0 +1,16 @@
+T1	Quantity 1274 1275	7
+A1	IsCount T1
+T2	Quantity 1277 1282	1-bit
+#1	AnnotatorNotes T2	bit
+T3	MeasuredEntity 1284 1289	wires
+R1	HasQuantity Arg1:T3 Arg2:T2	
+T4	MeasuredEntity 1284 1301	wires per channel
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	MeasuredProperty 5332 5343	probability
+T6	Quantity 5350 5353	10%
+#2	AnnotatorNotes T6	%
+T7	MeasuredEntity 5360 5364	node
+T8	Qualifier 5365 5377	being faulty
+R3	Qualifies Arg1:T8 Arg2:T5	
+R4	HasProperty Arg1:T7 Arg2:T5	
+R5	HasQuantity Arg1:T5 Arg2:T6	

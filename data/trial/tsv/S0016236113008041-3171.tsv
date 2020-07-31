@@ -1,0 +1,31 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3171	1	Quantity	283	289	T3	4.5 kg	{unit: kg}
+S0016236113008041-3171	1	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T3}
+S0016236113008041-3171	2	Quantity	325	327	T10	22	{mods: [IsList], unit: ppm}
+S0016236113008041-3171	2	MeasuredProperty	189	191	T14	Cu	{HasQuantity: T10}
+S0016236113008041-3171	2	MeasuredEntity	57	70	T23	solid sorbent	{HasProperty: T14}
+S0016236113008041-3171	2	Qualifier	354	363	T1	for 13 kg	{Qualifies: T10}
+S0016236113008041-3171	2	Qualifier	337	340	T26	ppm	{Qualifies: T10}
+S0016236113008041-3171	2	Qualifier	17	31	T22	concentrations	{Qualifies: T14}
+S0016236113008041-3171	3	Quantity	332	340	T25	0.22 ppm	{unit: ppm}
+S0016236113008041-3171	3	MeasuredProperty	196	198	T24	Sn	{HasQuantity: T25}
+S0016236113008041-3171	3	MeasuredEntity	57	70	T23	solid sorbent	{HasProperty: T24}
+S0016236113008041-3171	3	Qualifier	354	363	T1	for 13 kg	{Qualifies: T25}
+S0016236113008041-3171	3	Qualifier	17	31	T22	concentrations	{Qualifies: T24}
+S0016236113008041-3171	4	Quantity	358	363	T2	13 kg	{unit: kg}
+S0016236113008041-3171	4	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T2}
+S0016236113008041-3171	5	Quantity	493	499	T4	<1 ppm	{mods: [IsRange], unit: ppm}
+S0016236113008041-3171	5	MeasuredProperty	380	392	T12	Gd, Dy and U	{HasQuantity: T4}
+S0016236113008041-3171	5	MeasuredEntity	57	70	T23	solid sorbent	{HasProperty: T12}
+S0016236113008041-3171	5	Qualifier	413	426	T27	concentration	{Qualifies: T12}
+S0016236113008041-3171	6	Quantity	626	630	T8	6 kg	{unit: kg}
+S0016236113008041-3171	6	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T8}
+S0016236113008041-3171	7	Quantity	636	642	T6	4.5 kg	{unit: kg}
+S0016236113008041-3171	7	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T6}
+S0016236113008041-3171	8	Quantity	669	673	T5	6 kg	{unit: kg}
+S0016236113008041-3171	8	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T5}
+S0016236113008041-3171	9	Quantity	677	682	T7	13 kg	{unit: kg}
+S0016236113008041-3171	9	MeasuredEntity	266	279	T13	bed inventory	{HasQuantity: T7}
+S0016236113008041-3171	10	Quantity	731	739	T21	<0.1 ppm	{mods: [IsRange], unit: ppm}
+S0016236113008041-3171	10	MeasuredProperty	702	725	T20	flue gas concentrations	{HasQuantity: T21}
+S0016236113008041-3171	10	MeasuredEntity	688	701	T15	minor element	{HasProperty: T20}

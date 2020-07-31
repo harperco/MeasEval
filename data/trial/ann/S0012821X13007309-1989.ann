@@ -1,0 +1,66 @@
+T1	Quantity 1193 1196	75%
+T2	Quantity 1328 1331	25%
+T3	MeasuredEntity 1197 1212	Os contribution
+T4	MeasuredEntity 1305 1313	Os input
+T5	MeasuredProperty 1213 1225	from the LIP
+T6	MeasuredProperty 1314 1326	from the LIP
+R1	HasProperty Arg1:T3 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T4 Arg2:T6	
+R4	HasQuantity Arg1:T6 Arg2:T2	
+T7	MeasuredEntity 428 436	seawater
+T8	Quantity 476 480	∼0.8
+A1	IsApproximate T8
+A2	QuantityQualifier T8 IsMean
+T9	Qualifier 449 471	prior to the LIP onset
+T10	MeasuredProperty 437 448	187Os/188Os
+R5	HasProperty Arg1:T7 Arg2:T10	
+R6	HasQuantity Arg1:T10 Arg2:T8	
+R7	Qualifies Arg1:T9 Arg2:T10	
+T11	Quantity 529 535	10 ppq
+T12	MeasuredProperty 501 513	Os abundance
+A3	QuantityQualifier T11 IsMean
+T13	MeasuredEntity 517 525	seawater
+R8	HasProperty Arg1:T13 Arg2:T12	
+R9	HasQuantity Arg1:T12 Arg2:T11	
+T14	MeasuredEntity 612 618	basalt
+T15	MeasuredProperty 619 630	187Os/188Os
+T16	Quantity 634 638	0.13
+R10	HasProperty Arg1:T14 Arg2:T15	
+R11	HasQuantity Arg1:T15 Arg2:T16	
+T17	MeasuredEntity 928 935	basalts
+T18	MeasuredProperty 954 967	Os abundances
+T19	Quantity 969 981	1 to 600 ppt
+A4	QuantityQualifier T19 IsRange
+R12	HasProperty Arg1:T17 Arg2:T18	
+R13	HasQuantity Arg1:T18 Arg2:T19	
+T20	Quantity 1048 1059	1 to 30 ppt
+R14	HasQuantity Arg1:T18 Arg2:T20	
+T21	Qualifier 1022 1036	typical values
+R15	Qualifies Arg1:T21 Arg2:T20	
+A5	QuantityQualifier T20 IsRange
+T22	MeasuredProperty 1143 1155	Os abundance
+T23	MeasuredEntity 1162 1168	basalt
+T24	Quantity 1172 1178	30 ppt
+R16	HasProperty Arg1:T23 Arg2:T22	
+R17	HasQuantity Arg1:T22 Arg2:T24	
+T25	MeasuredEntity 1350 1361	LIP basalts
+T26	MeasuredProperty 1377 1390	Os abundances
+T27	Quantity 1392 1399	100 ppt
+R18	HasProperty Arg1:T25 Arg2:T26	
+R19	HasQuantity Arg1:T26 Arg2:T27	
+T28	Quantity 1503 1511	20 times
+T29	MeasuredEntity 1478 1481	gas
+T30	Qualifier 1512 1530	that of the basalt
+R20	HasQuantity Arg1:T29 Arg2:T28	
+R21	Qualifies Arg1:T30 Arg2:T28	
+#1	AnnotatorNotes T8	Unspecified
+#2	AnnotatorNotes T11	ppq
+#3	AnnotatorNotes T16	Unspecified
+#4	AnnotatorNotes T19	ppt
+#5	AnnotatorNotes T20	ppt
+#6	AnnotatorNotes T24	ppt
+#7	AnnotatorNotes T1	%
+#8	AnnotatorNotes T2	%
+#9	AnnotatorNotes T27	ppt
+#10	AnnotatorNotes T28	times

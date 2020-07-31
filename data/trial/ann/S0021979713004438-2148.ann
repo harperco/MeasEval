@@ -1,0 +1,40 @@
+T1	Quantity 193 199	15 min
+T2	MeasuredEntity 200 215	Mefp-1 spectrum
+T3	Quantity 132 137	10 μM
+T4	MeasuredEntity 138 143	FeCl3
+R1	HasQuantity Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T5	Quantity 888 897	1540 cm−1
+T6	Quantity 952 961	1550 cm−1
+T7	Quantity 966 975	1536 cm−1
+T8	MeasuredProperty 898 902	peak
+T9	MeasuredProperty 943 948	peaks
+R3	HasQuantity Arg1:T8 Arg2:T5	
+R4	HasQuantity Arg1:T9 Arg2:T6	
+R5	HasQuantity Arg1:T9 Arg2:T7	
+T10	Quantity 1049 1058	1540 cm−1
+T11	MeasuredProperty 1059 1063	peak
+R6	HasQuantity Arg1:T11 Arg2:T10	
+T12	MeasuredProperty 1450 1455	peaks
+T13	Quantity 1460 1469	1485 cm−1
+T14	Quantity 1474 1483	1260 cm−1
+R7	HasQuantity Arg1:T12 Arg2:T13	
+R8	HasQuantity Arg1:T12 Arg2:T14	
+T15	MeasuredProperty 1815 1823	shoulder
+T16	Quantity 1827 1836	1423 cm−1
+R9	HasQuantity Arg1:T15 Arg2:T16	
+T17	MeasuredEntity 17 41	in situ ATR-FTIR spectra
+R10	HasProperty Arg1:T17 Arg2:T8	
+R11	HasProperty Arg1:T17 Arg2:T9	
+R12	HasProperty Arg1:T17 Arg2:T11	
+R13	HasProperty Arg1:T17 Arg2:T12	
+R14	HasProperty Arg1:T17 Arg2:T15	
+#1	AnnotatorNotes T3	μM
+#2	AnnotatorNotes T1	min
+#3	AnnotatorNotes T5	cm−1
+#4	AnnotatorNotes T6	cm−1
+#5	AnnotatorNotes T7	cm−1
+#6	AnnotatorNotes T10	cm−1
+#7	AnnotatorNotes T13	cm−1
+#8	AnnotatorNotes T14	cm−1
+#9	AnnotatorNotes T16	cm−1

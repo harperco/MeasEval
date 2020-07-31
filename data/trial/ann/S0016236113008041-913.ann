@@ -1,0 +1,16 @@
+T1	Quantity 116 124	2000 ppm
+T2	Quantity 96 101	0 ppm
+T3	Quantity 103 111	1000 ppm
+T4	Quantity 147 152	13 kg
+T5	MeasuredProperty 153 158	CaCO3
+T6	MeasuredEntity 130 143	bed inventory
+R1	HasProperty Arg1:T6 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T4	
+T7	MeasuredProperty 74 92	SO2 concentrations
+R3	HasQuantity Arg1:T7 Arg2:T2	
+R4	HasQuantity Arg1:T7 Arg2:T3	
+R5	HasQuantity Arg1:T7 Arg2:T1	
+#1	AnnotatorNotes T2	ppm
+#2	AnnotatorNotes T3	ppm
+#3	AnnotatorNotes T1	ppm
+#4	AnnotatorNotes T4	kg

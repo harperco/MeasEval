@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3299	1	Quantity	1088	1091	T1	50%	{unit: %}
+S0019103512003533-3299	1	MeasuredProperty	1064	1084	T2	heating efficiencies	{HasQuantity: T1}
+S0019103512003533-3299	1	MeasuredEntity	761	778	T3	Solar EUV heating	{HasProperty: T2}

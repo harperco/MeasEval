@@ -1,0 +1,65 @@
+T2	Quantity 339 345	9 ± 6%
+T3	Quantity 259 266	27 days
+T5	Quantity 493 504	∼10–11 days
+T6	Quantity 649 666	approximately 2 h
+A1	QuantityQualifier T2 IsMeanHasTolerance
+T7	Quantity 112 127	four and a half
+T8	MeasuredEntity 128 140	solar cycles
+T9	Qualifier 141 162	between 1947 and 1999
+T10	Quantity 149 162	1947 and 1999
+A2	QuantityQualifier T10 IsRange
+R1	Qualifies Arg1:T9 Arg2:T8	
+R2	HasQuantity Arg1:T8 Arg2:T7	
+T12	MeasuredEntity 53 70	Lyman α emissions
+T11	MeasuredProperty 184 195	variability
+T1	Quantity 211 221	1% and 37%
+A3	QuantityQualifier T1 IsRange
+R4	HasQuantity Arg1:T11 Arg2:T1	
+T4	Qualifier 222 257	during one period of solar rotation
+T13	Quantity 229 232	one
+T14	MeasuredEntity 233 257	period of solar rotation
+T17	MeasuredProperty 285 296	variability
+T18	Qualifier 297 322	during one solar rotation
+T19	Quantity 304 307	one
+T20	MeasuredProperty 308 322	solar rotation
+#1	AnnotatorNotes T20	Period
+R9	HasQuantity Arg1:T20 Arg2:T19	
+R10	Qualifies Arg1:T18 Arg2:T17	
+R11	HasQuantity Arg1:T17 Arg2:T2	
+T22	MeasuredProperty 446 461	rotation period
+A5	QuantityQualifier T5 IsRange
+R12	HasQuantity Arg1:T22 Arg2:T5	
+T26	Quantity 597 622	within a month and a half
+A7	QuantityQualifier T26 IsRange
+T29	MeasuredEntity 530 548	G140M observations
+T24	Quantity 557 562	three
+T25	MeasuredProperty 670 674	time
+T30	MeasuredEntity 629 640	observation
+R16	HasProperty Arg1:T30 Arg2:T25	
+R17	HasQuantity Arg1:T25 Arg2:T6	
+#2	AnnotatorNotes T10	Unspecified
+R18	HasProperty Arg1:T12 Arg2:T11	
+#3	AnnotatorNotes T1	%
+A9	IsCount T7
+#4	AnnotatorNotes T3	days
+R3	HasQuantity Arg1:T14 Arg2:T3	
+R5	HasQuantity Arg1:T14 Arg2:T13	
+R6	Qualifies Arg1:T4 Arg2:T1	
+T15	Qualifier 277 284	average
+A4	IsCount T13
+R7	Qualifies Arg1:T15 Arg2:T2	
+A10	IsCount T19
+#5	AnnotatorNotes T2	%
+T16	MeasuredEntity 465 473	HD209458
+R8	HasProperty Arg1:T16 Arg2:T22	
+A6	IsApproximate T5
+A11	IsCount T24
+T21	MeasuredEntity 573 581	transits
+R13	HasQuantity Arg1:T21 Arg2:T24	
+T23	MeasuredProperty 586 596	took place
+R14	HasProperty Arg1:T29 Arg2:T23	
+R15	HasQuantity Arg1:T23 Arg2:T26	
+A8	IsApproximate T6
+#6	AnnotatorNotes T6	h
+#7	AnnotatorNotes T26	month
+#8	AnnotatorNotes T5	days

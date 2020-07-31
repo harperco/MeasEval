@@ -1,0 +1,24 @@
+T1	Quantity 340 346	1000 K
+T2	MeasuredProperty 325 336	temperature
+T3	MeasuredProperty 292 306	lower boundary
+T4	Quantity 310 317	30 nbar
+T5	MeasuredEntity 255 260	model
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T4	
+R3	HasProperty Arg1:T5 Arg2:T2	
+R4	HasQuantity Arg1:T2 Arg2:T1	
+T7	MeasuredEntity 656 669	single photon
+T8	MeasuredProperty 670 676	energy
+R5	HasProperty Arg1:T7 Arg2:T8	
+T9	Quantity 680 685	20 eV
+R6	HasQuantity Arg1:T8 Arg2:T9	
+T10	Quantity 710 720	0.45 W m−2
+T11	MeasuredEntity 694 706	stellar flux
+R7	HasQuantity Arg1:T11 Arg2:T10	
+T6	Qualifier 721 757	at the orbital position of HD209458b
+R8	Qualifies Arg1:T6 Arg2:T10	
+#1	AnnotatorNotes T7	Or are these additional properties of the model?
+#2	AnnotatorNotes T4	nbar
+#3	AnnotatorNotes T1	K
+#4	AnnotatorNotes T9	eV
+#5	AnnotatorNotes T10	W m−2

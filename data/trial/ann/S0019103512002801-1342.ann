@@ -1,0 +1,23 @@
+T1	Quantity 50 56	764 km
+T3	Quantity 43 47	1RRh
+T4	Quantity 139 145	8.74Rs
+T5	Quantity 163 166	1Rs
+T6	Quantity 169 178	60,268 km
+T7	MeasuredEntity 0 4	Rhea
+T8	MeasuredProperty 35 41	radius
+R1	HasProperty Arg1:T7 Arg2:T8	
+R2	HasQuantity Arg1:T8 Arg2:T3	
+R3	HasQuantity Arg1:T8 Arg2:T1	
+T9	MeasuredProperty 121 129	distance
+R4	HasQuantity Arg1:T9 Arg2:T4	
+T2	Qualifier 162 179	(1Rs = 60,268 km)
+R5	Qualifies Arg1:T2 Arg2:T4	
+T10	MeasuredEntity 101 115	circular orbit
+R6	HasProperty Arg1:T10 Arg2:T9	
+#1	AnnotatorNotes T3	RRh
+#2	AnnotatorNotes T1	km
+#3	AnnotatorNotes T5	Rs
+#4	AnnotatorNotes T6	km
+#5	AnnotatorNotes T4	Rs
+T11	Qualifier 147 161	rom its center
+R7	Qualifies Arg1:T11 Arg2:T4	

@@ -1,0 +1,17 @@
+T1	Quantity 141 147	∼5.7 s
+T2	MeasuredProperty 111 139	rate channel time resolution
+T4	MeasuredEntity 8 25	channels of LEMMS
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T5	Quantity 53 66	sixteen times
+T8	MeasuredProperty 74 93	temporal resolution
+R4	HasQuantity Arg1:T8 Arg2:T5	
+R5	HasProperty Arg1:T4 Arg2:T2	
+T6	MeasuredEntity 167 184	priority channels
+R1	HasProperty Arg1:T6 Arg2:T8	
+T7	Qualifier 67 73	higher
+R6	Qualifies Arg1:T7 Arg2:T5	
+T9	Qualifier 94 139	than the typical rate channel time resolution
+R7	Qualifies Arg1:T9 Arg2:T8	
+#1	AnnotatorNotes T5	times
+A1	IsApproximate T1
+#2	AnnotatorNotes T1	s

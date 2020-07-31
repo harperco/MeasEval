@@ -1,0 +1,1 @@
+All products were initially characterised by PXD. Data were collected using a Philips X-pert diffractometer operating with CuKα radiation. Initial scans were carried out from 5≤2θ/°≤80 with a step size of 0.02° and a scan time of 50 min. Due to the air-sensitive nature of the products, a dedicated air-tight aluminium sample holder with Mylar windows was employed [24].

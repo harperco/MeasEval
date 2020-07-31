@@ -1,0 +1,11 @@
+T1	Quantity 111 123	above 2618 m
+T2	Quantity 76 88	from 103 yrs
+T4	MeasuredProperty 89 95	before
+R1	HasQuantity Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+#1	AnnotatorNotes T2	yrs
+T3	MeasuredEntity 100 109	CIE onset
+R3	HasProperty Arg1:T3 Arg2:T4	
+A1	QuantityQualifier T1 IsRange
+#2	AnnotatorNotes T1	m
+A2	QuantityQualifier T2 IsRange

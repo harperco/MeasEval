@@ -1,0 +1,10 @@
+T1	Quantity 125 135	55–74 year
+T2	Quantity 111 121	around 40%
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 146 166	hearing difficulties
+R2	HasQuantity Arg1:T3 Arg2:T2	
+T4	MeasuredEntity 125 140	55–74 year olds
+R1	HasProperty Arg1:T4 Arg2:T3	
+A1	IsApproximate T2
+#1	AnnotatorNotes T2	%
+#2	AnnotatorNotes T1	year

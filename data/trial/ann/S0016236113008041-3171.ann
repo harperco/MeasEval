@@ -1,0 +1,54 @@
+T2	Quantity 358 363	13 kg
+T3	Quantity 283 289	4.5 kg
+T4	Quantity 493 499	<1 ppm
+T5	Quantity 669 673	6 kg
+T7	Quantity 677 682	13 kg
+T8	Quantity 626 630	6 kg
+T10	Quantity 325 327	22
+T13	MeasuredEntity 266 279	bed inventory
+R2	HasQuantity Arg1:T13 Arg2:T3	
+A1	QuantityQualifier T10 IsList
+T1	Qualifier 354 363	for 13 kg
+R3	Qualifies Arg1:T1 Arg2:T10	
+T6	Quantity 636 642	4.5 kg
+T21	Quantity 731 739	<0.1 ppm
+A3	QuantityQualifier T21 IsRange
+T15	MeasuredEntity 688 701	minor element
+T20	MeasuredProperty 702 725	flue gas concentrations
+R6	HasProperty Arg1:T15 Arg2:T20	
+R9	HasQuantity Arg1:T20 Arg2:T21	
+T22	Qualifier 17 31	concentrations
+T23	MeasuredEntity 57 70	solid sorbent
+R1	HasQuantity Arg1:T13 Arg2:T2	
+T25	Quantity 332 340	0.22 ppm
+T14	MeasuredProperty 189 191	Cu
+T24	MeasuredProperty 196 198	Sn
+T26	Qualifier 337 340	ppm
+R4	Qualifies Arg1:T26 Arg2:T10	
+#2	AnnotatorNotes T2	kg
+R11	Qualifies Arg1:T1 Arg2:T25	
+R14	HasQuantity Arg1:T24 Arg2:T25	
+R15	HasQuantity Arg1:T14 Arg2:T10	
+R16	HasProperty Arg1:T23 Arg2:T24	
+R17	HasProperty Arg1:T23 Arg2:T14	
+R18	Qualifies Arg1:T22 Arg2:T14	
+R19	Qualifies Arg1:T22 Arg2:T24	
+A4	QuantityQualifier T4 IsRange
+T12	MeasuredProperty 380 392	Gd, Dy and U
+T27	Qualifier 413 426	concentration
+R5	Qualifies Arg1:T27 Arg2:T12	
+R20	HasProperty Arg1:T23 Arg2:T12	
+R21	HasQuantity Arg1:T12 Arg2:T4	
+#1	AnnotatorNotes T25	ppm
+#3	AnnotatorNotes T4	ppm
+#4	AnnotatorNotes T21	ppm
+#5	AnnotatorNotes T8	kg
+#6	AnnotatorNotes T6	kg
+#7	AnnotatorNotes T5	kg
+#8	AnnotatorNotes T7	kg
+R7	HasQuantity Arg1:T13 Arg2:T6	
+R8	HasQuantity Arg1:T13 Arg2:T8	
+R10	HasQuantity Arg1:T13 Arg2:T5	
+R12	HasQuantity Arg1:T13 Arg2:T7	
+#9	AnnotatorNotes T3	kg
+#10	AnnotatorNotes T10	ppm

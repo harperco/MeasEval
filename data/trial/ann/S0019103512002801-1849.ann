@@ -1,0 +1,13 @@
+T1	Quantity 127 129	1%
+T2	MeasuredProperty 130 142	level of Erk
+T3	Quantity 34 37	350
+T4	MeasuredEntity 38 47	electrons
+R1	HasQuantity Arg1:T4 Arg2:T3	
+T5	MeasuredEntity 110 119	electrons
+R2	HasProperty Arg1:T5 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+T6	Quantity 144 149	1 keV
+R4	HasQuantity Arg1:T2 Arg2:T6	
+A1	IsCount T3
+#1	AnnotatorNotes T1	%
+#2	AnnotatorNotes T6	keV

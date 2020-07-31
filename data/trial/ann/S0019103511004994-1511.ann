@@ -1,0 +1,62 @@
+T1	Quantity 978 993	86 s, nominally
+T2	Quantity 1748 1754	5.65 s
+T3	Quantity 1825 1829	86 s
+T4	Quantity 1781 1787	0.66 s
+T5	Quantity 313 357	between about 20 keV and several tens of MeV
+T7	MeasuredProperty 300 312	energy range
+R1	HasQuantity Arg1:T7 Arg2:T5	
+T8	MeasuredEntity 255 267	charged ions
+T9	MeasuredEntity 272 281	electrons
+R3	HasProperty Arg1:T9 Arg2:T7	
+R4	HasProperty Arg1:T8 Arg2:T7	
+T10	MeasuredEntity 903 920	movable turntable
+T11	MeasuredProperty 927 977	rotates about the −y-axis of the spacecraft within
+R5	HasProperty Arg1:T10 Arg2:T11	
+R6	HasQuantity Arg1:T11 Arg2:T1	
+T12	MeasuredEntity 1499 1519	low-energy telescope
+T13	MeasuredProperty 1520 1538	points at an angle
+T14	Quantity 1542 1548	77.45°
+R7	HasProperty Arg1:T12 Arg2:T13	
+R8	HasQuantity Arg1:T13 Arg2:T14	
+T15	MeasuredProperty 1662 1695	time resolution of the instrument
+T16	Quantity 1705 1713	16 times
+T17	MeasuredEntity 1764 1777	rate channels
+T18	MeasuredEntity 1796 1813	priority channels
+T19	Qualifier 1733 1746	rotating mode
+T20	Qualifier 1637 1654	non-rotating mode
+A1	IsApproximate T5
+A2	QuantityQualifier T5 IsRange
+#1	AnnotatorNotes T5	keV / MeV
+T6	MeasuredEntity 619 628	detectors
+T21	Quantity 605 608	two
+A4	IsCount T21
+R2	HasQuantity Arg1:T6 Arg2:T21	
+T22	MeasuredEntity 718 727	detectors
+T23	Quantity 713 717	five
+A5	IsCount T23
+R18	HasQuantity Arg1:T22 Arg2:T23	
+A3	IsApproximate T1
+T24	Qualifier 1549 1600	away from the −z direction towards the −x-direction
+R19	Qualifies Arg1:T24 Arg2:T13	
+#2	AnnotatorNotes T14	°
+R10	HasProperty Arg1:T17 Arg2:T15	
+T25	MeasuredEntity 1834 1862	a given pointing/pitch angle
+#3	AnnotatorNotes T3	s
+#4	AnnotatorNotes T4	s
+#5	AnnotatorNotes T2	s
+T26	Qualifier 1714 1746	better than in the rotating mode
+R13	Qualifies Arg1:T20 Arg2:T3	
+R15	Qualifies Arg1:T19 Arg2:T2	
+T27	MeasuredProperty 1662 1695	time resolution of the instrument
+T28	MeasuredProperty 1662 1695	time resolution of the instrument
+R11	HasProperty Arg1:T25 Arg2:T27	
+R16	HasQuantity Arg1:T27 Arg2:T16	
+R17	Qualifies Arg1:T26 Arg2:T16	
+R12	Qualifies Arg1:T20 Arg2:T16	
+R20	HasQuantity Arg1:T27 Arg2:T3	
+R9	HasQuantity Arg1:T15 Arg2:T2	
+R14	HasProperty Arg1:T18 Arg2:T28	
+R21	HasQuantity Arg1:T28 Arg2:T4	
+R22	Qualifies Arg1:T19 Arg2:T4	
+#6	AnnotatorNotes T1	s
+#7	AnnotatorNotes T16	times

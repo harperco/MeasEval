@@ -1,0 +1,12 @@
+T1	Quantity 97 105	1 g cm−3
+T2	Quantity 132 141	1.5–2.6 m
+T3	MeasuredProperty 81 93	soil density
+T4	MeasuredProperty 142 147	depth
+T5	MeasuredEntity 27 36	Mars soil
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	HasProperty Arg1:T5 Arg2:T4	
+R4	HasQuantity Arg1:T4 Arg2:T2	
+#1	AnnotatorNotes T1	g cm−3
+A1	QuantityQualifier T2 IsRange
+#2	AnnotatorNotes T2	m

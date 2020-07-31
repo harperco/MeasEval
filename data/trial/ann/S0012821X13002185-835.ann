@@ -1,0 +1,6 @@
+T1	Quantity 160 165	100 m
+T2	MeasuredEntity 173 185	water column
+#1	AnnotatorNotes T1	m
+T3	Qualifier 156 159	top
+R1	Qualifies Arg1:T3 Arg2:T1	
+R2	HasQuantity Arg1:T2 Arg2:T1	

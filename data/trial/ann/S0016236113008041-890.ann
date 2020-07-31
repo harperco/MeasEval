@@ -1,0 +1,7 @@
+T3	Quantity 97 119	4.5 kg, 6 kg and 13 kg
+T4	MeasuredEntity 78 93	bed inventories
+T5	MeasuredProperty 120 125	CaCO3
+R1	HasProperty Arg1:T4 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T3	
+A1	QuantityQualifier T3 IsList
+#1	AnnotatorNotes T3	kg

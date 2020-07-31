@@ -1,0 +1,22 @@
+T1	Quantity 354 357	10%
+T2	Quantity 469 484	500 nm × 500 nm
+T4	Quantity 454 461	3.91 nm
+T5	Quantity 153 158	10 μM
+T7	MeasuredEntity 159 164	FeCl3
+T8	Quantity 290 296	pH 7–8
+A1	QuantityQualifier T8 IsRange
+T9	MeasuredEntity 278 286	solution
+R4	HasQuantity Arg1:T9 Arg2:T8	
+T12	MeasuredEntity 358 362	NaOH
+T13	MeasuredProperty 442 450	Rq value
+R7	HasQuantity Arg1:T13 Arg2:T4	
+T15	Qualifier 462 497	over a 500 nm × 500 nm scanned area
+R1	HasQuantity Arg1:T7 Arg2:T5	
+#1	AnnotatorNotes T5	μM
+#2	AnnotatorNotes T8	pH
+R2	HasQuantity Arg1:T12 Arg2:T1	
+#3	AnnotatorNotes T1	%
+#4	AnnotatorNotes T4	nm
+T3	MeasuredEntity 485 497	scanned area
+R3	HasQuantity Arg1:T3 Arg2:T2	
+#5	AnnotatorNotes T2	nm x nm

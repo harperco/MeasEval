@@ -1,0 +1,14 @@
+T1	Quantity 318 325	>100 μm
+T2	MeasuredEntity 326 334	fraction
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Quantity 400 418	between 50 and 100
+A1	QuantityQualifier T3 IsRange
+T4	MeasuredEntity 419 427	spicules
+R2	HasQuantity Arg1:T4 Arg2:T3	
+A2	QuantityQualifier T1 IsRange
+#1	AnnotatorNotes T1	μm
+A3	IsCount T3
+T5	Quantity 705 711	200 μL
+#2	AnnotatorNotes T5	μL
+T6	MeasuredEntity 715 732	concentrated HNO3
+R3	HasQuantity Arg1:T6 Arg2:T5	

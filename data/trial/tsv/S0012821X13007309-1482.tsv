@@ -1,0 +1,22 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1482	1	Quantity	92	98	T1	17.7 m	{unit: m}
+S0012821X13007309-1482	1	MeasuredProperty	99	104	T2	thick	{HasQuantity: T1}
+S0012821X13007309-1482	2	Quantity	144	149	T5	∼12 m	{mods: [IsApproximate], unit: m}
+S0012821X13007309-1482	2	MeasuredEntity	120	142	T4	Bridge Creek Limestone	{HasQuantity: T5}
+S0012821X13007309-1482	3	Quantity	171	178	T7	∼12.6 m	{mods: [IsApproximate], unit: m}
+S0012821X13007309-1482	3	MeasuredEntity	155	169	T6	Hartland Shale	{HasQuantity: T7}
+S0012821X13007309-1482	4	Quantity	422	426	T8	four	{mods: [IsCount], unit: count}
+S0012821X13007309-1482	4	MeasuredEntity	427	442	T9	bentonite units	{HasQuantity: T8}
+S0012821X13007309-1482	5	Quantity	446	456	T10	1 to 20 cm	{mods: [IsRange], unit: cm}
+S0012821X13007309-1482	5	MeasuredEntity	427	442	T9	bentonite units	{HasQuantity: T10}
+S0012821X13007309-1482	6	Quantity	624	637	T12	93.90±0.15 Ma	{mods: [HasTolerance], unit: Ma}
+S0012821X13007309-1482	7	Quantity	1134	1135	T13	F	{mods: [IsCount], unit: count}
+S0012821X13007309-1482	7	MeasuredProperty	1135	1136	T14	O	{HasQuantity: T13}
+S0012821X13007309-1482	7	MeasuredEntity	1163	1193	T17	ammonite Watinoceras devonense	{HasProperty: T14}
+S0012821X13007309-1482	8	Quantity	1138	1143	T15	first	{mods: [IsCount], unit: count}
+S0012821X13007309-1482	9	Quantity	1388	1389	T18	F	{mods: [IsCount], unit: count}
+S0012821X13007309-1482	9	MeasuredProperty	1389	1390	T19	O	{HasQuantity: T18}
+S0012821X13007309-1482	9	MeasuredEntity	1394	1406	T20	W. devonense	{HasProperty: T19}
+S0012821X13007309-1482	10	Quantity	1426	1427	T21	F	{mods: [IsCount], unit: count}
+S0012821X13007309-1482	10	MeasuredProperty	1427	1428	T22	O	{HasQuantity: T21}
+S0012821X13007309-1482	10	MeasuredEntity	1432	1454	T23	Mytiloides puebloensis	{HasProperty: T22}

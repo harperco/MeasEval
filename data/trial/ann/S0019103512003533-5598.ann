@@ -1,0 +1,28 @@
+T1	Quantity 988 993	430 K
+T2	Quantity 884 889	490 K
+T3	Quantity 1014 1018	60 K
+T4	MeasuredProperty 804 827	exospheric temperatures
+T5	Quantity 842 854	74°S to 90°S
+A1	QuantityQualifier T5 IsRange
+T6	MeasuredEntity 856 879	the summer polar region
+R1	HasQuantity Arg1:T6 Arg2:T5	
+T7	Qualifier 842 880	74°S to 90°S (the summer polar region)
+T8	Qualifier 828 836	averaged
+A2	QuantityQualifier T2 IsMean
+T9	Qualifier 897 906	averaging
+R3	Qualifies Arg1:T7 Arg2:T2	
+T10	Qualifier 907 970	over the same latitude band in the northern (winter) hemisphere
+R4	HasQuantity Arg1:T4 Arg2:T2	
+R5	HasQuantity Arg1:T4 Arg2:T1	
+T11	MeasuredEntity 1000 1010	difference
+R7	HasQuantity Arg1:T11 Arg2:T3	
+R8	Qualifies Arg1:T10 Arg2:T1	
+R9	Qualifies Arg1:T9 Arg2:T1	
+A3	QuantityQualifier T1 IsMean
+R2	Qualifies Arg1:T8 Arg2:T2	
+T12	MeasuredEntity 36 61	Saturn’s upper atmosphere
+R10	HasProperty Arg1:T12 Arg2:T4	
+#1	AnnotatorNotes T5	°S
+#2	AnnotatorNotes T2	K
+#3	AnnotatorNotes T1	K
+#4	AnnotatorNotes T3	K

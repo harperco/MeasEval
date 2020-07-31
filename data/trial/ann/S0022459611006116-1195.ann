@@ -1,0 +1,15 @@
+T1	Quantity 230 236	50 min
+T2	MeasuredProperty 217 226	scan time
+T3	MeasuredProperty 192 201	step size
+T4	Quantity 205 210	0.02°
+T5	MeasuredEntity 139 152	Initial scans
+T6	Quantity 175 184	5≤2θ/°≤80
+A1	QuantityQualifier T6 IsRange
+R1	HasQuantity Arg1:T5 Arg2:T6	
+R2	HasProperty Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T4	
+R4	HasProperty Arg1:T5 Arg2:T2	
+R5	HasQuantity Arg1:T2 Arg2:T1	
+#1	AnnotatorNotes T6	Unspecified
+#2	AnnotatorNotes T4	°
+#3	AnnotatorNotes T1	min

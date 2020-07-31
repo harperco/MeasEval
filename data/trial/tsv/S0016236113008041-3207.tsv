@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3207	1	Quantity	131	137	T1	90–95%	{mods: [IsRange], unit: %}
+S0016236113008041-3207	1	MeasuredProperty	78	119	T2	Substitution via cation exchange for Ca2+	{HasQuantity: T1}
+S0016236113008041-3207	1	MeasuredEntity	141	149	T4	elements	{HasProperty: T2}

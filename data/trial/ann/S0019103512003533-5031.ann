@@ -1,0 +1,31 @@
+T3	Quantity 265 275	420 ± 30 K
+T4	Quantity 376 386	488 ± 14 K
+T5	Quantity 512 533	of the order of 450 K
+T1	Quantity 129 141	around 450 K
+T2	Quantity 159 171	around 180 K
+T6	MeasuredEntity 91 114	exospheric temperatures
+R1	HasQuantity Arg1:T6 Arg2:T1	
+R2	HasQuantity Arg1:T6 Arg2:T2	
+T7	Qualifier 142 155	near the pole
+T8	Qualifier 172 188	near the equator
+R3	Qualifies Arg1:T8 Arg2:T2	
+R4	Qualifies Arg1:T7 Arg2:T1	
+T9	Qualifier 276 287	near 29.5°N
+T10	MeasuredEntity 239 261	exospheric temperature
+R5	HasQuantity Arg1:T10 Arg2:T3	
+R6	Qualifies Arg1:T9 Arg2:T3	
+R7	HasQuantity Arg1:T10 Arg2:T4	
+T11	MeasuredEntity 451 495	low and mid-latitude exospheric temperatures
+R8	HasQuantity Arg1:T11 Arg2:T5	
+A1	IsApproximate T1
+#1	AnnotatorNotes T1	K
+A2	IsApproximate T2
+#2	AnnotatorNotes T2	K
+A3	QuantityQualifier T3 HasTolerance
+#3	AnnotatorNotes T3	K
+T12	Quantity 281 287	29.5°N
+#4	AnnotatorNotes T12	°N
+A4	QuantityQualifier T4 HasTolerance
+A5	IsApproximate T5
+#5	AnnotatorNotes T4	K
+#6	AnnotatorNotes T5	K

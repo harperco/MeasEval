@@ -1,0 +1,24 @@
+T1	Quantity 588 637	2619.60, 2617.35, 2617.44, 2614.73, and 2614.71 m
+T2	Quantity 769 800	2619.60, 2614.73, and 2614.71 m
+T9	Quantity 553 557	Five
+T10	MeasuredEntity 558 565	samples
+T11	MeasuredEntity 760 767	samples
+R7	HasQuantity Arg1:T11 Arg2:T2	
+T13	Quantity 1493 1512	2619.60 and 2614.71
+T14	MeasuredEntity 1485 1492	samples
+R10	HasQuantity Arg1:T14 Arg2:T13	
+#5	AnnotatorNotes T10	Property for the quantities is probably 'depth'
+A1	IsCount T9
+R11	HasQuantity Arg1:T10 Arg2:T9	
+T15	Qualifier 571 584	below the CIE
+A2	QuantityQualifier T1 IsList
+#1	AnnotatorNotes T1	m
+R1	Qualifies Arg1:T15 Arg2:T1	
+R2	HasQuantity Arg1:T10 Arg2:T1	
+A3	QuantityQualifier T2 IsList
+#2	AnnotatorNotes T2	m
+T3	Quantity 1481 1484	two
+A4	IsCount T3
+R3	HasQuantity Arg1:T14 Arg2:T3	
+A5	QuantityQualifier T13 IsList
+#3	AnnotatorNotes T13	Unspecified

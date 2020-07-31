@@ -1,0 +1,23 @@
+T1	Quantity 323 331	589.3 nm
+T2	Quantity 753 763	300–800 nm
+T3	MeasuredProperty 332 341	resonance
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 318 322	Na D
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	MeasuredProperty 738 749	wavelengths
+A1	QuantityQualifier T2 IsRange
+T6	MeasuredEntity 700 734	transmission spectrum of HD209458b
+R3	HasProperty Arg1:T6 Arg2:T5	
+R4	HasQuantity Arg1:T5 Arg2:T2	
+T8	Quantity 846 852	3 mbar
+#2	AnnotatorNotes T1	nm
+T11	MeasuredEntity 426 434	transits
+T12	Quantity 421 425	four
+A2	IsCount T12
+R7	HasQuantity Arg1:T11 Arg2:T12	
+#3	AnnotatorNotes T2	nm
+T7	Qualifier 813 823	atmosphere
+T9	MeasuredEntity 853 858	level
+R5	Qualifies Arg1:T7 Arg2:T9	
+R6	HasQuantity Arg1:T9 Arg2:T8	
+#1	AnnotatorNotes T8	mbar

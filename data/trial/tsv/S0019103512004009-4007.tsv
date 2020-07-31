@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4007	1	Quantity	776	779	T1	93%	{unit: %}
+S0019103512004009-4007	1	MeasuredProperty	731	772	T2	constant photoelectron heating efficiency	{HasQuantity: T1}
+S0019103512004009-4007	1	MeasuredEntity	712	720	T9	Model C1	{HasProperty: T2}
+S0019103512004009-4007	1	Qualifier	780	823	T3	at all altitudes and photoelectron energies	{Qualifies: T1}
+S0019103512004009-4007	2	Quantity	894	899	T4	50 eV	{unit: eV}
+S0019103512004009-4007	2	MeasuredEntity	900	907	T5	photons	{HasQuantity: T4}
+S0019103512004009-4007	2	Qualifier	908	947	T6	at an electron mixing ratio of xe = 0.1	{Qualifies: T5}
+S0019103512004009-4007	3	Quantity	944	947	T8	0.1	{unit: Unspecified}
+S0019103512004009-4007	3	MeasuredEntity	914	941	T7	electron mixing ratio of xe	{HasQuantity: T8}

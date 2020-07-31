@@ -1,0 +1,52 @@
+T2	Quantity 212 220	0.74 ppm
+T3	Qualifier 248 253	13 kg
+T5	Quantity 196 200	0.06
+T6	Quantity 204 208	0.42
+T7	Quantity 237 240	4.5
+T8	Quantity 242 243	6
+T9	MeasuredProperty 94 108	concentrations
+T10	MeasuredEntity 67 79	Rb, Nb and W
+R1	HasProperty Arg1:T10 Arg2:T9	
+T1	Quantity 109 129	greater than 0.1 ppm
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T9 Arg2:T1	
+T4	Quantity 343 351	<0.1 ppm
+A2	QuantityQualifier T4 IsRange
+T11	MeasuredEntity 131 132	W
+T12	MeasuredProperty 166 179	concentration
+R4	HasQuantity Arg1:T12 Arg2:T5	
+R5	HasQuantity Arg1:T12 Arg2:T6	
+R6	HasQuantity Arg1:T12 Arg2:T2	
+T14	MeasuredEntity 272 285	trace element
+T15	MeasuredProperty 286 309	flue gas concentrations
+R8	HasProperty Arg1:T14 Arg2:T15	
+R9	HasQuantity Arg1:T15 Arg2:T4	
+#1	AnnotatorNotes T1	ppm
+R3	HasProperty Arg1:T11 Arg2:T12	
+T16	Qualifier 217 220	ppm
+R10	Qualifies Arg1:T16 Arg2:T6	
+R11	Qualifies Arg1:T16 Arg2:T5	
+#2	AnnotatorNotes T5	ppm
+#3	AnnotatorNotes T6	ppm
+T13	MeasuredEntity 225 236	inventories
+R7	HasQuantity Arg1:T13 Arg2:T7	
+T17	Qualifier 251 253	kg
+R12	Qualifies Arg1:T17 Arg2:T7	
+R13	Qualifies Arg1:T17 Arg2:T8	
+#5	AnnotatorNotes T8	kg
+#6	AnnotatorNotes T7	kg
+T18	Qualifier 237 240	4.5
+T19	Qualifier 242 243	6
+T20	Quantity 248 253	13 kg
+#7	AnnotatorNotes T20	kg
+R14	Qualifies Arg1:T3 Arg2:T2	
+R15	Qualifies Arg1:T19 Arg2:T6	
+R16	Qualifies Arg1:T18 Arg2:T5	
+T21	Qualifier 225 236	inventories
+R17	Qualifies Arg1:T21 Arg2:T18	
+R18	Qualifies Arg1:T21 Arg2:T19	
+R19	Qualifies Arg1:T21 Arg2:T3	
+R20	Qualifies Arg1:T17 Arg2:T19	
+R21	Qualifies Arg1:T17 Arg2:T18	
+#4	AnnotatorNotes T2	ppm
+#8	AnnotatorNotes T4	ppm

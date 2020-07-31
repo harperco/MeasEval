@@ -1,0 +1,35 @@
+T3	MeasuredEntity 285 295	ice volume
+T1	Quantity 296 316	between 60% and 100%
+A1	QuantityQualifier T1 IsRange
+T2	Quantity 147 155	∼33.7 Ma
+A2	IsApproximate T2
+T5	Quantity 363 370	∼400 ka
+A3	IsApproximate T5
+T6	MeasuredEntity 141 144	Oi1
+R3	HasQuantity Arg1:T6 Arg2:T2	
+T4	MeasuredEntity 208 211	Oi1
+T7	MeasuredProperty 325 352	present today on Antarctica
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T8	MeasuredProperty 267 295	emplacement of an ice volume
+R5	HasQuantity Arg1:T8 Arg2:T5	
+R6	HasProperty Arg1:T4 Arg2:T8	
+R1	HasProperty Arg1:T3 Arg2:T7	
+R4	HasQuantity Arg1:T7 Arg2:T1	
+T9	Qualifier 208 211	Oi1
+R7	Qualifies Arg1:T9 Arg2:T3	
+#1	AnnotatorNotes T2	Ma
+#2	AnnotatorNotes T1	%
+#3	AnnotatorNotes T5	ka
+T10	Quantity 390 402	million-year
+T11	MeasuredEntity 403 412	timescale
+R8	HasQuantity Arg1:T11 Arg2:T10	
+T12	MeasuredEntity 851 858	decline
+T13	MeasuredProperty 864 869	began
+T14	Quantity 870 875	∼2 Ma
+A4	IsApproximate T14
+#4	AnnotatorNotes T14	Ma
+T15	Qualifier 876 948	prior to geological and stable isotope evidence for Antarctic glaciation
+R9	Qualifies Arg1:T15 Arg2:T14	
+R10	HasProperty Arg1:T12 Arg2:T13	
+R11	HasQuantity Arg1:T13 Arg2:T14	
+#5	AnnotatorNotes T10	year

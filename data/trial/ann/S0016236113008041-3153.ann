@@ -1,0 +1,11 @@
+T1	Quantity 256 261	13 kg
+T2	Quantity 383 389	<2 ppm
+T3	MeasuredEntity 239 252	bed inventory
+T4	MeasuredProperty 365 379	concentrations
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T6	MeasuredEntity 297 305	elements
+R2	HasProperty Arg1:T6 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T2	
+A1	QuantityQualifier T2 IsRange
+#1	AnnotatorNotes T1	kg
+#2	AnnotatorNotes T2	ppm

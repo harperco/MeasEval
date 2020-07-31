@@ -1,0 +1,48 @@
+T1	MeasuredProperty 0 26	High latitude temperatures
+T2	MeasuredEntity 30 55	Saturn’s upper atmosphere
+R1	HasProperty Arg1:T2 Arg2:T1	
+T3	Quantity 92 104	below ∼460 K
+#1	AnnotatorNotes T3	K
+A1	IsApproximate T3
+A2	QuantityQualifier T3 IsRange
+R2	HasQuantity Arg1:T1 Arg2:T3	
+T4	MeasuredProperty 406 427	inferred temperatures
+T5	MeasuredEntity 448 460	auroral oval
+R3	HasProperty Arg1:T5 Arg2:T4	
+T6	Quantity 464 474	440 ± 50 K
+A3	QuantityQualifier T6 HasTolerance
+#2	AnnotatorNotes T6	K
+R4	HasQuantity Arg1:T4 Arg2:T6	
+T7	MeasuredProperty 488 500	temperatures
+T8	MeasuredEntity 504 525	Saturn’s auroral oval
+T9	Quantity 529 545	(563–624) ± 30 K
+A4	QuantityQualifier T9 IsRangeHasTolerance
+#3	AnnotatorNotes T9	K
+R5	HasProperty Arg1:T8 Arg2:T7	
+R6	HasQuantity Arg1:T7 Arg2:T9	
+T10	MeasuredProperty 620 640	auroral temperatures
+T11	MeasuredEntity 644 650	Saturn
+R7	HasProperty Arg1:T11 Arg2:T10	
+T12	Quantity 651 669	up to around 650 K
+A5	IsApproximate T12
+A6	QuantityQualifier T12 IsRange
+#4	AnnotatorNotes T12	K
+R8	HasQuantity Arg1:T10 Arg2:T12	
+T13	Quantity 762 767	650 K
+#5	AnnotatorNotes T13	K
+T14	MeasuredProperty 818 836	polar temperatures
+T15	Qualifier 842 860	have been observed
+T16	MeasuredEntity 864 870	Saturn
+T17	Quantity 874 881	⩽ 650 K
+A7	QuantityQualifier T17 IsRange
+#6	AnnotatorNotes T17	K
+R9	Qualifies Arg1:T15 Arg2:T17	
+R10	HasProperty Arg1:T16 Arg2:T14	
+R11	HasQuantity Arg1:T14 Arg2:T13	
+R12	HasQuantity Arg1:T14 Arg2:T17	
+T18	Qualifier 906 928	have not been observed
+T19	Quantity 932 939	> 650 K
+A8	QuantityQualifier T19 IsRange
+#7	AnnotatorNotes T19	K
+R13	Qualifies Arg1:T18 Arg2:T19	
+R14	HasQuantity Arg1:T14 Arg2:T19	

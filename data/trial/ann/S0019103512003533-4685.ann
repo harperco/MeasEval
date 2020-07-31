@@ -1,0 +1,16 @@
+T1	MeasuredEntity 137 177	region of maximum electron precipitation
+T2	Quantity 179 182	78°
+#1	AnnotatorNotes T2	°
+T3	MeasuredEntity 229 244	sub-solar point
+T4	MeasuredProperty 246 254	latitude
+T5	Quantity 255 257	0°
+#2	AnnotatorNotes T5	°
+T6	Quantity 580 600	below around 1000 km
+A1	IsApproximate T6
+A2	QuantityQualifier T6 IsRange
+#3	AnnotatorNotes T6	km
+T7	MeasuredEntity 601 609	altitude
+R1	HasQuantity Arg1:T7 Arg2:T6	
+R2	HasQuantity Arg1:T1 Arg2:T2	
+R3	HasProperty Arg1:T3 Arg2:T4	
+R4	HasQuantity Arg1:T4 Arg2:T5	

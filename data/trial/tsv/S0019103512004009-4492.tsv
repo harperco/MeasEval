@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4492	1	Quantity	266	271	T8	7.2Rp	{unit: Rp}
+S0019103512004009-4492	1	MeasuredProperty	255	265	T10	located at	{HasQuantity: T8}
+S0019103512004009-4492	1	MeasuredEntity	243	251	T9	C1 model	{HasProperty: T10}
+S0019103512004009-4492	2	Quantity	286	296	T1	7.2 km s−1	{unit: km s−1}
+S0019103512004009-4492	2	MeasuredEntity	278	283	T11	c(ξc)	{HasQuantity: T1}
+S0019103512004009-4492	3	Quantity	366	386	T3	approximately 7100 K	{mods: [IsApproximate, IsMean], unit: K}
+S0019103512004009-4492	3	MeasuredProperty	302	329	T4	volume averaged temperature	{HasQuantity: T3}
+S0019103512004009-4492	3	MeasuredEntity	337	345	T5	C1 model	{HasProperty: T4}
+S0019103512004009-4492	4	Quantity	416	422	T2	7100 K	{unit: K}
+S0019103512004009-4492	5	Quantity	657	662	T6	0.9mH	{mods: [IsMean], unit: mH}
+S0019103512004009-4492	5	MeasuredEntity	630	649	T7	mean atomic weight2	{HasQuantity: T6}
