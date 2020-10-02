@@ -1,0 +1,6 @@
+T93	Quantity 797 824	ranging from 1 to 25 per mm
+#13	AnnotatorNotes T93	None
+A13	QuantityQualifier T93 IsRange
+T83	MeasuredEntity 754 796	alternately pale and dark laminae couplets
+R6	HasQuantity Arg1:T83 Arg2:T93
+T1	Unit 822 824	mm

@@ -1,0 +1,4 @@
+T1	Quantity 638 643	34 °C
+T2	Unit 641 643	°C
+T3	MeasuredEntity 644 652	scenario
+R1	HasQuantity Arg1:T3 Arg2:T1	

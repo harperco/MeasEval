@@ -1,0 +1,7 @@
+T1	Quantity 464 482	between −2 and −7‰
+A1	QuantityQualifier T1 IsRange
+T2	Unit 481 482	‰
+T3	MeasuredProperty 424 447	negative carbon isotope
+T4	MeasuredEntity 486 518	marine and terrestrial sediments
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Quantity 866 874	700 W/m2
+T2	Unit 870 874	W/m2
+T3	MeasuredEntity 778 785	devices
+T4	Qualifier 853 862	corrected
+R2	Qualifies Arg1:T4 Arg2:T1	
+T5	MeasuredProperty 796 806	irradiance
+R3	HasProperty Arg1:T3 Arg2:T5	
+R4	HasQuantity Arg1:T5 Arg2:T1	

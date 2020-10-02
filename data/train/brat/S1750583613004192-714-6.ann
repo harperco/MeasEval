@@ -1,0 +1,4 @@
+T1	Quantity 486 495	1012 mbsl
+T2	Unit 491 495	mbsl
+T3	MeasuredEntity 462 482	injection point (IP)
+R1	HasQuantity Arg1:T3 Arg2:T1	

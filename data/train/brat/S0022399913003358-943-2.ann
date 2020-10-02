@@ -1,0 +1,6 @@
+T1	Quantity 1482 1485	50%
+T2	MeasuredEntity 1464 1480	530 participants
+T3	MeasuredProperty 1486 1507	with chronic tinnitus
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 1484 1485	%

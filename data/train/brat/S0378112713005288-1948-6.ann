@@ -1,0 +1,5 @@
+T1	Quantity 776 780	n.s.
+T3	MeasuredEntity 649 700	No significant difference in regeneration densities
+T4	MeasuredProperty 772 773	p
+R3	HasQuantity Arg1:T4 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	

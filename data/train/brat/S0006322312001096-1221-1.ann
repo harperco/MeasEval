@@ -1,0 +1,5 @@
+T21	Quantity 279 282	95%
+#11	AnnotatorNotes T21	None
+T51	MeasuredEntity 283 303	confidence intervals
+R1	HasQuantity Arg1:T51 Arg2:T21
+T2	Unit 281 282	%

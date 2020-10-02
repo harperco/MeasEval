@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3976	1	Quantity	104	117	T1-1	from 0.1 to 1	{"mods": ["IsRange"]}
+S0019103512004009-3976	1	MeasuredProperty	92	96	T2-1	ηnet	{"HasQuantity": "T1-1"}
+S0019103512004009-3976	1	MeasuredEntity	27	45	T3-1	heating efficiency	{"HasProperty": "T2-1"}
+S0019103512004009-3976	2	Quantity	184	222	T1-2	increases from 2.6 km s−1 to 25 km s−1	{"mods": ["IsRange"], "unit": "km s−1"}
+S0019103512004009-3976	2	MeasuredProperty	153	161	T2-2	velocity	{"HasQuantity": "T1-2"}
+S0019103512004009-3976	2	MeasuredEntity	169	183	T3-2	upper boundary	{"HasProperty": "T2-2"}
+S0019103512004009-3976	3	Quantity	319	323	T1-3	100×	{"unit": "×"}
+S0019103512004009-3976	3	MeasuredEntity	324	328	T2-3	case	{"HasQuantity": "T1-3"}
+S0019103512004009-3976	4	Quantity	372	381	T1-4	30 km s−1	{"unit": "km s−1"}
+S0019103512004009-3976	4	MeasuredProperty	333	341	T2-4	velocity	{"HasQuantity": "T1-4"}
+S0019103512004009-3976	4	MeasuredEntity	349	363	T3-4	upper boundary	{"HasProperty": "T2-4"}
+S0019103512004009-3976	5	Quantity	549	552	T1-5	0.1	
+S0019103512004009-3976	5	MeasuredProperty	542	546	T2-5	ηnet	{"HasQuantity": "T1-5"}
+S0019103512004009-3976	5	MeasuredEntity	501	519	T3-5	heating efficiency	{"HasProperty": "T2-5"}
+S0019103512004009-3976	6	Quantity	636	637	T1-6	1	
+S0019103512004009-3976	6	MeasuredEntity	629	633	T2-6	ηnet	{"HasQuantity": "T1-6"}
+S0019103512004009-3976	7	Quantity	655	658	T1-7	4Rp	{"unit": "Rp"}
+S0019103512004009-3976	7	MeasuredProperty	644	651	T2-7	located	{"HasQuantity": "T1-7"}
+S0019103512004009-3976	7	MeasuredEntity	557	579	T3-7	isothermal sonic point	{"HasProperty": "T2-7"}

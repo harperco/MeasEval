@@ -1,0 +1,5 @@
+T1	MeasuredProperty 480 492	first flybys
+T2	MeasuredEntity 519 528	Voyager 1
+T3	Quantity 530 534	1980
+R1	HasProperty Arg1:T2 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T3	

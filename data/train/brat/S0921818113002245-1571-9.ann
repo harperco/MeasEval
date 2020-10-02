@@ -1,0 +1,6 @@
+T1	Quantity 1103 1123	approximately 11.8 m
+T2	Unit 1122 1123	m
+T3	MeasuredEntity 1081 1090	sediments
+T4	MeasuredProperty 1094 1099	depth
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

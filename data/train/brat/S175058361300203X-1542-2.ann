@@ -1,0 +1,4 @@
+T1	Quantity 383 386	50%
+T2	MeasuredEntity 387 401	CO2 saturation
+T4	Unit 385 386	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 769 772	80%
+T2	Unit 771 772	%
+T3	MeasuredEntity 827 856	mean saturation for the plume
+T4	MeasuredProperty 808 819	upper limit
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 205 222	5318 participants
+T2	Unit 210 222	participants
+T3	MeasuredEntity 25 43	Whitehall II study
+R1	HasQuantity Arg1:T3 Arg2:T1	

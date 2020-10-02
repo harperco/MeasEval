@@ -1,0 +1,4 @@
+T1	Quantity 398 408	four point
+T2	Unit 403 408	point
+T3	MeasuredEntity 409 414	scale
+R1	HasQuantity Arg1:T3 Arg2:T1	

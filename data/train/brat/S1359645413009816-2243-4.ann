@@ -1,0 +1,9 @@
+T1	Quantity 586 600	about 30 K/min
+T2	MeasuredProperty 536 582	rapid cooling to ambient temperature at a rate
+T3	MeasuredEntity 296 314	microscopy samples
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 595 600	K/min
+T5	Qualifier 409 417	annealed
+R3	Qualifies Arg1:T5 Arg2:T3	
+A1	IsApproximate T1

@@ -1,0 +1,7 @@
+T34	Quantity 508 511	10%
+#14	AnnotatorNotes T34	None
+T74	MeasuredProperty 512 520	increase
+R4	HasQuantity Arg1:T74 Arg2:T34
+T84	MeasuredEntity 528 553	Framingham CVD risk score
+R5	HasProperty Arg1:T84 Arg2:T74
+T1	Unit 510 511	%

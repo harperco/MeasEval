@@ -1,0 +1,7 @@
+T55	Quantity 597 601	5.4%
+#15	AnnotatorNotes T55	None
+T155	MeasuredProperty 602 632	used antidepressant medication
+R8	HasQuantity Arg1:T155 Arg2:T55
+T145	MeasuredEntity 574 595	cases of GHQ symptoms
+R10	HasProperty Arg1:T145 Arg2:T155
+T1	Unit 600 601	%

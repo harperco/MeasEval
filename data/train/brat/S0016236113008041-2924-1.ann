@@ -1,0 +1,4 @@
+T1	Quantity 57 65	9 and 21
+A1	IsCount T1
+T2	MeasuredEntity 66 80	trace elements
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1720	1	Quantity	334	336	T1-1	15	{"mods": ["IsCount"]}
+S0378112713005288-1720	1	MeasuredEntity	337	349	T2-1	upland sites	{"HasQuantity": "T1-1"}
+S0378112713005288-1720	2	Quantity	374	388	T1-2	120 m to 380 m	{"mods": ["IsRange"], "unit": "m"}
+S0378112713005288-1720	2	MeasuredProperty	351	360	T3-2	altitudes	{"HasQuantity": "T1-2"}
+S0378112713005288-1720	2	MeasuredEntity	337	349	T2-2	upland sites	{"HasProperty": "T3-2"}
+S0378112713005288-1720	2	Qualifier	389	404	T5-2	above sea level	{"Qualifies": "T1-2"}
+S0378112713005288-1720	3	Quantity	669	695	T1-3	greater than 1000 stems/ha	{"mods": ["IsRange"], "unit": "stems/ha"}
+S0378112713005288-1720	3	MeasuredProperty	590	612	T4-3	regeneration densities	{"HasQuantity": "T1-3"}
+S0378112713005288-1720	3	MeasuredEntity	616	635	T5-3	native tree species	{"HasProperty": "T4-3"}
+S0378112713005288-1720	3	Qualifier	585	589	T3-3	Mean	{"Qualifies": "T1-3"}
+S0378112713005288-1720	4	Quantity	799	801	T1-4	10	{"mods": ["IsCount"]}
+S0378112713005288-1720	4	MeasuredEntity	802	827	T2-4	native woody tree species	{"HasQuantity": "T1-4"}

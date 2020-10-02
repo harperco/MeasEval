@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1248	1	Quantity	590	593	T11-1	95%	{"unit": "%"}
+S0006322312001096-1248	1	MeasuredEntity	594	596	T21-1	CI	{"HasQuantity": "T11-1"}

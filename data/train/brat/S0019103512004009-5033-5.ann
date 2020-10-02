@@ -1,0 +1,8 @@
+T1	Quantity 428 435	1000 K.
+T2	Unit 433 434	K
+T3	Qualifier 424 427	not
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 401 409	C2 model
+T5	MeasuredProperty 361 372	temperature
+R3	HasProperty Arg1:T4 Arg2:T5	
+R4	HasQuantity Arg1:T5 Arg2:T1	

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1640	1	Quantity	39	41	T1-1	5‰	{"unit": "‰"}
+S0012821X12004384-1640	1	MeasuredProperty	2	35	T4-1	negative carbon isotope excursion	{"HasQuantity": "T1-1"}
+S0012821X12004384-1640	1	MeasuredEntity	102	135	T2-1	Paleocene–Eocene boundary section	{"HasProperty": "T4-1"}
+S0012821X12004384-1640	1	Qualifier	137	168	T3-1	rom the central North Sea Basin	{"Qualifies": "T2-1"}
+S0012821X12004384-1640	2	Quantity	478	486	T1-2	from 4 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X12004384-1640	2	MeasuredEntity	422	477	T3-2	Enhanced halocline stratification and terrigenous input	{"HasQuantity": "T1-2"}
+S0012821X12004384-1640	2	Qualifier	487	501	T4-2	before the CIE	{"Qualifies": "T1-2"}
+S0012821X12004384-1640	3	Quantity	1226	1231	T1-3	54 oN	{"unit": "oN"}
+S0012821X12004384-1640	3	MeasuredProperty	1212	1225	T3-3	paleolatitude	{"HasQuantity": "T1-3"}
+S0012821X12004384-1640	3	MeasuredEntity	1202	1210	T4-3	location	{"HasProperty": "T3-3"}

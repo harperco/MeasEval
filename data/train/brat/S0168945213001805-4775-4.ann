@@ -1,0 +1,6 @@
+T1	Quantity 905 910	−8 °C
+T2	MeasuredProperty 885 901	stable tolerance
+T3	MeasuredEntity 757 871	Tropical E. grandis × E. urophylla expressing a stress-inducible rd29a promoter-CBF2 transcription factor cassette
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 908 910	°C

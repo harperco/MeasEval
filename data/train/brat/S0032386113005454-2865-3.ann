@@ -1,0 +1,7 @@
+T1	Quantity 649 657	0.296 μm
+T2	MeasuredProperty 598 611	mean diameter
+A1	QuantityQualifier T1 IsMean
+T4	Unit 655 657	μm
+T5	MeasuredEntity 621 629	cavities
+R2	HasProperty Arg1:T5 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	

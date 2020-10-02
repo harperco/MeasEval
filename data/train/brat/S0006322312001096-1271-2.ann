@@ -1,0 +1,10 @@
+T21	Quantity 978 988	almost 90%
+#11	AnnotatorNotes T21	None
+T31	MeasuredProperty 825 852	sensitivity and specificity
+R1	HasQuantity Arg1:T31 Arg2:T21
+T41	MeasuredEntity 856 882	the questionnaire measures
+R2	HasProperty Arg1:T41 Arg2:T31
+T51	Qualifier 989 1018	for CES-D depressive symptoms
+R3	Qualifies Arg1:T51 Arg2:T21
+T1	Unit 987 988	%
+A1	QuantityQualifier T21 IsRange

@@ -1,0 +1,3 @@
+T1	Quantity 453 458	8–300
+T2	MeasuredEntity 459 474	DC Power Supply
+R1	HasQuantity Arg1:T2 Arg2:T1	

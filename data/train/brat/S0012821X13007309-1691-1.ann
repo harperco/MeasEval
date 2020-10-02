@@ -1,0 +1,6 @@
+T1	Quantity 147 150	1 m
+T2	Unit 149 150	m
+T3	MeasuredProperty 151 156	thick
+T4	MeasuredEntity 124 141	Livello Bonarelli
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

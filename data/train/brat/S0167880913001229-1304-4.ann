@@ -1,0 +1,5 @@
+T1	Quantity 463 467	0.18
+T2	MeasuredEntity 357 377	positive correlation
+T3	MeasuredProperty 458 460	r2
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

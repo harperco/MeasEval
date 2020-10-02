@@ -1,0 +1,3 @@
+T1	Quantity 73 77	1991
+T2	MeasuredEntity 49 69	baseline examination
+R1	HasQuantity Arg1:T2 Arg2:T1	

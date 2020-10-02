@@ -1,0 +1,4 @@
+T1	MeasuredEntity 393 399	cohort
+T2	Quantity 413 429	10,308 employees
+T3	Unit 420 429	employees
+R1	HasQuantity Arg1:T1 Arg2:T2	

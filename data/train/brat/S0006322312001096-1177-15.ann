@@ -1,0 +1,5 @@
+T1	MeasuredEntity 633 640	phase 7
+T2	Quantity 660 664	6967
+T3	MeasuredProperty 656 657	n
+R1	HasProperty Arg1:T1 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T2	

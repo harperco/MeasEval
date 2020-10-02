@@ -1,0 +1,7 @@
+T1	Quantity 159 178	between 5 and 300 K
+T2	MeasuredProperty 80 91	temperature
+T3	MeasuredEntity 51 66	samples 1 and 2
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 177 178	K

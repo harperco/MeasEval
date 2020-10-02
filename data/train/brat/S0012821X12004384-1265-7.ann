@@ -1,0 +1,6 @@
+T75	Quantity 1283 1302	between 20 and 60 g
+#15	AnnotatorNotes T75	None
+A15	QuantityQualifier T75 IsRange
+T145	MeasuredEntity 1306 1320	dried sediment
+R5	HasQuantity Arg1:T145 Arg2:T75
+T1	Unit 1301 1302	g

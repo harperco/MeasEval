@@ -1,0 +1,4 @@
+T1	Quantity 516 521	20 °C
+T2	Unit 519 521	°C
+T3	MeasuredEntity 563 587	unmodified epoxy polymer
+R1	HasQuantity Arg1:T3 Arg2:T1	

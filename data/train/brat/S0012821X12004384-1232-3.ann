@@ -1,0 +1,8 @@
+T33	Quantity 515 536	in the order of 100 m
+#13	AnnotatorNotes T33	None
+A13	IsApproximate T33
+T83	MeasuredProperty 507 514	fall in
+R5	HasQuantity Arg1:T83 Arg2:T33
+T93	MeasuredEntity 471 476	basin
+R6	HasProperty Arg1:T93 Arg2:T83
+T1	Unit 535 536	m

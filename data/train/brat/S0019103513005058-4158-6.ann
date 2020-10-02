@@ -1,0 +1,6 @@
+T1	Quantity 858 866	1 g cm−3
+T2	Unit 860 866	g cm−3
+T3	MeasuredEntity 842 846	soil
+T4	MeasuredProperty 847 854	density
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

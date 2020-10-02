@@ -1,0 +1,7 @@
+T1	Quantity 214 223	320–500 K
+T2	Unit 222 223	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 160 186	thermospheric temperatures
+T4	MeasuredEntity 206 212	Saturn
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

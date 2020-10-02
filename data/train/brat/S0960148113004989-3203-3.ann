@@ -1,0 +1,6 @@
+T1	Quantity 566 570	12 s
+T2	MeasuredProperty 548 563	time step of Δt
+T3	Unit 569 570	s
+T4	MeasuredEntity 492 507	simulation time
+R1	HasProperty Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

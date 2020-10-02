@@ -1,0 +1,7 @@
+T1	Quantity 544 552	6 months
+T2	MeasuredEntity 459 482	immunosuppressive drugs
+T3	MeasuredProperty 528 537	withdrawn
+T4	Qualifier 538 543	after
+R1	Qualifies Arg1:T4 Arg2:T1	
+R2	HasQuantity Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

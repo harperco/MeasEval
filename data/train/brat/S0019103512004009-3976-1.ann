@@ -1,0 +1,6 @@
+T1	Quantity 104 117	from 0.1 to 1
+T2	MeasuredProperty 92 96	ηnet
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 27 45	heating efficiency
+R2	HasProperty Arg1:T3 Arg2:T2	

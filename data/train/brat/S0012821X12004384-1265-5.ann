@@ -1,0 +1,6 @@
+T53	Quantity 1116 1123	>250 μm
+#13	AnnotatorNotes T53	None
+A13	QuantityQualifier T53 IsRange
+T113	MeasuredProperty 1124 1133	fractions
+R4	HasQuantity Arg1:T113 Arg2:T53
+T1	Unit 1121 1123	μm

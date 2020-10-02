@@ -1,0 +1,8 @@
+T42	Quantity 1069 1076	>0.5 km
+#12	AnnotatorNotes T42	None
+A12	QuantityQualifier T42 IsRange
+T62	MeasuredProperty 1054 1065	paleodepths
+R3	HasQuantity Arg1:T62 Arg2:T42
+T52	MeasuredEntity 995 1034	central parts of the northern North Sea
+R4	HasProperty Arg1:T52 Arg2:T62
+T1	Unit 1074 1076	km

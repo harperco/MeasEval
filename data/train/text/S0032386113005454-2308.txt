@@ -1,0 +1,1 @@
+A tensile modulus of 3.19 ± 0.10 GPa was measured for the unmodified epoxy polymer. The modulus decreased approximately linearly with increasing CSR content to 1.96 ± 0.08 GPa when 20 wt% of S-CSR particles were added, see Table 1. Similar results were reported by Giannakopoulos et al. [30] using the same formulation of epoxy polymer but with different CSR particles.

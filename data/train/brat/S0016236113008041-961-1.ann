@@ -1,0 +1,4 @@
+T1	Quantity 110 113	+1%
+T2	MeasuredEntity 96 106	error bars
+T3	Unit 112 113	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

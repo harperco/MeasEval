@@ -1,0 +1,4 @@
+T1	Quantity 249 252	10%
+T2	Unit 251 252	%
+T3	MeasuredEntity 236 245	threshold
+R1	HasQuantity Arg1:T3 Arg2:T1	

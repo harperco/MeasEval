@@ -1,0 +1,4 @@
+T1	Quantity 369 378	36 clones
+T2	Unit 372 378	clones
+T3	MeasuredEntity 384 462	expanded and screened by Southern blotting for homologous recombination events
+R1	HasQuantity Arg1:T3 Arg2:T1	

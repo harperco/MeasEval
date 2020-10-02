@@ -1,0 +1,6 @@
+T1	Quantity 549 555	1 μbar
+T2	MeasuredEntity 530 540	MC09 model
+T3	MeasuredProperty 544 546	p0
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 551 555	μbar

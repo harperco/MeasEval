@@ -1,0 +1,6 @@
+T1	Quantity 576 579	≥16
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 570 575	score
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 520 569	Center for Epidemiologic Studies Depression Scale
+R2	HasProperty Arg1:T3 Arg2:T2	

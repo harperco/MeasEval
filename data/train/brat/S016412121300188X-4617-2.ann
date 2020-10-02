@@ -1,0 +1,6 @@
+T1	Quantity 299 302	11%
+T2	MeasuredEntity 285 292	largest
+T3	Qualifier 250 275	multiple smaller clusters
+R1	Qualifies Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 301 302	%

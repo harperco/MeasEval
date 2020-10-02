@@ -1,0 +1,4 @@
+T1	Quantity 103 123	1997, 2003, and 2008
+A1	QuantityQualifier T1 IsList
+T2	MeasuredEntity 79 99	follow-up screenings
+R1	HasQuantity Arg1:T2 Arg2:T1	

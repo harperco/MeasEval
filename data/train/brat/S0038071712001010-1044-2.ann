@@ -1,0 +1,6 @@
+T1	Quantity 2609 2616	84 days
+T2	MeasuredEntity 2587 2597	experiment
+T3	MeasuredProperty 2598 2604	lasted
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 2612 2616	days

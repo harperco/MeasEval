@@ -1,0 +1,7 @@
+T1	Quantity 377 395	1.3 mm and 8.4 mm,
+T2	MeasuredProperty 364 373	roughness
+T3	MeasuredEntity 47 58	two beaches
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsList
+T4	Unit 392 394	mm

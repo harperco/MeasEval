@@ -1,0 +1,4 @@
+T1	Quantity 532 548	between 0 and 60
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 520 531	total score
+R1	HasQuantity Arg1:T2 Arg2:T1	

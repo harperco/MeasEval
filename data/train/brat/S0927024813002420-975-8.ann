@@ -1,0 +1,7 @@
+T1	Quantity 1030 1049	20–25 monomer units
+A2	QuantityQualifier T1 IsRange
+T2	Unit 1036 1049	monomer units
+T3	MeasuredProperty 1000 1028	effective conjugation length
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 984 987	PTh
+R2	HasProperty Arg1:T4 Arg2:T3	

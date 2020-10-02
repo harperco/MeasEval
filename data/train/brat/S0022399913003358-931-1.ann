@@ -1,0 +1,9 @@
+T1	Quantity 470 478	7 to 20%
+T2	MeasuredEntity 492 510	general population
+T3	Qualifier 371 390	Subjective tinnitus
+T4	MeasuredProperty 446 456	prevalence
+R1	Qualifies Arg1:T3 Arg2:T4	
+R2	HasProperty Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T5	Unit 477 478	%
+A1	QuantityQualifier T1 IsRange

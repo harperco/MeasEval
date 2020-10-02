@@ -1,0 +1,6 @@
+T1	Quantity 434 446	After 8 days
+T3	MeasuredEntity 550 580	cells of all three germ layers
+T4	MeasuredProperty 450 463	spinner flask
+R2	HasProperty Arg1:T3 Arg2:T4	
+T5	Unit 442 446	days
+R3	HasQuantity Arg1:T4 Arg2:T1	

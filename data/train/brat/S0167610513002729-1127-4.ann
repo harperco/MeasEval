@@ -1,0 +1,5 @@
+T1	Quantity 696 702	0.80 H
+T2	MeasuredEntity 694 695	z
+T3	Unit 701 702	H
+T4	Qualifier 133 141	snapshot
+R1	Qualifies Arg1:T4 Arg2:T2	

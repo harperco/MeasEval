@@ -1,0 +1,7 @@
+T1	Quantity 333 343	Up to 20 m
+T2	Unit 342 343	m
+T3	MeasuredProperty 344 365	beneath the Bonarelli
+T4	MeasuredEntity 382 433	numerous centimetre scale organic-rich shale layers
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,6 @@
+T33	Quantity 1252 1259	>250 μm
+#13	AnnotatorNotes T33	None
+A13	QuantityQualifier T33 IsRange
+T83	MeasuredProperty 1260 1274	size fractions
+R5	HasQuantity Arg1:T83 Arg2:T33
+T1	Unit 1257 1259	μm

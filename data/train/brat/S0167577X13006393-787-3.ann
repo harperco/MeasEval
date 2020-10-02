@@ -1,0 +1,5 @@
+T1	Quantity 278 282	1.67
+T2	MeasuredProperty 272 277	ratio
+T3	MeasuredEntity 197 270	deficient HA start their decomposition at temperatures lower than pure HA
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

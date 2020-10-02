@@ -1,0 +1,4 @@
+T1	Quantity 120 129	60,268 km
+T2	Unit 127 129	km
+T3	MeasuredEntity 114 117	1RS
+R1	HasQuantity Arg1:T3 Arg2:T1	

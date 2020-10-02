@@ -1,0 +1,10 @@
+T1	Quantity 430 442	above ∼500 K
+T2	Unit 441 442	K
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 417 429	temperatures
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 206 212	Saturn
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 381 416	polar magnetospheric heating raises
+R3	Qualifies Arg1:T5 Arg2:T3	

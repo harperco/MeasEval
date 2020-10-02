@@ -1,0 +1,6 @@
+T1	Quantity 304 312	2 months
+T2	MeasuredEntity 258 300	serum level of IFN-γ temporarily increased
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 306 312	months
+T4	Qualifier 313 350	after the transplant in three animals
+R2	Qualifies Arg1:T4 Arg2:T1	

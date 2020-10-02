@@ -1,0 +1,3 @@
+T1	Quantity 724 729	three
+T2	MeasuredEntity 730 746	e-folding depths
+R1	HasQuantity Arg1:T2 Arg2:T1	

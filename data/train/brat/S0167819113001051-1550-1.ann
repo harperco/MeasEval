@@ -1,0 +1,7 @@
+T1	Quantity 79 89	roughly 2%
+T2	MeasuredEntity 97 123	times that a glitch appear
+T3	Unit 88 89	%
+T4	MeasuredProperty 50 78	conventional unit deadlocked
+A1	IsApproximate T1
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

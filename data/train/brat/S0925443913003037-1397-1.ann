@@ -1,0 +1,9 @@
+T1	Quantity 352 369	approximately 54%
+T2	Unit 368 369	%
+A1	IsApproximate T1
+T3	Qualifier 370 379	reduction
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredProperty 387 392	level
+T5	MeasuredEntity 396 406	mt-tRNAPhe
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

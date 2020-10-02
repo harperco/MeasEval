@@ -1,0 +1,7 @@
+T1	Quantity 694 706	above 10.5 m
+T2	MeasuredEntity 684 693	sediments
+T3	Unit 705 706	m
+T4	MeasuredProperty 707 712	depth
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T4	
+A1	QuantityQualifier T1 IsRange

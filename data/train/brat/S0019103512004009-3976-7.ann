@@ -1,0 +1,6 @@
+T1	Quantity 655 658	4Rp
+T2	MeasuredProperty 644 651	located
+T3	MeasuredEntity 557 579	isothermal sonic point
+T4	Unit 656 658	Rp
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

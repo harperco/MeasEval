@@ -1,0 +1,4 @@
+T1	Quantity 319 323	100×
+T2	MeasuredEntity 324 328	case
+T3	Unit 322 323	×
+R1	HasQuantity Arg1:T2 Arg2:T1	

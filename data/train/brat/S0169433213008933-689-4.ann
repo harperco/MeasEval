@@ -1,0 +1,6 @@
+T1	Quantity 332 337	30 mA
+T2	Unit 335 337	mA
+T3	MeasuredProperty 338 345	current
+T4	MeasuredEntity 309 318	processed
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T3	

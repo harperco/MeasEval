@@ -1,0 +1,6 @@
+T1	Quantity 303 311	one week
+T2	Unit 307 311	week
+T4	MeasuredProperty 315 334	storage in the dark
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T3	MeasuredEntity 275 282	devices
+R1	HasProperty Arg1:T3 Arg2:T4	

@@ -1,0 +1,6 @@
+T1	Quantity 1023 1034	three metre
+T2	Unit 1029 1034	metre
+T3	MeasuredProperty 1035 1039	long
+T4	MeasuredEntity 1040 1046	drives
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

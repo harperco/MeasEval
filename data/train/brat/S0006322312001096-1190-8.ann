@@ -1,0 +1,4 @@
+T1	Quantity 1508 1514	2-hour
+T2	Unit 1510 1514	hour
+T3	MeasuredEntity 1515 1531	postload glucose
+R1	HasQuantity Arg1:T3 Arg2:T1	

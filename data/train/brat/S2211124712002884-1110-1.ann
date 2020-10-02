@@ -1,0 +1,9 @@
+T1	Quantity 107 115	5–6 days
+T2	MeasuredEntity 0 13	iPSC colonies
+T3	MeasuredProperty 58 102	grown as embryoid bodies (EBs) in suspension
+A1	QuantityQualifier T1 IsRange
+T4	Unit 111 115	days
+T5	Qualifier 116 169	in iPSC medium without basic fibroblast growth factor
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	Qualifies Arg1:T5 Arg2:T3	

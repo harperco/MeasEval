@@ -1,0 +1,4 @@
+T1	Quantity 329 337	4 °C/min
+T2	MeasuredEntity 313 325	heating rate
+T3	Unit 331 337	°C/min
+R1	HasQuantity Arg1:T2 Arg2:T1	

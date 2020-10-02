@@ -1,0 +1,28 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-1571	1	Quantity	73	84	T1-1	upper 0.8 m	{"mods": ["IsRange"], "unit": "m"}
+S0921818113002245-1571	1	MeasuredEntity	88	97	T2-1	sediments	{"HasQuantity": "T1-1"}
+S0921818113002245-1571	2	Quantity	201	219	T1-2	approximately 1 cm	{"mods": ["IsApproximate"], "unit": "cm"}
+S0921818113002245-1571	2	MeasuredProperty	195	199	T2-2	thin	{"HasQuantity": "T1-2"}
+S0921818113002245-1571	2	MeasuredEntity	221	269	T3-2	vertical slab of relatively undisturbed sediment	{"HasProperty": "T2-2"}
+S0921818113002245-1571	3	Quantity	462	466	T1-3	Five	{"mods": ["IsCount"]}
+S0921818113002245-1571	3	MeasuredEntity	467	472	T2-3	cores	{"HasQuantity": "T1-3"}
+S0921818113002245-1571	4	Quantity	632	637	T1-4	4.8 m	{"unit": "m"}
+S0921818113002245-1571	4	MeasuredProperty	638	642	T2-4	long	{"HasQuantity": "T1-4"}
+S0921818113002245-1571	4	MeasuredEntity	643	660	T3-4	cores of sediment	{"HasProperty": "T2-4"}
+S0921818113002245-1571	5	Quantity	684	695	T1-5	60 or 63 mm	{"mods": ["IsList"], "unit": "mm"}
+S0921818113002245-1571	5	MeasuredProperty	696	713	T4-5	internal diameter	{"HasQuantity": "T1-5"}
+S0921818113002245-1571	5	MeasuredEntity	664	673	T2-5	PVC tubes	{"HasProperty": "T4-5"}
+S0921818113002245-1571	6	Quantity	811	815	T1-6	four	{"mods": ["IsCount"]}
+S0921818113002245-1571	6	MeasuredEntity	816	833	T2-6	overlapping cores	{"HasQuantity": "T1-6"}
+S0921818113002245-1571	7	Quantity	891	894	T1-7	8 m	{"unit": "m"}
+S0921818113002245-1571	7	MeasuredProperty	882	887	T3-7	depth	{"HasQuantity": "T1-7"}
+S0921818113002245-1571	7	MeasuredEntity	873	881	T2-7	sediment	{"HasProperty": "T3-7"}
+S0921818113002245-1571	8	Quantity	1023	1034	T1-8	three metre	{"unit": "metre"}
+S0921818113002245-1571	8	MeasuredProperty	1035	1039	T3-8	long	{"HasQuantity": "T1-8"}
+S0921818113002245-1571	8	MeasuredEntity	1040	1046	T4-8	drives	{"HasProperty": "T3-8"}
+S0921818113002245-1571	9	Quantity	1103	1123	T1-9	approximately 11.8 m	{"unit": "m"}
+S0921818113002245-1571	9	MeasuredProperty	1094	1099	T4-9	depth	{"HasQuantity": "T1-9"}
+S0921818113002245-1571	9	MeasuredEntity	1081	1090	T3-9	sediments	{"HasProperty": "T4-9"}
+S0921818113002245-1571	10	Quantity	1224	1249	T1-10	between 11.8 m and 11.5 m	{"mods": ["IsRange"], "unit": "m"}
+S0921818113002245-1571	10	MeasuredProperty	1218	1223	T4-10	depth	{"HasQuantity": "T1-10"}
+S0921818113002245-1571	10	MeasuredEntity	1209	1217	T3-10	sediment	{"HasProperty": "T4-10"}

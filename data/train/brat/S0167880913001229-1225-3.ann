@@ -1,0 +1,6 @@
+T1	Quantity 302 317	over the 9-year
+T2	MeasuredEntity 265 284	change in SOC stock
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 318 324	period
+R2	HasProperty Arg1:T2 Arg2:T3	
+R1	HasQuantity Arg1:T3 Arg2:T1	

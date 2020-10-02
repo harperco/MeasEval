@@ -1,0 +1,7 @@
+T1	Quantity 200 214	over a 7-month
+T3	Unit 209 214	month
+T2	MeasuredEntity 15 36	current investigation
+T4	MeasuredProperty 215 221	period
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T4	
+A1	QuantityQualifier T1 IsRange

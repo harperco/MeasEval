@@ -1,0 +1,5 @@
+T1	MeasuredProperty 180 212	Age- and sex-adjusted odds ratio
+T2	MeasuredEntity 297 342	stroke risk score-incident stroke association
+T3	Quantity 243 247	2.84
+R1	HasProperty Arg1:T2 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T3	

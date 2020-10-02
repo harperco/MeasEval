@@ -1,0 +1,7 @@
+T66	Quantity 1282 1285	80%
+#16	AnnotatorNotes T66	None
+T156	MeasuredProperty 1143 1154	sensitivity
+R10	HasQuantity Arg1:T156 Arg2:T66
+T136	MeasuredEntity 1174 1194	GHQ symptom caseness
+R11	HasProperty Arg1:T136 Arg2:T156
+T1	Unit 1284 1285	%

@@ -1,0 +1,7 @@
+T1	Quantity 444 447	∼2%
+T2	Unit 446 447	%
+A1	IsApproximate T1
+T3	MeasuredEntity 451 461	MEX orbits
+T4	MeasuredProperty 338 375	peripheral acceleration of heavy-ions
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

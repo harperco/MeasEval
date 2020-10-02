@@ -1,0 +1,5 @@
+T1	Quantity 512 519	1/100th
+T2	MeasuredEntity 527 551	total material processed
+T3	MeasuredProperty 483 506	Each slide was produced
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

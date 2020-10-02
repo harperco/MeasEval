@@ -1,0 +1,4 @@
+T1	Quantity 238 245	0–10 cm
+T2	Unit 243 245	cm
+T3	MeasuredEntity 144 148	soil
+R1	HasQuantity Arg1:T3 Arg2:T1	

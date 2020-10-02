@@ -1,0 +1,6 @@
+T1	Quantity 148 154	0.23 H
+T2	MeasuredEntity 146 147	z
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 153 154	H
+T4	Qualifier 133 141	snapshot
+R2	Qualifies Arg1:T4 Arg2:T2	

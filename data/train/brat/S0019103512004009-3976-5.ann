@@ -1,0 +1,5 @@
+T1	Quantity 549 552	0.1
+T2	MeasuredProperty 542 546	ηnet
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 501 519	heating efficiency
+R2	HasProperty Arg1:T3 Arg2:T2	

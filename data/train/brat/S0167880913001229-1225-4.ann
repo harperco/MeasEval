@@ -1,0 +1,6 @@
+T1	Quantity 446 452	< 0.01
+T2	MeasuredProperty 444 445	p
+T3	MeasuredEntity 454 487	effect of initial C concentration
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

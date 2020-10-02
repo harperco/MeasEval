@@ -1,0 +1,6 @@
+T1	Quantity 891 894	8 m
+T2	MeasuredEntity 873 881	sediment
+T3	MeasuredProperty 882 887	depth
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 893 894	m

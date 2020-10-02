@@ -1,0 +1,1 @@
+Power spectra of surface elevation for a JONSWAP spectrum with fp = 0.5 Hz and Hp = 1.8 cm: comparison of the numerical results (solid line) with experimental data (dashed line).

@@ -1,0 +1,6 @@
+T1	Quantity 194 197	35%
+T2	Unit 196 197	%
+T3	MeasuredEntity 171 190	temperature profile
+T4	Qualifier 156 166	increasing
+R1	Qualifies Arg1:T4 Arg2:T1	
+R2	HasQuantity Arg1:T3 Arg2:T1	

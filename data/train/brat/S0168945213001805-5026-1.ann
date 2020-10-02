@@ -1,0 +1,4 @@
+T1	Quantity 0 13	Four-year-old
+T2	Unit 5 13	year-old
+T3	MeasuredEntity 14 34	wild-type cottonwood
+R1	HasQuantity Arg1:T3 Arg2:T1	

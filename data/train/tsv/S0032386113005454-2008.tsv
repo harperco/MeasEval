@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2008	1	Quantity	69	82	T1-1	about −100 °C	{"mods": ["IsApproximate"], "unit": "°C"}
+S0032386113005454-2008	1	MeasuredProperty	33	42	T4-1	toughened	{"HasQuantity": "T1-1"}
+S0032386113005454-2008	1	MeasuredEntity	4	13	T3-1	particles	{"HasProperty": "T4-1"}
+S0032386113005454-2008	1	Qualifier	47	60	T5-1	epoxy polymer	{"Qualifies": "T4-1"}

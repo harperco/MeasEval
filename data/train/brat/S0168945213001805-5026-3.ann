@@ -1,0 +1,4 @@
+T1	Quantity 431 436	three
+T2	MeasuredEntity 437 451	beetle species
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

@@ -1,0 +1,4 @@
+T1	Quantity 536 539	two
+T2	MeasuredEntity 540 554	CBF/DREB genes
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

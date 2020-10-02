@@ -1,0 +1,8 @@
+T1	Quantity 554 560	0 to 4
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 564 572	noncases
+T3	MeasuredProperty 547 553	scores
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 525 536	GHQ-symptom
+R3	Qualifies Arg1:T4 Arg2:T2	

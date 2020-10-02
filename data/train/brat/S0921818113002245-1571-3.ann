@@ -1,0 +1,4 @@
+T1	Quantity 462 466	Five
+T2	MeasuredEntity 467 472	cores
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

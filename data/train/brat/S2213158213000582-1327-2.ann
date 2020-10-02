@@ -1,0 +1,6 @@
+T1	Quantity 669 671	48
+T2	MeasuredProperty 672 698	regions in each hemisphere
+T3	MeasuredEntity 636 667	96 cortical gray-matter regions
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+A1	IsCount T1

@@ -1,0 +1,5 @@
+T1	Quantity 288 305	−100 °C to 200 °C
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 261 278	temperature range
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 303 305	°C

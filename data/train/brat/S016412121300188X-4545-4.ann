@@ -1,0 +1,4 @@
+T1	Quantity 605 617	less than 2%
+T2	MeasuredEntity 568 588	rest of the clusters
+A1	QuantityQualifier T1 IsRange
+R1	HasQuantity Arg1:T2 Arg2:T1	

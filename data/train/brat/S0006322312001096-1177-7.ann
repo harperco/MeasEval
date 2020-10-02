@@ -1,0 +1,4 @@
+T1	Quantity 431 439	6895 men
+T2	Unit 436 439	men
+T3	MeasuredEntity 393 399	cohort
+R1	HasQuantity Arg1:T3 Arg2:T1	

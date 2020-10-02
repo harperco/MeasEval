@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1634	1	Quantity	149	171	T1-1	approximately 0.1 mg/l	{"mods": ["IsApproximate"], "unit": "mg/l"}
+S0378383911001669-1634	1	MeasuredProperty	85	100	T2-1	Fluorescent dye	{"HasQuantity": "T1-1"}
+S0378383911001669-1634	1	MeasuredEntity	118	123	T3-1	water	{"HasProperty": "T2-1"}
+S0378383911001669-1634	2	Quantity	330	335	T1-2	50 mm	{"unit": "mm"}
+S0378383911001669-1634	2	MeasuredProperty	336	354	T2-2	fixed focal length	{"HasQuantity": "T1-2"}
+S0378383911001669-1634	2	MeasuredEntity	355	359	T4-2	lens	{"HasProperty": "T2-2"}
+S0378383911001669-1634	3	Quantity	424	428	T1-3	1:10	
+S0378383911001669-1634	3	MeasuredProperty	429	434	T2-3	slope	{"HasQuantity": "T1-3"}
+S0378383911001669-1634	3	MeasuredEntity	442	447	T3-3	beach	{"HasProperty": "T2-3"}

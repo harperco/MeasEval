@@ -1,0 +1,5 @@
+T1	MeasuredProperty 230 235	ratio
+T2	Quantity 240 244	1.67
+T3	MeasuredEntity 236 239	CaP
+R1	HasProperty Arg1:T3 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T2	

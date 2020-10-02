@@ -1,0 +1,7 @@
+T32	Quantity 344 349	12.1%
+#12	AnnotatorNotes T32	None
+T92	MeasuredProperty 387 410	developed such symptoms
+R2	HasQuantity Arg1:T92 Arg2:T32
+T82	MeasuredEntity 353 386	participants without GHQ symptoms
+R3	HasProperty Arg1:T82 Arg2:T92
+T1	Unit 348 349	%

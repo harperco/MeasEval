@@ -1,0 +1,6 @@
+T1	Quantity 194 199	99.9%
+T2	Unit 198 199	%
+T3	MeasuredProperty 200 204	pure
+T4	MeasuredEntity 189 192	C60
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

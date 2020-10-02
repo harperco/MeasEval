@@ -1,0 +1,6 @@
+T1	Quantity 323 328	240 s
+T2	MeasuredProperty 309 318	processed
+T3	Unit 327 328	s
+T4	MeasuredEntity 291 298	Samples
+R1	HasProperty Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

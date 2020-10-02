@@ -1,0 +1,6 @@
+T1	Quantity 409 420	0.02 cm s−1
+T3	MeasuredProperty 386 405	deposition velocity
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 417 420	s−1
+T2	MeasuredEntity 424 435	all species
+R1	HasProperty Arg1:T2 Arg2:T3	

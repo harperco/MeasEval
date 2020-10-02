@@ -1,0 +1,9 @@
+T1	Quantity 157 175	to 1.96 ± 0.08 GPa
+T2	MeasuredProperty 88 95	modulus
+T4	Unit 172 175	GPa
+A1	QuantityQualifier T1 IsRangeHasTolerance
+T5	MeasuredEntity 69 82	epoxy polymer
+T6	Qualifier 176 217	when 20 wt% of S-CSR particles were added
+R4	HasProperty Arg1:T5 Arg2:T2	
+R5	HasQuantity Arg1:T2 Arg2:T1	
+R1	Qualifies Arg1:T6 Arg2:T1	

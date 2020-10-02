@@ -1,0 +1,6 @@
+T1	Quantity 824 827	95%
+T2	Unit 826 827	%
+T3	MeasuredProperty 828 844	confidence level
+T5	MeasuredEntity 739 745	values
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

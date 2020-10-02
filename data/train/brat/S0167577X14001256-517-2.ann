@@ -1,0 +1,6 @@
+T1	Quantity 400 407	250 kHz
+T2	MeasuredEntity 294 321	3DAP observation conditions
+T3	MeasuredProperty 369 396	laser-pulse repetition rate
+T4	Unit 404 407	kHz
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Quantity 107 133	before the age of 20 years
+T2	MeasuredEntity 65 95	PEO and pigmentary retinopathy
+T3	MeasuredProperty 101 106	onset
+A1	QuantityQualifier T1 IsRange
+T4	Unit 128 133	years
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

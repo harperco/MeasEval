@@ -1,0 +1,7 @@
+T1	Quantity 355 365	0.5–0.6 nJ
+T2	MeasuredEntity 294 321	3DAP observation conditions
+T3	MeasuredProperty 339 351	laser energy
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 363 365	nJ

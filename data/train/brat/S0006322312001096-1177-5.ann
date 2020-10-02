@@ -1,0 +1,6 @@
+T12	Quantity 384 387	73%
+#12	AnnotatorNotes T12	None
+T32	MeasuredProperty 372 380	response
+R3	HasQuantity Arg1:T32 Arg2:T12
+T42	MeasuredEntity 393 399	cohort
+R4	HasProperty Arg1:T42 Arg2:T32

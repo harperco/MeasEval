@@ -1,0 +1,5 @@
+T211	Quantity 324 330	5-year
+#11	AnnotatorNotes T211	None
+T221	MeasuredEntity 331 342	data cycles
+R1	HasQuantity Arg1:T221 Arg2:T211
+T1	Unit 326 330	year

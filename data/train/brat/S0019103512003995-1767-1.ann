@@ -1,0 +1,6 @@
+T1	Quantity 240 247	1083 nm
+T2	Unit 245 247	nm
+T3	MeasuredEntity 237 239	He
+T4	MeasuredProperty 248 252	line
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

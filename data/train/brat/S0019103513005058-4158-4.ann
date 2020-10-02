@@ -1,0 +1,7 @@
+T1	Quantity 767 776	1.5–2.6 m
+T2	Unit 775 776	m
+T3	MeasuredEntity 724 746	three e-folding depths
+T4	MeasuredProperty 777 782	depth
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+A1	QuantityQualifier T1 IsRange

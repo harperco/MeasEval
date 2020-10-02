@@ -1,0 +1,5 @@
+T1	Quantity 490 499	1 to 2 mg
+A1	QuantityQualifier T1 IsRange
+T2	Unit 497 499	mg
+T3	MeasuredEntity 500 542	intravitreal triamcinolone (TCA) injection
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 811 815	four
+T2	MeasuredEntity 816 833	overlapping cores
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

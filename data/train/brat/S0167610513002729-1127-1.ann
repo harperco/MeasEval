@@ -1,0 +1,4 @@
+T1	Quantity 22 25	45°
+T2	Unit 24 25	°
+T3	MeasuredEntity 26 30	case
+R1	HasQuantity Arg1:T3 Arg2:T1	

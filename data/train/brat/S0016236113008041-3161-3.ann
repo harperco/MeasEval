@@ -1,0 +1,4 @@
+T1	Quantity 484 488	6 kg
+T2	MeasuredEntity 489 498	inventory
+T3	Unit 486 488	kg
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Quantity 1308 1316	∼31.5 Ma
+T2	Unit 1314 1316	Ma
+A1	IsApproximate T1
+T3	MeasuredEntity 1252 1297	Intermediate depth silicic acid concentration
+T4	MeasuredProperty 1298 1304	peaked
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

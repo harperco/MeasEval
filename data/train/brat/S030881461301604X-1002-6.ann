@@ -1,0 +1,4 @@
+T1	Quantity 240 242	1%
+T2	Unit 241 242	%
+T3	MeasuredEntity 227 238	nitric acid
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 341 353	1985 to 1988
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 202 219	target population
+T3	MeasuredProperty 313 324	recruitment
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

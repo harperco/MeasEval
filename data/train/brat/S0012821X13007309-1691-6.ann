@@ -1,0 +1,6 @@
+T1	Quantity 646 659	within <0.5 m
+T2	MeasuredEntity 559 603	characteristic positive excursion in δ13Corg
+T3	MeasuredProperty 612 617	shift
+T4	Unit 658 659	m
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

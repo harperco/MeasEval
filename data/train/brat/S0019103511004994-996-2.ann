@@ -1,0 +1,6 @@
+T1	Quantity 328 331	10%
+T3	MeasuredEntity 348 365	upstream velocity
+T4	MeasuredProperty 300 324	assumed surface velocity
+R3	HasQuantity Arg1:T4 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	
+T2	Unit 330 331	%

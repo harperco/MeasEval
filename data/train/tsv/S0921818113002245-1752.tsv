@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0921818113002245-1752	1	Quantity	249	267	T1-1	approximately 1 mm	{"mods": ["IsApproximate"], "unit": "mm"}
+S0921818113002245-1752	1	MeasuredProperty	268	273	T4-1	thick	{"HasQuantity": "T1-1"}
+S0921818113002245-1752	1	MeasuredEntity	213	247	T3-1	distinct layer of clastic sediment	{"HasProperty": "T4-1"}
+S0921818113002245-1752	2	Quantity	321	328	T1-2	5.16 m.	{"unit": "m"}
+S0921818113002245-1752	2	MeasuredProperty	312	317	T2-2	depth	{"HasQuantity": "T1-2"}
+S0921818113002245-1752	2	MeasuredEntity	213	247	T5-2	distinct layer of clastic sediment	{"HasProperty": "T2-2"}
+S0921818113002245-1752	2	Qualifier	280	308	T4-2	high magnetic susceptibility	{"Qualifies": "T5-2"}

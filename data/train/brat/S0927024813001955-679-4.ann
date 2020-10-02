@@ -1,0 +1,7 @@
+T1	Quantity 637 651	after 200 days
+T2	MeasuredEntity 605 616	performance
+A1	QuantityQualifier T1 IsRange
+T3	Unit 647 651	days
+T4	MeasuredProperty 626 636	maintained
+R2	HasProperty Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

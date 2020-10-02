@@ -1,0 +1,3 @@
+T1	Quantity 1133 1137	2010
+T2	MeasuredEntity 1056 1078	more recent validation
+R1	HasQuantity Arg1:T2 Arg2:T1	

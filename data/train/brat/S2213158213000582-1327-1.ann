@@ -1,0 +1,6 @@
+T1	Quantity 636 638	96
+T2	MeasuredProperty 639 667	cortical gray-matter regions
+T3	MeasuredEntity 627 632	masks
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+A1	IsCount T1

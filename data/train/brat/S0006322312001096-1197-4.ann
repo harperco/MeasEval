@@ -1,0 +1,6 @@
+T1	Quantity 479 488	5 or more
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 470 475	score
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 525 542	GHQ-symptom cases
+R2	HasProperty Arg1:T3 Arg2:T2	

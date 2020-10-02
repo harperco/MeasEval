@@ -1,0 +1,4 @@
+T1	Quantity 529 536	10 year
+T2	Unit 532 536	year
+T3	MeasuredEntity 538 551	ncidence rate
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-961	1	Quantity	110	113	T1-1	+1%	{"unit": "%"}
+S0016236113008041-961	1	MeasuredEntity	96	106	T2-1	error bars	{"HasQuantity": "T1-1"}

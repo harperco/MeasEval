@@ -1,0 +1,6 @@
+T1	Quantity 108 109	3
+T2	MeasuredEntity 70 74	Data
+T3	MeasuredProperty 104 105	n
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsCount T1

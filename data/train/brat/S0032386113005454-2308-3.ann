@@ -1,0 +1,6 @@
+T1	Quantity 181 187	20 wt%
+T2	Unit 184 187	wt%
+T3	MeasuredEntity 191 206	S-CSR particles
+T4	MeasuredProperty 207 217	were added
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

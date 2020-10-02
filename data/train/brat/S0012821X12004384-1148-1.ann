@@ -1,0 +1,5 @@
+T1	Quantity 82 88	∼56 Ma
+T2	Unit 86 88	Ma
+T3	MeasuredEntity 42 80	Paleocene–Eocene thermal maximum (PETM
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1

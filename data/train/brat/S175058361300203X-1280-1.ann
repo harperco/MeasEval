@@ -1,0 +1,4 @@
+T1	Quantity 657 662	40 Hz
+T2	MeasuredEntity 635 653	dominant frequency
+T3	Unit 660 662	Hz
+R1	HasQuantity Arg1:T2 Arg2:T1	

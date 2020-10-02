@@ -1,0 +1,7 @@
+T1	Quantity 418 437	from 211 K to 284 K
+T2	Unit 436 437	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 385 404	surface temperature
+T4	MeasuredProperty 408 417	increased
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

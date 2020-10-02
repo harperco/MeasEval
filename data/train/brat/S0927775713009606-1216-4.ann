@@ -1,0 +1,5 @@
+T1	Quantity 383 386	0.9
+T2	MeasuredProperty 379 380	K
+T3	MeasuredEntity 247 264	Scherrer equation
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

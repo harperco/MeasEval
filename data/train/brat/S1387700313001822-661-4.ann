@@ -1,0 +1,5 @@
+T1	Quantity 905 916	≈ − 10 mdeg
+T2	Unit 912 916	mdeg
+T3	MeasuredEntity 903 904	θ
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1

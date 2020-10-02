@@ -1,0 +1,11 @@
+T1	Quantity 450 456	42–48%
+T2	Qualifier 400 417	carbon-enrichment
+T3	MeasuredProperty 418 446	increased net photosynthesis
+R1	Qualifies Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 455 456	%
+T5	Qualifier 457 477	relative to controls
+R3	Qualifies Arg1:T5 Arg2:T1	
+T6	MeasuredEntity 368 384	deciduous forest
+R4	HasProperty Arg1:T6 Arg2:T3	
+A1	QuantityQualifier T1 IsRange

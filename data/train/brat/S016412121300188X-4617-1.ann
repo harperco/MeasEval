@@ -1,0 +1,4 @@
+T1	Quantity 227 230	52%
+T2	Unit 229 230	%
+T3	MeasuredEntity 189 225	very large dominant coherent cluster
+R1	HasQuantity Arg1:T3 Arg2:T1	

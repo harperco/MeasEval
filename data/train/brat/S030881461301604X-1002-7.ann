@@ -1,0 +1,4 @@
+T1	Quantity 410 434	1, 5, 10, 20 and 50 μg/L
+T2	MeasuredEntity 357 386	final standard concentrations
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 430 434	μg/L

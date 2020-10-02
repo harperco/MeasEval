@@ -1,0 +1,6 @@
+T1	Quantity 100 107	55.8 Ma
+T2	Unit 105 107	Ma
+T3	MeasuredEntity 4 8	PETM
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 108 111	ago
+R2	Qualifies Arg1:T4 Arg2:T1	

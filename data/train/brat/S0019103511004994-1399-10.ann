@@ -1,0 +1,6 @@
+T1	Quantity 784 805	between 2005 and 2010
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 692 710	Cassini spacecraft
+T3	MeasuredProperty 756 783	flown by Enceladus 14 times
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

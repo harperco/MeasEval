@@ -1,0 +1,6 @@
+T1	Quantity 438 444	10 min
+T2	MeasuredEntity 403 415	tidal period
+T3	MeasuredProperty 434 435	P
+T4	Unit 441 444	min
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

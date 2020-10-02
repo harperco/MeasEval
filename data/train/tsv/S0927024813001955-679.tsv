@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-679	1	Quantity	12	19	T1-1	<200 nm	{"mods": ["IsRange"], "unit": "nm"}
+S0927024813001955-679	1	MeasuredProperty	2	6	T4-1	thin	{"HasQuantity": "T1-1"}
+S0927024813001955-679	1	MeasuredEntity	21	25	T2-1	film	{"HasProperty": "T4-1"}
+S0927024813001955-679	1	Qualifier	7	10	T3-1	ZnO	{"Qualifies": "T2-1"}
+S0927024813001955-679	2	Quantity	323	337	T1-2	3.4+0.1 cm2/Vs	{"mods": ["IsRange"], "unit": "cm2/Vs"}
+S0927024813001955-679	2	MeasuredProperty	302	319	T3-2	electron mobility	{"HasQuantity": "T1-2"}
+S0927024813001955-679	2	MeasuredEntity	261	276	T2-2	AALD ZnO layers	{"HasProperty": "T3-2"}
+S0927024813001955-679	3	Quantity	343	353	T1-3	up to 100%	{"mods": ["IsRange"], "unit": "%"}
+S0927024813001955-679	3	MeasuredProperty	354	384	T3-3	transmittance to visible light	{"HasQuantity": "T1-3"}
+S0927024813001955-679	3	MeasuredEntity	261	276	T4-3	AALD ZnO layers	{"HasProperty": "T3-3"}
+S0927024813001955-679	4	Quantity	637	651	T1-4	after 200 days	{"mods": ["IsRange"], "unit": "days"}
+S0927024813001955-679	4	MeasuredProperty	626	636	T4-4	maintained	{"HasQuantity": "T1-4"}
+S0927024813001955-679	4	MeasuredEntity	605	616	T2-4	performance	{"HasProperty": "T4-4"}

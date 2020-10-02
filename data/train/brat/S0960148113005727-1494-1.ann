@@ -1,0 +1,7 @@
+T1	Quantity 42 81	−0.43 ± 0.05 percentage points per year
+T2	Unit 55 81	percentage points per year
+A1	QuantityQualifier T1 IsMeanHasTolerance
+T3	Qualifier 13 20	average
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 30 38	measures
+R2	HasQuantity Arg1:T4 Arg2:T1	

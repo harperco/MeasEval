@@ -1,0 +1,7 @@
+T1	Quantity 512 515	±5%
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit 514 515	%
+T3	MeasuredProperty 516 521	error
+T4	MeasuredEntity 525 539	CO2 saturation
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

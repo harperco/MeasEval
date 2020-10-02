@@ -1,0 +1,6 @@
+T1	Quantity 29 38	2.5 years
+T2	MeasuredProperty 25 28	age
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 33 38	years
+T4	MeasuredEntity 0 21	Cranial MRI performed
+R2	HasProperty Arg1:T4 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	Quantity 127 130	3–4
+T2	MeasuredProperty 123 124	n
+T3	MeasuredEntity 131 151	independent cultures
+A2	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

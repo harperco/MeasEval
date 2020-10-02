@@ -1,0 +1,6 @@
+T218	Quantity 1532 1544	≥11.1 mmol/L
+#18	AnnotatorNotes T218	None
+A18	QuantityQualifier T218 IsRange
+T228	MeasuredEntity 1508 1531	2-hour postload glucose
+R9	HasQuantity Arg1:T228 Arg2:T218
+T1	Unit 1538 1544	mmol/L

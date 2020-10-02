@@ -1,0 +1,8 @@
+T51	Quantity 420 437	less than one day
+#11	AnnotatorNotes T51	None
+T1	MeasuredProperty 416 417	0
+R1	HasQuantity Arg1:T1 Arg2:T51	
+T2	Unit 434 437	day
+A1	QuantityQualifier T51 IsRange
+T3	MeasuredEntity 398 414	four point scale
+R2	HasProperty Arg1:T3 Arg2:T1	

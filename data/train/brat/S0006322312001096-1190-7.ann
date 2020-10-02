@@ -1,0 +1,6 @@
+T157	Quantity 1493 1504	≥7.0 mmol/L
+#17	AnnotatorNotes T157	None
+A17	QuantityQualifier T157 IsRange
+T237	MeasuredEntity 1477 1492	fasting glucose
+R8	HasQuantity Arg1:T237 Arg2:T157
+T1	Unit 1498 1504	mmol/L

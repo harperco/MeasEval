@@ -1,0 +1,8 @@
+T1	Quantity 201 204	13%
+T2	Unit 203 204	%
+T3	MeasuredProperty 181 191	net growth
+T4	MeasuredEntity 159 174	wild-type trees
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 205 259	less than those over-expressing the cry toxins from Bt
+R3	Qualifies Arg1:T5 Arg2:T1	

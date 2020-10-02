@@ -1,0 +1,8 @@
+T1	Quantity 192 195	81%
+T2	Unit 194 195	%
+T3	MeasuredEntity 199 201	Cl
+T4	MeasuredProperty 157 183	emitted in the exhaust gas
+T5	Qualifier 199 201	Cl
+R1	Qualifies Arg1:T5 Arg2:T4	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	HasProperty Arg1:T3 Arg2:T4	

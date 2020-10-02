@@ -1,0 +1,8 @@
+T1	Quantity 429 437	Two days
+T2	Unit 433 437	days
+T3	Qualifier 438 466	after in ovo transplantation
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 468 488	surviving GFP+ cells
+T5	MeasuredProperty 500 509	dispersed
+R2	HasProperty Arg1:T4 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

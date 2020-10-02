@@ -1,0 +1,8 @@
+T1	Quantity 1015 1021	0.2 μm
+T2	MeasuredProperty 1022 1030	distance
+T3	MeasuredEntity 983 993	scale bars
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1019 1021	μm
+T5	Qualifier 1009 1014	inset
+R3	Qualifies Arg1:T5 Arg2:T3	

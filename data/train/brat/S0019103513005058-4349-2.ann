@@ -1,0 +1,6 @@
+T1	Quantity 201 203	5%
+T2	MeasuredProperty 204 214	increments
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 202 203	%
+T4	MeasuredEntity 171 190	temperature profile
+R2	HasProperty Arg1:T4 Arg2:T2	

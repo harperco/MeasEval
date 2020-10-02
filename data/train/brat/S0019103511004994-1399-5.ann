@@ -1,0 +1,5 @@
+T1	Quantity 512 516	1979
+T2	MeasuredEntity 500 510	Pioneer 11
+T3	MeasuredProperty 480 492	first flybys
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

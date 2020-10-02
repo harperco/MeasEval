@@ -1,0 +1,6 @@
+T1	Quantity 663 670	4 weeks
+T2	MeasuredEntity 641 662	Histological analysis
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 665 670	weeks
+T4	Qualifier 671 692	after transplantation
+R2	Qualifies Arg1:T4 Arg2:T1	

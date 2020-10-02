@@ -1,0 +1,7 @@
+T1	Quantity 1913 1927	<1 ppm by mass
+T2	MeasuredProperty 1808 1826	Native perchlorate
+T3	MeasuredEntity 1866 1893	martian meteorite EETA79001
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1916 1927	ppm by mass
+A1	QuantityQualifier T1 IsRange

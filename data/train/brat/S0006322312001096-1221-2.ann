@@ -1,0 +1,7 @@
+T12	Quantity 308 311	10%
+#12	AnnotatorNotes T12	None
+T62	MeasuredProperty 312 329	absolute increase
+R2	HasQuantity Arg1:T62 Arg2:T12
+T1	MeasuredEntity 333 343	risk score
+R1	HasProperty Arg1:T1 Arg2:T62	
+T2	Unit 310 311	%

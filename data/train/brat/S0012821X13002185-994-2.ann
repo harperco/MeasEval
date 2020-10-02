@@ -1,0 +1,7 @@
+T1	Quantity 368 377	up to 40%
+T2	Unit 376 377	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 381 399	primary production
+T4	MeasuredProperty 316 343	siliceous walled autotrophs
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

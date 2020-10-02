@@ -1,0 +1,7 @@
+T1	Quantity 1033 1046	5–40 nm range
+T2	Unit 1038 1040	nm
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 977 1006	synthesised CdS nanoparticles
+T4	MeasuredProperty 1012 1025	characterised
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

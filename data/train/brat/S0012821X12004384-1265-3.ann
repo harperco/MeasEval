@@ -1,0 +1,7 @@
+T11	Quantity 594 597	5 g
+#11	AnnotatorNotes T11	None
+T81	MeasuredProperty 563 577	initial weight
+R1	HasQuantity Arg1:T81 Arg2:T11
+T91	MeasuredEntity 601 615	dried sediment
+R2	HasProperty Arg1:T91 Arg2:T81
+T1	Unit 596 597	g

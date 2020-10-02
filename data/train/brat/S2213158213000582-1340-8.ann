@@ -1,0 +1,5 @@
+T1	Quantity 552 556	0.25
+T2	MeasuredEntity 516 532	gradiometer data
+T3	MeasuredProperty 548 549	p
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

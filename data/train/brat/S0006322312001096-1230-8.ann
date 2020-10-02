@@ -1,0 +1,5 @@
+T1	Quantity 828 831	.64
+T2	MeasuredProperty 824 825	r
+T3	MeasuredEntity 793 823	Pearson correlation at phase 7
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

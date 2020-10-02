@@ -1,0 +1,7 @@
+T1	Quantity 48 84	between ∼01:25:00 UT and 01:25:40 UT
+A1	QuantityQualifier T1 IsRange
+T2	Unit 82 84	UT
+T3	MeasuredProperty 21 33	acceleration
+T4	MeasuredEntity 37 47	heavy-ions
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

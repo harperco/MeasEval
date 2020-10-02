@@ -1,0 +1,4 @@
+T1	Quantity 1026 1030	2–3%
+T2	MeasuredEntity 986 1009	H Lyman α transit depth
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1029 1030	%

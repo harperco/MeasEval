@@ -1,0 +1,5 @@
+T1	MeasuredEntity 600 625	antidepressant medication
+T2	MeasuredProperty 645 656	odds ratios
+T3	Quantity 671 675	1.24
+R1	HasProperty Arg1:T1 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T3	

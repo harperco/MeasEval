@@ -1,0 +1,4 @@
+T1	Quantity 1910 1915	0.2p0
+T2	MeasuredEntity 1885 1900	injection level
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1913 1915	p0

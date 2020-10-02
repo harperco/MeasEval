@@ -1,0 +1,4 @@
+T1	Quantity 188 191	two
+T2	MeasuredEntity 192 280	endogenous cold-binding factor/drought responsive element binding (CBF/DREB)1-like genes
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

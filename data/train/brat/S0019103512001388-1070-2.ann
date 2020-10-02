@@ -1,0 +1,9 @@
+T1	Quantity 65 80	two days before
+T2	Qualifier 85 114	close approach of BS1 and BS2
+T3	Unit 69 73	days
+T4	MeasuredEntity 0 30	H-band slit-viewing VLT images
+T5	MeasuredProperty 31 36	taken
+R1	HasProperty Arg1:T4 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

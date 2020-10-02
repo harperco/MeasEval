@@ -1,0 +1,9 @@
+T2	Unit 272 282	% per year
+T3	MeasuredEntity 230 250	wind farms in the UK
+T1	Quantity 268 282	5–13% per year
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier 256 264	declined
+T4	MeasuredProperty 214 226	load factors
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R3	Qualifies Arg1:T5 Arg2:T1	

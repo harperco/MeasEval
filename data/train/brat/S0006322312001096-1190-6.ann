@@ -1,0 +1,7 @@
+T56	Quantity 1441 1450	1.4%–3.1%
+A16	QuantityQualifier T56 IsRange
+T66	MeasuredProperty 1410 1439	mean coefficient of variation
+R7	HasQuantity Arg1:T66 Arg2:T56
+T1	MeasuredEntity 1308 1330	glucose oxidase method
+T2	Unit 1449 1450	%
+R1	HasProperty Arg1:T1 Arg2:T66	

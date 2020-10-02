@@ -1,0 +1,5 @@
+T1	Quantity 187 198	December 16
+T2	MeasuredEntity 47 93	differential brightness of BS1 in the H filter
+T3	MeasuredProperty 166 174	declined
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

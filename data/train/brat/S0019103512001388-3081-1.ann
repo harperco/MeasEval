@@ -1,0 +1,6 @@
+T1	Quantity 113 118	0.64%
+T2	Unit 117 118	%
+T3	MeasuredProperty 25 77	fractional integrated differential brightness of BS1
+T4	MeasuredEntity 85 93	H filter
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

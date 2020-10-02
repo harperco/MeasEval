@@ -1,0 +1,8 @@
+T21	Quantity 233 243	54.8 years
+#11	AnnotatorNotes T21	None
+A11	QuantityQualifier T21 IsMean
+T31	MeasuredProperty 224 232	mean age
+R1	HasQuantity Arg1:T31 Arg2:T21
+T41	MeasuredEntity 205 222	5318 participants
+R2	HasProperty Arg1:T41 Arg2:T31
+T1	Unit 238 243	years

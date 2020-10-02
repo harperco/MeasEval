@@ -1,0 +1,10 @@
+T2	Quantity 449 451	65
+A1	QuantityQualifier T2 IsRange
+T1	MeasuredEntity 411 430	depressive symptoms
+T3	MeasuredProperty 442 445	age
+T4	Qualifier 431 437	before
+R1	Qualifies Arg1:T4 Arg2:T2	
+T5	Qualifier 373 405	stroke risk score was associated
+R2	Qualifies Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T1 Arg2:T3	
+R4	HasQuantity Arg1:T3 Arg2:T2	

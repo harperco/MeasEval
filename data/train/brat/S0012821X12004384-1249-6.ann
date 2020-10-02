@@ -1,0 +1,5 @@
+T1	Quantity 1010 1039	approximately 13 pairs per mm
+A1	IsApproximate T1
+T2	Unit 1027 1039	pairs per mm
+T3	MeasuredEntity 950 957	Laminae
+R1	HasQuantity Arg1:T3 Arg2:T1	

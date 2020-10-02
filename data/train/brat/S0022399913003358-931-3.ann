@@ -1,0 +1,5 @@
+T1	Quantity 567 580	over 48 years
+T2	Unit 575 580	years
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 555 561	adults
+R1	HasQuantity Arg1:T3 Arg2:T1	

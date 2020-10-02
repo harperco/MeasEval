@@ -1,0 +1,9 @@
+T1	Quantity 1626 1635	up to 25%
+A1	QuantityQualifier T1 IsRange
+T2	Qualifier 1612 1625	ageing causes
+T3	MeasuredProperty 1636 1645	variation
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 1634 1635	%
+T5	MeasuredEntity 1654 1671	different devices
+R1	Qualifies Arg1:T2 Arg2:T5	
+R3	HasProperty Arg1:T5 Arg2:T3	

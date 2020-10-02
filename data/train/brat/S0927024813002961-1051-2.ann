@@ -1,0 +1,4 @@
+T1	Quantity 967 970	two
+T2	MeasuredEntity 971 978	effects
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

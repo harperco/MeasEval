@@ -1,0 +1,5 @@
+T1	Quantity 626 634	∼0.4 mm2
+T2	MeasuredEntity 613 624	small pores
+A1	IsApproximate T1
+T3	Unit 631 634	mm2
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 355 374	two beach materials
+T3	MeasuredProperty 346 354	involved
+T4	MeasuredEntity 334 345	experiments
+T2	Unit 359 374	beach materials
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

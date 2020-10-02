@@ -1,0 +1,6 @@
+T1	Quantity 317 325	67-year-
+T2	MeasuredProperty 325 328	old
+T3	MeasuredEntity 306 313	patient
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T5	Unit 320 324	year

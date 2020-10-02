@@ -1,0 +1,5 @@
+T66	Quantity 1357 1362	63 μm
+#16	AnnotatorNotes T66	None
+T106	MeasuredEntity 1363 1368	sieve
+R6	HasQuantity Arg1:T106 Arg2:T66
+T1	Unit 1360 1362	μm

@@ -1,0 +1,9 @@
+T1	Quantity 917 923	1 μbar
+T2	MeasuredEntity 887 907	molecules dissociate
+T3	MeasuredProperty 924 929	level
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 919 923	μbar
+T5	Qualifier 908 912	near
+R3	Qualifies Arg1:T5 Arg2:T1	
+A1	IsApproximate T1

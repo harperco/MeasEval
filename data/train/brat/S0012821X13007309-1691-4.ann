@@ -1,0 +1,8 @@
+T1	Quantity 609 611	4‰
+T2	MeasuredProperty 612 617	shift
+T3	MeasuredEntity 559 603	characteristic positive excursion in δ13Corg
+R1	HasProperty Arg1:T3 Arg2:T2	
+T4	Unit 610 611	‰
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T5	Qualifier 636 659	occurring within <0.5 m
+R3	Qualifies Arg1:T5 Arg2:T2	

@@ -1,0 +1,8 @@
+T11	Quantity 39 55	range 66% to 88%
+#11	AnnotatorNotes T11	None
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredProperty 15 23	response
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 31 37	survey
+R2	HasProperty Arg1:T31 Arg2:T21
+T1	Unit 54 55	%

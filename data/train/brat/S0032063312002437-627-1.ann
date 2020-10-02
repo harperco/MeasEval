@@ -1,0 +1,4 @@
+T1	Quantity 343 348	192 s
+T2	MeasuredEntity 349 354	cycle
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 347 348	s

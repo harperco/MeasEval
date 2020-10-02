@@ -1,0 +1,6 @@
+T1	Quantity 110 115	4.0 V
+T2	Unit 114 115	V
+T3	MeasuredProperty 99 106	charged
+T4	MeasuredEntity 88 93	cells
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

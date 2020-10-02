@@ -1,0 +1,9 @@
+T11	Quantity 945 952	103 yrs
+#11	AnnotatorNotes T11	None
+T21	Qualifier 937 943	before
+R1	Qualifies Arg1:T21 Arg2:T11
+T31	Qualifier 954 961	the CIE
+T1	Unit 949 952	yrs
+T2	MeasuredEntity 880 931	halocline stratification and terrigenous deposition
+R2	Qualifies Arg1:T31 Arg2:T11	
+R3	HasQuantity Arg1:T2 Arg2:T11	

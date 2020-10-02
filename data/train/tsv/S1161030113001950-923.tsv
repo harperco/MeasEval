@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1161030113001950-923	1	Quantity	1127	1128	T1-1	4	{"mods": ["IsCount"]}
+S1161030113001950-923	1	MeasuredEntity	1129	1136	T2-1	classes	{"HasQuantity": "T1-1"}
+S1161030113001950-923	2	Quantity	1725	1731	T1-2	90–95%	{"mods": ["IsRange"], "unit": "%"}
+S1161030113001950-923	2	MeasuredProperty	1732	1758	T3-2	maximum yield for the year	{"HasQuantity": "T1-2"}
+S1161030113001950-923	2	MeasuredEntity	1649	1691	T4-2	nutrient sufficiency recommendation system	{"HasProperty": "T3-2"}
+S1161030113001950-923	3	Quantity	1868	1877	T1-3	4–8 years	{"mods": ["IsRange"], "unit": "years"}
+S1161030113001950-923	3	MeasuredProperty	1844	1858	T3-3	period of time	{"HasQuantity": "T1-3"}
+S1161030113001950-923	3	MeasuredEntity	1812	1828	T4-3	soil test values	{"HasProperty": "T3-3"}

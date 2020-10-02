@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071713001971-1388	1	Quantity	178	181	T1-1	55%	{"unit": "%"}
+S0038071713001971-1388	1	MeasuredProperty	213	271	T4-1	stimulated (encouraged) by a certain set of soil variables	{"HasQuantity": "T1-1"}
+S0038071713001971-1388	1	MeasuredEntity	186	207	T2-1	OTUs in healthy soils	{"HasProperty": "T4-1"}
+S0038071713001971-1388	2	Quantity	292	295	T1-2	63%	{"unit": "%"}
+S0038071713001971-1388	2	MeasuredProperty	315	343	T5-2	were inhibited (discouraged)	{"HasQuantity": "T1-2"}
+S0038071713001971-1388	2	MeasuredEntity	186	190	T3-2	OTUs	{"HasProperty": "T5-2"}
+S0038071713001971-1388	2	Qualifier	297	314	T4-2	in diseased soils	{"Qualifies": "T3-2"}
+S0038071713001971-1388	2	Qualifier	237	271	T6-2	by a certain set of soil variables	{"Qualifies": "T5-2"}

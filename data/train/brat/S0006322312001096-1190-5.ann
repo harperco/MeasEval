@@ -1,0 +1,5 @@
+T35	Quantity 1248 1252	75 g
+#15	AnnotatorNotes T35	None
+T205	MeasuredEntity 1253 1269	glucose solution
+R6	HasQuantity Arg1:T205 Arg2:T35
+T1	Unit 1251 1252	g

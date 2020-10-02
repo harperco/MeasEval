@@ -1,0 +1,9 @@
+T1	Quantity 848 855	10–100%
+A1	QuantityQualifier T1 IsRange
+T2	Unit 854 855	%
+T3	MeasuredEntity 863 876	planet’s mass
+T4	MeasuredProperty 840 844	loss
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 877 918	over the estimated lifetime of the system
+R3	Qualifies Arg1:T5 Arg2:T1	

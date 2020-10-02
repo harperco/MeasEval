@@ -1,0 +1,6 @@
+T1	Quantity 576 582	200 °C
+T2	Unit 580 582	°C
+T3	MeasuredProperty 562 572	pre-anneal
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 497 504	samples
+R3	HasProperty Arg1:T5 Arg2:T3	

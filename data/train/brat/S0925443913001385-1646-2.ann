@@ -1,0 +1,8 @@
+T1	Quantity 1438 1441	63%
+T2	MeasuredProperty 1391 1419	levels in the subject sample
+T3	Qualifier 1425 1437	decreased to
+T4	MeasuredEntity 1445 1458	control value
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T2	
+T5	Unit 1440 1441	%
+R3	Qualifies Arg1:T3 Arg2:T1	

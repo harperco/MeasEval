@@ -1,0 +1,7 @@
+T1	Quantity 201 219	approximately 1 cm
+T2	MeasuredProperty 195 199	thin
+T3	MeasuredEntity 221 269	vertical slab of relatively undisturbed sediment
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+T4	Unit 217 219	cm

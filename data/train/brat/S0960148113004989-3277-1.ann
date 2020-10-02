@@ -1,0 +1,6 @@
+T1	Quantity 130 134	12 h
+T2	Unit 133 134	h
+T3	MeasuredEntity 93 108	simulation time
+T4	MeasuredProperty 122 127	one P
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

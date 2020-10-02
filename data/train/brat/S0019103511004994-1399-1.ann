@@ -1,0 +1,4 @@
+T1	Quantity 32 45	62 satellites
+T2	MeasuredEntity 49 55	Saturn
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

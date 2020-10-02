@@ -1,0 +1,7 @@
+T1	Quantity 323 337	3.4+0.1 cm2/Vs
+T2	MeasuredEntity 261 276	AALD ZnO layers
+T3	MeasuredProperty 302 319	electron mobility
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 331 337	cm2/Vs
+A1	QuantityQualifier T1 IsRange

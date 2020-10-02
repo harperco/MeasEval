@@ -1,0 +1,6 @@
+T1	Quantity 216 218	37
+T2	MeasuredEntity 229 262	electron precipitation signatures
+T3	MeasuredProperty 219 225	events
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsCount T1

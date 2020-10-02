@@ -1,0 +1,4 @@
+T1	Quantity 1005 1013	2 months
+T2	MeasuredEntity 971 1001	serum level of IFN-γ increased
+T4	Unit 1007 1013	months
+R1	HasQuantity Arg1:T2 Arg2:T1	

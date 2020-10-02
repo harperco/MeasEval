@@ -1,0 +1,7 @@
+T1	Quantity 517 522	∼10eV
+T2	MeasuredEntity 485 495	heavy-ions
+T3	MeasuredProperty 501 509	energies
+R1	HasProperty Arg1:T2 Arg2:T3	
+A1	IsApproximate T1
+T4	Unit 520 522	eV
+R2	HasQuantity Arg1:T3 Arg2:T1	

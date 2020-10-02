@@ -1,0 +1,7 @@
+T1	Quantity 434 444	15 or less
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 412 429	maximum ion count
+A2	IsCount T1
+T3	MeasuredProperty 385 404	mass channel number
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

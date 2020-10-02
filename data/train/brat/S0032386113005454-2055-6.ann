@@ -1,0 +1,3 @@
+T1	Quantity 866 871	0.725
+T2	MeasuredEntity 833 845	front factor
+R1	HasQuantity Arg1:T2 Arg2:T1	

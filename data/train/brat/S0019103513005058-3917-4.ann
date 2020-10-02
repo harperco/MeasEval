@@ -1,0 +1,5 @@
+T1	Quantity 586 590	zero
+T2	MeasuredEntity 567 578	all species
+T3	MeasuredProperty 591 610	deposition velocity
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

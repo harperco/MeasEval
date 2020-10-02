@@ -1,0 +1,4 @@
+T1	Quantity 49 54	90 kW
+T2	Unit 52 54	kW
+T3	MeasuredEntity 55 81	oxy-combustion pilot plant
+R1	HasQuantity Arg1:T3 Arg2:T1	

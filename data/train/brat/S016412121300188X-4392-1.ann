@@ -1,0 +1,5 @@
+T1	Quantity 97 101	1.00
+T2	MeasuredProperty 84 93	precision
+T3	MeasuredEntity 122 135	hash function
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

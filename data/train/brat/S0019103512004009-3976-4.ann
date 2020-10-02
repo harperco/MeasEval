@@ -1,0 +1,6 @@
+T1	Quantity 372 381	30 km s−1
+T2	MeasuredProperty 333 341	velocity
+T3	MeasuredEntity 349 363	upper boundary
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 375 381	km s−1

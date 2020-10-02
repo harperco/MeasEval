@@ -1,0 +1,4 @@
+T1	Quantity 75 81	1.0 kg
+T2	Unit 79 81	kg
+T3	MeasuredEntity 82 87	plate
+R1	HasQuantity Arg1:T3 Arg2:T1	

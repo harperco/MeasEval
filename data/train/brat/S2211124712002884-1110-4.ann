@@ -1,0 +1,4 @@
+T1	Quantity 441 450	0.1 mg/ml
+T2	MeasuredEntity 426 439	poly-D-lysine
+T3	Unit 445 450	mg/ml
+R1	HasQuantity Arg1:T2 Arg2:T1	

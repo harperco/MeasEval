@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1267	1	Quantity	416	454	T1-1	a few percent to around thirty percent	{"mods": ["IsRange"], "unit": "percent"}
+S1750583613004192-1267	1	MeasuredEntity	386	400	T3-1	gas saturation	{"HasQuantity": "T1-1"}
+S1750583613004192-1267	2	Quantity	485	505	T1-2	above thirty percent	{"mods": ["IsRange"], "unit": "percent"}
+S1750583613004192-1267	2	MeasuredEntity	468	479	T2-2	saturations	{"HasQuantity": "T1-2"}
+S1750583613004192-1267	3	Quantity	597	600	T1-3	80%	{"unit": "%"}
+S1750583613004192-1267	3	MeasuredProperty	601	615	T3-3	gas saturation	{"HasQuantity": "T1-3"}
+S1750583613004192-1267	3	MeasuredEntity	649	663	T4-3	Sleipner plume	{"HasProperty": "T3-3"}
+S1750583613004192-1267	4	Quantity	769	772	T1-4	80%	{"unit": "%"}
+S1750583613004192-1267	4	MeasuredProperty	808	819	T4-4	upper limit	{"HasQuantity": "T1-4"}
+S1750583613004192-1267	4	MeasuredEntity	827	856	T3-4	mean saturation for the plume	{"HasProperty": "T4-4"}
+S1750583613004192-1267	5	Quantity	893	896	T1-5	40%	
+S1750583613004192-1267	5	MeasuredProperty	862	873	T2-5	lower limit	{"HasQuantity": "T1-5"}
+S1750583613004192-1267	5	MeasuredEntity	827	856	T3-5	mean saturation for the plume	{"HasProperty": "T2-5"}

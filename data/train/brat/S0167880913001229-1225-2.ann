@@ -1,0 +1,6 @@
+T1	Quantity 288 295	0–10 cm
+T2	MeasuredEntity 275 284	SOC stock
+T3	MeasuredProperty 296 301	depth
+T4	Unit 293 295	cm
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

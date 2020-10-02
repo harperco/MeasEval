@@ -1,0 +1,7 @@
+T21	Quantity 732 735	84%
+#11	AnnotatorNotes T21	None
+T71	MeasuredProperty 721 730	sensitive
+R1	HasQuantity Arg1:T71 Arg2:T21
+T81	MeasuredEntity 702 714	GHQ caseness
+R2	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 734 735	%

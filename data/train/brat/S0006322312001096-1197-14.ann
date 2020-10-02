@@ -1,0 +1,7 @@
+T57	Quantity 1290 1293	81%
+#17	AnnotatorNotes T57	None
+T147	MeasuredProperty 1159 1170	specificity
+R12	HasQuantity Arg1:T147 Arg2:T57
+T137	MeasuredEntity 1174 1194	GHQ symptom caseness
+R13	HasProperty Arg1:T137 Arg2:T147
+T1	Unit 1292 1293	%

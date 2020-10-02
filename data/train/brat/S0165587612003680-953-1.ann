@@ -1,0 +1,7 @@
+T1	Quantity 295 308	more than 90%
+T2	MeasuredEntity 253 291	children with OME and/or recurrent AOM
+T3	MeasuredProperty 193 249	biofilms have been identified on human middle ear mucosa
+T4	Unit 307 308	%
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

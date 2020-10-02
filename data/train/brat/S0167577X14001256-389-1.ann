@@ -1,0 +1,6 @@
+T1	Quantity 265 269	4 nm
+T2	Unit 267 269	nm
+T3	MeasuredProperty 270 275	width
+T4	MeasuredEntity 256 261	arrow
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

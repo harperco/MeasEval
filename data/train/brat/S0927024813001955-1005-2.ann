@@ -1,0 +1,7 @@
+T1	Quantity 766 776	up to 100%
+T2	Unit 775 776	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 777 804	visible light transmittance
+T4	MeasuredEntity 711 716	films
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

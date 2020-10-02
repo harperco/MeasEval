@@ -1,0 +1,7 @@
+T1	Quantity 332 352	approximately 60 eV.
+T2	Unit 349 351	eV
+A1	IsApproximate T1
+T3	MeasuredProperty 300 306	energy
+T4	MeasuredEntity 314 318	peak
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 842 848	20 wt%
+T2	Unit 845 848	wt%
+T3	MeasuredEntity 849 877	S-CSR-modified epoxy polymer
+R1	HasQuantity Arg1:T3 Arg2:T1	

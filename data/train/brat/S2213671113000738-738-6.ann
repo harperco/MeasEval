@@ -1,0 +1,5 @@
+T1	Quantity 1903 1908	1/100
+T2	MeasuredProperty 1774 1855	expression of HLA-I during neural differentiation of human ESCs (hESCs) and iPSCs
+T3	MeasuredEntity 1931 1983	human peripheral blood cells in both hESCs and iPSCs
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

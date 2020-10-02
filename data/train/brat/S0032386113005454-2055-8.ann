@@ -1,0 +1,8 @@
+T1	Quantity 1008 1017	1.20 g/m3
+T2	Unit 1013 1017	g/m3
+T3	MeasuredEntity 922 927	epoxy
+T4	MeasuredProperty 903 910	density
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 928 960	was measured at room temperature
+R3	Qualifies Arg1:T5 Arg2:T4	

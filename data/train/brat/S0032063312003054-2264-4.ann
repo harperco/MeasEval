@@ -1,0 +1,6 @@
+T1	Quantity 697 703	400 km
+T2	MeasuredProperty 638 653	horizontal size
+T3	MeasuredEntity 659 693	closed crustal magnetic field line
+T4	Unit 701 703	km
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

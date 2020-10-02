@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4536	1	Quantity	345	349	T1-1	∼70%	{"mods": ["IsApproximate"], "unit": "%"}
+S0168945213001805-4536	1	MeasuredProperty	305	332	T3-1	Cellulose and hemicellulose	{"HasQuantity": "T1-1"}
+S0168945213001805-4536	1	MeasuredEntity	353	357	T2-1	wood	{"HasProperty": "T3-1"}

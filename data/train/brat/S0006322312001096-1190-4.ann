@@ -1,0 +1,9 @@
+T44	Quantity 1216 1223	2 hours
+#14	AnnotatorNotes T44	None
+T144	Qualifier 1224 1269	postadministration of a 75 g glucose solution
+R5	Qualifies Arg1:T144 Arg2:T44
+T1	MeasuredEntity 1177 1201	new venous blood samples
+T2	MeasuredProperty 1207 1212	taken
+T3	Unit 1218 1223	hours
+R1	HasProperty Arg1:T1 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T44	

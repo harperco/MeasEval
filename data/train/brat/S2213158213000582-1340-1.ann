@@ -1,0 +1,4 @@
+T1	Quantity 28 35	5–55 Hz
+T2	Unit 33 35	Hz
+T3	MeasuredEntity 36 51	bandpass filter
+R1	HasQuantity Arg1:T3 Arg2:T1	

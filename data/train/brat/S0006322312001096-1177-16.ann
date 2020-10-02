@@ -1,0 +1,4 @@
+T1	MeasuredEntity 671 678	phase 9
+T2	Quantity 680 692	2008 to 2009
+A1	QuantityQualifier T2 IsRange
+R1	HasQuantity Arg1:T1 Arg2:T2	

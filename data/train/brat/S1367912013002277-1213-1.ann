@@ -1,0 +1,7 @@
+T1	Quantity 223 232	2.5–10 μm
+T2	Unit 230 232	μm
+T3	MeasuredEntity 195 214	collected particles
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 234 238	PM10
+R2	Qualifies Arg1:T4 Arg2:T3	
+A1	QuantityQualifier T1 IsRange

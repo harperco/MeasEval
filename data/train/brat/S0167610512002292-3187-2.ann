@@ -1,0 +1,4 @@
+T1	Quantity 87 94	0.563 m
+T2	Unit 93 94	m
+T3	MeasuredEntity 95 107	square plate
+R1	HasQuantity Arg1:T3 Arg2:T1	

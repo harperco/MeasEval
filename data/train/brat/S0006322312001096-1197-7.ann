@@ -1,0 +1,7 @@
+T12	Quantity 751 754	84%
+#12	AnnotatorNotes T12	None
+T92	MeasuredProperty 741 749	specific
+R3	HasQuantity Arg1:T92 Arg2:T12
+T82	MeasuredEntity 702 714	GHQ caseness
+R4	HasProperty Arg1:T82 Arg2:T92
+T1	Unit 753 754	%

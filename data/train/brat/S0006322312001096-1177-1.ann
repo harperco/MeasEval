@@ -1,0 +1,5 @@
+T1	Quantity 94 98	1985
+T2	MeasuredEntity 4 22	Whitehall II study
+T3	MeasuredProperty 79 90	established
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

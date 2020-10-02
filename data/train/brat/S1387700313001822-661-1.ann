@@ -1,0 +1,6 @@
+T1	Quantity 456 462	260 nm
+T2	Unit 460 462	nm
+T4	MeasuredProperty 435 448	negative band
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T3	MeasuredEntity 226 256	solid state CD spectrum of GMP
+R1	HasProperty Arg1:T3 Arg2:T4	

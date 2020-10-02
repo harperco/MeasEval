@@ -1,0 +1,5 @@
+T43	Quantity 438 441	90%
+#13	AnnotatorNotes T43	None
+T93	MeasuredEntity 442 447	power
+R3	HasQuantity Arg1:T93 Arg2:T43
+T2	Unit 440 441	%

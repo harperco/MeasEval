@@ -1,0 +1,1 @@
+Comparison of the performance of ITO/AALD ZnO/P3HT:PCBM/MoO3/Ag devices with the 125 nm thick AALD ZnO film post-annealed at different temperatures for 1 h. The uncertainties represent the variation in the properties among multiple devices made with the same parameters. The devices were measured after one week of storage in the dark under ambient conditions.

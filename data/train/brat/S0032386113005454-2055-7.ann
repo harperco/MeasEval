@@ -1,0 +1,3 @@
+T1	Quantity 944 960	room temperature
+T2	MeasuredEntity 922 927	epoxy
+R1	HasQuantity Arg1:T2 Arg2:T1	

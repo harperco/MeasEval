@@ -1,0 +1,8 @@
+T44	Quantity 1192 1196	>90%
+#14	AnnotatorNotes T44	None
+A14	QuantityQualifier T44 IsRange
+T1	MeasuredEntity 1116 1133	>250 μm fractions
+T2	MeasuredProperty 1201 1231	amorphous organic matter (AOM)
+R1	HasProperty Arg1:T1 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T44	
+T3	Unit 1195 1196	%

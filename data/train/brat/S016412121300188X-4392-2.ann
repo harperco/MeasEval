@@ -1,0 +1,6 @@
+T1	Quantity 139 143	100%
+T2	Unit 142 143	%
+T3	MeasuredEntity 122 135	hash function
+T4	MeasuredProperty 144 152	accurate
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

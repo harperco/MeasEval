@@ -1,0 +1,5 @@
+T11	Quantity 590 593	95%
+#11	AnnotatorNotes T11	None
+T21	MeasuredEntity 594 596	CI
+R1	HasQuantity Arg1:T21 Arg2:T11
+T2	Unit 592 593	%

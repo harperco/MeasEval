@@ -1,0 +1,5 @@
+T1	Quantity 588 592	1.31
+T2	MeasuredEntity 561 578	magnetometer data
+T3	MeasuredProperty 580 585	t(39)
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

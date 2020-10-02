@@ -1,0 +1,6 @@
+T1	Quantity 170 173	two
+T2	MeasuredEntity 174 181	animals
+T3	Qualifier 164 169	other
+R1	Qualifies Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

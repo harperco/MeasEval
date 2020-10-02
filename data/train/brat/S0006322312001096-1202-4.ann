@@ -1,0 +1,8 @@
+T62	Quantity 443 451	1–2 days
+#12	AnnotatorNotes T62	None
+A1	QuantityQualifier T62 IsRange
+T1	MeasuredProperty 439 440	1
+R1	HasQuantity Arg1:T1 Arg2:T62	
+T2	Unit 447 451	days
+T3	MeasuredEntity 398 414	four point scale
+R2	HasProperty Arg1:T3 Arg2:T1	

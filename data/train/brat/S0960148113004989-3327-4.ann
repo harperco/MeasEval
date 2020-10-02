@@ -1,0 +1,5 @@
+T1	Quantity 175 178	one
+T2	MeasuredProperty 179 190	full period
+T3	MeasuredEntity 151 166	simulation time
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

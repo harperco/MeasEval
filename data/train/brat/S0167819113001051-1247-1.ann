@@ -1,0 +1,6 @@
+T1	Quantity 23 25	18
+A1	IsCount T1
+T2	MeasuredProperty 26 31	cores
+T3	MeasuredEntity 14 18	node
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

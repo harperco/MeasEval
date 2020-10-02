@@ -1,0 +1,5 @@
+T22	Quantity 249 252	95%
+#12	AnnotatorNotes T22	None
+T82	MeasuredEntity 253 277	confidence interval [CI]
+R3	HasQuantity Arg1:T82 Arg2:T22
+T3	Unit 251 252	%

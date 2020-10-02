@@ -1,0 +1,6 @@
+T1	Quantity 430 437	80 vol%
+T2	Unit 433 437	vol%
+T3	MeasuredProperty 441 444	C60
+T4	MeasuredEntity 421 424	BHJ
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Quantity 278 294	greater than 70%
+T2	MeasuredProperty 252 272	gene targeting rates
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T3	Unit 293 294	%
+T4	MeasuredEntity 187 191	SOX2
+R2	HasProperty Arg1:T4 Arg2:T2	

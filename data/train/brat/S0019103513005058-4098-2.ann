@@ -1,0 +1,7 @@
+T1	Quantity 465 469	∼35%
+T2	Unit 468 469	%
+A1	IsApproximate T1
+T3	MeasuredEntity 441 452	temperature
+T4	MeasuredProperty 453 461	increase
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 632 637	4.8 m
+T2	MeasuredProperty 638 642	long
+T3	MeasuredEntity 643 660	cores of sediment
+T4	Unit 636 637	m
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

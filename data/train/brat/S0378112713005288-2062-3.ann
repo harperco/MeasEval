@@ -1,0 +1,4 @@
+T1	Quantity 479 490	5.9 million
+T3	MeasuredEntity 491 496	seeds
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsCount T1

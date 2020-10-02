@@ -1,0 +1,7 @@
+T1	Quantity 1465 1492	over more than 20 passages.
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 1400 1439	percentage of GFP-positive (GFP+) cells
+T3	MeasuredEntity 1443 1451	hSOX2-23
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Unit 1483 1491	passages

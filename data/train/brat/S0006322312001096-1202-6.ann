@@ -1,0 +1,8 @@
+T44	Quantity 475 483	5–7 days
+#14	AnnotatorNotes T44	None
+A1	QuantityQualifier T44 IsRange
+T1	Unit 479 483	days
+T2	MeasuredProperty 471 472	3
+R1	HasQuantity Arg1:T2 Arg2:T44	
+T3	MeasuredEntity 398 414	four point scale
+R2	HasProperty Arg1:T3 Arg2:T2	

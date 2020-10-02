@@ -1,0 +1,5 @@
+T1	Quantity 258 262	0.03
+T3	MeasuredProperty 254 255	p
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 182 235	significant variation in total regeneration densities
+R3	HasProperty Arg1:T4 Arg2:T3	

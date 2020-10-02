@@ -1,0 +1,7 @@
+T46	Quantity 669 673	9.2%
+#16	AnnotatorNotes T46	None
+T156	MeasuredProperty 602 632	used antidepressant medication
+R11	HasQuantity Arg1:T156 Arg2:T46
+T166	MeasuredEntity 678 714	those with CES-D depressive symptoms
+R12	HasProperty Arg1:T166 Arg2:T156
+T1	Unit 672 673	%

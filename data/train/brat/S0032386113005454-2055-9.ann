@@ -1,0 +1,6 @@
+T1	Quantity 1021 1026	20 °C
+T2	MeasuredEntity 944 960	room temperature
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1024 1026	°C
+T4	Qualifier 961 996	according to BS ISO 1183-1 Method A
+R2	Qualifies Arg1:T4 Arg2:T2	

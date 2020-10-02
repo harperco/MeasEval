@@ -1,0 +1,5 @@
+T22	Quantity 689 695	0.05 g
+#12	AnnotatorNotes T22	None
+T32	MeasuredEntity 699 713	dried sediment
+R3	HasQuantity Arg1:T32 Arg2:T22
+T1	Unit 694 695	g

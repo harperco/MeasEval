@@ -1,0 +1,5 @@
+T2	Unit 138 139	°
+T4	MeasuredEntity 116 118	2θ
+T1	Quantity 119 139	range from 5° to 85°
+A1	QuantityQualifier T1 IsRange
+R1	HasQuantity Arg1:T4 Arg2:T1	

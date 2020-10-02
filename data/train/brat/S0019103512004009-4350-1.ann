@@ -1,0 +1,11 @@
+T1	Quantity 515 522	∼1000 K
+T2	MeasuredProperty 466 485	maximum temperature
+T3	MeasuredEntity 493 501	C3 model
+R1	HasProperty Arg1:T3 Arg2:T2	
+T4	Qualifier 505 514	cooler by
+R2	Qualifies Arg1:T4 Arg2:T1	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+T5	Unit 521 522	K
+A1	IsApproximate T1
+T6	Qualifier 436 460	Compared to the C1 model
+R4	Qualifies Arg1:T6 Arg2:T1	

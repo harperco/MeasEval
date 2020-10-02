@@ -1,0 +1,4 @@
+T1	Quantity 406 409	six
+A1	IsCount T1
+T2	MeasuredEntity 410 445	Mediterranean forest sites in Italy
+R1	HasQuantity Arg1:T2 Arg2:T1	

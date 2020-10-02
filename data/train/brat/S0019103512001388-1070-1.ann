@@ -1,0 +1,6 @@
+T1	Quantity 40 58	6 November 2011 UT
+T2	Unit 56 58	UT
+T3	MeasuredEntity 0 30	H-band slit-viewing VLT images
+T4	MeasuredProperty 31 36	taken
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 77 85	0.097 nm
+T2	Unit 83 85	nm
+T3	MeasuredEntity 33 53	divalent cation Cd2+
+T4	MeasuredProperty 61 73	ionic radius
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

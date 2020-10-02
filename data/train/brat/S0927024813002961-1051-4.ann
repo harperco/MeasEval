@@ -1,0 +1,5 @@
+T1	Quantity 1457 1472	range of 10–15%
+T2	Unit 1471 1472	%
+T3	MeasuredEntity 1161 1183	performance variations
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

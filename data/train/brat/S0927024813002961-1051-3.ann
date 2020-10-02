@@ -1,0 +1,4 @@
+T1	Quantity 1210 1214	2–7%
+T2	MeasuredEntity 1161 1183	performance variations
+T3	Unit 1213 1214	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-2624	1	Quantity	86	89	T1-1	85%	{"unit": "%"}
+S095741741101342X-2624	1	MeasuredProperty	90	94	T3-1	good	{"HasQuantity": "T1-1"}
+S095741741101342X-2624	1	MeasuredEntity	68	79	T4-1	classifiers	{"HasProperty": "T3-1"}
+S095741741101342X-2624	2	Quantity	96	99	T1-2	15%	{"unit": "%"}
+S095741741101342X-2624	2	MeasuredProperty	100	109	T3-2	bad class	{"HasQuantity": "T1-2"}
+S095741741101342X-2624	2	MeasuredEntity	68	79	T4-2	classifiers	{"HasProperty": "T3-2"}

@@ -1,0 +1,6 @@
+T1	Quantity 488 491	72%
+T2	Unit 490 491	%
+T3	MeasuredEntity 476 482	clones
+T4	MeasuredProperty 498 551	found to carry the GFP-Neo cassette in the SOX2 locus
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

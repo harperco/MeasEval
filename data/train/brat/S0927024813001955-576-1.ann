@@ -1,0 +1,6 @@
+T1	Quantity 81 87	125 nm
+T2	Unit 85 87	nm
+T3	MeasuredProperty 88 93	thick
+T4	MeasuredEntity 94 107	AALD ZnO film
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

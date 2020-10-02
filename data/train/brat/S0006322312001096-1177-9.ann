@@ -1,0 +1,8 @@
+T23	Quantity 536 563	approximately every 5 years
+#13	AnnotatorNotes T23	None
+A13	IsApproximate T23
+T83	MeasuredProperty 524 535	taken place
+R5	HasQuantity Arg1:T83 Arg2:T23
+T93	MeasuredEntity 496 518	follow-up examinations
+R6	HasProperty Arg1:T93 Arg2:T83
+T1	Unit 558 563	years

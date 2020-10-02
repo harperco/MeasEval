@@ -1,0 +1,7 @@
+T62	Quantity 403 409	2-year
+#12	AnnotatorNotes T62	None
+T72	MeasuredProperty 410 419	incidence
+R2	HasQuantity Arg1:T72 Arg2:T62
+T82	MeasuredEntity 423 451	elevated depressive symptoms
+R3	HasProperty Arg1:T82 Arg2:T72
+T1	Unit 405 409	year

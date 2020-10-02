@@ -1,0 +1,7 @@
+T1	Quantity 266 273	∼400eV.
+T2	MeasuredProperty 245 248	DEF
+T3	MeasuredEntity 252 262	heavy-ions
+T4	Unit 270 272	eV
+A1	IsApproximate T1
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

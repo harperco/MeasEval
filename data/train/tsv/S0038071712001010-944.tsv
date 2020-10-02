@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-944	1	Quantity	224	228	T1-1	115%	{"unit": "%"}
+S0038071712001010-944	1	MeasuredProperty	133	176	T2-1	G. mosseae plus G. intraradices combination	{"HasQuantity": "T1-1"}
+S0038071712001010-944	1	MeasuredEntity	193	211	T3-1	mycorrhizal growth	{"HasProperty": "T2-1"}
+S0038071712001010-944	1	Qualifier	234	251	T5-1	whole plant basis	{"Qualifies": "T1-1"}
+S0038071712001010-944	2	Quantity	256	260	T1-2	169%	{"unit": "%"}
+S0038071712001010-944	2	MeasuredProperty	133	176	T2-2	G. mosseae plus G. intraradices combination	{"HasQuantity": "T1-2"}
+S0038071712001010-944	2	MeasuredEntity	193	211	T3-2	mycorrhizal growth	{"HasProperty": "T2-2"}
+S0038071712001010-944	2	Qualifier	266	281	T5-2	root only basis	{"Qualifies": "T1-2"}
+S0038071712001010-944	3	Quantity	287	292	T1-3	0.001	
+S0038071712001010-944	3	MeasuredProperty	283	284	T3-3	P	{"HasQuantity": "T1-3"}
+S0038071712001010-944	3	MeasuredEntity	193	220	T2-3	mycorrhizal growth response	{"HasProperty": "T3-3"}

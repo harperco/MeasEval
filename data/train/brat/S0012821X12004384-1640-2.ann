@@ -1,0 +1,7 @@
+T2	Unit 485 486	m
+T3	MeasuredEntity 422 477	Enhanced halocline stratification and terrigenous input
+T1	Quantity 478 486	from 4 m
+A1	QuantityQualifier T1 IsRange
+T4	Qualifier 487 501	before the CIE
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	Qualifies Arg1:T4 Arg2:T1	

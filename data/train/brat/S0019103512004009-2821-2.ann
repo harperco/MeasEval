@@ -1,0 +1,7 @@
+T1	Quantity 1404 1407	3Rp
+T2	Unit 1405 1407	Rp
+T3	MeasuredEntity 1359 1388	H and O remain mostly neutral
+T4	Qualifier 1398 1403	least
+R1	Qualifies Arg1:T4 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 974 981	25,000×
+T2	MeasuredEntity 924 941	right micrographs
+T3	MeasuredProperty 909 922	magnification
+T4	Unit 980 981	×
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

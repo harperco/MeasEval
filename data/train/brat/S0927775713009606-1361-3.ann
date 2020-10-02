@@ -1,0 +1,7 @@
+T1	Quantity 532 544	0.19–0.21 nm
+A1	QuantityQualifier T1 IsRange
+T2	Unit 542 544	nm
+T3	MeasuredEntity 506 515	H-bonding
+T4	MeasuredProperty 516 525	distances
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

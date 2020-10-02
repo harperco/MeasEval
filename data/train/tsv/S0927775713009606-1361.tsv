@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1361	1	Quantity	77	85	T1-1	0.097 nm	{"unit": "nm"}
+S0927775713009606-1361	1	MeasuredProperty	61	73	T4-1	ionic radius	{"HasQuantity": "T1-1"}
+S0927775713009606-1361	1	MeasuredEntity	33	53	T3-1	divalent cation Cd2+	{"HasProperty": "T4-1"}
+S0927775713009606-1361	2	Quantity	246	260	T1-2	ca. 0.4–1.0 nm	{"mods": ["IsApproximate"], "unit": "nm"}
+S0927775713009606-1361	2	MeasuredProperty	190	205	T3-2	internal cavity	{"HasQuantity": "T1-2"}
+S0927775713009606-1361	2	MeasuredEntity	213	226	T4-2	amylose helix	{"HasProperty": "T3-2"}
+S0927775713009606-1361	2	Qualifier	228	244	T5-2	double or single	{"Qualifies": "T4-2"}
+S0927775713009606-1361	3	Quantity	532	544	T1-3	0.19–0.21 nm	{"mods": ["IsRange"], "unit": "nm"}
+S0927775713009606-1361	3	MeasuredProperty	516	525	T4-3	distances	{"HasQuantity": "T1-3"}
+S0927775713009606-1361	3	MeasuredEntity	506	515	T3-3	H-bonding	{"HasProperty": "T4-3"}

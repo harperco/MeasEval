@@ -1,0 +1,4 @@
+T1	Quantity 1705 1708	two
+T2	MeasuredEntity 1709 1738	lowest locations on the beach
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

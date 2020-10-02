@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-787	1	Quantity	118	122	T1-1	1.37	
+S0167577X13006393-787	1	MeasuredProperty	112	117	T2-1	ratio	{"HasQuantity": "T1-1"}
+S0167577X13006393-787	1	MeasuredEntity	107	111	T3-1	Ca/P	{"HasProperty": "T2-1"}
+S0167577X13006393-787	2	Quantity	176	190	T1-2	before 1200 °C	{"unit": "°C"}
+S0167577X13006393-787	2	MeasuredProperty	169	175	T3-2	occurs	{"HasQuantity": "T1-2"}
+S0167577X13006393-787	2	MeasuredEntity	152	168	T2-2	HA decomposition	{"HasProperty": "T3-2"}
+S0167577X13006393-787	3	Quantity	278	282	T1-3	1.67	
+S0167577X13006393-787	3	MeasuredProperty	272	277	T2-3	ratio	{"HasQuantity": "T1-3"}
+S0167577X13006393-787	3	MeasuredEntity	197	270	T3-3	deficient HA start their decomposition at temperatures lower than pure HA	{"HasProperty": "T2-3"}

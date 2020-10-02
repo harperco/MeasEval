@@ -1,0 +1,3 @@
+T1	Quantity 585 600	9th August 2008
+T2	MeasuredEntity 572 580	data set
+R1	HasQuantity Arg1:T2 Arg2:T1	

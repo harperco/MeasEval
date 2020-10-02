@@ -1,0 +1,10 @@
+T1	Quantity 127 129	65
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 123 126	Age
+T3	Qualifier 106 122	Before and After
+T4	MeasuredEntity 86 105	Depressive Symptoms
+T5	Qualifier 0 82	Association Between Framingham Risk Scores (per 10% Increase) and Subsequent Onset
+R1	Qualifies Arg1:T5 Arg2:T4	
+R2	HasProperty Arg1:T4 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+R4	Qualifies Arg1:T3 Arg2:T1	

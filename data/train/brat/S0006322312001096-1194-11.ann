@@ -1,0 +1,5 @@
+T1	MeasuredProperty 438 449	odds ratios
+T2	MeasuredEntity 505 508	CHD
+T3	Quantity 542 546	2.14
+R1	HasProperty Arg1:T2 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T3	

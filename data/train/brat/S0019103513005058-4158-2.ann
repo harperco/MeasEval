@@ -1,0 +1,7 @@
+T1	Quantity 704 716	0.51–0.85 m.
+T2	MeasuredEntity 639 678	impactors have churned the soil on Mars
+T3	MeasuredProperty 684 700	1/e mixing depth
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 714 715	m
+A1	QuantityQualifier T1 IsRange

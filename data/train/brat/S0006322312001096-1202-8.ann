@@ -1,0 +1,5 @@
+T1	Quantity 576 579	≥16
+T3	MeasuredProperty 568 575	scoring
+T4	MeasuredEntity 580 623	defined as having CES-D depressive symptoms
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R1	HasProperty Arg1:T4 Arg2:T3	

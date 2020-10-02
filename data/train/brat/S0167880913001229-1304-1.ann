@@ -1,0 +1,5 @@
+T1	Quantity 111 137	up to 11.25 Mg ha−1 year−1
+T2	Unit 123 137	Mg ha−1 year−1
+T3	MeasuredEntity 87 106	organic fertilisers
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

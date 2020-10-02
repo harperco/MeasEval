@@ -1,0 +1,5 @@
+T1	MeasuredProperty 483 493	odds ratio
+T2	Quantity 497 501	1.14
+T3	MeasuredEntity 508 553	10% increase in the Framingham CVD risk score
+R1	HasProperty Arg1:T3 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T2	

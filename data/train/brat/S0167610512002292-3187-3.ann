@@ -1,0 +1,6 @@
+T1	Quantity 121 129	0.025 m.
+T2	MeasuredProperty 111 120	thickness
+T3	MeasuredEntity 95 107	square plate
+T4	Unit 127 128	m
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

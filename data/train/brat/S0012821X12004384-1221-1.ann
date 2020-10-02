@@ -1,0 +1,8 @@
+T11	Quantity 662 685	between 200 and >1000 m
+#11	AnnotatorNotes T11	None
+A11	QuantityQualifier T11 IsRange
+T31	MeasuredProperty 692 697	depth
+R1	HasQuantity Arg1:T31 Arg2:T11
+T21	MeasuredEntity 686 691	water
+R2	HasProperty Arg1:T21 Arg2:T31
+T1	Unit 684 685	m

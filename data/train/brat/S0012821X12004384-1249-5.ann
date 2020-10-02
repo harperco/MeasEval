@@ -1,0 +1,4 @@
+T1	Quantity 974 985	26 horizons
+T2	Unit 977 985	horizons
+T3	MeasuredEntity 1001 1005	core
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,7 @@
+T11	Quantity 320 328	65 years
+#11	AnnotatorNotes T11	None
+T1	MeasuredEntity 263 301	increased onset of depressive symptoms
+T2	MeasuredProperty 302 316	before the age
+R1	HasProperty Arg1:T1 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T11	
+T3	Unit 323 328	years

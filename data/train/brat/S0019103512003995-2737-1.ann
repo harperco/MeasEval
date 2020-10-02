@@ -1,0 +1,8 @@
+T1	Quantity 110 114	5–10
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 115 123	stronger
+T3	MeasuredEntity 29 91	stellar XUV flux, or the corresponding alternative heat source
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 124 151	than the average solar flux
+R3	Qualifies Arg1:T4 Arg2:T2	

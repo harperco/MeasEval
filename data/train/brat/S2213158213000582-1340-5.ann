@@ -1,0 +1,9 @@
+T1	Quantity 417 423	96.24%
+T2	MeasuredProperty 335 369	average percent variance explained
+T3	MeasuredEntity 374 404	magnetometer data using VESTAL
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsMean
+T4	Unit 422 423	%
+T5	Qualifier 428 430	HC
+R3	Qualifies Arg1:T5 Arg2:T1	

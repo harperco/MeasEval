@@ -1,0 +1,5 @@
+T1	Quantity 1392 1404	3.00–3.05 ka
+T2	Unit 1402 1404	ka
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1405 1442	cal BP Alpehué Pumice (So-A) eruption
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 655 684	274 Whitehall II participants
+T2	Unit 659 684	Whitehall II participants
+T3	MeasuredEntity 635 651	validation study
+R1	HasQuantity Arg1:T3 Arg2:T1	

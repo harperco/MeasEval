@@ -1,0 +1,4 @@
+T1	Quantity 783 807	274 elderly participants
+T2	Unit 787 807	elderly participants
+T3	MeasuredEntity 763 779	validation study
+R1	HasQuantity Arg1:T3 Arg2:T1	

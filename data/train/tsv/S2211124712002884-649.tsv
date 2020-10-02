@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-649	1	Quantity	117	121	T1-1	100%	{"unit": "%"}
+S2211124712002884-649	1	MeasuredProperty	4	29	T4-1	Intracellular PGRN levels	{"HasQuantity": "T1-1"}
+S2211124712002884-649	1	MeasuredEntity	79	104	T3-1	Values of control line 20	{"HasProperty": "T4-1"}
+S2211124712002884-649	2	Quantity	127	130	T1-2	3–4	{"mods": ["IsRange"]}
+S2211124712002884-649	2	MeasuredProperty	123	124	T2-2	n	{"HasQuantity": "T1-2"}
+S2211124712002884-649	2	MeasuredEntity	131	151	T3-2	independent cultures	{"HasProperty": "T2-2"}

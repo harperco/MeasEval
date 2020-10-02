@@ -1,0 +1,9 @@
+T1	Quantity 81 91	7.83 m s−1
+T2	Unit 86 91	m s−1
+T3	MeasuredEntity 67 71	wind
+T4	MeasuredProperty 72 77	speed
+T5	Qualifier 60 66	Median
+A1	QuantityQualifier T1 IsMedian
+R2	Qualifies Arg1:T5 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

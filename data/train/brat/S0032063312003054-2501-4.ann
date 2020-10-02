@@ -1,0 +1,5 @@
+T1	Quantity 192 195	∼5%
+T2	MeasuredEntity 199 209	MEX orbits
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 194 195	%
+A1	IsApproximate T1

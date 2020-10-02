@@ -1,0 +1,7 @@
+T1	Quantity 628 642	down to −18 °C
+T2	MeasuredProperty 598 627	withstand winter temperatures
+T3	Unit 640 642	°C
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 560 577	Eucalyptus gunnii
+R2	HasProperty Arg1:T4 Arg2:T2	

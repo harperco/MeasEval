@@ -1,0 +1,6 @@
+T1	Quantity 152 155	1 h
+T2	Unit 154 155	h
+T3	MeasuredEntity 94 107	AALD ZnO film
+T4	MeasuredProperty 108 121	post-annealed
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

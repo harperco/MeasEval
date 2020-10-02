@@ -1,0 +1,7 @@
+T1	Quantity 139 155	1180 and 1980 mm
+A1	QuantityQualifier T1 IsList
+T2	Unit 153 155	mm
+T3	MeasuredEntity 0 102	Time-series of model-predicted (solid lines) and experimentally-measured (dashed lines) hydraulic head
+T4	MeasuredProperty 135 136	x
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

@@ -1,0 +1,5 @@
+T1	Quantity 286 300	last 200 years
+T2	MeasuredEntity 265 278	sedimentation
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 295 300	years
+A1	QuantityQualifier T1 IsRange

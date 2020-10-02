@@ -1,0 +1,7 @@
+T1	Quantity 668 680	less than 1%
+T2	MeasuredProperty 586 653	Seismic amplitude differences between the 38 °C and 34 °C scenarios
+A1	QuantityQualifier T1 IsRange
+T3	Unit 679 680	%
+T4	MeasuredEntity 688 720	amplitude values of the baseline
+R1	HasProperty Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

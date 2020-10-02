@@ -1,0 +1,8 @@
+T11	Quantity 102 114	past 14 days
+#11	AnnotatorNotes T11	None
+T1	MeasuredEntity 33 45	participants
+T2	MeasuredProperty 74 94	taken any medication
+R1	HasProperty Arg1:T1 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T11	
+T3	Unit 110 114	days
+A1	QuantityQualifier T11 IsRange

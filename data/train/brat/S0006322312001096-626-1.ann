@@ -1,0 +1,6 @@
+T11	Quantity 48 51	10%
+#11	AnnotatorNotes T11	None
+T21	MeasuredProperty 52 60	Increase
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 20 42	Framingham Risk Scores
+R2	HasProperty Arg1:T31 Arg2:T21

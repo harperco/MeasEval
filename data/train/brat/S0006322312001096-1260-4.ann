@@ -1,0 +1,7 @@
+T94	Quantity 667 671	none
+#14	AnnotatorNotes T94	None
+T104	MeasuredEntity 679 713	objective atherosclerosis measures
+R1	HasQuantity Arg1:T104 Arg2:T94	
+A1	IsCount T94
+T1	Qualifier 718 751	linked with subsequent depression
+R2	Qualifies Arg1:T1 Arg2:T94	

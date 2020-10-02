@@ -1,0 +1,4 @@
+T1	Quantity 621 632	30 vertices
+T2	MeasuredEntity 568 588	rest of the clusters
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 624 632	vertices

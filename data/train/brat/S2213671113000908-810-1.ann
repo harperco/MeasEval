@@ -1,0 +1,8 @@
+T1	Quantity 694 697	80%
+T2	Unit 696 697	%
+T3	MeasuredProperty 729 756	coexpresses CXCR4 and SOX17
+T4	MeasuredEntity 705 728	resulting DE population
+T5	Qualifier 658 688	Flow cytometry analyses showed
+R1	Qualifies Arg1:T5 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

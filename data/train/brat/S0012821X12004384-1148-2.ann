@@ -1,0 +1,8 @@
+T1	Quantity 286 291	54 °N
+T2	Unit 289 291	°N
+T3	MeasuredProperty 272 285	paleolatitude
+T4	MeasuredEntity 187 270	North Atlantic igneous province (NAIP), the Kilda Basin, and the northern rain belt
+R1	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 293 308	during the PETM
+R2	Qualifies Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

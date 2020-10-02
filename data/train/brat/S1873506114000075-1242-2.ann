@@ -1,0 +1,8 @@
+T1	Quantity 1006 1029	approximately 88 ± 1.1%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 HasTolerance
+T2	MeasuredEntity 1033 1038	cells
+T3	MeasuredProperty 1044 1063	AFP-positive on D13
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 1028 1029	%

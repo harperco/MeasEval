@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1689	1	Quantity	521	539	T1-1	hundreds of meters	
+S1750583613004192-1689	2	Quantity	631	637	T1-2	10 MPa	
+S1750583613004192-1689	3	Quantity	827	857	T1-3	less than a few thousand years	
+S1750583613004192-1689	4	Quantity	904	910	T1-4	10 MPa	

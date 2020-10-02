@@ -1,0 +1,6 @@
+T1	Quantity 406 408	5%
+T2	MeasuredEntity 412 436	precipitation signatures
+T3	MeasuredProperty 338 375	peripheral acceleration of heavy-ions
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 407 408	%

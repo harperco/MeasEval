@@ -1,0 +1,8 @@
+T1	Quantity 794 798	7.5%
+T2	MeasuredProperty 711 723	Colonisation
+T3	MeasuredEntity 750 780	G. mosseae and G. intraradices
+T4	Qualifier 786 792	paired
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasProperty Arg1:T3 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+T5	Unit 797 798	%

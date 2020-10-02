@@ -1,0 +1,9 @@
+T11	Quantity 748 752	24 h
+#11	AnnotatorNotes T11	None
+T51	MeasuredProperty 730 747	were refluxed for
+R1	HasQuantity Arg1:T51 Arg2:T11
+T41	MeasuredEntity 722 729	samples
+R2	HasProperty Arg1:T41 Arg2:T51
+T61	Qualifier 753 809	in an azeotropic mixture of dichloromethane and methanol
+R3	Qualifies Arg1:T61 Arg2:T51
+T1	Unit 751 752	h

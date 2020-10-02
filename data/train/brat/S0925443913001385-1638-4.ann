@@ -1,0 +1,4 @@
+T1	Quantity 436 441	three
+A1	IsCount T1
+T3	MeasuredEntity 442 487	proteins of the small ribosomal subunit (SSU)
+R1	HasQuantity Arg1:T3 Arg2:T1	

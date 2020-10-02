@@ -1,0 +1,40 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1197	1	Quantity	8	13	T1-1	three	{"mods": ["IsCount"]}
+S0006322312001096-1197	1	MeasuredEntity	14	44	T2-1	indicators (or proxy measures)	{"HasQuantity": "T1-1"}
+S0006322312001096-1197	2	Quantity	146	153	T1-2	30-item	{"unit": "item"}
+S0006322312001096-1197	2	MeasuredEntity	154	188	T3-2	General Health Questionnaire (GHQ)	{"HasQuantity": "T1-2"}
+S0006322312001096-1197	3	Quantity	413	419	T1-3	1 or 0	{"mods": ["IsList"]}
+S0006322312001096-1197	3	MeasuredProperty	396	402	T2-3	scored	{"HasQuantity": "T1-3"}
+S0006322312001096-1197	3	MeasuredEntity	376	395	T3-3	response categories	{"HasProperty": "T2-3"}
+S0006322312001096-1197	4	Quantity	479	488	T1-4	5 or more	{"mods": ["IsRange"]}
+S0006322312001096-1197	4	MeasuredProperty	470	475	T2-4	score	{"HasQuantity": "T1-4"}
+S0006322312001096-1197	4	MeasuredEntity	525	542	T3-4	GHQ-symptom cases	{"HasProperty": "T2-4"}
+S0006322312001096-1197	5	Quantity	554	560	T1-5	0 to 4	{"mods": ["IsRange"]}
+S0006322312001096-1197	5	MeasuredProperty	547	553	T3-5	scores	{"HasQuantity": "T1-5"}
+S0006322312001096-1197	5	MeasuredEntity	564	572	T2-5	noncases	{"HasProperty": "T3-5"}
+S0006322312001096-1197	5	Qualifier	525	536	T4-5	GHQ-symptom	{"Qualifies": "T2-5"}
+S0006322312001096-1197	6	Quantity	732	735	T21-6	84%	{"unit": "%"}
+S0006322312001096-1197	6	MeasuredProperty	721	730	T71-6	sensitive	{"HasQuantity": "T21-6"}
+S0006322312001096-1197	6	MeasuredEntity	702	714	T81-6	GHQ caseness	{"HasProperty": "T71-6"}
+S0006322312001096-1197	7	Quantity	751	754	T12-7	84%	{"unit": "%"}
+S0006322312001096-1197	7	MeasuredProperty	741	749	T92-7	specific	{"HasQuantity": "T12-7"}
+S0006322312001096-1197	7	MeasuredEntity	702	714	T82-7	GHQ caseness	{"HasProperty": "T92-7"}
+S0006322312001096-1197	8	Quantity	1018	1021	T43-8	73%	{"unit": "%"}
+S0006322312001096-1197	8	MeasuredProperty	1005	1016	T113-8	sensitivity	{"HasQuantity": "T43-8"}
+S0006322312001096-1197	8	MeasuredEntity	884	887	T103-8	GHQ	{"HasProperty": "T113-8"}
+S0006322312001096-1197	9	Quantity	1040	1043	T34-9	78%	{"unit": "%"}
+S0006322312001096-1197	9	MeasuredProperty	1027	1038	T124-9	specificity	{"HasQuantity": "T34-9"}
+S0006322312001096-1197	9	MeasuredEntity	884	887	T104-9	GHQ	{"HasProperty": "T124-9"}
+S0006322312001096-1197	10	Quantity	1099	1115	T1-10	274 participants	{"unit": "participants"}
+S0006322312001096-1197	10	MeasuredEntity	1087	1095	T3-10	subgroup	{"HasQuantity": "T1-10"}
+S0006322312001096-1197	11	Quantity	1121	1129	T165-11	58 to 70	{"mods": ["IsRange"]}
+S0006322312001096-1197	11	MeasuredProperty	1116	1120	T1-11	aged	{"HasQuantity": "T165-11"}
+S0006322312001096-1197	11	MeasuredEntity	1087	1115	T175-11	subgroup of 274 participants	{"HasProperty": "T1-11"}
+S0006322312001096-1197	12	Quantity	1133	1137	T1-12	2010	
+S0006322312001096-1197	12	MeasuredEntity	1056	1078	T2-12	more recent validation	{"HasQuantity": "T1-12"}
+S0006322312001096-1197	13	Quantity	1282	1285	T66-13	80%	{"unit": "%"}
+S0006322312001096-1197	13	MeasuredProperty	1143	1154	T156-13	sensitivity	{"HasQuantity": "T66-13"}
+S0006322312001096-1197	13	MeasuredEntity	1174	1194	T136-13	GHQ symptom caseness	{"HasProperty": "T156-13"}
+S0006322312001096-1197	14	Quantity	1290	1293	T57-14	81%	{"unit": "%"}
+S0006322312001096-1197	14	MeasuredProperty	1159	1170	T147-14	specificity	{"HasQuantity": "T57-14"}
+S0006322312001096-1197	14	MeasuredEntity	1174	1194	T137-14	GHQ symptom caseness	{"HasProperty": "T147-14"}

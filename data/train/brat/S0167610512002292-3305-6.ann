@@ -1,0 +1,6 @@
+T1	Quantity 366 374	126 km/h
+T2	Unit 370 374	km/h
+T3	MeasuredProperty 344 354	wind speed
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 309 325	inflow condition
+R2	HasProperty Arg1:T4 Arg2:T3	

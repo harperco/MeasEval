@@ -1,0 +1,10 @@
+T11	Quantity 673 689	at least 5 hours
+#11	AnnotatorNotes T11	None
+A11	QuantityQualifier T11 IsRange
+T1	MeasuredEntity 626 638	Venous blood
+T2	MeasuredProperty 643 648	taken
+T3	Qualifier 690 722	after a light, fat-free breakfas
+R1	Qualifies Arg1:T3 Arg2:T11	
+R2	HasProperty Arg1:T1 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T11	
+T4	Unit 684 689	hours

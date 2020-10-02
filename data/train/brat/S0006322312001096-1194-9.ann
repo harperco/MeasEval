@@ -1,0 +1,5 @@
+T54	Quantity 520 523	95%
+#14	AnnotatorNotes T54	None
+T104	MeasuredEntity 524 526	CI
+R5	HasQuantity Arg1:T104 Arg2:T54
+T3	Unit 522 523	%

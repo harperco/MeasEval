@@ -1,0 +1,9 @@
+T11	Quantity 177 183	5–8 °C
+#11	AnnotatorNotes T11	None
+T31	MeasuredProperty 169 173	rise
+R1	HasQuantity Arg1:T31 Arg2:T11
+T21	MeasuredEntity 144 168	sea surface temperatures
+R2	HasProperty Arg1:T21 Arg2:T31
+T41	Qualifier 184 206	from background levels
+R3	Qualifies Arg1:T41 Arg2:T31
+T1	Unit 181 183	°C

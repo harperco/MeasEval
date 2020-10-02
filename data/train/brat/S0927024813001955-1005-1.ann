@@ -1,0 +1,6 @@
+T1	Quantity 623 629	150 °C
+T2	Unit 627 629	°C
+T3	MeasuredEntity 610 619	ZnO films
+T4	MeasuredProperty 591 605	post-annealing
+R2	HasProperty Arg1:T3 Arg2:T4	
+R1	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 831 844	5 mm per side
+T2	Unit 833 844	mm per side
+T3	MeasuredEntity 798 815	cubic source grid
+T4	MeasuredProperty 821 827	voxels
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

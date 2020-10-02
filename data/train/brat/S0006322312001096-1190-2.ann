@@ -1,0 +1,7 @@
+T82	Quantity 770 774	−4°C
+#12	AnnotatorNotes T82	None
+T102	MeasuredProperty 754 766	refrigerated
+R1	HasQuantity Arg1:T102 Arg2:T82
+T92	MeasuredEntity 725 749	Serum for lipid analyses
+R2	HasProperty Arg1:T92 Arg2:T102
+T1	Unit 772 774	°C

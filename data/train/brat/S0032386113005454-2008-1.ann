@@ -1,0 +1,9 @@
+T1	Quantity 69 82	about −100 °C
+A1	IsApproximate T1
+T2	Unit 80 82	°C
+T3	MeasuredEntity 4 13	particles
+T4	MeasuredProperty 33 42	toughened
+T5	Qualifier 47 60	epoxy polymer
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R3	Qualifies Arg1:T5 Arg2:T4	

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1205	1	Quantity	102	114	T11-1	past 14 days	{"mods": ["IsRange"], "unit": "days"}
+S0006322312001096-1205	1	MeasuredProperty	74	94	T2-1	taken any medication	{"HasQuantity": "T11-1"}
+S0006322312001096-1205	1	MeasuredEntity	33	45	T1-1	participants	{"HasProperty": "T2-1"}

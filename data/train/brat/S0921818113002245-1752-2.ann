@@ -1,0 +1,8 @@
+T1	Quantity 321 328	5.16 m.
+T2	MeasuredProperty 312 317	depth
+T3	Unit 326 327	m
+T5	MeasuredEntity 213 247	distinct layer of clastic sediment
+R1	HasProperty Arg1:T5 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 280 308	high magnetic susceptibility
+R3	Qualifies Arg1:T4 Arg2:T5	

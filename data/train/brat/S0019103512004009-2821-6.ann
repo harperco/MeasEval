@@ -1,0 +1,6 @@
+T1	Quantity 1824 1832	0.047 AU
+T2	Unit 1830 1832	AU
+T3	MeasuredEntity 1658 1672	models predict
+T4	MeasuredProperty 1798 1820	average solar XUV flux
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

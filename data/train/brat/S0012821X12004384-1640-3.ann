@@ -1,0 +1,6 @@
+T1	Quantity 1226 1231	54 oN
+T2	Unit 1229 1231	oN
+T3	MeasuredProperty 1212 1225	paleolatitude
+T4	MeasuredEntity 1202 1210	location
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

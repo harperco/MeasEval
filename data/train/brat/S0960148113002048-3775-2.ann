@@ -1,0 +1,7 @@
+T1	Quantity 713 725	0.01–0.03 Hz
+T2	MeasuredEntity 693 697	wind
+T3	MeasuredProperty 698 709	frequencies
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 723 725	Hz

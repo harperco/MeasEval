@@ -1,0 +1,6 @@
+T1	Quantity 559 564	20 cm
+T2	Unit 562 564	cm
+T3	Qualifier 555 558	top
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 568 580	soil profile
+R2	HasQuantity Arg1:T4 Arg2:T1	

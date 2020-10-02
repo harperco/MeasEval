@@ -1,0 +1,8 @@
+T13	Quantity 649 660	for 6 years
+#13	AnnotatorNotes T13	None
+T33	MeasuredProperty 637 648	followed up
+R4	HasQuantity Arg1:T33 Arg2:T13
+T23	MeasuredEntity 624 636	older adults
+R5	HasProperty Arg1:T23 Arg2:T33
+A1	QuantityQualifier T13 IsRange
+T1	Unit 655 660	years

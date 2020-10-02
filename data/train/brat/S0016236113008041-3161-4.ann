@@ -1,0 +1,8 @@
+T1	Quantity 536 545	<0.01 ppm
+T2	Unit 542 545	ppm
+T3	MeasuredEntity 363 364	P
+T4	MeasuredProperty 513 519	values
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 71 100	concentration in the flue gas
+R3	Qualifies Arg1:T5 Arg2:T4	

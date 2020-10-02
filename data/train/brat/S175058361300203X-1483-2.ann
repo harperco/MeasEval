@@ -1,0 +1,7 @@
+T1	Quantity 1050 1056	20–25%
+T2	Unit 1055 1056	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 1013 1033	effective porosities
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 918 936	channel sandstones
+R3	HasProperty Arg1:T5 Arg2:T3	

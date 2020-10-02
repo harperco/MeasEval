@@ -1,0 +1,7 @@
+T31	Quantity 217 220	10%
+#11	AnnotatorNotes T31	None
+T61	MeasuredProperty 221 230	increment
+R1	HasQuantity Arg1:T61 Arg2:T31
+T71	MeasuredEntity 234 238	risk
+R2	HasProperty Arg1:T71 Arg2:T61
+T1	Unit 219 220	%

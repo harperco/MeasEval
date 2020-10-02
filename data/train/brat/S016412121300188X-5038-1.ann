@@ -1,0 +1,4 @@
+T1	Quantity 224 229	three
+A1	IsCount T1
+T2	MeasuredEntity 230 242	case studies
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Quantity 495 503	20–40 cm
+T2	MeasuredProperty 504 509	depth
+T3	MeasuredEntity 275 284	SOC stock
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

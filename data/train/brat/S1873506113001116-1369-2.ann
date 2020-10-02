@@ -1,0 +1,4 @@
+T1	Quantity 399 402	10%
+T2	MeasuredEntity 403 408	serum
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 401 402	%

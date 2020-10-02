@@ -1,0 +1,7 @@
+T1	Quantity 184 222	increases from 2.6 km s−1 to 25 km s−1
+T2	MeasuredProperty 153 161	velocity
+T3	MeasuredEntity 169 183	upper boundary
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 216 222	km s−1

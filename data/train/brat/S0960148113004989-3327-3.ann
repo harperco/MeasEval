@@ -1,0 +1,8 @@
+T1	Quantity 68 86	48.4 MW to 59.0 MW
+A1	QuantityQualifier T1 IsRange
+T2	Qualifier 46 55	increased
+T3	MeasuredProperty 4 28	averaged power extracted
+T4	MeasuredEntity 36 45	one cycle
+R1	Qualifies Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

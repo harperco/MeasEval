@@ -1,0 +1,9 @@
+T1	Quantity 99 108	30–130 ms
+T2	MeasuredEntity 65 80	VESTAL analyses
+T3	MeasuredProperty 81 98	examined activity
+T4	Unit 106 108	ms
+T5	Qualifier 109 122	post-stimulus
+R1	Qualifies Arg1:T5 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

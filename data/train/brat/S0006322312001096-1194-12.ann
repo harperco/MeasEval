@@ -1,0 +1,5 @@
+T45	Quantity 548 551	95%
+#15	AnnotatorNotes T45	None
+T115	MeasuredEntity 552 554	CI
+R6	HasQuantity Arg1:T115 Arg2:T45
+T4	Unit 550 551	%

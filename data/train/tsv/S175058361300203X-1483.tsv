@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1483	1	Quantity	765	769	T1-1	33 m	{"unit": "m"}
+S175058361300203X-1483	1	MeasuredEntity	753	763	T3-1	upper part	{"HasQuantity": "T1-1"}
+S175058361300203X-1483	1	Qualifier	778	797	T4-1	Stuttgart Formation	{"Qualifies": "T3-1"}
+S175058361300203X-1483	2	Quantity	1050	1056	T1-2	20–25%	{"mods": ["IsRange"], "unit": "%"}
+S175058361300203X-1483	2	MeasuredProperty	1013	1033	T3-2	effective porosities	{"HasQuantity": "T1-2"}
+S175058361300203X-1483	2	MeasuredEntity	918	936	T5-2	channel sandstones	{"HasProperty": "T3-2"}
+S175058361300203X-1483	3	Quantity	1226	1229	T1-3	two	{"mods": ["IsCount"]}
+S175058361300203X-1483	3	MeasuredEntity	1230	1260	T3-3	high porosity sandstone layers	{"HasQuantity": "T1-3"}

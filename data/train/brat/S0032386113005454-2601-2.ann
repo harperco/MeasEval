@@ -1,0 +1,4 @@
+T1	Quantity 534 541	111 MPa
+T2	Unit 538 541	MPa
+T3	MeasuredEntity 563 587	unmodified epoxy polymer
+R1	HasQuantity Arg1:T3 Arg2:T1	

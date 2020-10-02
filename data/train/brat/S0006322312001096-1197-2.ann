@@ -1,0 +1,4 @@
+T1	Quantity 146 153	30-item
+T2	Unit 149 153	item
+T3	MeasuredEntity 154 188	General Health Questionnaire (GHQ)
+R1	HasQuantity Arg1:T3 Arg2:T1	

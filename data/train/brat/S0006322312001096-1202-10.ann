@@ -1,0 +1,9 @@
+T25	Quantity 719 722	89%
+#15	AnnotatorNotes T25	None
+T85	MeasuredProperty 686 697	sensitivity
+R1	HasQuantity Arg1:T85 Arg2:T25
+T105	Qualifier 750 775	CES-D depressive symptoms
+R2	Qualifies Arg1:T105 Arg2:T85	
+T1	Unit 721 722	%
+T2	MeasuredEntity 784 816	structured psychiatric interview
+R3	HasProperty Arg1:T2 Arg2:T85	

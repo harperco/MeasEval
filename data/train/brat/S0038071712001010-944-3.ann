@@ -1,0 +1,5 @@
+T1	Quantity 287 292	0.001
+T2	MeasuredEntity 193 220	mycorrhizal growth response
+T3	MeasuredProperty 283 284	P
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

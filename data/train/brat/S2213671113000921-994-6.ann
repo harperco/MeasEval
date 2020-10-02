@@ -1,0 +1,6 @@
+T1	Quantity 1550 1554	100%
+T2	MeasuredProperty 1569 1591	expressed SOX2 protein
+T3	MeasuredEntity 1558 1568	GFP+ cells
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1553 1554	%

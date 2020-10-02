@@ -1,0 +1,7 @@
+T34	Quantity 1040 1043	78%
+#14	AnnotatorNotes T34	None
+T124	MeasuredProperty 1027 1038	specificity
+R7	HasQuantity Arg1:T124 Arg2:T34
+T104	MeasuredEntity 884 887	GHQ
+R8	HasProperty Arg1:T104 Arg2:T124
+T1	Unit 1042 1043	%

@@ -1,0 +1,6 @@
+T1	Quantity 719 722	10%
+T2	Unit 721 722	%
+T3	MeasuredEntity 726 736	MEX orbits
+T4	MeasuredProperty 620 709	category-4 still make up the second largest group and when added together with category-2
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

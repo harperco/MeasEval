@@ -1,0 +1,6 @@
+T1	Quantity 420 425	82.9%
+T2	MeasuredEntity 287 295	Children
+T3	Unit 424 425	%
+T4	MeasuredProperty 351 368	confocal-positive
+R2	HasProperty Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

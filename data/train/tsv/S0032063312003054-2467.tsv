@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2467	1	Quantity	719	722	T1-1	10%	{"unit": "%"}
+S0032063312003054-2467	1	MeasuredProperty	620	709	T4-1	category-4 still make up the second largest group and when added together with category-2	{"HasQuantity": "T1-1"}
+S0032063312003054-2467	1	MeasuredEntity	726	736	T3-1	MEX orbits	{"HasProperty": "T4-1"}

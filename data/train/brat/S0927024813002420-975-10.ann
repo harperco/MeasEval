@@ -1,0 +1,8 @@
+T1	Quantity 1086 1104	~1500–2000 g mol−1
+T2	Unit 1097 1104	g mol−1
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 1084 1086	Mw
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 984 987	PTh
+R1	HasProperty Arg1:T4 Arg2:T3	

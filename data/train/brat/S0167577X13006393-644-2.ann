@@ -1,0 +1,7 @@
+T1	Quantity 303 315	upto 1200 °C
+T2	Unit 313 315	°C
+T3	MeasuredProperty 290 302	temperatures
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 221 286	pure HA (ratio CaP=1.67) is stable in an air and argon atmosphere
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

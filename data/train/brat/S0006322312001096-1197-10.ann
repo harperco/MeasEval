@@ -1,0 +1,4 @@
+T1	Quantity 1099 1115	274 participants
+T2	Unit 1103 1115	participants
+T3	MeasuredEntity 1087 1095	subgroup
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Quantity 81 89	∼33.7 Ma
+T2	Unit 87 89	Ma
+A1	IsApproximate T1
+T3	MeasuredEntity 91 94	Oi1
+R1	HasQuantity Arg1:T3 Arg2:T1	

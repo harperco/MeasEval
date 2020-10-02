@@ -1,0 +1,6 @@
+T1	Quantity 1201 1208	1 (w/w)
+T2	MeasuredEntity 1182 1192	CdS/starch
+T4	Unit 1204 1207	w/w
+T3	MeasuredProperty 1193 1198	ratio
+R2	HasProperty Arg1:T2 Arg2:T3	
+R1	HasQuantity Arg1:T3 Arg2:T1	

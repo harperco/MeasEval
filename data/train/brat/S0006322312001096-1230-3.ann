@@ -1,0 +1,7 @@
+T13	Quantity 412 416	4.6%
+#13	AnnotatorNotes T13	None
+T113	MeasuredProperty 460 490	had such symptoms at follow-up
+R4	HasQuantity Arg1:T113 Arg2:T13
+T103	MeasuredEntity 420 459	those without CES-D depressive symptoms
+R5	HasProperty Arg1:T103 Arg2:T113
+T1	Unit 415 416	%

@@ -1,0 +1,6 @@
+T1	Quantity 1185 1192	210 MPa
+T2	MeasuredProperty 1155 1181	applied hydrostatic stress
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1189 1192	MPa
+T4	MeasuredEntity 1098 1133	finite-element analysis simulations
+R2	HasProperty Arg1:T4 Arg2:T2	

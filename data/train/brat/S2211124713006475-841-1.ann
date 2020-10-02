@@ -1,0 +1,6 @@
+T1	Quantity 51 58	6 weeks
+T2	MeasuredEntity 4 20	GH plasma levels
+T3	MeasuredProperty 59 80	after transplantation
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 53 58	weeks

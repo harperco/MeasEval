@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0025322712001600-2230	1	Quantity	68	71	T1-1	two	{"mods": ["IsCount"]}
+S0025322712001600-2230	1	MeasuredEntity	72	84	T2-1	marine cores	{"HasQuantity": "T1-1"}
+S0025322712001600-2230	2	Quantity	286	300	T1-2	last 200 years	{"mods": ["IsRange"], "unit": "years"}
+S0025322712001600-2230	2	MeasuredEntity	265	278	T2-2	sedimentation	{"HasQuantity": "T1-2"}

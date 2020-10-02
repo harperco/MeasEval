@@ -1,0 +1,4 @@
+T1	Quantity 447 450	289
+A1	IsCount T1
+T2	MeasuredEntity 451 468	bulk rock samples
+R1	HasQuantity Arg1:T2 Arg2:T1	

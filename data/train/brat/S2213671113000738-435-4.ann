@@ -1,0 +1,6 @@
+T1	Quantity 241 247	100 μm
+T2	Unit 245 247	μm
+T3	MeasuredEntity 251 266	(J)–(M) and (Q)
+T4	MeasuredProperty 182 192	Scale bars
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,7 @@
+T41	Quantity 233 244	70 or highe
+#11	AnnotatorNotes T41	None
+A11	QuantityQualifier T41 IsRange
+T51	MeasuredEntity 221 227	adults
+T1	MeasuredProperty 228 232	aged
+R2	HasQuantity Arg1:T1 Arg2:T41	
+R1	HasProperty Arg1:T51 Arg2:T1	

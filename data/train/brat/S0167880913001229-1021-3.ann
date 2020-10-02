@@ -1,0 +1,5 @@
+T1	Quantity 131 140	top 10 cm
+T2	Unit 138 140	cm
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 144 148	soil
+R1	HasQuantity Arg1:T3 Arg2:T1	

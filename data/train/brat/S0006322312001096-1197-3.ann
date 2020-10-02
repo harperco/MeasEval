@@ -1,0 +1,6 @@
+T1	Quantity 413 419	1 or 0
+A1	QuantityQualifier T1 IsList
+T2	MeasuredProperty 396 402	scored
+T3	MeasuredEntity 376 395	response categories
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

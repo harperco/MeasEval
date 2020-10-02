@@ -1,0 +1,3 @@
+T1	Quantity 549 556	AD 1850
+T2	MeasuredEntity 557 579	lead pollution horizon
+R1	HasQuantity Arg1:T2 Arg2:T1	

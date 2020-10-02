@@ -1,0 +1,7 @@
+T1	Quantity 849 856	> 10 nm
+A1	QuantityQualifier T1 IsRange
+T2	Unit 854 856	nm
+T3	MeasuredProperty 834 848	pore diameters
+T4	MeasuredEntity 798 814	mesopore domains
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

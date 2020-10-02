@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-931	1	Quantity	470	478	T1-1	7 to 20%	{"mods": ["IsRange"], "unit": "%"}
+S0022399913003358-931	1	MeasuredProperty	446	456	T4-1	prevalence	{"HasQuantity": "T1-1"}
+S0022399913003358-931	1	MeasuredEntity	492	510	T2-1	general population	{"HasProperty": "T4-1"}
+S0022399913003358-931	1	Qualifier	371	390	T3-1	Subjective tinnitus	{"Qualifies": "T4-1"}
+S0022399913003358-931	2	Quantity	529	536	T1-2	10 year	{"unit": "year"}
+S0022399913003358-931	2	MeasuredEntity	538	551	T3-2	ncidence rate	{"HasQuantity": "T1-2"}
+S0022399913003358-931	3	Quantity	567	580	T1-3	over 48 years	{"mods": ["IsRange"], "unit": "years"}
+S0022399913003358-931	3	MeasuredEntity	555	561	T3-3	adults	{"HasQuantity": "T1-3"}
+S0022399913003358-931	4	Quantity	584	587	T1-4	13%	{"unit": "%"}
+S0022399913003358-931	4	MeasuredProperty	529	551	T3-4	10 year incidence rate	{"HasQuantity": "T1-4"}
+S0022399913003358-931	4	MeasuredEntity	555	580	T2-4	adults aged over 48 years	{"HasProperty": "T3-4"}
+S0022399913003358-931	4	Qualifier	371	390	T4-4	Subjective tinnitus	{"Qualifies": "T3-4"}
+S0022399913003358-931	5	Quantity	593	609	T1-5	Approximately 5%	{"mods": ["IsApproximate"], "unit": "%"}
+S0022399913003358-931	5	MeasuredProperty	631	666	T4-5	severely affected by their tinnitus	{"HasQuantity": "T1-5"}
+S0022399913003358-931	5	MeasuredEntity	617	627	T2-5	population	{"HasProperty": "T4-5"}

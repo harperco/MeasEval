@@ -1,0 +1,6 @@
+T1	Quantity 567 573	1300 K
+T2	MeasuredProperty 562 564	T0
+T3	MeasuredEntity 530 540	MC09 model
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 572 573	K

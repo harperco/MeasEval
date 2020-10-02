@@ -1,0 +1,1 @@
+Depth time-series and depth-averaged bed-parallel velocity time-series at x = 0.072 m for the 1.3 mm sand-rough beach; results from 50 individual events (grey) and ensemble-averaged result (black).

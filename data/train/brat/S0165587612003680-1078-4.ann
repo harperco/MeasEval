@@ -1,0 +1,6 @@
+T1	Quantity 1025 1028	60%
+T2	MeasuredProperty 916 920	CoNS
+T3	MeasuredEntity 1032 1058	bacteria isolated from OME
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1027 1028	%

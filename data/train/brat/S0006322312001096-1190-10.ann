@@ -1,0 +1,5 @@
+T79	Quantity 1704 1713	5 minutes
+#19	AnnotatorNotes T79	None
+T179	MeasuredEntity 1714 1718	rest
+R10	HasQuantity Arg1:T179 Arg2:T79
+T1	Unit 1706 1713	minutes

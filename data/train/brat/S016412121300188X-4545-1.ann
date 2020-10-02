@@ -1,0 +1,4 @@
+T1	Quantity 37 41	five
+A1	IsCount T1
+T2	MeasuredEntity 42 66	largest clusters of acct
+R1	HasQuantity Arg1:T2 Arg2:T1	

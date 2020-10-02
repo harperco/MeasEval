@@ -1,0 +1,4 @@
+T1	Quantity 1127 1128	4
+T2	MeasuredEntity 1129 1136	classes
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

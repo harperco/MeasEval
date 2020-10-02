@@ -1,0 +1,8 @@
+T1	Quantity 205 225	from 10 ms to 0.1 ms
+T2	Unit 213 214	m
+T3	Unit 223 225	ms
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 191 193	Tb
+T5	Qualifier 194 203	decreases
+R1	Qualifies Arg1:T5 Arg2:T1	
+R2	HasQuantity Arg1:T4 Arg2:T1	

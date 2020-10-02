@@ -1,0 +1,6 @@
+T1	Quantity 1066 1081	within 12 weeks
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 982 1000	generate teratomas
+T3	MeasuredEntity 1008 1065	testes of a severe combined immunodeficiency (SCID) mouse
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	

@@ -1,0 +1,4 @@
+T1	Quantity 135 141	200 μm
+T2	MeasuredEntity 124 133	scale bar
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 139 141	μm

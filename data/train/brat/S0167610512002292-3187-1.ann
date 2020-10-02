@@ -1,0 +1,4 @@
+T1	Quantity 16 17	7
+T2	MeasuredEntity 18 38	initial orientations
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

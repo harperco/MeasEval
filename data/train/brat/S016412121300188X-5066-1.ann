@@ -1,0 +1,7 @@
+T1	Quantity 461 476	from 78% to 95%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 419 446	precision of previous slice
+T3	MeasuredProperty 403 411	improves
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,10 @@
+T12	Quantity 1023 1040	approximately 80%
+#12	AnnotatorNotes T12	None
+T32	MeasuredProperty 825 852	sensitivity and specificity
+R4	HasQuantity Arg1:T32 Arg2:T12
+T42	MeasuredEntity 856 882	the questionnaire measures
+R5	HasProperty Arg1:T42 Arg2:T32
+T62	Qualifier 1041 1057	for GHQ symptoms
+R6	Qualifies Arg1:T62 Arg2:T12
+T1	Unit 1039 1040	%
+A1	IsApproximate T12

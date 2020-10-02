@@ -1,0 +1,5 @@
+T1	Quantity 182 205	between 8000 and 9000 K
+T2	Unit 204 205	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 165 181	mean temperature
+R2	HasQuantity Arg1:T3 Arg2:T1	

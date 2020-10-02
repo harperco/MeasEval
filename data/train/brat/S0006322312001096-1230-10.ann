@@ -1,0 +1,7 @@
+T78	Quantity 907 912	59.9%
+#18	AnnotatorNotes T78	None
+T208	MeasuredProperty 913 934	also had GHQ symptoms
+R16	HasQuantity Arg1:T208 Arg2:T78
+T198	MeasuredEntity 862 905	participants with CES-D depressive symptoms
+R17	HasProperty Arg1:T198 Arg2:T208
+T1	Unit 911 912	%

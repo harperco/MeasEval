@@ -1,0 +1,7 @@
+T165	Quantity 1121 1129	58 to 70
+#15	AnnotatorNotes T165	None
+A15	QuantityQualifier T165 IsRange
+T175	MeasuredEntity 1087 1115	subgroup of 274 participants
+T1	MeasuredProperty 1116 1120	aged
+R1	HasQuantity Arg1:T1 Arg2:T165	
+R2	HasProperty Arg1:T175 Arg2:T1	

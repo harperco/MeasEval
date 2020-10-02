@@ -1,0 +1,7 @@
+T1	Quantity 954 959	<−60‰
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 947 951	δ13C
+T3	Unit 958 959	‰
+T4	MeasuredEntity 902 945	marine hydrates containing biogenic methane
+R1	HasProperty Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

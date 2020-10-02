@@ -1,0 +1,6 @@
+T1	Quantity 133 136	82%
+T2	Unit 135 136	%
+T3	MeasuredEntity 140 152	elemental Hg
+T4	MeasuredProperty 140 183	elemental Hg was emitted in the exhaust gas
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

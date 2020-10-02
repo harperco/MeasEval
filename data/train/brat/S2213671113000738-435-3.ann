@@ -1,0 +1,8 @@
+T1	Quantity 213 218	50 μm
+T2	Unit 216 218	μm
+T3	Qualifier 222 228	insets
+T4	MeasuredEntity 232 239	(C)–(F)
+R2	Qualifies Arg1:T3 Arg2:T4	
+T5	MeasuredProperty 182 192	Scale bars
+R3	HasQuantity Arg1:T5 Arg2:T1	
+R1	HasProperty Arg1:T4 Arg2:T5	

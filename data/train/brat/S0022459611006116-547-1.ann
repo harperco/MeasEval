@@ -1,0 +1,4 @@
+T1	Quantity 64 70	298 K.
+T2	MeasuredEntity 0 60	Refined crystallographic parameters for (1) from PXD and PND
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 68 69	K

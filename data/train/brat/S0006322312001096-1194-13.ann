@@ -1,0 +1,7 @@
+T1	Quantity 555 564	1.85–2.48
+T2	MeasuredEntity 505 508	CHD
+T3	MeasuredProperty 438 449	odds ratios
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 548 554	95% CI
+R3	Qualifies Arg1:T4 Arg2:T3	

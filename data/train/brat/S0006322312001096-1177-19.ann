@@ -1,0 +1,4 @@
+T1	MeasuredEntity 1123 1134	data cycles
+T2	Quantity 1117 1122	three
+A1	IsCount T2
+R1	HasQuantity Arg1:T1 Arg2:T2	

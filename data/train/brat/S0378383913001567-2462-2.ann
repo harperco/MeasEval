@@ -1,0 +1,6 @@
+T1	Quantity 84 90	1.8 cm
+T2	Unit 88 90	cm
+T4	MeasuredProperty 79 81	Hp
+T5	MeasuredEntity 41 57	JONSWAP spectrum
+R1	HasProperty Arg1:T5 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

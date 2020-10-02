@@ -1,0 +1,5 @@
+T1	Quantity 246 267	1.5 mm and the 8.5 mm
+T2	MeasuredEntity 268 273	beach
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 265 267	mm
+A1	QuantityQualifier T1 IsList

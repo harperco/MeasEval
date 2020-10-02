@@ -1,0 +1,6 @@
+T1	Quantity 555 561	10 min
+T2	Unit 558 561	min
+T3	MeasuredEntity 497 504	samples
+T4	MeasuredProperty 562 572	pre-anneal
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R3	HasProperty Arg1:T3 Arg2:T4	

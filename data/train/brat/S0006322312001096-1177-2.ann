@@ -1,0 +1,7 @@
+T51	Quantity 260 268	35 to 55
+#11	AnnotatorNotes T51	None
+A11	QuantityQualifier T51 IsRange
+T61	MeasuredProperty 255 259	aged
+R1	HasQuantity Arg1:T61 Arg2:T51
+T71	MeasuredEntity 202 219	target population
+R2	HasProperty Arg1:T71 Arg2:T61

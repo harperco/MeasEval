@@ -1,0 +1,6 @@
+T1	Quantity 335 338	10%
+T2	MeasuredProperty 369 434	produce the same backward slice as well as the same forward slice
+T3	MeasuredEntity 346 368	program's SDG vertices
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 337 338	%

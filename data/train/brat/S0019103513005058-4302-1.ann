@@ -1,0 +1,9 @@
+T1	Quantity 581 601	3.5–6.1 (×10−4) wt.%
+T3	Unit 597 601	wt.%
+T4	Qualifier 604 659	accumulated over 3 byr and mixed into 1.5–2.6 m of soil
+T5	MeasuredProperty 544 565	input of odd nitrogen
+R1	HasQuantity Arg1:T5 Arg2:T1	
+R2	Qualifies Arg1:T4 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 602 603	N
+R3	HasProperty Arg1:T2 Arg2:T5	

@@ -1,0 +1,5 @@
+T1	Quantity 175 189	1.3 ± 0.5 wt.%
+T2	Unit 185 189	wt.%
+A1	QuantityQualifier T1 HasTolerance
+T3	MeasuredEntity 144 159	Soluble sulfate
+R1	HasQuantity Arg1:T3 Arg2:T1	

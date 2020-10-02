@@ -1,0 +1,6 @@
+T1	Quantity 88 105	7538 SDG vertices
+T2	MeasuredEntity 54 72	9438 lines of code
+T4	MeasuredProperty 73 84	represented
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T3	Unit 93 105	SDG vertices

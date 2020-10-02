@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5271	1	Quantity	160	171	T1-1	below 3.5Rp	{"mods": ["IsRange"], "unit": "Rp"}
+S0019103512004009-5271	1	MeasuredEntity	78	149	T4-1	collisions with neutral H dominate the transport of heavy neutral atoms	{"HasQuantity": "T1-1"}
+S0019103512004009-5271	2	Quantity	294	308	T1-2	6 × 106 kg s−1	{"unit": "kg s−1"}
+S0019103512004009-5271	2	MeasuredProperty	282	290	T4-2	oss rate	{"HasQuantity": "T1-2"}
+S0019103512004009-5271	2	MeasuredEntity	276	280	T3-2	mass	{"HasProperty": "T4-2"}
+S0019103512004009-5271	3	Quantity	464	473	T1-3	>107kgs-1	{"mods": ["IsRange"], "unit": "kgs-1"}
+S0019103512004009-5271	3	MeasuredProperty	462	464	T2-3	Ṁ	{"HasQuantity": "T1-3"}
+S0019103512004009-5271	3	MeasuredEntity	452	458	T4-3	models	{"HasProperty": "T2-3"}
+S0019103512004009-5271	3	Qualifier	430	444	T3-3	mass loss rate	{"Qualifies": "T2-3"}
+S0019103512004009-5271	4	Quantity	643	649	T1-4	≳ 10−4	{"mods": ["IsRange", "IsApproximate"]}
+S0019103512004009-5271	4	MeasuredProperty	628	633	T3-4	ratio	{"HasQuantity": "T1-4"}
+S0019103512004009-5271	4	MeasuredEntity	634	642	T2-4	[H+]/[H]	{"HasProperty": "T3-4"}

@@ -1,0 +1,4 @@
+T1	Quantity 50 56	4.5 kg
+T2	MeasuredEntity 26 46	lowest bed inventory
+T3	Unit 54 56	kg
+R1	HasQuantity Arg1:T2 Arg2:T1	

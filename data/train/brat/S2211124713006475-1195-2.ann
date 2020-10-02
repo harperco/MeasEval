@@ -1,0 +1,6 @@
+T1	Quantity 812 818	2 days
+T2	Unit 814 818	days
+T4	MeasuredEntity 788 811	in vivo fiber outgrowth
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 819 840	after transplantation
+R3	Qualifies Arg1:T5 Arg2:T1	

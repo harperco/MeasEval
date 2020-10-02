@@ -1,0 +1,4 @@
+T1	Quantity 1544 1550	8.4 mm
+T2	MeasuredEntity 1551 1556	beach
+T3	Unit 1548 1550	mm
+R1	HasQuantity Arg1:T2 Arg2:T1	

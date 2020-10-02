@@ -1,0 +1,4 @@
+T1	Quantity 1226 1229	two
+A1	IsCount T1
+T3	MeasuredEntity 1230 1260	high porosity sandstone layers
+R2	HasQuantity Arg1:T3 Arg2:T1	

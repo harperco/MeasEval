@@ -1,0 +1,4 @@
+T1	Quantity 811 820	93:7, v/v
+T2	Unit 817 820	v/v
+T3	MeasuredEntity 759 809	azeotropic mixture of dichloromethane and methanol
+R1	HasQuantity Arg1:T3 Arg2:T1	

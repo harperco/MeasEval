@@ -1,0 +1,8 @@
+T1	Quantity 973 992	less than ∼10 times
+T2	Unit 987 992	times
+A2	IsApproximate T1
+A3	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 997 1023	solar average on HD209458b
+T4	MeasuredProperty 956 969	energy inputs
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	

@@ -1,0 +1,8 @@
+T1	Quantity 1078 1082	1.5‰
+T2	Unit 1081 1082	‰
+T3	MeasuredEntity 1094 1106	sponge δ30Si
+T4	MeasuredProperty 1083 1090	decline
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 1107 1122	at ODP site 689
+R3	Qualifies Arg1:T5 Arg2:T4	

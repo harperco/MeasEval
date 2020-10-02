@@ -1,0 +1,8 @@
+T22	Quantity 338 344	<10 cm
+#12	AnnotatorNotes T22	None
+A12	QuantityQualifier T22 IsRange
+T72	MeasuredProperty 301 305	thin
+R3	HasQuantity Arg1:T72 Arg2:T22
+T62	MeasuredEntity 306 326	turbidite sandstones
+R4	HasProperty Arg1:T62 Arg2:T72
+T1	Unit 342 344	cm

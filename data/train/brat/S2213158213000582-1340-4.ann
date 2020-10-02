@@ -1,0 +1,8 @@
+T1	Quantity 316 322	94.38%
+T2	MeasuredProperty 225 259	average percent variance explained
+T3	Unit 321 322	%
+T4	Qualifier 327 329	SZ
+R1	Qualifies Arg1:T4 Arg2:T1	
+T5	MeasuredEntity 264 293	gradiometer data using VESTAL
+R2	HasProperty Arg1:T5 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	

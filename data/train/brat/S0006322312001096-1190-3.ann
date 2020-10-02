@@ -1,0 +1,8 @@
+T23	Quantity 787 802	within 72 hours
+#13	AnnotatorNotes T23	None
+A13	QuantityQualifier T23 IsRange
+T113	MeasuredProperty 779 786	assayed
+R3	HasQuantity Arg1:T113 Arg2:T23
+T93	MeasuredEntity 725 749	Serum for lipid analyses
+R4	HasProperty Arg1:T93 Arg2:T113
+T1	Unit 797 802	hours

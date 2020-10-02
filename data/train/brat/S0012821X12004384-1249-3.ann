@@ -1,0 +1,8 @@
+T32	Quantity 698 709	2609–2613 m
+#12	AnnotatorNotes T32	None
+A12	QuantityQualifier T32 IsRange
+T62	MeasuredProperty 724 748	becomes finely laminated
+R3	HasQuantity Arg1:T62 Arg2:T32
+T52	MeasuredEntity 710 723	the claystone
+R4	HasProperty Arg1:T52 Arg2:T62
+T1	Unit 708 709	m

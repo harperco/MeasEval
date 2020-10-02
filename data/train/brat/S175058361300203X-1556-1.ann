@@ -1,0 +1,4 @@
+T1	Quantity 65 70	34 °C
+T2	Unit 68 70	°C
+T3	MeasuredEntity 81 87	option
+R1	HasQuantity Arg1:T3 Arg2:T1	

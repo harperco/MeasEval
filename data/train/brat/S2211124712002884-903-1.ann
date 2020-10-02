@@ -1,0 +1,4 @@
+T1	Quantity 4 7	two
+T2	MeasuredEntity 8 20	FTD patients
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

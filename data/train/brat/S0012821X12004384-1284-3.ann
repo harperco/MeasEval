@@ -1,0 +1,6 @@
+T1	Quantity 397 402	±<0.1
+A1	QuantityQualifier T1 IsRangeHasTolerance
+T2	MeasuredProperty 384 393	precision
+T3	MeasuredEntity 331 349	Replicate analysis
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 444 454	3413 women
+T2	Unit 449 454	women
+T3	MeasuredEntity 393 399	cohort
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,9 @@
+T1	Quantity 447 462	20 × 20 degrees
+T2	MeasuredProperty 466 478	visual field
+T3	MeasuredEntity 433 439	device
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 455 462	degrees
+A1	QuantityQualifier T1 IsList
+T5	Qualifier 479 502	centered on the implant
+R3	Qualifies Arg1:T5 Arg2:T1	

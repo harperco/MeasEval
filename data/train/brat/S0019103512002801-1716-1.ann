@@ -1,0 +1,9 @@
+T1	Quantity 118 132	average 3–4 nT
+T2	Unit 130 132	nT
+A1	QuantityQualifier T1 IsMeanIsRange
+T3	MeasuredProperty 133 141	stronger
+T4	MeasuredEntity 107 110	∣B∣
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 142 170	compared to all other flybys
+R3	Qualifies Arg1:T5 Arg2:T3	

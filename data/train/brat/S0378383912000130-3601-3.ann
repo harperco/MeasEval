@@ -1,0 +1,6 @@
+T1	Quantity 531 537	600 mm
+T3	MeasuredProperty 494 513	initial water depth
+T4	MeasuredEntity 521 530	reservoir
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Unit 535 537	mm
+R1	HasProperty Arg1:T4 Arg2:T3	

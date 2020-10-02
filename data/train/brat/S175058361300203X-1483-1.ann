@@ -1,0 +1,6 @@
+T1	Quantity 765 769	33 m
+T2	Unit 768 769	m
+T4	Qualifier 778 797	Stuttgart Formation
+T3	MeasuredEntity 753 763	upper part
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	Qualifies Arg1:T4 Arg2:T3	

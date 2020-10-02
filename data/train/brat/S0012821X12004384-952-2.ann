@@ -1,0 +1,7 @@
+T1	Quantity 380 384	>30%
+T2	MeasuredEntity 367 374	samples
+T3	MeasuredProperty 385 402	wood/plant tissue
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 383 384	%
+A1	QuantityQualifier T1 IsRange

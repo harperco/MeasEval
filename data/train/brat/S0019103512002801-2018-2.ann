@@ -1,0 +1,7 @@
+T1	Quantity 1392 1404	at least 10%
+T2	MeasuredEntity 1351 1390	enhanced ULF wave activity in the lunar
+T3	Unit 1403 1404	%
+T4	MeasuredProperty 1304 1350	self-pick up process has been shown to lead to
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

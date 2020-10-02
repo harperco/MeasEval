@@ -1,0 +1,9 @@
+T16	Quantity 727 730	86%
+#16	AnnotatorNotes T16	None
+T96	MeasuredProperty 702 713	specificity
+R4	HasQuantity Arg1:T96 Arg2:T16
+T106	Qualifier 750 775	CES-D depressive symptoms
+R1	Qualifies Arg1:T106 Arg2:T96	
+T1	Unit 729 730	%
+T2	MeasuredEntity 784 816	structured psychiatric interview
+R2	HasProperty Arg1:T2 Arg2:T96	

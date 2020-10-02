@@ -1,0 +1,4 @@
+T1	Quantity 228 233	34 °C
+T2	Unit 231 233	°C
+T3	MeasuredEntity 201 210	injection
+R1	HasQuantity Arg1:T3 Arg2:T1	

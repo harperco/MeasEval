@@ -1,0 +1,5 @@
+T1	Quantity 658 677	2614.7 and 2619.6 m
+T2	MeasuredEntity 641 654	Values shaded
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 676 677	m
+A1	QuantityQualifier T1 IsList

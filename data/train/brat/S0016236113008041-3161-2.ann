@@ -1,0 +1,4 @@
+T1	Quantity 439 455	4.5 kg and 13 kg
+T2	Unit 453 455	kg
+T3	MeasuredEntity 420 435	bed inventories
+R1	HasQuantity Arg1:T3 Arg2:T1	

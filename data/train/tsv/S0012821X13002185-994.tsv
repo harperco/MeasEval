@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-994	1	Quantity	81	89	T1-1	∼33.7 Ma	{"mods": ["IsApproximate"], "unit": "Ma"}
+S0012821X13002185-994	1	MeasuredEntity	91	94	T3-1	Oi1	{"HasQuantity": "T1-1"}
+S0012821X13002185-994	2	Quantity	368	377	T1-2	up to 40%	{"mods": ["IsRange"], "unit": "%"}
+S0012821X13002185-994	2	MeasuredProperty	316	343	T4-2	siliceous walled autotrophs	{"HasQuantity": "T1-2"}
+S0012821X13002185-994	2	MeasuredEntity	381	399	T3-2	primary production	{"HasProperty": "T4-2"}
+S0012821X13002185-994	3	Quantity	895	899	T1-3	0.6‰	{"unit": "‰"}
+S0012821X13002185-994	3	MeasuredProperty	900	904	T4-3	rise	{"HasQuantity": "T1-3"}
+S0012821X13002185-994	3	MeasuredEntity	908	920	T3-3	diatom δ30Si	{"HasProperty": "T4-3"}
+S0012821X13002185-994	3	Qualifier	853	869	T5-3	At ODP site 1090	{"Qualifies": "T4-3"}
+S0012821X13002185-994	4	Quantity	1078	1082	T1-4	1.5‰	{"unit": "‰"}
+S0012821X13002185-994	4	MeasuredProperty	1083	1090	T4-4	decline	{"HasQuantity": "T1-4"}
+S0012821X13002185-994	4	MeasuredEntity	1094	1106	T3-4	sponge δ30Si	{"HasProperty": "T4-4"}
+S0012821X13002185-994	4	Qualifier	1107	1122	T5-4	at ODP site 689	{"Qualifies": "T4-4"}
+S0012821X13002185-994	5	Quantity	1308	1316	T1-5	∼31.5 Ma	{"mods": ["IsApproximate"], "unit": "Ma"}
+S0012821X13002185-994	5	MeasuredProperty	1298	1304	T4-5	peaked	{"HasQuantity": "T1-5"}
+S0012821X13002185-994	5	MeasuredEntity	1252	1297	T3-5	Intermediate depth silicic acid concentration	{"HasProperty": "T4-5"}

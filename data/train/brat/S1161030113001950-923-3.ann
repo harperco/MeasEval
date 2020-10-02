@@ -1,0 +1,7 @@
+T1	Quantity 1868 1877	4–8 years
+T2	Unit 1872 1877	years
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 1844 1858	period of time
+T4	MeasuredEntity 1812 1828	soil test values
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

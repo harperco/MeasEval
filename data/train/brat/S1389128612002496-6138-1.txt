@@ -1,0 +1,1 @@
+Fig. 13 shows the results for the ARI LDDoS attack. Similar to previous results, our CPR-based approach is still effective whereas the effectiveness of the CAS-based approach decreases as Rb decreases (from 0.25 Mbps to 0.01 Mbps).

@@ -1,0 +1,6 @@
+T1	Quantity 656 663	7 month
+T2	Unit 658 663	month
+T3	MeasuredProperty 642 648	course
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 664 674	experiment
+R2	HasProperty Arg1:T4 Arg2:T3	

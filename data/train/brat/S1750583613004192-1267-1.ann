@@ -1,0 +1,5 @@
+T1	Quantity 416 454	a few percent to around thirty percent
+T2	Unit 447 454	percent
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 386 400	gas saturation
+R1	HasQuantity Arg1:T3 Arg2:T1	

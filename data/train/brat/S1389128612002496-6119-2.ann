@@ -1,0 +1,5 @@
+T1	Quantity 320 333	around 0.5 ms
+T2	Unit 331 333	ms
+A1	IsApproximate T1
+T3	MeasuredEntity 314 316	Tb
+R1	HasQuantity Arg1:T3 Arg2:T1	

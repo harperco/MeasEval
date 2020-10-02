@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1716	1	Quantity	118	132	T1-1	average 3–4 nT	{"mods": ["IsMeanIsRange"], "unit": "nT"}
+S0019103512002801-1716	1	MeasuredProperty	133	141	T3-1	stronger	{"HasQuantity": "T1-1"}
+S0019103512002801-1716	1	MeasuredEntity	107	110	T4-1	∣B∣	{"HasProperty": "T3-1"}
+S0019103512002801-1716	1	Qualifier	142	170	T5-1	compared to all other flybys	{"Qualifies": "T3-1"}

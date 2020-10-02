@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610512002292-3187	1	Quantity	16	17	T1-1	7	{"mods": ["IsCount"]}
+S0167610512002292-3187	1	MeasuredEntity	18	38	T2-1	initial orientations	{"HasQuantity": "T1-1"}
+S0167610512002292-3187	2	Quantity	87	94	T1-2	0.563 m	{"unit": "m"}
+S0167610512002292-3187	2	MeasuredEntity	95	107	T3-2	square plate	{"HasQuantity": "T1-2"}
+S0167610512002292-3187	3	Quantity	121	129	T1-3	0.025 m.	{"unit": "m"}
+S0167610512002292-3187	3	MeasuredProperty	111	120	T2-3	thickness	{"HasQuantity": "T1-3"}
+S0167610512002292-3187	3	MeasuredEntity	95	107	T3-3	square plate	{"HasProperty": "T2-3"}
+S0167610512002292-3187	4	Quantity	315	318	T1-4	two	{"mods": ["IsCount"]}
+S0167610512002292-3187	4	MeasuredEntity	319	332	T2-4	sets of cases	{"HasQuantity": "T1-4"}

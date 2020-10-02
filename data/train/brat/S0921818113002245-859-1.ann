@@ -1,0 +1,7 @@
+T1	Quantity 173 191	approximately 19 m
+T2	MeasuredEntity 150 155	lakes
+T3	MeasuredProperty 156 169	deepest point
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1
+T4	Unit 190 191	m

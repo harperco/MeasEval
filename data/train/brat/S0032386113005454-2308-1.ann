@@ -1,0 +1,7 @@
+T1	Quantity 21 36	3.19 ± 0.10 GPa
+T2	MeasuredEntity 58 82	unmodified epoxy polymer
+T3	MeasuredProperty 2 17	tensile modulus
+A1	QuantityQualifier T1 HasTolerance
+T4	Unit 33 36	GPa
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

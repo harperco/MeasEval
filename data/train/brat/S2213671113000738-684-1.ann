@@ -1,0 +1,4 @@
+T1	Quantity 75 78	one
+T2	MeasuredEntity 79 88	allograft
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

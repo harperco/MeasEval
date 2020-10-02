@@ -1,0 +1,6 @@
+T1	Quantity 232 247	60 × 10 × 3 mm3
+T2	MeasuredEntity 217 231	test specimens
+T3	MeasuredProperty 251 255	size
+T4	Unit 244 247	mm3
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

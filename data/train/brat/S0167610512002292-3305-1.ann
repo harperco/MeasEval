@@ -1,0 +1,4 @@
+T1	Quantity 17 22	three
+A1	IsCount T1
+T2	MeasuredEntity 23 44	different simulations
+R1	HasQuantity Arg1:T2 Arg2:T1	

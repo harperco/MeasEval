@@ -1,0 +1,7 @@
+T1	Quantity 864 877	> 0.5 cm3 g−1
+T2	Unit 870 877	cm3 g−1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 858 863	Vmeso
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 798 814	mesopore domains
+R2	HasProperty Arg1:T4 Arg2:T3	

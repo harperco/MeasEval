@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-1060	1	Quantity	656	659	T1-1	10%	{"unit": "%"}
+S2211124712002884-1060	1	MeasuredProperty	660	678	T3-1	fetal bovine serum	{"HasQuantity": "T1-1"}
+S2211124712002884-1060	1	MeasuredEntity	603	637	T2-1	Dulbecco's modified Eagle's medium	{"HasProperty": "T3-1"}
+S2211124712002884-1060	1	Qualifier	638	655	T5-1	supplemented with	{"Qualifies": "T3-1"}
+S2211124712002884-1060	2	Quantity	738	746	T1-2	100 U/ml	{"unit": "U/ml"}
+S2211124712002884-1060	2	MeasuredProperty	713	736	T3-2	penicillin/streptomycin	{"HasQuantity": "T1-2"}
+S2211124712002884-1060	2	MeasuredEntity	603	637	T4-2	Dulbecco's modified Eagle's medium	{"HasProperty": "T3-2"}
+S2211124712002884-1060	2	Qualifier	638	655	T5-2	supplemented with	{"Qualifies": "T3-2"}

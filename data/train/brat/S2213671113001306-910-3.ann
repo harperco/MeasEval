@@ -1,0 +1,6 @@
+T1	Quantity 1004 1008	2 μm
+T2	Unit 1006 1008	μm
+T3	MeasuredEntity 983 993	scale bars
+T4	MeasuredProperty 1022 1030	distance
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

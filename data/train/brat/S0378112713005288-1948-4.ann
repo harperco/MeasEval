@@ -1,0 +1,6 @@
+T1	Quantity 483 489	< 0.01
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 481 482	p
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 424 445	significantly greater
+R1	HasProperty Arg1:T4 Arg2:T2	

@@ -1,0 +1,12 @@
+T11	Quantity 635 643	65 years
+#11	AnnotatorNotes T11	None
+T1	Unit 638 643	years
+A1	QuantityQualifier T11 IsRange
+T2	Qualifier 618 623	after
+R1	Qualifies Arg1:T2 Arg2:T11	
+T3	MeasuredProperty 628 631	age
+R2	HasQuantity Arg1:T3 Arg2:T11	
+T4	MeasuredEntity 598 617	depressive symptoms
+R3	HasQuantity Arg1:T4 Arg2:T11	
+T5	Qualifier 462 594	little evidence to suggest that standard clinical information on preclinical vascular risk status would be helpful in the prediction
+R4	Qualifies Arg1:T5 Arg2:T4	

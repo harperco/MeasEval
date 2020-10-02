@@ -1,0 +1,5 @@
+T1	Quantity 184 190	(80/20
+T3	MeasuredProperty 169 183	gold/palladium
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T2	MeasuredEntity 192 197	alloy
+R2	HasProperty Arg1:T2 Arg2:T3	

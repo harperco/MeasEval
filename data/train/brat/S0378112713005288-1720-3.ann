@@ -1,0 +1,9 @@
+T1	Quantity 669 695	greater than 1000 stems/ha
+T2	Unit 687 695	stems/ha
+A1	QuantityQualifier T1 IsRange
+T3	Qualifier 585 589	Mean
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredProperty 590 612	regeneration densities
+T5	MeasuredEntity 616 635	native tree species
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

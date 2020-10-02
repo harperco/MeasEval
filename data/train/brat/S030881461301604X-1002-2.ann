@@ -1,0 +1,8 @@
+T1	Quantity 110 118	100 mg/L
+T2	MeasuredEntity 74 77	DMA
+T3	MeasuredProperty 90 104	concentrations
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 61 72	AB, As(III)
+R3	Qualifies Arg1:T4 Arg2:T2	
+T5	Unit 114 118	mg/L

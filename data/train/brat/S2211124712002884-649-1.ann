@@ -1,0 +1,6 @@
+T1	Quantity 117 121	100%
+T2	Unit 120 121	%
+T3	MeasuredEntity 79 104	Values of control line 20
+T4	MeasuredProperty 4 29	Intracellular PGRN levels
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

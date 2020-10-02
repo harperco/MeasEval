@@ -1,0 +1,4 @@
+T1	Quantity 193 197	1 Hz
+T2	MeasuredEntity 167 189	double-cantilever mode
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 195 197	Hz

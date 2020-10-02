@@ -1,0 +1,6 @@
+T1	Quantity 1755 1762	−109 °C
+T2	Unit 1760 1762	°C
+T3	MeasuredEntity 1720 1735	S-CSR particles
+T4	MeasuredProperty 1736 1745	cavitated
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

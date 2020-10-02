@@ -1,0 +1,7 @@
+T24	Quantity 496 500	2.1%
+#14	AnnotatorNotes T24	None
+T134	MeasuredProperty 542 565	started such medication
+R6	HasQuantity Arg1:T134 Arg2:T24
+T124	MeasuredEntity 504 541	those not on antidepressant treatment
+R7	HasProperty Arg1:T124 Arg2:T134
+T1	Unit 499 500	%

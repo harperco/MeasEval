@@ -1,0 +1,8 @@
+T1	MeasuredProperty 180 212	Age- and sex-adjusted odds ratio
+T2	MeasuredEntity 379 418	CHD risk score-incident CHD association
+R1	HasProperty Arg1:T2 Arg2:T1	
+T3	Quantity 360 369	1.92–2.65
+A1	QuantityQualifier T3 IsRange
+T4	Qualifier 353 359	95% CI
+R2	Qualifies Arg1:T4 Arg2:T1	
+R3	HasQuantity Arg1:T1 Arg2:T3	

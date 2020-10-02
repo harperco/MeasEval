@@ -1,0 +1,4 @@
+T1	Quantity 846 853	0.072 m
+T2	MeasuredEntity 842 843	x
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 852 853	m
