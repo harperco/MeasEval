@@ -1,0 +1,12 @@
+T81	Quantity 476 480	∼0.8
+#11	AnnotatorNotes T81	Unspecified
+A11	IsApproximate T81
+A21	QuantityQualifier T81 IsMean
+T101	MeasuredProperty 437 448	187Os/188Os
+R1	HasQuantity Arg1:T101 Arg2:T81
+T71	MeasuredEntity 428 436	seawater
+R2	HasProperty Arg1:T71 Arg2:T101
+T91	Qualifier 449 471	prior to the LIP onset
+R3	Qualifies Arg1:T91 Arg2:T101
+T321	Qualifier 420 427	average
+R4	Qualifies Arg1:T321 Arg2:T81

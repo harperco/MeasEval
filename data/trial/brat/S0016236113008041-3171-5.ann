@@ -1,0 +1,9 @@
+T45	Quantity 493 499	<1 ppm
+#15	AnnotatorNotes T45	ppm
+A15	QuantityQualifier T45 IsRange
+T125	MeasuredProperty 380 392	Gd, Dy and U
+R12	HasQuantity Arg1:T125 Arg2:T45
+T235	MeasuredEntity 57 70	solid sorbent
+R13	HasProperty Arg1:T235 Arg2:T125
+T275	Qualifier 413 426	concentration
+R14	Qualifies Arg1:T275 Arg2:T125

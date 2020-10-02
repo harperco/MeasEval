@@ -1,0 +1,14 @@
+T13	Quantity 868 886	from ∼20 to 40 ppm
+#13	AnnotatorNotes T13	ppm
+A13	IsApproximate T13
+A23	QuantityQualifier T13 IsRange
+T113	MeasuredProperty 848 849	B
+R3	HasQuantity Arg1:T113 Arg2:T13
+T403	MeasuredEntity 41 50	limestone
+R4	HasProperty Arg1:T403 Arg2:T113
+T93	Qualifier 850 867	over eight cycles
+R5	Qualifies Arg1:T93 Arg2:T113
+T343	Qualifier 836 844	increase
+R6	Qualifies Arg1:T343 Arg2:T13
+T103	Qualifier 808 821	Lea Hall coal
+R7	Qualifies Arg1:T103 Arg2:T13

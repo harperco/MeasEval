@@ -1,0 +1,7 @@
+T32	Quantity 354 367	0 to 1000 ppm
+#12	AnnotatorNotes T32	ppm
+A12	QuantityQualifier T32 IsRange
+T362	MeasuredProperty 188 201	concentration
+R3	HasQuantity Arg1:T362 Arg2:T32
+T222	MeasuredEntity 184 187	SO2
+R4	HasProperty Arg1:T222 Arg2:T362

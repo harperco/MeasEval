@@ -1,0 +1,12 @@
+T102	Quantity 325 327	22
+#12	AnnotatorNotes T102	ppm
+T142	MeasuredProperty 189 191	Cu
+R2	HasQuantity Arg1:T142 Arg2:T102
+T232	MeasuredEntity 57 70	solid sorbent
+R3	HasProperty Arg1:T232 Arg2:T142
+T12	Qualifier 354 363	for 13 kg
+R4	Qualifies Arg1:T12 Arg2:T102
+T262	Qualifier 337 340	ppm
+R5	Qualifies Arg1:T262 Arg2:T102
+T222	Qualifier 17 31	concentrations
+R6	Qualifies Arg1:T222 Arg2:T142

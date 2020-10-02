@@ -1,0 +1,7 @@
+T186	Quantity 1327 1331	∼–1‰
+#16	AnnotatorNotes T186	‰
+A16	IsApproximate T186
+T176	MeasuredProperty 1311 1323	apparent 30ε
+R9	HasQuantity Arg1:T176 Arg2:T186
+T166	MeasuredEntity 1052 1102	δ30Si values of size fractions between 2 and 20 μm
+R10	HasProperty Arg1:T166 Arg2:T176

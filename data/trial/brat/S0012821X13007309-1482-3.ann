@@ -1,0 +1,5 @@
+T73	Quantity 171 178	∼12.6 m
+#13	AnnotatorNotes T73	m
+A13	IsApproximate T73
+T63	MeasuredEntity 155 169	Hartland Shale
+R4	HasQuantity Arg1:T63 Arg2:T73

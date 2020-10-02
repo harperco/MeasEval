@@ -1,0 +1,7 @@
+T48	Quantity 343 351	<0.1 ppm
+#18	AnnotatorNotes T48	ppm
+A18	QuantityQualifier T48 IsRange
+T158	MeasuredProperty 286 309	flue gas concentrations
+R22	HasQuantity Arg1:T158 Arg2:T48
+T148	MeasuredEntity 272 285	trace element
+R23	HasProperty Arg1:T148 Arg2:T158

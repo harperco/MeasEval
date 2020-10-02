@@ -1,0 +1,10 @@
+T125	Quantity 518 523	twice
+#15	AnnotatorNotes T125	Unspecified
+T135	MeasuredProperty 485 498	rotation rate
+R10	HasQuantity Arg1:T135 Arg2:T125
+T145	MeasuredEntity 502 510	HD209458
+R11	HasProperty Arg1:T145 Arg2:T135
+T165	Qualifier 532 563	as the rotation rate of the Sun
+R12	Qualifies Arg1:T165 Arg2:T135
+T185	Qualifier 524 531	as fast
+R13	Qualifies Arg1:T185 Arg2:T125

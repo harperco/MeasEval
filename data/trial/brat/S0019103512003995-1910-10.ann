@@ -1,0 +1,7 @@
+T2610	Quantity 597 622	within a month and a half
+#110	AnnotatorNotes T2610	month
+A110	QuantityQualifier T2610 IsRange
+T2310	MeasuredProperty 586 596	took place
+R17	HasQuantity Arg1:T2310 Arg2:T2610
+T2910	MeasuredEntity 530 548	G140M observations
+R18	HasProperty Arg1:T2910 Arg2:T2310

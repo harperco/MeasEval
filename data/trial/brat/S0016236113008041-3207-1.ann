@@ -1,0 +1,7 @@
+T11	Quantity 131 137	90–95%
+#11	AnnotatorNotes T11	%
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredProperty 78 119	Substitution via cation exchange for Ca2+
+R1	HasQuantity Arg1:T21 Arg2:T11
+T41	MeasuredEntity 141 149	elements
+R2	HasProperty Arg1:T41 Arg2:T21

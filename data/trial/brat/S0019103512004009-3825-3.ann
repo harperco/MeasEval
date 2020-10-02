@@ -1,0 +1,9 @@
+T123	Quantity 308 318	near 1.5Rp
+#13	AnnotatorNotes T123	Rp
+A13	IsApproximate T123
+T113	MeasuredProperty 280 296	temperature peak
+R5	HasQuantity Arg1:T113 Arg2:T123
+T83	MeasuredEntity 250 259	H50 model
+R6	HasProperty Arg1:T83 Arg2:T113
+T173	Qualifier 320 332	p = 0.3 nbar
+R7	Qualifies Arg1:T173 Arg2:T123

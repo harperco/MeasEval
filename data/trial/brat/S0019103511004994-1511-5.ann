@@ -1,0 +1,8 @@
+T145	Quantity 1542 1548	77.45°
+#15	AnnotatorNotes T145	°
+T135	MeasuredProperty 1520 1538	points at an angle
+R8	HasQuantity Arg1:T135 Arg2:T145
+T125	MeasuredEntity 1499 1519	low-energy telescope
+R9	HasProperty Arg1:T125 Arg2:T135
+T245	Qualifier 1549 1600	away from the −z direction towards the −x-direction
+R10	Qualifies Arg1:T245 Arg2:T135

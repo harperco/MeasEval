@@ -1,0 +1,5 @@
+T151	Quantity 597 598	2
+#11	AnnotatorNotes T151	count
+A11	IsCount T151
+T161	MeasuredEntity 599 614	different coals
+R1	HasQuantity Arg1:T161 Arg2:T151

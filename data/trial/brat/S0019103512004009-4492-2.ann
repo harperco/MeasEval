@@ -1,0 +1,4 @@
+T12	Quantity 286 296	7.2 km s−1
+#12	AnnotatorNotes T12	km s−1
+T112	MeasuredEntity 278 283	c(ξc)
+R3	HasQuantity Arg1:T112 Arg2:T12

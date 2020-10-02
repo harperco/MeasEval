@@ -1,0 +1,8 @@
+T1713	Quantity 1039 1040	0
+#113	AnnotatorNotes T1713	ppm
+T4313	MeasuredProperty 1021 1035	concentrations
+R40	HasQuantity Arg1:T4313 Arg2:T1713
+T4213	MeasuredEntity 1017 1020	SO2
+R41	HasProperty Arg1:T4213 Arg2:T4313
+T1913	Qualifier 1056 1059	ppm
+R42	Qualifies Arg1:T1913 Arg2:T1713

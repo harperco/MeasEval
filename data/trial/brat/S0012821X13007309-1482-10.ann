@@ -1,0 +1,7 @@
+T2110	Quantity 1426 1427	F
+#110	AnnotatorNotes T2110	count
+A110	IsCount T2110
+T2210	MeasuredProperty 1427 1428	O
+R12	HasQuantity Arg1:T2210 Arg2:T2110
+T2310	MeasuredEntity 1432 1454	Mytiloides puebloensis
+R13	HasProperty Arg1:T2310 Arg2:T2210

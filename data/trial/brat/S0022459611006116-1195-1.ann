@@ -1,0 +1,5 @@
+T61	Quantity 175 184	5≤2θ/°≤80
+#11	AnnotatorNotes T61	Unspecified
+A11	QuantityQualifier T61 IsRange
+T51	MeasuredEntity 139 152	Initial scans
+R1	HasQuantity Arg1:T51 Arg2:T61

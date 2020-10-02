@@ -1,0 +1,7 @@
+T93	Quantity 529 545	(563–624) ± 30 K
+#13	AnnotatorNotes T93	K
+A13	QuantityQualifier T93 IsRangeHasTolerance
+T73	MeasuredProperty 488 500	temperatures
+R5	HasQuantity Arg1:T73 Arg2:T93
+T83	MeasuredEntity 504 525	Saturn’s auroral oval
+R6	HasProperty Arg1:T83 Arg2:T73

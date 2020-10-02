@@ -1,0 +1,6 @@
+T44	Quantity 174 180	1 week
+#14	AnnotatorNotes T44	week
+T84	MeasuredEntity 49 71	wet alkaline digestion
+R6	HasQuantity Arg1:T84 Arg2:T44
+T94	Qualifier 182 197	sponge spicules
+R7	Qualifies Arg1:T94 Arg2:T44

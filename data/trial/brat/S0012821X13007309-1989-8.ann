@@ -1,0 +1,6 @@
+T28	Quantity 1328 1331	25%
+#18	AnnotatorNotes T28	%
+T68	MeasuredProperty 1314 1326	from the LIP
+R19	HasQuantity Arg1:T68 Arg2:T28
+T48	MeasuredEntity 1305 1313	Os input
+R20	HasProperty Arg1:T48 Arg2:T68

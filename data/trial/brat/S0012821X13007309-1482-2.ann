@@ -1,0 +1,5 @@
+T52	Quantity 144 149	∼12 m
+#12	AnnotatorNotes T52	m
+A12	IsApproximate T52
+T42	MeasuredEntity 120 142	Bridge Creek Limestone
+R3	HasQuantity Arg1:T42 Arg2:T52

@@ -1,0 +1,6 @@
+T73	Quantity 576 582	1 μbar
+#13	AnnotatorNotes T73	μbar
+T113	MeasuredProperty 583 588	level
+R7	HasQuantity Arg1:T113 Arg2:T73
+T33	MeasuredEntity 109 125	upper atmosphere
+R8	HasProperty Arg1:T33 Arg2:T113

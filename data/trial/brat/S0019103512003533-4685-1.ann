@@ -1,0 +1,4 @@
+T21	Quantity 179 182	78°
+#11	AnnotatorNotes T21	°
+T11	MeasuredEntity 137 177	region of maximum electron precipitation
+R1	HasQuantity Arg1:T11 Arg2:T21

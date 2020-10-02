@@ -1,0 +1,7 @@
+T31	Quantity 97 119	4.5 kg, 6 kg and 13 kg
+#11	AnnotatorNotes T31	kg
+A11	QuantityQualifier T31 IsList
+T51	MeasuredProperty 120 125	CaCO3
+R1	HasQuantity Arg1:T51 Arg2:T31
+T41	MeasuredEntity 78 93	bed inventories
+R2	HasProperty Arg1:T41 Arg2:T51

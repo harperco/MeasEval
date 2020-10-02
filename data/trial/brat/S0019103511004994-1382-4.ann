@@ -1,0 +1,7 @@
+T24	Quantity 739 755	27 keV to 21 MeV
+#14	AnnotatorNotes T24	keV / MeV
+A14	QuantityQualifier T24 IsRange
+T74	MeasuredProperty 726 732	energy
+R6	HasQuantity Arg1:T74 Arg2:T24
+T84	MeasuredEntity 697 705	electron
+R7	HasProperty Arg1:T84 Arg2:T74

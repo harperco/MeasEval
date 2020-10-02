@@ -1,0 +1,9 @@
+T46	Quantity 386 422	1.4Rp (0.5 nbar) to 1.9Rp (0.1 nbar)
+#16	AnnotatorNotes T46	Rp / nbar
+A16	QuantityQualifier T46 IsRange
+T136	MeasuredProperty 369 373	peak
+R11	HasQuantity Arg1:T136 Arg2:T46
+T86	MeasuredEntity 250 259	H50 model
+R12	HasProperty Arg1:T86 Arg2:T136
+T186	Qualifier 374 385	shifts from
+R13	Qualifies Arg1:T186 Arg2:T46

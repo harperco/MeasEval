@@ -1,0 +1,7 @@
+T12	Quantity 141 147	∼5.7 s
+#12	AnnotatorNotes T12	s
+A12	IsApproximate T12
+T22	MeasuredProperty 111 139	rate channel time resolution
+R5	HasQuantity Arg1:T22 Arg2:T12
+T42	MeasuredEntity 8 25	channels of LEMMS
+R6	HasProperty Arg1:T42 Arg2:T22

@@ -1,0 +1,9 @@
+T22	Quantity 775 784	0% to 80%
+#12	AnnotatorNotes T22	%
+A12	QuantityQualifier T22 IsRange
+T62	MeasuredProperty 726 760	%low salinity dinoflagellate cysts
+R2	HasQuantity Arg1:T62 Arg2:T22
+T52	MeasuredEntity 602 609	Samples
+R3	HasProperty Arg1:T52 Arg2:T62
+T32	Qualifier 610 657	with fewer than 20 specimens were also excluded
+R4	Qualifies Arg1:T32 Arg2:T52

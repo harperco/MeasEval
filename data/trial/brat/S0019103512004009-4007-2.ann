@@ -1,0 +1,6 @@
+T42	Quantity 894 899	50 eV
+#12	AnnotatorNotes T42	eV
+T52	MeasuredEntity 900 907	photons
+R4	HasQuantity Arg1:T52 Arg2:T42
+T62	Qualifier 908 947	at an electron mixing ratio of xe = 0.1
+R5	Qualifies Arg1:T62 Arg2:T52

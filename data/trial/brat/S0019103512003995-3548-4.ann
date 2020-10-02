@@ -1,0 +1,7 @@
+T24	Quantity 1033 1041	11,000 K
+#14	AnnotatorNotes T24	K
+A14	IsApproximate T24
+T94	Qualifier 971 976	lower
+R9	Qualifies Arg1:T94 Arg2:T24
+T134	Qualifier 1008 1021	approximately
+R10	Qualifies Arg1:T134 Arg2:T24

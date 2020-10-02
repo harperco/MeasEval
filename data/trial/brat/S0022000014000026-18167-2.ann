@@ -1,0 +1,4 @@
+T22	Quantity 1277 1282	1-bit
+#12	AnnotatorNotes T22	bit
+T32	MeasuredEntity 1284 1289	wires
+R2	HasQuantity Arg1:T32 Arg2:T22

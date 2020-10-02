@@ -1,0 +1,7 @@
+T62	Quantity 464 474	440 ± 50 K
+#12	AnnotatorNotes T62	K
+A12	QuantityQualifier T62 HasTolerance
+T42	MeasuredProperty 406 427	inferred temperatures
+R3	HasQuantity Arg1:T42 Arg2:T62
+T52	MeasuredEntity 448 460	auroral oval
+R4	HasProperty Arg1:T52 Arg2:T42

@@ -1,0 +1,14 @@
+T52	Quantity 196 200	0.06
+#12	AnnotatorNotes T52	ppm
+T122	MeasuredProperty 166 179	concentration
+R3	HasQuantity Arg1:T122 Arg2:T52
+T112	MeasuredEntity 131 132	W
+R4	HasProperty Arg1:T112 Arg2:T122
+T162	Qualifier 217 220	ppm
+R5	Qualifies Arg1:T162 Arg2:T52
+T182	Qualifier 237 240	4.5
+R6	Qualifies Arg1:T182 Arg2:T52
+T212	Qualifier 225 236	inventories
+R7	Qualifies Arg1:T212 Arg2:T182
+T172	Qualifier 251 253	kg
+R8	Qualifies Arg1:T172 Arg2:T182

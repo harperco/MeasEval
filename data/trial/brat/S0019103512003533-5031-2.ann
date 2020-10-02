@@ -1,0 +1,7 @@
+T22	Quantity 159 171	around 180 K
+#12	AnnotatorNotes T22	K
+A12	IsApproximate T22
+T62	MeasuredEntity 91 114	exospheric temperatures
+R3	HasQuantity Arg1:T62 Arg2:T22
+T82	Qualifier 172 188	near the equator
+R4	Qualifies Arg1:T82 Arg2:T22

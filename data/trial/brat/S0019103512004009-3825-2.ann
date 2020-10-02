@@ -1,0 +1,6 @@
+T22	Quantity 263 271	11,500 K
+#12	AnnotatorNotes T22	K
+T72	MeasuredProperty 223 242	maximum temperature
+R3	HasQuantity Arg1:T72 Arg2:T22
+T82	MeasuredEntity 250 259	H50 model
+R4	HasProperty Arg1:T82 Arg2:T72

@@ -1,0 +1,5 @@
+T354	Quantity 951 956	first
+#14	AnnotatorNotes T354	count
+A14	IsCount T354
+T364	MeasuredEntity 957 962	cycle
+R8	HasQuantity Arg1:T364 Arg2:T354

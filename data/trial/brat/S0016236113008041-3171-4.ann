@@ -1,0 +1,4 @@
+T24	Quantity 358 363	13 kg
+#14	AnnotatorNotes T24	kg
+T134	MeasuredEntity 266 279	bed inventory
+R11	HasQuantity Arg1:T134 Arg2:T24

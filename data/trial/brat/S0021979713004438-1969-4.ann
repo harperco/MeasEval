@@ -1,0 +1,4 @@
+T44	Quantity 454 461	3.91 nm
+#14	AnnotatorNotes T44	nm
+T134	MeasuredProperty 442 450	Rq value
+R4	HasQuantity Arg1:T134 Arg2:T44

@@ -1,0 +1,5 @@
+T41	Quantity 626 628	20
+#11	AnnotatorNotes T41	count
+A11	IsCount T41
+T11	MeasuredEntity 629 638	specimens
+R1	HasQuantity Arg1:T11 Arg2:T41

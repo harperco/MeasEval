@@ -1,0 +1,5 @@
+T233	Quantity 713 717	five
+#13	AnnotatorNotes T233	count
+A13	IsCount T233
+T223	MeasuredEntity 718 727	detectors
+R5	HasQuantity Arg1:T223 Arg2:T233

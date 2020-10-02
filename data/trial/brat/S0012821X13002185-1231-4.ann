@@ -1,0 +1,5 @@
+T34	Quantity 1083 1102	between 2 and 20 μm
+#14	AnnotatorNotes T34	μm
+A14	QuantityQualifier T34 IsRange
+T74	MeasuredEntity 1068 1082	size fractions
+R6	HasQuantity Arg1:T74 Arg2:T34

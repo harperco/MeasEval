@@ -1,0 +1,5 @@
+T217	Quantity 1017 1020	two
+#17	AnnotatorNotes T217	count
+A17	IsCount T217
+T227	MeasuredEntity 1021 1026	coals
+R14	HasQuantity Arg1:T227 Arg2:T217

@@ -1,0 +1,4 @@
+T51	Quantity 153 158	10 μM
+#11	AnnotatorNotes T51	μM
+T71	MeasuredEntity 159 164	FeCl3
+R1	HasQuantity Arg1:T71 Arg2:T51

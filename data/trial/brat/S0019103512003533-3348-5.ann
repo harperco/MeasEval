@@ -1,0 +1,5 @@
+T145	Quantity 458 461	500
+#15	AnnotatorNotes T145	count
+A15	IsCount T145
+T125	MeasuredEntity 462 478	Saturn rotations
+R11	HasQuantity Arg1:T125 Arg2:T145

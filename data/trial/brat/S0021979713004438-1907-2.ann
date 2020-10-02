@@ -1,0 +1,4 @@
+T22	Quantity 973 978	10 μm
+#12	AnnotatorNotes T22	μm
+T72	MeasuredEntity 979 984	FeCl3
+R4	HasQuantity Arg1:T72 Arg2:T22

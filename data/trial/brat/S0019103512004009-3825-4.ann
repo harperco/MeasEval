@@ -1,0 +1,4 @@
+T164	Quantity 324 332	0.3 nbar
+#14	AnnotatorNotes T164	nbar
+T154	MeasuredEntity 320 321	p
+R8	HasQuantity Arg1:T154 Arg2:T164

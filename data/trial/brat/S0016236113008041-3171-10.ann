@@ -1,0 +1,7 @@
+T2110	Quantity 731 739	<0.1 ppm
+#110	AnnotatorNotes T2110	ppm
+A110	QuantityQualifier T2110 IsRange
+T2010	MeasuredProperty 702 725	flue gas concentrations
+R19	HasQuantity Arg1:T2010 Arg2:T2110
+T1510	MeasuredEntity 688 701	minor element
+R20	HasProperty Arg1:T1510 Arg2:T2010

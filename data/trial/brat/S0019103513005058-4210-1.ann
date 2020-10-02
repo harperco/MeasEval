@@ -1,0 +1,11 @@
+T11	Quantity 143 146	2 m
+#11	AnnotatorNotes T11	m
+A11	QuantityQualifier T11 IsMean
+T21	MeasuredProperty 134 139	depth
+R1	HasQuantity Arg1:T21 Arg2:T11
+T41	MeasuredEntity 106 110	soil
+R2	HasProperty Arg1:T41 Arg2:T21
+T31	Qualifier 126 133	average
+R3	Qualifies Arg1:T31 Arg2:T11
+T51	Qualifier 114 119	mixed
+R4	Qualifies Arg1:T51 Arg2:T21

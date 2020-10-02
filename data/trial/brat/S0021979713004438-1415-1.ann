@@ -1,0 +1,7 @@
+T11	Quantity 345 357	25 ± 0.02 °C
+#11	AnnotatorNotes T11	°C
+A11	QuantityQualifier T11 HasTolerance
+T21	MeasuredProperty 293 304	temperature
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 312 326	measuring cell
+R2	HasProperty Arg1:T31 Arg2:T21

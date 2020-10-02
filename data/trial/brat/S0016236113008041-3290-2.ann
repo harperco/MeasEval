@@ -1,0 +1,8 @@
+T52	Quantity 203 207	0.63
+#12	AnnotatorNotes T52	ppm
+T182	MeasuredProperty 185 199	concentrations
+R3	HasQuantity Arg1:T182 Arg2:T52
+T92	MeasuredEntity 152 154	Fe
+R4	HasProperty Arg1:T92 Arg2:T182
+T122	Qualifier 217 220	ppm
+R5	Qualifies Arg1:T122 Arg2:T52

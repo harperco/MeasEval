@@ -1,0 +1,7 @@
+T12	Quantity 111 123	above 2618 m
+#12	AnnotatorNotes T12	m
+A12	QuantityQualifier T12 IsRange
+T42	MeasuredProperty 89 95	before
+R3	HasQuantity Arg1:T42 Arg2:T12
+T32	MeasuredEntity 100 109	CIE onset
+R4	HasProperty Arg1:T32 Arg2:T42

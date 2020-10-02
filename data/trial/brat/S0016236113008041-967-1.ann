@@ -1,0 +1,5 @@
+T11	Quantity 40 62	4.5 kg, 6 kg and 13 kg
+#11	AnnotatorNotes T11	kg
+A11	QuantityQualifier T11 IsList
+T41	MeasuredEntity 63 70	sorbent
+R1	HasQuantity Arg1:T41 Arg2:T11

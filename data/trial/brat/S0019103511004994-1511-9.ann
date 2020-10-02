@@ -1,0 +1,8 @@
+T39	Quantity 1825 1829	86 s
+#19	AnnotatorNotes T39	s
+T279	MeasuredProperty 1662 1695	time resolution of the instrument
+R21	HasQuantity Arg1:T279 Arg2:T39
+T259	MeasuredEntity 1834 1862	a given pointing/pitch angle
+R22	HasProperty Arg1:T259 Arg2:T279
+T209	Qualifier 1637 1654	non-rotating mode
+R23	Qualifies Arg1:T209 Arg2:T39

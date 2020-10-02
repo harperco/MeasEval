@@ -1,0 +1,7 @@
+T11	Quantity 139 145	<1 ppm
+#11	AnnotatorNotes T11	ppm
+A11	QuantityQualifier T11 IsRange
+T71	MeasuredProperty 100 114	Concentrations
+R1	HasQuantity Arg1:T71 Arg2:T11
+T81	MeasuredEntity 18 39	gaseous major element
+R2	HasProperty Arg1:T81 Arg2:T71

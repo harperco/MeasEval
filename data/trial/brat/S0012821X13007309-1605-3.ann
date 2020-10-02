@@ -1,0 +1,4 @@
+T63	Quantity 1001 1005	24 m
+#13	AnnotatorNotes T63	m
+T73	MeasuredEntity 1006 1027	Pont d'Issole section
+R4	HasQuantity Arg1:T73 Arg2:T63

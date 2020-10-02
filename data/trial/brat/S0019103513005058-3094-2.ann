@@ -1,0 +1,9 @@
+T62	Quantity 868 872	∼2 m
+#12	AnnotatorNotes T62	m
+A12	IsApproximate T62
+T72	MeasuredProperty 859 864	depth
+R3	HasQuantity Arg1:T72 Arg2:T62
+T42	MeasuredEntity 795 799	soil
+R4	HasProperty Arg1:T42 Arg2:T72
+T52	Qualifier 809 838	mixed by impact perturbations
+R5	Qualifies Arg1:T52 Arg2:T42

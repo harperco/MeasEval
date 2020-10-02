@@ -1,0 +1,4 @@
+T104	Quantity 390 402	million-year
+#14	AnnotatorNotes T104	year
+T114	MeasuredEntity 403 412	timescale
+R7	HasQuantity Arg1:T114 Arg2:T104

@@ -1,0 +1,5 @@
+T23	Quantity 848 856	12–20 μm
+#13	AnnotatorNotes T23	μm
+A13	QuantityQualifier T23 IsRange
+T93	MeasuredEntity 857 865	fraction
+R5	HasQuantity Arg1:T93 Arg2:T23

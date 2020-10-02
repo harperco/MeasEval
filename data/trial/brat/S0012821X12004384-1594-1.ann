@@ -1,0 +1,5 @@
+T11	Quantity 156 168	above 2618 m
+#11	AnnotatorNotes T11	m
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredEntity 180 189	CIE onset
+R1	HasQuantity Arg1:T21 Arg2:T11

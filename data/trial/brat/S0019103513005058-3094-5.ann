@@ -1,0 +1,7 @@
+T125	Quantity 1051 1063	0.2–0.4 wt.%
+#15	AnnotatorNotes T125	wt.%
+A15	QuantityQualifier T125 IsRange
+T135	MeasuredProperty 1064 1065	N
+R10	HasQuantity Arg1:T135 Arg2:T125
+T155	MeasuredEntity 1000 1004	soil
+R11	HasProperty Arg1:T155 Arg2:T135

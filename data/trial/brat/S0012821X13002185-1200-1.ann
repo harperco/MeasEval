@@ -1,0 +1,5 @@
+T11	Quantity 318 325	>100 μm
+#11	AnnotatorNotes T11	μm
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredEntity 326 334	fraction
+R1	HasQuantity Arg1:T21 Arg2:T11

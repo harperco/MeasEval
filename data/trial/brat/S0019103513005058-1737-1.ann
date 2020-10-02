@@ -1,0 +1,6 @@
+T11	Quantity 97 105	1 g cm−3
+#11	AnnotatorNotes T11	g cm−3
+T31	MeasuredProperty 81 93	soil density
+R1	HasQuantity Arg1:T31 Arg2:T11
+T51	MeasuredEntity 27 36	Mars soil
+R2	HasProperty Arg1:T51 Arg2:T31

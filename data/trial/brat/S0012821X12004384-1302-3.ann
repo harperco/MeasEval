@@ -1,0 +1,5 @@
+T23	Quantity 769 800	2619.60, 2614.73, and 2614.71 m
+#13	AnnotatorNotes T23	m
+A13	QuantityQualifier T23 IsList
+T113	MeasuredEntity 760 767	samples
+R4	HasQuantity Arg1:T113 Arg2:T23

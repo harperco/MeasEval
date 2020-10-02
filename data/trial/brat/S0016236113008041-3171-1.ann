@@ -1,0 +1,4 @@
+T31	Quantity 283 289	4.5 kg
+#11	AnnotatorNotes T31	kg
+T131	MeasuredEntity 266 279	bed inventory
+R1	HasQuantity Arg1:T131 Arg2:T31

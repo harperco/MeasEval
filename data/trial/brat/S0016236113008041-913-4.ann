@@ -1,0 +1,6 @@
+T44	Quantity 147 152	13 kg
+#14	AnnotatorNotes T44	kg
+T54	MeasuredProperty 153 158	CaCO3
+R4	HasQuantity Arg1:T54 Arg2:T44
+T64	MeasuredEntity 130 143	bed inventory
+R5	HasProperty Arg1:T64 Arg2:T54

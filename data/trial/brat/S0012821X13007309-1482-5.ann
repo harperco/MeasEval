@@ -1,0 +1,5 @@
+T105	Quantity 446 456	1 to 20 cm
+#15	AnnotatorNotes T105	cm
+A15	QuantityQualifier T105 IsRange
+T95	MeasuredEntity 427 442	bentonite units
+R6	HasQuantity Arg1:T95 Arg2:T105

@@ -1,0 +1,4 @@
+T11	Quantity 256 261	13 kg
+#11	AnnotatorNotes T11	kg
+T31	MeasuredEntity 239 252	bed inventory
+R1	HasQuantity Arg1:T31 Arg2:T11

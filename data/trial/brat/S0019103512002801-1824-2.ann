@@ -1,0 +1,11 @@
+T32	Quantity 133 137	6–8%
+#12	AnnotatorNotes T32	%
+A12	QuantityQualifier T32 IsRange
+T42	MeasuredProperty 29 54	observed ∣B∣ disturbances
+R5	HasQuantity Arg1:T42 Arg2:T32
+T52	MeasuredEntity 58 62	Rhea
+R6	HasProperty Arg1:T52 Arg2:T42
+T22	MeasuredEntity 141 150	Enceladus
+R7	HasProperty Arg1:T22 Arg2:T42
+T62	Qualifier 63 97	with respect to the background ∣B∣
+R8	Qualifies Arg1:T62 Arg2:T42

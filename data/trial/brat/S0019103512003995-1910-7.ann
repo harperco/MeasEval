@@ -1,0 +1,11 @@
+T27	Quantity 339 345	9 ± 6%
+#17	AnnotatorNotes T27	%
+A17	QuantityQualifier T27 IsMeanHasTolerance
+T177	MeasuredProperty 285 296	variability
+R9	HasQuantity Arg1:T177 Arg2:T27
+T127	MeasuredEntity 53 70	Lyman α emissions
+R10	HasProperty Arg1:T127 Arg2:T177
+T187	Qualifier 297 322	during one solar rotation
+R11	Qualifies Arg1:T187 Arg2:T177
+T157	Qualifier 277 284	average
+R12	Qualifies Arg1:T157 Arg2:T27

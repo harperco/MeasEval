@@ -1,0 +1,9 @@
+T13	Quantity 211 221	1% and 37%
+#13	AnnotatorNotes T13	%
+A13	QuantityQualifier T13 IsRange
+T113	MeasuredProperty 184 195	variability
+R3	HasQuantity Arg1:T113 Arg2:T13
+T123	MeasuredEntity 53 70	Lyman α emissions
+R4	HasProperty Arg1:T123 Arg2:T113
+T43	Qualifier 222 257	during one period of solar rotation
+R5	Qualifies Arg1:T43 Arg2:T13

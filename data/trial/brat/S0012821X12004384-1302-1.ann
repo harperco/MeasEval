@@ -1,0 +1,5 @@
+T91	Quantity 553 557	Five
+#11	AnnotatorNotes T91	count
+A11	IsCount T91
+T101	MeasuredEntity 558 565	samples
+R1	HasQuantity Arg1:T101 Arg2:T91

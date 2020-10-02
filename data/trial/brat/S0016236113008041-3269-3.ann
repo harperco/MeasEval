@@ -1,0 +1,6 @@
+T53	Quantity 446 454	1000 ppm
+#13	AnnotatorNotes T53	ppm
+T363	MeasuredProperty 188 201	concentration
+R5	HasQuantity Arg1:T363 Arg2:T53
+T223	MeasuredEntity 184 187	SO2
+R6	HasProperty Arg1:T223 Arg2:T363

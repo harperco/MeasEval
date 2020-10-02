@@ -1,0 +1,6 @@
+T163	Quantity 634 638	0.13
+#13	AnnotatorNotes T163	Unspecified
+T153	MeasuredProperty 619 630	187Os/188Os
+R8	HasQuantity Arg1:T153 Arg2:T163
+T143	MeasuredEntity 612 618	basalt
+R9	HasProperty Arg1:T143 Arg2:T153

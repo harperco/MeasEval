@@ -1,0 +1,4 @@
+T58	Quantity 669 673	6 kg
+#18	AnnotatorNotes T58	kg
+T138	MeasuredEntity 266 279	bed inventory
+R17	HasQuantity Arg1:T138 Arg2:T58

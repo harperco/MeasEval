@@ -1,0 +1,10 @@
+T51	Quantity 313 357	between about 20 keV and several tens of MeV
+#11	AnnotatorNotes T51	keV / MeV
+A11	IsApproximate T51
+A21	QuantityQualifier T51 IsRange
+T71	MeasuredProperty 300 312	energy range
+R1	HasQuantity Arg1:T71 Arg2:T51
+T91	MeasuredEntity 272 281	electrons
+R2	HasProperty Arg1:T91 Arg2:T71
+T81	MeasuredEntity 255 267	charged ions
+R3	HasProperty Arg1:T81 Arg2:T71

@@ -1,8 +1,8 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512004009-5507	1	Quantity	197	208	T2	near 1 μbar	{mods: [IsApproximate], unit: μbar}
-S0019103512004009-5507	1	MeasuredProperty	167	171	T4	base	{HasQuantity: T2}
-S0019103512004009-5507	1	MeasuredEntity	179	193	T3	hot layer of H	{HasProperty: T4}
-S0019103512004009-5507	2	Quantity	257	263	T1	8250 K	{unit: K}
-S0019103512004009-5507	2	MeasuredProperty	214	230	T5	mean temperature	{HasQuantity: T1}
-S0019103512004009-5507	2	MeasuredEntity	179	193	T3	hot layer of H	{HasProperty: T5}
-S0019103512004009-5507	3	Quantity	308	311	T6	3Rp	{unit: Rp}
+S0019103512004009-5507	1	Quantity	197	208	T2	near 1 μbar	{"mods": ["IsApproximate"], "unit": "μbar"}
+S0019103512004009-5507	1	MeasuredProperty	167	171	T4	base	{"HasQuantity": "T2"}
+S0019103512004009-5507	1	MeasuredEntity	179	193	T3	hot layer of H	{"HasProperty": "T4"}
+S0019103512004009-5507	2	Quantity	257	263	T1	8250 K	{"unit": "K"}
+S0019103512004009-5507	2	MeasuredProperty	214	230	T5	mean temperature	{"HasQuantity": "T1"}
+S0019103512004009-5507	2	MeasuredEntity	179	193	T3	hot layer of H	{"HasProperty": "T5"}
+S0019103512004009-5507	3	Quantity	308	311	T6	3Rp	{"unit": "Rp"}

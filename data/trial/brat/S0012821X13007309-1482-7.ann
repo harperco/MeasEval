@@ -1,0 +1,7 @@
+T137	Quantity 1134 1135	F
+#17	AnnotatorNotes T137	count
+A17	IsCount T137
+T147	MeasuredProperty 1135 1136	O
+R8	HasQuantity Arg1:T147 Arg2:T137
+T177	MeasuredEntity 1163 1193	ammonite Watinoceras devonense
+R9	HasProperty Arg1:T177 Arg2:T147

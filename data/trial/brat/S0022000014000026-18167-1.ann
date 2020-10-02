@@ -1,0 +1,5 @@
+T11	Quantity 1274 1275	7
+#11	AnnotatorNotes T11	count
+A11	IsCount T11
+T41	MeasuredEntity 1284 1301	wires per channel
+R1	HasQuantity Arg1:T41 Arg2:T11

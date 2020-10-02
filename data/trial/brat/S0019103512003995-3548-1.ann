@@ -1,0 +1,6 @@
+T41	Quantity 651 657	1 μbar
+#11	AnnotatorNotes T41	μbar
+T141	MeasuredProperty 639 647	pressure
+R1	HasQuantity Arg1:T141 Arg2:T41
+T51	MeasuredEntity 624 637	lower boundar
+R2	HasProperty Arg1:T51 Arg2:T141

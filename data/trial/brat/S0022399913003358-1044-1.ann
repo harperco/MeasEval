@@ -1,0 +1,7 @@
+T21	Quantity 111 121	around 40%
+#11	AnnotatorNotes T21	%
+A11	IsApproximate T21
+T31	MeasuredProperty 146 166	hearing difficulties
+R1	HasQuantity Arg1:T31 Arg2:T21
+T41	MeasuredEntity 125 140	55–74 year olds
+R2	HasProperty Arg1:T41 Arg2:T31

@@ -1,0 +1,10 @@
+T166	Quantity 1705 1713	16 times
+#16	AnnotatorNotes T166	times
+T276	MeasuredProperty 1662 1695	time resolution of the instrument
+R11	HasQuantity Arg1:T276 Arg2:T166
+T256	MeasuredEntity 1834 1862	a given pointing/pitch angle
+R12	HasProperty Arg1:T256 Arg2:T276
+T266	Qualifier 1714 1746	better than in the rotating mode
+R13	Qualifies Arg1:T266 Arg2:T166
+T206	Qualifier 1637 1654	non-rotating mode
+R14	Qualifies Arg1:T206 Arg2:T166

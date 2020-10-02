@@ -1,0 +1,7 @@
+T22	Quantity 383 389	<2 ppm
+#12	AnnotatorNotes T22	ppm
+A12	QuantityQualifier T22 IsRange
+T42	MeasuredProperty 365 379	concentrations
+R2	HasQuantity Arg1:T42 Arg2:T22
+T62	MeasuredEntity 297 305	elements
+R3	HasProperty Arg1:T62 Arg2:T42

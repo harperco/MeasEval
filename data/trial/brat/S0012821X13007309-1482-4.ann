@@ -1,0 +1,5 @@
+T84	Quantity 422 426	four
+#14	AnnotatorNotes T84	count
+A14	IsCount T84
+T94	MeasuredEntity 427 442	bentonite units
+R5	HasQuantity Arg1:T94 Arg2:T84

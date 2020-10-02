@@ -1,0 +1,7 @@
+T11	Quantity 46 50	2–3‰
+#11	AnnotatorNotes T11	‰
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredProperty 64 78	positive shift
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 51 63	VPDB δ13Corg
+R2	HasProperty Arg1:T31 Arg2:T21

@@ -1,0 +1,6 @@
+T63	Quantity 580 600	below around 1000 km
+#13	AnnotatorNotes T63	km
+A13	IsApproximate T63
+A23	QuantityQualifier T63 IsRange
+T73	MeasuredEntity 601 609	altitude
+R4	HasQuantity Arg1:T73 Arg2:T63

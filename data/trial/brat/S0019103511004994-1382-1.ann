@@ -1,0 +1,5 @@
+T101	Quantity 370 379	2005–2010
+#11	AnnotatorNotes T101	Unspecified
+A11	QuantityQualifier T101 IsRange
+T91	MeasuredEntity 358 369	time period
+R1	HasQuantity Arg1:T91 Arg2:T101

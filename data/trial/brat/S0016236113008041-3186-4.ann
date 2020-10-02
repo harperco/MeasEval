@@ -1,0 +1,10 @@
+T24	Quantity 212 220	0.74 ppm
+#14	AnnotatorNotes T24	ppm
+T124	MeasuredProperty 166 179	concentration
+R15	HasQuantity Arg1:T124 Arg2:T24
+T114	MeasuredEntity 131 132	W
+R16	HasProperty Arg1:T114 Arg2:T124
+T34	Qualifier 248 253	13 kg
+R17	Qualifies Arg1:T34 Arg2:T24
+T214	Qualifier 225 236	inventories
+R18	Qualifies Arg1:T214 Arg2:T34

@@ -1,0 +1,7 @@
+T52	Quantity 280 293	on average 5%
+#12	AnnotatorNotes T52	%
+A12	QuantityQualifier T52 IsMean
+T32	MeasuredProperty 294 310	peridinoid cysts
+R2	HasQuantity Arg1:T32 Arg2:T52
+T42	MeasuredEntity 262 265	DA1
+R3	HasProperty Arg1:T42 Arg2:T32

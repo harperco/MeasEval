@@ -1,0 +1,12 @@
+T715	Quantity 1559 1583	from ∼50 ppm to ∼150 ppm
+#115	AnnotatorNotes T715	ppm
+A115	IsApproximate T715
+A215	QuantityQualifier T715 IsRange
+T3315	MeasuredProperty 1421 1423	Ti
+R30	HasQuantity Arg1:T3315 Arg2:T715
+T3215	MeasuredEntity 1504 1511	sorbent
+R31	HasProperty Arg1:T3215 Arg2:T3315
+T2715	Qualifier 1488 1496	increase
+R32	Qualifies Arg1:T2715 Arg2:T715
+T815	Qualifier 1512 1558	cycled in the presence of RDF over five cycles
+R33	Qualifies Arg1:T815 Arg2:T715

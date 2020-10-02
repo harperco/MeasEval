@@ -1,0 +1,11 @@
+T12	Quantity 550 566	1300 K to 3500 K
+#12	AnnotatorNotes T12	K
+A12	QuantityQualifier T12 IsRange
+T52	MeasuredProperty 515 526	temperature
+R3	HasQuantity Arg1:T52 Arg2:T12
+T32	MeasuredEntity 109 125	upper atmosphere
+R4	HasProperty Arg1:T32 Arg2:T52
+T42	Qualifier 527 536	increases
+R5	Qualifies Arg1:T42 Arg2:T12
+T62	Qualifier 567 588	near the 1 μbar level
+R6	Qualifies Arg1:T62 Arg2:T42

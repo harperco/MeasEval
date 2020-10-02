@@ -1,0 +1,4 @@
+T208	Quantity 1000 1001	1
+#18	AnnotatorNotes T208	Unspecified
+T198	MeasuredEntity 993 997	ηnet
+R16	HasQuantity Arg1:T198 Arg2:T208

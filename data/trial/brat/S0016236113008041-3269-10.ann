@@ -1,0 +1,14 @@
+T1510	Quantity 989 992	9.4
+#110	AnnotatorNotes T1510	ppm
+T2110	MeasuredProperty 949 962	concentration
+R25	HasQuantity Arg1:T2110 Arg2:T1510
+T4010	MeasuredEntity 892 894	Zn
+R26	HasProperty Arg1:T4010 Arg2:T2110
+T1310	Qualifier 1009 1012	ppm
+R27	Qualifies Arg1:T1310 Arg2:T1510
+T2310	Qualifier 1039 1040	0
+R28	Qualifies Arg1:T2310 Arg2:T1510
+T1910	Qualifier 1056 1059	ppm
+R29	Qualifies Arg1:T1910 Arg2:T2310
+T1410	Qualifier 1017 1035	SO2 concentrations
+R30	Qualifies Arg1:T1410 Arg2:T2310

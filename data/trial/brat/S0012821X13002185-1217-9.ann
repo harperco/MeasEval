@@ -1,0 +1,6 @@
+T179	Quantity 706 718	six to eight
+#19	AnnotatorNotes T179	count
+A19	QuantityQualifier T179 IsRange
+A29	IsCount T179
+T189	MeasuredEntity 719 743	standard-sample brackets
+R14	HasQuantity Arg1:T189 Arg2:T179

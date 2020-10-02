@@ -1,0 +1,6 @@
+T11	Quantity 766 769	10%
+#11	AnnotatorNotes T11	%
+T21	MeasuredProperty 770 774	HNO3
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 751 755	acid
+R2	HasProperty Arg1:T31 Arg2:T21

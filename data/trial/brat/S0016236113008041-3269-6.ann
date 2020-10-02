@@ -1,0 +1,10 @@
+T96	Quantity 764 771	135 ppm
+#16	AnnotatorNotes T96	ppm
+T206	MeasuredProperty 742 756	concentrations
+R11	HasQuantity Arg1:T206 Arg2:T96
+T316	MeasuredEntity 760 762	Ti
+R12	HasProperty Arg1:T316 Arg2:T206
+T126	Qualifier 714 726	1000 ppm SO2
+R13	Qualifies Arg1:T126 Arg2:T96
+T326	Qualifier 772 789	for single column
+R14	Qualifies Arg1:T326 Arg2:T96

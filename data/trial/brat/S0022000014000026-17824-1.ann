@@ -1,0 +1,6 @@
+T11	Quantity 103 107	1 μs
+#11	AnnotatorNotes T11	μs
+T21	MeasuredProperty 97 101	skew
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 66 72	pulses
+R2	HasProperty Arg1:T31 Arg2:T21

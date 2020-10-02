@@ -1,0 +1,7 @@
+T104	Quantity 724 729	∼−27‰
+#14	AnnotatorNotes T104	‰
+A14	IsApproximate T104
+T114	MeasuredProperty 692 704	gradual fall
+R7	HasQuantity Arg1:T114 Arg2:T104
+T94	MeasuredEntity 708 715	δ13Corg
+R8	HasProperty Arg1:T94 Arg2:T114

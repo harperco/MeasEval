@@ -1,0 +1,4 @@
+T1911	Quantity 857 869	eight-second
+#111	AnnotatorNotes T1911	second
+T2011	MeasuredEntity 870 882	integrations
+R16	HasQuantity Arg1:T2011 Arg2:T1911

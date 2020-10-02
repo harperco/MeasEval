@@ -1,0 +1,4 @@
+T21	Quantity 96 101	0 ppm
+#11	AnnotatorNotes T21	ppm
+T71	MeasuredProperty 74 92	SO2 concentrations
+R1	HasQuantity Arg1:T71 Arg2:T21

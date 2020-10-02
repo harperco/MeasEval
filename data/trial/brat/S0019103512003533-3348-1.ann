@@ -1,0 +1,8 @@
+T41	Quantity 326 328	2°
+#11	AnnotatorNotes T41	°
+T51	MeasuredProperty 300 308	latitude
+R1	HasQuantity Arg1:T51 Arg2:T41
+T131	MeasuredEntity 252 277	simulations in this study
+R2	HasProperty Arg1:T131 Arg2:T51
+T61	Qualifier 289 299	spacing in
+R3	Qualifies Arg1:T61 Arg2:T51

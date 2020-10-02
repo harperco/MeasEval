@@ -1,0 +1,4 @@
+T115	Quantity 230 234	pH∼2
+#15	AnnotatorNotes T115	pH
+T125	MeasuredEntity 204 211	samples
+R8	HasQuantity Arg1:T125 Arg2:T115

@@ -1,0 +1,8 @@
+T11	Quantity 324 333	11 km s−1
+#11	AnnotatorNotes T11	km s−1
+T21	MeasuredProperty 299 314	radial velocity
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 261 271	SOL2 model
+R2	HasProperty Arg1:T31 Arg2:T21
+T41	Qualifier 334 340	by 5Rp
+R3	Qualifies Arg1:T41 Arg2:T11

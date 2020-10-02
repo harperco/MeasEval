@@ -1,0 +1,6 @@
+T28	Quantity 557 560	95%
+#18	AnnotatorNotes T28	%
+T168	MeasuredProperty 537 546	m/Δm∼3500
+R12	HasQuantity Arg1:T168 Arg2:T28
+T138	MeasuredEntity 488 505	mass spectrometer
+R13	HasProperty Arg1:T138 Arg2:T168

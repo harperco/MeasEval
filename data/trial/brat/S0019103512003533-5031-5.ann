@@ -1,0 +1,5 @@
+T45	Quantity 376 386	488 ± 14 K
+#15	AnnotatorNotes T45	K
+A15	QuantityQualifier T45 HasTolerance
+T105	MeasuredEntity 239 261	exospheric temperature
+R7	HasQuantity Arg1:T105 Arg2:T45

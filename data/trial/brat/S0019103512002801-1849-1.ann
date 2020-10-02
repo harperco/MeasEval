@@ -1,0 +1,5 @@
+T31	Quantity 34 37	350
+#11	AnnotatorNotes T31	count
+A11	IsCount T31
+T41	MeasuredEntity 38 47	electrons
+R1	HasQuantity Arg1:T41 Arg2:T31

@@ -1,0 +1,7 @@
+T131	Quantity 347 351	∼−1‰
+#11	AnnotatorNotes T131	‰
+A11	IsApproximate T131
+T121	MeasuredProperty 309 312	30ε
+R1	HasQuantity Arg1:T121 Arg2:T131
+T111	MeasuredEntity 92 135	diatom silicon isotope fractionation factor
+R2	HasProperty Arg1:T111 Arg2:T121

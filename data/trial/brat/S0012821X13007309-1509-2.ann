@@ -1,0 +1,6 @@
+T52	Quantity 94 99	∼−27‰
+#12	AnnotatorNotes T52	‰
+T42	MeasuredProperty 51 63	VPDB δ13Corg
+R3	HasQuantity Arg1:T42 Arg2:T52
+T62	MeasuredEntity 107 127	upper Hartland Shale
+R4	HasProperty Arg1:T62 Arg2:T42

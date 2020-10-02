@@ -1,0 +1,7 @@
+T13	Quantity 446 461	as low as 25 km
+#13	AnnotatorNotes T13	km
+A13	QuantityQualifier T13 IsRange
+T43	MeasuredEntity 380 402	the Cassini spacecraft
+R4	HasQuantity Arg1:T43 Arg2:T13
+T33	Qualifier 462 479	above the surface
+R5	Qualifies Arg1:T33 Arg2:T13

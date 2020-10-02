@@ -1,0 +1,6 @@
+T52	Quantity 426 434	14 times
+#12	AnnotatorNotes T52	times
+T62	MeasuredProperty 403 425	flew close by the moon
+R2	HasQuantity Arg1:T62 Arg2:T52
+T42	MeasuredEntity 380 402	the Cassini spacecraft
+R3	HasProperty Arg1:T42 Arg2:T62

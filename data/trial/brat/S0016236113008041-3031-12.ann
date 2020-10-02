@@ -1,0 +1,5 @@
+T2812	Quantity 1410 1413	two
+#112	AnnotatorNotes T2812	count
+A112	IsCount T2812
+T2912	MeasuredEntity 1414 1419	fuels
+R27	HasQuantity Arg1:T2912 Arg2:T2812

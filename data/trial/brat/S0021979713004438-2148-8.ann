@@ -1,0 +1,6 @@
+T148	Quantity 1474 1483	1260 cm−1
+#18	AnnotatorNotes T148	cm−1
+T128	MeasuredProperty 1450 1455	peaks
+R13	HasQuantity Arg1:T128 Arg2:T148
+T178	MeasuredEntity 17 41	in situ ATR-FTIR spectra
+R14	HasProperty Arg1:T178 Arg2:T128

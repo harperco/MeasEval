@@ -1,0 +1,7 @@
+T42	Quantity 1396 1406	56–100 keV
+#12	AnnotatorNotes T42	meV
+A12	QuantityQualifier T42 IsRange
+T62	MeasuredProperty 1350 1381	measured differential intensity
+R3	HasQuantity Arg1:T62 Arg2:T42
+T52	MeasuredEntity 1385 1394	electrons
+R4	HasProperty Arg1:T52 Arg2:T62

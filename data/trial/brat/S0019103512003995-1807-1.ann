@@ -1,0 +1,6 @@
+T11	Quantity 323 331	589.3 nm
+#11	AnnotatorNotes T11	nm
+T31	MeasuredProperty 332 341	resonance
+R1	HasQuantity Arg1:T31 Arg2:T11
+T41	MeasuredEntity 318 322	Na D
+R2	HasProperty Arg1:T41 Arg2:T31

@@ -1,0 +1,4 @@
+T13	Quantity 354 357	10%
+#13	AnnotatorNotes T13	%
+T123	MeasuredEntity 358 362	NaOH
+R3	HasQuantity Arg1:T123 Arg2:T13

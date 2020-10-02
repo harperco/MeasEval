@@ -1,0 +1,6 @@
+T279	Quantity 1392 1399	100 ppt
+#19	AnnotatorNotes T279	ppt
+T269	MeasuredProperty 1377 1390	Os abundances
+R21	HasQuantity Arg1:T269 Arg2:T279
+T259	MeasuredEntity 1350 1361	LIP basalts
+R22	HasProperty Arg1:T259 Arg2:T269

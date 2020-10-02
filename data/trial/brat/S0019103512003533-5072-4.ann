@@ -1,0 +1,6 @@
+T94	Quantity 159 162	78°
+#14	AnnotatorNotes T94	°
+T64	MeasuredProperty 129 137	latitude
+R7	HasQuantity Arg1:T64 Arg2:T94
+T44	MeasuredEntity 378 384	Saturn
+R8	HasProperty Arg1:T44 Arg2:T64

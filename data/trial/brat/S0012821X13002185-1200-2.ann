@@ -1,0 +1,6 @@
+T32	Quantity 400 418	between 50 and 100
+#12	AnnotatorNotes T32	count
+A12	QuantityQualifier T32 IsRange
+A22	IsCount T32
+T42	MeasuredEntity 419 427	spicules
+R2	HasQuantity Arg1:T42 Arg2:T32

@@ -1,0 +1,11 @@
+T13	Quantity 988 993	430 K
+#13	AnnotatorNotes T13	K
+A13	QuantityQualifier T13 IsMean
+T43	MeasuredProperty 804 827	exospheric temperatures
+R6	HasQuantity Arg1:T43 Arg2:T13
+T123	MeasuredEntity 770 795	solstice simulation (R19)
+R7	HasProperty Arg1:T123 Arg2:T43
+T103	Qualifier 907 970	over the same latitude band in the northern (winter) hemisphere
+R8	Qualifies Arg1:T103 Arg2:T13
+T93	Qualifier 897 906	averaging
+R9	Qualifies Arg1:T93 Arg2:T13

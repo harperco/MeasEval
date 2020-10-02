@@ -1,0 +1,6 @@
+T41	Quantity 310 317	30 nbar
+#11	AnnotatorNotes T41	nbar
+T31	MeasuredProperty 292 306	lower boundary
+R1	HasQuantity Arg1:T31 Arg2:T41
+T51	MeasuredEntity 255 260	model
+R2	HasProperty Arg1:T51 Arg2:T31

@@ -1,0 +1,6 @@
+T63	Quantity 144 149	1 keV
+#13	AnnotatorNotes T63	keV
+T23	MeasuredProperty 130 142	level of Erk
+R4	HasQuantity Arg1:T23 Arg2:T63
+T53	MeasuredEntity 110 119	electrons
+R5	HasProperty Arg1:T53 Arg2:T23

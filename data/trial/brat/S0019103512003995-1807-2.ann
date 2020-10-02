@@ -1,0 +1,5 @@
+T122	Quantity 421 425	four
+#12	AnnotatorNotes T122	count
+A12	IsCount T122
+T112	MeasuredEntity 426 434	transits
+R3	HasQuantity Arg1:T112 Arg2:T122

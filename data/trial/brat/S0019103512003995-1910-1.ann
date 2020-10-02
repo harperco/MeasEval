@@ -1,0 +1,7 @@
+T71	Quantity 112 127	four and a half
+#11	AnnotatorNotes T71	count
+A11	IsCount T71
+T81	MeasuredEntity 128 140	solar cycles
+R1	HasQuantity Arg1:T81 Arg2:T71
+T91	Qualifier 141 162	between 1947 and 1999
+R2	Qualifies Arg1:T91 Arg2:T81

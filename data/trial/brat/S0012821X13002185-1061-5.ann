@@ -1,0 +1,9 @@
+T145	Quantity 870 875	∼2 Ma
+#15	AnnotatorNotes T145	Ma
+A15	IsApproximate T145
+T135	MeasuredProperty 864 869	began
+R8	HasQuantity Arg1:T135 Arg2:T145
+T125	MeasuredEntity 851 858	decline
+R9	HasProperty Arg1:T125 Arg2:T135
+T155	Qualifier 876 948	prior to geological and stable isotope evidence for Antarctic glaciation
+R10	Qualifies Arg1:T155 Arg2:T145

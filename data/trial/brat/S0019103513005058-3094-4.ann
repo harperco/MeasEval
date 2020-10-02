@@ -1,0 +1,7 @@
+T114	Quantity 1028 1040	1.0–1.7 wt.%
+#14	AnnotatorNotes T114	wt.%
+A14	QuantityQualifier T114 IsRange
+T144	MeasuredProperty 1041 1046	SO42-
+R8	HasQuantity Arg1:T144 Arg2:T114
+T154	MeasuredEntity 1000 1004	soil
+R9	HasProperty Arg1:T154 Arg2:T144

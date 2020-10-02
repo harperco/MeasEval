@@ -1,0 +1,6 @@
+T12	Quantity 127 129	1%
+#12	AnnotatorNotes T12	%
+T22	MeasuredProperty 130 142	level of Erk
+R2	HasQuantity Arg1:T22 Arg2:T12
+T52	MeasuredEntity 110 119	electrons
+R3	HasProperty Arg1:T52 Arg2:T22

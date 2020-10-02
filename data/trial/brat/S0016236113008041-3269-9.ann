@@ -1,0 +1,11 @@
+T109	Quantity 858 873	close to 10 ppm
+#19	AnnotatorNotes T109	ppm
+A19	IsApproximate T109
+T209	MeasuredProperty 742 756	concentrations
+R21	HasQuantity Arg1:T209 Arg2:T109
+T319	MeasuredEntity 760 762	Ti
+R22	HasProperty Arg1:T319 Arg2:T209
+T399	Qualifier 877 890	in both tests
+R23	Qualifies Arg1:T399 Arg2:T109
+T389	Qualifier 829 847	0 and 2000 ppm SO2
+R24	Qualifies Arg1:T389 Arg2:T109

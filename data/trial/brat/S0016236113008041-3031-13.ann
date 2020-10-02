@@ -1,0 +1,5 @@
+T3013	Quantity 1460 1465	eight
+#113	AnnotatorNotes T3013	count
+A113	IsCount T3013
+T3113	MeasuredEntity 1466 1472	cycles
+R28	HasQuantity Arg1:T3113 Arg2:T3013

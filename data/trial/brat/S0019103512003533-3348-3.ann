@@ -1,0 +1,6 @@
+T83	Quantity 381 398	0.4 scale heights
+#13	AnnotatorNotes T83	scale heights
+T73	MeasuredProperty 358 377	vertical resolution
+R7	HasQuantity Arg1:T73 Arg2:T83
+T133	MeasuredEntity 252 277	simulations in this study
+R8	HasProperty Arg1:T133 Arg2:T73

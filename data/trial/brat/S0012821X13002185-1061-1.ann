@@ -1,0 +1,5 @@
+T21	Quantity 147 155	∼33.7 Ma
+#11	AnnotatorNotes T21	Ma
+A11	IsApproximate T21
+T61	MeasuredEntity 141 144	Oi1
+R1	HasQuantity Arg1:T61 Arg2:T21

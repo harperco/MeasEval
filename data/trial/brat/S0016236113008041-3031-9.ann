@@ -1,0 +1,10 @@
+T39	Quantity 1082 1106	from ∼20 ppm to ∼180 ppm
+#19	AnnotatorNotes T39	ppm
+A19	IsApproximate T39
+A29	QuantityQualifier T39 IsRange
+T139	MeasuredProperty 917 919	Cu
+R16	HasQuantity Arg1:T139 Arg2:T39
+T129	MeasuredEntity 921 928	sorbent
+R17	HasProperty Arg1:T129 Arg2:T139
+T389	Qualifier 1032 1081	increased over five cycles in the presence of RDF
+R18	Qualifies Arg1:T389 Arg2:T39

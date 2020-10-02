@@ -1,0 +1,6 @@
+T11	Quantity 1088 1091	50%
+#11	AnnotatorNotes T11	%
+T21	MeasuredProperty 1064 1084	heating efficiencies
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 761 778	Solar EUV heating
+R2	HasProperty Arg1:T31 Arg2:T21

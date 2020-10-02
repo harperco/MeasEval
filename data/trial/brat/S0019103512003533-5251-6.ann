@@ -1,0 +1,9 @@
+T176	Quantity 874 881	⩽ 650 K
+#16	AnnotatorNotes T176	K
+A16	QuantityQualifier T176 IsRange
+T146	MeasuredProperty 818 836	polar temperatures
+R11	HasQuantity Arg1:T146 Arg2:T176
+T166	MeasuredEntity 864 870	Saturn
+R12	HasProperty Arg1:T166 Arg2:T146
+T156	Qualifier 842 860	have been observed
+R13	Qualifies Arg1:T156 Arg2:T176

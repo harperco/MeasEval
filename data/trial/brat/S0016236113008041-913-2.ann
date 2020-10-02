@@ -1,0 +1,4 @@
+T32	Quantity 103 111	1000 ppm
+#12	AnnotatorNotes T32	ppm
+T72	MeasuredProperty 74 92	SO2 concentrations
+R2	HasQuantity Arg1:T72 Arg2:T32

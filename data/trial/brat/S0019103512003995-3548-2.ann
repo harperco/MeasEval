@@ -1,0 +1,10 @@
+T12	Quantity 851 863	about 8250 K
+#12	AnnotatorNotes T12	K
+A12	QuantityQualifier T12 IsMean
+A22	IsApproximate T12
+T62	MeasuredProperty 836 847	temperature
+R3	HasQuantity Arg1:T62 Arg2:T12
+T72	MeasuredEntity 871 893	thermosphere below 3Rp
+R4	HasProperty Arg1:T72 Arg2:T62
+T102	Qualifier 831 835	mean
+R5	Qualifies Arg1:T102 Arg2:T12

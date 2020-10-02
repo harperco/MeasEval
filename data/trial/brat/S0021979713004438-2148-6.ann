@@ -1,0 +1,6 @@
+T106	Quantity 1049 1058	1540 cm−1
+#16	AnnotatorNotes T106	cm−1
+T116	MeasuredProperty 1059 1063	peak
+R9	HasQuantity Arg1:T116 Arg2:T106
+T176	MeasuredEntity 17 41	in situ ATR-FTIR spectra
+R10	HasProperty Arg1:T176 Arg2:T116

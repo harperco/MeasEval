@@ -1,0 +1,7 @@
+T14	Quantity 978 993	86 s, nominally
+#14	AnnotatorNotes T14	s
+A14	IsApproximate T14
+T114	MeasuredProperty 927 977	rotates about the −y-axis of the spacecraft within
+R6	HasQuantity Arg1:T114 Arg2:T14
+T104	MeasuredEntity 903 920	movable turntable
+R7	HasProperty Arg1:T104 Arg2:T114

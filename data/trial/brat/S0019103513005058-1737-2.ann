@@ -1,0 +1,7 @@
+T22	Quantity 132 141	1.5–2.6 m
+#12	AnnotatorNotes T22	m
+A12	QuantityQualifier T22 IsRange
+T42	MeasuredProperty 142 147	depth
+R3	HasQuantity Arg1:T42 Arg2:T22
+T52	MeasuredEntity 27 36	Mars soil
+R4	HasProperty Arg1:T52 Arg2:T42

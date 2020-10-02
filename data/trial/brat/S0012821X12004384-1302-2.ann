@@ -1,0 +1,7 @@
+T12	Quantity 588 637	2619.60, 2617.35, 2617.44, 2614.73, and 2614.71 m
+#12	AnnotatorNotes T12	m
+A12	QuantityQualifier T12 IsList
+T102	MeasuredEntity 558 565	samples
+R2	HasQuantity Arg1:T102 Arg2:T12
+T152	Qualifier 571 584	below the CIE
+R3	Qualifies Arg1:T152 Arg2:T12

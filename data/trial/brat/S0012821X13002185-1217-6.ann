@@ -1,0 +1,4 @@
+T146	Quantity 240 245	0.2 M
+#16	AnnotatorNotes T146	M
+T156	MeasuredEntity 246 269	thermally distilled HCl
+R9	HasQuantity Arg1:T156 Arg2:T146

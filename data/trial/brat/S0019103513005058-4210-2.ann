@@ -1,0 +1,8 @@
+T82	Quantity 230 246	4.3 × 10−8 wt. %
+#12	AnnotatorNotes T82	wt. %
+T212	MeasuredProperty 212 226	concentrations
+R5	HasQuantity Arg1:T212 Arg2:T82
+T202	MeasuredEntity 33 44	perchlorate
+R6	HasProperty Arg1:T202 Arg2:T212
+T62	Qualifier 170 179	Ca(ClO4)2
+R7	Qualifies Arg1:T62 Arg2:T82

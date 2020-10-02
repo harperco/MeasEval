@@ -1,0 +1,6 @@
+T93	Quantity 680 685	20 eV
+#13	AnnotatorNotes T93	eV
+T83	MeasuredProperty 670 676	energy
+R5	HasQuantity Arg1:T83 Arg2:T93
+T73	MeasuredEntity 656 669	single photon
+R6	HasProperty Arg1:T73 Arg2:T83

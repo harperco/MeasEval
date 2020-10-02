@@ -1,0 +1,9 @@
+T112	Quantity 529 535	10 ppq
+#12	AnnotatorNotes T112	ppq
+A12	QuantityQualifier T112 IsMean
+T122	MeasuredProperty 501 513	Os abundance
+R5	HasQuantity Arg1:T122 Arg2:T112
+T132	MeasuredEntity 517 525	seawater
+R6	HasProperty Arg1:T132 Arg2:T122
+T312	Qualifier 493 500	average
+R7	Qualifies Arg1:T312 Arg2:T112

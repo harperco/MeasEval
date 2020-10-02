@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0012821X13002185-835	1	Quantity	160	165	T1	100 m	{unit: m}
-S0012821X13002185-835	1	MeasuredEntity	173	185	T2	water column	{HasQuantity: T1}
-S0012821X13002185-835	1	Qualifier	156	159	T3	top	{Qualifies: T1}
+S0012821X13002185-835	1	Quantity	160	165	T1	100 m	{"unit": "m"}
+S0012821X13002185-835	1	MeasuredEntity	173	185	T2	water column	{"HasQuantity": "T1"}
+S0012821X13002185-835	1	Qualifier	156	159	T3	top	{"Qualifies": "T1"}

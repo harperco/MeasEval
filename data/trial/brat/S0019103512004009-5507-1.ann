@@ -1,0 +1,7 @@
+T21	Quantity 197 208	near 1 μbar
+#11	AnnotatorNotes T21	μbar
+A11	IsApproximate T21
+T41	MeasuredProperty 167 171	base
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity 179 193	hot layer of H
+R2	HasProperty Arg1:T31 Arg2:T41

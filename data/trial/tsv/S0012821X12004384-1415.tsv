@@ -1,6 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0012821X12004384-1415	1	Quantity	39	58	T1	from 2632 to 2618 m	{mods: [IsRange], unit: m}
-S0012821X12004384-1415	1	MeasuredEntity	0	37	T2	Dinoflagellate cyst assemblage 1 (DA1	{HasQuantity: T1}
-S0012821X12004384-1415	2	Quantity	280	293	T5	on average 5%	{mods: [IsMean], unit: %}
-S0012821X12004384-1415	2	MeasuredProperty	294	310	T3	peridinoid cysts	{HasQuantity: T5}
-S0012821X12004384-1415	2	MeasuredEntity	262	265	T4	DA1	{HasProperty: T3}
+S0012821X12004384-1415	1	Quantity	39	58	T1	from 2632 to 2618 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X12004384-1415	1	MeasuredEntity	0	37	T2	Dinoflagellate cyst assemblage 1 (DA1	{"HasQuantity": "T1"}
+S0012821X12004384-1415	2	Quantity	280	293	T5	on average 5%	{"mods": ["IsMean"], "unit": "%"}
+S0012821X12004384-1415	2	MeasuredProperty	294	310	T3	peridinoid cysts	{"HasQuantity": "T5"}
+S0012821X12004384-1415	2	MeasuredEntity	262	265	T4	DA1	{"HasProperty": "T3"}

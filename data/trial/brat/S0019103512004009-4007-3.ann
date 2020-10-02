@@ -1,0 +1,4 @@
+T83	Quantity 944 947	0.1
+#13	AnnotatorNotes T83	Unspecified
+T73	MeasuredEntity 914 941	electron mixing ratio of xe
+R6	HasQuantity Arg1:T73 Arg2:T83

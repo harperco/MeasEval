@@ -1,0 +1,14 @@
+T63	Quantity 204 208	0.42
+#13	AnnotatorNotes T63	ppm
+T123	MeasuredProperty 166 179	concentration
+R9	HasQuantity Arg1:T123 Arg2:T63
+T113	MeasuredEntity 131 132	W
+R10	HasProperty Arg1:T113 Arg2:T123
+T163	Qualifier 217 220	ppm
+R11	Qualifies Arg1:T163 Arg2:T63
+T193	Qualifier 242 243	6
+R12	Qualifies Arg1:T193 Arg2:T63
+T213	Qualifier 225 236	inventories
+R13	Qualifies Arg1:T213 Arg2:T193
+T173	Qualifier 251 253	kg
+R14	Qualifies Arg1:T173 Arg2:T193

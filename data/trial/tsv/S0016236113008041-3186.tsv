@@ -1,32 +1,32 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0016236113008041-3186	1	Quantity	109	129	T1	greater than 0.1 ppm	{mods: [IsRange], unit: ppm}
-S0016236113008041-3186	1	MeasuredProperty	94	108	T9	concentrations	{HasQuantity: T1}
-S0016236113008041-3186	1	MeasuredEntity	67	79	T10	Rb, Nb and W	{HasProperty: T9}
-S0016236113008041-3186	2	Quantity	196	200	T5	0.06	{unit: ppm}
-S0016236113008041-3186	2	MeasuredProperty	166	179	T12	concentration	{HasQuantity: T5}
-S0016236113008041-3186	2	MeasuredEntity	131	132	T11	W	{HasProperty: T12}
-S0016236113008041-3186	2	Qualifier	217	220	T16	ppm	{Qualifies: T5}
-S0016236113008041-3186	2	Qualifier	237	240	T18	4.5	{Qualifies: T5}
-S0016236113008041-3186	2	Qualifier	225	236	T21	inventories	{Qualifies: T18}
-S0016236113008041-3186	2	Qualifier	251	253	T17	kg	{Qualifies: T18}
-S0016236113008041-3186	3	Quantity	204	208	T6	0.42	{unit: ppm}
-S0016236113008041-3186	3	MeasuredProperty	166	179	T12	concentration	{HasQuantity: T6}
-S0016236113008041-3186	3	MeasuredEntity	131	132	T11	W	{HasProperty: T12}
-S0016236113008041-3186	3	Qualifier	217	220	T16	ppm	{Qualifies: T6}
-S0016236113008041-3186	3	Qualifier	242	243	T19	6	{Qualifies: T6}
-S0016236113008041-3186	3	Qualifier	225	236	T21	inventories	{Qualifies: T19}
-S0016236113008041-3186	3	Qualifier	251	253	T17	kg	{Qualifies: T19}
-S0016236113008041-3186	4	Quantity	212	220	T2	0.74 ppm	{unit: ppm}
-S0016236113008041-3186	4	MeasuredProperty	166	179	T12	concentration	{HasQuantity: T2}
-S0016236113008041-3186	4	MeasuredEntity	131	132	T11	W	{HasProperty: T12}
-S0016236113008041-3186	4	Qualifier	248	253	T3	13 kg	{Qualifies: T2}
-S0016236113008041-3186	4	Qualifier	225	236	T21	inventories	{Qualifies: T3}
-S0016236113008041-3186	5	Quantity	237	240	T7	4.5	{unit: kg}
-S0016236113008041-3186	5	MeasuredEntity	225	236	T13	inventories	{HasQuantity: T7}
-S0016236113008041-3186	5	Qualifier	251	253	T17	kg	{Qualifies: T7}
-S0016236113008041-3186	6	Quantity	242	243	T8	6	{unit: kg}
-S0016236113008041-3186	6	Qualifier	251	253	T17	kg	{Qualifies: T8}
-S0016236113008041-3186	7	Quantity	248	253	T20	13 kg	{unit: kg}
-S0016236113008041-3186	8	Quantity	343	351	T4	<0.1 ppm	{mods: [IsRange], unit: ppm}
-S0016236113008041-3186	8	MeasuredProperty	286	309	T15	flue gas concentrations	{HasQuantity: T4}
-S0016236113008041-3186	8	MeasuredEntity	272	285	T14	trace element	{HasProperty: T15}
+S0016236113008041-3186	1	Quantity	109	129	T1	greater than 0.1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3186	1	MeasuredProperty	94	108	T9	concentrations	{"HasQuantity": "T1"}
+S0016236113008041-3186	1	MeasuredEntity	67	79	T10	Rb, Nb and W	{"HasProperty": "T9"}
+S0016236113008041-3186	2	Quantity	196	200	T5	0.06	{"unit": "ppm"}
+S0016236113008041-3186	2	MeasuredProperty	166	179	T12	concentration	{"HasQuantity": "T5"}
+S0016236113008041-3186	2	MeasuredEntity	131	132	T11	W	{"HasProperty": "T12"}
+S0016236113008041-3186	2	Qualifier	217	220	T16	ppm	{"Qualifies": "T5"}
+S0016236113008041-3186	2	Qualifier	237	240	T18	4.5	{"Qualifies": "T5"}
+S0016236113008041-3186	2	Qualifier	225	236	T21	inventories	{"Qualifies": "T18"}
+S0016236113008041-3186	2	Qualifier	251	253	T17	kg	{"Qualifies": "T18"}
+S0016236113008041-3186	3	Quantity	204	208	T6	0.42	{"unit": "ppm"}
+S0016236113008041-3186	3	MeasuredProperty	166	179	T12	concentration	{"HasQuantity": "T6"}
+S0016236113008041-3186	3	MeasuredEntity	131	132	T11	W	{"HasProperty": "T12"}
+S0016236113008041-3186	3	Qualifier	217	220	T16	ppm	{"Qualifies": "T6"}
+S0016236113008041-3186	3	Qualifier	242	243	T19	6	{"Qualifies": "T6"}
+S0016236113008041-3186	3	Qualifier	225	236	T21	inventories	{"Qualifies": "T19"}
+S0016236113008041-3186	3	Qualifier	251	253	T17	kg	{"Qualifies": "T19"}
+S0016236113008041-3186	4	Quantity	212	220	T2	0.74 ppm	{"unit": "ppm"}
+S0016236113008041-3186	4	MeasuredProperty	166	179	T12	concentration	{"HasQuantity": "T2"}
+S0016236113008041-3186	4	MeasuredEntity	131	132	T11	W	{"HasProperty": "T12"}
+S0016236113008041-3186	4	Qualifier	248	253	T3	13 kg	{"Qualifies": "T2"}
+S0016236113008041-3186	4	Qualifier	225	236	T21	inventories	{"Qualifies": "T3"}
+S0016236113008041-3186	5	Quantity	237	240	T7	4.5	{"unit": "kg"}
+S0016236113008041-3186	5	MeasuredEntity	225	236	T13	inventories	{"HasQuantity": "T7"}
+S0016236113008041-3186	5	Qualifier	251	253	T17	kg	{"Qualifies": "T7"}
+S0016236113008041-3186	6	Quantity	242	243	T8	6	{"unit": "kg"}
+S0016236113008041-3186	6	Qualifier	251	253	T17	kg	{"Qualifies": "T8"}
+S0016236113008041-3186	7	Quantity	248	253	T20	13 kg	{"unit": "kg"}
+S0016236113008041-3186	8	Quantity	343	351	T4	<0.1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3186	8	MeasuredProperty	286	309	T15	flue gas concentrations	{"HasQuantity": "T4"}
+S0016236113008041-3186	8	MeasuredEntity	272	285	T14	trace element	{"HasProperty": "T15"}

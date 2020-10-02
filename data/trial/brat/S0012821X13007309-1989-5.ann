@@ -1,0 +1,9 @@
+T205	Quantity 1048 1059	1 to 30 ppt
+#15	AnnotatorNotes T205	ppt
+A15	QuantityQualifier T205 IsRange
+T185	MeasuredProperty 954 967	Os abundances
+R12	HasQuantity Arg1:T185 Arg2:T205
+T175	MeasuredEntity 928 935	basalts
+R13	HasProperty Arg1:T175 Arg2:T185
+T215	Qualifier 1022 1036	typical values
+R14	Qualifies Arg1:T215 Arg2:T205

@@ -1,0 +1,4 @@
+T86	Quantity 242 243	6
+#16	AnnotatorNotes T86	kg
+T176	Qualifier 251 253	kg
+R21	Qualifies Arg1:T176 Arg2:T86

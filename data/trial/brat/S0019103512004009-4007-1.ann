@@ -1,0 +1,8 @@
+T11	Quantity 776 779	93%
+#11	AnnotatorNotes T11	%
+T21	MeasuredProperty 731 772	constant photoelectron heating efficiency
+R1	HasQuantity Arg1:T21 Arg2:T11
+T91	MeasuredEntity 712 720	Model C1
+R2	HasProperty Arg1:T91 Arg2:T21
+T31	Qualifier 780 823	at all altitudes and photoelectron energies
+R3	Qualifies Arg1:T31 Arg2:T11

@@ -1,0 +1,8 @@
+T104	Quantity 402 415	0.4–0.6 wt. %
+#14	AnnotatorNotes T104	wt. %
+T124	MeasuredProperty 354 372	observed abundance
+R11	HasQuantity Arg1:T124 Arg2:T104
+T114	MeasuredEntity 380 400	Phoenix landing site
+R12	HasProperty Arg1:T114 Arg2:T124
+T204	MeasuredEntity 33 44	perchlorate
+R13	HasProperty Arg1:T204 Arg2:T124

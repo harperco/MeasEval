@@ -1,0 +1,6 @@
+T12	Quantity 50 56	764 km
+#12	AnnotatorNotes T12	km
+T82	MeasuredProperty 35 41	radius
+R3	HasQuantity Arg1:T82 Arg2:T12
+T72	MeasuredEntity 0 4	Rhea
+R4	HasProperty Arg1:T72 Arg2:T82

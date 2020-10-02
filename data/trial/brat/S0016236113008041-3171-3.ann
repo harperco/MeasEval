@@ -1,0 +1,10 @@
+T253	Quantity 332 340	0.22 ppm
+#13	AnnotatorNotes T253	ppm
+T243	MeasuredProperty 196 198	Sn
+R7	HasQuantity Arg1:T243 Arg2:T253
+T233	MeasuredEntity 57 70	solid sorbent
+R8	HasProperty Arg1:T233 Arg2:T243
+T13	Qualifier 354 363	for 13 kg
+R9	Qualifies Arg1:T13 Arg2:T253
+T223	Qualifier 17 31	concentrations
+R10	Qualifies Arg1:T223 Arg2:T243

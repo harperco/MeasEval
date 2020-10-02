@@ -1,0 +1,7 @@
+T105	Quantity 355 363	0.1 to 1
+#15	AnnotatorNotes T105	Unspecified
+A15	QuantityQualifier T105 IsRange
+T95	MeasuredProperty 338 342	ηnet
+R9	HasQuantity Arg1:T95 Arg2:T105
+T85	MeasuredEntity 250 259	H50 model
+R10	HasProperty Arg1:T85 Arg2:T95

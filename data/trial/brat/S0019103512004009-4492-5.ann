@@ -1,0 +1,5 @@
+T65	Quantity 657 662	0.9mH
+#15	AnnotatorNotes T65	mH
+A15	QuantityQualifier T65 IsMean
+T75	MeasuredEntity 630 649	mean atomic weight2
+R6	HasQuantity Arg1:T75 Arg2:T65

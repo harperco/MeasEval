@@ -1,0 +1,6 @@
+T17	Quantity 550 552	5%
+#17	AnnotatorNotes T17	%
+T167	MeasuredProperty 537 546	m/Δm∼3500
+R10	HasQuantity Arg1:T167 Arg2:T17
+T137	MeasuredEntity 488 505	mass spectrometer
+R11	HasProperty Arg1:T137 Arg2:T167

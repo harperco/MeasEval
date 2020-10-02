@@ -1,0 +1,6 @@
+T101	Quantity 181 187	3 mbar
+#11	AnnotatorNotes T101	mbar
+T91	MeasuredProperty 188 193	level
+R1	HasQuantity Arg1:T91 Arg2:T101
+T31	MeasuredEntity 109 125	upper atmosphere
+R2	HasProperty Arg1:T31 Arg2:T91

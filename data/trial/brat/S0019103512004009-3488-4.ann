@@ -1,0 +1,6 @@
+T24	Quantity 812 818	3 mbar
+#14	AnnotatorNotes T24	mbar
+T84	MeasuredProperty 819 824	level
+R9	HasQuantity Arg1:T84 Arg2:T24
+T34	MeasuredEntity 109 125	upper atmosphere
+R10	HasProperty Arg1:T34 Arg2:T84

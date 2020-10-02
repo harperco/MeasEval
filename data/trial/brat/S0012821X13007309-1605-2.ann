@@ -1,0 +1,7 @@
+T32	Quantity 792 797	∼20 m
+#12	AnnotatorNotes T32	m
+A12	IsApproximate T32
+T42	MeasuredProperty 798 803	thick
+R2	HasQuantity Arg1:T42 Arg2:T32
+T52	MeasuredEntity 804 879	package of black organic-rich calcareous shales, termed the “Niveau Thomel”
+R3	HasProperty Arg1:T52 Arg2:T42

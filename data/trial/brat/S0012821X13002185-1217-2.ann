@@ -1,0 +1,4 @@
+T52	Quantity 137 143	100 °C
+#12	AnnotatorNotes T52	°C
+T82	MeasuredEntity 49 71	wet alkaline digestion
+R3	HasQuantity Arg1:T82 Arg2:T52

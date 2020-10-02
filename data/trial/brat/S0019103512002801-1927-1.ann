@@ -1,0 +1,7 @@
+T21	Quantity 158 169	0.1–0.2 s−1
+#11	AnnotatorNotes T21	s−1
+A11	QuantityQualifier T21 IsRange
+T41	MeasuredProperty 130 148	linear growth rate
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity 106 123	flute instability
+R2	HasProperty Arg1:T31 Arg2:T41

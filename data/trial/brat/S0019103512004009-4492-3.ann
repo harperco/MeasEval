@@ -1,0 +1,8 @@
+T33	Quantity 366 386	approximately 7100 K
+#13	AnnotatorNotes T33	K
+A13	IsApproximate T33
+A23	QuantityQualifier T33 IsMean
+T43	MeasuredProperty 302 329	volume averaged temperature
+R4	HasQuantity Arg1:T43 Arg2:T33
+T53	MeasuredEntity 337 345	C1 model
+R5	HasProperty Arg1:T53 Arg2:T43

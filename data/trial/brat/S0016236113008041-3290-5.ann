@@ -1,0 +1,5 @@
+T45	Quantity 424 438	0 and 2000 ppm
+#15	AnnotatorNotes T45	ppm
+A15	QuantityQualifier T45 IsList
+T65	MeasuredEntity 439 442	SO2
+R9	HasQuantity Arg1:T65 Arg2:T45

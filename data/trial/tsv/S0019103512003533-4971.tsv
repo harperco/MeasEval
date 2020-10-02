@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003533-4971	1	Quantity	242	255	T1	less than 6 K	{mods: [IsRange], unit: K}
-S0019103512003533-4971	1	MeasuredProperty	197	235	T3	daily variations of polar temperatures	{HasQuantity: T1}
-S0019103512003533-4971	1	MeasuredEntity	443	468	T4	Saturn’s upper atmosphere	{HasProperty: T3}
+S0019103512003533-4971	1	Quantity	242	255	T1	less than 6 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003533-4971	1	MeasuredProperty	197	235	T3	daily variations of polar temperatures	{"HasQuantity": "T1"}
+S0019103512003533-4971	1	MeasuredEntity	443	468	T4	Saturn’s upper atmosphere	{"HasProperty": "T3"}

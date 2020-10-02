@@ -1,0 +1,7 @@
+T11	Quantity 243 250	±10 min
+#11	AnnotatorNotes T11	min
+A11	QuantityQualifier T11 IsRange
+T21	MeasuredEntity 219 230	time period
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	Qualifier 251 274	around closest approach
+R2	Qualifies Arg1:T31 Arg2:T11

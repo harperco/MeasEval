@@ -1,0 +1,6 @@
+T62	Quantity 310 314	40°N
+#12	AnnotatorNotes T62	°N
+T42	MeasuredProperty 283 300	southern boundary
+R2	HasQuantity Arg1:T42 Arg2:T62
+T52	MeasuredEntity 259 277	northern rain belt
+R3	HasProperty Arg1:T52 Arg2:T42

@@ -1,0 +1,9 @@
+T31	Quantity 102 119	around 1300 m s−1
+#11	AnnotatorNotes T31	m s−1
+A11	IsApproximate T31
+T21	MeasuredProperty 83 98	peak velocities
+R1	HasQuantity Arg1:T21 Arg2:T31
+T11	MeasuredEntity 41 79	strong westward (sub-corotating) winds
+R2	HasProperty Arg1:T11 Arg2:T21
+T71	Qualifier 120 137	near 82° latitude
+R3	Qualifies Arg1:T71 Arg2:T31

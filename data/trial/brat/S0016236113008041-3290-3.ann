@@ -1,0 +1,6 @@
+T23	Quantity 212 220	0.51 ppm
+#13	AnnotatorNotes T23	ppm
+T103	MeasuredProperty 185 199	concentrations
+R6	HasQuantity Arg1:T103 Arg2:T23
+T193	MeasuredEntity 159 161	Si
+R7	HasProperty Arg1:T193 Arg2:T103

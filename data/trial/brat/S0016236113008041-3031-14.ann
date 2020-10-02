@@ -1,0 +1,5 @@
+T4214	Quantity 1547 1551	five
+#114	AnnotatorNotes T4214	count
+A114	IsCount T4214
+T4314	MeasuredEntity 1552 1558	cycles
+R29	HasQuantity Arg1:T4314 Arg2:T4214

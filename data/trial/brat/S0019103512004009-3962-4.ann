@@ -1,0 +1,13 @@
+T84	Quantity 316 326	5–10 times
+#14	AnnotatorNotes T84	times
+A14	QuantityQualifier T84 IsRange
+T94	MeasuredProperty 291 299	XUV flux
+R5	HasQuantity Arg1:T94 Arg2:T84
+T104	MeasuredEntity 303 312	HD209458b
+R6	HasProperty Arg1:T104 Arg2:T94
+T114	Qualifier 253 268	with ηnet = 0.5
+R7	Qualifies Arg1:T114 Arg2:T94
+T154	Qualifier 334 367	than the corresponding solar flux
+R8	Qualifies Arg1:T154 Arg2:T94
+T174	Qualifier 327 333	higher
+R9	Qualifies Arg1:T174 Arg2:T84

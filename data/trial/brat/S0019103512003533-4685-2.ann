@@ -1,0 +1,6 @@
+T52	Quantity 255 257	0°
+#12	AnnotatorNotes T52	°
+T42	MeasuredProperty 246 254	latitude
+R2	HasQuantity Arg1:T42 Arg2:T52
+T32	MeasuredEntity 229 244	sub-solar point
+R3	HasProperty Arg1:T32 Arg2:T42

@@ -1,0 +1,7 @@
+T23	Quantity 753 763	300–800 nm
+#13	AnnotatorNotes T23	nm
+A13	QuantityQualifier T23 IsRange
+T53	MeasuredProperty 738 749	wavelengths
+R4	HasQuantity Arg1:T53 Arg2:T23
+T63	MeasuredEntity 700 734	transmission spectrum of HD209458b
+R5	HasProperty Arg1:T63 Arg2:T53

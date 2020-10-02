@@ -1,0 +1,4 @@
+T62	Quantity 105 111	1 μbar
+#12	AnnotatorNotes T62	μbar
+T32	MeasuredEntity 100 102	p0
+R4	HasQuantity Arg1:T32 Arg2:T62

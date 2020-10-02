@@ -1,0 +1,10 @@
+T43	Quantity 139 145	8.74Rs
+#13	AnnotatorNotes T43	Rs
+T93	MeasuredProperty 121 129	distance
+R5	HasQuantity Arg1:T93 Arg2:T43
+T103	MeasuredEntity 101 115	circular orbit
+R6	HasProperty Arg1:T103 Arg2:T93
+T23	Qualifier 162 179	(1Rs = 60,268 km)
+R7	Qualifies Arg1:T23 Arg2:T43
+T113	Qualifier 147 161	rom its center
+R8	Qualifies Arg1:T113 Arg2:T43

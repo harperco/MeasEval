@@ -1,0 +1,9 @@
+T12	Quantity 296 316	between 60% and 100%
+#12	AnnotatorNotes T12	%
+A12	QuantityQualifier T12 IsRange
+T72	MeasuredProperty 325 352	present today on Antarctica
+R2	HasQuantity Arg1:T72 Arg2:T12
+T32	MeasuredEntity 285 295	ice volume
+R3	HasProperty Arg1:T32 Arg2:T72
+T92	Qualifier 208 211	Oi1
+R4	Qualifies Arg1:T92 Arg2:T32

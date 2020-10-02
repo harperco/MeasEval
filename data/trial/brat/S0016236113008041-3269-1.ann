@@ -1,0 +1,7 @@
+T41	Quantity 287 304	1000 and 2000 ppm
+#11	AnnotatorNotes T41	ppm
+A11	QuantityQualifier T41 IsList
+T361	MeasuredProperty 188 201	concentration
+R1	HasQuantity Arg1:T361 Arg2:T41
+T221	MeasuredEntity 184 187	SO2
+R2	HasProperty Arg1:T221 Arg2:T361

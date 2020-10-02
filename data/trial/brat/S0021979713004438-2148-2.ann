@@ -1,0 +1,4 @@
+T12	Quantity 193 199	15 min
+#12	AnnotatorNotes T12	min
+T22	MeasuredEntity 200 215	Mefp-1 spectrum
+R2	HasQuantity Arg1:T22 Arg2:T12

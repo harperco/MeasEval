@@ -1,0 +1,5 @@
+T82	Quantity 290 296	pH 7–8
+#12	AnnotatorNotes T82	pH
+A12	QuantityQualifier T82 IsRange
+T92	MeasuredEntity 278 286	solution
+R2	HasQuantity Arg1:T92 Arg2:T82

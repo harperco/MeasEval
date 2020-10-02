@@ -1,0 +1,5 @@
+T249	Quantity 557 562	three
+#19	AnnotatorNotes T249	count
+A19	IsCount T249
+T219	MeasuredEntity 573 581	transits
+R16	HasQuantity Arg1:T219 Arg2:T249

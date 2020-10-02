@@ -1,0 +1,7 @@
+T11	Quantity 129 141	around 450 K
+#11	AnnotatorNotes T11	K
+A11	IsApproximate T11
+T61	MeasuredEntity 91 114	exospheric temperatures
+R1	HasQuantity Arg1:T61 Arg2:T11
+T71	Qualifier 142 155	near the pole
+R2	Qualifies Arg1:T71 Arg2:T11

@@ -1,0 +1,5 @@
+T212	Quantity 605 608	two
+#12	AnnotatorNotes T212	count
+A12	IsCount T212
+T62	MeasuredEntity 619 628	detectors
+R4	HasQuantity Arg1:T62 Arg2:T212

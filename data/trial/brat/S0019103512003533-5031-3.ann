@@ -1,0 +1,7 @@
+T33	Quantity 265 275	420 ± 30 K
+#13	AnnotatorNotes T33	K
+A13	QuantityQualifier T33 HasTolerance
+T103	MeasuredEntity 239 261	exospheric temperature
+R5	HasQuantity Arg1:T103 Arg2:T33
+T93	Qualifier 276 287	near 29.5°N
+R6	Qualifies Arg1:T93 Arg2:T33

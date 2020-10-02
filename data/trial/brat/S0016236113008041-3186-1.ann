@@ -1,0 +1,7 @@
+T11	Quantity 109 129	greater than 0.1 ppm
+#11	AnnotatorNotes T11	ppm
+A11	QuantityQualifier T11 IsRange
+T91	MeasuredProperty 94 108	concentrations
+R1	HasQuantity Arg1:T91 Arg2:T11
+T101	MeasuredEntity 67 79	Rb, Nb and W
+R2	HasProperty Arg1:T101 Arg2:T91

@@ -1,0 +1,12 @@
+T511	Quantity 1270 1290	from ∼200 to 400 ppm
+#111	AnnotatorNotes T511	ppm
+A111	IsApproximate T511
+A211	QuantityQualifier T511 IsRange
+T3911	MeasuredProperty 1108 1110	Na
+R23	HasQuantity Arg1:T3911 Arg2:T511
+T4111	MeasuredEntity 1137 1144	sorbent
+R24	HasProperty Arg1:T4111 Arg2:T3911
+T411	Qualifier 1198 1206	increase
+R25	Qualifies Arg1:T411 Arg2:T511
+T2611	Qualifier 1240 1243	RDF
+R26	Qualifies Arg1:T2611 Arg2:T511

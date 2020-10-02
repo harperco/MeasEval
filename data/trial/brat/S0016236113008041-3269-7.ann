@@ -1,0 +1,10 @@
+T117	Quantity 791 798	407 ppm
+#17	AnnotatorNotes T117	ppm
+T207	MeasuredProperty 742 756	concentrations
+R15	HasQuantity Arg1:T207 Arg2:T117
+T317	MeasuredEntity 760 762	Ti
+R16	HasProperty Arg1:T317 Arg2:T207
+T127	Qualifier 714 726	1000 ppm SO2
+R17	Qualifies Arg1:T127 Arg2:T117
+T337	Qualifier 799 815	for looping test
+R18	Qualifies Arg1:T337 Arg2:T117

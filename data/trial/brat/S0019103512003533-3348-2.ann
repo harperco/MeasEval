@@ -1,0 +1,8 @@
+T22	Quantity 333 336	10°
+#12	AnnotatorNotes T22	°
+T32	MeasuredProperty 313 322	longitude
+R4	HasQuantity Arg1:T32 Arg2:T22
+T132	MeasuredEntity 252 277	simulations in this study
+R5	HasProperty Arg1:T132 Arg2:T32
+T62	Qualifier 289 299	spacing in
+R6	Qualifies Arg1:T62 Arg2:T32

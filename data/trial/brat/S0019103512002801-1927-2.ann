@@ -1,0 +1,7 @@
+T12	Quantity 212 218	5–10 s
+#12	AnnotatorNotes T12	s
+A12	QuantityQualifier T12 IsRange
+T52	MeasuredProperty 197 208	growth time
+R3	HasQuantity Arg1:T52 Arg2:T12
+T32	MeasuredEntity 106 123	flute instability
+R4	HasProperty Arg1:T32 Arg2:T52

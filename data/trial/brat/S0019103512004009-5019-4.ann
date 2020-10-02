@@ -1,0 +1,6 @@
+T104	Quantity 710 720	0.45 W m−2
+#14	AnnotatorNotes T104	W m−2
+T114	MeasuredEntity 694 706	stellar flux
+R7	HasQuantity Arg1:T114 Arg2:T104
+T64	Qualifier 721 757	at the orbital position of HD209458b
+R8	Qualifies Arg1:T64 Arg2:T104

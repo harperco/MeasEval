@@ -1,0 +1,8 @@
+T48	Quantity 1781 1787	0.66 s
+#18	AnnotatorNotes T48	s
+T288	MeasuredProperty 1662 1695	time resolution of the instrument
+R18	HasQuantity Arg1:T288 Arg2:T48
+T188	MeasuredEntity 1796 1813	priority channels
+R19	HasProperty Arg1:T188 Arg2:T288
+T198	Qualifier 1733 1746	rotating mode
+R20	Qualifies Arg1:T198 Arg2:T48

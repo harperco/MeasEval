@@ -1,0 +1,11 @@
+T25	Quantity 964 971	∼15 ppm
+#15	AnnotatorNotes T25	ppm
+A15	IsApproximate T25
+T135	MeasuredProperty 917 919	Cu
+R9	HasQuantity Arg1:T135 Arg2:T25
+T125	MeasuredEntity 921 928	sorbent
+R10	HasProperty Arg1:T125 Arg2:T135
+T145	Qualifier 944 962	in the first cycle
+R11	Qualifies Arg1:T145 Arg2:T25
+T375	Qualifier 973 1026	remained the same over eight cycles for the two coals
+R12	Qualifies Arg1:T375 Arg2:T25

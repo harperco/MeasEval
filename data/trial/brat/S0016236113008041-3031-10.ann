@@ -1,0 +1,12 @@
+T610	Quantity 1244 1265	from ∼250 to ∼550 ppm
+#110	AnnotatorNotes T610	ppm
+A110	IsApproximate T610
+A210	QuantityQualifier T610 IsRange
+T3910	MeasuredProperty 1108 1110	Na
+R19	HasQuantity Arg1:T3910 Arg2:T610
+T4110	MeasuredEntity 1137 1144	sorbent
+R20	HasProperty Arg1:T4110 Arg2:T3910
+T410	Qualifier 1198 1206	increase
+R21	Qualifies Arg1:T410 Arg2:T610
+T2510	Qualifier 1222 1235	Lea Hall coal
+R22	Qualifies Arg1:T2510 Arg2:T610

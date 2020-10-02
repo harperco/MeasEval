@@ -1,0 +1,8 @@
+T11	Quantity 815 821	10 min
+#11	AnnotatorNotes T11	min
+T41	MeasuredProperty 797 808	interrupted
+R1	HasQuantity Arg1:T41 Arg2:T11
+T51	MeasuredEntity 772 792	adsorption of Mefp-1
+R2	HasProperty Arg1:T51 Arg2:T41
+T31	Qualifier 809 814	after
+R3	Qualifies Arg1:T31 Arg2:T11

@@ -1,0 +1,4 @@
+T47	Quantity 1708 1715	2–10 μm
+#17	AnnotatorNotes T47	μm
+T87	MeasuredEntity 1729 1743	size fractions
+R11	HasQuantity Arg1:T87 Arg2:T47

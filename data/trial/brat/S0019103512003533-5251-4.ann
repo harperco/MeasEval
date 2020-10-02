@@ -1,0 +1,8 @@
+T124	Quantity 651 669	up to around 650 K
+#14	AnnotatorNotes T124	K
+A14	IsApproximate T124
+A24	QuantityQualifier T124 IsRange
+T104	MeasuredProperty 620 640	auroral temperatures
+R7	HasQuantity Arg1:T104 Arg2:T124
+T114	MeasuredEntity 644 650	Saturn
+R8	HasProperty Arg1:T114 Arg2:T104

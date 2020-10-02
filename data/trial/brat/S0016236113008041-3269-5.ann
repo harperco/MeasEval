@@ -1,0 +1,6 @@
+T75	Quantity 714 722	1000 ppm
+#15	AnnotatorNotes T75	ppm
+T365	MeasuredProperty 188 201	concentration
+R9	HasQuantity Arg1:T365 Arg2:T75
+T225	MeasuredEntity 184 187	SO2
+R10	HasProperty Arg1:T225 Arg2:T365

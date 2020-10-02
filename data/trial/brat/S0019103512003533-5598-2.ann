@@ -1,0 +1,11 @@
+T22	Quantity 884 889	490 K
+#12	AnnotatorNotes T22	K
+A12	QuantityQualifier T22 IsMean
+T42	MeasuredProperty 804 827	exospheric temperatures
+R2	HasQuantity Arg1:T42 Arg2:T22
+T122	MeasuredEntity 770 795	solstice simulation (R19)
+R3	HasProperty Arg1:T122 Arg2:T42
+T72	Qualifier 842 880	74°S to 90°S (the summer polar region)
+R4	Qualifies Arg1:T72 Arg2:T22
+T82	Qualifier 828 836	averaged
+R5	Qualifies Arg1:T82 Arg2:T22

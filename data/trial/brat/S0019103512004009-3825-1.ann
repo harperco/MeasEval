@@ -1,0 +1,6 @@
+T11	Quantity 28 31	50%
+#11	AnnotatorNotes T11	%
+T51	MeasuredProperty 2 24	net heating efficiency
+R1	HasQuantity Arg1:T51 Arg2:T11
+T141	MeasuredEntity 173 217	typical gas giant (hereafter, the H50 model)
+R2	HasProperty Arg1:T141 Arg2:T51

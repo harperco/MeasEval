@@ -1,0 +1,4 @@
+T21	Quantity 176 181	99.9%
+#11	AnnotatorNotes T21	%
+T11	MeasuredEntity 151 165	anhydrous MgF2
+R1	HasQuantity Arg1:T11 Arg2:T21

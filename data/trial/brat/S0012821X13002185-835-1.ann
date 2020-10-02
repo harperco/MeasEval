@@ -1,0 +1,6 @@
+T11	Quantity 160 165	100 m
+#11	AnnotatorNotes T11	m
+T21	MeasuredEntity 173 185	water column
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	Qualifier 156 159	top
+R2	Qualifies Arg1:T31 Arg2:T11

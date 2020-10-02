@@ -1,0 +1,5 @@
+T2110	Quantity 850 856	twenty
+#110	AnnotatorNotes T2110	count
+A110	IsCount T2110
+T2010	MeasuredEntity 870 882	integrations
+R15	HasQuantity Arg1:T2010 Arg2:T2110

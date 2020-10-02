@@ -1,0 +1,9 @@
+T33	Quantity 1008 1028	approximately 6000 K
+#13	AnnotatorNotes T33	K
+A13	IsApproximate T33
+T113	MeasuredProperty 992 1003	temperature
+R6	HasQuantity Arg1:T113 Arg2:T33
+T73	MeasuredEntity 871 893	thermosphere below 3Rp
+R7	HasProperty Arg1:T73 Arg2:T113
+T83	Qualifier 961 966	upper
+R8	Qualifies Arg1:T83 Arg2:T33

@@ -1,0 +1,7 @@
+T64	Quantity 484 498	0 and 2000 ppm
+#14	AnnotatorNotes T64	ppm
+A14	QuantityQualifier T64 IsList
+T364	MeasuredProperty 188 201	concentration
+R7	HasQuantity Arg1:T364 Arg2:T64
+T224	MeasuredEntity 184 187	SO2
+R8	HasProperty Arg1:T224 Arg2:T364

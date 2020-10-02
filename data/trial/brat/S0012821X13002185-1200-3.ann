@@ -1,0 +1,4 @@
+T53	Quantity 705 711	200 μL
+#13	AnnotatorNotes T53	μL
+T63	MeasuredEntity 715 732	concentrated HNO3
+R3	HasQuantity Arg1:T63 Arg2:T53

@@ -1,0 +1,5 @@
+T2212	Quantity 978 987	1.26±0.2‰
+#112	AnnotatorNotes T2212	‰
+A112	QuantityQualifier T2212 IsMeanHasSD
+T2312	MeasuredEntity 949 976	external diatomite standard
+R17	HasQuantity Arg1:T2312 Arg2:T2212

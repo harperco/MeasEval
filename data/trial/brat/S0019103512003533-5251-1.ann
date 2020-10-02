@@ -1,0 +1,8 @@
+T31	Quantity 92 104	below ∼460 K
+#11	AnnotatorNotes T31	K
+A11	IsApproximate T31
+A21	QuantityQualifier T31 IsRange
+T11	MeasuredProperty 0 26	High latitude temperatures
+R1	HasQuantity Arg1:T11 Arg2:T31
+T21	MeasuredEntity 30 55	Saturn’s upper atmosphere
+R2	HasProperty Arg1:T21 Arg2:T11

@@ -1,0 +1,5 @@
+T172	Quantity 855 860	eight
+#12	AnnotatorNotes T172	count
+A12	IsCount T172
+T182	MeasuredEntity 861 867	cycles
+R2	HasQuantity Arg1:T182 Arg2:T172

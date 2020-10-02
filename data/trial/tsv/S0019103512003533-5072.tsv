@@ -1,13 +1,13 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003533-5072	1	Quantity	102	119	T3	around 1300 m s−1	{mods: [IsApproximate], unit: m s−1}
-S0019103512003533-5072	1	MeasuredProperty	83	98	T2	peak velocities	{HasQuantity: T3}
-S0019103512003533-5072	1	MeasuredEntity	41	79	T1	strong westward (sub-corotating) winds	{HasProperty: T2}
-S0019103512003533-5072	1	Qualifier	120	137	T7	near 82° latitude	{Qualifies: T3}
-S0019103512003533-5072	2	Quantity	125	128	T5	82°	{unit: °}
-S0019103512003533-5072	2	MeasuredProperty	129	137	T6	latitude	{HasQuantity: T5}
-S0019103512003533-5072	2	MeasuredEntity	378	384	T4	Saturn	{HasProperty: T6}
-S0019103512003533-5072	3	Quantity	142	153	T8	∼1600 m s−1	{mods: [IsApproximate], unit: m s−1}
-S0019103512003533-5072	3	Qualifier	154	162	T10	near 78°	{Qualifies: T8}
-S0019103512003533-5072	4	Quantity	159	162	T9	78°	{unit: °}
-S0019103512003533-5072	4	MeasuredProperty	129	137	T6	latitude	{HasQuantity: T9}
-S0019103512003533-5072	4	MeasuredEntity	378	384	T4	Saturn	{HasProperty: T6}
+S0019103512003533-5072	1	Quantity	102	119	T3	around 1300 m s−1	{"mods": ["IsApproximate"], "unit": "m s−1"}
+S0019103512003533-5072	1	MeasuredProperty	83	98	T2	peak velocities	{"HasQuantity": "T3"}
+S0019103512003533-5072	1	MeasuredEntity	41	79	T1	strong westward (sub-corotating) winds	{"HasProperty": "T2"}
+S0019103512003533-5072	1	Qualifier	120	137	T7	near 82° latitude	{"Qualifies": "T3"}
+S0019103512003533-5072	2	Quantity	125	128	T5	82°	{"unit": "°"}
+S0019103512003533-5072	2	MeasuredProperty	129	137	T6	latitude	{"HasQuantity": "T5"}
+S0019103512003533-5072	2	MeasuredEntity	378	384	T4	Saturn	{"HasProperty": "T6"}
+S0019103512003533-5072	3	Quantity	142	153	T8	∼1600 m s−1	{"mods": ["IsApproximate"], "unit": "m s−1"}
+S0019103512003533-5072	3	Qualifier	154	162	T10	near 78°	{"Qualifies": "T8"}
+S0019103512003533-5072	4	Quantity	159	162	T9	78°	{"unit": "°"}
+S0019103512003533-5072	4	MeasuredProperty	129	137	T6	latitude	{"HasQuantity": "T9"}
+S0019103512003533-5072	4	MeasuredEntity	378	384	T4	Saturn	{"HasProperty": "T6"}

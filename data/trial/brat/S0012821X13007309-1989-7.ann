@@ -1,0 +1,6 @@
+T17	Quantity 1193 1196	75%
+#17	AnnotatorNotes T17	%
+T57	MeasuredProperty 1213 1225	from the LIP
+R17	HasQuantity Arg1:T57 Arg2:T17
+T37	MeasuredEntity 1197 1212	Os contribution
+R18	HasProperty Arg1:T37 Arg2:T57

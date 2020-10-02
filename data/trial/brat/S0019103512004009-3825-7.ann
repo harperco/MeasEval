@@ -1,0 +1,7 @@
+T37	Quantity 463 483	10,000 K to 13,200 K
+#17	AnnotatorNotes T37	K
+A17	QuantityQualifier T37 IsRange
+T67	MeasuredProperty 431 450	maximum temperature
+R14	HasQuantity Arg1:T67 Arg2:T37
+T87	MeasuredEntity 250 259	H50 model
+R15	HasProperty Arg1:T87 Arg2:T67

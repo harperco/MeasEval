@@ -1,0 +1,6 @@
+T13	Quantity 230 236	50 min
+#13	AnnotatorNotes T13	min
+T23	MeasuredProperty 217 226	scan time
+R4	HasQuantity Arg1:T23 Arg2:T13
+T53	MeasuredEntity 139 152	Initial scans
+R5	HasProperty Arg1:T53 Arg2:T23

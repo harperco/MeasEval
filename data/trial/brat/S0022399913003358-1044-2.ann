@@ -1,0 +1,3 @@
+T12	Quantity 125 135	55–74 year
+#12	AnnotatorNotes T12	year
+A12	QuantityQualifier T12 IsRange

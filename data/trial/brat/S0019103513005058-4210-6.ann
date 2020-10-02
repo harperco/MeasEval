@@ -1,0 +1,9 @@
+T196	Quantity 639 646	∼1:1000
+#16	AnnotatorNotes T196	ratio
+A16	IsApproximate T196
+T136	MeasuredProperty 541 547	ratios
+R17	HasQuantity Arg1:T136 Arg2:T196
+T186	MeasuredEntity 616 635	perchlorate:nitrate
+R18	HasProperty Arg1:T186 Arg2:T136
+T176	Qualifier 608 615	Atacama
+R19	Qualifies Arg1:T176 Arg2:T196

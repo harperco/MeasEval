@@ -1,0 +1,7 @@
+T21	Quantity 76 88	from 103 yrs
+#11	AnnotatorNotes T21	yrs
+A11	QuantityQualifier T21 IsRange
+T41	MeasuredProperty 89 95	before
+R1	HasQuantity Arg1:T41 Arg2:T21
+T31	MeasuredEntity 100 109	CIE onset
+R2	HasProperty Arg1:T31 Arg2:T41

@@ -1,0 +1,9 @@
+T197	Quantity 932 939	> 650 K
+#17	AnnotatorNotes T197	K
+A17	QuantityQualifier T197 IsRange
+T147	MeasuredProperty 818 836	polar temperatures
+R14	HasQuantity Arg1:T147 Arg2:T197
+T167	MeasuredEntity 864 870	Saturn
+R15	HasProperty Arg1:T167 Arg2:T147
+T187	Qualifier 906 928	have not been observed
+R16	Qualifies Arg1:T187 Arg2:T197

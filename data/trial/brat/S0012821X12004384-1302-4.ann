@@ -1,0 +1,5 @@
+T34	Quantity 1481 1484	two
+#14	AnnotatorNotes T34	count
+A14	IsCount T34
+T144	MeasuredEntity 1485 1492	samples
+R5	HasQuantity Arg1:T144 Arg2:T34

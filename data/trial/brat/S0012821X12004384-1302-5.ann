@@ -1,0 +1,5 @@
+T135	Quantity 1493 1512	2619.60 and 2614.71
+#15	AnnotatorNotes T135	Unspecified
+A15	QuantityQualifier T135 IsList
+T145	MeasuredEntity 1485 1492	samples
+R6	HasQuantity Arg1:T145 Arg2:T135

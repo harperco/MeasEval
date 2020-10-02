@@ -1,0 +1,6 @@
+T14	Quantity 430 433	5 s
+#14	AnnotatorNotes T14	s
+T104	MeasuredProperty 404 425	time integration step
+R9	HasQuantity Arg1:T104 Arg2:T14
+T134	MeasuredEntity 252 277	simulations in this study
+R10	HasProperty Arg1:T134 Arg2:T104

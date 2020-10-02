@@ -1,0 +1,6 @@
+T11	Quantity 92 98	17.7 m
+#11	AnnotatorNotes T11	m
+T21	MeasuredProperty 99 104	thick
+R1	HasQuantity Arg1:T21 Arg2:T11
+T31	MeasuredEntity 105 179	section of the Bridge Creek Limestone (∼12 m) and Hartland Shale (∼12.6 m)
+R2	HasProperty Arg1:T31 Arg2:T21

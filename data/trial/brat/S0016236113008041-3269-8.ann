@@ -1,0 +1,7 @@
+T88	Quantity 829 843	0 and 2000 ppm
+#18	AnnotatorNotes T88	ppm
+A18	QuantityQualifier T88 IsList
+T368	MeasuredProperty 188 201	concentration
+R19	HasQuantity Arg1:T368 Arg2:T88
+T228	MeasuredEntity 184 187	SO2
+R20	HasProperty Arg1:T228 Arg2:T368

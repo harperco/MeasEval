@@ -1,0 +1,9 @@
+T155	Quantity 548 553	∼1:60
+#15	AnnotatorNotes T155	ratio
+A15	IsApproximate T155
+T225	MeasuredProperty 541 547	ratios
+R14	HasQuantity Arg1:T225 Arg2:T155
+T145	MeasuredEntity 521 540	perchlorate:nitrate
+R15	HasProperty Arg1:T145 Arg2:T225
+T165	Qualifier 554 575	measured in EETA79001
+R16	Qualifies Arg1:T165 Arg2:T155

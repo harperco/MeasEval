@@ -1,0 +1,6 @@
+T53	Quantity 888 897	1540 cm−1
+#13	AnnotatorNotes T53	cm−1
+T83	MeasuredProperty 898 902	peak
+R3	HasQuantity Arg1:T83 Arg2:T53
+T173	MeasuredEntity 17 41	in situ ATR-FTIR spectra
+R4	HasProperty Arg1:T173 Arg2:T83

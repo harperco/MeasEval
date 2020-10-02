@@ -1,0 +1,5 @@
+T196	Quantity 996 1001	eight
+#16	AnnotatorNotes T196	count
+A16	IsCount T196
+T206	MeasuredEntity 1002 1008	cycles
+R13	HasQuantity Arg1:T206 Arg2:T196

@@ -1,0 +1,6 @@
+T93	Quantity 926 930	0.1%
+#13	AnnotatorNotes T93	%
+T83	MeasuredProperty 899 925	time-average volcanic flux
+R6	HasQuantity Arg1:T83 Arg2:T93
+T103	MeasuredEntity 938 970	modern terrestrial volcanic flux
+R7	HasProperty Arg1:T103 Arg2:T83

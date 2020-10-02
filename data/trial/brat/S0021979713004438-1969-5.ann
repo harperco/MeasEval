@@ -1,0 +1,4 @@
+T25	Quantity 469 484	500 nm × 500 nm
+#15	AnnotatorNotes T25	nm x nm
+T35	MeasuredEntity 485 497	scanned area
+R5	HasQuantity Arg1:T35 Arg2:T25

@@ -1,0 +1,9 @@
+T11	Quantity 55 61	8250 K
+#11	AnnotatorNotes T11	K
+A11	QuantityQualifier T11 IsMean
+T21	MeasuredProperty 35 51	mean temperature
+R1	HasQuantity Arg1:T21 Arg2:T11
+T41	MeasuredEntity 69 94	thermosphere of HD209458b
+R2	HasProperty Arg1:T41 Arg2:T21
+T51	Qualifier 95 111	with p0 = 1 μbar
+R3	Qualifies Arg1:T51 Arg2:T21

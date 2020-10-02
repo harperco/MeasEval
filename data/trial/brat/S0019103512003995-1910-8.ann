@@ -1,0 +1,10 @@
+T58	Quantity 493 504	∼10–11 days
+#18	AnnotatorNotes T58	days
+A18	QuantityQualifier T58 IsRange
+A28	IsApproximate T58
+T228	MeasuredProperty 446 461	rotation period
+R13	HasQuantity Arg1:T228 Arg2:T58
+T168	MeasuredEntity 465 473	HD209458
+R14	HasProperty Arg1:T168 Arg2:T228
+T278	Qualifier 477 486	estimated
+R15	Qualifies Arg1:T278 Arg2:T58

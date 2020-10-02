@@ -1,0 +1,1 @@
+Concentrations of salts in Mars soil assuming deposition during the Amazonian, a soil density of 1 g cm−3, and mixing in a range of 1.5–2.6 m depth. Values are calculated for the nominal Mars case.

@@ -1,0 +1,8 @@
+T63	Quantity 5350 5353	10%
+#13	AnnotatorNotes T63	%
+T53	MeasuredProperty 5332 5343	probability
+R3	HasQuantity Arg1:T53 Arg2:T63
+T73	MeasuredEntity 5360 5364	node
+R4	HasProperty Arg1:T73 Arg2:T53
+T83	Qualifier 5365 5377	being faulty
+R5	Qualifies Arg1:T83 Arg2:T53

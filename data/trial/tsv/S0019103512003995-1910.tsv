@@ -1,30 +1,32 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0019103512003995-1910	1	Quantity	112	127	T7	four and a half	{mods: [IsCount], unit: count}
-S0019103512003995-1910	1	MeasuredEntity	128	140	T8	solar cycles	{HasQuantity: T7}
-S0019103512003995-1910	1	Qualifier	141	162	T9	between 1947 and 1999	{Qualifies: T8}
-S0019103512003995-1910	2	Quantity	149	162	T10	1947 and 1999	{mods: [IsRange], unit: Unspecified}
-S0019103512003995-1910	3	Quantity	211	221	T1	1% and 37%	{mods: [IsRange], unit: %}
-S0019103512003995-1910	3	MeasuredProperty	184	195	T11	variability	{HasQuantity: T1}
-S0019103512003995-1910	3	MeasuredEntity	53	70	T12	Lyman α emissions	{HasProperty: T11}
-S0019103512003995-1910	3	Qualifier	222	257	T4	during one period of solar rotation	{Qualifies: T1}
-S0019103512003995-1910	4	Quantity	229	232	T13	one	{mods: [IsCount], unit: count}
-S0019103512003995-1910	4	MeasuredEntity	233	257	T14	period of solar rotation	{HasQuantity: T13}
-S0019103512003995-1910	5	Quantity	259	266	T3	27 days	{unit: days}
-S0019103512003995-1910	5	MeasuredEntity	233	257	T14	period of solar rotation	{HasQuantity: T3}
-S0019103512003995-1910	6	Quantity	304	307	T19	one	{mods: [IsCount], unit: count}
-S0019103512003995-1910	6	MeasuredProperty	308	322	T20	solar rotation	{HasQuantity: T19}
-S0019103512003995-1910	7	Quantity	339	345	T2	9 ± 6%	{mods: [IsMeanHasTolerance], unit: %}
-S0019103512003995-1910	7	MeasuredProperty	285	296	T17	variability	{HasQuantity: T2}
-S0019103512003995-1910	7	Qualifier	297	322	T18	during one solar rotation	{Qualifies: T17}
-S0019103512003995-1910	7	Qualifier	277	284	T15	average	{Qualifies: T2}
-S0019103512003995-1910	8	Quantity	493	504	T5	∼10–11 days	{mods: [IsRange, IsApproximate], unit: days}
-S0019103512003995-1910	8	MeasuredProperty	446	461	T22	rotation period	{HasQuantity: T5}
-S0019103512003995-1910	8	MeasuredEntity	465	473	T16	HD209458	{HasProperty: T22}
-S0019103512003995-1910	9	Quantity	557	562	T24	three	{mods: [IsCount], unit: count}
-S0019103512003995-1910	9	MeasuredEntity	573	581	T21	transits	{HasQuantity: T24}
-S0019103512003995-1910	10	Quantity	597	622	T26	within a month and a half	{mods: [IsRange], unit: month}
-S0019103512003995-1910	10	MeasuredProperty	586	596	T23	took place	{HasQuantity: T26}
-S0019103512003995-1910	10	MeasuredEntity	530	548	T29	G140M observations	{HasProperty: T23}
-S0019103512003995-1910	11	Quantity	649	666	T6	approximately 2 h	{mods: [IsApproximate], unit: h}
-S0019103512003995-1910	11	MeasuredProperty	670	674	T25	time	{HasQuantity: T6}
-S0019103512003995-1910	11	MeasuredEntity	629	640	T30	observation	{HasProperty: T25}
+S0019103512003995-1910	1	Quantity	112	127	T7	four and a half	{"mods": ["IsCount"], "unit": "count"}
+S0019103512003995-1910	1	MeasuredEntity	128	140	T8	solar cycles	{"HasQuantity": "T7"}
+S0019103512003995-1910	1	Qualifier	141	162	T9	between 1947 and 1999	{"Qualifies": "T8"}
+S0019103512003995-1910	2	Quantity	149	162	T10	1947 and 1999	{"mods": ["IsRange"], "unit": "Unspecified"}
+S0019103512003995-1910	3	Quantity	211	221	T1	1% and 37%	{"mods": ["IsRange"], "unit": "%"}
+S0019103512003995-1910	3	MeasuredProperty	184	195	T11	variability	{"HasQuantity": "T1"}
+S0019103512003995-1910	3	MeasuredEntity	53	70	T12	Lyman α emissions	{"HasProperty": "T11"}
+S0019103512003995-1910	3	Qualifier	222	257	T4	during one period of solar rotation	{"Qualifies": "T1"}
+S0019103512003995-1910	4	Quantity	229	232	T13	one	{"mods": ["IsCount"], "unit": "count"}
+S0019103512003995-1910	4	MeasuredEntity	233	257	T14	period of solar rotation	{"HasQuantity": "T13"}
+S0019103512003995-1910	5	Quantity	259	266	T3	27 days	{"unit": "days"}
+S0019103512003995-1910	5	MeasuredEntity	233	257	T14	period of solar rotation	{"HasQuantity": "T3"}
+S0019103512003995-1910	6	Quantity	304	307	T19	one	{"mods": ["IsCount"], "unit": "count"}
+S0019103512003995-1910	6	MeasuredProperty	308	322	T20	solar rotation	{"HasQuantity": "T19"}
+S0019103512003995-1910	7	Quantity	339	345	T2	9 ± 6%	{"mods": ["IsMeanHasTolerance"], "unit": "%"}
+S0019103512003995-1910	7	MeasuredProperty	285	296	T17	variability	{"HasQuantity": "T2"}
+S0019103512003995-1910	7	MeasuredEntity	53	70	T12	Lyman α emissions	{"HasProperty": "T17"}
+S0019103512003995-1910	7	Qualifier	297	322	T18	during one solar rotation	{"Qualifies": "T17"}
+S0019103512003995-1910	7	Qualifier	277	284	T15	average	{"Qualifies": "T2"}
+S0019103512003995-1910	8	Quantity	493	504	T5	∼10–11 days	{"mods": ["IsRange", "IsApproximate"], "unit": "days"}
+S0019103512003995-1910	8	MeasuredProperty	446	461	T22	rotation period	{"HasQuantity": "T5"}
+S0019103512003995-1910	8	MeasuredEntity	465	473	T16	HD209458	{"HasProperty": "T22"}
+S0019103512003995-1910	8	Qualifier	477	486	T27	estimated	{"Qualifies": "T5"}
+S0019103512003995-1910	9	Quantity	557	562	T24	three	{"mods": ["IsCount"], "unit": "count"}
+S0019103512003995-1910	9	MeasuredEntity	573	581	T21	transits	{"HasQuantity": "T24"}
+S0019103512003995-1910	10	Quantity	597	622	T26	within a month and a half	{"mods": ["IsRange"], "unit": "month"}
+S0019103512003995-1910	10	MeasuredProperty	586	596	T23	took place	{"HasQuantity": "T26"}
+S0019103512003995-1910	10	MeasuredEntity	530	548	T29	G140M observations	{"HasProperty": "T23"}
+S0019103512003995-1910	11	Quantity	649	666	T6	approximately 2 h	{"mods": ["IsApproximate"], "unit": "h"}
+S0019103512003995-1910	11	MeasuredProperty	670	674	T25	time	{"HasQuantity": "T6"}
+S0019103512003995-1910	11	MeasuredEntity	629	640	T30	observation	{"HasProperty": "T25"}

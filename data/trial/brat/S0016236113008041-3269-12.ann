@@ -1,0 +1,8 @@
+T112	Quantity 1004 1012	66.8 ppm
+#112	AnnotatorNotes T112	ppm
+T2112	MeasuredProperty 949 962	concentration
+R37	HasQuantity Arg1:T2112 Arg2:T112
+T4012	MeasuredEntity 892 894	Zn
+R38	HasProperty Arg1:T4012 Arg2:T2112
+T2512	Qualifier 1051 1059	2000 ppm
+R39	Qualifies Arg1:T2512 Arg2:T112

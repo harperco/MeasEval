@@ -1,0 +1,6 @@
+T12	Quantity 604 607	40%
+#12	AnnotatorNotes T12	‰
+T102	MeasuredProperty 608 636	differences in the abundance
+R3	HasQuantity Arg1:T102 Arg2:T12
+T62	MeasuredEntity 646 653	diatoms
+R4	HasProperty Arg1:T62 Arg2:T102

@@ -1,0 +1,5 @@
+T134	Quantity 229 232	one
+#14	AnnotatorNotes T134	count
+A14	IsCount T134
+T144	MeasuredEntity 233 257	period of solar rotation
+R6	HasQuantity Arg1:T144 Arg2:T134

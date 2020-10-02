@@ -1,0 +1,5 @@
+T56	Quantity 512 533	of the order of 450 K
+#16	AnnotatorNotes T56	K
+A16	IsApproximate T56
+T116	MeasuredEntity 451 495	low and mid-latitude exospheric temperatures
+R8	HasQuantity Arg1:T116 Arg2:T56

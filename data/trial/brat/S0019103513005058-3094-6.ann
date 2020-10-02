@@ -1,0 +1,9 @@
+T166	Quantity 1474 1486	0.4–0.6 wt.%
+#16	AnnotatorNotes T166	wt.%
+A16	QuantityQualifier T166 IsRange
+T176	MeasuredProperty 1487 1492	ClO4-
+R12	HasQuantity Arg1:T176 Arg2:T166
+T156	MeasuredEntity 1000 1004	soil
+R13	HasProperty Arg1:T156 Arg2:T176
+T186	Qualifier 1493 1527	measured by NASA’s Phoenix Lander.
+R14	Qualifies Arg1:T186 Arg2:T166

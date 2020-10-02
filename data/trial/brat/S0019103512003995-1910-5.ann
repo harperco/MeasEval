@@ -1,0 +1,4 @@
+T35	Quantity 259 266	27 days
+#15	AnnotatorNotes T35	days
+T145	MeasuredEntity 233 257	period of solar rotation
+R7	HasQuantity Arg1:T145 Arg2:T35

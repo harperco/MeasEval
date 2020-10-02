@@ -1,0 +1,6 @@
+T75	Quantity 966 975	1536 cm−1
+#15	AnnotatorNotes T75	cm−1
+T95	MeasuredProperty 943 948	peaks
+R7	HasQuantity Arg1:T95 Arg2:T75
+T175	MeasuredEntity 17 41	in situ ATR-FTIR spectra
+R8	HasProperty Arg1:T175 Arg2:T95

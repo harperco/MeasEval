@@ -1,4 +1,4 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0016236113008041-890	1	Quantity	97	119	T3	4.5 kg, 6 kg and 13 kg	{mods: [IsList], unit: kg}
-S0016236113008041-890	1	MeasuredProperty	120	125	T5	CaCO3	{HasQuantity: T3}
-S0016236113008041-890	1	MeasuredEntity	78	93	T4	bed inventories	{HasProperty: T5}
+S0016236113008041-890	1	Quantity	97	119	T3	4.5 kg, 6 kg and 13 kg	{"mods": ["IsList"], "unit": "kg"}
+S0016236113008041-890	1	MeasuredProperty	120	125	T5	CaCO3	{"HasQuantity": "T3"}
+S0016236113008041-890	1	MeasuredEntity	78	93	T4	bed inventories	{"HasProperty": "T5"}

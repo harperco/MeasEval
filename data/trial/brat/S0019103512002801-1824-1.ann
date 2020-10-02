@@ -1,0 +1,11 @@
+T11	Quantity 101 119	between 6% and 13%
+#11	AnnotatorNotes T11	%
+A11	QuantityQualifier T11 IsRange
+T41	MeasuredProperty 29 54	observed ∣B∣ disturbances
+R1	HasQuantity Arg1:T41 Arg2:T11
+T51	MeasuredEntity 58 62	Rhea
+R2	HasProperty Arg1:T51 Arg2:T41
+T21	MeasuredEntity 141 150	Enceladus
+R3	HasProperty Arg1:T21 Arg2:T41
+T61	Qualifier 63 97	with respect to the background ∣B∣
+R4	Qualifies Arg1:T61 Arg2:T41

@@ -1,0 +1,7 @@
+T11	Quantity 242 255	less than 6 K
+#11	AnnotatorNotes T11	K
+A11	QuantityQualifier T11 IsRange
+T31	MeasuredProperty 197 235	daily variations of polar temperatures
+R1	HasQuantity Arg1:T31 Arg2:T11
+T41	MeasuredEntity 443 468	Saturn’s upper atmosphere
+R2	HasProperty Arg1:T41 Arg2:T31
