@@ -1,0 +1,1 @@
+Assume the object x11 in Table 4 inserts into Table 2, and U′ = U ∪ {x11}. Since ∀x ∈ U, f(x, d) ≠ f(x11, d) = 3 and f(D2, d) < f(x11, d) < f(D3, d), then D={D1,D2,Dnew,D3},Dnew⩾=D3⩾∪{x11}={x2,x5,x11}. Because of [x11]CΔ⩾={x5,x11}, we have RCΔ⩾¯Dnew⩾=RCΔ⩾¯D3⩾∪[x11]CΔ⩾={x2,x3,x5,x11}.
