@@ -1,0 +1,5 @@
+T1	Quantity 220 230	9.9%–16.2%
+T2	MeasuredEntity 196 218	levels of colonisation
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 229 230	%
+A1	QuantityQualifier T1 IsRange

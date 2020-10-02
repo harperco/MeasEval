@@ -1,0 +1,8 @@
+T1	Quantity 86 89	85%
+T2	Unit 88 89	%
+T3	MeasuredProperty 90 94	good
+T4	MeasuredEntity 68 79	classifiers
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 104 109	class
+R3	Qualifies Arg1:T5 Arg2:T3	

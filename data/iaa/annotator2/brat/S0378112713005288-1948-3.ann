@@ -1,0 +1,6 @@
+T1	Quantity 265 268	20%
+T2	MeasuredProperty 312 354	variation between the different site types
+T3	MeasuredEntity 276 300	total observed variation
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 267 268	%

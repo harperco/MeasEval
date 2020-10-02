@@ -1,0 +1,5 @@
+T1	Quantity 238 242	7.01
+T2	MeasuredProperty 232 235	LSD
+T3	MeasuredEntity 196 218	levels of colonisation
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

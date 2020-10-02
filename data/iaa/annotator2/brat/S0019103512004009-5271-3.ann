@@ -1,0 +1,5 @@
+T1	Quantity 464 473	>107kgs-1
+T2	Unit 468 473	kgs-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 462 464	Ṁ
+R1	HasQuantity Arg1:T3 Arg2:T1	

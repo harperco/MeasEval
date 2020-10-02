@@ -1,0 +1,7 @@
+T1	Quantity 649 652	∼50
+A1	IsApproximate T1
+T2	MeasuredProperty 653 669	close-up flashes
+T3	MeasuredEntity 623 630	samples
+A2	IsCount T1
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

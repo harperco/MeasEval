@@ -1,0 +1,6 @@
+T1	Quantity 551 554	two
+T2	MeasuredProperty 565 576	hiPSC lines
+A1	IsCount T1
+T3	MeasuredEntity 531 547	Serial passaging
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

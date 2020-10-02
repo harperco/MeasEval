@@ -1,0 +1,8 @@
+T1	Quantity 321 328	5.16 m.
+T2	Unit 326 327	m
+T3	MeasuredProperty 312 317	depth
+T4	MeasuredEntity 213 247	distinct layer of clastic sediment
+T5	Qualifier 185 189	GU-3
+R1	Qualifies Arg1:T5 Arg2:T4	
+R2	HasProperty Arg1:T4 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

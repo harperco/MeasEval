@@ -1,0 +1,7 @@
+T1	Quantity 1001 1013	about 70 MPa
+T2	Unit 1010 1013	MPa
+A1	IsApproximate T1
+T3	MeasuredProperty 974 997	applied uniaxial stress
+T4	MeasuredEntity 946 955	debonding
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

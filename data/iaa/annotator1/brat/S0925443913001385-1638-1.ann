@@ -1,0 +1,8 @@
+T1	Quantity 77 80	30%
+T2	Unit 79 80	%
+T4	Qualifier 66 73	reduced
+T5	MeasuredProperty 4 61	steady state level of MRPL12 in the subject's fibroblasts
+R1	Qualifies Arg1:T4 Arg2:T1	
+T6	MeasuredEntity 84 97	control value
+R2	HasProperty Arg1:T6 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

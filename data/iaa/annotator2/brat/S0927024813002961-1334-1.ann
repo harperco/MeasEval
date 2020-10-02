@@ -1,0 +1,7 @@
+T1	Quantity 331 353	less than 5% typically
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 303 327	annual energy prediction
+T3	MeasuredProperty 210 283	the Staebler–Wronski effect for a-Si [48,49] or pre-conditioning for CIGS
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

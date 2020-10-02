@@ -1,0 +1,6 @@
+T1	Quantity 616 626	over 3 byr
+T2	Unit 623 626	byr
+T3	MeasuredProperty 604 615	accumulated
+T4	MeasuredEntity 544 565	input of odd nitrogen
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

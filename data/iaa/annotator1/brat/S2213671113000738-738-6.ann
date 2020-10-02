@@ -1,0 +1,5 @@
+T1	Quantity 1903 1908	1/100
+T2	MeasuredEntity 1882 1898	expression level
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Qualifier 1909 1983	compared with that of human peripheral blood cells in both hESCs and iPSCs
+R2	Qualifies Arg1:T3 Arg2:T1	

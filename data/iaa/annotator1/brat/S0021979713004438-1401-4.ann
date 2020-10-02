@@ -1,0 +1,8 @@
+T1	Quantity 888 895	−0.72 V
+T2	Unit 894 895	V
+T3	MeasuredProperty 842 864	open circuit potential
+T4	Qualifier 865 884	relative to Ag/AgCl
+R1	Qualifies Arg1:T4 Arg2:T3	
+T5	MeasuredEntity 805 821	hematite surface
+R2	HasProperty Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

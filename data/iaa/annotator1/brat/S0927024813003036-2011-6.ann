@@ -1,0 +1,4 @@
+T1	Quantity 1061 1071	24 h later
+T2	MeasuredEntity 1014 1041	second lifetime measurement
+T3	Unit 1064 1065	h
+R1	HasQuantity Arg1:T2 Arg2:T1	

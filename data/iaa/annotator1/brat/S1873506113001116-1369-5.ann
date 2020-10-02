@@ -1,0 +1,9 @@
+T1	Quantity 1185 1199	43.57% ± 4.35%
+T2	MeasuredEntity 1156 1159	BC1
+A1	QuantityQualifier T1 HasTolerance
+T3	Unit 1198 1199	%
+T4	MeasuredProperty 1235 1250	CD34+CD45+ HPCs
+T5	Qualifier 1251 1279	on day 14 of differentiation
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	Qualifies Arg1:T5 Arg2:T1	
+R3	HasQuantity Arg1:T4 Arg2:T1	

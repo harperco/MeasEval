@@ -1,0 +1,5 @@
+T1	Quantity 772 780	p = n.s.
+T2	MeasuredProperty 649 674	No significant difference
+T3	MeasuredEntity 678 751	regeneration densities was found between brown earth and peaty gley soils
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

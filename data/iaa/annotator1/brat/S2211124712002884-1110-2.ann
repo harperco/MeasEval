@@ -1,0 +1,6 @@
+T1	Quantity 217 224	Ten-day
+T2	Unit 221 224	day
+T3	MeasuredProperty 225 228	old
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 229 237	rosettes
+R2	HasProperty Arg1:T4 Arg2:T3	

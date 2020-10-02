@@ -1,0 +1,5 @@
+T1	Quantity 196 212	at least one ear
+T2	MeasuredEntity 219 244	culture/confocal positive
+T3	Unit 209 212	ear
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

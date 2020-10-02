@@ -1,0 +1,4 @@
+T1	Quantity 23 25	18
+T2	MeasuredEntity 26 31	cores
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

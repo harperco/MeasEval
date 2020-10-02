@@ -1,0 +1,5 @@
+T1	Quantity 51 72	more than 10 passages
+T2	MeasuredEntity 0 46	BC1 and TNC1 hiPSCs cultured in spinner flasks
+A1	QuantityQualifier T1 IsRange
+T3	Unit 64 72	passages
+R1	HasQuantity Arg1:T2 Arg2:T1	

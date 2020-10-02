@@ -1,0 +1,4 @@
+T1	Quantity 81 91	7.83 m s−1
+T2	Unit 86 91	m s−1
+T3	MeasuredEntity 60 77	Median wind speed
+R1	HasQuantity Arg1:T3 Arg2:T1	

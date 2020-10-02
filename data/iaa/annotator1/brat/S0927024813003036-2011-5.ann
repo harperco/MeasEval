@@ -1,0 +1,7 @@
+T1	Quantity 920 927	<20  ms
+T2	MeasuredProperty 812 840	aggregated illumination time
+T3	MeasuredEntity 848 864	flashes of light
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 925 927	ms

@@ -1,0 +1,7 @@
+T1	Quantity 324 339	after 3–4 weeks
+T2	MeasuredEntity 294 306	Neurospheres
+T3	MeasuredProperty 312 323	dissociated
+A1	QuantityQualifier T1 IsRange
+T4	Unit 334 339	weeks
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

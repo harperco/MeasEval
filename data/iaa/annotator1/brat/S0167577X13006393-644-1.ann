@@ -1,0 +1,7 @@
+T1	Quantity 60 73	above 1000 °C
+T2	Unit 71 73	°C
+T3	MeasuredProperty 42 59	reported to occur
+A1	QuantityQualifier T1 IsRange
+T5	MeasuredEntity 0 30	Sintering of pure HA particles
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

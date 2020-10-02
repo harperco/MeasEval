@@ -1,0 +1,4 @@
+T1	Quantity 656 663	7 month
+T2	Unit 658 663	month
+T3	MeasuredEntity 664 674	experiment
+R1	HasQuantity Arg1:T3 Arg2:T1	

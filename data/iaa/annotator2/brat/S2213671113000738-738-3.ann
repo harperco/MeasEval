@@ -1,0 +1,5 @@
+T1	Quantity 867 871	1/10
+T3	MeasuredProperty 780 799	expression of MHC-I
+T2	MeasuredEntity 880 919	untreated monkey peripheral blood cells
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

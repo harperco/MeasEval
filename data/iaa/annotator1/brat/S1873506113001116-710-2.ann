@@ -1,0 +1,6 @@
+T1	Quantity 273 284	13 passages
+T2	Unit 276 284	passages
+T3	MeasuredProperty 231 239	expanded
+T4	MeasuredEntity 243 268	static suspension culture
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

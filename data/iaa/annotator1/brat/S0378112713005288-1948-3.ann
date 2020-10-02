@@ -1,0 +1,6 @@
+T1	Quantity 265 268	20%
+T2	Unit 267 268	%
+T3	MeasuredEntity 276 300	total observed variation
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 305 354	due to variation between the different site types
+R2	Qualifies Arg1:T4 Arg2:T3	

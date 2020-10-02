@@ -1,0 +1,5 @@
+T1	Quantity 682 692	30 degrees
+T2	MeasuredEntity 634 667	Red-free and infrared cSLO images
+T3	MeasuredProperty 696 708	visual field
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

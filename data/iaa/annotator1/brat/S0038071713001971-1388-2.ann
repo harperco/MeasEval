@@ -1,0 +1,5 @@
+T1	Quantity 292 295	63%
+T2	MeasuredProperty 186 190	OTUs
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 300 314	diseased soils
+R2	HasProperty Arg1:T3 Arg2:T2	

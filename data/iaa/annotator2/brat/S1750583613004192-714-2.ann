@@ -1,0 +1,6 @@
+T1	Quantity 128 132	5 Mt
+T2	Unit 130 132	Mt
+T3	MeasuredProperty 136 144	injected
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 145 148	CO2
+R2	HasProperty Arg1:T4 Arg2:T3	

@@ -1,0 +1,8 @@
+T1	Quantity 103 113	after 48 h
+T2	Unit 112 113	h
+T3	MeasuredProperty 66 88	Light microscope image
+T4	MeasuredEntity 92 102	aggregates
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 114 192	post-inoculation of single suspension BC1 cells in ultra-low attachment plates
+R3	Qualifies Arg1:T5 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Quantity 738 746	100 U/ml
+T2	Unit 742 746	U/ml
+T3	MeasuredProperty 713 736	penicillin/streptomycin
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 623 637	Eagle's medium
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 638 650	supplemented
+R3	Qualifies Arg1:T5 Arg2:T3	

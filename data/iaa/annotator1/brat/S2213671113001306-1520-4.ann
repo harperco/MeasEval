@@ -1,0 +1,6 @@
+T1	Quantity 626 632	4.2 mm
+T2	MeasuredEntity 564 575	Spectralis’
+T3	Unit 630 632	mm
+T4	MeasuredProperty 576 602	corneal curvature settings
+R2	HasProperty Arg1:T2 Arg2:T4	
+R1	HasQuantity Arg1:T4 Arg2:T1	

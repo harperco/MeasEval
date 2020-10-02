@@ -1,0 +1,7 @@
+T1	Quantity 578 584	15–27%
+T2	MeasuredProperty 551 574	increased biomass yield
+T3	Qualifier 495 535	free-air enrichment by supplementary CO2
+T4	Unit 583 584	%
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	Qualifies Arg1:T3 Arg2:T2	
+T5	MeasuredEntity 539 550	field plots

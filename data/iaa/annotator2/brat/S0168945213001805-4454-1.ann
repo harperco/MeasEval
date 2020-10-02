@@ -1,0 +1,4 @@
+T1	Quantity 346 356	eight-year
+T2	Unit 352 356	year
+T3	MeasuredEntity 357 362	study
+R1	HasQuantity Arg1:T3 Arg2:T1	

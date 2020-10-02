@@ -1,0 +1,5 @@
+T1	Quantity 724 737	less than 85%
+T2	Unit 736 737	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 705 720	inserting ratio
+R1	HasQuantity Arg1:T3 Arg2:T1	

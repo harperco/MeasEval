@@ -1,0 +1,6 @@
+T1	Quantity 515 522	5 K/min
+T2	MeasuredEntity 409 417	annealed
+T3	MeasuredProperty 499 511	heating rate
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 517 522	K/min

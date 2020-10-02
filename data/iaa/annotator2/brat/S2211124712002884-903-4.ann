@@ -1,0 +1,6 @@
+T1	Quantity 431 439	64-year-
+T2	MeasuredEntity 414 427	other patient
+T3	MeasuredProperty 439 442	old
+T4	Unit 434 438	year
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

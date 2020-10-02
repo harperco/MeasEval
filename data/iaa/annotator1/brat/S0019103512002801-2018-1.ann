@@ -1,0 +1,4 @@
+T1	Quantity 495 498	One
+T2	MeasuredEntity 508 516	features
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

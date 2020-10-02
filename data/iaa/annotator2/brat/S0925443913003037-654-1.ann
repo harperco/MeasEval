@@ -1,0 +1,4 @@
+T1	Quantity 29 38	2.5 years
+T2	MeasuredEntity 25 28	age
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 33 38	years

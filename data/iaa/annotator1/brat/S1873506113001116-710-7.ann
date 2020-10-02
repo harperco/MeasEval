@@ -1,0 +1,6 @@
+T1	Quantity 626 632	200 μm
+T2	Unit 630 632	μm
+T3	MeasuredProperty 613 623	Scale bars
+T4	MeasuredEntity 513 533	Flow cytometry plots
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T3	

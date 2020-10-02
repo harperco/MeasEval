@@ -1,0 +1,5 @@
+T1	Quantity 55 70	circa July 2002
+A1	IsCount T1
+A2	IsApproximate T1
+T2	MeasuredEntity 4 26	Sleipner plume profile
+R1	HasQuantity Arg1:T2 Arg2:T1	

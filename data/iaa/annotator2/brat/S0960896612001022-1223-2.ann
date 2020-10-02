@@ -1,0 +1,7 @@
+T1	Quantity 230 250	greater than 0.1 g/L
+A1	QuantityQualifier T1 IsRange
+T2	Unit 247 250	g/L
+T3	MeasuredEntity 208 215	protein
+T4	MeasuredProperty 216 229	concentration
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

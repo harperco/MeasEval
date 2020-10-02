@@ -1,0 +1,9 @@
+T1	Quantity 493 508	after 2-4 weeks
+A1	QuantityQualifier T1 IsRange
+A2	IsApproximate T1
+T2	MeasuredProperty 483 492	were used
+T3	MeasuredEntity 475 482	Neurons
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 509 519	in culture
+R3	Qualifies Arg1:T4 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	Quantity 413 418	14.3%
+T2	MeasuredEntity 395 401	adults
+T3	MeasuredProperty 333 349	culture-positive
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 417 418	%

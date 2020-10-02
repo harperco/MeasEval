@@ -1,0 +1,6 @@
+T1	Quantity 403 408	54.3%
+T2	Unit 407 408	%
+T3	MeasuredEntity 287 295	Children
+T4	MeasuredProperty 333 349	culture-positive
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

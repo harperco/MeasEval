@@ -1,0 +1,7 @@
+T1	Quantity 512 515	±5%
+T2	MeasuredEntity 525 539	CO2 saturation
+T3	MeasuredProperty 516 521	error
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 514 515	%
+A1	QuantityQualifier T1 IsRange

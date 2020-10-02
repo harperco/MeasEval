@@ -1,0 +1,6 @@
+T1	Quantity 465 472	10 μg/m
+T2	Unit 468 472	μg/m
+T3	MeasuredProperty 456 463	laminin
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 407 420	plates coated
+R2	HasProperty Arg1:T4 Arg2:T3	

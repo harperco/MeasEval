@@ -1,0 +1,4 @@
+T1	Quantity 186 196	873 varves
+T2	MeasuredEntity 176 182	series
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 190 196	varves

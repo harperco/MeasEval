@@ -1,0 +1,8 @@
+T1	Quantity 398 403	12 hr
+T2	Unit 401 403	hr
+T3	MeasuredEntity 368 373	Wells
+T4	MeasuredProperty 379 397	visually inspected
+T5	Qualifier 404 417	after plating
+R1	Qualifies Arg1:T5 Arg2:T1	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R3	HasProperty Arg1:T3 Arg2:T4	

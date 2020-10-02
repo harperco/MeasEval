@@ -1,0 +1,7 @@
+T1	Quantity 370 386	as low as 800 °C
+A1	QuantityQualifier T1 IsRange
+T2	Unit 384 386	°C
+T3	MeasuredProperty 334 347	decomposition
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 409 436	calcium deficient HA sample
+R2	HasProperty Arg1:T4 Arg2:T3	

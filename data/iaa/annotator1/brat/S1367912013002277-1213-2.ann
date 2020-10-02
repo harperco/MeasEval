@@ -1,0 +1,7 @@
+T1	Quantity 244 260	less than 2.5 μm
+T2	MeasuredEntity 195 214	collected particles
+T3	Qualifier 262 267	PM2.5
+R1	Qualifies Arg1:T3 Arg2:T2	
+T4	Unit 258 260	μm
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

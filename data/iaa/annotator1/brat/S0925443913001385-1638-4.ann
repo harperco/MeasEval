@@ -1,0 +1,5 @@
+T1	Quantity 436 450	three proteins
+T2	Unit 442 450	proteins
+A1	IsCount T1
+T3	MeasuredEntity 458 481	small ribosomal subunit
+R1	HasQuantity Arg1:T3 Arg2:T1	

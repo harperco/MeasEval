@@ -1,0 +1,7 @@
+T1	Quantity 149 171	approximately 0.1 mg/l
+T2	MeasuredProperty 85 100	Fluorescent dye
+T3	MeasuredEntity 118 123	water
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 167 171	mg/l
+A1	IsApproximate T1

@@ -1,0 +1,5 @@
+T1	Quantity 379 383	1999
+T2	MeasuredEntity 349 360	ninth layer
+T3	MeasuredProperty 361 375	first appeared
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

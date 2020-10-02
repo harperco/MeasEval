@@ -1,0 +1,7 @@
+T1	Quantity 160 171	below 3.5Rp
+T2	Unit 169 171	Rp
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 78 103	collisions with neutral H
+T4	MeasuredProperty 104 149	dominate the transport of heavy neutral atoms
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

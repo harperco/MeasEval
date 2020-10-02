@@ -1,0 +1,7 @@
+T1	Quantity 369 386	after 13 passages
+A1	QuantityQualifier T1 IsRange
+T2	Unit 378 386	passages
+T3	MeasuredProperty 387 407	in static suspension
+T4	MeasuredEntity 339 368	TRA-1–60 expression in hiPSCs
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,9 @@
+T1	Quantity 969 978	about 40%
+T2	Qualifier 995 1004	wild type
+R1	Qualifies Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+T3	Unit 977 978	%
+T4	MeasuredEntity 900 963	Hybrid aspen (P. tremula × P. tremuloides) over-expressing GID1
+T5	MeasuredProperty 979 985	taller
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T4 Arg2:T5	

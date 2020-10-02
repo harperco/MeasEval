@@ -1,0 +1,7 @@
+T1	Quantity 202 229	from 0.25 Mbps to 0.01 Mbps
+A1	QuantityQualifier T1 IsRange
+T2	Unit 212 216	Mbps
+T3	MeasuredEntity 188 190	Rb
+T4	MeasuredProperty 191 200	decreases
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

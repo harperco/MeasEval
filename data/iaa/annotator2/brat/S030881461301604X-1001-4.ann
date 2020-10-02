@@ -1,0 +1,4 @@
+T1	Quantity 226 229	98%
+T2	Unit 228 229	%
+T3	MeasuredEntity 213 224	formic acid
+R1	HasQuantity Arg1:T3 Arg2:T1	

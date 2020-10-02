@@ -1,0 +1,4 @@
+T1	Quantity 79 86	1980 mm
+T3	MeasuredEntity 75 76	x
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T2	Unit 84 86	mm

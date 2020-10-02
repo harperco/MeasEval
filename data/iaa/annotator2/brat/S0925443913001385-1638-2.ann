@@ -1,0 +1,7 @@
+T1	Quantity 159 164	~ 30%
+T2	MeasuredProperty 119 138	mt-LSU protein ICT1
+T3	MeasuredEntity 168 182	control values
+A1	IsApproximate T1
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Unit 163 164	%

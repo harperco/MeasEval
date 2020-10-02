@@ -1,0 +1,8 @@
+T1	Quantity 486 495	1012 mbsl
+T2	Unit 491 495	mbsl
+T3	Qualifier 496 506	in 3 years
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 405 408	CO2
+T5	MeasuredProperty 413 421	migrated
+R2	HasProperty Arg1:T4 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

@@ -1,0 +1,9 @@
+T1	Quantity 1392 1404	at least 10%
+T2	Unit 1403 1404	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 1351 1377	enhanced ULF wave activity
+T4	Qualifier 1378 1390	in the lunar
+R1	Qualifies Arg1:T4 Arg2:T3	
+T5	MeasuredEntity 1412 1416	time
+R2	HasProperty Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

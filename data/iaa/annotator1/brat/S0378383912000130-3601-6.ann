@@ -1,0 +1,6 @@
+T1	Quantity 633 639	8.5 mm
+T2	Unit 637 639	mm
+T3	MeasuredProperty 640 645	beach
+T4	MeasuredEntity 596 625	experimental series R60PER085
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

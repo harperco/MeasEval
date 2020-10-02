@@ -1,0 +1,8 @@
+T1	Quantity 682 692	30 degrees
+T2	Unit 685 692	degrees
+T3	MeasuredProperty 696 708	visual field
+T4	Qualifier 709 724	in the HRA mode
+T5	MeasuredEntity 732 738	device
+R1	Qualifies Arg1:T4 Arg2:T5	
+R2	HasProperty Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

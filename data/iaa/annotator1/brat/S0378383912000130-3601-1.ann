@@ -1,0 +1,6 @@
+T1	Quantity 355 358	two
+T2	MeasuredProperty 359 374	beach materials
+A1	IsCount T1
+T3	MeasuredEntity 334 345	experiments
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

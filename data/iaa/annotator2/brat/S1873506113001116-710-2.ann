@@ -1,0 +1,6 @@
+T1	Quantity 273 284	13 passages
+T2	MeasuredEntity 198 229	BC1 cells cultured in E8 medium
+T3	MeasuredProperty 231 268	expanded in static suspension culture
+T4	Unit 276 284	passages
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Quantity 1533 1539	0.0307
+T2	MeasuredEntity 1468 1527	total number of CFUs was comparable or significantly larger
+T3	MeasuredProperty 1529 1530	P
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

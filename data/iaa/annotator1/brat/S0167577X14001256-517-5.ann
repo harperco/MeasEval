@@ -1,0 +1,10 @@
+T1	Quantity 557 561	0.4%
+T2	Qualifier 528 536	constant
+T3	MeasuredEntity 537 548	evaporation
+T4	MeasuredProperty 549 553	rate
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	Qualifies Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T5	Unit 560 561	%
+T6	Qualifier 565 599	constant energy of the laser pulse
+R4	Qualifies Arg1:T6 Arg2:T4	

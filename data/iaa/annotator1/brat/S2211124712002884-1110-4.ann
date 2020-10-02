@@ -1,0 +1,6 @@
+T1	Quantity 441 450	0.1 mg/ml
+T2	Unit 445 450	mg/ml
+T3	MeasuredProperty 426 439	poly-D-lysine
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 407 420	plates coated
+R2	HasProperty Arg1:T4 Arg2:T3	

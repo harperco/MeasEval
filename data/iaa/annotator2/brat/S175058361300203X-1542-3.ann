@@ -1,0 +1,6 @@
+T1	Quantity 459 474	less than 5 m/s
+T2	MeasuredEntity 407 449	resulting difference between the scenarios
+T3	MeasuredProperty 453 455	Vp
+T4	Unit 471 474	m/s
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

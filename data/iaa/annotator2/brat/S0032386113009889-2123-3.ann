@@ -1,0 +1,4 @@
+T1	Quantity 1185 1192	210 MPa
+T2	MeasuredEntity 1163 1181	hydrostatic stress
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1189 1192	MPa

@@ -1,0 +1,5 @@
+T1	Quantity 1545 1546	3
+T2	MeasuredEntity 1468 1488	total number of CFUs
+T3	MeasuredProperty 1541 1542	n
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

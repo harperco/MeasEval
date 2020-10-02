@@ -1,0 +1,5 @@
+T1	Quantity 424 428	1:10
+T2	MeasuredProperty 429 434	slope
+T3	MeasuredEntity 442 447	beach
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

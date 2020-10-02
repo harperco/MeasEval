@@ -1,0 +1,6 @@
+T1	Quantity 410 416	1.5 mm
+T2	MeasuredProperty 380 406	nominal sediment diameters
+T3	Unit 414 416	mm
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 359 374	beach materials
+R2	HasProperty Arg1:T4 Arg2:T2	

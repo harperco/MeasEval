@@ -1,0 +1,6 @@
+T1	Quantity 733 740	2–4 kV.
+T2	MeasuredEntity 713 715	DC
+T3	MeasuredProperty 716 729	voltage range
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 737 739	kV

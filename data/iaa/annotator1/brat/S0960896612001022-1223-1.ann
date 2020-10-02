@@ -1,0 +1,7 @@
+T1	Quantity 107 113;125 133	before 20 years
+T2	Unit 128 133	years
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 118 121	age
+T4	MeasuredEntity 0 3;101 106	KSS onset
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

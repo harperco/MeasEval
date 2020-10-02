@@ -1,0 +1,7 @@
+T1	Quantity 126 134	34–38 °C
+T2	MeasuredEntity 26 77	seismic velocity in sandstones saturated with brine
+T3	MeasuredProperty 97 109	temperatures
+T4	Unit 132 134	°C
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+R2	HasProperty Arg1:T2 Arg2:T3	

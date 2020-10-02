@@ -1,0 +1,8 @@
+T2	Quantity 332 349	50% to around 80%
+T1	MeasuredProperty 284 305	improve the usability
+T3	MeasuredEntity 309 326	manufactured dice
+R1	HasProperty Arg1:T3 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T2	
+T5	Unit 348 349	%
+A1	QuantityQualifier T2 IsRange
+A2	IsApproximate T2

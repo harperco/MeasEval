@@ -1,0 +1,8 @@
+T1	Quantity 317 324	67-year
+T2	Unit 320 324	year
+T3	MeasuredProperty 325 328	old
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 302 313	One patient
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 329 408	male with sporadic FTD, tested negative for mutations in GRN, MAPT, and C9ORF72
+R3	Qualifies Arg1:T5 Arg2:T4	

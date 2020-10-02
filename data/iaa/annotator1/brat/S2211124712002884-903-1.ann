@@ -1,0 +1,8 @@
+T1	Quantity 4 7	two
+T2	MeasuredProperty 8 40	FTD patients under investigation
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 44 54	this study
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Qualifier 70 180	longitudinal dementia research program at the Memory and Aging Center, University of California, San Francisco
+R3	Qualifies Arg1:T4 Arg2:T3	

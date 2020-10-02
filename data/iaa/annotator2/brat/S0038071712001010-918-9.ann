@@ -1,0 +1,6 @@
+T1	Quantity 875 880	14.2%
+T2	MeasuredEntity 845 860	G. intraradices
+T3	MeasuredProperty 711 723	Colonisation
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 879 880	%

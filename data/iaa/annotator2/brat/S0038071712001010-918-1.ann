@@ -1,0 +1,4 @@
+T1	Quantity 57 64	< 0.001
+T2	MeasuredEntity 55 56	P
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

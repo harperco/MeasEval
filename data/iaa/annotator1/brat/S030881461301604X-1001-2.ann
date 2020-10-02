@@ -1,0 +1,4 @@
+T1	Quantity 150 153	30%
+T2	MeasuredEntity 131 148	hydrochloric acid
+T3	Unit 152 153	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

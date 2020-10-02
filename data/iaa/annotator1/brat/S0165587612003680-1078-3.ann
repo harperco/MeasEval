@@ -1,0 +1,7 @@
+T1	Quantity 719 734	three occasions
+A1	IsCount T1
+T3	MeasuredEntity 686 700	S. lugdunensis
+T4	MeasuredProperty 702 710	isolated
+T2	Unit 725 734	occasions
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

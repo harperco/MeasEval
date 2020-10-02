@@ -1,0 +1,4 @@
+T1	Quantity 663 677	One year later
+T2	Unit 667 677	year later
+T3	MeasuredEntity 679 688	MRI scans
+R1	HasQuantity Arg1:T3 Arg2:T1	

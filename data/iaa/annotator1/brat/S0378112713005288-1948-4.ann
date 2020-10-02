@@ -1,0 +1,10 @@
+T1	Quantity 483 489	< 0.01
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 481 482	p
+T3	Qualifier 360 419	overall regeneration density on clearfelled upland moorland
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 424 445	significantly greater
+R1	HasProperty Arg1:T4 Arg2:T2	
+R3	Qualifies Arg1:T3 Arg2:T4	
+T5	Qualifier 451 479	on unplanted upland moorland
+R4	Qualifies Arg1:T5 Arg2:T4	

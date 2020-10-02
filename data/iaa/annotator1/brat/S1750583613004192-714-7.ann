@@ -1,0 +1,5 @@
+T1	Quantity 499 506	3 years
+T2	MeasuredEntity 405 408	CO2
+T3	MeasuredProperty 413 421	migrated
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

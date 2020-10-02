@@ -1,0 +1,7 @@
+T1	Quantity 249 267	approximately 1 mm
+T2	Unit 265 267	mm
+A1	IsApproximate T1
+T3	MeasuredEntity 213 247	distinct layer of clastic sediment
+T4	MeasuredProperty 268 273	thick
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Quantity 766 770	1.75
+T2	MeasuredEntity 649 674	No significant difference
+T3	MeasuredProperty 753 763	F(1, 3.95)
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Qualifier 678 751	regeneration densities was found between brown earth and peaty gley soils
+R3	Qualifies Arg1:T4 Arg2:T2	

@@ -1,0 +1,7 @@
+T1	Quantity 1051 1065	more than 24 h
+T2	Unit 1064 1065	h
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1014 1041	second lifetime measurement
+T4	MeasuredProperty 1066 1071	later
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

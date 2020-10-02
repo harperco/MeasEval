@@ -1,0 +1,6 @@
+T1	Quantity 879 884	25 °C
+T2	MeasuredEntity 778 785	devices
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Qualifier 853 862	corrected
+R2	Qualifies Arg1:T3 Arg2:T1	
+T4	Unit 882 884	°C

@@ -1,0 +1,7 @@
+T1	Quantity 1073 1086	about 210 MPa
+T2	MeasuredProperty 1034 1052	hydrostatic stress
+T3	MeasuredEntity 1060 1069	crack tip
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+T4	Unit 1083 1086	MPa

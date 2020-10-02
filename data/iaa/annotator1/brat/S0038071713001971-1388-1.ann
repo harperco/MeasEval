@@ -1,0 +1,5 @@
+T1	Quantity 178 181	55%
+T2	MeasuredProperty 186 190	OTUs
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 194 207	healthy soils
+R2	HasProperty Arg1:T3 Arg2:T2	

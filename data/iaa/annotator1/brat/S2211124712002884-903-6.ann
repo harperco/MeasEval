@@ -1,0 +1,7 @@
+T1	Quantity 1020 1027	64-year
+T2	MeasuredProperty 1028 1031	old
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 976 998	An age-matched subject
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Qualifier 1000 1019;1032 1079	a clinically normal male with no mutations in GRN, MAPT, or C9ORF72
+R3	Qualifies Arg1:T4 Arg2:T3	

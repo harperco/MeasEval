@@ -1,0 +1,6 @@
+T1	Quantity 1020 1027	64-year
+T2	MeasuredProperty 1028 1031	old
+T3	Unit 1023 1027	year
+T4	MeasuredEntity 979 998	age-matched subject
+R1	HasProperty Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

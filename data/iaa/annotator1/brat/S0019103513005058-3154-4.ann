@@ -1,0 +1,7 @@
+T1	Quantity 1641 1646	⩽1.6%
+T2	Unit 1645 1646	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 1647 1658	perchlorate
+T4	MeasuredEntity 1662 1702	both Viking 1 and Viking 2 landing sites
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

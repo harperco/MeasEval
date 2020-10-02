@@ -1,0 +1,5 @@
+T1	Quantity 223 232	2.5–10 μm
+T2	Unit 230 232	μm
+T3	MeasuredEntity 234 238	PM10
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

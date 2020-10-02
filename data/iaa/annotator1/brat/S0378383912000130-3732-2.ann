@@ -1,0 +1,6 @@
+T1	Quantity 261 267	8.5 mm
+T2	Unit 265 267	mm
+T3	MeasuredProperty 268 275	beaches
+T4	MeasuredEntity 208 237	several cross-shore locations
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T3	

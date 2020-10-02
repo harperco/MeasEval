@@ -1,0 +1,6 @@
+T1	Quantity 441 446	67.9%
+T2	MeasuredEntity 287 295	Children
+T3	MeasuredProperty 374 389	biofilm results
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 445 446	%

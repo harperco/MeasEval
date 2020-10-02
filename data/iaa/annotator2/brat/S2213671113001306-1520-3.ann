@@ -1,0 +1,6 @@
+T1	Quantity 447 462	20 × 20 degrees
+T2	Unit 455 462	degrees
+T3	MeasuredProperty 466 478	visual field
+T4	MeasuredEntity 433 439	device
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

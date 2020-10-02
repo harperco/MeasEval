@@ -1,0 +1,6 @@
+T1	Quantity 131 134	two
+A1	IsCount T1
+T2	MeasuredProperty 135 147	major trends
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 72 86	Strategies A–C
+R2	HasProperty Arg1:T3 Arg2:T2	

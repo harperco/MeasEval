@@ -1,0 +1,7 @@
+T1	Quantity 562 578	from 10% to 100%
+T2	MeasuredEntity 536 551	inserting ratio
+T3	MeasuredProperty 552 561	increases
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 577 578	%

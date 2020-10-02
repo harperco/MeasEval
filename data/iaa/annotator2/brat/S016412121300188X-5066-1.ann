@@ -1,0 +1,9 @@
+T1	Quantity 461 476	from 78% to 95%
+A1	QuantityQualifier T1 IsRange
+T2	Unit 475 476	%
+T3	MeasuredEntity 345 396	efficient hashing algorithm for slice approximation
+T4	MeasuredProperty 403 411	improves
+T5	Qualifier 419 460	precision of previous slice approximation
+R1	Qualifies Arg1:T5 Arg2:T4	
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

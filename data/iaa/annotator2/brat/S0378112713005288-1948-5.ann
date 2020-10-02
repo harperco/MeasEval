@@ -1,0 +1,5 @@
+T1	Quantity 766 770	1.75
+T2	MeasuredProperty 753 763	F(1, 3.95)
+T3	MeasuredEntity 649 751	No significant difference in regeneration densities was found between brown earth and peaty gley soils
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

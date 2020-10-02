@@ -1,0 +1,4 @@
+T1	Quantity 286 293	45 days
+T2	MeasuredEntity 273 284	13 passages
+T3	Unit 289 293	days
+R1	HasQuantity Arg1:T2 Arg2:T1	

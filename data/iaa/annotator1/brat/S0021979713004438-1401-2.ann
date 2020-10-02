@@ -1,0 +1,4 @@
+T1	Quantity 207 212	99.5%
+T2	MeasuredEntity 213 225	pure ethanol
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 211 212	%

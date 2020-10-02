@@ -1,0 +1,5 @@
+T1	Quantity 244 272	range 1013 cm−3 to 1016 cm−3
+A1	QuantityQualifier T1 IsRange
+T2	Unit 268 272	cm−3
+T3	MeasuredEntity 151 172	injection level range
+R1	HasQuantity Arg1:T3 Arg2:T1	

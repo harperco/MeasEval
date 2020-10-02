@@ -1,0 +1,4 @@
+T1	Quantity 162 167	20 kV
+T2	Unit 165 167	kV
+T3	MeasuredEntity 69 121	LEO 1525 field emission scanning electron microscope
+R1	HasQuantity Arg1:T3 Arg2:T1	

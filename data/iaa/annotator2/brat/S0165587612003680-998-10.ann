@@ -1,0 +1,5 @@
+T1	Quantity 567 571	0.02
+T2	MeasuredProperty 563 564	p
+T3	MeasuredEntity 543 562	Fisher's exact test
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

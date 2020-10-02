@@ -1,0 +1,9 @@
+T1	Quantity 825 832	69 ± 3°
+T2	MeasuredProperty 784 797	contact angle
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 831 832	°
+A1	QuantityQualifier T1 IsMeanHasTolerance
+T3	MeasuredEntity 778 783	water
+T5	Qualifier 798 821	on our hematite surface
+R1	Qualifies Arg1:T5 Arg2:T3	
+R3	HasProperty Arg1:T3 Arg2:T2	

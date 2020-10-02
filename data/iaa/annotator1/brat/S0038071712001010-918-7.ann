@@ -1,0 +1,6 @@
+T1	Quantity 693 697	9.9%
+T2	MeasuredEntity 698 708	G. mosseae
+T3	Unit 696 697	%
+T4	MeasuredProperty 522 545	Percentage colonisation
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

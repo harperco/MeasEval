@@ -1,0 +1,8 @@
+T1	Quantity 742 747	62 mm
+T2	Unit 745 747	mm
+T3	MeasuredProperty 721 738	groundwater level
+T4	Qualifier 748 764	within the beach
+R1	Qualifies Arg1:T4 Arg2:T1	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 778 788	both cases
+R3	HasProperty Arg1:T5 Arg2:T3	

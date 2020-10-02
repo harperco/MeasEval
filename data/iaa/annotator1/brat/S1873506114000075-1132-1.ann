@@ -1,0 +1,8 @@
+T1	Quantity 55 59	48 h
+T2	Unit 58 59	h
+T3	MeasuredEntity 4 54	differentiation medium was changed to fresh medium
+T4	MeasuredProperty 60 66	before
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 67 76	the assay
+R3	Qualifies Arg1:T5 Arg2:T4	

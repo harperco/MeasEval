@@ -1,0 +1,5 @@
+T1	Quantity 399 402	10%
+T2	MeasuredProperty 403 408	serum
+T3	MeasuredEntity 223 245	differentiation medium
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	

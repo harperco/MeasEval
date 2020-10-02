@@ -1,0 +1,5 @@
+T1	Quantity 804 817	more than 85%
+T2	Unit 816 817	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 785 800	inserting ratio
+R1	HasQuantity Arg1:T3 Arg2:T1	

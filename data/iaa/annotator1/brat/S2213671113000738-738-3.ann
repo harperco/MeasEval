@@ -1,0 +1,7 @@
+T1	Quantity 867 871	1/10
+T2	MeasuredProperty 840 856	expression level
+T3	MeasuredEntity 780 799	expression of MHC-I
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 872 919	that of untreated monkey peripheral blood cells
+R3	Qualifies Arg1:T4 Arg2:T1	

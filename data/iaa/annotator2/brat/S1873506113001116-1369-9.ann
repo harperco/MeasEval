@@ -1,0 +1,7 @@
+T1	Quantity 1533 1539	0.0307
+T2	MeasuredEntity 1468 1488	total number of CFUs
+T3	MeasuredProperty 1529 1530	P
+T4	Qualifier 1507 1520	significantly
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	HasProperty Arg1:T2 Arg2:T3	

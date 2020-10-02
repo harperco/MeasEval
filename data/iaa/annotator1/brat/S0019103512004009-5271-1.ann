@@ -1,0 +1,5 @@
+T1	Quantity 160 171	below 3.5Rp
+T2	Unit 169 171	Rp
+T4	MeasuredEntity 53 61	C2 model
+R1	HasQuantity Arg1:T4 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

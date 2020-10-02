@@ -1,0 +1,6 @@
+T1	Quantity 394 398	1 kg
+T2	Unit 396 398	kg
+T3	MeasuredProperty 388 393	weigh
+T4	MeasuredEntity 374 387	200,000 seeds
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

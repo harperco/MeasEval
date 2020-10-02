@@ -1,0 +1,7 @@
+T1	Quantity 985 999	above 0.003 Hz
+A1	QuantityQualifier T1 IsRange
+T2	Unit 997 999	Hz
+T3	MeasuredProperty 968 984	wind frequencies
+T4	MeasuredEntity 941 964	the low wind speed case
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Quantity 943 966	approximately 78 ± 0.6%
+T2	MeasuredEntity 970 975	cells
+T3	MeasuredProperty 981 1001	Sox17-positive on D5
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1
+A2	QuantityQualifier T1 HasTolerance
+T4	Unit 965 966	%

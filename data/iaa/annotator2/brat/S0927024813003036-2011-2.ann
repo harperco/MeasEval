@@ -1,0 +1,8 @@
+T1	Quantity 555 561	10 min
+T2	Unit 558 561	min
+T3	MeasuredEntity 445 481	Boron–oxygen defects were eliminated
+T4	MeasuredProperty 562 572	pre-anneal
+R1	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 576 582	200 °C
+R2	Qualifies Arg1:T5 Arg2:T4	
+R3	HasProperty Arg1:T3 Arg2:T4	

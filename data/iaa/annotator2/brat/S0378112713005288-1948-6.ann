@@ -1,0 +1,5 @@
+T1	Quantity 776 780	n.s.
+T2	MeasuredProperty 772 773	p
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 753 770	F(1, 3.95) = 1.75
+R2	HasProperty Arg1:T3 Arg2:T2	

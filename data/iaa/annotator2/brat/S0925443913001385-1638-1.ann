@@ -1,0 +1,6 @@
+T1	Quantity 77 80	30%
+T2	MeasuredProperty 4 61	steady state level of MRPL12 in the subject's fibroblasts
+T3	MeasuredEntity 84 97	control value
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 79 80	%

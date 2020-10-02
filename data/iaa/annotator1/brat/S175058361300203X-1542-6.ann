@@ -1,0 +1,7 @@
+T1	Quantity 776 788	34 and 38 °C
+T2	MeasuredEntity 765 774	scenarios
+T3	MeasuredProperty 753 764	temperature
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsList
+T4	Unit 786 788	°C

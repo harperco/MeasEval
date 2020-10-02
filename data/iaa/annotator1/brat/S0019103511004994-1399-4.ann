@@ -1,0 +1,6 @@
+T1	Quantity 241 247	252 km
+T2	MeasuredProperty 221 232	radius REnc
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 245 247	km
+T4	MeasuredEntity 0 9	Enceladus
+R2	HasProperty Arg1:T4 Arg2:T2	

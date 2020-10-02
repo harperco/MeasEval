@@ -1,0 +1,9 @@
+T1	Quantity 1073 1086	about 210 MPa
+T2	Unit 1083 1086	MPa
+A1	IsApproximate T1
+T3	MeasuredProperty 1021 1052	equates to a hydrostatic stress
+T4	Qualifier 1053 1069	at the crack tip
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 974 1013	applied uniaxial stress of about 70 MPa
+R3	HasProperty Arg1:T5 Arg2:T3	

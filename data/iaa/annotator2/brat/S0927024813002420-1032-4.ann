@@ -1,0 +1,8 @@
+T1	Quantity 592 604	∼0.40–0.45 V
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 589 592	Voc
+T3	MeasuredEntity 539 568	planar heterojunction devices
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 603 604	V

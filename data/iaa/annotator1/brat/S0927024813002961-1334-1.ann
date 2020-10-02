@@ -1,0 +1,4 @@
+T1	Quantity 331 343	less than 5%
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 303 327	annual energy prediction
+R1	HasQuantity Arg1:T2 Arg2:T1	

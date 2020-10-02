@@ -1,0 +1,8 @@
+T1	Quantity 224 228	115%
+T2	Unit 227 228	%
+T3	MeasuredProperty 205 220	growth response
+T4	MeasuredEntity 193 204	mycorrhizal
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 234 251	whole plant basis
+R3	Qualifies Arg1:T5 Arg2:T1	

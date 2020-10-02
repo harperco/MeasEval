@@ -1,0 +1,8 @@
+T1	Quantity 256 260	169%
+T2	MeasuredProperty 133 176	G. mosseae plus G. intraradices combination
+T3	MeasuredEntity 193 211	mycorrhizal growth
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 259 260	%
+T5	Qualifier 266 281	root only basis
+R3	Qualifies Arg1:T5 Arg2:T1	

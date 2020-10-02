@@ -1,0 +1,7 @@
+T1	Quantity 230 250	greater than 0.1 g/L
+T2	Unit 247 250	g/L
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 182 229	cerebrospinal fluid (CSF) protein concentration
+T4	MeasuredEntity 0 3	KSS
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

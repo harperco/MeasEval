@@ -1,0 +1,7 @@
+T1	Quantity 825 832	69 ± 3°
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit 831 832	°
+T3	MeasuredProperty 778 797	water contact angle
+T4	MeasuredEntity 805 821	hematite surface
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

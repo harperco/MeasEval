@@ -1,0 +1,9 @@
+T1	Quantity 1205 1206	3
+T2	MeasuredEntity 1235 1250	CD34+CD45+ HPCs
+T3	MeasuredProperty 1201 1202	n
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Qualifier 1251 1279	on day 14 of differentiation
+T5	Qualifier 1156 1159	BC1
+R3	Qualifies Arg1:T5 Arg2:T2	
+R4	Qualifies Arg1:T4 Arg2:T2	

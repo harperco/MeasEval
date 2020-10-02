@@ -1,0 +1,6 @@
+T1	Quantity 643 649	≳ 10−4
+T2	MeasuredEntity 634 642	[H+]/[H]
+T3	MeasuredProperty 628 633	ratio
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,6 @@
+T1	Quantity 514 519	23.8%
+T2	MeasuredEntity 480 512	combination of all three species
+T3	MeasuredProperty 359 382	percentage colonisation
+T4	Unit 518 519	%
+R1	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

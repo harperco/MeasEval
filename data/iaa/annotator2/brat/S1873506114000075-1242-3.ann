@@ -1,0 +1,8 @@
+T1	Quantity 1068 1091	approximately 29 ± 0.9%
+T2	Unit 1090 1091	%
+T3	MeasuredEntity 1095 1100	cells
+T4	MeasuredProperty 1106 1125	ALB-positive on D20
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+A1	IsApproximate T1
+A2	QuantityQualifier T1 HasTolerance

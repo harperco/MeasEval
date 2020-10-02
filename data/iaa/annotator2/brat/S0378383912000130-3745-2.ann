@@ -1,0 +1,6 @@
+T1	Quantity 79 86	1980 mm
+T2	MeasuredEntity 25 34	modelling
+T3	MeasuredProperty 75 76	x
+T4	Unit 84 86	mm
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

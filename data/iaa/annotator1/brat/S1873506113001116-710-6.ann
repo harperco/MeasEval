@@ -1,0 +1,5 @@
+T1	Quantity 369 386	after 13 passages
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 390 407	static suspension
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 378 386	passages

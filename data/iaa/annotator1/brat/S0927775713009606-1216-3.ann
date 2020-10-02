@@ -1,0 +1,6 @@
+T1	Quantity 199 202	4 s
+T2	Unit 201 202	s
+T3	MeasuredProperty 173 186	counting time
+T4	MeasuredEntity 191 195	step
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

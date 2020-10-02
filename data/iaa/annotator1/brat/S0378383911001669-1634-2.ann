@@ -1,0 +1,6 @@
+T1	Quantity 330 335	50 mm
+T2	Unit 333 335	mm
+T3	MeasuredProperty 336 354	fixed focal length
+T4	MeasuredEntity 355 359	lens
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

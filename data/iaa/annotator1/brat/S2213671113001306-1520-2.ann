@@ -1,0 +1,6 @@
+T1	Quantity 391 396	60 μm
+T2	Unit 394 396	μm
+T3	MeasuredProperty 397 423	distance between each scan
+T4	MeasuredEntity 359 371	Volume scans
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

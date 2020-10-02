@@ -1,0 +1,6 @@
+T1	Quantity 345 349	∼70%
+A1	IsApproximate T1
+T2	MeasuredProperty 305 332	Cellulose and hemicellulose
+T3	MeasuredEntity 353 357	wood
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	

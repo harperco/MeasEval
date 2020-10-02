@@ -1,0 +1,8 @@
+T2	Quantity 92 112	3.95 Saturn radii RS
+T1	MeasuredProperty 80 88	distance
+T3	MeasuredEntity 0 9	Enceladus
+T4	Qualifier 11 74	one out of currently 62 satellites of Saturn, orbits the planet
+R1	HasQuantity Arg1:T1 Arg2:T2	
+R2	HasProperty Arg1:T3 Arg2:T1	
+R3	Qualifies Arg1:T4 Arg2:T1	
+T6	Unit 97 112	Saturn radii RS

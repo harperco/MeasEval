@@ -1,0 +1,6 @@
+T1	Quantity 592 604	∼0.40–0.45 V
+T2	Unit 603 604	V
+T3	MeasuredProperty 589 592	Voc
+T4	MeasuredEntity 539 568	planar heterojunction devices
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 664 667	22%
+T2	Unit 666 667	%
+T3	MeasuredEntity 622 637	12S rRNA levels
+T4	Qualifier 643 652	decreased
+R1	Qualifies Arg1:T4 Arg2:T1	
+R2	HasQuantity Arg1:T3 Arg2:T1	

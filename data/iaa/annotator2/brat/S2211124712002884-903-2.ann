@@ -1,0 +1,6 @@
+T1	Quantity 194 200	8-year
+T2	Unit 196 200	year
+T3	MeasuredProperty 201 252	history of behavioral changes and memory impairment
+T4	MeasuredEntity 4 20	two FTD patients
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

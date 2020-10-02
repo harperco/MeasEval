@@ -1,0 +1,6 @@
+T1	Quantity 355 365	0.5–0.6 nJ
+T2	MeasuredEntity 339 344	laser
+T3	MeasuredProperty 345 351	energy
+T4	Unit 363 365	nJ
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

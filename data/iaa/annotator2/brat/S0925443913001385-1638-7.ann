@@ -1,0 +1,5 @@
+T1	Quantity 664 667	22%
+T2	MeasuredProperty 622 655	12S rRNA levels were decreased by
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 572 579	control
+R2	HasProperty Arg1:T3 Arg2:T2	

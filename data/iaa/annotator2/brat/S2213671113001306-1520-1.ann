@@ -1,0 +1,6 @@
+T1	Quantity 305 315	30-degrees
+T2	Unit 308 315	degrees
+T3	MeasuredProperty 319 331	visual-field
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 347 357	Spectralis
+R2	HasProperty Arg1:T4 Arg2:T3	

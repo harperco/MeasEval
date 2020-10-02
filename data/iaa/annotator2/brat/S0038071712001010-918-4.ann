@@ -1,0 +1,6 @@
+T1	Quantity 456 461	25.4%
+T2	MeasuredProperty 359 382	percentage colonisation
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 460 461	%
+T4	MeasuredEntity 403 454	two-species mixture of G. geosporum plus G. mosseae
+R2	HasProperty Arg1:T4 Arg2:T2	

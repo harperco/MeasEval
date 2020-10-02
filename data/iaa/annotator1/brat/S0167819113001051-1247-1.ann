@@ -1,0 +1,5 @@
+T1	Quantity 23 31	18 cores
+T2	Unit 26 31	cores
+T3	MeasuredEntity 14 18	node
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsCount T1

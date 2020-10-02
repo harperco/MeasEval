@@ -1,0 +1,6 @@
+T1	Quantity 430 436	4–7 kV
+T2	MeasuredEntity 411 413	DC
+T3	MeasuredProperty 414 426	bias voltage
+T4	Unit 434 436	kV
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

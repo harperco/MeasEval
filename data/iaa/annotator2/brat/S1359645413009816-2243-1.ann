@@ -1,0 +1,6 @@
+T1	Quantity 152 158	1.5 nm
+T2	MeasuredEntity 69 121	LEO 1525 field emission scanning electron microscope
+T3	MeasuredProperty 130 148	nominal resolution
+T4	Unit 156 158	nm
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

@@ -1,0 +1,6 @@
+T1	Quantity 879 884	25 °C
+T2	Unit 882 884	°C
+T3	MeasuredEntity 746 785	maximum power point data of all devices
+T4	Qualifier 839 862	extracted and corrected
+R2	Qualifies Arg1:T4 Arg2:T1	
+R1	HasQuantity Arg1:T3 Arg2:T1	

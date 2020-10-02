@@ -1,0 +1,7 @@
+T1	Quantity 130 139	5° to 85°
+T2	Unit 138 139	°
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 116 124	2θ range
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 149 202	step size of 0.1° and a counting time per step of 4 s
+R2	Qualifies Arg1:T4 Arg2:T1	

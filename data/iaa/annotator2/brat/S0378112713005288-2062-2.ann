@@ -1,0 +1,8 @@
+T1	Quantity 394 398	1 kg
+T2	Unit 396 398	kg
+T3	MeasuredEntity 374 387	200,000 seeds
+T4	MeasuredProperty 388 393	weigh
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 367 372	rowan
+R3	Qualifies Arg1:T5 Arg2:T3	

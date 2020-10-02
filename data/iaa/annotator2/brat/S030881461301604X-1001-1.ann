@@ -1,0 +1,5 @@
+T1	Quantity 120 128	68 – 70%
+T2	Unit 127 128	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 107 118	nitric acid
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 204 207	30%
+T2	MeasuredEntity 185 202	hydrogen peroxide
+T3	Unit 206 207	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

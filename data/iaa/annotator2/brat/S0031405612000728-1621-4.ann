@@ -1,0 +1,6 @@
+T1	Quantity 937 947	4.8 months
+T2	Unit 941 947	months
+T3	MeasuredEntity 922 927	soils
+T4	MeasuredProperty 912 921	incubated
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

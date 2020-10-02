@@ -1,0 +1,7 @@
+T1	Quantity 1990 2004	≤1.5×1012 cm−3
+A1	QuantityQualifier T1 IsRange
+T2	Unit 2000 2004	cm−3
+T3	MeasuredProperty 1921 1945	bulk iron concentrations
+T4	MeasuredEntity 1953 1977	“uncontaminated” samples
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

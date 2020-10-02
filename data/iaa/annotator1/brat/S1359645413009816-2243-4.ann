@@ -1,0 +1,6 @@
+T1	Quantity 586 600	about 30 K/min
+T2	MeasuredProperty 536 582	rapid cooling to ambient temperature at a rate
+T3	MeasuredEntity 307 314	samples
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 595 600	K/min

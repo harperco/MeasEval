@@ -1,0 +1,6 @@
+T1	Quantity 105 112	4 weeks
+T2	MeasuredEntity 80 95	hRPE monolayers
+T3	MeasuredProperty 96 104	survived
+T4	Unit 107 112	weeks
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

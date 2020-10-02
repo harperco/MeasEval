@@ -1,0 +1,6 @@
+T1	Quantity 468 473	55 K.
+T2	MeasuredEntity 444 452	specimen
+T3	MeasuredProperty 453 464	temperature
+T4	Unit 471 472	K
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

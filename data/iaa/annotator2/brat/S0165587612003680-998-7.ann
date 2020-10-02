@@ -1,0 +1,6 @@
+T1	Quantity 430 435	57.1%
+T2	Unit 434 435	%
+T3	MeasuredEntity 395 401	adults
+T4	MeasuredProperty 351 368	confocal-positive
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

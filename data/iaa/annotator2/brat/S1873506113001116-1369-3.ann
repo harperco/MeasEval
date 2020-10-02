@@ -1,0 +1,5 @@
+T1	Quantity 434 446	After 8 days
+T2	Unit 442 446	days
+T3	MeasuredEntity 450 463	spinner flask
+A1	QuantityQualifier T1 IsRange
+R1	HasQuantity Arg1:T3 Arg2:T1	

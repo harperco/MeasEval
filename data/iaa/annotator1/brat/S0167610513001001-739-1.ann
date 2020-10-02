@@ -1,0 +1,4 @@
+T1	Quantity 52 57	180 m
+T2	Unit 56 57	m
+T3	MeasuredEntity 38 51	gate midpoint
+R2	HasQuantity Arg1:T3 Arg2:T1	

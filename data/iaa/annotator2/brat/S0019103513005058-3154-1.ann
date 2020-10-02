@@ -1,0 +1,6 @@
+T1	Quantity 175 189	1.3 ± 0.5 wt.%
+T2	MeasuredProperty 144 159	Soluble sulfate
+T4	Unit 188 189	%
+T3	MeasuredEntity 130 142	martian soil
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

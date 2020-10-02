@@ -1,0 +1,7 @@
+T1	Quantity 656 659	10%
+T2	MeasuredProperty 660 678	fetal bovine serum
+T3	MeasuredEntity 623 637	Eagle's medium
+T4	Qualifier 638 650	supplemented
+R1	Qualifies Arg1:T4 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+R3	HasProperty Arg1:T3 Arg2:T2	

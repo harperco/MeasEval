@@ -1,0 +1,7 @@
+T1	Quantity 430 436	4–7 kV
+T2	MeasuredProperty 411 426	DC bias voltage
+T3	MeasuredEntity 294 321	3DAP observation conditions
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 434 436	kV

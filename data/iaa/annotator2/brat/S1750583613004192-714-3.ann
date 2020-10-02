@@ -1,0 +1,6 @@
+T1	Quantity 176 180	nine
+T2	MeasuredProperty 181 193	plume layers
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 279 290	Utsira Sand
+R2	HasProperty Arg1:T3 Arg2:T2	
