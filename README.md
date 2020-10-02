@@ -11,7 +11,7 @@ For more details and to participate, head over to our CodaLab pages:
 
 All data will be made available through this following Github repository.
 
-Data releases will include a text file for each paragraph of scientific text as well as annotations to be provided in two formats. Annoations is provided in a tab separated value (.tsv) file format, and also in the BRAT annotation format. The BRAT format is for the purpose of visualization and review, but the official data format is the .tsv, which will be used for submissions and evaluation.
+Data releases will include a text file for each paragraph of scientific text as well as annotations to be provided in two formats. Annoations is provided in a tab separated value (.tsv) file format, and also in the BRAT annotation format. The BRAT format is for the purpose of visualization and review, but the official data format is the .tsv, which will be used for submissions and evaluation. For .tsv and .txt files, one file per paragraph of annotated text will be provided. For the BRAT files, there will be an additional set of 1 .ann and 1 .txt file per annotated Quantity. These will be found in the brat directory.
 
 For example, given the BRAT annotations illustrated in the image below, the Trial Data will have 3 files:
 
@@ -27,12 +27,18 @@ inventory of 13 kg e.g., Ti, Cr, and Mn. However, all elements included within F
 5 can be considered to be at very low concentrations of <2 ppm.
 ```
 
-##### S0016236113008041-3153.ann (BRAT Annotation Format):
+##### S0016236113008041-3153-1.ann (BRAT Annotation Format):
 
 ```
 T1      Quantity 256 261        13 kg
-T2      Quantity 383 389        <2 ppm
 T3      MeasuredEntity 239 252  bed inventory
+R1      HasQuantity Arg1:T3 Arg2:T1     
+```
+
+##### S0016236113008041-3153-2.ann (BRAT Annotation Format):
+
+```
+T2      Quantity 383 389        <2 ppm
 T4      MeasuredProperty 365 379        concentrations
 R1      HasQuantity Arg1:T3 Arg2:T1     
 T6      MeasuredEntity 297 305  elements
@@ -41,15 +47,17 @@ R3      HasQuantity Arg1:T4 Arg2:T2
 A1      QuantityQualifier T2 IsRange
 ```
 
-##### S0016236113008041-3153.tsv (Official Competition TSV Format):<
+The brat directory will also contain duplicated copies of S0016236113008041-3153.txt named S0016236113008041-3153-1.txt and S0016236113008041-3153-2.txt to support BRAT functionality.
+
+##### S0016236113008041-3153.tsv (Official Competition TSV Format):
 
 ```
 docId   annotSet        annotType       startOffset     endOffset       annotId text    other
-S0016236113008041-3153        1       Quantity        256     261     T1      13 kg {unit: kg}
-S0016236113008041-3153        1       MeasuredEntity  239     252     T3      bed inventory   {HasQuantity: T1}
-S0016236113008041-3153        2       Quantity        383     389     T2      <2 ppm  {mods: [IsRange], unit: ppm}
-S0016236113008041-3153        2       MeasuredProperty        365     379     T4      concentrations  {HasQuantity: T2}
-S0016236113008041-3153        2       MeasuredEntity  297     305     T6      elements        {HasProperty: T4}
+S0016236113008041-3153        1       Quantity        256     261     T1      13 kg {"unit": "kg"}
+S0016236113008041-3153        1       MeasuredEntity  239     252     T3      bed inventory   {"HasQuantity": "T1"}
+S0016236113008041-3153        2       Quantity        383     389     T2      <2 ppm  {"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3153        2       MeasuredProperty        365     379     T4      concentrations  {"HasQuantity": "T2"}
+S0016236113008041-3153        2       MeasuredEntity  297     305     T6      elements        {"HasProperty": "T4"}
 ```
 
 For the TSV format, the following fields are used:
