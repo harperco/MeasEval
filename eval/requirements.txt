@@ -1,0 +1,4 @@
+# requirements for measeval-eval.py
+pandasql
+vladiate
+pandas >= 1.0.0
