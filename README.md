@@ -11,7 +11,7 @@ For more details and to participate, head over to our CodaLab pages:
 
 All data will be made available through this following Github repository.
 
-Data releases will include a text file for each paragraph of scientific text as well as annotations to be provided in two formats. Annoations is provided in a tab separated value (.tsv) file format, and also in the BRAT annotation format. The BRAT format is for the purpose of visualization and review, but the official data format is the .tsv, which will be used for submissions and evaluation. For .tsv and .txt files, one file per paragraph of annotated text will be provided. For the BRAT files, there will be an additional set of 1 .ann and 1 .txt file per annotated Quantity. These will be found in the brat directory.
+Data releases will include a text file for each paragraph of scientific text as well as annotations to be provided in two formats. Annotations are provided in a tab separated value (.tsv) file format, and also in the BRAT annotation format. The BRAT format is for the purpose of visualization and review, but the official data format is the .tsv, which will be used for submissions and evaluation. For .tsv and .txt files, one file per paragraph of annotated text will be provided. For the BRAT files, there will be an additional set of 1 .ann and 1 .txt file per annotated Quantity. These will be found in the brat directory.
 
 For example, given the BRAT annotations illustrated in the image below, the Trial Data will have 3 files:
 
@@ -63,14 +63,14 @@ S0016236113008041-3153        2       MeasuredEntity  297     305     T6      el
 For the TSV format, the following fields are used:
 
 * docId: points to the document ID of the example.
-* annotSet: refers to the logical grouping of annotations, one per annotated quantity, in the order that the appear in the text document.
+* annotSet: refers to the logical grouping of annotations, one per annotated quantity, in the order that they appear in the text document.
 * annotType, one of Quantity, MeasuredEntity, MeasuredProperty, or Qualifier.
-* startOffset: character ofset of the start of the annotation in the text.
+* startOffset: character offset of the start of the annotation in the text.
 * endOffset: character offset pointing to the character after the last character in the annotation.
 * annotId: an identifier for the row in the file, unique per annotSet.
 * text: the text of the annotation.
 * other: additional properties used in the task, including:
-  * For Quantities: other holds the unit: the unit in the text; si: the SI equivelant of this unit, if applicable, and mods: a set of modifiers that further describe the Quantity.
+  * For Quantities: other holds the _unit_: the unit in the text; _si_: the SI equivalant of this unit, if applicable, and _mods_: a set of modifiers that further describe the Quantity.
   * For MeasuredEntity, MeasuredProperty, and Qualifier, other holds the relationship type and target of the related span, in the form {relationType: targetAnnotation}
 
-Data based CC-BY ScienceDirect Articles available from the [Elsevier Labs OA-STM-Corpus](https://github.com/elsevierlabs/OA-STM-Corpus). Paragraph IDs in the competition data match document IDs in the OA-STM-Corpus corpus.
+Data based on CC-BY ScienceDirect Articles available from the [Elsevier Labs OA-STM-Corpus](https://github.com/elsevierlabs/OA-STM-Corpus). Paragraph IDs in the competition data match document IDs in the OA-STM-Corpus corpus.
