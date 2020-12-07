@@ -1,6 +1,6 @@
 #### Welcome to the MeasEval Evaluation Code
 
-This is a modified version of the evaluation code running on [our CodaLab competiton](https://competitions.codalab.org/competitions/25770). The modifications are minor, and are for the purpose of running this codebase locally to test your models prior to submission.
+This is a modified version of the evaluation code running on [our CodaLab competition](https://competitions.codalab.org/competitions/25770). The modifications are minor, and are for the purpose of running this codebase locally to test your models prior to submission.
 
 * While the CodaLab version manages input and output per CodaLab practices, we are using argparse locally. This lets you specify the base path of your installation, subdirectories of your gold and "submission" data, and a mode to run in. See "Advanced Options" below for further documentation of these options.
 * The CodaLab copy always runs in "Overall" mode, which is also the default here.
