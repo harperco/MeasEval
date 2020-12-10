@@ -1033,8 +1033,8 @@ if args.mode == "overall":
     tp = len(wrk1score.loc[wrk1score["matchType"] == "Match"].index)
     fp = len(wrk1score.loc[wrk1score["matchType"] == "Sub only"].index)
     fn = len(wrk1score.loc[wrk1score["matchType"] == "Gold only"].index)
-    print("True postives (matching rows): " + str(tp))
-    print("False postives (submission only): " + str(fp))
+    print("True positives (matching rows): " + str(tp))
+    print("False positives (submission only): " + str(fp))
     print("False negatives (gold only): " + str(fn))
     print("")
     precision = tp / (tp+fp)
@@ -1066,8 +1066,8 @@ elif args.mode == "class":
         elif tp == 0:
             print("Submission has no matches against gold data for " + annotType)
         else:
-            print("True postives (matching rows) for " + annotType + ": " + str(tp))
-            print("False postives (submission only) for " + annotType + ": " + str(fp))
+            print("True positives (matching rows) for " + annotType + ": " + str(tp))
+            print("False positives (submission only) for " + annotType + ": " + str(fp))
             print("False negatives (gold only) for " + annotType + ": " + str(fn))
             print("")
             precision = tp / (tp+fp)
