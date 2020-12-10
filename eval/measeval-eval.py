@@ -156,7 +156,7 @@ for sfn in os.listdir(args.indir+args.sub):
         validators = {
             'docId': [
                 UniqueValidator(unique_with=['annotSet', 'annotId']),
-                UniqueValidator(unique_with=['annotSet', 'startOffset'])
+                #UniqueValidator(unique_with=['annotSet', 'startOffset'])
             ],
             'annotId': [
                 RegexValidator(pattern=r'T?\d*-?\d+', full=True)
@@ -593,6 +593,10 @@ tmpgRels['src'] = tmpgRels.apply (lambda x: x.annotId, axis=1)
 goldRels = tmpgRels[["docId", "annotSet", "annotType", "relType", "src", "target"]]
 
 tmpsRels = sub.loc[sub["annotType"].isin(["MeasuredEntity", "MeasuredProperty", "Qualifier"])].copy()
+tmpsRels['json'] = None
+tmpsRels['relType'] = None
+tmpsRels['target'] = None
+tmpsRels['src'] = None
 tmpsRels['json'] = tmpsRels.apply (lambda x: json.loads(str(x.other)) if str(x.other) != "nan" else "", axis = 1 )
 tmpsRels['relType'] = tmpsRels.apply (lambda x: list(x.json.keys())[0], axis = 1 )
 tmpsRels['target'] = tmpsRels.apply (lambda x: list(x.json.values())[0], axis = 1 )
@@ -652,7 +656,7 @@ q = """SELECT
 hasQuantMatch = pysqldf(q)
 hasQuantMatch['EM'] = hasQuantMatch.apply (lambda x: 1.0, axis = 1 )
 hasQuantMatch['F1'] = None
-print(hasQuantMatch)
+#print(hasQuantMatch)
 
 # As usual, we have both our Gold only and Submission only data.
 q = """SELECT
@@ -957,7 +961,7 @@ goldOnlyHasProp["F1"] = goldOnlyHasProp.apply (lambda x: penalty, axis = 1)
 goldOnlyHasProp["matchType"] = goldOnlyHasProp.apply (lambda x: "Gold only", axis = 1 )
 
 qualifiesMatch["matchType"] = qualifiesMatch.apply (lambda x: "Match", axis = 1 )
-print(qualifiesMatch)
+#print(qualifiesMatch)
 qualifiesMatch["F1"] = qualifiesMatch.apply (lambda x: x.EM, axis = 1)
 subOnlyQualifies["EM"] = subOnlyQualifies.apply (lambda x: penalty, axis = 1)
 subOnlyQualifies["F1"] = subOnlyQualifies.apply (lambda x: penalty, axis = 1)
