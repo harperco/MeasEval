@@ -39,8 +39,8 @@ subnames = []
 # We'll have to change some logger criteria to get this to work as expected
 # For validation. Can also make this a command line arg
 # For now, uncomment if you want the more verbose logs
-# logs.logger.setLevel(logging.DEBUG)
-# logs.sh.setLevel(logging.DEBUG)
+logs.logger.setLevel(logging.DEBUG)
+logs.sh.setLevel(logging.DEBUG)
 
 # Defining a coupel of new validators
 # LengthValidator ensures that length of text equals difference between offsets
@@ -109,7 +109,7 @@ class JsonValidator(Validator):
                             )
                         if not all(k in ['IsCount', 'IsApproximate', 'IsMeanHasTolerance', 'IsMedian',
                                           'IsList', 'IsRangeHasTolerance', 'IsMean', 'IsRange',
-                                          'HasTolerance', 'IsMeanIsRange'] for k in data["mods"]):
+                                          'HasTolerance', 'IsMeanIsRange', 'IsMeanHasSD'] for k in data["mods"]):
                             self.failures.add(field)
                             raise ValidationException(
                                 "'{}' has invalid key in mods".format(field)

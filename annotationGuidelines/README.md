@@ -243,7 +243,7 @@ Note that the ME is not just &quot;winds&quot;, as we try to include adjectives 
 <br />
 <strong>Quant:</strong> range of 1.5–2.6 m<br />
 <strong>MP:</strong> depth<br />
-<strong>MP:</strong> Mars soil</p></td>
+<strong>ME:</strong> Mars soil</p></td>
 <td><p>1.5-2.6 m is a simple range. Not shown here are open ended ranges where the text says something like &quot;greater than&quot; or &quot;less than&quot;. Treat those ranges without an upper or lower bound. Include that text in the span of the quantity and modifier.</p></td>
 </tr>
 <tr class="even">
@@ -590,7 +590,7 @@ We have a set of rules to define how to manage such circumstances:
 
   - **Implicit frequencies and durations** For frequencies, durations,
     and other kinds of scheduled / timed processes, if there is no
-    explicit entity, mark the process as the MeasuredEntity and the
+    explicit MeasuredEntity, mark the process as the MeasuredEntity and the
     schedule or frequency as the Quantity. For example:  
     "They found that the variability ranges between 1% and 37% during
     one period of solar rotation (27 days), and the average variability
