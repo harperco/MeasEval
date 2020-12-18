@@ -1,0 +1,4 @@
+T1	Quantity 39 44	24 hr
+T2	Unit 42 44	hr
+T3	MeasuredEntity 48 110	microglia derived from control, sporadic, and PGRN S116X iPSCs
+R1	HasQuantity Arg1:T3 Arg2:T1	

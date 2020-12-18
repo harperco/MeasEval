@@ -1,0 +1,10 @@
+T1	Quantity 282 284	8%
+T2	MeasuredEntity 226 234	M7 model
+T3	MeasuredProperty 242 272	line-integrated transit depths
+T4	Qualifier 317 330	C II 1335.7 Å
+T5	Qualifier 364 389	if 40% of silicon is Si2+
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	Qualifies Arg1:T5 Arg2:T2	
+R4	Qualifies Arg1:T4 Arg2:T3	
+T6	Unit 283 284	%

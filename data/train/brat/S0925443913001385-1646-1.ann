@@ -1,1 +1,5 @@
 T1	Quantity 277 283	10–30%
+T2	MeasuredEntity 247 275	isokinetic sucrose gradients
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 282 283	%
+A1	QuantityQualifier T1 IsRange

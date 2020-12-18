@@ -1,0 +1,6 @@
+T1	Quantity 855 869	3.7 × 106 fold
+T2	Unit 865 869	fold
+T3	MeasuredEntity 750 759	BC1 cells
+T4	Qualifier 870 878	increase
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	Qualifies Arg1:T4 Arg2:T1	

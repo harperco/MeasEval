@@ -1,0 +1,8 @@
+T1	Quantity 1383 1390	one-day
+T2	Unit 1387 1390	day
+T3	MeasuredProperty 1391 1400	treatment
+T4	Qualifier 1401 1410	of Y27632
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 1298 1321	undifferentiated hiPSCs
+R3	HasProperty Arg1:T5 Arg2:T3	

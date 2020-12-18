@@ -1,0 +1,8 @@
+T1	Quantity 356 365	1091 cm−1
+T2	MeasuredEntity 207 232	spectrum of HA nanopowder
+T3	MeasuredProperty 321 338	ν3 vibration mode
+T4	Unit 361 365	cm−1
+T5	Qualifier 367 377	asymmetric
+R1	Qualifies Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	HasProperty Arg1:T2 Arg2:T3	

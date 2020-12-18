@@ -1,0 +1,7 @@
+T1	Quantity 863 872	~8.8mWm−2
+T2	MeasuredEntity 854 861	case ES
+T3	MeasuredProperty 787 807	electron energy flux
+A1	IsApproximate T1
+T4	Unit 867 872	mWm−2
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

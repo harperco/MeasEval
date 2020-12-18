@@ -1,0 +1,7 @@
+T1	Quantity 1098 1111	after 1 month
+T2	Unit 1106 1111	month
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1050 1064	human RPE cell
+T4	MeasuredProperty 1065 1073	survival
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -8,7 +8,7 @@ S2213671113001306-1520	2	MeasuredEntity	419	423	T3-2	scan	{"HasProperty": "T5-2"
 S2213671113001306-1520	3	Quantity	447	462	T1-3	20 × 20 degrees	{"mods": ["IsList"], "unit": "degrees"}
 S2213671113001306-1520	3	MeasuredProperty	466	478	T2-3	visual field	{"HasQuantity": "T1-3"}
 S2213671113001306-1520	3	MeasuredEntity	433	439	T3-3	device	{"HasProperty": "T2-3"}
-S2213671113001306-1520	3	Qualifier	479	502	T5-3	centered on the implant	{"Qualifies": "T1-3"}
+S2213671113001306-1520	3	Qualifier	479	502	T5-3	centered on the implant	{"Qualifies": "T2-3"}
 S2213671113001306-1520	4	Quantity	626	632	T1-4	4.2 mm	{"unit": "mm"}
 S2213671113001306-1520	4	MeasuredProperty	576	602	T4-4	corneal curvature settings	{"HasQuantity": "T1-4"}
 S2213671113001306-1520	4	MeasuredEntity	564	575	T2-4	Spectralis’	{"HasProperty": "T4-4"}

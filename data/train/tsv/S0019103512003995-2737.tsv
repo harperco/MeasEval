@@ -11,7 +11,7 @@ S0019103512003995-2737	3	MeasuredEntity	793	797	T4-3	mass	{"HasProperty": "T3-3"
 S0019103512003995-2737	4	Quantity	848	855	T1-4	10–100%	{"mods": ["IsRange"], "unit": "%"}
 S0019103512003995-2737	4	MeasuredProperty	840	844	T4-4	loss	{"HasQuantity": "T1-4"}
 S0019103512003995-2737	4	MeasuredEntity	863	876	T3-4	planet’s mass	{"HasProperty": "T4-4"}
-S0019103512003995-2737	4	Qualifier	877	918	T5-4	over the estimated lifetime of the system	{"Qualifies": "T1-4"}
+S0019103512003995-2737	4	Qualifier	877	918	T5-4	over the estimated lifetime of the system	{"Qualifies": "T4-4"}
 S0019103512003995-2737	5	Quantity	973	992	T1-5	less than ∼10 times	{"mods": ["IsApproximate", "IsRange"], "unit": "times"}
 S0019103512003995-2737	5	MeasuredProperty	956	969	T4-5	energy inputs	{"HasQuantity": "T1-5"}
 S0019103512003995-2737	5	MeasuredEntity	997	1023	T3-5	solar average on HD209458b	{"HasProperty": "T4-5"}

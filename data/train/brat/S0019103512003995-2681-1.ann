@@ -1,0 +1,8 @@
+T1	Quantity 199 202	5Rp
+T2	Unit 200 202	Rp
+T3	MeasuredProperty 183 195	cutoff level
+T4	Qualifier 211 220	ions only
+T5	MeasuredEntity 226 234	M7 model
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	HasProperty Arg1:T5 Arg2:T3	

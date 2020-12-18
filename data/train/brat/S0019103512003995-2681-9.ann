@@ -1,0 +1,8 @@
+T1	Quantity 565 569	4.6%
+T2	MeasuredEntity 502 510	C2 model
+T3	MeasuredProperty 531 545	transit depths
+T4	Qualifier 611 617	Si III
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	Qualifies Arg1:T4 Arg2:T3	
+T5	Unit 568 569	%

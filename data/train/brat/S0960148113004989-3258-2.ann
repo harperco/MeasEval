@@ -1,0 +1,4 @@
+T1	Quantity 251 253	56
+A1	IsCount T1
+T2	MeasuredEntity 254 264	iterations
+R1	HasQuantity Arg1:T2 Arg2:T1	

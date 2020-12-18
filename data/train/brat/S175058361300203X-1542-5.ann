@@ -5,5 +5,3 @@ T3	MeasuredEntity 548 573	petrophysical experiments
 T4	MeasuredProperty 657 659	Vp
 R1	HasQuantity Arg1:T4 Arg2:T1	
 R2	HasProperty Arg1:T3 Arg2:T4	
-T5	Qualifier 476 540	Considering the uncertainties (e.g. ±5% error in CO2 saturation)
-R3	Qualifies Arg1:T5 Arg2:T1	

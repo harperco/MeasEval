@@ -4,3 +4,4 @@ R1	Qualifies Arg1:T2 Arg2:T1
 T3	MeasuredEntity 182 194	soil profile
 R2	HasQuantity Arg1:T3 Arg2:T1	
 T4	Unit 172 174	cm
+A1	QuantityQualifier T1 IsRange

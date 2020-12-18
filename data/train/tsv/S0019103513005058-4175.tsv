@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4175	1	Quantity	141	153	T1-1	1.0–1.7 wt.%	{"mods": ["IsRange"], "unit": "wt.%"}
+S0019103513005058-4175	1	MeasuredProperty	154	157	T3-1	SO4	{"HasQuantity": "T1-1"}
+S0019103513005058-4175	1	MeasuredEntity	354	365	T4-1	global soil	{"HasProperty": "T3-1"}
+S0019103513005058-4175	2	Quantity	178	186	T1-2	1.3 wt.%	{"unit": "wt.%"}
+S0019103513005058-4175	2	MeasuredProperty	187	202	T3-2	soluble sulfate	{"HasQuantity": "T1-2"}
+S0019103513005058-4175	2	MeasuredEntity	361	365	T4-2	soil	{"HasProperty": "T3-2"}
+S0019103513005058-4175	2	Qualifier	219	239	T5-2	Phoenix landing site	{"Qualifies": "T4-2"}
+S0019103513005058-4175	3	Quantity	306	323	T1-3	average ∼6.8 wt.%	{"mods": ["IsApproximate", "IsMean"], "unit": "wt.%"}
+S0019103513005058-4175	3	MeasuredProperty	334	337	T3-3	SO3	{"HasQuantity": "T1-3"}
+S0019103513005058-4175	3	MeasuredEntity	354	365	T4-3	global soil	{"HasProperty": "T3-3"}
+S0019103513005058-4175	3	Qualifier	366	493	T5-3	inferred from elemental abundances measured at various locations on Mars by Spirit, Opportunity, Pathfinder, and Viking Landers	{"Qualifies": "T3-3"}
+S0019103513005058-4175	4	Quantity	339	347	T1-4	2.7 wt.%	{"unit": "wt.%"}
+S0019103513005058-4175	4	MeasuredProperty	348	349	T3-4	S	{"HasQuantity": "T1-4"}
+S0019103513005058-4175	4	MeasuredEntity	354	365	T4-4	global soil	{"HasProperty": "T3-4"}
+S0019103513005058-4175	4	Qualifier	366	493	T5-4	inferred from elemental abundances measured at various locations on Mars by Spirit, Opportunity, Pathfinder, and Viking Landers	{"Qualifies": "T3-4"}
+S0019103513005058-4175	5	Quantity	549	576	T1-5	top few tens of centimeters	{"mods": ["IsApproximate", "IsRange"], "unit": "centimeters"}
+S0019103513005058-4175	5	MeasuredEntity	584	588	T3-5	soil	{"HasQuantity": "T1-5"}
+S0019103513005058-4175	6	Quantity	592	601	T1-6	∼4.4 wt.%	{"mods": ["IsApproximate", "IsMean"], "unit": "wt.%"}
+S0019103513005058-4175	6	MeasuredProperty	519	541	T3-6	average sulfur content	{"HasQuantity": "T1-6"}
+S0019103513005058-4175	6	MeasuredEntity	584	588	T4-6	soil	{"HasProperty": "T3-6"}
+S0019103513005058-4175	7	Quantity	737	741	T1-7	0.1%	{"unit": "%"}
+S0019103513005058-4175	7	MeasuredEntity	749	778	T3-7	terrestrial volcanic gas flux	{"HasQuantity": "T1-7"}

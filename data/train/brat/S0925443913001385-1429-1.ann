@@ -1,0 +1,9 @@
+T1	Quantity 114 117	10%
+T2	MeasuredProperty 125 146	etal calf serum (FCS)
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 40 51	DMEM medium
+T4	Qualifier 96 108	supplemented
+R2	HasProperty Arg1:T3 Arg2:T2	
+R3	Qualifies Arg1:T4 Arg2:T3	
+T5	Qualifier 118 123	(v/v)
+R4	Qualifies Arg1:T5 Arg2:T1	

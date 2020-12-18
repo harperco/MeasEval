@@ -2,10 +2,12 @@ T1	Quantity 571 582	1000–2000 K
 T2	MeasuredEntity 549 557	C3 model
 T3	Qualifier 530 544	high altitudes
 R1	Qualifies Arg1:T3 Arg2:T2	
-R2	HasQuantity Arg1:T2 Arg2:T1	
 T4	Qualifier 561 570	cooler by
 R3	Qualifies Arg1:T4 Arg2:T1	
 T5	Qualifier 436 460	Compared to the C1 model
-R4	Qualifies Arg1:T5 Arg2:T1	
+R4	Qualifies Arg1:T5 Arg2:T7	
 A1	QuantityQualifier T1 IsRange
 T6	Unit 581 582	K
+T7	MeasuredProperty 466 485	maximum temperature
+R2	HasProperty Arg1:T2 Arg2:T7	
+R5	HasQuantity Arg1:T7 Arg2:T1	

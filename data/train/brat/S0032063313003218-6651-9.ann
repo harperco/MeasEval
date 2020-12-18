@@ -1,0 +1,9 @@
+T1	Quantity 1023 1028	~15kR
+T2	MeasuredEntity 932 951	model also predicts
+T3	MeasuredProperty 971 1019	observable polar emission (region II/I boundary)
+T4	Unit 1026 1028	kR
+A1	IsApproximate T1
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 1038 1053	cases ES and EF
+R3	Qualifies Arg1:T5 Arg2:T2	

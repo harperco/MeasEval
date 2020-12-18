@@ -19,7 +19,7 @@ S0378383912000130-3601	6	Qualifier	679	700	T5-6	in front of the beach	{"Qualifie
 S0378383912000130-3601	7	Quantity	742	747	T1-7	62 mm	{"unit": "mm"}
 S0378383912000130-3601	7	MeasuredProperty	733	738	T4-7	level	{"HasQuantity": "T1-7"}
 S0378383912000130-3601	7	MeasuredEntity	721	732	T3-7	groundwater	{"HasProperty": "T4-7"}
-S0378383912000130-3601	7	Qualifier	748	764	T5-7	within the beach	{"Qualifies": "T1-7"}
+S0378383912000130-3601	7	Qualifier	748	764	T5-7	within the beach	{"Qualifies": "T4-7"}
 S0378383912000130-3601	8	Quantity	918	922	T1-8	1:10	
 S0378383912000130-3601	8	MeasuredProperty	895	900	T2-8	slope	{"HasQuantity": "T1-8"}
 S0378383912000130-3601	8	MeasuredEntity	908	913	T3-8	beach	{"HasProperty": "T2-8"}

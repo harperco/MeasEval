@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124712002884-705	1	Quantity	39	44	T1-1	24 hr	{"unit": "hr"}
+S2211124712002884-705	1	MeasuredEntity	48	110	T3-1	microglia derived from control, sporadic, and PGRN S116X iPSCs	{"HasQuantity": "T1-1"}
+S2211124712002884-705	2	Quantity	163	167	T1-2	100%	{"mods": ["IsMean"], "unit": "%"}
+S2211124712002884-705	2	MeasuredProperty	116	132	T4-2	average of value	{"HasQuantity": "T1-2"}
+S2211124712002884-705	2	MeasuredEntity	138	151	T3-2	control lines	{"HasProperty": "T4-2"}

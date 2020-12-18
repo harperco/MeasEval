@@ -10,5 +10,5 @@ S175058361300203X-1556	4	MeasuredEntity	644	652	T3-4	scenario	{"HasQuantity": "T
 S175058361300203X-1556	5	Quantity	668	680	T1-5	less than 1%	{"mods": ["IsRange"], "unit": "%"}
 S175058361300203X-1556	5	MeasuredProperty	586	653	T2-5	Seismic amplitude differences between the 38 °C and 34 °C scenarios	{"HasQuantity": "T1-5"}
 S175058361300203X-1556	5	MeasuredEntity	688	720	T4-5	amplitude values of the baseline	{"HasProperty": "T2-5"}
-S175058361300203X-1556	6	Quantity	818	834	T1-6	greater than 10%	{"mods": ["IsRange"]}
+S175058361300203X-1556	6	Quantity	818	834	T1-6	greater than 10%	{"mods": ["IsRange"], "unit": "%"}
 S175058361300203X-1556	6	MeasuredEntity	741	787	T2-6	normalized root mean square (NRMS) differences	{"HasQuantity": "T1-6"}

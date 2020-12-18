@@ -1,0 +1,4 @@
+T1	Quantity 737 741	0.1%
+T2	Unit 740 741	%
+T3	MeasuredEntity 749 778	terrestrial volcanic gas flux
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 514 517	5Rp
+T2	Unit 515 517	Rp
+T3	MeasuredEntity 502 510	C2 model
+T4	MeasuredProperty 482 494	cutoff level
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

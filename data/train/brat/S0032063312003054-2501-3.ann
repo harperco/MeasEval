@@ -1,6 +1,6 @@
 T1	Quantity 147 150	12%
-T2	MeasuredProperty 154 178	precipitation signatures
+T2	MeasuredProperty 90 127	concurrent acceleration of heavy-ions
 R1	HasQuantity Arg1:T2 Arg2:T1	
 T3	Unit 149 150	%
-T4	MeasuredEntity 192 209	∼5% of MEX orbits
+T4	MeasuredEntity 154 209	precipitation signatures occurring on ∼5% of MEX orbits
 R2	HasProperty Arg1:T4 Arg2:T2	

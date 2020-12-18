@@ -1,0 +1,4 @@
+T1	Quantity 786 787	7
+A1	IsCount T1
+T2	MeasuredEntity 788 794	months
+R1	HasQuantity Arg1:T2 Arg2:T1	

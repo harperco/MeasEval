@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-2036	1	Quantity	665	677	T1-1	within 100 m	{"mods": ["IsRange"], "unit": "m"}
+S0378112713005288-2036	1	MeasuredProperty	629	657	T4-1	majority of oak regeneration	{"HasQuantity": "T1-1"}
+S0378112713005288-2036	1	MeasuredEntity	683	694	T3-1	seed source	{"HasProperty": "T4-1"}

@@ -1,0 +1,8 @@
+T1	Quantity 166 174	50 μg/ml
+T2	Unit 169 174	μg/ml
+T3	MeasuredProperty 175 182	uridine
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 96 108	supplemented
+T5	MeasuredEntity 40 51	DMEM medium
+R2	Qualifies Arg1:T4 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

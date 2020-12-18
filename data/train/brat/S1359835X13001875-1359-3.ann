@@ -1,0 +1,6 @@
+T1	Quantity 233 241	1000 m−2
+T2	Unit 238 241	m−2
+T3	MeasuredProperty 205 212	density
+T4	MeasuredEntity 198 204	number
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

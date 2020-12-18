@@ -1,0 +1,8 @@
+T1	Quantity 184 193	110 μg/ml
+T2	Unit 188 193	μg/ml
+T3	MeasuredProperty 194 202	pyruvate
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 40 51	DMEM medium
+T5	Qualifier 96 108	supplemented
+R2	Qualifies Arg1:T5 Arg2:T4	
+R3	HasProperty Arg1:T4 Arg2:T3	

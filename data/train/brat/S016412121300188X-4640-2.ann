@@ -1,0 +1,6 @@
+T1	Quantity 60 65	52.1%
+T2	Unit 64 65	%
+T3	MeasuredEntity 73 91	program's vertices
+T4	MeasuredProperty 32 48	coherent cluster
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

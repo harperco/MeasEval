@@ -1,6 +1,7 @@
-T1	Quantity 373 386	low as 800 °C
-T2	MeasuredEntity 334 353	decomposition of HA
-T3	MeasuredProperty 354 369	at temperatures
-R1	HasProperty Arg1:T2 Arg2:T3	
+T1	Quantity 303 315	upto 1200 °C
+T2	Unit 313 315	°C
+T3	MeasuredProperty 290 302	temperatures
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 221 286	pure HA (ratio CaP=1.67) is stable in an air and argon atmosphere
+R1	HasProperty Arg1:T4 Arg2:T3	
 R2	HasQuantity Arg1:T3 Arg2:T1	
-T4	Unit 384 386	°C

@@ -27,6 +27,6 @@ S0019103512004009-5033	7	MeasuredEntity	530	540	T3-7	MC09 model	{"HasProperty": 
 S0019103512004009-5033	8	Quantity	697	702	T1-8	3.4Rp	{"unit": "Rp"}
 S0019103512004009-5033	8	MeasuredProperty	674	684	T3-8	transition	{"HasQuantity": "T1-8"}
 S0019103512004009-5033	8	MeasuredEntity	669	673	T2-8	H/H+	{"HasProperty": "T3-8"}
-S0019103512004009-5033	8	Qualifier	685	693	T4-8	moves up	{"Qualifies": "T1-8"}
+S0019103512004009-5033	8	Qualifier	685	693	T4-8	moves up	{"Qualifies": "T3-8"}
 S0019103512004009-5033	9	Quantity	1026	1030	T1-9	2–3%	{"unit": "%"}
 S0019103512004009-5033	9	MeasuredEntity	986	1009	T2-9	H Lyman α transit depth	{"HasQuantity": "T1-9"}

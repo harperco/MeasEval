@@ -1,0 +1,6 @@
+T1	Quantity 549 576	top few tens of centimeters
+T2	Unit 565 576	centimeters
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 584 588	soil
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,5 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S1873506113001116-710	1	Quantity	103	113	T1-1	after 48 h	{"mods": ["IsRange"], "unit": "h"}
+S1873506113001116-710	1	Quantity	103	113	T1-1	after 48 h	{"unit": "h"}
 S1873506113001116-710	1	MeasuredProperty	66	88	T3-1	Light microscope image	{"HasQuantity": "T1-1"}
 S1873506113001116-710	1	MeasuredEntity	92	102	T2-1	aggregates	{"HasProperty": "T3-1"}
 S1873506113001116-710	1	Qualifier	114	192	T4-1	post-inoculation of single suspension BC1 cells in ultra-low attachment plates	{"Qualifies": "T1-1"}

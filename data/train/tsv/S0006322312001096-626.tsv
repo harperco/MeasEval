@@ -5,5 +5,4 @@ S0006322312001096-626	1	MeasuredEntity	20	42	T31-1	Framingham Risk Scores	{"HasP
 S0006322312001096-626	2	Quantity	127	129	T1-2	65	{"mods": ["IsRange"]}
 S0006322312001096-626	2	MeasuredProperty	123	126	T2-2	Age	{"HasQuantity": "T1-2"}
 S0006322312001096-626	2	MeasuredEntity	86	105	T4-2	Depressive Symptoms	{"HasProperty": "T2-2"}
-S0006322312001096-626	2	Qualifier	0	82	T5-2	Association Between Framingham Risk Scores (per 10% Increase) and Subsequent Onset	{"Qualifies": "T4-2"}
-S0006322312001096-626	2	Qualifier	106	122	T3-2	Before and After	{"Qualifies": "T1-2"}
+S0006322312001096-626	2	Qualifier	106	122	T3-2	Before and After	{"Qualifies": "T2-2"}

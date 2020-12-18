@@ -1,0 +1,11 @@
+T1	Quantity 827 853	3.7 ± 0.9 fold per passage
+A1	QuantityQualifier T1 IsMeanHasTolerance
+T2	Qualifier 811 818	average
+R1	Qualifies Arg1:T2 Arg2:T1	
+T3	Unit 837 853	fold per passage
+T4	MeasuredProperty 819 823	rate
+T5	MeasuredEntity 750 759	BC1 cells
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T6	Qualifier 760 768	expanded
+R4	Qualifies Arg1:T6 Arg2:T4	

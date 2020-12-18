@@ -1,0 +1,8 @@
+T1	Quantity 1208 1220	46.8% ± 1.6%
+T2	MeasuredEntity 1228 1233	cells
+T3	MeasuredProperty 1243 1258	CD34+CD45+ HPCs
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 1212 1213	%
+T5	Unit 1219 1220	%
+A1	QuantityQualifier T1 HasTolerance

@@ -1,0 +1,9 @@
+T1	Quantity 893 898	> 99%
+T2	Unit 897 898	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 906 911	cells
+T4	MeasuredProperty 918 927	TRA-1–60+
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 928 945	after 13 passages
+R3	Qualifies Arg1:T5 Arg2:T4	

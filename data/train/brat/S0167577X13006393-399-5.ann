@@ -1,0 +1,3 @@
+T1	Quantity 427 430	50%
+T2	MeasuredEntity 419 426	PLGA–HA
+R1	HasQuantity Arg1:T2 Arg2:T1	

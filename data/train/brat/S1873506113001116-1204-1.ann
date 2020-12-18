@@ -1,0 +1,7 @@
+T1	Quantity 391 410	at least 3 passages
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 313 322	BC1 cells
+T3	Unit 402 410	passages
+T4	MeasuredProperty 323 360	cultured on E8 feeder-free conditions
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

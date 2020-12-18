@@ -1,0 +1,6 @@
+T1	Quantity 354 361	40.6 MW
+T2	Unit 359 361	MW
+T3	MeasuredEntity 323 344	optimised farm layout
+T4	MeasuredProperty 345 353	extracts
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	

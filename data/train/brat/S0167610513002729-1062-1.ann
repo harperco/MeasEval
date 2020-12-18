@@ -1,3 +1,4 @@
-T1	Quantity 5 9	0.64
+T1	Quantity 5 11	0.64 H
 T2	MeasuredEntity 3 4	x
 R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 10 11	H

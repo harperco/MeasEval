@@ -1,6 +1,6 @@
 T1	Quantity 66 68	85
-T2	MeasuredProperty 74 82	observed
-T3	MeasuredEntity 90 127	concurrent acceleration of heavy-ions
-R1	HasProperty Arg1:T3 Arg2:T2	
-R2	HasQuantity Arg1:T2 Arg2:T1	
 A1	IsCount T1
+T4	MeasuredEntity 21 64	events of electron precipitation signatures
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T2	Qualifier 74 127	observed with a concurrent acceleration of heavy-ions
+R1	Qualifies Arg1:T2 Arg2:T4	

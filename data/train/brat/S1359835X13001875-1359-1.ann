@@ -1,0 +1,6 @@
+T1	Quantity 87 90	1 m
+T2	Unit 89 90	m
+T4	MeasuredProperty 68 79	side length
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	MeasuredEntity 24 53	two-dimensional square system
+R3	HasProperty Arg1:T5 Arg2:T4	

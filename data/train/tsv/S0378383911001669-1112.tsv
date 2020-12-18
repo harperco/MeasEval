@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1112	1	Quantity	25	28	T1-1	six	{"mods": ["IsCount"]}
+S0378383911001669-1112	1	MeasuredEntity	29	50	T2-1	measurement locations	{"HasQuantity": "T1-1"}
+S0378383911001669-1112	2	Quantity	59	65	T1-2	1.3 mm	{"unit": "mm"}
+S0378383911001669-1112	2	MeasuredEntity	146	153	T3-2	beaches	{"HasQuantity": "T1-2"}
+S0378383911001669-1112	2	Qualifier	66	76	T4-2	sand-rough	{"Qualifies": "T3-2"}
+S0378383911001669-1112	3	Quantity	86	92	T1-3	5.4 mm	{"unit": "mm"}
+S0378383911001669-1112	3	MeasuredEntity	146	153	T3-3	beaches	{"HasQuantity": "T1-3"}
+S0378383911001669-1112	3	Qualifier	93	105	T4-3	gravel-rough	{"Qualifies": "T3-3"}
+S0378383911001669-1112	4	Quantity	119	125	T1-4	8.4 mm	{"unit": "mm"}
+S0378383911001669-1112	4	MeasuredEntity	146	153	T3-4	beaches	{"HasQuantity": "T1-4"}
+S0378383911001669-1112	4	Qualifier	126	138	T4-4	gravel-rough	{"Qualifies": "T3-4"}

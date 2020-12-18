@@ -1,0 +1,9 @@
+T1	Quantity 614 624	around 10%
+T2	MeasuredProperty 562 579	coherent clusters
+T3	Qualifier 599 606	smaller
+R1	Qualifies Arg1:T3 Arg2:T2	
+T4	Unit 623 624	%
+A1	IsApproximate T1
+T5	MeasuredEntity 632 636	code
+R2	HasProperty Arg1:T5 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	

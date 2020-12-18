@@ -2,3 +2,4 @@ T1	Quantity 818 834	greater than 10%
 A1	QuantityQualifier T1 IsRange
 T2	MeasuredEntity 741 787	normalized root mean square (NRMS) differences
 R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 833 834	%

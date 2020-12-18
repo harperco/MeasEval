@@ -1,0 +1,7 @@
+T1	Quantity 764 769	~79kR
+T2	Unit 767 769	kR
+T3	MeasuredEntity 774 781	case EF
+A1	IsApproximate T1
+T4	MeasuredProperty 726 738	auroral oval
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

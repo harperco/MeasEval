@@ -1,0 +1,4 @@
+T1	Quantity 327 332	50 μg
+T2	Unit 330 332	μg
+T3	MeasuredEntity 314 325	cell lysate
+R2	HasQuantity Arg1:T3 Arg2:T1	

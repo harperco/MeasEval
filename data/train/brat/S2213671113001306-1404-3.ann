@@ -1,0 +1,9 @@
+T1	Quantity 1080 1097	approximately 95%
+T2	Unit 1096 1097	%
+A1	IsApproximate T1
+T3	MeasuredEntity 1050 1064	human RPE cell
+T4	MeasuredProperty 1065 1073	survival
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 1098 1111	after 1 month
+R3	Qualifies Arg1:T5 Arg2:T4	

@@ -1,0 +1,7 @@
+T1	Quantity 163 167	100%
+A1	QuantityQualifier T1 IsMean
+T3	MeasuredEntity 138 151	control lines
+T4	MeasuredProperty 116 132	average of value
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+T2	Unit 166 167	%

@@ -1,0 +1,8 @@
+T1	Quantity 148 152	2 mM
+T2	MeasuredEntity 40 51	DMEM medium
+T3	Qualifier 96 108	supplemented
+R1	Qualifies Arg1:T3 Arg2:T2	
+T4	Unit 150 152	mM
+T5	MeasuredProperty 153 164	l-glutamine
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T2 Arg2:T5	

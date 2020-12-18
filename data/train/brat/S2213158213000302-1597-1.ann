@@ -1,0 +1,5 @@
+T1	Quantity 152 174	between 100 and 200 ms
+A1	QuantityQualifier T1 IsRange
+T2	Unit 172 174	ms
+T3	MeasuredEntity 124 138	MMNm component
+R1	HasQuantity Arg1:T3 Arg2:T1	

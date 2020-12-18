@@ -1,5 +1,4 @@
 T1	Quantity 701 703	21
-T2	MeasuredProperty 704 724	sub-cortical regions
-T3	MeasuredEntity 627 632	masks
+T2	MeasuredEntity 704 724	sub-cortical regions
 R1	HasQuantity Arg1:T2 Arg2:T1	
-R2	HasProperty Arg1:T3 Arg2:T2	
+A1	IsCount T1

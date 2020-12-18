@@ -1,0 +1,4 @@
+T1	Quantity 25 28	six
+A1	IsCount T1
+T2	MeasuredEntity 29 50	measurement locations
+R1	HasQuantity Arg1:T2 Arg2:T1	

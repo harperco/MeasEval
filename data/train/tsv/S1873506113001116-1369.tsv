@@ -13,14 +13,14 @@ S1873506113001116-1369	4	MeasuredEntity	550	580	T3-4	cells of all three germ lay
 S1873506113001116-1369	5	Quantity	1185	1199	T1-5	43.57% ± 4.35%	{"mods": ["HasTolerance"], "unit": "%"}
 S1873506113001116-1369	5	MeasuredProperty	1235	1250	T4-5	CD34+CD45+ HPCs	{"HasQuantity": "T1-5"}
 S1873506113001116-1369	5	MeasuredEntity	1156	1159	T2-5	BC1	{"HasProperty": "T4-5"}
-S1873506113001116-1369	5	Qualifier	1251	1279	T5-5	on day 14 of differentiation	{"Qualifies": "T1-5"}
+S1873506113001116-1369	5	Qualifier	1251	1279	T5-5	on day 14 of differentiation	{"Qualifies": "T4-5"}
 S1873506113001116-1369	6	Quantity	1205	1206	T1-6	3	
 S1873506113001116-1369	6	MeasuredProperty	1201	1202	T2-6	n	{"HasQuantity": "T1-6"}
 S1873506113001116-1369	6	MeasuredEntity	1156	1159	T3-6	BC1	{"HasProperty": "T2-6"}
 S1873506113001116-1369	7	Quantity	1212	1226	T1-7	43.22% ± 7.13%	{"mods": ["HasTolerance"], "unit": "%"}
 S1873506113001116-1369	7	MeasuredProperty	1235	1250	T4-7	CD34+CD45+ HPCs	{"HasQuantity": "T1-7"}
 S1873506113001116-1369	7	MeasuredEntity	1164	1168	T2-7	TNC1	{"HasProperty": "T4-7"}
-S1873506113001116-1369	7	Qualifier	1254	1279	T5-7	day 14 of differentiation	{"Qualifies": "T1-7"}
+S1873506113001116-1369	7	Qualifier	1254	1279	T5-7	day 14 of differentiation	{"Qualifies": "T4-7"}
 S1873506113001116-1369	8	Quantity	1232	1233	T1-8	3	
 S1873506113001116-1369	8	MeasuredProperty	1228	1229	T2-8	n	{"HasQuantity": "T1-8"}
 S1873506113001116-1369	8	MeasuredEntity	1164	1168	T3-8	TNC1	{"HasProperty": "T2-8"}

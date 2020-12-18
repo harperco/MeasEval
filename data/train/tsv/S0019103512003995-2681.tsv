@@ -1,0 +1,41 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2681	1	Quantity	199	202	T1-1	5Rp	{"unit": "Rp"}
+S0019103512003995-2681	1	MeasuredProperty	183	195	T3-1	cutoff level	{"HasQuantity": "T1-1"}
+S0019103512003995-2681	1	MeasuredEntity	226	234	T5-1	M7 model	{"HasProperty": "T3-1"}
+S0019103512003995-2681	1	Qualifier	211	220	T4-1	ions only	{"Qualifies": "T3-1"}
+S0019103512003995-2681	2	Quantity	276	280	T1-2	3.9%	{"unit": "%"}
+S0019103512003995-2681	2	MeasuredProperty	242	272	T2-2	line-integrated transit depths	{"HasQuantity": "T1-2"}
+S0019103512003995-2681	2	MeasuredEntity	226	234	T3-2	M7 model	{"HasProperty": "T2-2"}
+S0019103512003995-2681	2	Qualifier	302	315	T4-2	C II 1334.5 Å	{"Qualifies": "T2-2"}
+S0019103512003995-2681	2	Qualifier	364	389	T5-2	if 40% of silicon is Si2+	{"Qualifies": "T3-2"}
+S0019103512003995-2681	3	Quantity	282	284	T1-3	8%	{"unit": "%"}
+S0019103512003995-2681	3	MeasuredProperty	242	272	T3-3	line-integrated transit depths	{"HasQuantity": "T1-3"}
+S0019103512003995-2681	3	MeasuredEntity	226	234	T2-3	M7 model	{"HasProperty": "T3-3"}
+S0019103512003995-2681	3	Qualifier	364	389	T5-3	if 40% of silicon is Si2+	{"Qualifies": "T2-3"}
+S0019103512003995-2681	3	Qualifier	317	330	T4-3	C II 1335.7 Å	{"Qualifies": "T3-3"}
+S0019103512003995-2681	4	Quantity	290	294	T1-4	5.8%	{"unit": "%"}
+S0019103512003995-2681	4	MeasuredProperty	242	272	T3-4	line-integrated transit depths	{"HasQuantity": "T1-4"}
+S0019103512003995-2681	4	MeasuredEntity	226	234	T2-4	M7 model	{"HasProperty": "T3-4"}
+S0019103512003995-2681	4	Qualifier	336	342	T4-4	Si III	{"Qualifies": "T3-4"}
+S0019103512003995-2681	4	Qualifier	367	389	T5-4	40% of silicon is Si2+	{"Qualifies": "T2-4"}
+S0019103512003995-2681	5	Quantity	367	370	T1-5	40%	{"unit": "%"}
+S0019103512003995-2681	5	MeasuredProperty	385	389	T3-5	Si2+	{"HasQuantity": "T1-5"}
+S0019103512003995-2681	5	MeasuredEntity	374	381	T2-5	silicon	{"HasProperty": "T3-5"}
+S0019103512003995-2681	6	Quantity	514	517	T1-6	5Rp	{"unit": "Rp"}
+S0019103512003995-2681	6	MeasuredProperty	482	494	T4-6	cutoff level	{"HasQuantity": "T1-6"}
+S0019103512003995-2681	6	MeasuredEntity	502	510	T3-6	C2 model	{"HasProperty": "T4-6"}
+S0019103512003995-2681	7	Quantity	549	553	T1-7	3.2%	{"unit": "%"}
+S0019103512003995-2681	7	MeasuredProperty	531	545	T3-7	transit depths	{"HasQuantity": "T1-7"}
+S0019103512003995-2681	7	MeasuredEntity	502	510	T2-7	C2 model	{"HasProperty": "T3-7"}
+S0019103512003995-2681	7	Qualifier	577	590	T4-7	C II 1334.5 Å	{"Qualifies": "T3-7"}
+S0019103512003995-2681	8	Quantity	555	559	T1-8	6.7%	{"unit": "%"}
+S0019103512003995-2681	8	MeasuredProperty	531	545	T3-8	transit depths	{"HasQuantity": "T1-8"}
+S0019103512003995-2681	8	MeasuredEntity	502	510	T2-8	C2 model	{"HasProperty": "T3-8"}
+S0019103512003995-2681	8	Qualifier	592	605	T4-8	C II 1335.7 Å	{"Qualifies": "T3-8"}
+S0019103512003995-2681	9	Quantity	565	569	T1-9	4.6%	{"unit": "%"}
+S0019103512003995-2681	9	MeasuredProperty	531	545	T3-9	transit depths	{"HasQuantity": "T1-9"}
+S0019103512003995-2681	9	MeasuredEntity	502	510	T2-9	C2 model	{"HasProperty": "T3-9"}
+S0019103512003995-2681	9	Qualifier	611	617	T4-9	Si III	{"Qualifies": "T3-9"}
+S0019103512003995-2681	10	Quantity	831	837	T1-10	8250 K	{"mods": ["IsMean"], "unit": "K"}
+S0019103512003995-2681	10	MeasuredProperty	811	827	T3-10	mean temperature	{"HasQuantity": "T1-10"}
+S0019103512003995-2681	10	MeasuredEntity	772	780	T4-10	M7 model	{"HasProperty": "T3-10"}

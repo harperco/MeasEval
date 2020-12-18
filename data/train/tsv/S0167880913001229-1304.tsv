@@ -13,7 +13,7 @@ S0167880913001229-1304	4	MeasuredEntity	357	377	T2-4	positive correlation	{"HasP
 S0167880913001229-1304	5	Quantity	471	477	T1-5	< 0.01	{"mods": ["IsRange"]}
 S0167880913001229-1304	5	MeasuredProperty	469	470	T2-5	p	{"HasQuantity": "T1-5"}
 S0167880913001229-1304	5	MeasuredEntity	357	377	T3-5	positive correlation	{"HasProperty": "T2-5"}
-S0167880913001229-1304	6	Quantity	571	574	T1-6	two	
+S0167880913001229-1304	6	Quantity	571	574	T1-6	two	{"mods": ["IsCount"]}
 S0167880913001229-1304	6	MeasuredEntity	575	592	T2-6	lower soil depths	{"HasQuantity": "T1-6"}
 S0167880913001229-1304	7	Quantity	670	677	T1-7	0–40 cm	{"mods": ["IsRange"], "unit": "cm"}
 S0167880913001229-1304	7	MeasuredProperty	678	683	T3-7	depth	{"HasQuantity": "T1-7"}

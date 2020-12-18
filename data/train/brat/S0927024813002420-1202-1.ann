@@ -1,0 +1,7 @@
+T1	Quantity 273 283	60% higher
+T2	MeasuredEntity 230 263	co-deposition of blended mixtures
+T3	MeasuredProperty 284 297	photocurrents
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 298 368	than in thickness-optimized PTh/C60 planar heterojunction counterparts
+R3	Qualifies Arg1:T4 Arg2:T1	

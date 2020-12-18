@@ -1,0 +1,7 @@
+T1	Quantity 187 201	1065–1280 cm−1
+A1	QuantityQualifier T1 IsRange
+T2	Unit 197 201	cm−1
+T3	MeasuredEntity 119 137	pure PLGA spectrum
+T4	MeasuredProperty 148 172	C3O characteristic bands
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -6,4 +6,4 @@ R2	HasQuantity Arg1:T2 Arg2:T1
 A1	QuantityQualifier T1 IsMean
 T4	Unit 422 423	%
 T5	Qualifier 428 430	HC
-R3	Qualifies Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T5 Arg2:T2	

@@ -1,0 +1,7 @@
+T1	Quantity 527 540	~74° latitude
+A1	IsApproximate T1
+T2	Unit 530 540	° latitude
+T4	MeasuredProperty 517 523	maxima
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	MeasuredEntity 459 474	case ES with EF
+R1	HasProperty Arg1:T5 Arg2:T4	

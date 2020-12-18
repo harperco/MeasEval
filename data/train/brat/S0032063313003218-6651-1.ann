@@ -1,0 +1,5 @@
+T1	Quantity 396 400	~1kR
+T2	Unit 398 400	kR
+A1	IsApproximate T1
+T3	MeasuredEntity 360 394	limit of present HST detectability
+R1	HasQuantity Arg1:T3 Arg2:T1	

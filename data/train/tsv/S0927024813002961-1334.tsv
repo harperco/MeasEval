@@ -1,5 +1,5 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
-S0927024813002961-1334	1	Quantity	331	343	T1-1	less than 5%	{"mods": ["IsRange"]}
+S0927024813002961-1334	1	Quantity	331	343	T1-1	less than 5%	{"mods": ["IsRange"], "unit": "%"}
 S0927024813002961-1334	1	MeasuredEntity	303	327	T2-1	annual energy prediction	{"HasQuantity": "T1-1"}
 S0927024813002961-1334	2	Quantity	816	828	T1-2	650–750 W/m2	{"mods": ["IsRange"], "unit": "W/m2"}
 S0927024813002961-1334	2	MeasuredProperty	796	812	T3-2	irradiance range	{"HasQuantity": "T1-2"}

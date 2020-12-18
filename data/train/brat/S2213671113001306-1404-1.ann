@@ -1,0 +1,8 @@
+T1	Quantity 47 54	4 weeks
+T2	Unit 49 54	weeks
+T3	Qualifier 55 74	posttransplantation
+T4	MeasuredEntity 0 7	Animals
+T5	MeasuredProperty 13 43	sacrificed and perfusion-fixed
+R1	HasProperty Arg1:T4 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T3 Arg2:T1	

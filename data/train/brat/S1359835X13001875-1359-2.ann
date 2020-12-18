@@ -1,0 +1,4 @@
+T1	Quantity 107 130	1000 discrete particles
+T3	MeasuredEntity 24 53	two-dimensional square system
+T2	Unit 112 130	discrete particles
+R1	HasQuantity Arg1:T3 Arg2:T1	

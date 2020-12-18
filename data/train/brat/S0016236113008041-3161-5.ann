@@ -4,3 +4,4 @@ T3	MeasuredEntity 645 653	flue gas
 T4	Unit 670 673	ppm
 R1	HasQuantity Arg1:T2 Arg2:T1	
 R2	HasProperty Arg1:T3 Arg2:T2	
+A1	QuantityQualifier T1 IsRange

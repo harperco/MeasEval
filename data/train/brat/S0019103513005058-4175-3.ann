@@ -1,0 +1,10 @@
+T1	Quantity 306 323	average ∼6.8 wt.%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsMean
+T2	Unit 319 323	wt.%
+T3	MeasuredProperty 334 337	SO3
+T4	MeasuredEntity 354 365	global soil
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 366 493	inferred from elemental abundances measured at various locations on Mars by Spirit, Opportunity, Pathfinder, and Viking Landers
+R3	Qualifies Arg1:T5 Arg2:T3	
