@@ -4,3 +4,4 @@ T127	MeasuredProperty 1450 1455	peaks
 R11	HasQuantity Arg1:T127 Arg2:T137
 T177	MeasuredEntity 17 41	in situ ATR-FTIR spectra
 R12	HasProperty Arg1:T177 Arg2:T127
+T1	Unit 1465 1469	cm−1

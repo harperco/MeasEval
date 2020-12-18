@@ -1,4 +1,8 @@
 T115	Quantity 230 234	pH∼2
 #15	AnnotatorNotes T115	pH
 T125	MeasuredEntity 204 211	samples
-R8	HasQuantity Arg1:T125 Arg2:T115
+A1	IsApproximate T115
+T1	Unit 230 232	pH
+T2	MeasuredProperty 217 226	acidified
+R1	HasProperty Arg1:T125 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T115	

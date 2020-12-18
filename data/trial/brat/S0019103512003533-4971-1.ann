@@ -5,3 +5,4 @@ T31	MeasuredProperty 197 235	daily variations of polar temperatures
 R1	HasQuantity Arg1:T31 Arg2:T11
 T41	MeasuredEntity 443 468	Saturn’s upper atmosphere
 R2	HasProperty Arg1:T41 Arg2:T31
+T1	Unit 254 255	K

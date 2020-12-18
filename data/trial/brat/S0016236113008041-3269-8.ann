@@ -5,3 +5,4 @@ T368	MeasuredProperty 188 201	concentration
 R19	HasQuantity Arg1:T368 Arg2:T88
 T228	MeasuredEntity 184 187	SO2
 R20	HasProperty Arg1:T228 Arg2:T368
+T1	Unit 840 843	ppm

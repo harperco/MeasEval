@@ -8,3 +8,4 @@ T71	Qualifier 67 73	higher
 R3	Qualifies Arg1:T71 Arg2:T51
 T91	Qualifier 94 139	than the typical rate channel time resolution
 R4	Qualifies Arg1:T91 Arg2:T81
+T1	Unit 61 66	times

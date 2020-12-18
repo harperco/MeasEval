@@ -6,3 +6,4 @@ T125	MeasuredEntity 1499 1519	low-energy telescope
 R9	HasProperty Arg1:T125 Arg2:T135
 T245	Qualifier 1549 1600	away from the −z direction towards the −x-direction
 R10	Qualifies Arg1:T245 Arg2:T135
+T1	Unit 1547 1548	°

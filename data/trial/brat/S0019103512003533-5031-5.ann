@@ -3,3 +3,6 @@ T45	Quantity 376 386	488 ± 14 K
 A15	QuantityQualifier T45 HasTolerance
 T105	MeasuredEntity 239 261	exospheric temperature
 R7	HasQuantity Arg1:T105 Arg2:T45
+T1	Unit 385 386	K
+T2	Qualifier 318 364	recent reanalysis of Voyager UVS data inferred
+R1	Qualifies Arg1:T2 Arg2:T45	

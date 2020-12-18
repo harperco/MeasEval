@@ -5,4 +5,5 @@ R15	HasQuantity Arg1:T157 Arg2:T27
 T177	MeasuredEntity 1764 1777	rate channels
 R16	HasProperty Arg1:T177 Arg2:T157
 T197	Qualifier 1733 1746	rotating mode
-R17	Qualifies Arg1:T197 Arg2:T27
+R17	Qualifies Arg1:T197 Arg2:T157
+T1	Unit 1753 1754	s

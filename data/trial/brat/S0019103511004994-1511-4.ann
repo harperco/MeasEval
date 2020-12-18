@@ -5,3 +5,4 @@ T114	MeasuredProperty 927 977	rotates about the −y-axis of the spacecraft with
 R6	HasQuantity Arg1:T114 Arg2:T14
 T104	MeasuredEntity 903 920	movable turntable
 R7	HasProperty Arg1:T104 Arg2:T114
+T1	Unit 981 982	s

@@ -3,3 +3,4 @@ T52	Quantity 144 149	∼12 m
 A12	IsApproximate T52
 T42	MeasuredEntity 120 142	Bridge Creek Limestone
 R3	HasQuantity Arg1:T42 Arg2:T52
+T1	Unit 148 149	m

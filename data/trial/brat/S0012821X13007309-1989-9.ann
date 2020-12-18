@@ -4,3 +4,4 @@ T269	MeasuredProperty 1377 1390	Os abundances
 R21	HasQuantity Arg1:T269 Arg2:T279
 T259	MeasuredEntity 1350 1361	LIP basalts
 R22	HasProperty Arg1:T259 Arg2:T269
+T1	Unit 1396 1399	ppt

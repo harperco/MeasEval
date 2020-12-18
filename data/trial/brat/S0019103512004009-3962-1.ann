@@ -7,3 +7,4 @@ T41	MeasuredEntity 69 94	thermosphere of HD209458b
 R2	HasProperty Arg1:T41 Arg2:T21
 T51	Qualifier 95 111	with p0 = 1 μbar
 R3	Qualifies Arg1:T51 Arg2:T21
+T1	Unit 60 61	K

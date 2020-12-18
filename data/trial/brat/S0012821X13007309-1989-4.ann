@@ -5,3 +5,4 @@ T184	MeasuredProperty 954 967	Os abundances
 R10	HasQuantity Arg1:T184 Arg2:T194
 T174	MeasuredEntity 928 935	basalts
 R11	HasProperty Arg1:T174 Arg2:T184
+T1	Unit 978 981	ppt

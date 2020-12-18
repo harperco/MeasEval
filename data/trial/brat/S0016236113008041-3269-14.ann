@@ -1,8 +1,0 @@
-T1814	Quantity 1042 1046	1000
-#114	AnnotatorNotes T1814	ppm
-T4314	MeasuredProperty 1021 1035	concentrations
-R43	HasQuantity Arg1:T4314 Arg2:T1814
-T4214	MeasuredEntity 1017 1020	SO2
-R44	HasProperty Arg1:T4214 Arg2:T4314
-T1914	Qualifier 1056 1059	ppm
-R45	Qualifies Arg1:T1914 Arg2:T1814

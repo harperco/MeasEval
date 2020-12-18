@@ -5,3 +5,4 @@ T83	MeasuredProperty 267 295	emplacement of an ice volume
 R5	HasQuantity Arg1:T83 Arg2:T53
 T43	MeasuredEntity 208 211	Oi1
 R6	HasProperty Arg1:T43 Arg2:T83
+T1	Unit 368 370	ka

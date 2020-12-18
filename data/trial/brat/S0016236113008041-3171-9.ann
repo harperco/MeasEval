@@ -1,4 +1,0 @@
-T79	Quantity 677 682	13 kg
-#19	AnnotatorNotes T79	kg
-T139	MeasuredEntity 266 279	bed inventory
-R18	HasQuantity Arg1:T139 Arg2:T79

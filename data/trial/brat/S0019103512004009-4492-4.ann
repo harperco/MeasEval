@@ -1,2 +1,7 @@
 T24	Quantity 416 422	7100 K
 #14	AnnotatorNotes T24	K
+T1	MeasuredProperty 411 413	T0
+T2	MeasuredEntity 337 345	C1 model
+R1	HasProperty Arg1:T2 Arg2:T1	
+R2	HasQuantity Arg1:T1 Arg2:T24	
+T3	Unit 421 422	K

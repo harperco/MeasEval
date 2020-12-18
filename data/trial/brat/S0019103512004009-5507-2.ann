@@ -4,3 +4,5 @@ T52	MeasuredProperty 214 230	mean temperature
 R3	HasQuantity Arg1:T52 Arg2:T12
 T32	MeasuredEntity 179 193	hot layer of H
 R4	HasProperty Arg1:T32 Arg2:T52
+A1	QuantityQualifier T12 IsMean
+T1	Unit 262 263	K

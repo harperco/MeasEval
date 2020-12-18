@@ -4,3 +4,4 @@ T42	MeasuredProperty 283 300	southern boundary
 R2	HasQuantity Arg1:T42 Arg2:T62
 T52	MeasuredEntity 259 277	northern rain belt
 R3	HasProperty Arg1:T52 Arg2:T42
+T1	Unit 312 314	°N

@@ -4,3 +4,4 @@ T32	MeasuredProperty 192 201	step size
 R2	HasQuantity Arg1:T32 Arg2:T42
 T52	MeasuredEntity 139 152	Initial scans
 R3	HasProperty Arg1:T52 Arg2:T32
+T1	Unit 209 210	°

@@ -7,3 +7,4 @@ T83	MeasuredEntity 250 259	H50 model
 R6	HasProperty Arg1:T83 Arg2:T113
 T173	Qualifier 320 332	p = 0.3 nbar
 R7	Qualifies Arg1:T173 Arg2:T123
+T1	Unit 316 318	Rp

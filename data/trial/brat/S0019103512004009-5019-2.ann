@@ -4,3 +4,4 @@ T22	MeasuredProperty 325 336	temperature
 R3	HasQuantity Arg1:T22 Arg2:T12
 T52	MeasuredEntity 255 260	model
 R4	HasProperty Arg1:T52 Arg2:T22
+T1	Unit 345 346	K

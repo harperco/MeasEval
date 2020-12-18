@@ -4,3 +4,4 @@ T73	MeasuredProperty 135 148	below the CTB
 R5	HasQuantity Arg1:T73 Arg2:T83
 T63	MeasuredEntity 107 127	upper Hartland Shale
 R6	HasProperty Arg1:T63 Arg2:T73
+T1	Unit 133 134	m

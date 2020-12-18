@@ -6,4 +6,5 @@ R14	HasQuantity Arg1:T147 Arg2:T197
 T167	MeasuredEntity 864 870	Saturn
 R15	HasProperty Arg1:T167 Arg2:T147
 T187	Qualifier 906 928	have not been observed
-R16	Qualifies Arg1:T187 Arg2:T197
+R16	Qualifies Arg1:T187 Arg2:T147
+T1	Unit 938 939	K

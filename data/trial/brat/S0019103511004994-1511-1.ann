@@ -8,3 +8,4 @@ T91	MeasuredEntity 272 281	electrons
 R2	HasProperty Arg1:T91 Arg2:T71
 T81	MeasuredEntity 255 267	charged ions
 R3	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 354 357	MeV

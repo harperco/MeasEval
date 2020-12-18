@@ -1,7 +1,0 @@
-T189	Quantity 1388 1389	F
-#19	AnnotatorNotes T189	count
-A19	IsCount T189
-T199	MeasuredProperty 1389 1390	O
-R10	HasQuantity Arg1:T199 Arg2:T189
-T209	MeasuredEntity 1394 1406	W. devonense
-R11	HasProperty Arg1:T209 Arg2:T199

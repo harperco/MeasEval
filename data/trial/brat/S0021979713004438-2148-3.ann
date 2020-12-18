@@ -4,3 +4,4 @@ T83	MeasuredProperty 898 902	peak
 R3	HasQuantity Arg1:T83 Arg2:T53
 T173	MeasuredEntity 17 41	in situ ATR-FTIR spectra
 R4	HasProperty Arg1:T173 Arg2:T83
+T1	Unit 893 897	cm−1

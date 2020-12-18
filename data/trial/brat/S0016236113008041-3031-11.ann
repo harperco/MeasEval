@@ -9,4 +9,5 @@ R24	HasProperty Arg1:T4111 Arg2:T3911
 T411	Qualifier 1198 1206	increase
 R25	Qualifies Arg1:T411 Arg2:T511
 T2611	Qualifier 1240 1243	RDF
-R26	Qualifies Arg1:T2611 Arg2:T511
+R26	Qualifies Arg1:T2611 Arg2:T4111
+T1	Unit 1287 1290	ppm

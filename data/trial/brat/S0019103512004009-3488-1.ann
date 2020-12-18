@@ -4,3 +4,4 @@ T91	MeasuredProperty 188 193	level
 R1	HasQuantity Arg1:T91 Arg2:T101
 T31	MeasuredEntity 109 125	upper atmosphere
 R2	HasProperty Arg1:T31 Arg2:T91
+T1	Unit 183 187	mbar

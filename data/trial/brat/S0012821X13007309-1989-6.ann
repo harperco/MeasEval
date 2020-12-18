@@ -4,3 +4,4 @@ T226	MeasuredProperty 1143 1155	Os abundance
 R15	HasQuantity Arg1:T226 Arg2:T246
 T236	MeasuredEntity 1162 1168	basalt
 R16	HasProperty Arg1:T236 Arg2:T226
+T1	Unit 1175 1178	ppt

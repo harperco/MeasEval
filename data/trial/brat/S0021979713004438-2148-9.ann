@@ -4,3 +4,4 @@ T159	MeasuredProperty 1815 1823	shoulder
 R15	HasQuantity Arg1:T159 Arg2:T169
 T179	MeasuredEntity 17 41	in situ ATR-FTIR spectra
 R16	HasProperty Arg1:T179 Arg2:T159
+T1	Unit 1832 1836	cm−1

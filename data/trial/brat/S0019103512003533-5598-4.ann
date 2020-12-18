@@ -2,3 +2,4 @@ T34	Quantity 1014 1018	60 K
 #14	AnnotatorNotes T34	K
 T114	MeasuredEntity 1000 1010	difference
 R10	HasQuantity Arg1:T114 Arg2:T34
+T1	Unit 1017 1018	K

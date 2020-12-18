@@ -4,3 +4,4 @@ T68	MeasuredProperty 1314 1326	from the LIP
 R19	HasQuantity Arg1:T68 Arg2:T28
 T48	MeasuredEntity 1305 1313	Os input
 R20	HasProperty Arg1:T48 Arg2:T68
+T1	Unit 1330 1331	%

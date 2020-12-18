@@ -5,6 +5,5 @@ R7	HasQuantity Arg1:T243 Arg2:T253
 T233	MeasuredEntity 57 70	solid sorbent
 R8	HasProperty Arg1:T233 Arg2:T243
 T13	Qualifier 354 363	for 13 kg
-R9	Qualifies Arg1:T13 Arg2:T253
-T223	Qualifier 17 31	concentrations
-R10	Qualifies Arg1:T223 Arg2:T243
+R9	Qualifies Arg1:T13 Arg2:T233
+T1	Unit 337 340	ppm

@@ -3,3 +3,4 @@ T126	Quantity 624 637	93.90±0.15 Ma
 A16	QuantityQualifier T126 HasTolerance
 T116	MeasuredEntity 617 620	CTB
 R7	HasQuantity Arg1:T116 Arg2:T126
+T1	Unit 635 637	Ma

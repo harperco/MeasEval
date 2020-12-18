@@ -1,4 +1,6 @@
-T21	Quantity 96 101	0 ppm
+T21	Quantity 96 124	0 ppm, 1000 ppm and 2000 ppm
 #11	AnnotatorNotes T21	ppm
 T71	MeasuredProperty 74 92	SO2 concentrations
 R1	HasQuantity Arg1:T71 Arg2:T21
+T1	Unit 121 124	ppm
+A1	QuantityQualifier T21 IsList

@@ -4,3 +4,4 @@ T62	MeasuredProperty 129 137	latitude
 R4	HasQuantity Arg1:T62 Arg2:T52
 T42	MeasuredEntity 378 384	Saturn
 R5	HasProperty Arg1:T42 Arg2:T62
+T1	Unit 127 128	°

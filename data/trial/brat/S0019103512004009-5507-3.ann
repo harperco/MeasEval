@@ -1,2 +1,8 @@
-T63	Quantity 308 311	3Rp
+T63	Quantity 302 311	above 3Rp
 #13	AnnotatorNotes T63	Rp
+T1	Unit 309 311	Rp
+A1	QuantityQualifier T63 IsRange
+T2	MeasuredEntity 273 283	atmosphere
+T3	MeasuredProperty 287 301	mostly ionized
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T63	

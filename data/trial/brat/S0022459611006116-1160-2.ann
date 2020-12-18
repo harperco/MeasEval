@@ -5,4 +5,4 @@ R2	HasQuantity Arg1:T52 Arg2:T32
 T62	MeasuredEntity 290 310	stoichiometric molar
 R3	HasProperty Arg1:T62 Arg2:T52
 T72	Qualifier 348 354	Mg3NF3
-R4	Qualifies Arg1:T72 Arg2:T32
+R4	Qualifies Arg1:T72 Arg2:T52

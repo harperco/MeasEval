@@ -5,3 +5,4 @@ T91	MeasuredProperty 94 108	concentrations
 R1	HasQuantity Arg1:T91 Arg2:T11
 T101	MeasuredEntity 67 79	Rb, Nb and W
 R2	HasProperty Arg1:T101 Arg2:T91
+T1	Unit 126 129	ppm

@@ -5,3 +5,4 @@ T67	MeasuredProperty 431 450	maximum temperature
 R14	HasQuantity Arg1:T67 Arg2:T37
 T87	MeasuredEntity 250 259	H50 model
 R15	HasProperty Arg1:T87 Arg2:T67
+T1	Unit 482 483	K

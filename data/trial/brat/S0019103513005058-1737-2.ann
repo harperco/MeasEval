@@ -5,3 +5,4 @@ T42	MeasuredProperty 142 147	depth
 R3	HasQuantity Arg1:T42 Arg2:T22
 T52	MeasuredEntity 27 36	Mars soil
 R4	HasProperty Arg1:T52 Arg2:T42
+T1	Unit 140 141	m

@@ -1,4 +1,7 @@
-T32	Quantity 103 111	1000 ppm
-#12	AnnotatorNotes T32	ppm
-T72	MeasuredProperty 74 92	SO2 concentrations
-R2	HasQuantity Arg1:T72 Arg2:T32
+T44	Quantity 147 152	13 kg
+#14	AnnotatorNotes T44	kg
+T54	MeasuredProperty 153 158	CaCO3
+R4	HasQuantity Arg1:T54 Arg2:T44
+T64	MeasuredEntity 130 143	bed inventory
+R5	HasProperty Arg1:T64 Arg2:T54
+T1	Unit 150 152	kg

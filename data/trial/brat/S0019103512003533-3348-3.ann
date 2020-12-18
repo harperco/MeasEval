@@ -4,3 +4,4 @@ T73	MeasuredProperty 358 377	vertical resolution
 R7	HasQuantity Arg1:T73 Arg2:T83
 T133	MeasuredEntity 252 277	simulations in this study
 R8	HasProperty Arg1:T133 Arg2:T73
+T1	Unit 385 398	scale heights

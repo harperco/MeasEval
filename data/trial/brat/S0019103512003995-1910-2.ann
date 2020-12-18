@@ -1,3 +1,5 @@
-T102	Quantity 149 162	1947 and 1999
+T102	Quantity 141 162	between 1947 and 1999
 #12	AnnotatorNotes T102	Unspecified
 A12	QuantityQualifier T102 IsRange
+T1	MeasuredEntity 80 102	satellite observations
+R1	HasQuantity Arg1:T1 Arg2:T102	

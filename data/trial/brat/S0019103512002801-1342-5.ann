@@ -1,2 +1,5 @@
 T65	Quantity 169 178	60,268 km
 #15	AnnotatorNotes T65	km
+T1	MeasuredEntity 163 166	1Rs
+R1	HasQuantity Arg1:T1 Arg2:T65	
+T2	Unit 176 178	km

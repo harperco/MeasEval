@@ -5,3 +5,4 @@ T62	MeasuredProperty 1350 1381	measured differential intensity
 R3	HasQuantity Arg1:T62 Arg2:T42
 T52	MeasuredEntity 1385 1394	electrons
 R4	HasProperty Arg1:T52 Arg2:T62
+T1	Unit 1403 1406	keV

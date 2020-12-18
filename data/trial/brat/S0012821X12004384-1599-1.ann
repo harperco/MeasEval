@@ -5,3 +5,4 @@ T41	MeasuredProperty 89 95	before
 R1	HasQuantity Arg1:T41 Arg2:T21
 T31	MeasuredEntity 100 109	CIE onset
 R2	HasProperty Arg1:T31 Arg2:T41
+T1	Unit 85 88	yrs

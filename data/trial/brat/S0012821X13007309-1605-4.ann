@@ -1,6 +1,8 @@
-T94	Quantity 1384 1387	n=4
+T94	Quantity 1387 1388	)
 #14	AnnotatorNotes T94	n
-T104	MeasuredProperty 1389 1406	came from Vergons
+T104	MeasuredProperty 1384 1385	n
 R5	HasQuantity Arg1:T104 Arg2:T94
 T84	MeasuredEntity 1363 1382	some of the samples
 R6	HasProperty Arg1:T84 Arg2:T104
+T1	Qualifier 1389 1406	came from Vergons
+R1	Qualifies Arg1:T1 Arg2:T84	

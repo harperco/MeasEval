@@ -5,3 +5,4 @@ T2511	MeasuredProperty 670 674	time
 R19	HasQuantity Arg1:T2511 Arg2:T611
 T3011	MeasuredEntity 629 640	observation
 R20	HasProperty Arg1:T3011 Arg2:T2511
+T1	Unit 665 666	h

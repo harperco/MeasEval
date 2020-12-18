@@ -4,3 +4,4 @@ T71	MeasuredProperty 129 133	NaOH
 R1	HasQuantity Arg1:T71 Arg2:T61
 T81	MeasuredEntity 49 71	wet alkaline digestion
 R2	HasProperty Arg1:T81 Arg2:T71
+T1	Unit 127 128	M

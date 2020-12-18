@@ -1,4 +1,6 @@
-T67	Quantity 636 642	4.5 kg
-#17	AnnotatorNotes T67	kg
-T137	MeasuredEntity 266 279	bed inventory
-R16	HasQuantity Arg1:T137 Arg2:T67
+T58	Quantity 669 682	6 kg to 13 kg
+#18	AnnotatorNotes T58	kg
+T138	MeasuredEntity 266 279	bed inventory
+R17	HasQuantity Arg1:T138 Arg2:T58
+A1	QuantityQualifier T58 IsList
+T1	Unit 680 682	kg

@@ -5,3 +5,4 @@ T364	MeasuredProperty 188 201	concentration
 R7	HasQuantity Arg1:T364 Arg2:T64
 T224	MeasuredEntity 184 187	SO2
 R8	HasProperty Arg1:T224 Arg2:T364
+T1	Unit 495 498	ppm

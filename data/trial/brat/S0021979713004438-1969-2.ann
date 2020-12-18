@@ -3,3 +3,4 @@ T82	Quantity 290 296	pH 7–8
 A12	QuantityQualifier T82 IsRange
 T92	MeasuredEntity 278 286	solution
 R2	HasQuantity Arg1:T92 Arg2:T82
+T1	Unit 290 292	pH

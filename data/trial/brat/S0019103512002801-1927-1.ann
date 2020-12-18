@@ -5,3 +5,4 @@ T41	MeasuredProperty 130 148	linear growth rate
 R1	HasQuantity Arg1:T41 Arg2:T21
 T31	MeasuredEntity 106 123	flute instability
 R2	HasProperty Arg1:T31 Arg2:T41
+T1	Unit 166 169	s−1

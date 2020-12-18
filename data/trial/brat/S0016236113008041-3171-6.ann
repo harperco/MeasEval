@@ -1,4 +1,5 @@
-T86	Quantity 626 630	6 kg
+T86	Quantity 626 642	6 kg over 4.5 kg
 #16	AnnotatorNotes T86	kg
 T136	MeasuredEntity 266 279	bed inventory
 R15	HasQuantity Arg1:T136 Arg2:T86
+T1	Unit 640 642	kg

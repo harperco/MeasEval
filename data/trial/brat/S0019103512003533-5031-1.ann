@@ -5,3 +5,4 @@ T61	MeasuredEntity 91 114	exospheric temperatures
 R1	HasQuantity Arg1:T61 Arg2:T11
 T71	Qualifier 142 155	near the pole
 R2	Qualifies Arg1:T71 Arg2:T11
+T1	Unit 140 141	K

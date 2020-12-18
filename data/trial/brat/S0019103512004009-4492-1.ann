@@ -4,3 +4,4 @@ T101	MeasuredProperty 255 265	located at
 R1	HasQuantity Arg1:T101 Arg2:T81
 T91	MeasuredEntity 243 251	C1 model
 R2	HasProperty Arg1:T91 Arg2:T101
+T1	Unit 269 271	Rp

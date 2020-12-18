@@ -6,3 +6,4 @@ T104	MeasuredProperty 620 640	auroral temperatures
 R7	HasQuantity Arg1:T104 Arg2:T124
 T114	MeasuredEntity 644 650	Saturn
 R8	HasProperty Arg1:T114 Arg2:T104
+T1	Unit 668 669	K

@@ -1,4 +1,0 @@
-T2814	Quantity 1050 1055	n=104
-#114	AnnotatorNotes T2814	n
-T2514	MeasuredEntity 884 891	Samples
-R21	HasQuantity Arg1:T2514 Arg2:T2814

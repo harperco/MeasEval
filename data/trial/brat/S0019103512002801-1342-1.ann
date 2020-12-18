@@ -4,3 +4,4 @@ T81	MeasuredProperty 35 41	radius
 R1	HasQuantity Arg1:T81 Arg2:T31
 T71	MeasuredEntity 0 4	Rhea
 R2	HasProperty Arg1:T71 Arg2:T81
+T1	Unit 44 47	RRh

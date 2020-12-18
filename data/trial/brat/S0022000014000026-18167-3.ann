@@ -6,3 +6,4 @@ T73	MeasuredEntity 5360 5364	node
 R4	HasProperty Arg1:T73 Arg2:T53
 T83	Qualifier 5365 5377	being faulty
 R5	Qualifies Arg1:T83 Arg2:T53
+T1	Unit 5352 5353	%

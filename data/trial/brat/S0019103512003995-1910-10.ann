@@ -5,3 +5,4 @@ T2310	MeasuredProperty 586 596	took place
 R17	HasQuantity Arg1:T2310 Arg2:T2610
 T2910	MeasuredEntity 530 548	G140M observations
 R18	HasProperty Arg1:T2910 Arg2:T2310
+T1	Unit 606 611	month

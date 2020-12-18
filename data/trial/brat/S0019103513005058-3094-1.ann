@@ -1,6 +1,6 @@
-T21	Quantity 666 671	3 byr
+T21	Quantity 661 671	last 3 byr
 #11	AnnotatorNotes T21	byr
 T31	MeasuredEntity 677 690	Amazonian eon
 R1	HasQuantity Arg1:T31 Arg2:T21
-T11	Qualifier 661 665	last
-R2	Qualifies Arg1:T11 Arg2:T21
+T1	Unit 668 671	byr
+A1	QuantityQualifier T21 IsRange

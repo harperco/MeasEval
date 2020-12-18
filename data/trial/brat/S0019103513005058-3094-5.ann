@@ -5,3 +5,4 @@ T135	MeasuredProperty 1064 1065	N
 R10	HasQuantity Arg1:T135 Arg2:T125
 T155	MeasuredEntity 1000 1004	soil
 R11	HasProperty Arg1:T155 Arg2:T135
+T1	Unit 1059 1063	wt.%

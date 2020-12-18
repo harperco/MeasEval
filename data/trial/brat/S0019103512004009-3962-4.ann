@@ -7,7 +7,6 @@ T104	MeasuredEntity 303 312	HD209458b
 R6	HasProperty Arg1:T104 Arg2:T94
 T114	Qualifier 253 268	with ηnet = 0.5
 R7	Qualifies Arg1:T114 Arg2:T94
-T154	Qualifier 334 367	than the corresponding solar flux
-R8	Qualifies Arg1:T154 Arg2:T94
-T174	Qualifier 327 333	higher
+T174	Qualifier 327 367	higher than the corresponding solar flux
 R9	Qualifies Arg1:T174 Arg2:T84
+T1	Unit 321 326	times

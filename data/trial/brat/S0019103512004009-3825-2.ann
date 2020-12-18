@@ -4,3 +4,4 @@ T72	MeasuredProperty 223 242	maximum temperature
 R3	HasQuantity Arg1:T72 Arg2:T22
 T82	MeasuredEntity 250 259	H50 model
 R4	HasProperty Arg1:T82 Arg2:T72
+T1	Unit 270 271	K

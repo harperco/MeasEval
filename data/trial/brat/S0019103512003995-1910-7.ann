@@ -9,3 +9,4 @@ T187	Qualifier 297 322	during one solar rotation
 R11	Qualifies Arg1:T187 Arg2:T177
 T157	Qualifier 277 284	average
 R12	Qualifies Arg1:T157 Arg2:T27
+T1	Unit 344 345	%

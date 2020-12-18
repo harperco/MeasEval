@@ -3,3 +3,4 @@ T21	Quantity 102 107	∼30°N
 A11	IsApproximate T21
 T11	MeasuredEntity 4 19	Vocontian Basin
 R1	HasQuantity Arg1:T11 Arg2:T21
+T1	Unit 105 107	°N

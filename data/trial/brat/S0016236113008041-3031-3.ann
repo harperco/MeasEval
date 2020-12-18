@@ -11,4 +11,5 @@ R5	Qualifies Arg1:T93 Arg2:T113
 T343	Qualifier 836 844	increase
 R6	Qualifies Arg1:T343 Arg2:T13
 T103	Qualifier 808 821	Lea Hall coal
-R7	Qualifies Arg1:T103 Arg2:T13
+R7	Qualifies Arg1:T103 Arg2:T403
+T1	Unit 883 886	ppm

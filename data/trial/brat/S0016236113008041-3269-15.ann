@@ -1,6 +1,0 @@
-T215	Quantity 1051 1059	2000 ppm
-#115	AnnotatorNotes T215	ppm
-T4315	MeasuredProperty 1021 1035	concentrations
-R46	HasQuantity Arg1:T4315 Arg2:T215
-T4215	MeasuredEntity 1017 1020	SO2
-R47	HasProperty Arg1:T4215 Arg2:T4315

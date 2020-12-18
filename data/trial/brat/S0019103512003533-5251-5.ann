@@ -4,3 +4,4 @@ T145	MeasuredProperty 818 836	polar temperatures
 R9	HasQuantity Arg1:T145 Arg2:T135
 T165	MeasuredEntity 864 870	Saturn
 R10	HasProperty Arg1:T165 Arg2:T145
+T1	Unit 766 767	K

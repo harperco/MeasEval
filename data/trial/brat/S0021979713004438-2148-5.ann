@@ -4,3 +4,4 @@ T95	MeasuredProperty 943 948	peaks
 R7	HasQuantity Arg1:T95 Arg2:T75
 T175	MeasuredEntity 17 41	in situ ATR-FTIR spectra
 R8	HasProperty Arg1:T175 Arg2:T95
+T1	Unit 971 975	cm−1

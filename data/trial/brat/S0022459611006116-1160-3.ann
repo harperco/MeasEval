@@ -5,4 +5,4 @@ R5	HasQuantity Arg1:T53 Arg2:T43
 T63	MeasuredEntity 290 310	stoichiometric molar
 R6	HasProperty Arg1:T63 Arg2:T53
 T83	Qualifier 363 368	Mg2NF
-R7	Qualifies Arg1:T83 Arg2:T43
+R7	Qualifies Arg1:T83 Arg2:T53

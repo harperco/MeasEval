@@ -9,4 +9,5 @@ R20	HasProperty Arg1:T4110 Arg2:T3910
 T410	Qualifier 1198 1206	increase
 R21	Qualifies Arg1:T410 Arg2:T610
 T2510	Qualifier 1222 1235	Lea Hall coal
-R22	Qualifies Arg1:T2510 Arg2:T610
+R22	Qualifies Arg1:T2510 Arg2:T4110
+T1	Unit 1262 1265	ppm

@@ -1,4 +1,0 @@
-T13	Quantity 116 124	2000 ppm
-#13	AnnotatorNotes T13	ppm
-T73	MeasuredProperty 74 92	SO2 concentrations
-R3	HasQuantity Arg1:T73 Arg2:T13
