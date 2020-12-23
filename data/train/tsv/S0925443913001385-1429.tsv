@@ -1,6 +1,6 @@
 docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
 S0925443913001385-1429	1	Quantity	114	117	T1-1	10%	
-S0925443913001385-1429	1	MeasuredProperty	125	146	T2-1	etal calf serum (FCS)	{"HasQuantity": "T1-1"}
+S0925443913001385-1429	1	MeasuredProperty	124	146	T2-1	fetal calf serum (FCS)	{"HasQuantity": "T1-1"}
 S0925443913001385-1429	1	MeasuredEntity	40	51	T3-1	DMEM medium	{"HasProperty": "T2-1"}
 S0925443913001385-1429	1	Qualifier	96	108	T4-1	supplemented	{"Qualifies": "T3-1"}
 S0925443913001385-1429	1	Qualifier	118	123	T5-1	(v/v)	{"Qualifies": "T1-1"}
