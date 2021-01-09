@@ -15,6 +15,8 @@ parser.add_argument('-g', '--gold', help='Gold data directory', required=True)
 parser.add_argument('-s', '--sub', help='Submission data directory', required=True)
 parser.add_argument('-m', '--mode', help='Mode to run scoring: overall, class, doc, or both; default is overall.', default="overall")
 parser.add_argument('--skip', help='input file of files to skip for debugging, one id per line.')
+parser.add_argument('-v', '--val', help='Validate submission only.', action='store_true')
+
 
 args = parser.parse_args()
 
@@ -39,8 +41,8 @@ subnames = []
 # We'll have to change some logger criteria to get this to work as expected
 # For validation. Can also make this a command line arg
 # For now, uncomment if you want the more verbose logs
-logs.logger.setLevel(logging.DEBUG)
-logs.sh.setLevel(logging.DEBUG)
+# logs.logger.setLevel(logging.DEBUG)
+# logs.sh.setLevel(logging.DEBUG)
 
 # Defining a coupel of new validators
 # LengthValidator ensures that length of text equals difference between offsets
@@ -194,6 +196,12 @@ if allgood == False:
     print("For more detailed errors, enable debug level logging.")
     exit()
 
+if args.val == True:
+    print("Running in validate only mode.")
+    print("Validation finished.")
+    print("Have a nice day!")
+    exit()
+
 # Once we've validated all submission data, we start building our eval data
 # Everything is going to be done in Pandas
 # Since Pandas doesn't natively support theta joins, we will be using the
@@ -207,8 +215,8 @@ for gfn in os.listdir(args.indir+args.gold):
     # This is so that users can evaluate whatever portion of the data
     # they chose to keep separate from their training data.
     # This filter is not in place in the codalab copy of this code.
-    if gfn in subnames:
-        goldfs.append(pd.read_csv(args.indir+args.gold+gfn, sep="\t"))
+    # if gfn in subnames:
+    goldfs.append(pd.read_csv(args.indir+args.gold+gfn, sep="\t"))
 
 print("Submission directory contains: " + str(len(subdfs)))
 print("Gold directory contains: " + str(len(goldfs)))
@@ -364,7 +372,8 @@ annotSetAlignments = quantityMatches[["docId", "annotSet", "gAnnotSet"]].rename(
 annotSetAlignmentsDict = annotSetAlignments.groupby('docId').apply(lambda x: dict(zip(x.annotSet, x.matchAnnotSet))).to_dict()
 
 # Update submission data with corresponding gold annotSet if applicable.
-sub["gAnnotSet"] = sub.apply(lambda x: annotSetAlignmentsDict[x.docId][x.annotSet] if x.annotSet in annotSetAlignmentsDict[x.docId] else None , axis = 1)
+sub["gAnnotSet"] = None
+sub["gAnnotSet"] = sub.apply(lambda x: annotSetAlignmentsDict[x.docId][x.annotSet] if x.docId in annotSetAlignmentsDict and x.annotSet in annotSetAlignmentsDict[x.docId] else None , axis = 1)
 
 # Now we'll process our units
 # This requires unpacking that data from the json in the other column
@@ -378,6 +387,8 @@ goldUnits = goldUnits[goldUnits.unit != ""][["docId", "annotSet", "annotType", "
 
 subUnits = sub[sub["annotType"] == "Quantity"].copy() #and sub.other.notnull()]
 subUnits = subUnits[subUnits.other.notnull()]
+subUnits['json'] = None
+subUnits['unit'] = None
 subUnits['json'] = subUnits.apply (lambda x: json.loads(str(x.other)) if str(x.other) != "nan" else "", axis = 1 )
 subUnits['unit'] = subUnits.apply (lambda x: x.json["unit"] if "unit" in x.json.keys() else "", axis = 1)
 #print(subUnits.head())
@@ -844,6 +855,8 @@ goldMods = goldMods[goldMods.mods != ""][["docId", "annotSet", "annotType", "sta
 
 subMods = sub[sub["annotType"] == "Quantity"].copy()
 subMods = subMods[subMods.other.notnull()]
+subMods['json'] = None
+subMods['mods'] = None
 subMods['json'] = subMods.apply (lambda x: json.loads(str(x.other)) if str(x.other) != "nan" else "", axis = 1 )
 subMods['mods'] = subMods.apply (lambda x: x.json["mods"] if "mods" in x.json.keys() else "", axis = 1)
 
@@ -1037,14 +1050,20 @@ if args.mode == "overall":
     print("False positives (submission only): " + str(fp))
     print("False negatives (gold only): " + str(fn))
     print("")
-    precision = tp / (tp+fp)
-    recall = tp / (tp + fn)
-    fmeas = (2 * precision * recall) / (precision + recall)
+    if tp+fp == 0:
+        print("Submission has no data.")
+        print("")
+    elif tp == 0:
+        print("Submission has no matches against gold data")
+    else:
+        precision = tp / (tp+fp)
+        recall = tp / (tp + fn)
+        fmeas = (2 * precision * recall) / (precision + recall)
 
-    print("Precision: " + str(precision))
-    print("Recall: " + str(recall))
-    print("F-measure: " + str(fmeas))
-    print("")
+        print("Precision: " + str(precision))
+        print("Recall: " + str(recall))
+        print("F-measure: " + str(fmeas))
+        print("")
 
     print("Overall Score Exact Match: " + str(wrk1score["EM"].mean()))
     print("Overall Score F1 (Overlap): " + str(wrk1score["F1"].mean()))
