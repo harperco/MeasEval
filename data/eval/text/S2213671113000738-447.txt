@@ -1,0 +1,1 @@
+(C and E) Monkey MHC-I (Mafa) allele sequences detected by next-generation sequencing (C) and cluster analysis of the monkey MHCs (E). The colored letters indicate a comparatively high expression level of the MHC-I allele, comprising >10% of cDNA sequence reads. The gray background indicates the MHC-A allele, and the others indicate the MHC-B allele.
