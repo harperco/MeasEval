@@ -16,6 +16,7 @@ parser.add_argument('-s', '--sub', help='Submission data directory', required=Tr
 parser.add_argument('-m', '--mode', help='Mode to run scoring: overall, class, doc, or both; default is overall.', default="overall")
 parser.add_argument('--skip', help='input file of files to skip for debugging, one id per line.')
 parser.add_argument('-v', '--val', help='Validate submission only.', action='store_true')
+parser.add_argument('-l', '--limit', help='Limit gold data loaded to files also in submission.', action='store_true')
 
 
 args = parser.parse_args()
@@ -215,8 +216,12 @@ for gfn in os.listdir(args.indir+args.gold):
     # This is so that users can evaluate whatever portion of the data
     # they chose to keep separate from their training data.
     # This filter is not in place in the codalab copy of this code.
-    # if gfn in subnames:
-    goldfs.append(pd.read_csv(args.indir+args.gold+gfn, sep="\t"))
+    if args.limit == True:
+        if gfn in subnames:
+            goldfs.append(pd.read_csv(args.indir+args.gold+gfn, sep="\t"))
+    else:
+        goldfs.append(pd.read_csv(args.indir+args.gold+gfn, sep="\t"))
+
 
 print("Submission directory contains: " + str(len(subdfs)))
 print("Gold directory contains: " + str(len(goldfs)))
