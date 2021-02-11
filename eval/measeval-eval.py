@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(description='Takes output file, logfile config,
 parser.add_argument('-i','--indir', help='Input directory base path',required=True)
 parser.add_argument('-g', '--gold', help='Gold data directory', required=True)
 parser.add_argument('-s', '--sub', help='Submission data directory', required=True)
-parser.add_argument('-m', '--mode', help='Mode to run scoring: overall, class, doc, or both; default is overall.', default="overall")
+parser.add_argument('-m', '--mode', help='Mode to run scoring: overall, class, doc, classdoc (both), sub, or classsub; default is overall.', default="overall")
 parser.add_argument('--skip', help='input file of files to skip for debugging, one id per line.')
 parser.add_argument('-v', '--val', help='Validate submission only.', action='store_true')
 parser.add_argument('-l', '--limit', help='Limit gold data loaded to files also in submission.', action='store_true')
@@ -1047,6 +1047,24 @@ wrk1score = pd.concat(wrk1array, ignore_index=True)
 # We use this to determine a precision and recall, as well as an F-measure
 # Finally, we give you your overall EM and Overlap score.
 print("Working in mode " + args.mode)
+print(wrk1score.shape)
+print(wrk1score.columns)
+
+cats = {}
+filecats = open("../fileCategories.txt", "r")
+lines = filecats.readlines()
+for line in lines:
+    cats[line.split('\t')[0]] = line.split('\t')[1].rstrip()
+filecats.close()
+
+wrk1score["subject"] = wrk1score.apply (lambda x: cats[x['docId'].split("-")[0]], axis = 1)
+
+# for index, row in wrk1score.iterrows():
+#     print(row['docId'].split('-')[0])
+#     print(cats[row['docId'].split('-')[0]])
+#     print(row['subject'].split('-')[0])
+
+
 if args.mode == "overall":
     tp = len(wrk1score.loc[wrk1score["matchType"] == "Match"].index)
     fp = len(wrk1score.loc[wrk1score["matchType"] == "Sub only"].index)
@@ -1109,6 +1127,43 @@ elif args.mode == "class":
               str(wrk1score.loc[wrk1score["type"] == annotType]["F1"].mean()))
         print("")
 
+elif args.mode == "sub" or args.mode == "subject":
+    for subject in (["Agriculture", "Astronomy", "Biology", "Chemistry",
+                     "Computer Science", "Earth Science", "Engineering",
+                     "Materials Science", "Mathematics", "Medicine"]):
+        print("Processing " + subject)
+        tp = len(wrk1score.loc[((wrk1score["matchType"] == "Match") &
+                                (wrk1score["subject"] == subject))].index)
+        fp = len(wrk1score.loc[((wrk1score["matchType"] == "Sub only") &
+                                (wrk1score["subject"] == subject))].index)
+        fn = len(wrk1score.loc[((wrk1score["matchType"] == "Gold only") &
+                                (wrk1score["subject"] == subject))].index)
+        if tp+fp == 0:
+            print("Submission has no data for " + subject)
+            print("")
+        elif tp == 0:
+            print("Submission has no matches against gold data for " + subject)
+        else:
+            print("True positives (matching rows) for " + subject + ": " + str(tp))
+            print("False positives (submission only) for " + subject + ": " + str(fp))
+            print("False negatives (gold only) for " + subject + ": " + str(fn))
+            print("")
+            precision = tp / (tp+fp)
+            print("Precision for " + subject + ": " + str(precision))
+            recall = tp / (tp + fn)
+            print("Recall for " + subject + ": " + str(recall))
+            fmeas = (2 * precision * recall) / (precision + recall)
+            print("F-measure for " + subject + ": " + str(fmeas))
+            print("")
+
+
+        print("Exact Match Score for " + subject + ": " +
+              str(wrk1score.loc[wrk1score["subject"] == subject]["EM"].mean()))
+        print("F1 (Overlap) Score for " + subject + ": " +
+              str(wrk1score.loc[wrk1score["subject"] == subject]["F1"].mean()))
+        print("")
+
+
 # Because it might help teams refine their submissions, during the training period
 # You can run this at the document level as well.
 # Say you have 20 paragraphs held out as an initial dev set
@@ -1120,7 +1175,7 @@ elif args.mode == "doc":
         print("F1 (Overlap) Score for " + docid + ": " +
               str(wrk1score.loc[wrk1score["docId"] == docid]["F1"].mean()))
 # It's a bit verbose, but you can also see per class per document.
-elif args.mode == "both":
+elif args.mode == "both" or args.mode == "classdoc":
     for docid in wrk1score.docId.unique():
         for annotType in (["Quantity", "MeasuredEntity", "MeasuredProperty", "Qualifier",
                               "Unit", "modifier", "HasQuantity", "HasProperty", "Qualifies"]):

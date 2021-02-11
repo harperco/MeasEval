@@ -28,7 +28,7 @@ Evaluation output includes counts of true positives, false positive, and false n
 
 There are 2 additional optional arguments you can pass:
 
-* -m (--mode) allows further control over how scores are averaged. Options are "overall" (the default), "class", "doc", or "both". The "class" option gives you all the same metrics averaged for each of the 9 specific scoring components (Quantity, MeasuredProperty, MeasuredEntity, Qualifier, Unit, Modifiers, HasQuantity, HasProperty, and Qualifies); "doc" provides the averages broken down by paragraph ID, and "both" provides a very detailed breakdown of each score by class and by paragraph.
+* -m (--mode) allows further control over how scores are averaged. Options are "overall" (the default), "class", "doc", or "both". The "class" option gives you all the same metrics averaged for each of the 9 specific scoring components (Quantity, MeasuredProperty, MeasuredEntity, Qualifier, Unit, Modifiers, HasQuantity, HasProperty, and Qualifies); "doc" provides the averages broken down by paragraph ID; and "both" or "classdoc" provides a very detailed breakdown of each score by class and by paragraph. Additionally, "sub" or "subject" provides a breakdown of scores by subject category, using categories mapped from [fileCategories.txt](https://github.com/harperco/MeasEval/blob/main/fileCategories.txt) (mapper file taken from [OA-STM-Corpus](https://github.com/elsevierlabs/OA-STM-Corpus/)).
 * --skip allows you to provide a text file, in the project directory, with one .tsv **filename** per line listing files you may wish to exclude from evaluation for whatever reason.
 
 This should help you identify particular areas or documents where your model is not performing as well as you'd like and further tune your training.
