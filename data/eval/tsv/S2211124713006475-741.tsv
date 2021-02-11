@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-741	1	Quantity	36	41	T1-1	50 μm	{"unit": "μm"}
+S2211124713006475-741	1	MeasuredEntity	0	21	T2-1	Scale bars in (F)–(H)	{"HasQuantity": "T1-1"}

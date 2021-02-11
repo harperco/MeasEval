@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1610	1	Quantity	90	98	T1-1	2617.4 m	{"unit": "m"}
+S0012821X12004384-1610	1	MeasuredEntity	4	14	T3-1	brief peak	{"HasQuantity": "T1-1"}
+S0012821X12004384-1610	1	Qualifier	15	30	T4-1	in Apectodinium	{"Qualifies": "T3-1"}
+S0012821X12004384-1610	2	Quantity	669	688	T1-2	2619.6 and 2614.7 m	{"mods": ["IsList"], "unit": "m"}
+S0012821X12004384-1610	2	MeasuredEntity	638	649	T3-2	other peaks	{"HasQuantity": "T1-2"}
+S0012821X12004384-1610	2	Qualifier	650	665	T4-2	in Apectodinium	{"Qualifies": "T3-2"}

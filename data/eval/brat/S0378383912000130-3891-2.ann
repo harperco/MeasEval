@@ -1,0 +1,7 @@
+T2	Quantity 132 149	1.5 mm and 8.5 mm
+A1	QuantityQualifier T2 IsList
+T1	Unit 147 149	mm
+T3	MeasuredProperty 150 158	sediment
+T4	MeasuredEntity 94 130	two permeable coarse-grained beaches
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T2	

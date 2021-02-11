@@ -1,0 +1,7 @@
+T1	Quantity 609 628	between 5 and 300 K
+A1	QuantityQualifier T1 IsRange
+T2	Unit 627 628	K
+T3	MeasuredEntity 539 556	nitride fluorides
+T4	MeasuredProperty 562 573	temperature
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

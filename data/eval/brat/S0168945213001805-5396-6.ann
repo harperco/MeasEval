@@ -1,0 +1,6 @@
+T1	Quantity 1450 1457	18-year
+T2	MeasuredProperty 1458 1461	old
+T3	MeasuredEntity 1462 1484	glasshouse-grown trees
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1453 1457	year

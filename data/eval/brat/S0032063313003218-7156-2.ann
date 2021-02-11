@@ -1,0 +1,10 @@
+T1	Quantity 176 179	~3×
+A1	IsApproximate T1
+T2	MeasuredProperty 82 116	power dissipated in the atmosphere
+T3	MeasuredEntity 2 42	transient magnetospheric expansion event
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 159 174	ion drag energy
+R3	Qualifies Arg1:T4 Arg2:T2	
+T5	Qualifier 188 190	ES
+R4	Qualifies Arg1:T5 Arg2:T1	

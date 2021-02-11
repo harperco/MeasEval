@@ -1,0 +1,4 @@
+T1	Quantity 103 121	0.18 g CO2 m−2 h−1
+T2	Unit 108 121	g CO2 m−2 h−1
+T3	MeasuredEntity 83 99	autotrophic flux
+R1	HasQuantity Arg1:T3 Arg2:T1	

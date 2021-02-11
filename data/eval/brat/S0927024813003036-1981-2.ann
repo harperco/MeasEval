@@ -1,0 +1,7 @@
+T1	Quantity 436 448	up to 798 °C
+T2	Unit 446 448	°C
+T3	MeasuredEntity 362 369	Samples
+T4	MeasuredProperty 380 435	annealed in air in a pre-heated furnace at temperatures
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

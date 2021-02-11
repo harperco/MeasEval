@@ -1,0 +1,9 @@
+T1	Quantity 434 445	up to 100 m
+T2	Unit 444 445	m
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 501 525	animal-dispersed species
+T4	MeasuredProperty 424 433	distances
+T5	Qualifier 446 461	from the source
+R1	Qualifies Arg1:T5 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

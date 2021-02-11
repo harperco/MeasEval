@@ -1,0 +1,4 @@
+T1	Quantity 476 481	13 kg
+T2	MeasuredEntity 482 499	sample of sorbent
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 479 481	kg

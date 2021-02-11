@@ -1,0 +1,6 @@
+T1	Quantity 820 823	51%
+T2	Unit 822 823	%
+T3	MeasuredProperty 827 851	lower Striga infestation
+T5	MeasuredEntity 625 665	Striga-infested fields at Sadoré (Niger)
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

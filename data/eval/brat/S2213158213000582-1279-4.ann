@@ -1,0 +1,7 @@
+T1	Quantity 231 244	averaging 9 s
+T2	MeasuredEntity 86 101	binaural clicks
+T3	MeasuredProperty 183 210	inter-trial interval jitter
+A1	QuantityQualifier T1 IsMean
+T4	Unit 243 244	s
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

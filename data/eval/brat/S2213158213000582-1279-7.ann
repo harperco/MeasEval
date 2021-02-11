@@ -1,0 +1,7 @@
+T1	Quantity 462 486	approximately 25 minutes
+T2	MeasuredEntity 453 457	task
+T3	MeasuredProperty 437 445	duration
+T4	Unit 479 486	minutes
+A1	IsApproximate T1
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

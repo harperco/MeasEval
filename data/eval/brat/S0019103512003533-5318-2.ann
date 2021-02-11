@@ -1,0 +1,7 @@
+T1	Quantity 276 285	400–650 K
+T2	MeasuredProperty 243 264	observed temperatures
+T3	MeasuredEntity 268 274	Saturn
+T4	Unit 284 285	K
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

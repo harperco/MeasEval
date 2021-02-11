@@ -1,0 +1,5 @@
+T1	Quantity 404 420	greater than 1 s
+A1	QuantityQualifier T1 IsRange
+T2	Unit 419 420	s
+T3	MeasuredEntity 380 403	interstimulus intervals
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 615 620	99.5%
+T2	MeasuredEntity 606 613	para-H2
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 619 620	%

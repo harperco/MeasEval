@@ -1,0 +1,4 @@
+T1	Quantity 26 33	2 × 2 m
+T2	MeasuredEntity 34 52	temporary quadrats
+T3	Unit 32 33	m
+R1	HasQuantity Arg1:T2 Arg2:T1	

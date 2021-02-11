@@ -1,0 +1,4 @@
+T1	Quantity 135 144	80 mV m−1
+T2	MeasuredEntity 117 131	field strength
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 138 144	mV m−1

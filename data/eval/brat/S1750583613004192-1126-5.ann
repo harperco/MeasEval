@@ -1,0 +1,6 @@
+T1	Quantity 595 620	eight thin shale barriers
+T3	MeasuredEntity 552 569	buoyant CO2 plume
+T4	MeasuredProperty 570 594	ascended rapidly through
+T2	Unit 601 620	thin shale barriers
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

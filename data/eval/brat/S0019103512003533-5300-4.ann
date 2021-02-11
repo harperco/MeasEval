@@ -1,0 +1,10 @@
+T1	Quantity 266 297	increases from ∼550 K to 850 K.
+T2	MeasuredProperty 149 160	temperature
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 391 413	Saturn’s thermospheric
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Qualifier 239 262	while at E = 100 mV m−1
+R3	Qualifies Arg1:T4 Arg2:T2	
+A2	IsApproximate T1
+T5	Unit 295 296	K

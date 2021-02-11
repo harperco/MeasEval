@@ -1,0 +1,7 @@
+T1	Quantity 211 222	over 60 min
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 174 196	horizontal wind speeds
+T3	MeasuredProperty 202 210	averaged
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 219 222	min

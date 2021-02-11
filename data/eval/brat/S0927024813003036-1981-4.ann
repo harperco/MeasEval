@@ -1,0 +1,10 @@
+T1	Quantity 862 867	<10 s
+T2	Unit 866 867	s
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 822 829	samples
+T4	MeasuredProperty 835 841	cooled
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 807 816	estimated
+R3	Qualifies Arg1:T5 Arg2:T1	
+A2	IsApproximate T1

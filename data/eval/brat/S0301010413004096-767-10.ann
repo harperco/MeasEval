@@ -1,0 +1,6 @@
+T1	Quantity 762 765	5 K
+T2	Unit 764 765	K
+T3	MeasuredProperty 735 746	temperature
+T4	MeasuredEntity 790 813	scattering measurements
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,9 @@
+T1	Quantity 602 609	∼16 wt%
+A1	IsApproximate T1
+T2	Unit 606 609	wt%
+T3	MeasuredProperty 610 631	total uptake capacity
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 502 504	H2
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 431 469	Several members within this MOF family
+R3	Qualifies Arg1:T5 Arg2:T3	

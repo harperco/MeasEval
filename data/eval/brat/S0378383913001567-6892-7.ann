@@ -1,0 +1,3 @@
+T1	Quantity 208 216	121 × 53
+T2	MeasuredEntity 217 241	regular curvilinear grid
+R1	HasQuantity Arg1:T2 Arg2:T1	

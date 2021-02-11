@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1279	1	Quantity	81	85	T1-1	3 ms	{"unit": "ms"}
+S2213158213000582-1279	1	MeasuredEntity	86	101	T2-1	binaural clicks	{"HasQuantity": "T1-1"}
+S2213158213000582-1279	2	Quantity	143	149	T1-2	500 ms	{"unit": "ms"}
+S2213158213000582-1279	2	MeasuredProperty	150	173	T3-2	inter-stimulus interval	{"HasQuantity": "T1-2"}
+S2213158213000582-1279	2	MeasuredEntity	86	101	T2-2	binaural clicks	{"HasProperty": "T3-2"}
+S2213158213000582-1279	3	Quantity	211	229	T1-3	between 7 and 11 s	{"mods": ["IsRange"], "unit": "s"}
+S2213158213000582-1279	3	MeasuredProperty	183	210	T3-3	inter-trial interval jitter	{"HasQuantity": "T1-3"}
+S2213158213000582-1279	3	MeasuredEntity	86	101	T2-3	binaural clicks	{"HasProperty": "T3-3"}
+S2213158213000582-1279	4	Quantity	231	244	T1-4	averaging 9 s	{"mods": ["IsMean"], "unit": "s"}
+S2213158213000582-1279	4	MeasuredProperty	183	210	T3-4	inter-trial interval jitter	{"HasQuantity": "T1-4"}
+S2213158213000582-1279	4	MeasuredEntity	86	101	T2-4	binaural clicks	{"HasProperty": "T3-4"}
+S2213158213000582-1279	5	Quantity	358	363	T1-5	35 dB	{"unit": "dB"}
+S2213158213000582-1279	5	MeasuredProperty	316	330	T3-5	peak intensity	{"HasQuantity": "T1-5"}
+S2213158213000582-1279	5	MeasuredEntity	338	343	T2-5	click	{"HasProperty": "T3-5"}
+S2213158213000582-1279	5	Qualifier	364	402	T4-5	above each subject's hearing threshold	{"Qualifies": "T1-5"}
+S2213158213000582-1279	6	Quantity	415	418	T1-6	150	{"mods": ["IsCount"]}
+S2213158213000582-1279	6	MeasuredEntity	419	431	T2-6	click trials	{"HasQuantity": "T1-6"}
+S2213158213000582-1279	7	Quantity	462	486	T1-7	approximately 25 minutes	{"mods": ["IsApproximate"], "unit": "minutes"}
+S2213158213000582-1279	7	MeasuredProperty	437	445	T3-7	duration	{"HasQuantity": "T1-7"}
+S2213158213000582-1279	7	MeasuredEntity	453	457	T2-7	task	{"HasProperty": "T3-7"}
+S2213158213000582-1279	8	Quantity	556	569	T1-8	50 and 100 ms	{"mods": ["IsList"], "unit": "ms"}
+S2213158213000582-1279	8	MeasuredEntity	541	552	T2-8	S1 activity	{"HasQuantity": "T1-8"}

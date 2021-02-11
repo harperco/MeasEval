@@ -1,0 +1,9 @@
+T1	Quantity 145 157	about 10 min
+T2	Qualifier 37 56	Venus Express (VEX)
+T3	MeasuredEntity 67 72	orbit
+R1	Qualifies Arg1:T2 Arg2:T3	
+A1	IsApproximate T1
+T4	Unit 154 157	min
+T5	MeasuredProperty 158 181	spent in the ionosphere
+R2	HasProperty Arg1:T3 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

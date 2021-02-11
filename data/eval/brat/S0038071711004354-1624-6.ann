@@ -1,0 +1,6 @@
+T1	Quantity 528 533	30 cm
+T2	Unit 531 533	cm
+T3	MeasuredProperty 534 564	distance from the dual-chamber
+T4	MeasuredEntity 488 505	reference chamber
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

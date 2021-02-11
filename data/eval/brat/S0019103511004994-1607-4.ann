@@ -1,0 +1,6 @@
+T1	Quantity 506 509	two
+T2	MeasuredEntity 510 516	panels
+T3	Qualifier 500 505	lower
+R1	Qualifies Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

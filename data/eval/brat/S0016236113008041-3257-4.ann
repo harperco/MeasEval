@@ -1,0 +1,5 @@
+T1	Quantity 400 415	4.5 kg and 6 kg
+T2	Unit 413 415	kg
+T3	MeasuredEntity 416 423	samples
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsList

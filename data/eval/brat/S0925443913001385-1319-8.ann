@@ -1,0 +1,4 @@
+T1	Quantity 3445 3458	80 components
+T2	Unit 3448 3458	components
+T3	MeasuredEntity 3362 3390	mammalian mitoribosome (55S)
+R1	HasQuantity Arg1:T3 Arg2:T1	

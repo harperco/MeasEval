@@ -1,0 +1,4 @@
+T1	Quantity 194 199	20 °C
+T2	MeasuredEntity 146 190	unmodified and S-CSR-modified epoxy polymers
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 197 199	°C

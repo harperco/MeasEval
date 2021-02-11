@@ -1,0 +1,4 @@
+T1	Quantity 1265 1270	34 °C
+T2	Unit 1268 1270	°C
+T3	MeasuredEntity 1244 1263	ambient temperature
+R1	HasQuantity Arg1:T3 Arg2:T1	

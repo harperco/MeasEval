@@ -1,0 +1,6 @@
+T1	Quantity 1724 1730	100 ms
+T2	Unit 1728 1730	ms
+T3	MeasuredProperty 1731 1748	auditory activity
+T4	MeasuredEntity 1752 1817	middle temporal gyrus, parietal, cingulate, and occipital regions
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

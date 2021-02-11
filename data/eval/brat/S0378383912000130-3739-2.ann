@@ -1,0 +1,6 @@
+T1	Quantity 102 105	2 s
+T2	MeasuredProperty 98 99	t
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 104 105	s
+T4	MeasuredEntity 25 77	agreement between model predictions and measurements
+R2	HasProperty Arg1:T4 Arg2:T2	

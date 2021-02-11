@@ -1,0 +1,4 @@
+T1	Quantity 207 225	0.15 g CO2 m−2 h−1
+T2	MeasuredEntity 175 203	heterotrophic component flux
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 212 225	g CO2 m−2 h−1

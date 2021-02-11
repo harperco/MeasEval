@@ -1,0 +1,5 @@
+T1	Quantity 310 317	up to 9
+T2	MeasuredEntity 318 332	minor elements
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1
+A2	QuantityQualifier T1 IsRange

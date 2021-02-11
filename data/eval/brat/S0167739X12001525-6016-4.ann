@@ -1,0 +1,9 @@
+T1	Quantity 506 514	below 5%
+T2	Qualifier 518 525	average
+A1	QuantityQualifier T1 IsMeanIsRange
+T3	Unit 513 514	%
+T4	MeasuredEntity 473 500	Five out of eight scenarios
+T5	MeasuredProperty 410 426	executes actions
+R1	Qualifies Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T4 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

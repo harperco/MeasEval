@@ -1,0 +1,7 @@
+T1	Quantity 540 553	more than 10%
+T2	MeasuredEntity 444 464	program's statements
+T3	MeasuredProperty 528 536	clusters
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 552 553	%
+A1	QuantityQualifier T1 IsRange

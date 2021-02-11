@@ -1,0 +1,5 @@
+T1	Quantity 672 676	zero
+T2	MeasuredProperty 582 619	overall impact on annual energy yield
+T3	MeasuredEntity 685 703	other technologies
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

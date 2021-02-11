@@ -1,0 +1,6 @@
+T1	Quantity 412 417	1 day
+T2	MeasuredEntity 364 370	sample
+T3	MeasuredProperty 375 383	degassed
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	
+T4	Unit 414 417	day

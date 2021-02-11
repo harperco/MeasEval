@@ -1,0 +1,8 @@
+T1	Quantity 324 333	over 14 h
+T2	Unit 332 333	h
+T3	MeasuredEntity 240 244	data
+T4	Qualifier 250 259	collected
+T5	MeasuredProperty 274 280	period
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasProperty Arg1:T3 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

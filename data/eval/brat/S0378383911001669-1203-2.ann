@@ -1,0 +1,4 @@
+T1	Quantity 426 433	0.072 m
+T2	Unit 432 433	m
+T3	MeasuredEntity 395 418	1.3 mm sand-rough beach
+R1	HasQuantity Arg1:T3 Arg2:T1	

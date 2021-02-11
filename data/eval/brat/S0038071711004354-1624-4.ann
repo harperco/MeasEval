@@ -1,0 +1,7 @@
+T1	Quantity 322 347	approximately four months
+T3	MeasuredEntity 177 185	mesocosm
+T4	MeasuredProperty 264 284	kept in a glasshouse
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+A1	IsApproximate T1
+T2	Unit 341 347	months

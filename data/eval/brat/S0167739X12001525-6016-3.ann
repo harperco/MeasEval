@@ -1,0 +1,5 @@
+T1	Quantity 473 490	Five out of eight
+T2	MeasuredEntity 491 500	scenarios
+T3	MeasuredProperty 501 525	stay below 5% on average
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

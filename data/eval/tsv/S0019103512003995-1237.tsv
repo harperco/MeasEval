@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1237	1	Quantity	237	252	T1-1	2.23 × 1019 m−2	{"unit": "m−2"}
+S0019103512003995-1237	1	MeasuredProperty	189	203	T4-1	column density	{"HasQuantity": "T1-1"}
+S0019103512003995-1237	1	MeasuredEntity	207	233	T3-1	ground state C+ in the ISM	{"HasProperty": "T4-1"}
+S0019103512003995-1237	2	Quantity	312	323	T1-2	−6.6 km s−1	{"unit": "km s−1"}
+S0019103512003995-1237	2	MeasuredProperty	258	275	T3-2	relative velocity	{"HasQuantity": "T1-2"}
+S0019103512003995-1237	2	MeasuredEntity	283	286	T4-2	ISM	{"HasProperty": "T3-2"}
+S0019103512003995-1237	2	Qualifier	292	308	T5-2	respect to Earth	{"Qualifies": "T3-2"}
+S0019103512003995-1237	3	Quantity	388	399	T1-3	12.3 km s−1	{"unit": "km s−1"}
+S0019103512003995-1237	3	MeasuredProperty	332	358	T2-3	effective thermal velocity	{"HasQuantity": "T1-3"}
+S0019103512003995-1237	3	MeasuredEntity	359	384	T3-3	along the LOS to the star	{"HasProperty": "T2-3"}
+S0019103512003995-1237	4	Quantity	607	613	T1-4	17,500	{"unit": "R"}
+S0019103512003995-1237	4	MeasuredEntity	580	599	T2-4	spectral resolution	{"HasQuantity": "T1-4"}

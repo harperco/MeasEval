@@ -1,0 +1,8 @@
+T1	Quantity 979 986	1000 °C
+T2	Qualifier 991 1002	calcination
+R1	Qualifies Arg1:T2 Arg2:T1	
+T3	MeasuredProperty 898 909	temperature
+T4	Unit 984 986	°C
+T5	MeasuredEntity 755 764	modelling
+R2	HasProperty Arg1:T5 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

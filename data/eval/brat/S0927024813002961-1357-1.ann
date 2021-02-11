@@ -1,0 +1,9 @@
+T1	Quantity 89 110	not more than 0.65%/a
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 76 83	devices
+T4	MeasuredProperty 111 122	degradation
+R2	HasProperty Arg1:T3 Arg2:T4	
+T5	Qualifier 19 23	P700
+R3	Qualifies Arg1:T5 Arg2:T4	
+R4	HasQuantity Arg1:T4 Arg2:T1	
+T6	Unit 107 110	%/a

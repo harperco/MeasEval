@@ -1,0 +1,7 @@
+T1	Quantity 303 307	∼70%
+T2	MeasuredProperty 223 294	signatures of unaccelerated electron precipitation from electron spikes
+T3	MeasuredEntity 153 186	electron precipitation signatures
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 306 307	%
+A1	IsApproximate T1

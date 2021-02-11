@@ -1,0 +1,7 @@
+T1	Quantity 96 109	over 20 years
+T2	Unit 104 109	years
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 4 30	cumulative lifetime output
+T4	MeasuredEntity 43 52	wind farm
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

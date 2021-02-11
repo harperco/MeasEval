@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312002437-586	1	Quantity	369	375	T1-1	400 km	{"mods": ["IsRange"], "unit": "km"}
+S0032063312002437-586	1	MeasuredProperty	357	365	T4-1	altitude	{"HasQuantity": "T1-1"}
+S0032063312002437-586	1	MeasuredEntity	298	308	T5-1	ionosphere	{"HasProperty": "T4-1"}
+S0032063312002437-586	1	Qualifier	348	353	T2-1	above	{"Qualifies": "T1-1"}
+S0032063312002437-586	2	Quantity	448	460	T1-2	below 400 km	{"mods": ["IsRange"]}
+S0032063312002437-586	2	MeasuredProperty	357	365	T3-2	altitude	{"HasQuantity": "T1-2"}
+S0032063312002437-586	2	MeasuredEntity	298	308	T2-2	ionosphere	{"HasProperty": "T3-2"}
+S0032063312002437-586	3	Quantity	1115	1122	T1-3	∼140 km	{"mods": ["IsApproximate"], "unit": "km"}
+S0032063312002437-586	3	MeasuredProperty	1067	1075	T2-3	altitude	{"HasQuantity": "T1-3"}
+S0032063312002437-586	3	MeasuredEntity	1103	1113	T4-3	ionosphere	{"HasProperty": "T2-3"}

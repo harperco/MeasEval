@@ -1,0 +1,1 @@
+Between-group analyses for 50 ms activity. Activation clusters in yellow/red (thresholded at FDR q < 0.05) show stronger activity in HC than SZ (HC > SZ). Activation clusters (thresholded at FDR q < 0.05) in blue show stronger activity in SZ than HC (SZ > HC). The effect sizes for L-STG, R-Frontal and R-SFG M50 measures are provided in Table 2.

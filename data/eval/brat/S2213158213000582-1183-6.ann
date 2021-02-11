@@ -1,0 +1,4 @@
+T1	Quantity 1105 1111	100 ms
+T2	Unit 1109 1111	ms
+T3	MeasuredEntity 1112 1130	auditory processes
+R1	HasQuantity Arg1:T3 Arg2:T1	

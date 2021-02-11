@@ -1,0 +1,6 @@
+T1	Quantity 936 943	5.65 fm
+T2	MeasuredEntity 931 932	F
+T3	MeasuredProperty 843 869	neutron scattering lengths
+T4	Unit 941 943	fm
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

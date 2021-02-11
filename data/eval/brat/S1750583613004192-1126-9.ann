@@ -1,0 +1,5 @@
+T1	Quantity 1668 1686	approximately 1 km
+A1	IsApproximate T1
+T2	MeasuredEntity 1690 1693	ice
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 1684 1686	km

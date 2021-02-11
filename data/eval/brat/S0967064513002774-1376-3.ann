@@ -1,0 +1,4 @@
+T1	Quantity 416 419	Ten
+T2	MeasuredEntity 420 428	chambers
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

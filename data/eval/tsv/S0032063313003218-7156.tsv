@@ -1,0 +1,29 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-7156	1	Quantity	139	142	T1-1	~6×	{"mods": ["IsApproximate"]}
+S0032063313003218-7156	1	MeasuredProperty	82	137	T2-1	power dissipated in the atmosphere due to Joule heating	{"HasQuantity": "T1-1"}
+S0032063313003218-7156	1	MeasuredEntity	2	42	T3-1	transient magnetospheric expansion event	{"HasProperty": "T2-1"}
+S0032063313003218-7156	1	Qualifier	151	153	T5-1	ES	{"Qualifies": "T1-1"}
+S0032063313003218-7156	2	Quantity	176	179	T1-2	~3×	{"mods": ["IsApproximate"]}
+S0032063313003218-7156	2	MeasuredProperty	82	116	T2-2	power dissipated in the atmosphere	{"HasQuantity": "T1-2"}
+S0032063313003218-7156	2	MeasuredEntity	2	42	T3-2	transient magnetospheric expansion event	{"HasProperty": "T2-2"}
+S0032063313003218-7156	2	Qualifier	159	174	T4-2	ion drag energy	{"Qualifies": "T2-2"}
+S0032063313003218-7156	2	Qualifier	188	190	T5-2	ES	{"Qualifies": "T1-2"}
+S0032063313003218-7156	3	Quantity	272	275	T1-3	~7×	{"mods": ["IsApproximate"]}
+S0032063313003218-7156	3	MeasuredProperty	207	217	T2-3	power used	{"HasQuantity": "T1-3"}
+S0032063313003218-7156	3	MeasuredEntity	221	268	T3-3	accelerate the magnetosphere towards corotation	{"HasProperty": "T2-3"}
+S0032063313003218-7156	3	Qualifier	284	286	T4-3	ES	{"Qualifies": "T1-3"}
+S0032063313003218-7156	4	Quantity	372	379	T1-4	~2600TW	{"mods": ["IsApproximate"], "unit": "TW"}
+S0032063313003218-7156	4	MeasuredProperty	342	353	T3-4	total power	{"HasQuantity": "T1-4"}
+S0032063313003218-7156	4	MeasuredEntity	358	368	T4-4	hemisphere	{"HasProperty": "T3-4"}
+S0032063313003218-7156	5	Quantity	389	407	T1-5	three times larger	
+S0032063313003218-7156	5	MeasuredProperty	358	368	T2-5	hemisphere	{"HasQuantity": "T1-5"}
+S0032063313003218-7156	5	MeasuredEntity	342	353	T4-5	total power	{"HasProperty": "T2-5"}
+S0032063313003218-7156	5	Qualifier	417	445	T3-5	responsive thermosphere case	{"Qualifies": "T1-5"}
+S0032063313003218-7156	6	Quantity	663	667	T1-6	~75%	{"mods": ["IsApproximate"], "unit": "%"}
+S0032063313003218-7156	6	MeasuredProperty	684	693	T4-6	magnitude	{"HasQuantity": "T1-6"}
+S0032063313003218-7156	6	MeasuredEntity	697	719	T5-6	‘magnetospheric’ power	{"HasProperty": "T4-6"}
+S0032063313003218-7156	6	Qualifier	668	676	T3-6	decrease	{"Qualifies": "T1-6"}
+S0032063313003218-7156	7	Quantity	1156	1159	T1-7	30%	{"unit": "%"}
+S0032063313003218-7156	7	MeasuredProperty	1110	1147	T5-7	total power per hemisphere in case EF	{"HasQuantity": "T1-7"}
+S0032063313003218-7156	7	MeasuredEntity	1173	1175	T4-7	ES	{"HasProperty": "T5-7"}
+S0032063313003218-7156	7	Qualifier	1110	1136	T3-7	total power per hemisphere	{"Qualifies": "T4-7"}

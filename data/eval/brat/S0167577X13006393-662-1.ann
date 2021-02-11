@@ -1,0 +1,5 @@
+T1	Quantity 59 71	1 ml or 5 ml
+T2	Unit 69 71	ml
+A1	QuantityQualifier T1 IsList
+T3	MeasuredEntity 72 79	syringe
+R1	HasQuantity Arg1:T3 Arg2:T1	

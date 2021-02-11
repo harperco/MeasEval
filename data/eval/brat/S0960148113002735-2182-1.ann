@@ -1,0 +1,5 @@
+T1	Quantity 938 953	1050 and 1170 s
+A1	QuantityQualifier T1 IsList
+T2	Unit 952 953	s
+T3	MeasuredEntity 964 1016	increase in rotational velocity for turbines 1 and 3
+R3	HasQuantity Arg1:T3 Arg2:T1	

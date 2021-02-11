@@ -1,0 +1,6 @@
+T1	Quantity 236 243	1.46 nm
+T2	MeasuredEntity 248 251	CDC
+T3	MeasuredProperty 178 201	surface roughness [RMS]
+T4	Unit 241 243	nm
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 60 65	28.5%
+T2	MeasuredProperty 66 77	load factor
+T3	Unit 64 65	%
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 36 52	100 MW wind farm
+R2	HasProperty Arg1:T4 Arg2:T2	

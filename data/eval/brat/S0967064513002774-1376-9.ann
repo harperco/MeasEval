@@ -1,0 +1,8 @@
+T1	Quantity 868 877	T+21 days
+T2	Qualifier 843 864	Following incubations
+T3	Unit 873 877	days
+T4	MeasuredEntity 879 888	fragments
+T5	MeasuredProperty 894 901	removed
+R1	HasProperty Arg1:T4 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T2 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 512 515	10%
+T2	Unit 514 515	%
+T3	MeasuredEntity 495 508	discount rate
+R1	HasQuantity Arg1:T3 Arg2:T1	

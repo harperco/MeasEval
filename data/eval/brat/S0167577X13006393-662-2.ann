@@ -1,0 +1,6 @@
+T1	Quantity 212 218	1 ml/h
+T2	Unit 214 218	ml/h
+T3	MeasuredProperty 204 208	rate
+T4	MeasuredEntity 144 198	solution was pushed towards the electrospinning nozzle
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

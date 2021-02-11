@@ -1,0 +1,4 @@
+T1	Quantity 393 399	835 μg
+T2	Unit 397 399	μg
+T3	MeasuredEntity 370 391	mitochondrial lysates
+R1	HasQuantity Arg1:T3 Arg2:T1	

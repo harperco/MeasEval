@@ -1,0 +1,6 @@
+T1	Quantity 437 451	640 m × 320 m.
+T2	MeasuredEntity 419 428	rectangle
+T3	MeasuredProperty 432 436	size
+T4	Unit 449 450	m
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

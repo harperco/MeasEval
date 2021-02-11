@@ -1,0 +1,6 @@
+T1	Quantity 343 346	89%
+T2	Unit 345 346	%
+T3	MeasuredProperty 371 464	contained at least one dependence cluster composed of 10% or more of the program's statements
+T4	MeasuredEntity 354 370	programs studied
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

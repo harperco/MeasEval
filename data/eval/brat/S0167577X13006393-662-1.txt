@@ -1,0 +1,1 @@
+Electrospinning: The polymer solution was transferred to a 1 ml or 5 ml syringe and positioned in the pump for the electrospinning process. The solution was pushed towards the electrospinning nozzle at a rate of 1 ml/h and the voltage was set at 12.2 kV. The electrospun fibres were collected in the form of a random mesh, as described previously in [7].

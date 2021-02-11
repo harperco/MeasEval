@@ -1,0 +1,7 @@
+T1	Quantity 43 50	14.8 °C
+T2	MeasuredEntity 7 11	site
+T3	MeasuredProperty 16 39	mean annual temperature
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsMean
+T4	Unit 48 50	°C

@@ -1,0 +1,6 @@
+T1	Quantity 572 575	9.8
+T2	MeasuredProperty 458 528	signatures of accelerated electron precipitation from peaked electrons
+T3	MeasuredEntity 588 598	MEX orbits
+T4	Unit 583 584	%
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

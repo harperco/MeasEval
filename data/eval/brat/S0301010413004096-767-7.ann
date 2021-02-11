@@ -1,0 +1,7 @@
+T1	Quantity 579 588	5 ± 0.2 K
+T2	Unit 587 588	K
+A1	QuantityQualifier T1 HasTolerance
+T3	MeasuredEntity 561 577	electric heaters
+T4	MeasuredProperty 468 479	temperature
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

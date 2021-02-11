@@ -1,0 +1,9 @@
+T1	Quantity 139 147	15–35 km
+T2	Unit 145 147	km
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 122 126	Rhea
+T4	MeasuredProperty 129 137	diameter
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 148 184	for electrons between 20 and 100 keV
+R3	Qualifies Arg1:T5 Arg2:T4	

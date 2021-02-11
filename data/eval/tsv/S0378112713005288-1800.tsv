@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1800	1	Quantity	26	33	T1-1	2 × 2 m	{"unit": "m"}
+S0378112713005288-1800	1	MeasuredEntity	34	52	T2-1	temporary quadrats	{"HasQuantity": "T1-1"}
+S0378112713005288-1800	2	Quantity	388	392	T1-2	1140	{"mods": ["IsCount"]}
+S0378112713005288-1800	2	MeasuredEntity	393	401	T2-2	quadrats	{"HasQuantity": "T1-2"}
+S0378112713005288-1800	3	Quantity	532	538	T1-3	⩽50 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0378112713005288-1800	3	MeasuredProperty	525	531	T3-3	height	{"HasQuantity": "T1-3"}
+S0378112713005288-1800	3	MeasuredEntity	508	517	T4-3	seedlings	{"HasProperty": "T3-3"}
+S0378112713005288-1800	4	Quantity	565	571	T1-4	>50 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0378112713005288-1800	4	MeasuredProperty	558	564	T3-4	height	{"HasQuantity": "T1-4"}
+S0378112713005288-1800	4	MeasuredEntity	542	550	T2-4	saplings	{"HasProperty": "T3-4"}
+S0378112713005288-1800	5	Quantity	714	718	T1-5	<2 m	{"unit": "m"}
+S0378112713005288-1800	5	MeasuredProperty	719	723	T3-5	tall	{"HasQuantity": "T1-5"}
+S0378112713005288-1800	5	MeasuredEntity	708	713	T2-5	trees	{"HasProperty": "T3-5"}
+S0378112713005288-1800	6	Quantity	953	965	T1-6	within 250 m	{"mods": ["IsRange"], "unit": "m"}
+S0378112713005288-1800	6	MeasuredProperty	971	989	T4-6	native seed source	{"HasQuantity": "T1-6"}
+S0378112713005288-1800	6	MeasuredEntity	935	948	T2-6	sampled plots	{"HasProperty": "T4-6"}
+S0378112713005288-1800	7	Quantity	1109	1118	T1-7	2 or more	{"mods": ["IsCount", "IsRange"]}
+S0378112713005288-1800	7	MeasuredEntity	1119	1126	T2-7	species	{"HasQuantity": "T1-7"}
+S0378112713005288-1800	8	Quantity	1187	1201	T1-8	more than 100%	{"mods": ["IsRange"], "unit": "%"}
+S0378112713005288-1800	8	MeasuredEntity	1167	1183	T2-8	vegetation cover	{"HasQuantity": "T1-8"}

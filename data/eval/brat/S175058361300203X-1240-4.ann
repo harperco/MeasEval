@@ -1,0 +1,11 @@
+T1	Quantity 696 718	approximately 7.73 MPa
+T2	MeasuredEntity 365 384	reservoir at Ketzin
+T4	MeasuredProperty 653 661	pressure
+T5	Qualifier 639 651	October 2009
+R2	HasProperty Arg1:T2 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	
+R4	Qualifies Arg1:T5 Arg2:T4	
+T6	Unit 715 718	MPa
+A1	IsApproximate T1
+T3	Qualifier 744 801	in the injection well Ktzi201/2007 at the injection depth
+R1	Qualifies Arg1:T3 Arg2:T2	

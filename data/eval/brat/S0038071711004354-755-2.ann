@@ -1,0 +1,9 @@
+T1	Quantity 596 615	approximately 2.5 h
+A1	IsApproximate T1
+T2	Unit 614 615	h
+T3	MeasuredEntity 557 578	δ13C value of the CO2
+T4	MeasuredProperty 579 589	stabilised
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 590 595	after
+R3	Qualifies Arg1:T5 Arg2:T1	

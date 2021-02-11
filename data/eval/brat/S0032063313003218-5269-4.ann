@@ -1,0 +1,5 @@
+T1	Quantity 352 366	on September 8
+T4	MeasuredEntity 51 72	auroral heating event
+T2	MeasuredProperty 29 42	infrared data
+R2	HasProperty Arg1:T4 Arg2:T2	
+R1	HasQuantity Arg1:T2 Arg2:T1	

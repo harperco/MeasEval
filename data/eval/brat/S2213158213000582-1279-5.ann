@@ -1,0 +1,8 @@
+T1	Quantity 358 363	35 dB
+T2	MeasuredEntity 338 343	click
+T3	MeasuredProperty 316 330	peak intensity
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 364 402	above each subject's hearing threshold
+R3	Qualifies Arg1:T4 Arg2:T1	
+T5	Unit 361 363	dB

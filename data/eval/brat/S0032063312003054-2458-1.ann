@@ -1,0 +1,6 @@
+T1	Quantity 190 195	43.0%
+T2	MeasuredProperty 135 186	ASPERA-3 observes electron precipitation signatures
+T3	MeasuredEntity 199 217	MEX orbits at Mars
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 194 195	%

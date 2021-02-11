@@ -1,0 +1,7 @@
+T1	Quantity 1231 1232	1
+T2	MeasuredEntity 1209 1218	TimeT,s,C
+T3	MeasuredProperty 1219 1227	switches
+T4	Qualifier 1233 1247	at time tE(tR)
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	

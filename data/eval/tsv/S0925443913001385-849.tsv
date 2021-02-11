@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-849	1	Quantity	289	303	T1-1	2, 5 and 10 μg	{"mods": ["IsList"], "unit": "μg"}
+S0925443913001385-849	1	MeasuredProperty	280	287	T4-1	amounts	{"HasQuantity": "T1-1"}
+S0925443913001385-849	1	MeasuredEntity	314	318	T3-1	RNAs	{"HasProperty": "T4-1"}
+S0925443913001385-849	2	Quantity	393	399	T1-2	835 μg	{"unit": "μg"}
+S0925443913001385-849	2	MeasuredEntity	370	391	T3-2	mitochondrial lysates	{"HasQuantity": "T1-2"}

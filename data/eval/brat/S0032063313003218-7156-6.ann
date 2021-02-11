@@ -1,0 +1,9 @@
+T1	Quantity 663 667	~75%
+A1	IsApproximate T1
+T2	Unit 666 667	%
+T3	Qualifier 668 676	decrease
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	MeasuredProperty 684 693	magnitude
+T5	MeasuredEntity 697 719	‘magnetospheric’ power
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

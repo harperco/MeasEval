@@ -1,0 +1,4 @@
+T1	Quantity 306 312	100 ms
+T2	Unit 310 312	ms
+T3	MeasuredEntity 313 335	auditory abnormalities
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 607 613	17,500
+T2	MeasuredEntity 580 599	spectral resolution
+T3	Unit 603 604	R
+R1	HasQuantity Arg1:T2 Arg2:T1	

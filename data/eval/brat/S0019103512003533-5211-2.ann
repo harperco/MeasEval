@@ -1,0 +1,4 @@
+T1	Quantity 356 359	78°
+T2	Unit 358 359	°
+T3	MeasuredEntity 347 355	latitude
+R1	HasQuantity Arg1:T3 Arg2:T1	

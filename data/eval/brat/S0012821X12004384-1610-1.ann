@@ -1,0 +1,6 @@
+T1	Quantity 90 98	2617.4 m
+T2	Unit 97 98	m
+T3	MeasuredEntity 4 14	brief peak
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 15 30	in Apectodinium
+R2	Qualifies Arg1:T4 Arg2:T3	

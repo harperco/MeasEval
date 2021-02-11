@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-858	1	Quantity	109	115	T1-1	60 min	{"mods": ["IsApproximate"], "unit": "min"}
+S0167610513001001-858	1	MeasuredProperty	88	105	T3-1	averaging periods	{"HasQuantity": "T1-1"}
+S0167610513001001-858	1	MeasuredEntity	0	82	T4-1	Mean, median and interquartile range of lidar error variances due to sampling rate	{"HasProperty": "T3-1"}

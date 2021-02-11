@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2578	1	Quantity	70	90	T1-1	within the top 30 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0038071711004354-2578	1	MeasuredProperty	43	57	T4-1	CO2 production	{"HasQuantity": "T1-1"}
+S0038071711004354-2578	1	MeasuredEntity	98	110	T3-1	soil profile	{"HasProperty": "T4-1"}

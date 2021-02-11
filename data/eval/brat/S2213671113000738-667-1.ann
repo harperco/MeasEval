@@ -1,0 +1,6 @@
+T1	Quantity 370 378	25 ng/ml
+T2	Unit 373 378	ng/ml
+T3	MeasuredEntity 345 368	interferon gamma (IFN-γ
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 379 388	for 48 hr
+R2	Qualifies Arg1:T4 Arg2:T3	

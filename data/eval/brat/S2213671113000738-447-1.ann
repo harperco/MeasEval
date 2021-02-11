@@ -1,0 +1,7 @@
+T1	Quantity 234 238	>10%
+T2	MeasuredProperty 139 154	colored letters
+T3	MeasuredEntity 242 261	cDNA sequence reads
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 237 238	%
+A1	QuantityQualifier T1 IsRange

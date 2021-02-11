@@ -1,0 +1,7 @@
+T1	Quantity 3828 3833	~ 70%
+T2	Unit 3832 3833	%
+A1	IsApproximate T1
+T3	MeasuredEntity 3798 3819	70S and 80S particles
+T4	MeasuredProperty 3834 3838	rRNA
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

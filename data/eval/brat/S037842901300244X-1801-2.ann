@@ -1,0 +1,6 @@
+T1	Quantity 575 584	484 g m−2
+T2	MeasuredProperty 560 573	panicle yield
+T3	MeasuredEntity 612 614	FS
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 579 584	g m−2

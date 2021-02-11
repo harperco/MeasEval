@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4574	1	Quantity	454	457	T1-1	50%	{"unit": "%"}
+S0168945213001805-4574	1	MeasuredProperty	458	472	T3-1	mortality rate	{"HasQuantity": "T1-1"}
+S0168945213001805-4574	1	MeasuredEntity	378	395	T2-1	transgenic plants	{"HasProperty": "T3-1"}
+S0168945213001805-4574	1	Qualifier	400	422	T4-1	malformed root systems	{"Qualifies": "T2-1"}
+S0168945213001805-4574	1	Qualifier	473	490	T5-1	in the greenhouse	{"Qualifies": "T3-1"}

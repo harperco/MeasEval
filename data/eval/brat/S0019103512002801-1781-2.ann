@@ -1,0 +1,7 @@
+T1	Quantity 123 129	≈ 170°
+A1	IsApproximate T1
+T2	Unit 128 129	°
+T3	MeasuredProperty 109 122	pitch angle α
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 67 76	electrons
+R2	HasProperty Arg1:T4 Arg2:T3	

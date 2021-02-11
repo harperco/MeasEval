@@ -1,0 +1,6 @@
+T1	Quantity 1628 1636	54.68 nm
+T2	MeasuredProperty 1580 1597	surface roughness
+T3	MeasuredEntity 1362 1371	CVD layer
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1634 1636	nm

@@ -1,0 +1,5 @@
+T1	Quantity 1187 1201	more than 100%
+T2	MeasuredEntity 1167 1183	vegetation cover
+A1	QuantityQualifier T1 IsRange
+T3	Unit 1200 1201	%
+R1	HasQuantity Arg1:T2 Arg2:T1	

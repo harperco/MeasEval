@@ -1,0 +1,7 @@
+T1	Quantity 565 571	>50 cm
+T2	MeasuredEntity 542 550	saplings
+T3	MeasuredProperty 558 564	height
+T4	Unit 569 571	cm
+A1	QuantityQualifier T1 IsRange
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

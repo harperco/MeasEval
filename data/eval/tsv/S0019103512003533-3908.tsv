@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3908	1	Quantity	259	264	T1-1	0.125	
+S0019103512003533-3908	1	MeasuredEntity	249	255	T2-1	factor	{"HasQuantity": "T1-1"}
+S0019103512003533-3908	2	Quantity	315	358	T1-2	from k1 = 2 × 10−9 to k1 = 1 × 10−9 cm3 s−1	{"mods": ["IsRange"], "unit": "cm3 s−1"}
+S0019103512003533-3908	2	MeasuredEntity	287	313	T3-2	average base reaction rate	{"HasQuantity": "T1-2"}
+S0019103512003533-3908	2	Qualifier	279	286	T4-2	revised	{"Qualifies": "T3-2"}
+S0019103512003533-3908	3	Quantity	477	478	T1-3	4	
+S0019103512003533-3908	3	MeasuredEntity	467	473	T2-3	factor	{"HasQuantity": "T1-3"}

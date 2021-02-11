@@ -1,0 +1,9 @@
+T1	Quantity 430 435	19.8%
+T2	MeasuredProperty 410 426	executes actions
+T3	MeasuredEntity 443 448	cases
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 434 435	%
+A1	QuantityQualifier T1 IsMean
+T5	Qualifier 452 459	average
+R3	Qualifies Arg1:T5 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Quantity 414 425	three weeks
+T2	Qualifier 426 443	later than the FS
+R1	Qualifies Arg1:T2 Arg2:T4	
+T3	Unit 420 425	weeks
+T4	MeasuredProperty 405 413	flowered
+T5	MeasuredEntity 392 404	S1 progenies
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

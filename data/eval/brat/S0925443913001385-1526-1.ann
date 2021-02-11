@@ -1,0 +1,4 @@
+T1	Quantity 170 174	5 μg
+T2	MeasuredEntity 153 168	aliquots of RNA
+T3	Unit 172 174	μg
+R1	HasQuantity Arg1:T2 Arg2:T1	

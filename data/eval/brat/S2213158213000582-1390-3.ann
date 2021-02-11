@@ -1,0 +1,6 @@
+T1	Quantity 234 239	50-ms
+T2	Unit 237 239	ms
+T3	MeasuredEntity 200 233	left and right IFG (L-IFG, R-IFG)
+T4	MeasuredProperty 240 248	activity
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

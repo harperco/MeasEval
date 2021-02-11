@@ -1,0 +1,6 @@
+T1	Quantity 124 129	20 °C
+T2	MeasuredEntity 46 60	epoxy polymers
+T3	MeasuredProperty 61 69	modified
+T4	Unit 127 129	°C
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T3	

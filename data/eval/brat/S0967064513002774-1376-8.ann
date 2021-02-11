@@ -1,0 +1,7 @@
+T1	Quantity 832 841	below 80%
+T2	MeasuredEntity 801 818	oxygen saturation
+T3	MeasuredProperty 819 831	did not fall
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 840 841	%

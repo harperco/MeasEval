@@ -1,0 +1,1 @@
+Similar to the 50 ms group maps, group contrast maps at 100 ms (Fig. 4) showed group differences in STG and non-STG regions (FDR q < 0.05). HC had stronger activity in L-STG, R-STG, R-ITG, R-IFG, and the posterior part of right SFG (R-SFG_p)/SMA than SZ at 100 ms. SZ had stronger activity in R-SFG, posterior part of left SFG (L-SFG_p)/SMA, and L-SMG than HC at 100 ms.

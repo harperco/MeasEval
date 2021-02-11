@@ -1,0 +1,6 @@
+T1	Quantity 125 131	100 cm
+T2	MeasuredEntity 100 108	mesocosm
+T3	MeasuredProperty 132 136	wide
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 129 131	cm

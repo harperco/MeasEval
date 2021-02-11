@@ -1,0 +1,6 @@
+T1	Quantity 460 464	0.5‰
+T2	MeasuredProperty 465 484	VPDB negative shift
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 439 444	OAE 2
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Unit 463 464	‰

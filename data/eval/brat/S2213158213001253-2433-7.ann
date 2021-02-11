@@ -1,0 +1,7 @@
+T1	Quantity 764 777	approached 0%
+T2	Unit 776 777	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 745 763	true positive rate
+T4	MeasuredEntity 643 655	ROC for fMRI
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

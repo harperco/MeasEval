@@ -1,0 +1,6 @@
+T1	Quantity 112 118	100 ms
+T2	MeasuredProperty 119 138	auditory amplitudes
+T3	Unit 116 118	ms
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 142 172	individuals with schizophrenia
+R2	HasProperty Arg1:T4 Arg2:T2	

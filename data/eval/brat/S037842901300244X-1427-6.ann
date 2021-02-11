@@ -1,0 +1,6 @@
+T1	Quantity 956 963	49%/31%
+T2	Unit 962 963	%
+T3	MeasuredProperty 964 997	higher panicle yield of the C5-FS
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 765 807	accumulated percentage gain from selection
+R2	HasProperty Arg1:T4 Arg2:T3	

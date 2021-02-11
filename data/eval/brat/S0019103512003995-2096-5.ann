@@ -1,0 +1,8 @@
+T1	Quantity 1049 1069	approximately 8250 K
+T2	MeasuredProperty 996 1012	mean temperature
+T3	MeasuredEntity 1020 1045	thermosphere of HD209458b
+T4	Unit 1068 1069	K
+A1	IsApproximate T1
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A2	QuantityQualifier T1 IsMean

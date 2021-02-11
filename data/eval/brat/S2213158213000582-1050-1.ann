@@ -1,0 +1,4 @@
+T1	Quantity 148 160	30 to 130 ms
+T2	Unit 158 160	ms
+T3	MeasuredEntity 122 142	whole-brain measures
+R1	HasQuantity Arg1:T3 Arg2:T1	

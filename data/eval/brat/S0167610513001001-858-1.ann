@@ -1,0 +1,7 @@
+T1	Quantity 109 115	60 min
+T2	Unit 112 115	min
+A1	IsApproximate T1
+T3	MeasuredProperty 88 105	averaging periods
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 0 82	Mean, median and interquartile range of lidar error variances due to sampling rate
+R2	HasProperty Arg1:T4 Arg2:T3	

@@ -1,0 +1,9 @@
+T1	Quantity 158 161	14%
+T2	MeasuredProperty 162 190	larger than the High setting
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 160 161	%
+T4	MeasuredEntity 121 148	Low setting produces slices
+A1	QuantityQualifier T1 IsMean
+R2	HasProperty Arg1:T4 Arg2:T2	
+T5	Qualifier 108 115	average
+R3	Qualifies Arg1:T5 Arg2:T1	

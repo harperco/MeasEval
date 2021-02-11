@@ -1,0 +1,4 @@
+T1	Quantity 839 843	nine
+T2	MeasuredEntity 844 859	thin CO2 layers
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

@@ -1,0 +1,7 @@
+T1	Quantity 796 799	≈2%
+A1	IsApproximate T1
+T2	Unit 798 799	%
+T3	MeasuredEntity 807 822	mean wind speed
+T4	MeasuredProperty 739 750	corrections
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

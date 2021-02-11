@@ -1,0 +1,6 @@
+T1	Quantity 67 70	two
+A1	IsCount T1
+T2	MeasuredEntity 71 79	settings
+T3	Qualifier 61 66	lower
+R1	Qualifies Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

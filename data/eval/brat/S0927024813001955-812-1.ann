@@ -1,0 +1,6 @@
+T1	Quantity 194 206	41.73 mg/mL.
+T2	MeasuredEntity 151 164	chlorobenzene
+T3	MeasuredProperty 0 112	P3HT (poly(3-hexylthiophene-2,5-diyl), Rieke) and PCBM ([6,6]-phenyl-C61-buyric acid methyl ester, Sigma Aldrich
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 200 205	mg/mL

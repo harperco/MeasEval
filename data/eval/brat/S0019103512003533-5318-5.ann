@@ -1,0 +1,4 @@
+T1	Quantity 717 723	10 keV
+T2	MeasuredEntity 724 732	electron
+T4	Unit 720 723	keV
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813003036-1981	1	Quantity	318	324	T1-1	99.95%	{"unit": "%"}
+S0927024813003036-1981	1	MeasuredProperty	325	331	T4-1	purity	{"HasQuantity": "T1-1"}
+S0927024813003036-1981	1	MeasuredEntity	305	316	T3-1	iron pieces	{"HasProperty": "T4-1"}
+S0927024813003036-1981	2	Quantity	436	448	T1-2	up to 798 °C	{"mods": ["IsRange"], "unit": "°C"}
+S0927024813003036-1981	2	MeasuredProperty	380	435	T4-2	annealed in air in a pre-heated furnace at temperatures	{"HasQuantity": "T1-2"}
+S0927024813003036-1981	2	MeasuredEntity	362	369	T3-2	Samples	{"HasProperty": "T4-2"}
+S0927024813003036-1981	3	Quantity	845	858	T1-3	below ∼100 °C	{"mods": ["IsRange", "IsApproximate"], "unit": "°C"}
+S0927024813003036-1981	3	MeasuredProperty	835	841	T5-3	cooled	{"HasQuantity": "T1-3"}
+S0927024813003036-1981	3	MeasuredEntity	822	829	T4-3	samples	{"HasProperty": "T5-3"}
+S0927024813003036-1981	3	Qualifier	807	816	T3-3	estimated	{"Qualifies": "T1-3"}
+S0927024813003036-1981	4	Quantity	862	867	T1-4	<10 s	{"mods": ["IsRange", "IsApproximate"], "unit": "s"}
+S0927024813003036-1981	4	MeasuredProperty	835	841	T4-4	cooled	{"HasQuantity": "T1-4"}
+S0927024813003036-1981	4	MeasuredEntity	822	829	T3-4	samples	{"HasProperty": "T4-4"}
+S0927024813003036-1981	4	Qualifier	807	816	T5-4	estimated	{"Qualifies": "T1-4"}

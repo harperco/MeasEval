@@ -1,0 +1,6 @@
+T1	Quantity 858 864	−75 °C
+T2	MeasuredProperty 765 779	eutectic point
+T3	MeasuredEntity 845 854	Ca(ClO4)2
+T4	Unit 862 864	°C
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Quantity 187 205	1.25 to 50 K min-1
+T2	Unit 198 205	K min-1
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 153 166	heating rates
+R1	HasQuantity Arg1:T3 Arg2:T1	

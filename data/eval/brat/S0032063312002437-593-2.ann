@@ -1,0 +1,9 @@
+T1	Quantity 114 139	between 185 km and 215 km
+T2	MeasuredEntity 67 72	orbit
+T3	Qualifier 37 56	Venus Express (VEX)
+R1	Qualifies Arg1:T3 Arg2:T2	
+T4	MeasuredProperty 105 113	altitude
+R2	HasProperty Arg1:T2 Arg2:T4	
+A1	QuantityQualifier T1 IsRange
+T5	Unit 137 139	km
+R3	HasQuantity Arg1:T4 Arg2:T1	

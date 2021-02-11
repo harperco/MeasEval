@@ -1,0 +1,9 @@
+T1	Quantity 330 338	20–40 cm
+T2	Qualifier 134 138	soil
+T3	MeasuredProperty 339 344	depth
+T4	Unit 336 338	cm
+A1	QuantityQualifier T1 IsRange
+R1	Qualifies Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 367 376	SOC stock
+R3	HasProperty Arg1:T5 Arg2:T3	

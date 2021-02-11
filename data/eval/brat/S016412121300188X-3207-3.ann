@@ -1,0 +1,6 @@
+T1	Quantity 425 428	10%
+T2	Unit 427 428	%
+T3	MeasuredEntity 444 464	program's statements
+T4	MeasuredProperty 381 412	at least one dependence cluster
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

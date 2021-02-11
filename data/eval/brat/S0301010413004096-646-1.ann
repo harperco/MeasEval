@@ -1,0 +1,4 @@
+T1	Quantity 430 433	5 K
+T2	Unit 432 433	K
+T3	MeasuredEntity 415 426	adsorbed H2
+R1	HasQuantity Arg1:T3 Arg2:T1	

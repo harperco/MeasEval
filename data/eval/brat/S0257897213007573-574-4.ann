@@ -1,0 +1,6 @@
+T1	Quantity 217 224	0.22 nm
+T2	MeasuredEntity 229 232	SiC
+T3	MeasuredProperty 178 201	surface roughness [RMS]
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 222 224	nm

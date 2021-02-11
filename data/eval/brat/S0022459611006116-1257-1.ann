@@ -1,0 +1,6 @@
+T1	Quantity 64 70	1323 K
+T2	Unit 69 70	K
+T3	MeasuredEntity 21 27	Mg3NF3
+T4	MeasuredProperty 49 60	synthesised
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

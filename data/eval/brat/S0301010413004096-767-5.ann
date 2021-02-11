@@ -1,0 +1,6 @@
+T1	Quantity 401 407	120 °C
+T2	Unit 405 407	°C
+T3	MeasuredEntity 364 370	sample
+T4	MeasuredProperty 375 383	degassed
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

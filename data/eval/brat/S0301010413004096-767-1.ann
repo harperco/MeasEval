@@ -1,0 +1,8 @@
+T1	Quantity 145 168	between ∼−2 and 500 meV
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 0 11	INS spectra
+T3	MeasuredProperty 128 144	energy transfers
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 165 168	meV

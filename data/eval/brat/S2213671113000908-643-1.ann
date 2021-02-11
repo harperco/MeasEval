@@ -1,0 +1,6 @@
+T1	Quantity 10 17	25 days
+T2	MeasuredEntity 38 43	cells
+T3	Unit 13 17	days
+T4	MeasuredProperty 21 36	differentiation
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

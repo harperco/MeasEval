@@ -1,0 +1,8 @@
+T1	Quantity 1129 1139	0.4 to 0.5
+T2	MeasuredEntity 967 982	dehydroxylation
+T3	MeasuredProperty 1108 1125	conversion degree
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Qualifier 1020 1027	pure HA
+R3	Qualifies Arg1:T4 Arg2:T2	

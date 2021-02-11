@@ -1,0 +1,6 @@
+T1	Quantity 914 921	46%/62%
+T2	MeasuredEntity 765 807	accumulated percentage gain from selection
+T3	Unit 920 921	%
+T4	MeasuredProperty 922 950	lower downy mildew incidence
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T2 Arg2:T4	

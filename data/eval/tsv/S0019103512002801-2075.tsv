@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-2075	1	Quantity	139	147	T1-1	15–35 km	{"mods": ["IsRange"], "unit": "km"}
+S0019103512002801-2075	1	MeasuredProperty	129	137	T4-1	diameter	{"HasQuantity": "T1-1"}
+S0019103512002801-2075	1	MeasuredEntity	122	126	T3-1	Rhea	{"HasProperty": "T4-1"}
+S0019103512002801-2075	1	Qualifier	148	184	T5-1	for electrons between 20 and 100 keV	{"Qualifies": "T4-1"}
+S0019103512002801-2075	2	Quantity	162	184	T1-2	between 20 and 100 keV	{"mods": ["IsRange"], "unit": "keV"}
+S0019103512002801-2075	2	MeasuredProperty	81	90	T4-2	energetic	{"HasQuantity": "T1-2"}
+S0019103512002801-2075	2	MeasuredEntity	152	161	T3-2	electrons	{"HasProperty": "T4-2"}

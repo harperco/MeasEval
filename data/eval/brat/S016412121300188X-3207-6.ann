@@ -1,0 +1,6 @@
+T1	Quantity 640 643	40%
+T2	Unit 642 643	%
+T3	MeasuredProperty 666 723	dependence cluster that consumed over half of the program
+T4	MeasuredEntity 651 659	programs
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

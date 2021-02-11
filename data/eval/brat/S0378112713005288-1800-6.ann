@@ -1,0 +1,7 @@
+T1	Quantity 953 965	within 250 m
+T2	MeasuredEntity 935 948	sampled plots
+A1	QuantityQualifier T1 IsRange
+T3	Unit 964 965	m
+T4	MeasuredProperty 971 989	native seed source
+R1	HasProperty Arg1:T2 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

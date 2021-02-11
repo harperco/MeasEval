@@ -1,0 +1,7 @@
+T1	Quantity 637 647	0.1–1 μbar
+T2	MeasuredProperty 583 597	lower boundary
+T3	MeasuredEntity 605 625	absorbing layer of H
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange
+T4	Unit 643 647	μbar

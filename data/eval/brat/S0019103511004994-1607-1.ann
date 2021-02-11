@@ -1,0 +1,8 @@
+T1	Quantity 183 188	50 km
+T2	Unit 186 188	km
+T3	MeasuredEntity 0 18	Flybys E12 and E13
+T4	MeasuredProperty 158 174	minimum distance
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+T5	Qualifier 109 150	directly above the north pole of the moon
+R3	Qualifies Arg1:T5 Arg2:T4	

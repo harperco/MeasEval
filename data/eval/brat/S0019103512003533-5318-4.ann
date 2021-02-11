@@ -1,0 +1,5 @@
+T1	Quantity 649 660	∼100 mV m−1
+T2	Unit 654 660	mV m−1
+A1	IsApproximate T1
+T3	MeasuredEntity 616 645	magnetospheric electric field
+R1	HasQuantity Arg1:T3 Arg2:T1	

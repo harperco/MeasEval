@@ -1,0 +1,8 @@
+T1	Quantity 341 350	67 mW m−2
+T2	MeasuredEntity 51 72	auroral heating event
+T3	MeasuredProperty 293 325	ion drag and Joule heating rates
+T4	Qualifier 352 366	on September 8
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasProperty Arg1:T2 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	
+T5	Unit 344 350	mW m−2

@@ -1,0 +1,6 @@
+T1	Quantity 162 164	13
+T2	MeasuredEntity 139 147	proteins
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1
+T3	Qualifier 169 212	encoded by the mitochondrial genome (mtDNA)
+R2	Qualifies Arg1:T3 Arg2:T2	

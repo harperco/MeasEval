@@ -1,0 +1,8 @@
+T1	Quantity 439 442	12%
+T2	MeasuredEntity 417 435	wind farm's output
+T3	MeasuredProperty 395 414	degradation reduces
+R1	HasProperty Arg1:T2 Arg2:T3	
+T4	Qualifier 443 470	over a twenty year lifetime
+R2	Qualifies Arg1:T4 Arg2:T3	
+R3	HasQuantity Arg1:T3 Arg2:T1	
+T5	Unit 441 442	%

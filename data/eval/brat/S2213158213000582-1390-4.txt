@@ -1,0 +1,1 @@
+Group contrast maps at 50 ms (Fig. 3) showed group differences in STG and non-STG regions (FDR q < 0.05). HC had stronger left and right STG (L-STG, R-STG), right inferior temporal gyrus (R-ITG), and left and right IFG (L-IFG, R-IFG) 50-ms activity than SZ. SZ had stronger right superior frontal gyrus (R-SFG) and left supramarginal gyrus (L-SMG) 50 ms activity than HC.

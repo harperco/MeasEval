@@ -1,0 +1,6 @@
+T1	Quantity 253 256	44%
+T2	MeasuredProperty 175 225	heterotrophic component flux of 0.15 g CO2 m−2 h−1
+T3	MeasuredEntity 156 158	RS
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 255 256	%

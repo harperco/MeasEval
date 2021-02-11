@@ -1,0 +1,6 @@
+T1	Quantity 31 34	two
+T2	MeasuredEntity 35 39	axes
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1
+T3	Qualifier 25 30	first
+R2	Qualifies Arg1:T3 Arg2:T1	

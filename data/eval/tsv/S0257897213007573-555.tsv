@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0257897213007573-555	1	Quantity	121	128	T1-1	1000 °C	{"unit": "°C"}
+S0257897213007573-555	1	MeasuredEntity	98	117	T3-1	silica tube furnace	{"HasQuantity": "T1-1"}

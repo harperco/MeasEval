@@ -1,0 +1,4 @@
+T1	Quantity 36 42	100 MW
+T2	Unit 40 42	MW
+T3	MeasuredEntity 43 52	wind farm
+R1	HasQuantity Arg1:T3 Arg2:T1	

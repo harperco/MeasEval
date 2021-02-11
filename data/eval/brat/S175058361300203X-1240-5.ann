@@ -1,0 +1,10 @@
+T1	Quantity 723 728	38 °C
+T2	MeasuredEntity 365 384	reservoir at Ketzin
+T4	MeasuredProperty 666 677	temperature
+T5	Unit 726 728	°C
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T6	Qualifier 639 651	October 2009
+R3	Qualifies Arg1:T6 Arg2:T4	
+R4	HasProperty Arg1:T2 Arg2:T4	
+T3	Qualifier 744 801	in the injection well Ktzi201/2007 at the injection depth
+R1	Qualifies Arg1:T3 Arg2:T2	

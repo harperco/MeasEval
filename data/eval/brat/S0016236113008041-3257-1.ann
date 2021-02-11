@@ -1,0 +1,6 @@
+T1	Quantity 323 338	weight% of 0.34
+T2	MeasuredEntity 301 317	unreacted sample
+T3	MeasuredProperty 276 278	Al
+T4	Unit 323 330	weight%
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

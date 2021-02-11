@@ -1,0 +1,6 @@
+T1	Quantity 246 253	12.2 kV
+T2	Unit 251 253	kV
+T3	MeasuredProperty 227 234	voltage
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 176 198	electrospinning nozzle
+R2	HasProperty Arg1:T4 Arg2:T3	

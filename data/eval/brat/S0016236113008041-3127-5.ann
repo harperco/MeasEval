@@ -1,0 +1,8 @@
+T1	Quantity 1016 1021	20 °C
+T2	Unit 1019 1021	°C
+T3	MeasuredProperty 1007 1012	steps
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 755 764	modelling
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 898 909	temperature
+R3	Qualifies Arg1:T5 Arg2:T3	

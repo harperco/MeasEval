@@ -1,0 +1,8 @@
+T1	Quantity 865 879	about 0.1–5 μm
+T2	Unit 877 879	μm
+T3	MeasuredProperty 883 891	diameter
+T4	MeasuredEntity 817 850	rubber or thermoplastic particles
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange

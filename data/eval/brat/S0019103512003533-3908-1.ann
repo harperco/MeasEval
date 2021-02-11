@@ -1,0 +1,3 @@
+T1	Quantity 259 264	0.125
+T2	MeasuredEntity 249 255	factor
+R1	HasQuantity Arg1:T2 Arg2:T1	

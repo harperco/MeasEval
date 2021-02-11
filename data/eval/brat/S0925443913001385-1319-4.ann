@@ -1,0 +1,5 @@
+T1	Quantity 1403 1426	over a hundred proteins
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1383 1392	machinery
+T2	Unit 1418 1426	proteins
+R1	HasQuantity Arg1:T3 Arg2:T1	

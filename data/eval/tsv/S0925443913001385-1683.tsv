@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1683	1	Quantity	431	434	T1-1	two	{"mods": ["IsCount"]}
+S0925443913001385-1683	1	MeasuredEntity	435	454	T2-1	L7/L12 heterodimers	{"HasQuantity": "T1-1"}
+S0925443913001385-1683	2	Quantity	1376	1381	T1-2	~ 49%	{"mods": ["IsApproximate"], "unit": "%"}
+S0925443913001385-1683	2	MeasuredProperty	1382	1388	T3-2	MRPL12	{"HasQuantity": "T1-2"}
+S0925443913001385-1683	2	MeasuredEntity	1401	1408	T5-2	control	{"HasProperty": "T3-2"}
+S0925443913001385-1683	2	Qualifier	1361	1371	T4-2	patient IP	{"Qualifies": "T3-2"}
+S0925443913001385-1683	3	Quantity	1549	1554	T1-3	~ 58%	{"mods": ["IsApproximate"], "unit": "%"}
+S0925443913001385-1683	3	MeasuredProperty	1501	1514	T5-3	MRPL12 levels	{"HasQuantity": "T1-3"}
+S0925443913001385-1683	3	MeasuredEntity	1558	1565	T4-3	control	{"HasProperty": "T5-3"}
+S0925443913001385-1683	3	Qualifier	1545	1547	T3-3	IP	{"Qualifies": "T5-3"}

@@ -1,0 +1,8 @@
+T1	Quantity 235 238	37%
+T2	Unit 237 238	%
+T3	MeasuredProperty 214 231	largest deviation
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 192 205	Program userv
+T5	Qualifier 239 265	when using the Low setting
+R2	Qualifies Arg1:T5 Arg2:T3	
+R3	HasProperty Arg1:T4 Arg2:T3	

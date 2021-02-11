@@ -1,0 +1,6 @@
+T1	Quantity 115 143	from September 8 to 11, 1998
+T2	MeasuredEntity 51 72	auroral heating event
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 29 42	infrared data
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R1	HasProperty Arg1:T2 Arg2:T3	

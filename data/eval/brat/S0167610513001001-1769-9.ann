@@ -1,0 +1,8 @@
+T1	Quantity 699 709	0.86 m s−1
+T2	Unit 704 709	m s−1
+T3	Qualifier 713 731	neutral conditions
+T4	MeasuredProperty 535 540	error
+T5	MeasuredEntity 548 573	lidar-derived wind speeds
+R1	HasProperty Arg1:T5 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+R3	Qualifies Arg1:T3 Arg2:T4	

@@ -1,0 +1,8 @@
+T1	Quantity 918 929	about 5–20%
+T2	Unit 928 929	%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 899 914	volume fraction
+T4	MeasuredEntity 817 850	rubber or thermoplastic particles
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

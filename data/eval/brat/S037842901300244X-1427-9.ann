@@ -1,0 +1,6 @@
+T1	Quantity 1344 1347	34%
+T2	Unit 1346 1347	%
+T4	MeasuredEntity 1284 1308	operative heritabilities
+R1	HasQuantity Arg1:T4 Arg2:T1	
+T3	Qualifier 1349 1374	combined across locations
+R2	Qualifies Arg1:T3 Arg2:T4	

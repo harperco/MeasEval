@@ -1,0 +1,4 @@
+T1	Quantity 541 543	30
+A1	IsCount T1
+T2	MeasuredEntity 544 552	programs
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 121 128	1000 °C
+T2	Unit 126 128	°C
+T3	MeasuredEntity 98 117	silica tube furnace
+R1	HasQuantity Arg1:T3 Arg2:T1	

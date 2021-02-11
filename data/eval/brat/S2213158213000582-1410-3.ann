@@ -1,0 +1,7 @@
+T1	Quantity 608 621	50 and 100 ms
+A1	QuantityQualifier T1 IsList
+T2	Unit 619 621	ms
+T3	MeasuredEntity 556 573	group differences
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 588 599	bilaterally
+R2	Qualifies Arg1:T4 Arg2:T1	

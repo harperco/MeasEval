@@ -1,0 +1,9 @@
+T1	Quantity 1145 1162	38 MPa to 185 MPa
+T2	MeasuredProperty 1117 1124	modulus
+T3	Qualifier 1126 1133	average
+R1	Qualifies Arg1:T3 Arg2:T1	
+T4	Unit 1159 1162	MPa
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T5	MeasuredEntity 988 1004	surface hardness
+R3	HasProperty Arg1:T5 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	Quantity 60 65	40 μm
+T2	MeasuredProperty 66 75	thickness
+T3	MeasuredEntity 25 56	fixed frozen brains were sliced
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 63 65	μm

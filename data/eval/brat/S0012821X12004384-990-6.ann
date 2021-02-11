@@ -1,0 +1,5 @@
+T1	Quantity 552 575	2619.60 m and 2614.71 m
+A1	QuantityQualifier T1 IsList
+T2	Unit 574 575	m
+T3	MeasuredEntity 541 548	Samples
+R1	HasQuantity Arg1:T3 Arg2:T1	

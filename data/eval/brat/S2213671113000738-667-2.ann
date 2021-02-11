@@ -1,0 +1,6 @@
+T1	Quantity 383 388	48 hr
+T2	Unit 386 388	hr
+T3	MeasuredEntity 92 117	iPSC-derived neural cells
+T4	MeasuredProperty 333 368	response to interferon gamma (IFN-γ
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

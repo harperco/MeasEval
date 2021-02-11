@@ -1,0 +1,7 @@
+T1	Quantity 808 823	near the 1 μbar
+A1	IsApproximate T1
+T2	Unit 819 823	μbar
+T3	MeasuredEntity 793 795	H2
+T4	MeasuredProperty 796 807	dissociates
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

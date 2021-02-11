@@ -1,0 +1,6 @@
+T1	Quantity 656 660	48 h
+T2	MeasuredEntity 632 638	corals
+T3	MeasuredProperty 644 651	not fed
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 659 660	h

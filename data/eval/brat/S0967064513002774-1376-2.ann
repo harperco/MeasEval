@@ -1,0 +1,6 @@
+T1	Quantity 411 414	2 h
+T2	MeasuredEntity 356 362	corals
+T3	MeasuredProperty 379 388	acclimate
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 413 414	h

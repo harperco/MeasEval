@@ -1,0 +1,9 @@
+T1	Quantity 390 394	2–5%
+T2	Unit 393 394	%
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 380 386	output
+T4	MeasuredProperty 373 379	reduce
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 17 58	imperfections in a turbine's surroundings
+R3	Qualifies Arg1:T5 Arg2:T1	

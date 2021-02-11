@@ -1,0 +1,8 @@
+T1	Quantity 365 368	57%
+T2	Unit 367 368	%
+T3	MeasuredProperty 361 363	CP
+T4	Qualifier 353 360	reduced
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 376 393	separate topology
+R3	HasProperty Arg1:T5 Arg2:T3	

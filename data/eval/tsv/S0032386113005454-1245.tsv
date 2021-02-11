@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-1245	1	Quantity	79	85	T1-1	10 wt%	{"unit": "wt%"}
+S0032386113005454-1245	1	MeasuredProperty	105	129	T3-1	S-CSR particles at 20 °C	{"HasQuantity": "T1-1"}
+S0032386113005454-1245	1	MeasuredEntity	46	60	T4-1	epoxy polymers	{"HasProperty": "T3-1"}
+S0032386113005454-1245	2	Quantity	95	101	T1-2	20 wt%	{"unit": "wt%"}
+S0032386113005454-1245	2	MeasuredProperty	105	128	T3-2	S-CSR particles at 20 °	{"HasQuantity": "T1-2"}
+S0032386113005454-1245	2	MeasuredEntity	46	60	T4-2	epoxy polymers	{"HasProperty": "T3-2"}
+S0032386113005454-1245	3	Quantity	124	129	T1-3	20 °C	{"unit": "°C"}
+S0032386113005454-1245	3	MeasuredProperty	61	69	T3-3	modified	{"HasQuantity": "T1-3"}
+S0032386113005454-1245	3	MeasuredEntity	46	60	T2-3	epoxy polymers	{"HasProperty": "T3-3"}

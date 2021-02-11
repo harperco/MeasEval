@@ -1,0 +1,9 @@
+T1	Quantity 88 97	near 86°N
+A1	IsApproximate T1
+T2	Unit 95 97	°N
+T3	MeasuredEntity 67 72	orbit
+T4	MeasuredProperty 78 87	periapsis
+T5	Qualifier 37 56	Venus Express (VEX)
+R1	Qualifies Arg1:T5 Arg2:T3	
+R2	HasProperty Arg1:T3 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

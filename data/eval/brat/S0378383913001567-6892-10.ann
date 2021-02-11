@@ -1,0 +1,5 @@
+T1	Quantity 469 472	2.5
+T2	MeasuredProperty 450 463	Froude number
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 384 413	initial and inflow conditions
+R2	HasProperty Arg1:T3 Arg2:T2	

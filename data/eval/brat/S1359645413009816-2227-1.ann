@@ -1,0 +1,4 @@
+T1	Quantity 26 28	14
+T2	MeasuredEntity 29 36	samples
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

@@ -1,0 +1,6 @@
+T1	Quantity 68 77	2 × 2 μm2
+T2	MeasuredEntity 57 66	CDC layer
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 74 77	μm2
+T4	Qualifier 0 10	AFM images
+R2	Qualifies Arg1:T4 Arg2:T2	

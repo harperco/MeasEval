@@ -1,0 +1,4 @@
+T1	Quantity 318 324	100 ms
+T2	Unit 322 324	ms
+T3	MeasuredEntity 325 355	abnormalities in schizophrenia
+R1	HasQuantity Arg1:T3 Arg2:T1	

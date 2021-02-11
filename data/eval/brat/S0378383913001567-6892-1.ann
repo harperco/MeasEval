@@ -1,0 +1,6 @@
+T1	Quantity 15 19	40 m
+T2	Unit 18 19	m
+T3	MeasuredProperty 20 24	wide
+T4	MeasuredEntity 4 11	channel
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

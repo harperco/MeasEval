@@ -1,0 +1,8 @@
+T1	Quantity 401 403	1%
+T3	MeasuredEntity 380 386	output
+T4	MeasuredProperty 373 379	reduce
+T5	Qualifier 404 443	per 3% increase in turbulence intensity
+T6	Unit 402 403	%
+R4	HasQuantity Arg1:T4 Arg2:T1	
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	Qualifies Arg1:T5 Arg2:T1	

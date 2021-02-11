@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1322	1	Quantity	515	524	T1-1	about ±3%	{"mods": ["IsApproximate", "IsRange"], "unit": "%"}
+S0927024813002961-1322	1	MeasuredProperty	495	510	T3-1	effect accounts	{"HasQuantity": "T1-1"}
+S0927024813002961-1322	1	MeasuredEntity	434	489	T5-1	relative changes in the generated short-circuit current	{"HasProperty": "T3-1"}
+S0927024813002961-1322	1	Qualifier	529	542	T4-1	CIGS and c-Si	{"Qualifies": "T1-1"}
+S0927024813002961-1322	1	Qualifier	57	65	T2-1	spectrum	{"Qualifies": "T3-1"}
+S0927024813002961-1322	2	Quantity	547	559	T1-2	+10% to −20%	{"mods": ["IsRange"], "unit": "%"}
+S0927024813002961-1322	2	MeasuredProperty	495	510	T3-2	effect accounts	{"HasQuantity": "T1-2"}
+S0927024813002961-1322	2	MeasuredEntity	434	489	T5-2	relative changes in the generated short-circuit current	{"HasProperty": "T3-2"}
+S0927024813002961-1322	2	Qualifier	564	576	T2-2	a-Si devices	{"Qualifies": "T1-2"}
+S0927024813002961-1322	2	Qualifier	57	65	T4-2	spectrum	{"Qualifies": "T3-2"}
+S0927024813002961-1322	3	Quantity	672	676	T1-3	zero	
+S0927024813002961-1322	3	MeasuredProperty	582	619	T2-3	overall impact on annual energy yield	{"HasQuantity": "T1-3"}
+S0927024813002961-1322	3	MeasuredEntity	685	703	T3-3	other technologies	{"HasProperty": "T2-3"}

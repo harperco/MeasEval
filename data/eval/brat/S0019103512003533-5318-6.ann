@@ -1,0 +1,6 @@
+T1	Quantity 741 749	1 mW m−2
+T2	Unit 743 749	mW m−2
+T3	MeasuredEntity 717 732	10 keV electron
+T4	MeasuredProperty 733 737	flux
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

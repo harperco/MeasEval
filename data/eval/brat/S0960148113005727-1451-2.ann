@@ -1,0 +1,11 @@
+T1	Quantity 355 374	from 12% to just 2%
+T2	MeasuredProperty 334 345	load factor
+A1	QuantityQualifier T1 IsRange
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	MeasuredEntity 270 283	Blyth Harbour
+R1	HasProperty Arg1:T4 Arg2:T2	
+T3	Qualifier 346 354	declined
+R3	Qualifies Arg1:T3 Arg2:T1	
+T5	Unit 373 374	%
+T6	Qualifier 375 404	between the ages of 12 and 17
+R4	Qualifies Arg1:T6 Arg2:T4	

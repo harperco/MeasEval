@@ -1,0 +1,1 @@
+Between-group analyses for 100 ms activity. Activation clusters in yellow/red show stronger activity in HC than SZ (HC > SZ). Activation clusters in blue show stronger activity in SZ than HC (SZ > HC). The effect sizes for L-STG, R-Frontal and R-SFG M100 measures are provided in Table 2.

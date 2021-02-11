@@ -1,0 +1,4 @@
+T1	Quantity 75 81	220 mL
+T2	Unit 79 81	mL
+T3	MeasuredEntity 82 101	incubation chambers
+R1	HasQuantity Arg1:T3 Arg2:T1	

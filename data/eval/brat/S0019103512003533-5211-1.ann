@@ -1,0 +1,6 @@
+T1	Quantity 332 341	10−5 mbar
+T2	MeasuredEntity 305 316	ionospheric
+T3	MeasuredProperty 317 330	density level
+T4	Unit 337 341	mbar
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

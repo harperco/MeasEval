@@ -1,0 +1,4 @@
+T1	Quantity 580 588	non-zero
+T2	MeasuredEntity 589 599	remainders
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

@@ -1,0 +1,12 @@
+T1	Quantity 515 524	about ±3%
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange
+T2	Qualifier 57 65	spectrum
+T3	MeasuredProperty 495 510	effect accounts
+T4	Qualifier 529 542	CIGS and c-Si
+T5	MeasuredEntity 434 489	relative changes in the generated short-circuit current
+R1	HasProperty Arg1:T5 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R3	Qualifies Arg1:T4 Arg2:T1	
+R4	Qualifies Arg1:T2 Arg2:T3	
+T6	Unit 523 524	%

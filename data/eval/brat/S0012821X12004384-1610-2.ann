@@ -1,0 +1,7 @@
+T1	Quantity 669 688	2619.6 and 2614.7 m
+T2	Unit 687 688	m
+A1	QuantityQualifier T1 IsList
+T3	MeasuredEntity 638 649	other peaks
+T4	Qualifier 650 665	in Apectodinium
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

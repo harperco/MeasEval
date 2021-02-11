@@ -1,0 +1,30 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1769	1	Quantity	96	101	T1-1	≈0.5°	{"mods": ["IsApproximate"], "unit": "°"}
+S0167610513001001-1769	1	MeasuredProperty	102	106	T3-1	tilt	{"HasQuantity": "T1-1"}
+S0167610513001001-1769	1	MeasuredEntity	114	119	T4-1	lidar	{"HasProperty": "T3-1"}
+S0167610513001001-1769	2	Quantity	139	142	T1-2	two	{"mods": ["IsCount"]}
+S0167610513001001-1769	2	MeasuredEntity	143	154	T2-2	instruments	{"HasQuantity": "T1-2"}
+S0167610513001001-1769	3	Quantity	211	222	T1-3	over 60 min	{"mods": ["IsRange"], "unit": "min"}
+S0167610513001001-1769	3	MeasuredProperty	202	210	T3-3	averaged	{"HasQuantity": "T1-3"}
+S0167610513001001-1769	3	MeasuredEntity	174	196	T2-3	horizontal wind speeds	{"HasProperty": "T3-3"}
+S0167610513001001-1769	4	Quantity	289	292	T1-4	two	{"mods": ["IsCount"]}
+S0167610513001001-1769	4	MeasuredEntity	293	301	T2-4	datasets	{"HasQuantity": "T1-4"}
+S0167610513001001-1769	5	Quantity	371	383	T1-5	≈0–0.5 m s−1	{"mods": ["IsApproximate"], "unit": "m s−1"}
+S0167610513001001-1769	5	MeasuredProperty	340	367	T4-5	overestimate the wind speed	{"HasQuantity": "T1-5"}
+S0167610513001001-1769	5	MeasuredEntity	316	321	T3-5	lidar	{"HasProperty": "T4-5"}
+S0167610513001001-1769	5	Qualifier	384	415	T2-5	at speeds of less than 20 m s−1	{"Qualifies": "T4-5"}
+S0167610513001001-1769	6	Quantity	397	415	T1-6	less than 20 m s−1	{"mods": ["IsRange"], "unit": "m s−1"}
+S0167610513001001-1769	6	MeasuredProperty	362	367	T4-6	speed	{"HasQuantity": "T1-6"}
+S0167610513001001-1769	6	MeasuredEntity	357	361	T3-6	wind	{"HasProperty": "T4-6"}
+S0167610513001001-1769	7	Quantity	624	634	T1-7	0.36 m s−1	{"unit": "m s−1"}
+S0167610513001001-1769	7	MeasuredProperty	535	540	T3-7	error	{"HasQuantity": "T1-7"}
+S0167610513001001-1769	7	MeasuredEntity	548	573	T2-7	lidar-derived wind speeds	{"HasProperty": "T3-7"}
+S0167610513001001-1769	7	Qualifier	638	655	T5-7	stable conditions	{"Qualifies": "T3-7"}
+S0167610513001001-1769	8	Quantity	660	670	T1-8	1.05 m s−1	{"unit": "m s−1"}
+S0167610513001001-1769	8	MeasuredProperty	535	540	T4-8	error	{"HasQuantity": "T1-8"}
+S0167610513001001-1769	8	MeasuredEntity	548	573	T5-8	lidar-derived wind speeds	{"HasProperty": "T4-8"}
+S0167610513001001-1769	8	Qualifier	674	693	T2-8	unstable conditions	{"Qualifies": "T4-8"}
+S0167610513001001-1769	9	Quantity	699	709	T1-9	0.86 m s−1	{"unit": "m s−1"}
+S0167610513001001-1769	9	MeasuredProperty	535	540	T4-9	error	{"HasQuantity": "T1-9"}
+S0167610513001001-1769	9	MeasuredEntity	548	573	T5-9	lidar-derived wind speeds	{"HasProperty": "T4-9"}
+S0167610513001001-1769	9	Qualifier	713	731	T3-9	neutral conditions	{"Qualifies": "T4-9"}

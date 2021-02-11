@@ -1,0 +1,6 @@
+T1	Quantity 68 74	1800 s
+T2	Unit 73 74	s
+T3	MeasuredProperty 63 67	time
+T4	MeasuredEntity 44 59	mutual topology
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

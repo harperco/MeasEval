@@ -1,0 +1,5 @@
+T1	Quantity 1149 1160	autumn 2009
+T2	MeasuredEntity 1082 1093	CO2 density
+T3	MeasuredProperty 1098 1145	around 260 kg/m3 at the injection point (38 °C)
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

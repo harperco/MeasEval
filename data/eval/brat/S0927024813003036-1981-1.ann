@@ -1,0 +1,6 @@
+T1	Quantity 318 324	99.95%
+T2	Unit 323 324	%
+T3	MeasuredEntity 305 316	iron pieces
+T4	MeasuredProperty 325 331	purity
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1621	1	Quantity	16	21	T1-1	27.5%	{"unit": "%"}
+S0925443913001385-1621	1	MeasuredProperty	22	119	T3-1	identical in amino acid sequence to the previously crystallized T. maritima L12 ribosomal protein	{"HasQuantity": "T1-1"}
+S0925443913001385-1621	1	MeasuredEntity	0	12	T4-1	Human MRPL12	{"HasProperty": "T3-1"}

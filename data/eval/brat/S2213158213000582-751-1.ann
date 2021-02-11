@@ -1,0 +1,4 @@
+T1	Quantity 27 32	50 ms
+T2	MeasuredEntity 33 41	activity
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 30 32	ms

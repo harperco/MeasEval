@@ -1,0 +1,4 @@
+T1	Quantity 164 170	100-ml
+T2	MeasuredEntity 171 182	bioreactors
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 168 170	ml

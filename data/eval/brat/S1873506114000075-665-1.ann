@@ -1,0 +1,4 @@
+T1	Quantity 100 106	100-mm
+T2	Unit 104 106	mm
+T3	MeasuredEntity 107 113	dishes
+R1	HasQuantity Arg1:T3 Arg2:T1	

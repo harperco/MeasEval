@@ -1,0 +1,7 @@
+T1	Quantity 3875 3880	~ 70%
+T3	MeasuredProperty 3881 3888	protein
+T4	Unit 3879 3880	%
+A1	IsApproximate T1
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T2	MeasuredEntity 3847 3866	human mitoribosomes
+R1	HasProperty Arg1:T2 Arg2:T3	

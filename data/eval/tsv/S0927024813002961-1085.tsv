@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1085	1	Quantity	324	329	T1-1	25 °C	{"unit": "°C"}
+S0927024813002961-1085	1	MeasuredProperty	299	322	T3-1	cold module temperature	{"HasQuantity": "T1-1"}
+S0927024813002961-1085	1	MeasuredEntity	180	183	T2-1	STC	{"HasProperty": "T3-1"}
+S0927024813002961-1085	2	Quantity	353	362	T1-2	1000 W/m2	{"unit": "W/m2"}
+S0927024813002961-1085	2	MeasuredProperty	336	351	T3-2	high irradiance	{"HasQuantity": "T1-2"}
+S0927024813002961-1085	2	MeasuredEntity	180	183	T2-2	STC	{"HasProperty": "T3-2"}

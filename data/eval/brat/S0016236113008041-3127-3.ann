@@ -1,0 +1,9 @@
+T1	Quantity 938 958	600 °C, up to 750 °C
+T2	Unit 956 958	°C
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 755 764	modelling
+T4	Qualifier 963 974	carbonation
+R2	Qualifies Arg1:T4 Arg2:T1	
+T5	MeasuredProperty 898 915	temperature range
+R1	HasProperty Arg1:T3 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

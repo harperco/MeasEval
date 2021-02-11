@@ -1,0 +1,8 @@
+T1	Quantity 252 257	60 °C
+T2	MeasuredEntity 207 216	Each vial
+T3	MeasuredProperty 221 228	stirred
+T4	Unit 255 257	°C
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 258 269	in the dark
+R3	Qualifies Arg1:T5 Arg2:T3	

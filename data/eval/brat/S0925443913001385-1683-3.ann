@@ -1,0 +1,9 @@
+T1	Quantity 1549 1554	~ 58%
+T2	Unit 1553 1554	%
+A1	IsApproximate T1
+T3	Qualifier 1545 1547	IP
+T4	MeasuredEntity 1558 1565	control
+R1	HasProperty Arg1:T4 Arg2:T5	
+T5	MeasuredProperty 1501 1514	MRPL12 levels
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T3 Arg2:T5	

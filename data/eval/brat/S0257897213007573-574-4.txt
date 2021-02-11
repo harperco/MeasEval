@@ -1,0 +1,1 @@
+AFM images of [a] as-received SiC wafer [2 × 2 μm2], [c] CDC layer [2 × 2 μm2], [e] the dual-layer film [20 × 20 μm2], and their corresponding 3D profiles [b], [d], and [f]. The surface roughness [RMS] increases from 0.22 nm for SiC to 1.46 nm for CDC, and the roughness of dual-layer film is the largest of 54.68 nm.

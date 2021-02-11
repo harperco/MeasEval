@@ -1,0 +1,10 @@
+T1	Quantity 580 623	from approximately £90 [4,5] to £98 per MWh
+T2	Unit 616 623	per MWh
+T3	Qualifier 517 538	degradation increases
+T4	MeasuredEntity 561 572	electricity
+T5	MeasuredProperty 543 557	levelised cost
+R1	HasProperty Arg1:T4 Arg2:T5	
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	Qualifies Arg1:T3 Arg2:T5	
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange

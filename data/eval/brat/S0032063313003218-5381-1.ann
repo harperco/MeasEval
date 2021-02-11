@@ -1,0 +1,9 @@
+T1	Quantity 402 439	on the order of a few tens of minutes
+T2	Unit 432 439	minutes
+T3	MeasuredEntity 370 382	thermosphere
+T4	MeasuredProperty 383 391	responds
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+A1	IsApproximate T1
+T5	Qualifier 269 275	models
+R3	Qualifies Arg1:T5 Arg2:T3	

@@ -1,0 +1,30 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0967064513002774-1376	1	Quantity	75	81	T1-1	220 mL	{"unit": "mL"}
+S0967064513002774-1376	1	MeasuredEntity	82	101	T3-1	incubation chambers	{"HasQuantity": "T1-1"}
+S0967064513002774-1376	2	Quantity	411	414	T1-2	2 h	{"unit": "h"}
+S0967064513002774-1376	2	MeasuredProperty	379	388	T3-2	acclimate	{"HasQuantity": "T1-2"}
+S0967064513002774-1376	2	MeasuredEntity	356	362	T2-2	corals	{"HasProperty": "T3-2"}
+S0967064513002774-1376	3	Quantity	416	419	T1-3	Ten	{"mods": ["IsCount"]}
+S0967064513002774-1376	3	MeasuredEntity	420	428	T2-3	chambers	{"HasQuantity": "T1-3"}
+S0967064513002774-1376	4	Quantity	473	474	T1-4	8	{"mods": ["IsCount"]}
+S0967064513002774-1376	4	MeasuredEntity	420	428	T2-4	chambers	{"HasQuantity": "T1-4"}
+S0967064513002774-1376	4	Qualifier	475	490	T3-4	for respiration	{"Qualifies": "T1-4"}
+S0967064513002774-1376	5	Quantity	496	497	T1-5	2	{"mods": ["IsCount"]}
+S0967064513002774-1376	5	MeasuredEntity	420	428	T2-5	chambers	{"HasQuantity": "T1-5"}
+S0967064513002774-1376	5	Qualifier	498	518	T3-5	as seawater ‘blanks’	{"Qualifies": "T1-5"}
+S0967064513002774-1376	6	Quantity	656	660	T1-6	48 h	{"unit": "h"}
+S0967064513002774-1376	6	MeasuredProperty	644	651	T3-6	not fed	{"HasQuantity": "T1-6"}
+S0967064513002774-1376	6	MeasuredEntity	632	638	T2-6	corals	{"HasProperty": "T3-6"}
+S0967064513002774-1376	7	Quantity	755	761	T1-7	40-min	{"unit": "min"}
+S0967064513002774-1376	7	MeasuredProperty	740	748	T3-7	recorded	{"HasQuantity": "T1-7"}
+S0967064513002774-1376	7	MeasuredEntity	717	735	T2-7	oxygen consumption	{"HasProperty": "T3-7"}
+S0967064513002774-1376	8	Quantity	832	841	T1-8	below 80%	{"mods": ["IsRange"], "unit": "%"}
+S0967064513002774-1376	8	MeasuredProperty	819	831	T3-8	did not fall	{"HasQuantity": "T1-8"}
+S0967064513002774-1376	8	MeasuredEntity	801	818	T2-8	oxygen saturation	{"HasProperty": "T3-8"}
+S0967064513002774-1376	9	Quantity	868	877	T1-9	T+21 days	{"unit": "days"}
+S0967064513002774-1376	9	MeasuredProperty	894	901	T5-9	removed	{"HasQuantity": "T1-9"}
+S0967064513002774-1376	9	MeasuredEntity	879	888	T4-9	fragments	{"HasProperty": "T5-9"}
+S0967064513002774-1376	9	Qualifier	843	864	T2-9	Following incubations	{"Qualifies": "T1-9"}
+S0967064513002774-1376	10	Quantity	919	925	T1-10	−20 °C	{"unit": "°C"}
+S0967064513002774-1376	10	MeasuredProperty	906	915	T3-10	preserved	{"HasQuantity": "T1-10"}
+S0967064513002774-1376	10	MeasuredEntity	879	888	T2-10	fragments	{"HasProperty": "T3-10"}

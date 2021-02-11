@@ -1,0 +1,5 @@
+T1	Quantity 122 138	approximately 80
+T2	MeasuredEntity 139 147	proteins
+A1	IsCount T1
+A2	IsApproximate T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

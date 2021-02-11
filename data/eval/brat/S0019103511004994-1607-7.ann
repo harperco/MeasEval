@@ -1,0 +1,8 @@
+T1	Quantity 1084 1104	tens to hundreds keV
+T2	Unit 1101 1104	keV
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1069 1078	electrons
+T4	MeasuredProperty 1105 1113	energies
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+A2	IsApproximate T1

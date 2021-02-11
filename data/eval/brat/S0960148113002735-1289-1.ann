@@ -1,0 +1,4 @@
+T1	Quantity 63 69	200 kW
+T2	Unit 67 69	kW
+T3	MeasuredEntity 70 77	turbine
+R1	HasQuantity Arg1:T3 Arg2:T1	

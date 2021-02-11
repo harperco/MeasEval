@@ -1,0 +1,4 @@
+T1	Quantity 332 336	2.33
+A1	QuantityQualifier T1 IsMean
+T2	MeasuredEntity 308 319	average Rij
+R1	HasQuantity Arg1:T2 Arg2:T1	

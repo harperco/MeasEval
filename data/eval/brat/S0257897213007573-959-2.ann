@@ -1,0 +1,6 @@
+T1	Quantity 871 877	100 nm
+T2	MeasuredEntity 855 864	nanopores
+T3	MeasuredProperty 881 886	width
+T4	Unit 875 877	nm
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,4 @@
+T1	Quantity 397 403	1800 s
+T2	Unit 402 403	s
+T3	MeasuredEntity 376 393	separate topology
+R1	HasQuantity Arg1:T3 Arg2:T1	

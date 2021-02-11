@@ -1,0 +1,10 @@
+T1	Quantity 454 457	50%
+T2	MeasuredEntity 378 395	transgenic plants
+T3	MeasuredProperty 458 472	mortality rate
+T4	Qualifier 400 422	malformed root systems
+R1	Qualifies Arg1:T4 Arg2:T2	
+T5	Qualifier 473 490	in the greenhouse
+R2	Qualifies Arg1:T5 Arg2:T3	
+T6	Unit 456 457	%
+R3	HasProperty Arg1:T2 Arg2:T3	
+R4	HasQuantity Arg1:T3 Arg2:T1	

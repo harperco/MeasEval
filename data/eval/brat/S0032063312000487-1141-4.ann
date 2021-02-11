@@ -1,0 +1,6 @@
+T1	Quantity 872 875	89%
+T2	Unit 874 875	%
+T3	MeasuredEntity 883 892	crossings
+T4	MeasuredProperty 893 921	suggest tailward propagation
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

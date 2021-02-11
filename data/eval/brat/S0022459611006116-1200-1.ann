@@ -1,0 +1,8 @@
+T1	Quantity 282 297	from 5≤2θ/°≤120
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredProperty 274 280	period
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 240 244	data
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Qualifier 250 259	collected
+R3	Qualifies Arg1:T4 Arg2:T2	

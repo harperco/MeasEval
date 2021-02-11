@@ -1,0 +1,10 @@
+T1	Quantity 845 858	below ∼100 °C
+T2	Unit 856 858	°C
+A1	QuantityQualifier T1 IsRange
+A2	IsApproximate T1
+T4	MeasuredEntity 822 829	samples
+T5	MeasuredProperty 835 841	cooled
+R2	HasQuantity Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T4 Arg2:T5	
+T3	Qualifier 807 816	estimated
+R1	Qualifies Arg1:T3 Arg2:T1	

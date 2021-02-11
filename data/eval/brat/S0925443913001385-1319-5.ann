@@ -1,0 +1,4 @@
+T1	Quantity 2948 2951	one
+T2	MeasuredEntity 2952 2958	family
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-12523	1	Quantity	1231	1232	T1-1	1	
+S0022000014000026-12523	1	MeasuredProperty	1219	1227	T3-1	switches	{"HasQuantity": "T1-1"}
+S0022000014000026-12523	1	MeasuredEntity	1209	1218	T2-1	TimeT,s,C	{"HasProperty": "T3-1"}
+S0022000014000026-12523	1	Qualifier	1233	1247	T4-1	at time tE(tR)	{"Qualifies": "T3-1"}

@@ -1,0 +1,4 @@
+T1	Quantity 3264 3268	four
+T2	MeasuredEntity 3269 3296	siblings of the same family
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

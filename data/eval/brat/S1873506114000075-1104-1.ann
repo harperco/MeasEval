@@ -1,0 +1,4 @@
+T1	Quantity 101 104	10%
+T2	Unit 103 104	%
+T3	MeasuredEntity 105 139	neutral buffered formalin solution
+R1	HasQuantity Arg1:T3 Arg2:T1	

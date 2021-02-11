@@ -1,0 +1,6 @@
+T1	Quantity 1312 1315	76%
+T2	Qualifier 1317 1324	Cinzana
+T3	MeasuredEntity 1284 1308	operative heritabilities
+T4	Unit 1314 1315	%
+R1	HasQuantity Arg1:T3 Arg2:T1	
+R2	Qualifies Arg1:T2 Arg2:T3	

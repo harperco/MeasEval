@@ -1,0 +1,9 @@
+T1	Quantity 525 532	0–10 cm
+T2	MeasuredProperty 533 538	depth
+T3	Qualifier 134 138	soil
+R1	Qualifies Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 530 532	cm
+A1	QuantityQualifier T1 IsRange
+T5	MeasuredEntity 539 542	SOC
+R3	HasProperty Arg1:T5 Arg2:T2	

@@ -1,0 +1,1 @@
+P3HT (poly(3-hexylthiophene-2,5-diyl), Rieke) and PCBM ([6,6]-phenyl-C61-buyric acid methyl ester, Sigma Aldrich) were each mixed in separate vials of chlorobenzene. Both had a concentration of 41.73 mg/mL. Each vial was stirred for 2 h at 800 rpm and 60 °C in the dark. The two solutions were then mixed together and stirred overnight.

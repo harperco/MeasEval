@@ -1,0 +1,9 @@
+T1	Quantity 1177 1191	near 320 kg/m3
+T2	MeasuredEntity 1082 1085	CO2
+A1	IsApproximate T1
+T3	Unit 1186 1191	kg/m3
+T4	Qualifier 1192 1271	in the more distant part of the plume, close to the ambient temperature (34 °C)
+R2	Qualifies Arg1:T4 Arg2:T5	
+T5	MeasuredProperty 1086 1093	density
+R1	HasProperty Arg1:T2 Arg2:T5	
+R3	HasQuantity Arg1:T5 Arg2:T1	

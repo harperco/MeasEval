@@ -1,0 +1,7 @@
+T1	Quantity 377 395	approximately 1 km
+A1	IsApproximate T1
+T2	MeasuredEntity 362 376	saline aquifer
+T3	MeasuredProperty 396 413	below the surface
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 393 395	km

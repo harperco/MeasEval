@@ -1,0 +1,8 @@
+T1	Quantity 159 162	9mm
+T2	Unit 160 162	mm
+T3	MeasuredProperty 147 153	radius
+T4	MeasuredEntity 107 118	Six samples
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 124 141	cut from the disk
+R3	Qualifies Arg1:T5 Arg2:T4	

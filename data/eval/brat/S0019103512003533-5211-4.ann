@@ -1,0 +1,7 @@
+T1	Quantity 630 635	±50 K
+A1	QuantityQualifier T1 HasTolerance
+T2	Unit 634 635	K
+T3	MeasuredEntity 636 654	exospheric and H3+
+T4	MeasuredProperty 655 667	temperatures
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

@@ -1,0 +1,5 @@
+T1	Quantity 639 652	October 2009,
+T2	MeasuredEntity 653 677	pressure and temperature
+T3	MeasuredProperty 678 728	reached values of approximately 7.73 MPa and 38 °C
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

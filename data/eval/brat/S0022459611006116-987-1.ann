@@ -1,0 +1,7 @@
+T1	Quantity 119 130	1323–1423 K
+T2	MeasuredProperty 77 97	solid state reaction
+T3	MeasuredEntity 101 115	Mg3N2 and MgF2
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 129 130	K
+A1	QuantityQualifier T1 IsRange

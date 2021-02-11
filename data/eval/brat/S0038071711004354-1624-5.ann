@@ -1,0 +1,9 @@
+T1	Quantity 349 369	Approximately 15 min
+T2	MeasuredEntity 414 436	aboveground vegetation
+T3	MeasuredProperty 441 471	removed under the dual-chamber
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 370 408	before the beginning of the experiment
+R3	Qualifies Arg1:T4 Arg2:T1	
+T5	Unit 366 369	min
+A1	IsApproximate T1

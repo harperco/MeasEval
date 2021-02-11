@@ -1,0 +1,6 @@
+T1	Quantity 140 144	24 m
+T2	Unit 143 144	m
+T3	MeasuredProperty 130 136	height
+T4	MeasuredEntity 122 129	turbine
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

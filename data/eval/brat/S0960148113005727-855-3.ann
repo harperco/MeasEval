@@ -1,0 +1,7 @@
+T1	Quantity 270 273	21%
+T2	Qualifier 277 283	age 19
+T3	MeasuredProperty 216 236	average load factors
+R1	Qualifies Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 142 155	Wind turbines
+R3	HasProperty Arg1:T4 Arg2:T3	

@@ -1,0 +1,4 @@
+T1	Quantity 395 401	1.3 mm
+T2	MeasuredEntity 402 418	sand-rough beach
+T3	Unit 399 401	mm
+R1	HasQuantity Arg1:T2 Arg2:T1	

@@ -1,0 +1,7 @@
+T1	Quantity 574 583	about 75°
+T2	Unit 582 583	°
+T3	MeasuredEntity 588 591	E13
+T4	MeasuredProperty 526 552	measured local pitch angle
+R1	HasQuantity Arg1:T4 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T4	
+A1	IsApproximate T1

@@ -1,0 +1,9 @@
+T1	Quantity 255 265	940–1065 K
+T2	MeasuredEntity 230 241	ionospheric
+T3	MeasuredProperty 242 253	temperature
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T4	Unit 264 265	K
+A1	QuantityQualifier T1 IsRange
+T5	Qualifier 218 226	increase
+R3	Qualifies Arg1:T5 Arg2:T3	

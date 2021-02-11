@@ -1,0 +1,7 @@
+T1	Quantity 654 661	40–50 K
+T2	MeasuredEntity 606 613	para-H2
+T3	MeasuredProperty 595 602	loading
+T4	Unit 660 661	K
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsRange

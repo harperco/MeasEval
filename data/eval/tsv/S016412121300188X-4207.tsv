@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4207	1	Quantity	67	70	T1-1	two	{"mods": ["IsCount"]}
+S016412121300188X-4207	1	MeasuredEntity	71	79	T2-1	settings	{"HasQuantity": "T1-1"}
+S016412121300188X-4207	1	Qualifier	61	66	T3-1	lower	{"Qualifies": "T2-1"}
+S016412121300188X-4207	2	Quantity	158	161	T1-2	14%	{"mods": ["IsMean"], "unit": "%"}
+S016412121300188X-4207	2	MeasuredProperty	162	190	T2-2	larger than the High setting	{"HasQuantity": "T1-2"}
+S016412121300188X-4207	2	MeasuredEntity	121	148	T4-2	Low setting produces slices	{"HasProperty": "T2-2"}
+S016412121300188X-4207	2	Qualifier	108	115	T5-2	average	{"Qualifies": "T1-2"}
+S016412121300188X-4207	3	Quantity	235	238	T1-3	37%	{"unit": "%"}
+S016412121300188X-4207	3	MeasuredProperty	214	231	T3-3	largest deviation	{"HasQuantity": "T1-3"}
+S016412121300188X-4207	3	MeasuredEntity	192	205	T4-3	Program userv	{"HasProperty": "T3-3"}
+S016412121300188X-4207	3	Qualifier	239	265	T5-3	when using the Low setting	{"Qualifies": "T3-3"}
+S016412121300188X-4207	4	Quantity	541	543	T1-4	30	{"mods": ["IsCount"]}
+S016412121300188X-4207	4	MeasuredEntity	544	552	T2-4	programs	{"HasQuantity": "T1-4"}

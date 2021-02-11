@@ -1,0 +1,9 @@
+T1	Quantity 369 375	400 km
+T2	Qualifier 348 353	above
+T3	Unit 373 375	km
+A1	QuantityQualifier T1 IsRange
+R1	Qualifies Arg1:T2 Arg2:T1	
+T4	MeasuredProperty 357 365	altitude
+T5	MeasuredEntity 298 308	ionosphere
+R2	HasProperty Arg1:T5 Arg2:T4	
+R3	HasQuantity Arg1:T4 Arg2:T1	

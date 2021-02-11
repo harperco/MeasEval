@@ -1,0 +1,6 @@
+T1	Quantity 699 708	over half
+T2	MeasuredEntity 716 723	program
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredProperty 666 684	dependence cluster
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

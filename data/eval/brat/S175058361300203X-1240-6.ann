@@ -1,0 +1,9 @@
+T1	Quantity 1098 1114	around 260 kg/m3
+T2	MeasuredEntity 1082 1085	CO2
+A1	IsApproximate T1
+T3	Unit 1109 1114	kg/m3
+T4	Qualifier 1115 1160	at the injection point (38 °C) in autumn 2009
+R2	Qualifies Arg1:T4 Arg2:T5	
+T5	MeasuredProperty 1086 1093	density
+R1	HasQuantity Arg1:T5 Arg2:T1	
+R3	HasProperty Arg1:T2 Arg2:T5	

@@ -1,0 +1,6 @@
+T1	Quantity 817 829	1035.75 mbsf
+T3	MeasuredEntity 803 810	δ13Corg
+T4	MeasuredProperty 777 795	maximum enrichment
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Unit 825 829	mbsf

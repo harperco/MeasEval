@@ -1,0 +1,5 @@
+T1	Quantity 1159 1161	79
+T2	MeasuredProperty 1155 1156	N
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	MeasuredEntity 1151 1153	SZ
+R2	HasProperty Arg1:T3 Arg2:T2	

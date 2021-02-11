@@ -1,0 +1,5 @@
+T1	Quantity 1174 1184	below 10 K
+T2	Unit 1183 1184	K
+A1	QuantityQualifier T1 IsRange
+T3	MeasuredEntity 1130 1170	In situ neutron powder diffraction (NPD)
+R1	HasQuantity Arg1:T3 Arg2:T1	

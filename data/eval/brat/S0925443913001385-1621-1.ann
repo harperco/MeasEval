@@ -1,0 +1,6 @@
+T1	Quantity 16 21	27.5%
+T3	MeasuredProperty 22 119	identical in amino acid sequence to the previously crystallized T. maritima L12 ribosomal protein
+T4	MeasuredEntity 0 12	Human MRPL12
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T2	Unit 20 21	%

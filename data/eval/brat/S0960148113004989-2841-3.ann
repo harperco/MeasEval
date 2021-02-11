@@ -1,0 +1,4 @@
+T1	Quantity 251 259	3 m2 s−1
+T2	Unit 253 259	m2 s−1
+T3	MeasuredEntity 247 248	ν
+R1	HasQuantity Arg1:T3 Arg2:T1	

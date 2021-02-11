@@ -1,0 +1,4 @@
+T1	Quantity 1227 1230	two
+T2	MeasuredEntity 1231 1249	groups of subjects
+A1	IsCount T1
+R1	HasQuantity Arg1:T2 Arg2:T1	

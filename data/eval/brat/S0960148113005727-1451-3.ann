@@ -1,0 +1,4 @@
+T1	Quantity 375 404	between the ages of 12 and 17
+A1	QuantityQualifier T1 IsRange
+T2	MeasuredEntity 270 283	Blyth Harbour
+R1	HasQuantity Arg1:T2 Arg2:T1	

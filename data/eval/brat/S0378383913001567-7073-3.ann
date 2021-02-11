@@ -1,0 +1,8 @@
+T1	Quantity 225 230	0.2 m
+T2	Unit 229 230	m
+T3	MeasuredProperty 220 222	∆x
+T4	Qualifier 182 204	Spatial discretisation
+R1	Qualifies Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	MeasuredEntity 243 248	tests
+R3	HasProperty Arg1:T5 Arg2:T3	

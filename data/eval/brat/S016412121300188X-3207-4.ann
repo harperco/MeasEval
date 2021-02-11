@@ -1,0 +1,7 @@
+T1	Quantity 511 517	20KLoC
+T2	Unit 513 517	KLoC
+T3	MeasuredProperty 470 482	average size
+T4	MeasuredEntity 490 506	programs studied
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsMean

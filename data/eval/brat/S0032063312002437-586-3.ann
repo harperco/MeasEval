@@ -1,0 +1,7 @@
+T1	Quantity 1115 1122	∼140 km
+T2	MeasuredProperty 1067 1075	altitude
+T4	MeasuredEntity 1103 1113	ionosphere
+R2	HasProperty Arg1:T4 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+T5	Unit 1120 1122	km
+A1	IsApproximate T1

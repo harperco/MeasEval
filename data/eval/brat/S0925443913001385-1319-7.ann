@@ -1,0 +1,5 @@
+T1	Quantity 3394 3408	~ 2 megadalton
+A1	IsApproximate T1
+T2	Unit 3398 3408	megadalton
+T3	MeasuredEntity 3362 3390	mammalian mitoribosome (55S)
+R1	HasQuantity Arg1:T3 Arg2:T1	

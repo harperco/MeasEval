@@ -1,0 +1,11 @@
+T1	Quantity 482 503	approximately 6.2 MPa
+T2	MeasuredProperty 427 435	pressure
+T3	Qualifier 459 476	injection horizon
+T4	MeasuredEntity 365 384	reservoir at Ketzin
+R1	Qualifies Arg1:T3 Arg2:T4	
+R2	HasProperty Arg1:T4 Arg2:T2	
+R3	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+T5	Unit 500 503	MPa
+T6	Qualifier 386 425	Prior to the start of the CO2 injection
+R4	Qualifies Arg1:T6 Arg2:T1	

@@ -1,0 +1,6 @@
+T1	Quantity 1418 1425	19-year
+T2	MeasuredProperty 1426 1429	old
+T3	MeasuredEntity 1430 1445	tissue cultures
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 1421 1425	year

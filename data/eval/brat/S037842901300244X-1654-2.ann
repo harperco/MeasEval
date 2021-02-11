@@ -1,0 +1,7 @@
+T1	Quantity 767 786	67, 101 and 121 das
+T2	Unit 783 786	das
+T3	MeasuredProperty 755 763	recorded
+T4	MeasuredEntity 705 750	number of emerged Striga plants for each plot
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsList

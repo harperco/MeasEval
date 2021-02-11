@@ -1,0 +1,6 @@
+T1	Quantity 440 452	10.0322(6) Å
+T2	Unit 451 452	Å
+T3	MeasuredProperty 438 439	c
+T4	MeasuredEntity 394 414	tetragonal unit cell
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

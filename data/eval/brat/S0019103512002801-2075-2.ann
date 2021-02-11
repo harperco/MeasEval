@@ -1,0 +1,7 @@
+T1	Quantity 162 184	between 20 and 100 keV
+A1	QuantityQualifier T1 IsRange
+T2	Unit 181 184	keV
+T3	MeasuredEntity 152 161	electrons
+T4	MeasuredProperty 81 90	energetic
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	

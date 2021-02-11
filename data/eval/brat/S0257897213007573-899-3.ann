@@ -1,0 +1,6 @@
+T1	Quantity 754 761	3.75 nm
+T2	Unit 759 761	nm
+T3	MeasuredProperty 748 750	La
+T4	MeasuredEntity 610 619	CVD layer
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

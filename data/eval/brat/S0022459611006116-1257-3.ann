@@ -1,0 +1,8 @@
+T1	Quantity 316 323	4.216 Å
+T2	Unit 322 323	Å
+T3	MeasuredProperty 245 246	a
+T4	MeasuredEntity 224 239	cubic unit cell
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 296 312	literature value
+R3	Qualifies Arg1:T5 Arg2:T3	

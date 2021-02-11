@@ -1,0 +1,4 @@
+T1	Quantity 244 248	five
+T2	MeasuredEntity 249 255	cycles
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

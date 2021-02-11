@@ -1,0 +1,7 @@
+T1	Quantity 372 379	~2600TW
+T2	Unit 377 379	TW
+A1	IsApproximate T1
+T3	MeasuredProperty 342 353	total power
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 358 368	hemisphere
+R2	HasProperty Arg1:T4 Arg2:T3	

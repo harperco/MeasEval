@@ -1,0 +1,1 @@
+Mean, median and interquartile range of lidar error variances due to sampling rate, for averaging periods of 60 min.

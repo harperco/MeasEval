@@ -1,0 +1,39 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1240	1	Quantity	482	503	T1-1	approximately 6.2 MPa	{"mods": ["IsApproximate"], "unit": "MPa"}
+S175058361300203X-1240	1	MeasuredProperty	427	435	T2-1	pressure	{"HasQuantity": "T1-1"}
+S175058361300203X-1240	1	MeasuredEntity	365	384	T4-1	reservoir at Ketzin	{"HasProperty": "T2-1"}
+S175058361300203X-1240	1	Qualifier	459	476	T3-1	injection horizon	{"Qualifies": "T4-1"}
+S175058361300203X-1240	1	Qualifier	386	425	T6-1	Prior to the start of the CO2 injection	{"Qualifies": "T1-1"}
+S175058361300203X-1240	2	Quantity	508	513	T1-2	34 °C	{"unit": "°C"}
+S175058361300203X-1240	2	MeasuredProperty	440	451	T3-2	temperature	{"HasQuantity": "T1-2"}
+S175058361300203X-1240	2	MeasuredEntity	365	384	T2-2	reservoir at Ketzin	{"HasProperty": "T3-2"}
+S175058361300203X-1240	2	Qualifier	459	476	T4-2	injection horizon	{"Qualifies": "T2-2"}
+S175058361300203X-1240	2	Qualifier	386	425	T6-2	Prior to the start of the CO2 injection	{"Qualifies": "T3-2"}
+S175058361300203X-1240	3	Quantity	639	652	T1-3	October 2009,	
+S175058361300203X-1240	3	MeasuredProperty	678	728	T3-3	reached values of approximately 7.73 MPa and 38 °C	{"HasQuantity": "T1-3"}
+S175058361300203X-1240	3	MeasuredEntity	653	677	T2-3	pressure and temperature	{"HasProperty": "T3-3"}
+S175058361300203X-1240	4	Quantity	696	718	T1-4	approximately 7.73 MPa	{"mods": ["IsApproximate"], "unit": "MPa"}
+S175058361300203X-1240	4	MeasuredProperty	653	661	T4-4	pressure	{"HasQuantity": "T1-4"}
+S175058361300203X-1240	4	MeasuredEntity	365	384	T2-4	reservoir at Ketzin	{"HasProperty": "T4-4"}
+S175058361300203X-1240	4	Qualifier	639	651	T5-4	October 2009	{"Qualifies": "T4-4"}
+S175058361300203X-1240	4	Qualifier	744	801	T3-4	in the injection well Ktzi201/2007 at the injection depth	{"Qualifies": "T2-4"}
+S175058361300203X-1240	5	Quantity	723	728	T1-5	38 °C	{"unit": "°C"}
+S175058361300203X-1240	5	MeasuredProperty	666	677	T4-5	temperature	{"HasQuantity": "T1-5"}
+S175058361300203X-1240	5	MeasuredEntity	365	384	T2-5	reservoir at Ketzin	{"HasProperty": "T4-5"}
+S175058361300203X-1240	5	Qualifier	639	651	T6-5	October 2009	{"Qualifies": "T4-5"}
+S175058361300203X-1240	5	Qualifier	744	801	T3-5	in the injection well Ktzi201/2007 at the injection depth	{"Qualifies": "T2-5"}
+S175058361300203X-1240	6	Quantity	1098	1114	T1-6	around 260 kg/m3	{"mods": ["IsApproximate"], "unit": "kg/m3"}
+S175058361300203X-1240	6	MeasuredProperty	1086	1093	T5-6	density	{"HasQuantity": "T1-6"}
+S175058361300203X-1240	6	MeasuredEntity	1082	1085	T2-6	CO2	{"HasProperty": "T5-6"}
+S175058361300203X-1240	6	Qualifier	1115	1160	T4-6	at the injection point (38 °C) in autumn 2009	{"Qualifies": "T5-6"}
+S175058361300203X-1240	7	Quantity	1139	1144	T1-7	38 °C	{"unit": "°C"}
+S175058361300203X-1240	7	MeasuredEntity	1122	1137	T2-7	injection point	{"HasQuantity": "T1-7"}
+S175058361300203X-1240	8	Quantity	1149	1160	T1-8	autumn 2009	
+S175058361300203X-1240	8	MeasuredProperty	1098	1145	T3-8	around 260 kg/m3 at the injection point (38 °C)	{"HasQuantity": "T1-8"}
+S175058361300203X-1240	8	MeasuredEntity	1082	1093	T2-8	CO2 density	{"HasProperty": "T3-8"}
+S175058361300203X-1240	9	Quantity	1177	1191	T1-9	near 320 kg/m3	{"mods": ["IsApproximate"], "unit": "kg/m3"}
+S175058361300203X-1240	9	MeasuredProperty	1086	1093	T5-9	density	{"HasQuantity": "T1-9"}
+S175058361300203X-1240	9	MeasuredEntity	1082	1085	T2-9	CO2	{"HasProperty": "T5-9"}
+S175058361300203X-1240	9	Qualifier	1192	1271	T4-9	in the more distant part of the plume, close to the ambient temperature (34 °C)	{"Qualifies": "T5-9"}
+S175058361300203X-1240	10	Quantity	1265	1270	T1-10	34 °C	{"unit": "°C"}
+S175058361300203X-1240	10	MeasuredEntity	1244	1263	T3-10	ambient temperature	{"HasQuantity": "T1-10"}

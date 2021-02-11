@@ -1,0 +1,5 @@
+T1	Quantity 281 283	19
+T2	MeasuredProperty 277 280	age
+T3	MeasuredEntity 142 155	Wind turbines
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	

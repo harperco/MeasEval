@@ -1,0 +1,4 @@
+T1	Quantity 528 538	1.1(2) wt%
+T2	MeasuredEntity 504 524	final phase fraction
+T3	Unit 535 538	wt%
+R2	HasQuantity Arg1:T2 Arg2:T1	

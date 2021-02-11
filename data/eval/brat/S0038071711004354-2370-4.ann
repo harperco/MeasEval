@@ -1,0 +1,7 @@
+T1	Quantity 262 268	27–48%
+T2	MeasuredProperty 257 259	dƒ
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 267 268	%
+A1	QuantityQualifier T1 IsRange
+T4	MeasuredEntity 241 244	SEs
+R2	HasProperty Arg1:T4 Arg2:T2	

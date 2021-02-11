@@ -1,0 +1,1 @@
+The use of the guiding center approximation is justified since the gyroradius of energetic electrons is much smaller than Rhea’s diameter (15–35 km for electrons between 20 and 100 keV) or the scale size of the various macroscopic interaction features (wake, expansion fans). Furthermore, field parameters in the simulation are static.

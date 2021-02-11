@@ -1,0 +1,8 @@
+T1	Quantity 599 609	three-year
+T2	Unit 605 609	year
+T3	MeasuredProperty 610 613	old
+T4	MeasuredEntity 614 622	saplings
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 532 539	Populus
+R3	Qualifies Arg1:T5 Arg2:T4	

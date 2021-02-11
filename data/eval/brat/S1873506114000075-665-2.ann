@@ -1,0 +1,5 @@
+T1	Quantity 419 435	50 μm and 100 μm
+T2	Unit 433 435	μm
+T3	MeasuredEntity 408 417	Scale bar
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	QuantityQualifier T1 IsList

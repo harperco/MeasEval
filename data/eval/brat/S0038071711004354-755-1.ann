@@ -1,0 +1,7 @@
+T1	Quantity 162 180	approximately −14‰
+T2	Unit 179 180	‰
+A1	IsApproximate T1
+T4	MeasuredEntity 205 216	ambient CO2
+R1	HasProperty Arg1:T4 Arg2:T5	
+T5	MeasuredProperty 197 201	δ13C
+R3	HasQuantity Arg1:T5 Arg2:T1	

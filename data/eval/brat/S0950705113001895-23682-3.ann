@@ -1,0 +1,4 @@
+T1	Quantity 564 566	5%
+T2	Unit 565 566	%
+T3	MeasuredEntity 537 551	updating ratio
+R1	HasQuantity Arg1:T3 Arg2:T1	

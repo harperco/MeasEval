@@ -1,0 +1,4 @@
+T1	Quantity 431 434	two
+T2	MeasuredEntity 435 454	L7/L12 heterodimers
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1

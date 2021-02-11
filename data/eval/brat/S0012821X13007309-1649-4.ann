@@ -1,0 +1,5 @@
+T1	Quantity 650 654	∼2 m
+T2	Unit 653 654	m
+T3	MeasuredEntity 634 643	excursion
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsApproximate T1

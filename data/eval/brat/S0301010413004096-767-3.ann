@@ -1,0 +1,5 @@
+T1	Quantity 256 262	∼2.5 g
+T2	Unit 261 262	g
+A1	IsApproximate T1
+T3	MeasuredEntity 225 254	sample of desolvated NOTT-300
+R1	HasQuantity Arg1:T3 Arg2:T1	

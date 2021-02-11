@@ -1,0 +1,7 @@
+T1	Quantity 431 441	about 15 s
+T2	Unit 440 441	s
+A1	IsApproximate T1
+T3	MeasuredEntity 385 424	a bounce for 170° pitch angle electrons
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 425 430	takes
+R2	Qualifies Arg1:T4 Arg2:T1	

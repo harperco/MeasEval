@@ -1,0 +1,4 @@
+T1	Quantity 56 62	100 ms
+T2	Unit 60 62	ms
+T3	MeasuredEntity 33 52	group contrast maps
+R1	HasQuantity Arg1:T3 Arg2:T1	

@@ -1,0 +1,8 @@
+T1	Quantity 689 701	toward 280 K
+T2	Unit 700 701	K
+T3	MeasuredProperty 663 682	surface temperature
+T4	MeasuredEntity 92 96	Mars
+R2	HasQuantity Arg1:T3 Arg2:T1	
+R1	HasProperty Arg1:T4 Arg2:T3	
+A1	IsApproximate T1
+A2	QuantityQualifier T1 IsRange

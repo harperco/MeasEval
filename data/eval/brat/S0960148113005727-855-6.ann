@@ -1,0 +1,6 @@
+T1	Quantity 450 461	twenty year
+T2	MeasuredProperty 462 470	lifetime
+T3	MeasuredEntity 417 428	wind farm's
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+T4	Unit 457 461	year

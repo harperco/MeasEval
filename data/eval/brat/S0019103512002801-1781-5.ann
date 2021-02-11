@@ -1,0 +1,9 @@
+T1	Quantity 537 543	≈ 170°
+T2	Unit 542 543	°
+A1	IsApproximate T1
+T3	MeasuredEntity 489 494	pitch
+T4	MeasuredProperty 495 500	angle
+R1	HasProperty Arg1:T3 Arg2:T4	
+R2	HasQuantity Arg1:T4 Arg2:T1	
+T5	Qualifier 544 564	throughout the flyby
+R3	Qualifies Arg1:T5 Arg2:T4	

@@ -1,0 +1,4 @@
+T1	Quantity 241 245	50 m
+T2	Unit 245 246	,
+T3	MeasuredEntity 237 238	H
+R1	HasQuantity Arg1:T3 Arg2:T1	

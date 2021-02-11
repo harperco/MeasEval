@@ -1,0 +1,8 @@
+T1	Quantity 139 142	~6×
+T2	MeasuredProperty 82 137	power dissipated in the atmosphere due to Joule heating
+T3	MeasuredEntity 2 42	transient magnetospheric expansion event
+R1	HasProperty Arg1:T3 Arg2:T2	
+R2	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsApproximate T1
+T5	Qualifier 151 153	ES
+R4	Qualifies Arg1:T5 Arg2:T1	

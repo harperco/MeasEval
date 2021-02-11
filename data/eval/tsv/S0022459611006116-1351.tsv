@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1351	1	Quantity	58	65	T1-1	1423 K.	{"unit": "K"}
+S0022459611006116-1351	1	MeasuredProperty	4	13	T4-1	synthesis	{"HasQuantity": "T1-1"}
+S0022459611006116-1351	1	MeasuredEntity	19	41	T3-1	pale cream powder of 2	{"HasProperty": "T4-1"}
+S0022459611006116-1351	2	Quantity	422	433	T1-2	4.1816(4) Å	{"unit": "Å"}
+S0022459611006116-1351	2	MeasuredProperty	420	421	T4-2	a	{"HasQuantity": "T1-2"}
+S0022459611006116-1351	2	MeasuredEntity	394	414	T3-2	tetragonal unit cell	{"HasProperty": "T4-2"}
+S0022459611006116-1351	3	Quantity	440	452	T1-3	10.0322(6) Å	{"unit": "Å"}
+S0022459611006116-1351	3	MeasuredProperty	438	439	T3-3	c	{"HasQuantity": "T1-3"}
+S0022459611006116-1351	3	MeasuredEntity	394	414	T4-3	tetragonal unit cell	{"HasProperty": "T3-3"}
+S0022459611006116-1351	4	Quantity	505	512	T1-4	4.186 Å	{"unit": "Å"}
+S0022459611006116-1351	4	MeasuredProperty	503	504	T3-4	a	{"HasQuantity": "T1-4"}
+S0022459611006116-1351	4	MeasuredEntity	394	414	T4-4	tetragonal unit cell	{"HasProperty": "T3-4"}
+S0022459611006116-1351	4	Qualifier	482	499	T5-4	literature values	{"Qualifies": "T3-4"}
+S0022459611006116-1351	5	Quantity	519	525	T1-5	10.042	{"unit": "Å"}
+S0022459611006116-1351	5	MeasuredProperty	517	518	T3-5	c	{"HasQuantity": "T1-5"}
+S0022459611006116-1351	5	MeasuredEntity	394	414	T4-5	tetragonal unit cell	{"HasProperty": "T3-5"}
+S0022459611006116-1351	5	Qualifier	482	499	T5-5	literature values	{"Qualifies": "T3-5"}

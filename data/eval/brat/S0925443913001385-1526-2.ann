@@ -1,0 +1,4 @@
+T1	Quantity 205 215	1.2% (w/v)
+T2	MeasuredEntity 216 223	agarose
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 208 215	% (w/v)

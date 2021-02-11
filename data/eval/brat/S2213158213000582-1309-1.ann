@@ -1,0 +1,6 @@
+T1	Quantity 372 378	500 ms
+T2	MeasuredEntity 362 371	S1 epochs
+T3	Qualifier 379 391	pre-stimulus
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	Qualifies Arg1:T3 Arg2:T1	
+T4	Unit 376 378	ms

@@ -1,0 +1,6 @@
+T1	Quantity 408 410	3%
+T2	Unit 409 410	%
+T3	MeasuredProperty 411 419	increase
+T4	MeasuredEntity 423 443	turbulence intensity
+R1	HasProperty Arg1:T4 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	

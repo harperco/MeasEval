@@ -1,0 +1,3 @@
+T1	Quantity 357 365	121 × 53
+T2	MeasuredEntity 366 378	regular grid
+R1	HasQuantity Arg1:T2 Arg2:T1	

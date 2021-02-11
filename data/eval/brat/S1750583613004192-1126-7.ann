@@ -1,0 +1,4 @@
+T1	Quantity 731 736	eight
+T3	MeasuredEntity 737 752	seismic surveys
+R1	HasQuantity Arg1:T3 Arg2:T1	
+A1	IsCount T1

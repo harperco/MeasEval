@@ -1,0 +1,3 @@
+T1	Quantity 274 280	0.0025
+T2	MeasuredEntity 269 271	cb
+R1	HasQuantity Arg1:T2 Arg2:T1	

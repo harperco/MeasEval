@@ -1,0 +1,4 @@
+T1	Quantity 81 85	3 ms
+T2	MeasuredEntity 86 101	binaural clicks
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 83 85	ms

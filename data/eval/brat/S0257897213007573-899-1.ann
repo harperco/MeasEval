@@ -1,0 +1,9 @@
+T1	Quantity 141 153	~ 1354 cm− 1
+T2	MeasuredEntity 99 105	D-band
+T3	MeasuredProperty 87 95	position
+A1	IsApproximate T1
+T4	Unit 148 153	cm− 1
+R1	HasProperty Arg1:T2 Arg2:T3	
+R2	HasQuantity Arg1:T3 Arg2:T1	
+T5	Qualifier 26 35	CVD layer
+R3	Qualifies Arg1:T5 Arg2:T2	

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4499	1	Quantity	689	701	T1-1	toward 280 K	{"mods": ["IsApproximate", "IsRange"], "unit": "K"}
+S0019103513005058-4499	1	MeasuredProperty	663	682	T3-1	surface temperature	{"HasQuantity": "T1-1"}
+S0019103513005058-4499	1	MeasuredEntity	92	96	T4-1	Mars	{"HasProperty": "T3-1"}

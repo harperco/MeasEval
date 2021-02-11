@@ -1,0 +1,8 @@
+T1	Quantity 1156 1159	30%
+T2	Unit 1158 1159	%
+T3	Qualifier 1110 1136	total power per hemisphere
+T4	MeasuredEntity 1173 1175	ES
+R1	Qualifies Arg1:T3 Arg2:T4	
+T5	MeasuredProperty 1110 1147	total power per hemisphere in case EF
+R3	HasQuantity Arg1:T5 Arg2:T1	
+R4	HasProperty Arg1:T4 Arg2:T5	

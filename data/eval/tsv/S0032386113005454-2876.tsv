@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2876	1	Quantity	311	316	T1-1	20 °C	{"unit": "°C"}
+S0032386113005454-2876	1	MeasuredProperty	299	307	T4-1	fracture	{"HasQuantity": "T1-1"}
+S0032386113005454-2876	1	MeasuredEntity	212	241	T3-1	S-CSR-modified epoxy polymers	{"HasProperty": "T4-1"}

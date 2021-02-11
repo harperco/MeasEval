@@ -1,0 +1,8 @@
+T1	Quantity 841 843	5%
+T2	MeasuredProperty 693 722	karyotypically abnormal cells
+T3	MeasuredEntity 847 881	tested batches of hiPSCs and hESCs
+R1	HasQuantity Arg1:T2 Arg2:T1	
+R2	HasProperty Arg1:T3 Arg2:T2	
+T4	Unit 842 843	%
+T5	Qualifier 747 817	after long-term cultures under both adherent and suspension conditions
+R3	Qualifies Arg1:T5 Arg2:T2	

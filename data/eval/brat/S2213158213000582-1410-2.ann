@@ -1,0 +1,6 @@
+T1	Quantity 526 532	100 ms
+T2	Unit 530 532	ms
+T3	MeasuredEntity 533 554	STG group differences
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	Qualifier 516 525	bilateral
+R2	Qualifies Arg1:T4 Arg2:T1	

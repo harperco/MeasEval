@@ -1,0 +1,8 @@
+T1	Quantity 519 525	10.042
+T2	Unit 526 527	Å
+T3	MeasuredProperty 517 518	c
+R1	HasQuantity Arg1:T3 Arg2:T1	
+T4	MeasuredEntity 394 414	tetragonal unit cell
+R2	HasProperty Arg1:T4 Arg2:T3	
+T5	Qualifier 482 499	literature values
+R3	Qualifies Arg1:T5 Arg2:T3	

@@ -1,0 +1,6 @@
+T1	Quantity 502 514	average, 103
+T2	MeasuredEntity 515 521	trials
+R1	HasQuantity Arg1:T2 Arg2:T1	
+A1	IsCount T1
+T3	Qualifier 536 552	for each subject
+R2	Qualifies Arg1:T3 Arg2:T2	

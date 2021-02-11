@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506114000075-665	1	Quantity	100	106	T1-1	100-mm	{"unit": "mm"}
+S1873506114000075-665	1	MeasuredEntity	107	113	T3-1	dishes	{"HasQuantity": "T1-1"}
+S1873506114000075-665	2	Quantity	419	435	T1-2	50 μm and 100 μm	{"mods": ["IsList"], "unit": "μm"}
+S1873506114000075-665	2	MeasuredEntity	408	417	T3-2	Scale bar	{"HasQuantity": "T1-2"}
+S1873506114000075-665	3	Quantity	586	592	T1-3	100 μm	{"unit": "μm"}
+S1873506114000075-665	3	MeasuredEntity	575	584	T2-3	Scale bar	{"HasQuantity": "T1-3"}

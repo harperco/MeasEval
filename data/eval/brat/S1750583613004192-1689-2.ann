@@ -1,0 +1,6 @@
+T1	Quantity 631 637	10 MPa
+T2	MeasuredProperty 641 653	overpressure
+R1	HasQuantity Arg1:T2 Arg2:T1	
+T3	Unit 634 637	MPa
+T4	MeasuredEntity 592 616	transient ice sheet load
+R2	HasProperty Arg1:T4 Arg2:T2	
