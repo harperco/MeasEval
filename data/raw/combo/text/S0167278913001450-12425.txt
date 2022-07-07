@@ -1,0 +1,1 @@
+Fig. 2 shows a steady quadrupole flow at depths 100, 500, 1000, and 1500 m with A(z) and B(z) defined as in (28). Notice that the quadrupole strength varies linearly with depth.

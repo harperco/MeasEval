@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4349	1	Quantity	194	197	T1-1	35%	{"unit": "%"}
+S0019103513005058-4349	1	MeasuredEntity	171	190	T3-1	temperature profile	{"HasQuantity": "T1-1"}
+S0019103513005058-4349	1	Qualifier	156	166	T4-1	increasing	{"Qualifies": "T3-1"}
+S0019103513005058-4349	2	Quantity	201	203	T1-2	5%	{"unit": "%"}
+S0019103513005058-4349	2	MeasuredProperty	204	214	T2-2	increments	{"HasQuantity": "T1-2"}
+S0019103513005058-4349	2	MeasuredEntity	171	190	T4-2	temperature profile	{"HasProperty": "T2-2"}
+S0019103513005058-4349	3	Quantity	368	398	T1-3	around six orders of magnitude	{"mods": ["IsApproximate"], "unit": "orders of magnitude"}
+S0019103513005058-4349	3	MeasuredProperty	320	335	T2-3	deposition rate	{"HasQuantity": "T1-3"}
+S0019103513005058-4349	3	MeasuredEntity	339	354	T4-3	perchloric acid	{"HasProperty": "T2-3"}
+S0019103513005058-4349	3	Qualifier	355	364	T3-3	increases	{"Qualifies": "T2-3"}

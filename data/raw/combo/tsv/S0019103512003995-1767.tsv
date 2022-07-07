@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1767	1	Quantity	240	247	T1-1	1083 nm	{"unit": "nm"}
+S0019103512003995-1767	1	MeasuredProperty	248	252	T4-1	line	{"HasQuantity": "T1-1"}
+S0019103512003995-1767	1	MeasuredEntity	237	239	T3-1	He	{"HasProperty": "T4-1"}

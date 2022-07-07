@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2973	1	Quantity	1020	1038	T3-1	(0.28–0.42)×10-10m	{"mods": ["IsRange"], "unit": "m"}
+S1359645413009816-2973	1	MeasuredProperty	1016	1019	T2-1	eGB	{"HasQuantity": "T3-1"}
+S1359645413009816-2973	1	MeasuredEntity	978	1014	T1-1	molecular dynamics simulations on Ni	{"HasProperty": "T2-1"}
+S1359645413009816-2973	1	Qualifier	1043	1077	T5-1	random high-angle grain boundaries	{"Qualifies": "T2-1"}
+S1359645413009816-2973	2	Quantity	1091	1109	T3-2	(0.39–0.41)×10-10m	{"mods": ["IsRange"], "unit": "m"}
+S1359645413009816-2973	2	MeasuredProperty	1087	1090	T2-2	eGB	{"HasQuantity": "T3-2"}
+S1359645413009816-2973	2	MeasuredEntity	978	1014	T1-2	molecular dynamics simulations on Ni	{"HasProperty": "T2-2"}
+S1359645413009816-2973	2	Qualifier	1110	1149	T5-2	(at T = 1200 K) for Σ5 grain boundaries	{"Qualifies": "T2-2"}
+S1359645413009816-2973	3	Quantity	1118	1124	T1-3	1200 K	{"unit": "K"}
+S1359645413009816-2973	3	MeasuredProperty	1114	1115	T3-3	T	{"HasQuantity": "T1-3"}
+S1359645413009816-2973	3	MeasuredEntity	978	1014	T2-3	molecular dynamics simulations on Ni	{"HasProperty": "T3-3"}

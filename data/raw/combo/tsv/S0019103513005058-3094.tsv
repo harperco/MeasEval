@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3094	1	Quantity	661	671	T21-1	last 3 byr	{"mods": ["IsRange"], "unit": "byr"}
+S0019103513005058-3094	1	MeasuredEntity	677	690	T31-1	Amazonian eon	{"HasQuantity": "T21-1"}
+S0019103513005058-3094	2	Quantity	868	872	T62-2	∼2 m	{"mods": ["IsApproximate"], "unit": "m"}
+S0019103513005058-3094	2	MeasuredProperty	859	864	T72-2	depth	{"HasQuantity": "T62-2"}
+S0019103513005058-3094	2	MeasuredEntity	795	799	T42-2	soil	{"HasProperty": "T72-2"}
+S0019103513005058-3094	2	Qualifier	809	838	T52-2	mixed by impact perturbations	{"Qualifies": "T42-2"}
+S0019103513005058-3094	3	Quantity	926	930	T93-3	0.1%	{"unit": "%"}
+S0019103513005058-3094	3	MeasuredProperty	899	925	T83-3	time-average volcanic flux	{"HasQuantity": "T93-3"}
+S0019103513005058-3094	3	MeasuredEntity	938	970	T103-3	modern terrestrial volcanic flux	{"HasProperty": "T83-3"}
+S0019103513005058-3094	4	Quantity	1028	1040	T114-4	1.0–1.7 wt.%	{"mods": ["IsRange"], "unit": "wt.%"}
+S0019103513005058-3094	4	MeasuredProperty	1041	1046	T144-4	SO42-	{"HasQuantity": "T114-4"}
+S0019103513005058-3094	4	MeasuredEntity	1000	1004	T154-4	soil	{"HasProperty": "T144-4"}
+S0019103513005058-3094	5	Quantity	1051	1063	T125-5	0.2–0.4 wt.%	{"mods": ["IsRange"], "unit": "wt.%"}
+S0019103513005058-3094	5	MeasuredProperty	1064	1065	T135-5	N	{"HasQuantity": "T125-5"}
+S0019103513005058-3094	5	MeasuredEntity	1000	1004	T155-5	soil	{"HasProperty": "T135-5"}
+S0019103513005058-3094	6	Quantity	1474	1486	T166-6	0.4–0.6 wt.%	{"mods": ["IsRange"], "unit": "wt.%"}
+S0019103513005058-3094	6	MeasuredProperty	1487	1492	T176-6	ClO4-	{"HasQuantity": "T166-6"}
+S0019103513005058-3094	6	MeasuredEntity	1000	1004	T156-6	soil	{"HasProperty": "T176-6"}
+S0019103513005058-3094	6	Qualifier	1493	1527	T186-6	measured by NASA’s Phoenix Lander.	{"Qualifies": "T176-6"}

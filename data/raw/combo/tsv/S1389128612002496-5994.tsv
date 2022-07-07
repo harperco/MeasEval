@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-5994	1	Quantity	302	305	T1-1	25%	{"unit": "%"}
+S1389128612002496-5994	1	MeasuredProperty	292	301	T3-1	RED drops	{"HasQuantity": "T1-1"}
+S1389128612002496-5994	1	MeasuredEntity	306	313	T2-1	packets	{"HasProperty": "T3-1"}
+S1389128612002496-5994	2	Quantity	334	338	T1-2	7.6%	{"unit": "%"}
+S1389128612002496-5994	2	MeasuredProperty	344	352	T3-2	DropTail	{"HasQuantity": "T1-2"}
+S1389128612002496-5994	2	MeasuredEntity	306	313	T4-2	packets	{"HasProperty": "T3-2"}

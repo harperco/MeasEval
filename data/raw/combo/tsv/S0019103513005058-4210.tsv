@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4210	1	Quantity	143	146	T11-1	2 m	{"mods": ["IsMean"], "unit": "m"}
+S0019103513005058-4210	1	MeasuredProperty	134	139	T21-1	depth	{"HasQuantity": "T11-1"}
+S0019103513005058-4210	1	MeasuredEntity	106	110	T41-1	soil	{"HasProperty": "T21-1"}
+S0019103513005058-4210	1	Qualifier	126	133	T31-1	average	{"Qualifies": "T11-1"}
+S0019103513005058-4210	1	Qualifier	114	119	T51-1	mixed	{"Qualifies": "T21-1"}
+S0019103513005058-4210	2	Quantity	230	246	T82-2	4.3 × 10−8 wt. %	{"unit": "wt. %"}
+S0019103513005058-4210	2	MeasuredProperty	212	226	T212-2	concentrations	{"HasQuantity": "T82-2"}
+S0019103513005058-4210	2	MeasuredEntity	170	179	T62-2	Ca(ClO4)2	{"HasProperty": "T212-2"}
+S0019103513005058-4210	3	Quantity	251	268	T93-3	4.0 × 10−10 wt. %	{"unit": "wt. %"}
+S0019103513005058-4210	3	MeasuredProperty	212	226	T213-3	concentrations	{"HasQuantity": "T93-3"}
+S0019103513005058-4210	3	MeasuredEntity	183	192	T203-3	Mg(ClO4)2	{"HasProperty": "T213-3"}
+S0019103513005058-4210	4	Quantity	402	415	T104-4	0.4–0.6 wt. %	{"unit": "wt. %"}
+S0019103513005058-4210	4	MeasuredProperty	354	372	T124-4	observed abundance	{"HasQuantity": "T104-4"}
+S0019103513005058-4210	4	MeasuredEntity	33	44	T204-4	perchlorate	{"HasProperty": "T124-4"}
+S0019103513005058-4210	5	Quantity	548	553	T155-5	∼1:60	{"mods": ["IsApproximate"]}
+S0019103513005058-4210	5	MeasuredProperty	541	547	T225-5	ratios	{"HasQuantity": "T155-5"}
+S0019103513005058-4210	5	MeasuredEntity	521	540	T145-5	perchlorate:nitrate	{"HasProperty": "T225-5"}
+S0019103513005058-4210	5	Qualifier	554	575	T165-5	measured in EETA79001	{"Qualifies": "T145-5"}
+S0019103513005058-4210	6	Quantity	639	646	T196-6	∼1:1000	{"mods": ["IsApproximate"]}
+S0019103513005058-4210	6	MeasuredProperty	541	547	T136-6	ratios	{"HasQuantity": "T196-6"}
+S0019103513005058-4210	6	MeasuredEntity	616	635	T186-6	perchlorate:nitrate	{"HasProperty": "T136-6"}
+S0019103513005058-4210	6	Qualifier	608	615	T176-6	Atacama	{"Qualifies": "T186-6"}

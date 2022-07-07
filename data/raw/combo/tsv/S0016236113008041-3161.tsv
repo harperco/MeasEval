@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3161	1	Quantity	50	56	T1-1	4.5 kg	{"unit": "kg"}
+S0016236113008041-3161	1	MeasuredEntity	26	46	T2-1	lowest bed inventory	{"HasQuantity": "T1-1"}
+S0016236113008041-3161	2	Quantity	439	455	T1-2	4.5 kg and 13 kg	{"unit": "kg"}
+S0016236113008041-3161	2	MeasuredEntity	420	435	T3-2	bed inventories	{"HasQuantity": "T1-2"}
+S0016236113008041-3161	3	Quantity	484	488	T1-3	6 kg	{"unit": "kg"}
+S0016236113008041-3161	3	MeasuredEntity	489	498	T2-3	inventory	{"HasQuantity": "T1-3"}
+S0016236113008041-3161	4	Quantity	536	545	T1-4	<0.01 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3161	4	MeasuredProperty	513	519	T4-4	values	{"HasQuantity": "T1-4"}
+S0016236113008041-3161	4	MeasuredEntity	363	364	T3-4	P	{"HasProperty": "T4-4"}
+S0016236113008041-3161	4	Qualifier	71	100	T5-4	concentration in the flue gas	{"Qualifies": "T4-4"}
+S0016236113008041-3161	5	Quantity	667	673	T1-5	<2 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3161	5	MeasuredProperty	623	637	T2-5	concentrations	{"HasQuantity": "T1-5"}
+S0016236113008041-3161	5	MeasuredEntity	645	653	T3-5	flue gas	{"HasProperty": "T2-5"}

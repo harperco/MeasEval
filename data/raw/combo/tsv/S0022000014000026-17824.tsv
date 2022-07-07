@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-17824	1	Quantity	103	107	T11-1	1 μs	{"unit": "μs"}
+S0022000014000026-17824	1	MeasuredProperty	97	101	T21-1	skew	{"HasQuantity": "T11-1"}
+S0022000014000026-17824	1	MeasuredEntity	66	72	T31-1	pulses	{"HasProperty": "T21-1"}

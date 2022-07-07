@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1367912013002277-1213	1	Quantity	223	232	T1-1	2.5–10 μm	{"mods": ["IsRange"], "unit": "μm"}
+S1367912013002277-1213	1	MeasuredEntity	195	214	T3-1	collected particles	{"HasQuantity": "T1-1"}
+S1367912013002277-1213	1	Qualifier	234	238	T4-1	PM10	{"Qualifies": "T3-1"}
+S1367912013002277-1213	2	Quantity	244	260	T1-2	less than 2.5 μm	{"mods": ["IsRange"], "unit": "μm"}
+S1367912013002277-1213	2	MeasuredEntity	195	214	T2-2	collected particles	{"HasQuantity": "T1-2"}
+S1367912013002277-1213	2	Qualifier	262	267	T3-2	PM2.5	{"Qualifies": "T2-2"}

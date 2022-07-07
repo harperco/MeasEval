@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1231	1	Quantity	347	351	T131-1	∼−1‰	{"mods": ["IsApproximate"], "unit": "‰"}
+S0012821X13002185-1231	1	MeasuredProperty	309	312	T121-1	30ε	{"HasQuantity": "T131-1"}
+S0012821X13002185-1231	1	MeasuredEntity	92	135	T111-1	diatom silicon isotope fractionation factor	{"HasProperty": "T121-1"}
+S0012821X13002185-1231	2	Quantity	604	607	T12-2	40%	{"unit": "%"}
+S0012821X13002185-1231	2	MeasuredProperty	608	636	T102-2	differences in the abundance	{"HasQuantity": "T12-2"}
+S0012821X13002185-1231	2	MeasuredEntity	646	653	T62-2	diatoms	{"HasProperty": "T102-2"}
+S0012821X13002185-1231	3	Quantity	848	856	T23-3	12–20 μm	{"mods": ["IsRange"], "unit": "μm"}
+S0012821X13002185-1231	3	MeasuredEntity	857	865	T93-3	fraction	{"HasQuantity": "T23-3"}
+S0012821X13002185-1231	4	Quantity	1083	1102	T34-4	between 2 and 20 μm	{"mods": ["IsRange"], "unit": "μm"}
+S0012821X13002185-1231	4	MeasuredEntity	1068	1082	T74-4	size fractions	{"HasQuantity": "T34-4"}
+S0012821X13002185-1231	5	Quantity	1134	1138	T155-5	0.92	
+S0012821X13002185-1231	5	MeasuredProperty	1131	1133	T145-5	r2	{"HasQuantity": "T155-5"}
+S0012821X13002185-1231	5	MeasuredEntity	1052	1102	T165-5	δ30Si values of size fractions between 2 and 20 μm	{"HasProperty": "T145-5"}
+S0012821X13002185-1231	6	Quantity	1327	1331	T186-6	∼–1‰	{"mods": ["IsApproximate"], "unit": "‰"}
+S0012821X13002185-1231	6	MeasuredProperty	1311	1323	T176-6	apparent 30ε	{"HasQuantity": "T186-6"}
+S0012821X13002185-1231	6	MeasuredEntity	1052	1102	T166-6	δ30Si values of size fractions between 2 and 20 μm	{"HasProperty": "T176-6"}
+S0012821X13002185-1231	7	Quantity	1708	1715	T47-7	2–10 μm	{"unit": "μm"}
+S0012821X13002185-1231	7	MeasuredEntity	1729	1743	T87-7	size fractions	{"HasQuantity": "T47-7"}
+S0012821X13002185-1231	8	Quantity	1720	1728	T58-8	10–20 μm	{"unit": "μm"}
+S0012821X13002185-1231	8	MeasuredEntity	1729	1743	T88-8	size fractions	{"HasQuantity": "T58-8"}

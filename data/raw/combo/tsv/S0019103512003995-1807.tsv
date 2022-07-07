@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-1807	1	Quantity	323	331	T11-1	589.3 nm	{"unit": "nm"}
+S0019103512003995-1807	1	MeasuredProperty	332	341	T31-1	resonance	{"HasQuantity": "T11-1"}
+S0019103512003995-1807	1	MeasuredEntity	318	322	T41-1	Na D	{"HasProperty": "T31-1"}
+S0019103512003995-1807	2	Quantity	421	425	T122-2	four	{"mods": ["IsCount"]}
+S0019103512003995-1807	2	MeasuredEntity	426	434	T112-2	transits	{"HasQuantity": "T122-2"}
+S0019103512003995-1807	3	Quantity	753	763	T23-3	300–800 nm	{"mods": ["IsRange"], "unit": "nm"}
+S0019103512003995-1807	3	MeasuredProperty	738	749	T53-3	wavelengths	{"HasQuantity": "T23-3"}
+S0019103512003995-1807	3	MeasuredEntity	700	734	T63-3	transmission spectrum of HD209458b	{"HasProperty": "T53-3"}
+S0019103512003995-1807	4	Quantity	846	852	T84-4	3 mbar	{"unit": "mbar"}
+S0019103512003995-1807	4	MeasuredEntity	853	858	T94-4	level	{"HasQuantity": "T84-4"}
+S0019103512003995-1807	4	Qualifier	813	823	T74-4	atmosphere	{"Qualifies": "T94-4"}

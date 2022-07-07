@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513002729-1062	1	Quantity	5	11	T1-1	0.64 H	{"unit": "H"}
+S0167610513002729-1062	1	MeasuredEntity	3	4	T2-1	x	{"HasQuantity": "T1-1"}

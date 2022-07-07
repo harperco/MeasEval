@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383911001669-1203	1	Quantity	395	401	T1-1	1.3 mm	{"unit": "mm"}
+S0378383911001669-1203	1	MeasuredEntity	402	418	T2-1	sand-rough beach	{"HasQuantity": "T1-1"}
+S0378383911001669-1203	2	Quantity	426	433	T1-2	0.072 m	{"unit": "m"}
+S0378383911001669-1203	2	MeasuredEntity	395	418	T3-2	1.3 mm sand-rough beach	{"HasQuantity": "T1-2"}
+S0378383911001669-1203	3	Quantity	451	458	T1-3	0.772 m	{"unit": "m"}
+S0378383911001669-1203	3	MeasuredEntity	395	418	T3-3	1.3 mm sand-rough beach	{"HasQuantity": "T1-3"}
+S0378383911001669-1203	4	Quantity	476	483	T1-4	1.567 m	{"unit": "m"}
+S0378383911001669-1203	4	MeasuredEntity	395	418	T3-4	1.3 mm sand-rough beach	{"HasQuantity": "T1-4"}
+S0378383911001669-1203	5	Quantity	518	524	T1-5	8.4 mm	{"unit": "mm"}
+S0378383911001669-1203	5	MeasuredEntity	525	543	T2-5	gravel-rough beach	{"HasQuantity": "T1-5"}

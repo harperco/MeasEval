@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002048-3775	1	Quantity	131	134	T1-1	two	{"mods": ["IsCount"]}
+S0960148113002048-3775	1	MeasuredEntity	135	147	T2-1	major trends	{"HasQuantity": "T1-1"}
+S0960148113002048-3775	2	Quantity	713	725	T1-2	0.01–0.03 Hz	{"mods": ["IsRange"], "unit": "Hz"}
+S0960148113002048-3775	2	MeasuredProperty	698	709	T3-2	frequencies	{"HasQuantity": "T1-2"}
+S0960148113002048-3775	2	MeasuredEntity	693	697	T2-2	wind	{"HasProperty": "T3-2"}
+S0960148113002048-3775	3	Quantity	985	999	T1-3	above 0.003 Hz	{"mods": ["IsRange"], "unit": "Hz"}
+S0960148113002048-3775	3	MeasuredProperty	973	984	T3-3	frequencies	{"HasQuantity": "T1-3"}
+S0960148113002048-3775	3	MeasuredEntity	968	972	T2-3	wind	{"HasProperty": "T3-3"}

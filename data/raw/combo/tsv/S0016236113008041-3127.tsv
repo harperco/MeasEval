@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3127	1	Quantity	271	272	T1-1	4	{"mods": ["IsCount"]}
+S0016236113008041-3127	1	MeasuredEntity	273	287	T2-1	major elements	{"HasQuantity": "T1-1"}
+S0016236113008041-3127	2	Quantity	310	317	T1-2	up to 9	{"mods": ["IsCount", "IsRange"]}
+S0016236113008041-3127	2	MeasuredEntity	318	332	T2-2	minor elements	{"HasQuantity": "T1-2"}
+S0016236113008041-3127	3	Quantity	938	958	T1-3	600 °C, up to 750 °C	{"mods": ["IsRange"], "unit": "°C"}
+S0016236113008041-3127	3	MeasuredProperty	898	915	T5-3	temperature range	{"HasQuantity": "T1-3"}
+S0016236113008041-3127	3	MeasuredEntity	755	764	T3-3	modelling	{"HasProperty": "T5-3"}
+S0016236113008041-3127	3	Qualifier	963	974	T4-3	carbonation	{"Qualifies": "T1-3"}
+S0016236113008041-3127	4	Quantity	979	986	T1-4	1000 °C	{"unit": "°C"}
+S0016236113008041-3127	4	MeasuredProperty	898	909	T3-4	temperature	{"HasQuantity": "T1-4"}
+S0016236113008041-3127	4	MeasuredEntity	755	764	T5-4	modelling	{"HasProperty": "T3-4"}
+S0016236113008041-3127	4	Qualifier	991	1002	T2-4	calcination	{"Qualifies": "T1-4"}
+S0016236113008041-3127	5	Quantity	1016	1021	T1-5	20 °C	{"unit": "°C"}
+S0016236113008041-3127	5	MeasuredProperty	1007	1012	T3-5	steps	{"HasQuantity": "T1-5"}
+S0016236113008041-3127	5	MeasuredEntity	755	764	T4-5	modelling	{"HasProperty": "T3-5"}
+S0016236113008041-3127	5	Qualifier	898	909	T5-5	temperature	{"Qualifies": "T3-5"}

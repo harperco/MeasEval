@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1750583613004192-1689	1	Quantity	521	539	T1-1	hundreds of meters	{"mods": ["IsApproximate"], "unit": "meters"}
+S1750583613004192-1689	1	MeasuredEntity	543	546	T2-1	ice	{"HasQuantity": "T1-1"}
+S1750583613004192-1689	2	Quantity	631	637	T1-2	10 MPa	{"unit": "MPa"}
+S1750583613004192-1689	2	MeasuredProperty	641	653	T2-2	overpressure	{"HasQuantity": "T1-2"}
+S1750583613004192-1689	2	MeasuredEntity	592	616	T4-2	transient ice sheet load	{"HasProperty": "T2-2"}
+S1750583613004192-1689	3	Quantity	827	857	T1-3	less than a few thousand years	{"mods": ["IsApproximate", "IsRange"], "unit": "years"}
+S1750583613004192-1689	3	MeasuredProperty	815	823	T4-3	timespan	{"HasQuantity": "T1-3"}
+S1750583613004192-1689	3	MeasuredEntity	806	814	T3-3	ablation	{"HasProperty": "T4-3"}
+S1750583613004192-1689	4	Quantity	904	910	T1-4	10 MPa	{"unit": "MPa"}
+S1750583613004192-1689	4	MeasuredProperty	641	653	T2-4	overpressure	{"HasQuantity": "T1-4"}
+S1750583613004192-1689	4	MeasuredEntity	592	616	T4-4	transient ice sheet load	{"HasProperty": "T2-4"}

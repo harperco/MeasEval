@@ -1,0 +1,32 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1202	1	Quantity	220	228	T1-1	20 items	{"unit": "items"}
+S0006322312001096-1202	1	MeasuredEntity	236	241	T3-1	CES-D	{"HasQuantity": "T1-1"}
+S0006322312001096-1202	2	Quantity	398	408	T1-2	four point	{"unit": "point"}
+S0006322312001096-1202	2	MeasuredEntity	409	414	T3-2	scale	{"HasQuantity": "T1-2"}
+S0006322312001096-1202	3	Quantity	420	437	T51-3	less than one day	{"mods": ["IsRange"], "unit": "day"}
+S0006322312001096-1202	3	MeasuredProperty	416	417	T1-3	0	{"HasQuantity": "T51-3"}
+S0006322312001096-1202	3	MeasuredEntity	398	414	T3-3	four point scale	{"HasProperty": "T1-3"}
+S0006322312001096-1202	4	Quantity	443	451	T62-4	1–2 days	{"mods": ["IsRange"], "unit": "days"}
+S0006322312001096-1202	4	MeasuredProperty	439	440	T1-4	1	{"HasQuantity": "T62-4"}
+S0006322312001096-1202	4	MeasuredEntity	398	414	T3-4	four point scale	{"HasProperty": "T1-4"}
+S0006322312001096-1202	5	Quantity	457	465	T33-5	3–4 days	{"mods": ["IsRange"], "unit": "days"}
+S0006322312001096-1202	5	MeasuredProperty	453	454	T2-5	2	{"HasQuantity": "T33-5"}
+S0006322312001096-1202	5	MeasuredEntity	398	414	T3-5	four point scale	{"HasProperty": "T2-5"}
+S0006322312001096-1202	6	Quantity	475	483	T44-6	5–7 days	{"mods": ["IsRange"], "unit": "days"}
+S0006322312001096-1202	6	MeasuredProperty	471	472	T2-6	3	{"HasQuantity": "T44-6"}
+S0006322312001096-1202	6	MeasuredEntity	398	414	T3-6	four point scale	{"HasProperty": "T2-6"}
+S0006322312001096-1202	7	Quantity	532	548	T1-7	between 0 and 60	{"mods": ["IsRange"]}
+S0006322312001096-1202	7	MeasuredEntity	520	531	T2-7	total score	{"HasQuantity": "T1-7"}
+S0006322312001096-1202	8	Quantity	576	579	T1-8	≥16	
+S0006322312001096-1202	8	MeasuredProperty	568	575	T3-8	scoring	{"HasQuantity": "T1-8"}
+S0006322312001096-1202	8	MeasuredEntity	580	623	T4-8	defined as having CES-D depressive symptoms	{"HasProperty": "T3-8"}
+S0006322312001096-1202	9	Quantity	655	684	T1-9	274 Whitehall II participants	{"unit": "Whitehall II participants"}
+S0006322312001096-1202	9	MeasuredEntity	635	651	T3-9	validation study	{"HasQuantity": "T1-9"}
+S0006322312001096-1202	10	Quantity	719	722	T25-10	89%	{"unit": "%"}
+S0006322312001096-1202	10	MeasuredProperty	686	697	T85-10	sensitivity	{"HasQuantity": "T25-10"}
+S0006322312001096-1202	10	MeasuredEntity	784	816	T2-10	structured psychiatric interview	{"HasProperty": "T85-10"}
+S0006322312001096-1202	10	Qualifier	750	775	T105-10	CES-D depressive symptoms	{"Qualifies": "T85-10"}
+S0006322312001096-1202	11	Quantity	727	730	T16-11	86%	{"unit": "%"}
+S0006322312001096-1202	11	MeasuredProperty	702	713	T96-11	specificity	{"HasQuantity": "T16-11"}
+S0006322312001096-1202	11	MeasuredEntity	784	816	T2-11	structured psychiatric interview	{"HasProperty": "T96-11"}
+S0006322312001096-1202	11	Qualifier	750	775	T106-11	CES-D depressive symptoms	{"Qualifies": "T96-11"}

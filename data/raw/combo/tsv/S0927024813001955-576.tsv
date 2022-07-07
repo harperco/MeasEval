@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-576	1	Quantity	81	87	T1-1	125 nm	{"unit": "nm"}
+S0927024813001955-576	1	MeasuredProperty	88	93	T3-1	thick	{"HasQuantity": "T1-1"}
+S0927024813001955-576	1	MeasuredEntity	94	107	T4-1	AALD ZnO film	{"HasProperty": "T3-1"}
+S0927024813001955-576	2	Quantity	152	155	T1-2	1 h	{"unit": "h"}
+S0927024813001955-576	2	MeasuredProperty	108	121	T4-2	post-annealed	{"HasQuantity": "T1-2"}
+S0927024813001955-576	2	MeasuredEntity	94	107	T3-2	AALD ZnO film	{"HasProperty": "T4-2"}
+S0927024813001955-576	3	Quantity	303	311	T1-3	one week	{"unit": "week"}
+S0927024813001955-576	3	MeasuredProperty	315	334	T4-3	storage in the dark	{"HasQuantity": "T1-3"}
+S0927024813001955-576	3	MeasuredEntity	275	282	T3-3	devices	{"HasProperty": "T4-3"}

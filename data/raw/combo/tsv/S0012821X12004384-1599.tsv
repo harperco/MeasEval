@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1599	1	Quantity	76	88	T21-1	from 103 yrs	{"mods": ["IsRange"], "unit": "yrs"}
+S0012821X12004384-1599	1	MeasuredProperty	89	95	T41-1	before	{"HasQuantity": "T21-1"}
+S0012821X12004384-1599	1	MeasuredEntity	100	109	T31-1	CIE onset	{"HasProperty": "T41-1"}
+S0012821X12004384-1599	2	Quantity	111	123	T12-2	above 2618 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X12004384-1599	2	MeasuredProperty	89	95	T42-2	before	{"HasQuantity": "T12-2"}
+S0012821X12004384-1599	2	MeasuredEntity	100	109	T32-2	CIE onset	{"HasProperty": "T42-2"}

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-1618	1	Quantity	101	106	T1-1	180 m	{"unit": "m"}
+S0167610513001001-1618	1	MeasuredProperty	92	100	T4-1	midpoint	{"HasQuantity": "T1-1"}
+S0167610513001001-1618	1	MeasuredEntity	68	90	T3-1	height of the BT Tower	{"HasProperty": "T4-1"}
+S0167610513001001-1618	2	Quantity	140	150	T1-2	7.83 m s−1	{"mods": ["IsMedian"], "unit": "m s−1"}
+S0167610513001001-1618	2	MeasuredProperty	131	136	T3-2	speed	{"HasQuantity": "T1-2"}
+S0167610513001001-1618	2	MeasuredEntity	126	130	T2-2	wind	{"HasProperty": "T3-2"}
+S0167610513001001-1618	2	Qualifier	119	125	T5-2	median	{"Qualifies": "T1-2"}

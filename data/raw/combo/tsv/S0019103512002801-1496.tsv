@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1496	1	Quantity	53	66	T51-1	sixteen times	{"unit": "times"}
+S0019103512002801-1496	1	MeasuredProperty	74	93	T81-1	temporal resolution	{"HasQuantity": "T51-1"}
+S0019103512002801-1496	1	MeasuredEntity	167	184	T61-1	priority channels	{"HasProperty": "T81-1"}
+S0019103512002801-1496	1	Qualifier	67	73	T71-1	higher	{"Qualifies": "T51-1"}
+S0019103512002801-1496	1	Qualifier	94	139	T91-1	than the typical rate channel time resolution	{"Qualifies": "T81-1"}
+S0019103512002801-1496	2	Quantity	141	147	T12-2	∼5.7 s	{"mods": ["IsApproximate"], "unit": "s"}
+S0019103512002801-1496	2	MeasuredProperty	111	139	T22-2	rate channel time resolution	{"HasQuantity": "T12-2"}
+S0019103512002801-1496	2	MeasuredEntity	8	25	T42-2	channels of LEMMS	{"HasProperty": "T22-2"}

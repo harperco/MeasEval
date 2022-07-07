@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-5066	1	Quantity	461	476	T1-1	from 78% to 95%	{"mods": ["IsApproximate", "IsRange"], "unit": "%"}
+S016412121300188X-5066	1	MeasuredProperty	403	411	T3-1	improves	{"HasQuantity": "T1-1"}
+S016412121300188X-5066	1	MeasuredEntity	419	446	T2-1	precision of previous slice	{"HasProperty": "T3-1"}
+S016412121300188X-5066	2	Quantity	624	626	T1-2	30	{"mods": ["IsCount"]}
+S016412121300188X-5066	2	MeasuredEntity	627	646	T2-2	production programs	{"HasQuantity": "T1-2"}

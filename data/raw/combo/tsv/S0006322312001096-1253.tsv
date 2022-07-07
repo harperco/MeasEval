@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1253	1	Quantity	320	328	T11-1	65 years	{"unit": "years"}
+S0006322312001096-1253	1	MeasuredProperty	302	316	T2-1	before the age	{"HasQuantity": "T11-1"}
+S0006322312001096-1253	1	MeasuredEntity	263	301	T1-1	increased onset of depressive symptoms	{"HasProperty": "T2-1"}

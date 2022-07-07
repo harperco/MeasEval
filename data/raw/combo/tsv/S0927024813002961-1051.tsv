@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1051	1	Quantity	799	803	T1-1	five	{"mods": ["IsCount"]}
+S0927024813002961-1051	1	MeasuredEntity	804	821	T2-1	main contributors	{"HasQuantity": "T1-1"}
+S0927024813002961-1051	2	Quantity	967	970	T1-2	two	{"mods": ["IsCount"]}
+S0927024813002961-1051	2	MeasuredEntity	971	978	T2-2	effects	{"HasQuantity": "T1-2"}
+S0927024813002961-1051	3	Quantity	1210	1214	T1-3	2–7%	{"unit": "%"}
+S0927024813002961-1051	3	MeasuredEntity	1161	1183	T2-3	performance variations	{"HasQuantity": "T1-3"}
+S0927024813002961-1051	4	Quantity	1457	1472	T1-4	range of 10–15%	{"mods": ["IsRange"], "unit": "%"}
+S0927024813002961-1051	4	MeasuredEntity	1161	1183	T3-4	performance variations	{"HasQuantity": "T1-4"}
+S0927024813002961-1051	5	Quantity	1626	1635	T1-5	up to 25%	{"mods": ["IsRange"], "unit": "%"}
+S0927024813002961-1051	5	MeasuredProperty	1636	1645	T3-5	variation	{"HasQuantity": "T1-5"}
+S0927024813002961-1051	5	MeasuredEntity	1654	1671	T5-5	different devices	{"HasProperty": "T3-5"}
+S0927024813002961-1051	5	Qualifier	1612	1625	T2-5	ageing causes	{"Qualifies": "T5-5"}

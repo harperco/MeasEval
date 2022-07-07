@@ -1,0 +1,32 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1511	1	Quantity	313	357	T51-1	between about 20 keV and several tens of MeV	{"mods": ["IsApproximate", "IsRange"], "unit": "MeV"}
+S0019103511004994-1511	1	MeasuredProperty	300	312	T71-1	energy range	{"HasQuantity": "T51-1"}
+S0019103511004994-1511	1	MeasuredEntity	255	267	T81-1	charged ions	{"HasProperty": "T71-1"}
+S0019103511004994-1511	2	Quantity	605	608	T212-2	two	{"mods": ["IsCount"]}
+S0019103511004994-1511	2	MeasuredEntity	619	628	T62-2	detectors	{"HasQuantity": "T212-2"}
+S0019103511004994-1511	3	Quantity	713	717	T233-3	five	{"mods": ["IsCount"]}
+S0019103511004994-1511	3	MeasuredEntity	718	727	T223-3	detectors	{"HasQuantity": "T233-3"}
+S0019103511004994-1511	4	Quantity	978	993	T14-4	86 s, nominally	{"mods": ["IsApproximate"], "unit": "s"}
+S0019103511004994-1511	4	MeasuredProperty	927	977	T114-4	rotates about the −y-axis of the spacecraft within	{"HasQuantity": "T14-4"}
+S0019103511004994-1511	4	MeasuredEntity	903	920	T104-4	movable turntable	{"HasProperty": "T114-4"}
+S0019103511004994-1511	5	Quantity	1542	1548	T145-5	77.45°	{"unit": "°"}
+S0019103511004994-1511	5	MeasuredProperty	1520	1538	T135-5	points at an angle	{"HasQuantity": "T145-5"}
+S0019103511004994-1511	5	MeasuredEntity	1499	1519	T125-5	low-energy telescope	{"HasProperty": "T135-5"}
+S0019103511004994-1511	5	Qualifier	1549	1600	T245-5	away from the −z direction towards the −x-direction	{"Qualifies": "T135-5"}
+S0019103511004994-1511	6	Quantity	1705	1713	T166-6	16 times	{"unit": "times"}
+S0019103511004994-1511	6	MeasuredProperty	1662	1695	T276-6	time resolution of the instrument	{"HasQuantity": "T166-6"}
+S0019103511004994-1511	6	MeasuredEntity	1834	1862	T256-6	a given pointing/pitch angle	{"HasProperty": "T276-6"}
+S0019103511004994-1511	6	Qualifier	1714	1746	T266-6	better than in the rotating mode	{"Qualifies": "T166-6"}
+S0019103511004994-1511	6	Qualifier	1637	1654	T206-6	non-rotating mode	{"Qualifies": "T276-6"}
+S0019103511004994-1511	7	Quantity	1748	1754	T27-7	5.65 s	{"unit": "s"}
+S0019103511004994-1511	7	MeasuredProperty	1662	1695	T157-7	time resolution of the instrument	{"HasQuantity": "T27-7"}
+S0019103511004994-1511	7	MeasuredEntity	1764	1777	T177-7	rate channels	{"HasProperty": "T157-7"}
+S0019103511004994-1511	7	Qualifier	1733	1746	T197-7	rotating mode	{"Qualifies": "T157-7"}
+S0019103511004994-1511	8	Quantity	1781	1787	T48-8	0.66 s	{"unit": "s"}
+S0019103511004994-1511	8	MeasuredProperty	1662	1695	T288-8	time resolution of the instrument	{"HasQuantity": "T48-8"}
+S0019103511004994-1511	8	MeasuredEntity	1796	1813	T188-8	priority channels	{"HasProperty": "T288-8"}
+S0019103511004994-1511	8	Qualifier	1733	1746	T198-8	rotating mode	{"Qualifies": "T288-8"}
+S0019103511004994-1511	9	Quantity	1825	1829	T39-9	86 s	{"unit": "s"}
+S0019103511004994-1511	9	MeasuredProperty	1662	1695	T279-9	time resolution of the instrument	{"HasQuantity": "T39-9"}
+S0019103511004994-1511	9	MeasuredEntity	1834	1862	T259-9	a given pointing/pitch angle	{"HasProperty": "T279-9"}
+S0019103511004994-1511	9	Qualifier	1637	1654	T209-9	non-rotating mode	{"Qualifies": "T279-9"}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1271	1	Quantity	783	807	T1-1	274 elderly participants	{"unit": "elderly participants"}
+S0006322312001096-1271	1	MeasuredEntity	763	779	T3-1	validation study	{"HasQuantity": "T1-1"}
+S0006322312001096-1271	2	Quantity	978	988	T21-2	almost 90%	{"mods": ["IsRange"], "unit": "%"}
+S0006322312001096-1271	2	MeasuredProperty	825	852	T31-2	sensitivity and specificity	{"HasQuantity": "T21-2"}
+S0006322312001096-1271	2	MeasuredEntity	856	882	T41-2	the questionnaire measures	{"HasProperty": "T31-2"}
+S0006322312001096-1271	2	Qualifier	989	1018	T51-2	for CES-D depressive symptoms	{"Qualifies": "T31-2"}
+S0006322312001096-1271	3	Quantity	1023	1040	T12-3	approximately 80%	{"mods": ["IsApproximate"], "unit": "%"}
+S0006322312001096-1271	3	MeasuredProperty	825	852	T32-3	sensitivity and specificity	{"HasQuantity": "T12-3"}
+S0006322312001096-1271	3	MeasuredEntity	856	882	T42-3	the questionnaire measures	{"HasProperty": "T32-3"}
+S0006322312001096-1271	3	Qualifier	1041	1057	T62-3	for GHQ symptoms	{"Qualifies": "T32-3"}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1638	1	Quantity	176	179	T1-1	two	{"mods": ["IsCount"]}
+S175058361300203X-1638	1	MeasuredEntity	180	185	T2-1	cases	{"HasQuantity": "T1-1"}
+S175058361300203X-1638	2	Quantity	228	233	T1-2	34 °C	{"unit": "°C"}
+S175058361300203X-1638	2	MeasuredEntity	201	210	T3-2	injection	{"HasQuantity": "T1-2"}
+S175058361300203X-1638	3	Quantity	251	256	T1-3	38 °C	{"unit": "°C"}
+S175058361300203X-1638	3	MeasuredEntity	201	210	T2-3	injection	{"HasQuantity": "T1-3"}
+S175058361300203X-1638	4	Quantity	346	349	T1-4	two	{"mods": ["IsCount"]}
+S175058361300203X-1638	4	MeasuredEntity	350	355	T2-4	cases	{"HasQuantity": "T1-4"}
+S175058361300203X-1638	5	Quantity	594	609	T1-5	34 °C and 38 °C	{"mods": ["IsList"], "unit": "°C"}
+S175058361300203X-1638	5	MeasuredEntity	107	128	T4-5	reservoir temperature	{"HasQuantity": "T1-5"}

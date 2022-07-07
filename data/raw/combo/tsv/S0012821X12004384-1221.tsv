@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1221	1	Quantity	662	685	T11-1	between 200 and >1000 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X12004384-1221	1	MeasuredProperty	692	697	T31-1	depth	{"HasQuantity": "T11-1"}
+S0012821X12004384-1221	1	MeasuredEntity	686	691	T21-1	water	{"HasProperty": "T31-1"}
+S0012821X12004384-1221	2	Quantity	1069	1076	T42-2	>0.5 km	{"mods": ["IsRange"], "unit": "km"}
+S0012821X12004384-1221	2	MeasuredProperty	1054	1065	T62-2	paleodepths	{"HasQuantity": "T42-2"}
+S0012821X12004384-1221	2	MeasuredEntity	995	1034	T52-2	central parts of the northern North Sea	{"HasProperty": "T62-2"}

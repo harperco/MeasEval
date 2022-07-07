@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383913001567-7073	1	Quantity	158	163	T1-1	0.2 m	{"unit": "m"}
+S0378383913001567-7073	1	MeasuredProperty	153	155	T3-1	∆t	{"HasQuantity": "T1-1"}
+S0378383913001567-7073	1	MeasuredEntity	122	130	T4-1	sequence	{"HasProperty": "T3-1"}
+S0378383913001567-7073	2	Quantity	172	181	T1-2	1,2,…,10.	{"mods": ["IsList"]}
+S0378383913001567-7073	2	MeasuredProperty	168	169	T2-2	i	{"HasQuantity": "T1-2"}
+S0378383913001567-7073	2	MeasuredEntity	122	130	T3-2	sequence	{"HasProperty": "T2-2"}
+S0378383913001567-7073	3	Quantity	225	230	T1-3	0.2 m	{"unit": "m"}
+S0378383913001567-7073	3	MeasuredProperty	220	222	T3-3	∆x	{"HasQuantity": "T1-3"}
+S0378383913001567-7073	3	MeasuredEntity	243	248	T5-3	tests	{"HasProperty": "T3-3"}
+S0378383913001567-7073	3	Qualifier	182	204	T4-3	Spatial discretisation	{"Qualifies": "T3-3"}
+S0378383913001567-7073	4	Quantity	332	336	T1-4	2.33	{"mods": ["IsMean"]}
+S0378383913001567-7073	4	MeasuredEntity	308	319	T2-4	average Rij	{"HasQuantity": "T1-4"}

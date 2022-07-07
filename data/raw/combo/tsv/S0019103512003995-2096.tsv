@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2096	1	Quantity	637	647	T1-1	0.1–1 μbar	{"mods": ["IsRange"], "unit": "μbar"}
+S0019103512003995-2096	1	MeasuredProperty	583	597	T2-1	lower boundary	{"HasQuantity": "T1-1"}
+S0019103512003995-2096	1	MeasuredEntity	605	625	T3-1	absorbing layer of H	{"HasProperty": "T2-1"}
+S0019103512003995-2096	2	Quantity	693	705	T1-2	8000–11,000K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003995-2096	2	MeasuredProperty	653	669	T2-2	mean temperature	{"HasQuantity": "T1-2"}
+S0019103512003995-2096	2	MeasuredEntity	605	625	T3-2	absorbing layer of H	{"HasProperty": "T2-2"}
+S0019103512003995-2096	3	Quantity	741	746	T1-3	2.7Rp	{"unit": "Rp"}
+S0019103512003995-2096	3	MeasuredProperty	715	729	T2-3	upper boundary	{"HasQuantity": "T1-3"}
+S0019103512003995-2096	3	MeasuredEntity	605	625	T3-3	absorbing layer of H	{"HasProperty": "T2-3"}
+S0019103512003995-2096	4	Quantity	808	823	T1-4	near the 1 μbar	{"mods": ["IsApproximate"], "unit": "μbar"}
+S0019103512003995-2096	4	MeasuredProperty	796	807	T4-4	dissociates	{"HasQuantity": "T1-4"}
+S0019103512003995-2096	4	MeasuredEntity	793	795	T3-4	H2	{"HasProperty": "T4-4"}
+S0019103512003995-2096	5	Quantity	1049	1069	T1-5	approximately 8250 K	{"mods": ["IsApproximate", "IsMean"], "unit": "K"}
+S0019103512003995-2096	5	MeasuredProperty	996	1012	T2-5	mean temperature	{"HasQuantity": "T1-5"}
+S0019103512003995-2096	5	MeasuredEntity	1020	1045	T3-5	thermosphere of HD209458b	{"HasProperty": "T2-5"}

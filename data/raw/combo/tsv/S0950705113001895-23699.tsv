@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0950705113001895-23699	1	Quantity	562	578	T1-1	from 10% to 100%	{"mods": ["IsRange"], "unit": "%"}
+S0950705113001895-23699	1	MeasuredProperty	552	561	T3-1	increases	{"HasQuantity": "T1-1"}
+S0950705113001895-23699	1	MeasuredEntity	536	551	T2-1	inserting ratio	{"HasProperty": "T3-1"}
+S0950705113001895-23699	2	Quantity	724	737	T1-2	less than 85%	{"mods": ["IsRange"], "unit": "%"}
+S0950705113001895-23699	2	MeasuredEntity	705	720	T2-2	inserting ratio	{"HasQuantity": "T1-2"}
+S0950705113001895-23699	3	Quantity	804	817	T1-3	more than 85%	{"mods": ["IsRange"], "unit": "%"}
+S0950705113001895-23699	3	MeasuredEntity	785	800	T2-3	inserting ratio	{"HasQuantity": "T1-3"}

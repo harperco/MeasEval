@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2579	1	Quantity	562	571	T1-1	below 3Rp	{"mods": ["IsRange"], "unit": "3Rp"}
+S0019103512003995-2579	1	MeasuredProperty	538	561	T4-1	hydrostatic equilibrium	{"HasQuantity": "T1-1"}
+S0019103512003995-2579	1	MeasuredEntity	501	516	T2-1	density profile	{"HasProperty": "T4-1"}
+S0019103512003995-2579	1	Qualifier	490	495	T3-1	model	{"Qualifies": "T2-1"}
+S0019103512003995-2579	2	Quantity	673	679	T1-2	6300 K	{"mods": ["IsMean"], "unit": "K"}
+S0019103512003995-2579	2	MeasuredProperty	653	669	T3-2	mean temperature	{"HasQuantity": "T1-2"}
+S0019103512003995-2579	2	MeasuredEntity	586	625	T4-2	neutral density profile of the C2 model	{"HasProperty": "T3-2"}

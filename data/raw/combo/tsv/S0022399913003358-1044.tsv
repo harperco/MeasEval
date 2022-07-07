@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022399913003358-1044	1	Quantity	111	121	T21-1	around 40%	{"mods": ["IsApproximate"], "unit": "%"}
+S0022399913003358-1044	1	MeasuredProperty	146	166	T31-1	hearing difficulties	{"HasQuantity": "T21-1"}
+S0022399913003358-1044	1	MeasuredEntity	125	140	T41-1	55–74 year olds	{"HasProperty": "T31-1"}
+S0022399913003358-1044	2	Quantity	125	135	T12-2	55–74 year	{"mods": ["IsRange"], "unit": "year"}

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1550	1	Quantity	79	89	T1-1	roughly 2%	{"mods": ["IsApproximate"], "unit": "%"}
+S0167819113001051-1550	1	MeasuredProperty	50	78	T4-1	conventional unit deadlocked	{"HasQuantity": "T1-1"}
+S0167819113001051-1550	1	MeasuredEntity	97	123	T2-1	times that a glitch appear	{"HasProperty": "T4-1"}

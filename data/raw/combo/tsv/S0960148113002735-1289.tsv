@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002735-1289	1	Quantity	63	69	T1-1	200 kW	{"unit": "kW"}
+S0960148113002735-1289	1	MeasuredEntity	70	77	T3-1	turbine	{"HasQuantity": "T1-1"}
+S0960148113002735-1289	2	Quantity	140	144	T1-2	24 m	{"unit": "m"}
+S0960148113002735-1289	2	MeasuredProperty	130	136	T3-2	height	{"HasQuantity": "T1-2"}
+S0960148113002735-1289	2	MeasuredEntity	122	129	T4-2	turbine	{"HasProperty": "T3-2"}
+S0960148113002735-1289	3	Quantity	158	162	T1-3	26 m	{"unit": "m"}
+S0960148113002735-1289	3	MeasuredProperty	146	154	T3-3	diameter	{"HasQuantity": "T1-3"}
+S0960148113002735-1289	3	MeasuredEntity	122	129	T2-3	turbine	{"HasProperty": "T3-3"}

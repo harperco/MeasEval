@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-626	1	Quantity	48	51	T11-1	10%	
+S0006322312001096-626	1	MeasuredProperty	52	60	T21-1	Increase	{"HasQuantity": "T11-1"}
+S0006322312001096-626	1	MeasuredEntity	20	42	T31-1	Framingham Risk Scores	{"HasProperty": "T21-1"}
+S0006322312001096-626	2	Quantity	127	129	T1-2	65	{"mods": ["IsRange"]}
+S0006322312001096-626	2	MeasuredProperty	123	126	T2-2	Age	{"HasQuantity": "T1-2"}
+S0006322312001096-626	2	MeasuredEntity	86	105	T4-2	Depressive Symptoms	{"HasProperty": "T2-2"}
+S0006322312001096-626	2	Qualifier	106	122	T3-2	Before and After	{"Qualifies": "T2-2"}

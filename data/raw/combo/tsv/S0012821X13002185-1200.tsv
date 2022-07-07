@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1200	1	Quantity	318	325	T11-1	>100 μm	{"mods": ["IsRange"], "unit": "μm"}
+S0012821X13002185-1200	1	MeasuredEntity	326	334	T21-1	fraction	{"HasQuantity": "T11-1"}
+S0012821X13002185-1200	2	Quantity	400	418	T32-2	between 50 and 100	{"mods": ["IsRange", "IsCount"]}
+S0012821X13002185-1200	2	MeasuredEntity	419	427	T42-2	spicules	{"HasQuantity": "T32-2"}
+S0012821X13002185-1200	3	Quantity	705	711	T53-3	200 μL	{"unit": "μL"}
+S0012821X13002185-1200	3	MeasuredEntity	715	732	T63-3	concentrated HNO3	{"HasQuantity": "T53-3"}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1327	1	Quantity	636	638	T1-1	96	{"mods": ["IsCount"]}
+S2213158213000582-1327	1	MeasuredEntity	639	667	T2-1	cortical gray-matter regions	{"HasQuantity": "T1-1"}
+S2213158213000582-1327	2	Quantity	669	671	T1-2	48	{"mods": ["IsCount"]}
+S2213158213000582-1327	2	MeasuredEntity	672	679	T3-2	regions	{"HasQuantity": "T1-2"}
+S2213158213000582-1327	2	Qualifier	680	698	T2-2	in each hemisphere	{"Qualifies": "T3-2"}
+S2213158213000582-1327	3	Quantity	701	703	T1-3	21	{"mods": ["IsCount"]}
+S2213158213000582-1327	3	MeasuredEntity	704	724	T2-3	sub-cortical regions	{"HasQuantity": "T1-3"}
+S2213158213000582-1327	4	Quantity	831	844	T1-4	5 mm per side	{"unit": "mm per side"}
+S2213158213000582-1327	4	MeasuredProperty	821	827	T4-4	voxels	{"HasQuantity": "T1-4"}
+S2213158213000582-1327	4	MeasuredEntity	798	815	T3-4	cubic source grid	{"HasProperty": "T4-4"}

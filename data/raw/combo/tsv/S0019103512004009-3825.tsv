@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3825	1	Quantity	28	31	T11-1	50%	{"unit": "%"}
+S0019103512004009-3825	1	MeasuredProperty	2	24	T51-1	net heating efficiency	{"HasQuantity": "T11-1"}
+S0019103512004009-3825	1	MeasuredEntity	173	217	T141-1	typical gas giant (hereafter, the H50 model)	{"HasProperty": "T51-1"}
+S0019103512004009-3825	2	Quantity	263	271	T22-2	11,500 K	{"unit": "K"}
+S0019103512004009-3825	2	MeasuredProperty	223	242	T72-2	maximum temperature	{"HasQuantity": "T22-2"}
+S0019103512004009-3825	2	MeasuredEntity	250	259	T82-2	H50 model	{"HasProperty": "T72-2"}
+S0019103512004009-3825	3	Quantity	308	318	T123-3	near 1.5Rp	{"mods": ["IsApproximate"], "unit": "Rp"}
+S0019103512004009-3825	3	MeasuredProperty	280	296	T113-3	temperature peak	{"HasQuantity": "T123-3"}
+S0019103512004009-3825	3	MeasuredEntity	250	259	T83-3	H50 model	{"HasProperty": "T113-3"}
+S0019103512004009-3825	3	Qualifier	320	332	T173-3	p = 0.3 nbar	{"Qualifies": "T123-3"}
+S0019103512004009-3825	4	Quantity	324	332	T164-4	0.3 nbar	{"unit": "nbar"}
+S0019103512004009-3825	4	MeasuredEntity	320	321	T154-4	p	{"HasQuantity": "T164-4"}
+S0019103512004009-3825	5	Quantity	355	363	T105-5	0.1 to 1	{"mods": ["IsRange"]}
+S0019103512004009-3825	5	MeasuredProperty	338	342	T95-5	ηnet	{"HasQuantity": "T105-5"}
+S0019103512004009-3825	5	MeasuredEntity	250	259	T85-5	H50 model	{"HasProperty": "T95-5"}
+S0019103512004009-3825	6	Quantity	386	422	T46-6	1.4Rp (0.5 nbar) to 1.9Rp (0.1 nbar)	{"mods": ["IsRange"], "unit": "Rp"}
+S0019103512004009-3825	6	MeasuredProperty	369	373	T136-6	peak	{"HasQuantity": "T46-6"}
+S0019103512004009-3825	6	MeasuredEntity	250	259	T86-6	H50 model	{"HasProperty": "T136-6"}
+S0019103512004009-3825	6	Qualifier	374	385	T186-6	shifts from	{"Qualifies": "T136-6"}
+S0019103512004009-3825	7	Quantity	463	483	T37-7	10,000 K to 13,200 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512004009-3825	7	MeasuredProperty	431	450	T67-7	maximum temperature	{"HasQuantity": "T37-7"}
+S0019103512004009-3825	7	MeasuredEntity	250	259	T87-7	H50 model	{"HasProperty": "T67-7"}
+S0019103512004009-3825	8	Quantity	1000	1001	T208-8	1	
+S0019103512004009-3825	8	MeasuredEntity	993	997	T198-8	ηnet	{"HasQuantity": "T208-8"}

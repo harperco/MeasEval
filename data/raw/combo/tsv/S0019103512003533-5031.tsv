@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5031	1	Quantity	129	141	T11-1	around 450 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512003533-5031	1	MeasuredEntity	91	114	T61-1	exospheric temperatures	{"HasQuantity": "T11-1"}
+S0019103512003533-5031	1	Qualifier	142	155	T71-1	near the pole	{"Qualifies": "T11-1"}
+S0019103512003533-5031	2	Quantity	159	171	T22-2	around 180 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512003533-5031	2	MeasuredEntity	91	114	T62-2	exospheric temperatures	{"HasQuantity": "T22-2"}
+S0019103512003533-5031	2	Qualifier	172	188	T82-2	near the equator	{"Qualifies": "T22-2"}
+S0019103512003533-5031	3	Quantity	265	275	T33-3	420 ± 30 K	{"mods": ["HasTolerance"], "unit": "K"}
+S0019103512003533-5031	3	MeasuredEntity	239	261	T103-3	exospheric temperature	{"HasQuantity": "T33-3"}
+S0019103512003533-5031	3	Qualifier	276	287	T93-3	near 29.5°N	{"Qualifies": "T33-3"}
+S0019103512003533-5031	3	Qualifier	190	225	T2-3	Voyager 2 UVS occultations of δ-Sco	{"Qualifies": "T103-3"}
+S0019103512003533-5031	4	Quantity	281	287	T124-4	29.5°N	{"unit": "°N"}
+S0019103512003533-5031	5	Quantity	376	386	T45-5	488 ± 14 K	{"mods": ["HasTolerance"], "unit": "K"}
+S0019103512003533-5031	5	MeasuredEntity	239	261	T105-5	exospheric temperature	{"HasQuantity": "T45-5"}
+S0019103512003533-5031	5	Qualifier	318	364	T2-5	recent reanalysis of Voyager UVS data inferred	{"Qualifies": "T45-5"}
+S0019103512003533-5031	6	Quantity	512	533	T56-6	of the order of 450 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512003533-5031	6	MeasuredEntity	451	495	T116-6	low and mid-latitude exospheric temperatures	{"HasQuantity": "T56-6"}

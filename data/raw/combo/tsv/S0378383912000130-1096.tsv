@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-1096	1	Quantity	119	125	T1-1	8.5 mm	{"unit": "mm"}
+S0378383912000130-1096	1	MeasuredEntity	126	131	T2-1	beach	{"HasQuantity": "T1-1"}
+S0378383912000130-1096	2	Quantity	139	155	T1-2	1180 and 1980 mm	{"mods": ["IsList"], "unit": "mm"}
+S0378383912000130-1096	2	MeasuredProperty	135	136	T4-2	x	{"HasQuantity": "T1-2"}
+S0378383912000130-1096	2	MeasuredEntity	0	102	T3-2	Time-series of model-predicted (solid lines) and experimentally-measured (dashed lines) hydraulic head	{"HasProperty": "T4-2"}

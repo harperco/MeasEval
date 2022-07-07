@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1824	1	Quantity	101	119	T11-1	between 6% and 13%	{"mods": ["IsRange"], "unit": "%"}
+S0019103512002801-1824	1	MeasuredProperty	29	54	T41-1	observed ∣B∣ disturbances	{"HasQuantity": "T11-1"}
+S0019103512002801-1824	1	MeasuredEntity	58	62	T51-1	Rhea	{"HasProperty": "T41-1"}
+S0019103512002801-1824	1	Qualifier	63	97	T61-1	with respect to the background ∣B∣	{"Qualifies": "T41-1"}
+S0019103512002801-1824	2	Quantity	133	137	T32-2	6–8%	{"mods": ["IsRange"], "unit": "%"}
+S0019103512002801-1824	2	MeasuredProperty	29	54	T42-2	observed ∣B∣ disturbances	{"HasQuantity": "T32-2"}
+S0019103512002801-1824	2	MeasuredEntity	141	150	T22-2	Enceladus	{"HasProperty": "T42-2"}
+S0019103512002801-1824	2	Qualifier	63	97	T62-2	with respect to the background ∣B∣	{"Qualifies": "T42-2"}

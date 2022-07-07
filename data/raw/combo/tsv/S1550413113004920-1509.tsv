@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1550413113004920-1509	1	Quantity	13	16	T1-1	147	{"mods": ["IsCount"]}
+S1550413113004920-1509	1	MeasuredEntity	17	25	T2-1	patients	{"HasQuantity": "T1-1"}
+S1550413113004920-1509	2	Quantity	168	183	T1-2	before 6 months	{"mods": ["IsRange"], "unit": "months"}
+S1550413113004920-1509	2	MeasuredProperty	134	167	T2-2	diagnosed with permanent diabetes	{"HasQuantity": "T1-2"}
+S1550413113004920-1509	2	MeasuredEntity	13	55	T4-2	147 patients from consanguineous pedigrees	{"HasProperty": "T2-2"}
+S1550413113004920-1509	2	Qualifier	187	190	T3-2	age	{"Qualifies": "T1-2"}
+S1550413113004920-1509	3	Quantity	233	248	T1-3	before 9 months	{"mods": ["IsRange"], "unit": "months"}
+S1550413113004920-1509	3	MeasuredProperty	199	232	T3-3	diagnosed with permanent diabetes	{"HasQuantity": "T1-3"}
+S1550413113004920-1509	3	MeasuredEntity	13	55	T4-3	147 patients from consanguineous pedigrees	{"HasProperty": "T3-3"}

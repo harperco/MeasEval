@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1148	1	Quantity	82	88	T1-1	∼56 Ma	{"mods": ["IsApproximate"], "unit": "Ma"}
+S0012821X12004384-1148	1	MeasuredEntity	42	80	T3-1	Paleocene–Eocene thermal maximum (PETM	{"HasQuantity": "T1-1"}
+S0012821X12004384-1148	2	Quantity	286	291	T1-2	54 °N	{"unit": "°N"}
+S0012821X12004384-1148	2	MeasuredProperty	272	285	T3-2	paleolatitude	{"HasQuantity": "T1-2"}
+S0012821X12004384-1148	2	MeasuredEntity	187	270	T4-2	North Atlantic igneous province (NAIP), the Kilda Basin, and the northern rain belt	{"HasProperty": "T3-2"}
+S0012821X12004384-1148	2	Qualifier	293	308	T5-2	during the PETM	{"Qualifies": "T3-2"}
+S0012821X12004384-1148	3	Quantity	937	953	T11-3	before (103 yrs)	{"mods": ["IsRange"], "unit": "yrs"}
+S0012821X12004384-1148	3	MeasuredEntity	880	931	T2-3	halocline stratification and terrigenous deposition	{"HasQuantity": "T11-3"}

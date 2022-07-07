@@ -1,0 +1,49 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3269	1	Quantity	287	304	T41-1	1000 and 2000 ppm	{"mods": ["IsList"], "unit": "ppm"}
+S0016236113008041-3269	1	MeasuredProperty	188	201	T361-1	concentration	{"HasQuantity": "T41-1"}
+S0016236113008041-3269	1	MeasuredEntity	184	187	T221-1	SO2	{"HasProperty": "T361-1"}
+S0016236113008041-3269	2	Quantity	354	367	T32-2	0 to 1000 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3269	2	MeasuredProperty	188	201	T362-2	concentration	{"HasQuantity": "T32-2"}
+S0016236113008041-3269	2	MeasuredEntity	184	187	T222-2	SO2	{"HasProperty": "T362-2"}
+S0016236113008041-3269	3	Quantity	446	454	T53-3	1000 ppm	{"unit": "ppm"}
+S0016236113008041-3269	3	MeasuredProperty	188	201	T363-3	concentration	{"HasQuantity": "T53-3"}
+S0016236113008041-3269	3	MeasuredEntity	184	187	T223-3	SO2	{"HasProperty": "T363-3"}
+S0016236113008041-3269	4	Quantity	484	498	T64-4	0 and 2000 ppm	{"mods": ["IsList"], "unit": "ppm"}
+S0016236113008041-3269	4	MeasuredProperty	188	201	T364-4	concentration	{"HasQuantity": "T64-4"}
+S0016236113008041-3269	4	MeasuredEntity	184	187	T224-4	SO2	{"HasProperty": "T364-4"}
+S0016236113008041-3269	5	Quantity	714	722	T75-5	1000 ppm	{"unit": "ppm"}
+S0016236113008041-3269	5	MeasuredProperty	188	201	T365-5	concentration	{"HasQuantity": "T75-5"}
+S0016236113008041-3269	5	MeasuredEntity	184	187	T225-5	SO2	{"HasProperty": "T365-5"}
+S0016236113008041-3269	6	Quantity	764	771	T96-6	135 ppm	{"unit": "ppm"}
+S0016236113008041-3269	6	MeasuredProperty	742	756	T206-6	concentrations	{"HasQuantity": "T96-6"}
+S0016236113008041-3269	6	MeasuredEntity	760	762	T316-6	Ti	{"HasProperty": "T206-6"}
+S0016236113008041-3269	6	Qualifier	714	726	T126-6	1000 ppm SO2	{"Qualifies": "T316-6"}
+S0016236113008041-3269	6	Qualifier	772	789	T326-6	for single column	{"Qualifies": "T96-6"}
+S0016236113008041-3269	7	Quantity	791	798	T117-7	407 ppm	{"unit": "ppm"}
+S0016236113008041-3269	7	MeasuredProperty	742	756	T207-7	concentrations	{"HasQuantity": "T117-7"}
+S0016236113008041-3269	7	MeasuredEntity	760	762	T317-7	Ti	{"HasProperty": "T207-7"}
+S0016236113008041-3269	7	Qualifier	714	726	T127-7	1000 ppm SO2	{"Qualifies": "T317-7"}
+S0016236113008041-3269	7	Qualifier	799	815	T337-7	for looping test	{"Qualifies": "T117-7"}
+S0016236113008041-3269	8	Quantity	829	843	T88-8	0 and 2000 ppm	{"mods": ["IsList"], "unit": "ppm"}
+S0016236113008041-3269	8	MeasuredProperty	188	201	T368-8	concentration	{"HasQuantity": "T88-8"}
+S0016236113008041-3269	8	MeasuredEntity	184	187	T228-8	SO2	{"HasProperty": "T368-8"}
+S0016236113008041-3269	9	Quantity	858	873	T109-9	close to 10 ppm	{"mods": ["IsApproximate"], "unit": "ppm"}
+S0016236113008041-3269	9	MeasuredProperty	742	756	T209-9	concentrations	{"HasQuantity": "T109-9"}
+S0016236113008041-3269	9	MeasuredEntity	760	762	T319-9	Ti	{"HasProperty": "T209-9"}
+S0016236113008041-3269	9	Qualifier	877	890	T399-9	in both tests	{"Qualifies": "T109-9"}
+S0016236113008041-3269	9	Qualifier	829	847	T389-9	0 and 2000 ppm SO2	{"Qualifies": "T319-9"}
+S0016236113008041-3269	10	Quantity	989	992	T1510-10	9.4	{"unit": "ppm"}
+S0016236113008041-3269	10	MeasuredProperty	949	962	T2110-10	concentration	{"HasQuantity": "T1510-10"}
+S0016236113008041-3269	10	MeasuredEntity	892	894	T4010-10	Zn	{"HasProperty": "T2110-10"}
+S0016236113008041-3269	10	Qualifier	1017	1040	T2310-10	SO2 concentrations of 0	{"Qualifies": "T1510-10"}
+S0016236113008041-3269	11	Quantity	996	1000	T1611-11	14.1	{"unit": "ppm"}
+S0016236113008041-3269	11	MeasuredProperty	949	962	T2111-11	concentration	{"HasQuantity": "T1611-11"}
+S0016236113008041-3269	11	MeasuredEntity	892	894	T4011-11	Zn	{"HasProperty": "T2111-11"}
+S0016236113008041-3269	11	Qualifier	1042	1046	T2411-11	1000	{"Qualifies": "T1611-11"}
+S0016236113008041-3269	12	Quantity	1004	1012	T112-12	66.8 ppm	{"unit": "ppm"}
+S0016236113008041-3269	12	MeasuredProperty	949	962	T2112-12	concentration	{"HasQuantity": "T112-12"}
+S0016236113008041-3269	12	MeasuredEntity	892	894	T4012-12	Zn	{"HasProperty": "T2112-12"}
+S0016236113008041-3269	12	Qualifier	1051	1059	T2512-12	2000 ppm	{"Qualifies": "T112-12"}
+S0016236113008041-3269	13	Quantity	1039	1059	T1713-13	0, 1000 and 2000 ppm	{"unit": "ppm"}
+S0016236113008041-3269	13	MeasuredProperty	1021	1035	T4313-13	concentrations	{"HasQuantity": "T1713-13"}
+S0016236113008041-3269	13	MeasuredEntity	1017	1020	T4213-13	SO2	{"HasProperty": "T4313-13"}

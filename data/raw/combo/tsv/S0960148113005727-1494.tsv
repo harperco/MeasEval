@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1494	1	Quantity	42	81	T1-1	−0.43 ± 0.05 percentage points per year	{"mods": ["IsMeanHasTolerance"], "unit": "percentage points per year"}
+S0960148113005727-1494	1	MeasuredEntity	30	38	T4-1	measures	{"HasQuantity": "T1-1"}
+S0960148113005727-1494	1	Qualifier	13	20	T3-1	average	{"Qualifies": "T1-1"}
+S0960148113005727-1494	2	Quantity	90	101	T1-2	−1.6 ± 0.2%	{"mods": ["HasTolerance"], "unit": "%"}
+S0960148113005727-1494	2	MeasuredEntity	102	120	T2-2	annual degradation	{"HasQuantity": "T1-2"}

@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-5019	1	Quantity	310	317	T41-1	30 nbar	{"unit": "nbar"}
+S0019103512004009-5019	1	MeasuredProperty	292	306	T31-1	lower boundary	{"HasQuantity": "T41-1"}
+S0019103512004009-5019	1	MeasuredEntity	255	260	T51-1	model	{"HasProperty": "T31-1"}
+S0019103512004009-5019	2	Quantity	340	346	T12-2	1000 K	{"unit": "K"}
+S0019103512004009-5019	2	MeasuredProperty	325	336	T22-2	temperature	{"HasQuantity": "T12-2"}
+S0019103512004009-5019	2	MeasuredEntity	255	260	T52-2	model	{"HasProperty": "T22-2"}
+S0019103512004009-5019	3	Quantity	680	685	T93-3	20 eV	{"unit": "eV"}
+S0019103512004009-5019	3	MeasuredProperty	670	676	T83-3	energy	{"HasQuantity": "T93-3"}
+S0019103512004009-5019	3	MeasuredEntity	656	669	T73-3	single photon	{"HasProperty": "T83-3"}
+S0019103512004009-5019	4	Quantity	710	720	T104-4	0.45 W m−2	{"unit": "W m−2"}
+S0019103512004009-5019	4	MeasuredEntity	694	706	T114-4	stellar flux	{"HasQuantity": "T104-4"}
+S0019103512004009-5019	4	Qualifier	721	757	T64-4	at the orbital position of HD209458b	{"Qualifies": "T114-4"}

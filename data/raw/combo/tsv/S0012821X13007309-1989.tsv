@@ -1,0 +1,35 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1989	1	Quantity	476	480	T81-1	∼0.8	{"mods": ["IsApproximate", "IsMean"]}
+S0012821X13007309-1989	1	MeasuredProperty	437	448	T101-1	187Os/188Os	{"HasQuantity": "T81-1"}
+S0012821X13007309-1989	1	MeasuredEntity	428	436	T71-1	seawater	{"HasProperty": "T101-1"}
+S0012821X13007309-1989	1	Qualifier	449	471	T91-1	prior to the LIP onset	{"Qualifies": "T101-1"}
+S0012821X13007309-1989	1	Qualifier	420	427	T321-1	average	{"Qualifies": "T81-1"}
+S0012821X13007309-1989	2	Quantity	529	535	T112-2	10 ppq	{"mods": ["IsMean"], "unit": "ppq"}
+S0012821X13007309-1989	2	MeasuredProperty	501	513	T122-2	Os abundance	{"HasQuantity": "T112-2"}
+S0012821X13007309-1989	2	MeasuredEntity	517	525	T132-2	seawater	{"HasProperty": "T122-2"}
+S0012821X13007309-1989	2	Qualifier	493	500	T312-2	average	{"Qualifies": "T112-2"}
+S0012821X13007309-1989	3	Quantity	634	638	T163-3	0.13	
+S0012821X13007309-1989	3	MeasuredProperty	619	630	T153-3	187Os/188Os	{"HasQuantity": "T163-3"}
+S0012821X13007309-1989	3	MeasuredEntity	612	618	T143-3	basalt	{"HasProperty": "T153-3"}
+S0012821X13007309-1989	4	Quantity	969	981	T194-4	1 to 600 ppt	{"mods": ["IsRange"], "unit": "ppt"}
+S0012821X13007309-1989	4	MeasuredProperty	954	967	T184-4	Os abundances	{"HasQuantity": "T194-4"}
+S0012821X13007309-1989	4	MeasuredEntity	928	935	T174-4	basalts	{"HasProperty": "T184-4"}
+S0012821X13007309-1989	5	Quantity	1048	1059	T205-5	1 to 30 ppt	{"mods": ["IsRange"], "unit": "ppt"}
+S0012821X13007309-1989	5	MeasuredProperty	954	967	T185-5	Os abundances	{"HasQuantity": "T205-5"}
+S0012821X13007309-1989	5	MeasuredEntity	928	935	T175-5	basalts	{"HasProperty": "T185-5"}
+S0012821X13007309-1989	5	Qualifier	1022	1036	T215-5	typical values	{"Qualifies": "T205-5"}
+S0012821X13007309-1989	6	Quantity	1172	1178	T246-6	30 ppt	{"unit": "ppt"}
+S0012821X13007309-1989	6	MeasuredProperty	1143	1155	T226-6	Os abundance	{"HasQuantity": "T246-6"}
+S0012821X13007309-1989	6	MeasuredEntity	1162	1168	T236-6	basalt	{"HasProperty": "T226-6"}
+S0012821X13007309-1989	7	Quantity	1193	1196	T17-7	75%	{"unit": "%"}
+S0012821X13007309-1989	7	MeasuredProperty	1213	1225	T57-7	from the LIP	{"HasQuantity": "T17-7"}
+S0012821X13007309-1989	7	MeasuredEntity	1197	1212	T37-7	Os contribution	{"HasProperty": "T57-7"}
+S0012821X13007309-1989	8	Quantity	1328	1331	T28-8	25%	{"unit": "%"}
+S0012821X13007309-1989	8	MeasuredProperty	1314	1326	T68-8	from the LIP	{"HasQuantity": "T28-8"}
+S0012821X13007309-1989	8	MeasuredEntity	1305	1313	T48-8	Os input	{"HasProperty": "T68-8"}
+S0012821X13007309-1989	9	Quantity	1392	1399	T279-9	100 ppt	{"unit": "ppt"}
+S0012821X13007309-1989	9	MeasuredProperty	1377	1390	T269-9	Os abundances	{"HasQuantity": "T279-9"}
+S0012821X13007309-1989	9	MeasuredEntity	1350	1361	T259-9	LIP basalts	{"HasProperty": "T269-9"}
+S0012821X13007309-1989	10	Quantity	1503	1511	T2810-10	20 times	{"unit": "times"}
+S0012821X13007309-1989	10	MeasuredEntity	1478	1481	T2910-10	gas	{"HasQuantity": "T2810-10"}
+S0012821X13007309-1989	10	Qualifier	1512	1530	T3010-10	that of the basalt	{"Qualifies": "T2810-10"}

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927775713009606-1216	1	Quantity	119	139	T1-1	range from 5° to 85°	{"mods": ["IsRange"], "unit": "°"}
+S0927775713009606-1216	1	MeasuredEntity	116	118	T4-1	2θ	{"HasQuantity": "T1-1"}
+S0927775713009606-1216	2	Quantity	162	166	T1-2	0.1°	{"unit": "°"}
+S0927775713009606-1216	2	MeasuredProperty	149	158	T2-2	step size	{"HasQuantity": "T1-2"}
+S0927775713009606-1216	2	MeasuredEntity	68	82	T3-2	diffractometer	{"HasProperty": "T2-2"}
+S0927775713009606-1216	3	Quantity	199	202	T1-3	4 s	{"unit": "s"}
+S0927775713009606-1216	3	MeasuredProperty	173	186	T2-3	counting time	{"HasQuantity": "T1-3"}
+S0927775713009606-1216	3	MeasuredEntity	191	195	T3-3	step	{"HasProperty": "T2-3"}
+S0927775713009606-1216	4	Quantity	383	386	T1-4	0.9	
+S0927775713009606-1216	4	MeasuredProperty	379	380	T2-4	K	{"HasQuantity": "T1-4"}
+S0927775713009606-1216	4	MeasuredEntity	247	264	T3-4	Scherrer equation	{"HasProperty": "T2-4"}

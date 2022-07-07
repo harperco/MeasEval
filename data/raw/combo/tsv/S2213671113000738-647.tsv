@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000738-647	1	Quantity	14	17	T1-1	two	{"mods": ["IsCount"]}
+S2213671113000738-647	1	MeasuredEntity	18	25	T2-1	animals	{"HasQuantity": "T1-1"}
+S2213671113000738-647	2	Quantity	170	173	T1-2	two	{"mods": ["IsCount"]}
+S2213671113000738-647	2	MeasuredEntity	174	181	T2-2	animals	{"HasQuantity": "T1-2"}
+S2213671113000738-647	2	Qualifier	164	169	T3-2	other	{"Qualifies": "T2-2"}
+S2213671113000738-647	3	Quantity	1066	1081	T1-3	within 12 weeks	{"mods": ["IsRange"], "unit": "weeks"}
+S2213671113000738-647	3	MeasuredProperty	982	1000	T2-3	generate teratomas	{"HasQuantity": "T1-3"}
+S2213671113000738-647	3	MeasuredEntity	1008	1065	T3-3	testes of a severe combined immunodeficiency (SCID) mouse	{"HasProperty": "T2-3"}

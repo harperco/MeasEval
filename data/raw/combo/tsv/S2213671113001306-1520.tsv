@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1520	1	Quantity	305	315	T1-1	30-degrees	{"unit": "degrees"}
+S2213671113001306-1520	1	MeasuredProperty	319	339	T4-1	visual-field setting	{"HasQuantity": "T1-1"}
+S2213671113001306-1520	1	MeasuredEntity	347	357	T5-1	Spectralis	{"HasProperty": "T4-1"}
+S2213671113001306-1520	2	Quantity	391	396	T1-2	60 μm	{"unit": "μm"}
+S2213671113001306-1520	2	MeasuredProperty	397	413	T5-2	distance between	{"HasQuantity": "T1-2"}
+S2213671113001306-1520	2	MeasuredEntity	419	423	T3-2	scan	{"HasProperty": "T5-2"}
+S2213671113001306-1520	3	Quantity	447	462	T1-3	20 × 20 degrees	{"mods": ["IsList"], "unit": "degrees"}
+S2213671113001306-1520	3	MeasuredProperty	466	478	T2-3	visual field	{"HasQuantity": "T1-3"}
+S2213671113001306-1520	3	MeasuredEntity	433	439	T3-3	device	{"HasProperty": "T2-3"}
+S2213671113001306-1520	3	Qualifier	479	502	T5-3	centered on the implant	{"Qualifies": "T2-3"}
+S2213671113001306-1520	4	Quantity	626	632	T1-4	4.2 mm	{"unit": "mm"}
+S2213671113001306-1520	4	MeasuredProperty	576	602	T4-4	corneal curvature settings	{"HasQuantity": "T1-4"}
+S2213671113001306-1520	4	MeasuredEntity	564	575	T2-4	Spectralis’	{"HasProperty": "T4-4"}
+S2213671113001306-1520	5	Quantity	682	692	T1-5	30 degrees	
+S2213671113001306-1520	5	MeasuredProperty	696	708	T3-5	visual field	{"HasQuantity": "T1-5"}
+S2213671113001306-1520	5	MeasuredEntity	732	738	T2-5	device	{"HasProperty": "T3-5"}
+S2213671113001306-1520	5	Qualifier	716	724	T4-5	HRA mode	{"Qualifies": "T2-5"}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1873506113001116-1456	1	Quantity	90	93	T1-1	two	{"mods": ["IsCount"]}
+S1873506113001116-1456	1	MeasuredEntity	94	122	T2-1	integration-free hiPSC lines	{"HasQuantity": "T1-1"}
+S1873506113001116-1456	2	Quantity	164	170	T1-2	100-ml	{"unit": "ml"}
+S1873506113001116-1456	2	MeasuredEntity	171	182	T2-2	bioreactors	{"HasQuantity": "T1-2"}
+S1873506113001116-1456	3	Quantity	309	313	T1-3	~ 20	{"mods": ["IsCount", "IsApproximate"]}
+S1873506113001116-1456	3	MeasuredEntity	314	322	T2-3	passages	{"HasQuantity": "T1-3"}
+S1873506113001116-1456	4	Quantity	841	843	T1-4	5%	{"unit": "%"}
+S1873506113001116-1456	4	MeasuredProperty	693	722	T2-4	karyotypically abnormal cells	{"HasQuantity": "T1-4"}
+S1873506113001116-1456	4	MeasuredEntity	847	881	T3-4	tested batches of hiPSCs and hESCs	{"HasProperty": "T2-4"}
+S1873506113001116-1456	4	Qualifier	747	817	T5-4	after long-term cultures under both adherent and suspension conditions	{"Qualifies": "T2-4"}

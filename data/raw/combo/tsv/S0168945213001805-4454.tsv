@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-4454	1	Quantity	346	356	T1-1	eight-year	{"unit": "year"}
+S0168945213001805-4454	1	MeasuredEntity	357	362	T2-1	study	{"HasQuantity": "T1-1"}
+S0168945213001805-4454	2	Quantity	450	456	T1-2	42–48%	{"mods": ["IsRange"], "unit": "%"}
+S0168945213001805-4454	2	MeasuredProperty	418	446	T3-2	increased net photosynthesis	{"HasQuantity": "T1-2"}
+S0168945213001805-4454	2	MeasuredEntity	368	384	T6-2	deciduous forest	{"HasProperty": "T3-2"}
+S0168945213001805-4454	2	Qualifier	400	417	T2-2	carbon-enrichment	{"Qualifies": "T3-2"}
+S0168945213001805-4454	2	Qualifier	457	477	T5-2	relative to controls	{"Qualifies": "T1-2"}
+S0168945213001805-4454	3	Quantity	578	584	T1-3	15–27%	{"mods": ["IsRange"], "unit": "%"}
+S0168945213001805-4454	3	MeasuredProperty	551	574	T2-3	increased biomass yield	{"HasQuantity": "T1-3"}
+S0168945213001805-4454	3	MeasuredEntity	495	550	T5-3	free-air enrichment by supplementary CO2 in field plots	{"HasProperty": "T2-3"}

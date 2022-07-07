@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1509	1	Quantity	46	50	T11-1	2–3‰	{"mods": ["IsRange"], "unit": "‰"}
+S0012821X13007309-1509	1	MeasuredProperty	64	78	T21-1	positive shift	{"HasQuantity": "T11-1"}
+S0012821X13007309-1509	1	MeasuredEntity	51	63	T31-1	VPDB δ13Corg	{"HasProperty": "T21-1"}
+S0012821X13007309-1509	2	Quantity	94	99	T52-2	∼−27‰	{"unit": "‰"}
+S0012821X13007309-1509	2	MeasuredProperty	51	63	T42-2	VPDB δ13Corg	{"HasQuantity": "T52-2"}
+S0012821X13007309-1509	2	MeasuredEntity	107	127	T62-2	upper Hartland Shale	{"HasProperty": "T42-2"}
+S0012821X13007309-1509	3	Quantity	129	134	T83-3	4.3 m	{"unit": "m"}
+S0012821X13007309-1509	3	MeasuredProperty	135	148	T73-3	below the CTB	{"HasQuantity": "T83-3"}
+S0012821X13007309-1509	3	MeasuredEntity	107	127	T63-3	upper Hartland Shale	{"HasProperty": "T73-3"}
+S0012821X13007309-1509	4	Quantity	724	729	T104-4	∼−27‰	{"mods": ["IsApproximate"], "unit": "‰"}
+S0012821X13007309-1509	4	MeasuredProperty	692	704	T114-4	gradual fall	{"HasQuantity": "T104-4"}
+S0012821X13007309-1509	4	MeasuredEntity	708	715	T94-4	δ13Corg	{"HasProperty": "T114-4"}

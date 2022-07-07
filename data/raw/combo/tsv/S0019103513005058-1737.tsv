@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-1737	1	Quantity	97	105	T11-1	1 g cm−3	{"unit": "g cm−3"}
+S0019103513005058-1737	1	MeasuredProperty	81	93	T31-1	soil density	{"HasQuantity": "T11-1"}
+S0019103513005058-1737	1	MeasuredEntity	27	36	T51-1	Mars soil	{"HasProperty": "T31-1"}
+S0019103513005058-1737	2	Quantity	132	141	T22-2	1.5–2.6 m	{"mods": ["IsRange"], "unit": "m"}
+S0019103513005058-1737	2	MeasuredProperty	142	147	T42-2	depth	{"HasQuantity": "T22-2"}
+S0019103513005058-1737	2	MeasuredEntity	27	36	T52-2	Mars soil	{"HasProperty": "T42-2"}

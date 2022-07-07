@@ -1,0 +1,1 @@
+The following significance diagram displays the average rank of the classifiers at an 85% good, 15% bad class split:

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1401	1	Quantity	111	118	T1-1	10 wt.%	{"unit": "wt.%"}
+S0021979713004438-1401	1	MeasuredProperty	119	123	T5-1	NaOH	{"HasQuantity": "T1-1"}
+S0021979713004438-1401	1	MeasuredEntity	124	132	T4-1	solution	{"HasProperty": "T5-1"}
+S0021979713004438-1401	2	Quantity	207	212	T1-2	99.5%	{"unit": "%"}
+S0021979713004438-1401	2	MeasuredEntity	213	225	T2-2	pure ethanol	{"HasQuantity": "T1-2"}
+S0021979713004438-1401	3	Quantity	825	832	T1-3	69 ± 3°	{"mods": ["HasTolerance"], "unit": "°"}
+S0021979713004438-1401	3	MeasuredProperty	784	797	T3-3	contact angle	{"HasQuantity": "T1-3"}
+S0021979713004438-1401	3	MeasuredEntity	778	783	T4-3	water	{"HasProperty": "T3-3"}
+S0021979713004438-1401	3	Qualifier	805	821	T5-3	hematite surface	{"Qualifies": "T3-3"}
+S0021979713004438-1401	4	Quantity	888	895	T1-4	−0.72 V	{"unit": "V"}
+S0021979713004438-1401	4	MeasuredProperty	842	864	T3-4	open circuit potential	{"HasQuantity": "T1-4"}
+S0021979713004438-1401	4	MeasuredEntity	805	821	T5-4	hematite surface	{"HasProperty": "T3-4"}
+S0021979713004438-1401	4	Qualifier	865	884	T4-4	relative to Ag/AgCl	{"Qualifies": "T3-4"}

@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4545	1	Quantity	37	41	T1-1	five	{"mods": ["IsCount"]}
+S016412121300188X-4545	1	MeasuredEntity	42	66	T2-1	largest clusters of acct	{"HasQuantity": "T1-1"}
+S016412121300188X-4545	2	Quantity	438	462	T1-2	range from 11.4% to 2.4%	{"mods": ["IsRange"], "unit": "%"}
+S016412121300188X-4545	2	MeasuredProperty	432	437	T3-2	sizes	{"HasQuantity": "T1-2"}
+S016412121300188X-4545	2	MeasuredEntity	424	431	T2-2	cluster	{"HasProperty": "T3-2"}
+S016412121300188X-4545	3	Quantity	470	474	T1-3	five	{"mods": ["IsCount"]}
+S016412121300188X-4545	3	MeasuredEntity	475	483	T2-3	clusters	{"HasQuantity": "T1-3"}
+S016412121300188X-4545	4	Quantity	605	617	T1-4	less than 2%	{"mods": ["IsRange"], "unit": "%"}
+S016412121300188X-4545	4	MeasuredEntity	568	588	T2-4	rest of the clusters	{"HasQuantity": "T1-4"}
+S016412121300188X-4545	5	Quantity	621	632	T1-5	30 vertices	{"unit": "vertices"}
+S016412121300188X-4545	5	MeasuredEntity	568	588	T2-5	rest of the clusters	{"HasQuantity": "T1-5"}

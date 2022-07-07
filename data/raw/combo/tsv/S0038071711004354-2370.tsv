@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2370	1	Quantity	186	197	T1-1	15%, ±t0.05	{"mods": ["HasTolerance"], "unit": "%"}
+S0038071711004354-2370	1	MeasuredProperty	165	167	T3-1	SE	{"HasQuantity": "T1-1"}
+S0038071711004354-2370	1	MeasuredEntity	123	125	T2-1	fL	{"HasProperty": "T3-1"}
+S0038071711004354-2370	1	Qualifier	175	184	T4-1	afternoon	{"Qualifies": "T3-1"}
+S0038071711004354-2370	2	Quantity	203	209	T1-2	14–75%	{"mods": ["IsRange"], "unit": "%"}
+S0038071711004354-2370	2	MeasuredProperty	198	200	T2-2	dƒ	{"HasQuantity": "T1-2"}
+S0038071711004354-2370	2	MeasuredEntity	165	167	T4-2	SE	{"HasProperty": "T2-2"}
+S0038071711004354-2370	3	Quantity	246	256	T1-3	5%, ±t0.05	{"mods": ["HasTolerance"], "unit": "%"}
+S0038071711004354-2370	3	MeasuredProperty	241	244	T3-3	SEs	{"HasQuantity": "T1-3"}
+S0038071711004354-2370	3	MeasuredEntity	218	222	T2-3	fSOM	{"HasProperty": "T3-3"}
+S0038071711004354-2370	4	Quantity	262	268	T1-4	27–48%	{"mods": ["IsRange"], "unit": "%"}
+S0038071711004354-2370	4	MeasuredProperty	257	259	T2-4	dƒ	{"HasQuantity": "T1-4"}
+S0038071711004354-2370	4	MeasuredEntity	241	244	T4-4	SEs	{"HasProperty": "T2-4"}

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S095741741101342X-726	1	Quantity	20	26	T1-1	85/15%	{"mods": ["IsList"], "unit": "%"}
+S095741741101342X-726	1	MeasuredProperty	36	57	T4-1	good/bad observations	{"HasQuantity": "T1-1"}
+S095741741101342X-726	1	MeasuredEntity	0	13	T3-1	AR comparison	{"HasProperty": "T4-1"}

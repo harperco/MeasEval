@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960896612001022-1223	1	Quantity	107	133	T1-1	before the age of 20 years	{"mods": ["IsRange"], "unit": "years"}
+S0960896612001022-1223	1	MeasuredProperty	101	106	T3-1	onset	{"HasQuantity": "T1-1"}
+S0960896612001022-1223	1	MeasuredEntity	65	95	T2-1	PEO and pigmentary retinopathy	{"HasProperty": "T3-1"}
+S0960896612001022-1223	2	Quantity	230	250	T1-2	greater than 0.1 g/L	{"mods": ["IsRange"], "unit": "g/L"}
+S0960896612001022-1223	2	MeasuredProperty	208	229	T4-2	protein concentration	{"HasQuantity": "T1-2"}
+S0960896612001022-1223	2	MeasuredEntity	182	207	T3-2	cerebrospinal fluid (CSF)	{"HasProperty": "T4-2"}

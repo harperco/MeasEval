@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-2062	1	Quantity	374	381	T1-1	200,000	{"mods": ["IsCount"]}
+S0378112713005288-2062	1	MeasuredEntity	382	387	T2-1	seeds	{"HasQuantity": "T1-1"}
+S0378112713005288-2062	2	Quantity	394	398	T1-2	1 kg	{"unit": "kg"}
+S0378112713005288-2062	2	MeasuredProperty	388	393	T4-2	weigh	{"HasQuantity": "T1-2"}
+S0378112713005288-2062	2	MeasuredEntity	374	387	T3-2	200,000 seeds	{"HasProperty": "T4-2"}
+S0378112713005288-2062	2	Qualifier	367	372	T5-2	rowan	{"Qualifies": "T3-2"}
+S0378112713005288-2062	3	Quantity	479	490	T1-3	5.9 million	{"mods": ["IsCount"]}
+S0378112713005288-2062	3	MeasuredEntity	491	496	T3-3	seeds	{"HasQuantity": "T1-3"}
+S0378112713005288-2062	4	Quantity	503	507	T1-4	1 kg	{"unit": "kg"}
+S0378112713005288-2062	4	MeasuredProperty	497	502	T4-4	weigh	{"HasQuantity": "T1-4"}
+S0378112713005288-2062	4	MeasuredEntity	479	496	T3-4	5.9 million seeds	{"HasProperty": "T4-4"}
+S0378112713005288-2062	4	Qualifier	472	477	T5-4	birch	{"Qualifies": "T3-4"}

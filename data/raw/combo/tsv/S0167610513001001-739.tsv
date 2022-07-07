@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610513001001-739	1	Quantity	52	57	T1-1	180 m	{"unit": "m"}
+S0167610513001001-739	1	MeasuredEntity	38	51	T3-1	gate midpoint	{"HasQuantity": "T1-1"}
+S0167610513001001-739	2	Quantity	81	91	T1-2	7.83 m s−1	{"mods": ["IsMedian"], "unit": "m s−1"}
+S0167610513001001-739	2	MeasuredProperty	72	77	T4-2	speed	{"HasQuantity": "T1-2"}
+S0167610513001001-739	2	MeasuredEntity	67	71	T3-2	wind	{"HasProperty": "T4-2"}
+S0167610513001001-739	2	Qualifier	60	66	T5-2	Median	{"Qualifies": "T1-2"}

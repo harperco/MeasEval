@@ -1,0 +1,26 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-2148	1	Quantity	132	137	T31-1	10 μM	{"unit": "μM"}
+S0021979713004438-2148	1	MeasuredEntity	138	143	T41-1	FeCl3	{"HasQuantity": "T31-1"}
+S0021979713004438-2148	2	Quantity	193	199	T12-2	15 min	{"unit": "min"}
+S0021979713004438-2148	2	MeasuredEntity	200	215	T22-2	Mefp-1 spectrum	{"HasQuantity": "T12-2"}
+S0021979713004438-2148	3	Quantity	888	897	T53-3	1540 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	3	MeasuredProperty	898	902	T83-3	peak	{"HasQuantity": "T53-3"}
+S0021979713004438-2148	3	MeasuredEntity	17	41	T173-3	in situ ATR-FTIR spectra	{"HasProperty": "T83-3"}
+S0021979713004438-2148	4	Quantity	952	961	T64-4	1550 cm−1	
+S0021979713004438-2148	4	MeasuredProperty	943	948	T94-4	peaks	{"HasQuantity": "T64-4"}
+S0021979713004438-2148	4	MeasuredEntity	17	41	T174-4	in situ ATR-FTIR spectra	{"HasProperty": "T94-4"}
+S0021979713004438-2148	5	Quantity	966	975	T75-5	1536 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	5	MeasuredProperty	943	948	T95-5	peaks	{"HasQuantity": "T75-5"}
+S0021979713004438-2148	5	MeasuredEntity	17	41	T175-5	in situ ATR-FTIR spectra	{"HasProperty": "T95-5"}
+S0021979713004438-2148	6	Quantity	1049	1058	T106-6	1540 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	6	MeasuredProperty	1059	1063	T116-6	peak	{"HasQuantity": "T106-6"}
+S0021979713004438-2148	6	MeasuredEntity	17	41	T176-6	in situ ATR-FTIR spectra	{"HasProperty": "T116-6"}
+S0021979713004438-2148	7	Quantity	1460	1469	T137-7	1485 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	7	MeasuredProperty	1450	1455	T127-7	peaks	{"HasQuantity": "T137-7"}
+S0021979713004438-2148	7	MeasuredEntity	17	41	T177-7	in situ ATR-FTIR spectra	{"HasProperty": "T127-7"}
+S0021979713004438-2148	8	Quantity	1474	1483	T148-8	1260 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	8	MeasuredProperty	1450	1455	T128-8	peaks	{"HasQuantity": "T148-8"}
+S0021979713004438-2148	8	MeasuredEntity	17	41	T178-8	in situ ATR-FTIR spectra	{"HasProperty": "T128-8"}
+S0021979713004438-2148	9	Quantity	1827	1836	T169-9	1423 cm−1	{"unit": "cm−1"}
+S0021979713004438-2148	9	MeasuredProperty	1815	1823	T159-9	shoulder	{"HasQuantity": "T169-9"}
+S0021979713004438-2148	9	MeasuredEntity	17	41	T179-9	in situ ATR-FTIR spectra	{"HasProperty": "T159-9"}

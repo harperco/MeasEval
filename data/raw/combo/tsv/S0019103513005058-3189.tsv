@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3189	1	Quantity	796	802	T1-1	−57 °C	{"unit": "°C"}
+S0019103513005058-3189	1	MeasuredProperty	765	779	T3-1	eutectic point	{"HasQuantity": "T1-1"}
+S0019103513005058-3189	1	MeasuredEntity	783	792	T4-1	Mg(ClO4)2	{"HasProperty": "T3-1"}
+S0019103513005058-3189	2	Quantity	858	864	T1-2	−75 °C	{"unit": "°C"}
+S0019103513005058-3189	2	MeasuredProperty	765	779	T2-2	eutectic point	{"HasQuantity": "T1-2"}
+S0019103513005058-3189	2	MeasuredEntity	845	854	T3-2	Ca(ClO4)2	{"HasProperty": "T2-2"}
+S0019103513005058-3189	3	Quantity	953	960	T1-3	∼0.02 g	{"mods": ["IsApproximate"], "unit": "g"}
+S0019103513005058-3189	3	MeasuredProperty	961	964	T2-3	H2O	{"HasQuantity": "T1-3"}
+S0019103513005058-3189	3	MeasuredEntity	969	975	T3-3	g soil	{"HasProperty": "T2-3"}

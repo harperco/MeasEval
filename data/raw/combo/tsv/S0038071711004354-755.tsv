@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-755	1	Quantity	162	180	T1-1	approximately −14‰	{"mods": ["IsApproximate"], "unit": "‰"}
+S0038071711004354-755	1	MeasuredProperty	197	201	T5-1	δ13C	{"HasQuantity": "T1-1"}
+S0038071711004354-755	1	MeasuredEntity	205	216	T4-1	ambient CO2	{"HasProperty": "T5-1"}
+S0038071711004354-755	2	Quantity	596	615	T1-2	approximately 2.5 h	{"mods": ["IsApproximate"], "unit": "h"}
+S0038071711004354-755	2	MeasuredProperty	579	589	T4-2	stabilised	{"HasQuantity": "T1-2"}
+S0038071711004354-755	2	MeasuredEntity	557	578	T3-2	δ13C value of the CO2	{"HasProperty": "T4-2"}
+S0038071711004354-755	2	Qualifier	590	595	T5-2	after	{"Qualifies": "T1-2"}
+S0038071711004354-755	3	Quantity	619	632	T1-3	−28.5 ± 0.33‰	{"mods": ["IsApproximate", "HasTolerance"], "unit": "‰"}
+S0038071711004354-755	3	MeasuredProperty	557	561	T3-3	δ13C	{"HasQuantity": "T1-3"}
+S0038071711004354-755	3	MeasuredEntity	575	578	T2-3	CO2	{"HasProperty": "T3-3"}
+S0038071711004354-755	3	Qualifier	590	615	T5-3	after approximately 2.5 h	{"Qualifies": "T3-3"}
+S0038071711004354-755	4	Quantity	649	651	T1-4	60	
+S0038071711004354-755	4	MeasuredProperty	645	646	T2-4	n	{"HasQuantity": "T1-4"}
+S0038071711004354-755	4	MeasuredEntity	19	36	T3-4	dual-chamber test	{"HasProperty": "T2-4"}

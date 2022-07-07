@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2264	1	Quantity	266	273	T1-1	∼400eV.	{"mods": ["IsApproximate"], "unit": "eV"}
+S0032063312003054-2264	1	MeasuredProperty	245	248	T2-1	DEF	{"HasQuantity": "T1-1"}
+S0032063312003054-2264	1	MeasuredEntity	252	262	T3-1	heavy-ions	{"HasProperty": "T2-1"}
+S0032063312003054-2264	2	Quantity	517	522	T1-2	∼10eV	{"mods": ["IsApproximate"], "unit": "eV"}
+S0032063312003054-2264	2	MeasuredProperty	501	509	T3-2	energies	{"HasQuantity": "T1-2"}
+S0032063312003054-2264	2	MeasuredEntity	485	495	T2-2	heavy-ions	{"HasProperty": "T3-2"}
+S0032063312003054-2264	3	Quantity	580	593	T1-3	around 100 km	{"mods": ["IsApproximate"], "unit": "km"}
+S0032063312003054-2264	3	MeasuredProperty	471	481	T2-3	gyroradius	{"HasQuantity": "T1-3"}
+S0032063312003054-2264	3	MeasuredEntity	485	495	T3-3	heavy-ions	{"HasProperty": "T2-3"}
+S0032063312003054-2264	3	Qualifier	523	576	T4-3	at the location of the accelerated electron signature	{"Qualifies": "T2-3"}
+S0032063312003054-2264	4	Quantity	697	703	T1-4	400 km	{"unit": "km"}
+S0032063312003054-2264	4	MeasuredProperty	638	653	T2-4	horizontal size	{"HasQuantity": "T1-4"}
+S0032063312003054-2264	4	MeasuredEntity	659	693	T3-4	closed crustal magnetic field line	{"HasProperty": "T2-4"}

@@ -1,0 +1,33 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213001253-2433	1	Quantity	20	25	T1-1	three	{"mods": ["IsCount"]}
+S2213158213001253-2433	1	MeasuredEntity	26	37	T2-1	classifiers	{"HasQuantity": "T1-1"}
+S2213158213001253-2433	2	Quantity	319	323	T1-2	0.90	{"mods": ["IsRange"]}
+S2213158213001253-2433	2	MeasuredProperty	296	299	T3-2	AUC	{"HasQuantity": "T1-2"}
+S2213158213001253-2433	2	MeasuredEntity	268	287	T2-2	combined classifier	{"HasProperty": "T3-2"}
+S2213158213001253-2433	2	Qualifier	308	318	T4-2	as high as	{"Qualifies": "T1-2"}
+S2213158213001253-2433	3	Quantity	328	332	T1-3	0.89	{"mods": ["IsRange"]}
+S2213158213001253-2433	3	MeasuredProperty	304	307	T3-3	EER	{"HasQuantity": "T1-3"}
+S2213158213001253-2433	3	MeasuredEntity	268	287	T2-3	combined classifier	{"HasProperty": "T3-3"}
+S2213158213001253-2433	3	Qualifier	308	318	T4-3	as high as	{"Qualifies": "T1-3"}
+S2213158213001253-2433	4	Quantity	555	559	T1-4	100%	{"unit": "%"}
+S2213158213001253-2433	4	MeasuredProperty	560	578	T2-4	true positive rate	{"HasQuantity": "T1-4"}
+S2213158213001253-2433	4	MeasuredEntity	382	397	T3-4	sMRI classifier	{"HasProperty": "T2-4"}
+S2213158213001253-2433	4	Qualifier	541	554	T4-4	did not reach	{"Qualifies": "T1-4"}
+S2213158213001253-2433	4	Qualifier	357	360	T6-4	ROC	{"Qualifies": "T3-4"}
+S2213158213001253-2433	5	Quantity	613	628	T1-5	approached 100%	{"mods": ["IsRange"], "unit": "%"}
+S2213158213001253-2433	5	MeasuredProperty	593	612	T3-5	false positive rate	{"HasQuantity": "T1-5"}
+S2213158213001253-2433	5	MeasuredEntity	382	397	T4-5	sMRI classifier	{"HasProperty": "T3-5"}
+S2213158213001253-2433	5	Qualifier	357	360	T5-5	ROC	{"Qualifies": "T4-5"}
+S2213158213001253-2433	6	Quantity	708	710	T1-6	0%	{"unit": "%"}
+S2213158213001253-2433	6	MeasuredProperty	711	730	T4-6	false positive rate	{"HasQuantity": "T1-6"}
+S2213158213001253-2433	6	MeasuredEntity	643	655	T2-6	ROC for fMRI	{"HasProperty": "T4-6"}
+S2213158213001253-2433	6	Qualifier	694	707	T3-6	did not reach	{"Qualifies": "T1-6"}
+S2213158213001253-2433	7	Quantity	764	777	T1-7	approached 0%	{"mods": ["IsRange"], "unit": "%"}
+S2213158213001253-2433	7	MeasuredProperty	745	763	T3-7	true positive rate	{"HasQuantity": "T1-7"}
+S2213158213001253-2433	7	MeasuredEntity	643	655	T4-7	ROC for fMRI	{"HasProperty": "T3-7"}
+S2213158213001253-2433	8	Quantity	1227	1230	T1-8	two	{"mods": ["IsCount"]}
+S2213158213001253-2433	8	MeasuredEntity	1231	1249	T2-8	groups of subjects	{"HasQuantity": "T1-8"}
+S2213158213001253-2433	9	Quantity	1388	1391	T1-9	two	{"mods": ["IsCount"]}
+S2213158213001253-2433	9	MeasuredEntity	1392	1398	T2-9	groups	{"HasQuantity": "T1-9"}
+S2213158213001253-2433	10	Quantity	1549	1552	T1-10	two	{"mods": ["IsCount"]}
+S2213158213001253-2433	10	MeasuredEntity	1553	1571	T2-10	groups of subjects	{"HasQuantity": "T1-10"}

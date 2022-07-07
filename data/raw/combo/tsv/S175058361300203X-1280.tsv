@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S175058361300203X-1280	1	Quantity	657	662	T1-1	40 Hz	{"unit": "Hz"}
+S175058361300203X-1280	1	MeasuredEntity	635	653	T2-1	dominant frequency	{"HasQuantity": "T1-1"}

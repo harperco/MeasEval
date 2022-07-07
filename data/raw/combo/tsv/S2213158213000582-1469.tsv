@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1469	1	Quantity	318	324	T1-1	100 ms	{"unit": "ms"}
+S2213158213000582-1469	1	MeasuredEntity	325	355	T3-1	abnormalities in schizophrenia	{"HasQuantity": "T1-1"}
+S2213158213000582-1469	2	Quantity	545	551	T1-2	100 ms	{"unit": "ms"}
+S2213158213000582-1469	2	MeasuredEntity	552	568	T2-2	auditory studies	{"HasQuantity": "T1-2"}

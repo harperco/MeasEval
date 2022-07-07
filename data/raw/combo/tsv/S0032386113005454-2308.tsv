@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113005454-2308	1	Quantity	21	36	T1-1	3.19 ± 0.10 GPa	{"mods": ["HasTolerance"], "unit": "GPa"}
+S0032386113005454-2308	1	MeasuredProperty	2	17	T3-1	tensile modulus	{"HasQuantity": "T1-1"}
+S0032386113005454-2308	1	MeasuredEntity	58	82	T2-1	unmodified epoxy polymer	{"HasProperty": "T3-1"}
+S0032386113005454-2308	2	Quantity	157	175	T1-2	to 1.96 ± 0.08 GPa	{"mods": ["IsRangeHasTolerance"], "unit": "GPa"}
+S0032386113005454-2308	2	MeasuredProperty	88	95	T2-2	modulus	{"HasQuantity": "T1-2"}
+S0032386113005454-2308	2	MeasuredEntity	69	82	T5-2	epoxy polymer	{"HasProperty": "T2-2"}
+S0032386113005454-2308	2	Qualifier	176	217	T6-2	when 20 wt% of S-CSR particles were added	{"Qualifies": "T2-2"}
+S0032386113005454-2308	3	Quantity	181	187	T1-3	20 wt%	{"unit": "wt%"}
+S0032386113005454-2308	3	MeasuredProperty	207	217	T4-3	were added	{"HasQuantity": "T1-3"}
+S0032386113005454-2308	3	MeasuredEntity	191	206	T3-3	S-CSR particles	{"HasProperty": "T4-3"}

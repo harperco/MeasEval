@@ -1,0 +1,30 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1230	1	Quantity	324	330	T211-1	5-year	{"unit": "year"}
+S0006322312001096-1230	1	MeasuredEntity	331	342	T221-1	data cycles	{"HasQuantity": "T211-1"}
+S0006322312001096-1230	2	Quantity	344	349	T32-2	12.1%	{"unit": "%"}
+S0006322312001096-1230	2	MeasuredProperty	387	410	T92-2	developed such symptoms	{"HasQuantity": "T32-2"}
+S0006322312001096-1230	2	MeasuredEntity	353	386	T82-2	participants without GHQ symptoms	{"HasProperty": "T92-2"}
+S0006322312001096-1230	3	Quantity	412	416	T13-3	4.6%	{"unit": "%"}
+S0006322312001096-1230	3	MeasuredProperty	460	490	T113-3	had such symptoms at follow-up	{"HasQuantity": "T13-3"}
+S0006322312001096-1230	3	MeasuredEntity	420	459	T103-3	those without CES-D depressive symptoms	{"HasProperty": "T113-3"}
+S0006322312001096-1230	4	Quantity	496	500	T24-4	2.1%	{"unit": "%"}
+S0006322312001096-1230	4	MeasuredProperty	542	565	T134-4	started such medication	{"HasQuantity": "T24-4"}
+S0006322312001096-1230	4	MeasuredEntity	504	541	T124-4	those not on antidepressant treatment	{"HasProperty": "T134-4"}
+S0006322312001096-1230	5	Quantity	597	601	T55-5	5.4%	{"unit": "%"}
+S0006322312001096-1230	5	MeasuredProperty	602	632	T155-5	used antidepressant medication	{"HasQuantity": "T55-5"}
+S0006322312001096-1230	5	MeasuredEntity	574	595	T145-5	cases of GHQ symptoms	{"HasProperty": "T155-5"}
+S0006322312001096-1230	6	Quantity	669	673	T46-6	9.2%	{"unit": "%"}
+S0006322312001096-1230	6	MeasuredProperty	602	632	T156-6	used antidepressant medication	{"HasQuantity": "T46-6"}
+S0006322312001096-1230	6	MeasuredEntity	678	714	T166-6	those with CES-D depressive symptoms	{"HasProperty": "T156-6"}
+S0006322312001096-1230	7	Quantity	751	756	T67-7	47.4%	{"unit": "%"}
+S0006322312001096-1230	7	MeasuredProperty	757	791	T187-7	also had CES-D depressive symptoms	{"HasQuantity": "T67-7"}
+S0006322312001096-1230	7	MeasuredEntity	719	750	T177-7	participants with GHQ symptoms,	{"HasProperty": "T187-7"}
+S0006322312001096-1230	8	Quantity	828	831	T1-8	.64	
+S0006322312001096-1230	8	MeasuredProperty	824	825	T2-8	r	{"HasQuantity": "T1-8"}
+S0006322312001096-1230	8	MeasuredEntity	793	823	T3-8	Pearson correlation at phase 7	{"HasProperty": "T2-8"}
+S0006322312001096-1230	9	Quantity	835	841	T1-9	< .001	{"mods": ["IsRange"]}
+S0006322312001096-1230	9	MeasuredProperty	833	834	T2-9	p	{"HasQuantity": "T1-9"}
+S0006322312001096-1230	9	MeasuredEntity	793	823	T3-9	Pearson correlation at phase 7	{"HasProperty": "T2-9"}
+S0006322312001096-1230	10	Quantity	907	912	T78-10	59.9%	{"unit": "%"}
+S0006322312001096-1230	10	MeasuredProperty	913	934	T208-10	also had GHQ symptoms	{"HasQuantity": "T78-10"}
+S0006322312001096-1230	10	MeasuredEntity	862	905	T198-10	participants with CES-D depressive symptoms	{"HasProperty": "T208-10"}

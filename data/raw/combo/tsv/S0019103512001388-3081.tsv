@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512001388-3081	1	Quantity	113	118	T1-1	0.64%	{"unit": "%"}
+S0019103512001388-3081	1	MeasuredProperty	25	77	T3-1	fractional integrated differential brightness of BS1	{"HasQuantity": "T1-1"}
+S0019103512001388-3081	1	MeasuredEntity	85	93	T4-1	H filter	{"HasProperty": "T3-1"}
+S0019103512001388-3081	2	Quantity	145	160	T1-2	26 October 2011	
+S0019103512001388-3081	2	MeasuredEntity	126	141	T2-2	discovery image	{"HasQuantity": "T1-2"}
+S0019103512001388-3081	3	Quantity	178	183	T1-3	0.02%	{"unit": "%"}
+S0019103512001388-3081	3	MeasuredProperty	25	77	T4-3	fractional integrated differential brightness of BS1	{"HasQuantity": "T1-3"}
+S0019103512001388-3081	3	MeasuredEntity	85	93	T5-3	H filter	{"HasProperty": "T4-3"}
+S0019103512001388-3081	3	Qualifier	166	174	T2-3	declined	{"Qualifies": "T4-3"}
+S0019103512001388-3081	4	Quantity	187	198	T1-4	December 16	
+S0019103512001388-3081	4	MeasuredProperty	166	174	T3-4	declined	{"HasQuantity": "T1-4"}
+S0019103512001388-3081	4	MeasuredEntity	47	93	T2-4	differential brightness of BS1 in the H filter	{"HasProperty": "T3-4"}

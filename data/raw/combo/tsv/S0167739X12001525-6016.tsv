@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167739X12001525-6016	1	Quantity	381	390	T1-1	below 10%	{"mods": ["IsRange"], "unit": "%"}
+S0167739X12001525-6016	1	MeasuredProperty	326	334	T3-1	executed	{"HasQuantity": "T1-1"}
+S0167739X12001525-6016	1	MeasuredEntity	335	355	T2-1	reallocation actions	{"HasProperty": "T3-1"}
+S0167739X12001525-6016	2	Quantity	430	435	T1-2	19.8%	{"mods": ["IsMean"], "unit": "%"}
+S0167739X12001525-6016	2	MeasuredProperty	410	426	T2-2	executes actions	{"HasQuantity": "T1-2"}
+S0167739X12001525-6016	2	MeasuredEntity	443	448	T3-2	cases	{"HasProperty": "T2-2"}
+S0167739X12001525-6016	2	Qualifier	452	459	T5-2	average	{"Qualifies": "T1-2"}
+S0167739X12001525-6016	3	Quantity	473	490	T1-3	Five out of eight	
+S0167739X12001525-6016	3	MeasuredProperty	501	525	T3-3	stay below 5% on average	{"HasQuantity": "T1-3"}
+S0167739X12001525-6016	3	MeasuredEntity	491	500	T2-3	scenarios	{"HasProperty": "T3-3"}
+S0167739X12001525-6016	4	Quantity	506	514	T1-4	below 5%	{"mods": ["IsMeanIsRange"], "unit": "%"}
+S0167739X12001525-6016	4	MeasuredProperty	410	426	T5-4	executes actions	{"HasQuantity": "T1-4"}
+S0167739X12001525-6016	4	MeasuredEntity	473	500	T4-4	Five out of eight scenarios	{"HasProperty": "T5-4"}
+S0167739X12001525-6016	4	Qualifier	518	525	T2-4	average	{"Qualifies": "T1-4"}

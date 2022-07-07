@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-1181	1	Quantity	141	143	T1-1	2%	{"unit": "%"}
+S0960148113005727-1181	1	MeasuredProperty	131	137	T4-1	output	{"HasQuantity": "T1-1"}
+S0960148113005727-1181	1	MeasuredEntity	106	110	T3-1	farm	{"HasProperty": "T4-1"}
+S0960148113005727-1181	1	Qualifier	124	130	T5-1	reduce	{"Qualifies": "T4-1"}

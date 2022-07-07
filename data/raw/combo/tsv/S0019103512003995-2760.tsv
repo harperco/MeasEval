@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2760	1	Quantity	324	333	T11-1	11 km s−1	{"unit": "km s−1"}
+S0019103512003995-2760	1	MeasuredProperty	299	314	T21-1	radial velocity	{"HasQuantity": "T11-1"}
+S0019103512003995-2760	1	MeasuredEntity	261	271	T31-1	SOL2 model	{"HasProperty": "T21-1"}
+S0019103512003995-2760	1	Qualifier	334	340	T41-1	by 5Rp	{"Qualifies": "T21-1"}
+S0019103512003995-2760	2	Quantity	337	340	T52-2	5Rp	{"unit": "Rp"}

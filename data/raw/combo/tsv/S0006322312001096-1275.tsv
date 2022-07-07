@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1275	1	Quantity	39	55	T11-1	range 66% to 88%	{"mods": ["IsRange"], "unit": "%"}
+S0006322312001096-1275	1	MeasuredProperty	15	23	T21-1	response	{"HasQuantity": "T11-1"}
+S0006322312001096-1275	1	MeasuredEntity	31	37	T31-1	survey	{"HasProperty": "T21-1"}

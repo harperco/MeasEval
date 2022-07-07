@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0031405612000728-1639	1	Quantity	786	787	T1-1	7	{"mods": ["IsCount"]}
+S0031405612000728-1639	1	MeasuredEntity	788	794	T2-1	months	{"HasQuantity": "T1-1"}
+S0031405612000728-1639	2	Quantity	1303	1326	T1-2	range from 4 to 88 days	{"mods": ["IsRange"], "unit": "days"}
+S0031405612000728-1639	2	MeasuredProperty	1297	1302	T4-2	rates	{"HasQuantity": "T1-2"}
+S0031405612000728-1639	2	MeasuredEntity	1278	1296	T3-2	Aggregate turnover	{"HasProperty": "T4-2"}
+S0031405612000728-1639	3	Quantity	1406	1419	T1-3	over a 60 day	{"unit": "day"}
+S0031405612000728-1639	3	MeasuredProperty	1420	1426	T4-3	period	{"HasQuantity": "T1-3"}
+S0031405612000728-1639	3	MeasuredEntity	1372	1391	T3-3	aggregate stability	{"HasProperty": "T4-3"}
+S0031405612000728-1639	3	Qualifier	1428	1465	T6-3	from the first to third month harvest	{"Qualifies": "T4-3"}
+S0031405612000728-1639	4	Quantity	1513	1527	T1-4	over a 120 day	{"unit": "day"}
+S0031405612000728-1639	4	MeasuredProperty	1528	1534	T2-4	period	{"HasQuantity": "T1-4"}
+S0031405612000728-1639	4	MeasuredEntity	1486	1512	T4-4	aggregate water repellency	{"HasProperty": "T2-4"}
+S0031405612000728-1639	4	Qualifier	1536	1573	T6-4	from the first to fifth month harvest	{"Qualifies": "T2-4"}

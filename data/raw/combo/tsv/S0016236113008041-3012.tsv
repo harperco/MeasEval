@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3012	1	Quantity	49	54	T1-1	90 kW	{"unit": "kW"}
+S0016236113008041-3012	1	MeasuredEntity	55	81	T3-1	oxy-combustion pilot plant	{"HasQuantity": "T1-1"}
+S0016236113008041-3012	2	Quantity	133	136	T1-2	82%	{"unit": "%"}
+S0016236113008041-3012	2	MeasuredProperty	140	183	T4-2	elemental Hg was emitted in the exhaust gas	{"HasQuantity": "T1-2"}
+S0016236113008041-3012	2	MeasuredEntity	140	152	T3-2	elemental Hg	{"HasProperty": "T4-2"}
+S0016236113008041-3012	3	Quantity	192	195	T1-3	81%	{"unit": "%"}
+S0016236113008041-3012	3	MeasuredEntity	199	201	T3-3	Cl	{"HasQuantity": "T1-3"}

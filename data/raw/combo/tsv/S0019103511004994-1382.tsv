@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1382	1	Quantity	370	379	T101-1	2005–2010	{"mods": ["IsRange"]}
+S0019103511004994-1382	1	MeasuredEntity	358	369	T91-1	time period	{"HasQuantity": "T101-1"}
+S0019103511004994-1382	2	Quantity	426	434	T52-2	14 times	
+S0019103511004994-1382	2	MeasuredProperty	403	425	T62-2	flew close by the moon	{"HasQuantity": "T52-2"}
+S0019103511004994-1382	2	MeasuredEntity	380	402	T42-2	the Cassini spacecraft	{"HasProperty": "T62-2"}
+S0019103511004994-1382	3	Quantity	446	461	T13-3	as low as 25 km	{"mods": ["IsRange"]}
+S0019103511004994-1382	3	MeasuredEntity	380	402	T43-3	the Cassini spacecraft	{"HasQuantity": "T13-3"}
+S0019103511004994-1382	3	Qualifier	462	479	T33-3	above the surface	{"Qualifies": "T13-3"}
+S0019103511004994-1382	4	Quantity	739	755	T24-4	27 keV to 21 MeV	{"mods": ["IsRange"]}
+S0019103511004994-1382	4	MeasuredProperty	726	732	T74-4	energy	{"HasQuantity": "T24-4"}
+S0019103511004994-1382	4	MeasuredEntity	697	705	T84-4	electron	{"HasProperty": "T74-4"}

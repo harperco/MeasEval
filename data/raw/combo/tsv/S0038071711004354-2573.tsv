@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071711004354-2573	1	Quantity	166	174	T1-1	20–30 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0038071711004354-2573	1	MeasuredEntity	182	194	T3-1	soil profile	{"HasQuantity": "T1-1"}
+S0038071711004354-2573	1	Qualifier	162	165	T2-1	top	{"Qualifies": "T1-1"}
+S0038071711004354-2573	2	Quantity	406	409	T1-2	six	{"mods": ["IsCount"]}
+S0038071711004354-2573	2	MeasuredEntity	410	445	T2-2	Mediterranean forest sites in Italy	{"HasQuantity": "T1-2"}
+S0038071711004354-2573	3	Quantity	559	564	T1-3	20 cm	{"unit": "cm"}
+S0038071711004354-2573	3	MeasuredEntity	568	580	T4-3	soil profile	{"HasQuantity": "T1-3"}
+S0038071711004354-2573	3	Qualifier	555	558	T3-3	top	{"Qualifies": "T1-3"}

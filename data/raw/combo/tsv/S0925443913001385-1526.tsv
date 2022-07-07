@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1526	1	Quantity	170	174	T1-1	5 μg	{"unit": "μg"}
+S0925443913001385-1526	1	MeasuredEntity	153	168	T2-1	aliquots of RNA	{"HasQuantity": "T1-1"}
+S0925443913001385-1526	2	Quantity	205	215	T1-2	1.2% (w/v)	{"unit": "% (w/v)"}
+S0925443913001385-1526	2	MeasuredEntity	216	223	T2-2	agarose	{"HasQuantity": "T1-2"}

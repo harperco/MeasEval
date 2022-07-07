@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5251	1	Quantity	92	104	T31-1	below ∼460 K	{"mods": ["IsApproximate", "IsRange"], "unit": "K"}
+S0019103512003533-5251	1	MeasuredProperty	0	26	T11-1	High latitude temperatures	{"HasQuantity": "T31-1"}
+S0019103512003533-5251	1	MeasuredEntity	30	55	T21-1	Saturn’s upper atmosphere	{"HasProperty": "T11-1"}
+S0019103512003533-5251	2	Quantity	464	474	T62-2	440 ± 50 K	{"mods": ["HasTolerance"], "unit": "K"}
+S0019103512003533-5251	2	MeasuredProperty	406	427	T42-2	inferred temperatures	{"HasQuantity": "T62-2"}
+S0019103512003533-5251	2	MeasuredEntity	448	460	T52-2	auroral oval	{"HasProperty": "T42-2"}
+S0019103512003533-5251	3	Quantity	529	545	T93-3	(563–624) ± 30 K	{"mods": ["IsRangeHasTolerance"], "unit": "K"}
+S0019103512003533-5251	3	MeasuredProperty	488	500	T73-3	temperatures	{"HasQuantity": "T93-3"}
+S0019103512003533-5251	3	MeasuredEntity	504	525	T83-3	Saturn’s auroral oval	{"HasProperty": "T73-3"}
+S0019103512003533-5251	3	Qualifier	551	589	T2-3	derived from Cassini VIMS observations	{"Qualifies": "T73-3"}
+S0019103512003533-5251	4	Quantity	651	669	T124-4	up to around 650 K	{"mods": ["IsApproximate", "IsRange"], "unit": "K"}
+S0019103512003533-5251	4	MeasuredProperty	620	640	T104-4	auroral temperatures	{"HasQuantity": "T124-4"}
+S0019103512003533-5251	4	MeasuredEntity	644	650	T114-4	Saturn	{"HasProperty": "T104-4"}
+S0019103512003533-5251	5	Quantity	762	767	T135-5	650 K	{"unit": "K"}
+S0019103512003533-5251	5	MeasuredProperty	818	836	T145-5	polar temperatures	{"HasQuantity": "T135-5"}
+S0019103512003533-5251	5	MeasuredEntity	864	870	T165-5	Saturn	{"HasProperty": "T145-5"}
+S0019103512003533-5251	6	Quantity	874	881	T176-6	⩽ 650 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003533-5251	6	MeasuredProperty	818	836	T146-6	polar temperatures	{"HasQuantity": "T176-6"}
+S0019103512003533-5251	6	MeasuredEntity	864	870	T166-6	Saturn	{"HasProperty": "T146-6"}
+S0019103512003533-5251	6	Qualifier	842	860	T156-6	have been observed	{"Qualifies": "T146-6"}
+S0019103512003533-5251	7	Quantity	932	939	T197-7	> 650 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003533-5251	7	MeasuredProperty	818	836	T147-7	polar temperatures	{"HasQuantity": "T197-7"}
+S0019103512003533-5251	7	MeasuredEntity	864	870	T167-7	Saturn	{"HasProperty": "T147-7"}
+S0019103512003533-5251	7	Qualifier	906	928	T187-7	have not been observed	{"Qualifies": "T147-7"}

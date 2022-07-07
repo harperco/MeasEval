@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-3964	1	Quantity	290	295	T1-1	51-bp	{"unit": "bp"}
+S0168945213001805-3964	1	MeasuredProperty	297	313	T4-1	n-frame deletion	{"HasQuantity": "T1-1"}
+S0168945213001805-3964	1	MeasuredEntity	271	282	T3-1	mutant gene	{"HasProperty": "T4-1"}
+S0168945213001805-3964	2	Quantity	969	978	T1-2	about 40%	{"mods": ["IsApproximate"], "unit": "%"}
+S0168945213001805-3964	2	MeasuredProperty	979	985	T5-2	taller	{"HasQuantity": "T1-2"}
+S0168945213001805-3964	2	MeasuredEntity	900	963	T4-2	Hybrid aspen (P. tremula × P. tremuloides) over-expressing GID1	{"HasProperty": "T5-2"}
+S0168945213001805-3964	2	Qualifier	995	1039	T2-2	wild type after nine weeks in the greenhouse	{"Qualifies": "T5-2"}

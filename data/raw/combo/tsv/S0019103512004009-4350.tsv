@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-4350	1	Quantity	515	522	T1-1	∼1000 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512004009-4350	1	MeasuredProperty	466	485	T2-1	maximum temperature	{"HasQuantity": "T1-1"}
+S0019103512004009-4350	1	MeasuredEntity	493	501	T3-1	C3 model	{"HasProperty": "T2-1"}
+S0019103512004009-4350	1	Qualifier	505	514	T4-1	cooler by	{"Qualifies": "T2-1"}
+S0019103512004009-4350	1	Qualifier	436	460	T6-1	Compared to the C1 model	{"Qualifies": "T3-1"}
+S0019103512004009-4350	2	Quantity	571	582	T1-2	1000–2000 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512004009-4350	2	MeasuredProperty	466	485	T7-2	maximum temperature	{"HasQuantity": "T1-2"}
+S0019103512004009-4350	2	MeasuredEntity	549	557	T2-2	C3 model	{"HasProperty": "T7-2"}
+S0019103512004009-4350	2	Qualifier	530	544	T3-2	high altitudes	{"Qualifies": "T2-2"}
+S0019103512004009-4350	2	Qualifier	561	570	T4-2	cooler by	{"Qualifies": "T1-2"}
+S0019103512004009-4350	2	Qualifier	436	460	T5-2	Compared to the C1 model	{"Qualifies": "T7-2"}

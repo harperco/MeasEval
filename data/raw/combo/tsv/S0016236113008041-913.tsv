@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-913	1	Quantity	96	124	T21-1	0 ppm, 1000 ppm and 2000 ppm	{"mods": ["IsList"], "unit": "ppm"}
+S0016236113008041-913	1	MeasuredProperty	74	92	T71-1	SO2 concentrations	{"HasQuantity": "T21-1"}
+S0016236113008041-913	2	Quantity	147	152	T44-2	13 kg	{"unit": "kg"}
+S0016236113008041-913	2	MeasuredProperty	153	158	T54-2	CaCO3	{"HasQuantity": "T44-2"}
+S0016236113008041-913	2	MeasuredEntity	130	143	T64-2	bed inventory	{"HasProperty": "T54-2"}

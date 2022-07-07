@@ -1,0 +1,23 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3171	1	Quantity	283	289	T31-1	4.5 kg	{"unit": "kg"}
+S0016236113008041-3171	1	MeasuredEntity	266	279	T131-1	bed inventory	{"HasQuantity": "T31-1"}
+S0016236113008041-3171	2	Quantity	325	327	T102-2	22	{"unit": "ppm"}
+S0016236113008041-3171	2	MeasuredProperty	189	191	T142-2	Cu	{"HasQuantity": "T102-2"}
+S0016236113008041-3171	2	MeasuredEntity	57	70	T232-2	solid sorbent	{"HasProperty": "T142-2"}
+S0016236113008041-3171	2	Qualifier	354	363	T12-2	for 13 kg	{"Qualifies": "T232-2"}
+S0016236113008041-3171	3	Quantity	332	340	T253-3	0.22 ppm	{"unit": "ppm"}
+S0016236113008041-3171	3	MeasuredProperty	196	198	T243-3	Sn	{"HasQuantity": "T253-3"}
+S0016236113008041-3171	3	MeasuredEntity	57	70	T233-3	solid sorbent	{"HasProperty": "T243-3"}
+S0016236113008041-3171	3	Qualifier	354	363	T13-3	for 13 kg	{"Qualifies": "T233-3"}
+S0016236113008041-3171	4	Quantity	358	363	T24-4	13 kg	{"unit": "kg"}
+S0016236113008041-3171	4	MeasuredEntity	266	279	T134-4	bed inventory	{"HasQuantity": "T24-4"}
+S0016236113008041-3171	5	Quantity	493	499	T45-5	<1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3171	5	MeasuredProperty	380	392	T125-5	Gd, Dy and U	{"HasQuantity": "T45-5"}
+S0016236113008041-3171	5	MeasuredEntity	57	70	T235-5	solid sorbent	{"HasProperty": "T125-5"}
+S0016236113008041-3171	6	Quantity	626	642	T86-6	6 kg over 4.5 kg	{"unit": "kg"}
+S0016236113008041-3171	6	MeasuredEntity	266	279	T136-6	bed inventory	{"HasQuantity": "T86-6"}
+S0016236113008041-3171	7	Quantity	669	682	T58-7	6 kg to 13 kg	{"mods": ["IsList"], "unit": "kg"}
+S0016236113008041-3171	7	MeasuredEntity	266	279	T138-7	bed inventory	{"HasQuantity": "T58-7"}
+S0016236113008041-3171	8	Quantity	731	739	T2110-8	<0.1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3171	8	MeasuredProperty	702	725	T2010-8	flue gas concentrations	{"HasQuantity": "T2110-8"}
+S0016236113008041-3171	8	MeasuredEntity	688	701	T1510-8	minor element	{"HasProperty": "T2010-8"}
