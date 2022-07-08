@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S030881461301604X-1002	1	Quantity	0	3	T1-1	Two	{"mods": ["IsCount"]}
+S030881461301604X-1002	1	MeasuredEntity	4	19	T2-1	stock solutions	{"HasQuantity": "T1-1"}
+S030881461301604X-1002	2	Quantity	110	118	T1-2	100 mg/L	{"unit": "mg/L"}
+S030881461301604X-1002	2	MeasuredProperty	90	104	T3-2	concentrations	{"HasQuantity": "T1-2"}
+S030881461301604X-1002	2	MeasuredEntity	74	77	T2-2	DMA	{"HasProperty": "T3-2"}
+S030881461301604X-1002	2	Qualifier	61	72	T4-2	AB, As(III)	{"Qualifies": "T2-2"}
+S030881461301604X-1002	3	Quantity	123	129	T1-3	1 mg/L	{"unit": "mg/L"}
+S030881461301604X-1002	3	MeasuredProperty	90	104	T3-3	concentrations	{"HasQuantity": "T1-3"}
+S030881461301604X-1002	3	MeasuredEntity	82	85	T2-3	MMA	{"HasProperty": "T3-3"}
+S030881461301604X-1002	3	Qualifier	61	72	T4-3	AB, As(III)	{"Qualifies": "T2-3"}
+S030881461301604X-1002	4	Quantity	168	175	T1-4	10 mg/L	{"unit": "mg/L"}
+S030881461301604X-1002	4	MeasuredProperty	90	104	T3-4	concentrations	{"HasQuantity": "T1-4"}
+S030881461301604X-1002	4	MeasuredEntity	74	77	T2-4	DMA	{"HasProperty": "T3-4"}
+S030881461301604X-1002	4	Qualifier	138	143	T5-4	As(V)	{"Qualifies": "T2-4"}
+S030881461301604X-1002	5	Quantity	180	188	T1-5	0.1 mg/L	{"unit": "mg/L"}
+S030881461301604X-1002	5	MeasuredProperty	90	104	T3-5	concentrations	{"HasQuantity": "T1-5"}
+S030881461301604X-1002	5	MeasuredEntity	82	85	T2-5	MMA	{"HasProperty": "T3-5"}
+S030881461301604X-1002	5	Qualifier	138	143	T5-5	As(V)	{"Qualifies": "T2-5"}
+S030881461301604X-1002	6	Quantity	240	242	T1-6	1%	{"unit": "%"}
+S030881461301604X-1002	6	MeasuredEntity	227	238	T3-6	nitric acid	{"HasQuantity": "T1-6"}
+S030881461301604X-1002	7	Quantity	410	434	T1-7	1, 5, 10, 20 and 50 μg/L	{"unit": "μg/L"}
+S030881461301604X-1002	7	MeasuredEntity	357	386	T2-7	final standard concentrations	{"HasQuantity": "T1-7"}
+S030881461301604X-1002	8	Quantity	438	440	T1-8	1%	{"unit": "%"}
+S030881461301604X-1002	8	MeasuredEntity	441	452	T2-8	nitric acid	{"HasQuantity": "T1-8"}

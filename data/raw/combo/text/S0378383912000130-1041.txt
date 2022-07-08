@@ -1,0 +1,1 @@
+Time-series of measured (symbols) and model-predicted (solid line) shoreline position for the 1.5 mm and 8.5 mm beaches.

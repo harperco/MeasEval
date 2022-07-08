@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1398	1	Quantity	490	499	T1-1	1 to 2 mg	{"mods": ["IsRange"], "unit": "mg"}
+S2213671113001306-1398	1	MeasuredEntity	500	542	T3-1	intravitreal triamcinolone (TCA) injection	{"HasQuantity": "T1-1"}

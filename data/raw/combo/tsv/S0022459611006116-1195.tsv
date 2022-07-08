@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1195	1	Quantity	175	184	T61-1	5≤2θ/°≤80	{"mods": ["IsRange"], "unit": "°"}
+S0022459611006116-1195	1	MeasuredEntity	139	152	T51-1	Initial scans	{"HasQuantity": "T61-1"}
+S0022459611006116-1195	2	Quantity	205	210	T42-2	0.02°	{"unit": "°"}
+S0022459611006116-1195	2	MeasuredProperty	192	201	T32-2	step size	{"HasQuantity": "T42-2"}
+S0022459611006116-1195	2	MeasuredEntity	139	152	T52-2	Initial scans	{"HasProperty": "T32-2"}
+S0022459611006116-1195	3	Quantity	230	236	T13-3	50 min	{"unit": "min"}
+S0022459611006116-1195	3	MeasuredProperty	217	226	T23-3	scan time	{"HasQuantity": "T13-3"}
+S0022459611006116-1195	3	MeasuredEntity	139	152	T53-3	Initial scans	{"HasProperty": "T23-3"}

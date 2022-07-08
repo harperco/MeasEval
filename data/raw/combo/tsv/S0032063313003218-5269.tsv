@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5269	1	Quantity	115	143	T1-1	from September 8 to 11, 1998	{"mods": ["IsRange"]}
+S0032063313003218-5269	1	MeasuredProperty	29	42	T3-1	infrared data	{"HasQuantity": "T1-1"}
+S0032063313003218-5269	1	MeasuredEntity	51	72	T2-1	auroral heating event	{"HasProperty": "T3-1"}
+S0032063313003218-5269	2	Quantity	255	265	T1-2	940–1065 K	{"mods": ["IsRange"], "unit": "K"}
+S0032063313003218-5269	2	MeasuredProperty	242	253	T3-2	temperature	{"HasQuantity": "T1-2"}
+S0032063313003218-5269	2	MeasuredEntity	230	241	T2-2	ionospheric	{"HasProperty": "T3-2"}
+S0032063313003218-5269	2	Qualifier	218	226	T5-2	increase	{"Qualifies": "T3-2"}
+S0032063313003218-5269	3	Quantity	341	350	T1-3	67 mW m−2	{"unit": "mW m−2"}
+S0032063313003218-5269	3	MeasuredProperty	293	325	T3-3	ion drag and Joule heating rates	{"HasQuantity": "T1-3"}
+S0032063313003218-5269	3	MeasuredEntity	51	72	T2-3	auroral heating event	{"HasProperty": "T3-3"}
+S0032063313003218-5269	3	Qualifier	352	366	T4-3	on September 8	{"Qualifies": "T3-3"}
+S0032063313003218-5269	4	Quantity	352	366	T1-4	on September 8	
+S0032063313003218-5269	4	MeasuredProperty	29	42	T2-4	infrared data	{"HasQuantity": "T1-4"}
+S0032063313003218-5269	4	MeasuredEntity	51	72	T4-4	auroral heating event	{"HasProperty": "T2-4"}
+S0032063313003218-5269	5	Quantity	371	381	T1-5	277 mW m−2	{"unit": "mW m−2"}
+S0032063313003218-5269	5	MeasuredProperty	293	325	T4-5	ion drag and Joule heating rates	{"HasQuantity": "T1-5"}
+S0032063313003218-5269	5	MeasuredEntity	51	72	T6-5	auroral heating event	{"HasProperty": "T4-5"}
+S0032063313003218-5269	5	Qualifier	383	397	T3-5	on September 1	{"Qualifies": "T4-5"}
+S0032063313003218-5269	6	Quantity	386	399	T1-6	September 11)	
+S0032063313003218-5269	6	MeasuredProperty	29	42	T4-6	infrared data	{"HasQuantity": "T1-6"}
+S0032063313003218-5269	6	MeasuredEntity	51	72	T2-6	auroral heating event	{"HasProperty": "T4-6"}
+S0032063313003218-5269	7	Quantity	680	684	T1-7	~20%	{"mods": ["IsApproximate"], "unit": "%"}
+S0032063313003218-5269	7	MeasuredProperty	587	600	T3-7	Cooling rates	{"HasQuantity": "T1-7"}
+S0032063313003218-5269	7	MeasuredEntity	692	719	T2-7	total inferred heating rate	{"HasProperty": "T3-7"}

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2483	1	Quantity	48	84	T1-1	between ∼01:25:00 UT and 01:25:40 UT	{"mods": ["IsRange"], "unit": "UT"}
+S0032063312003054-2483	1	MeasuredProperty	21	33	T3-1	acceleration	{"HasQuantity": "T1-1"}
+S0032063312003054-2483	1	MeasuredEntity	37	47	T4-1	heavy-ions	{"HasProperty": "T3-1"}

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359645413009816-2243	1	Quantity	152	158	T1-1	1.5 nm	{"unit": "nm"}
+S1359645413009816-2243	1	MeasuredProperty	130	148	T3-1	nominal resolution	{"HasQuantity": "T1-1"}
+S1359645413009816-2243	1	MeasuredEntity	69	121	T2-1	LEO 1525 field emission scanning electron microscope	{"HasProperty": "T3-1"}
+S1359645413009816-2243	2	Quantity	162	167	T1-2	20 kV	{"unit": "kV"}
+S1359645413009816-2243	2	MeasuredEntity	69	121	T3-2	LEO 1525 field emission scanning electron microscope	{"HasQuantity": "T1-2"}
+S1359645413009816-2243	3	Quantity	515	522	T1-3	5 K/min	{"unit": "K/min"}
+S1359645413009816-2243	3	MeasuredProperty	499	511	T2-3	heating rate	{"HasQuantity": "T1-3"}
+S1359645413009816-2243	3	MeasuredEntity	296	314	T3-3	microscopy samples	{"HasProperty": "T2-3"}
+S1359645413009816-2243	3	Qualifier	409	417	T4-3	annealed	{"Qualifies": "T3-3"}
+S1359645413009816-2243	4	Quantity	586	600	T1-4	about 30 K/min	{"mods": ["IsApproximate"], "unit": "K/min"}
+S1359645413009816-2243	4	MeasuredProperty	536	582	T2-4	rapid cooling to ambient temperature at a rate	{"HasQuantity": "T1-4"}
+S1359645413009816-2243	4	MeasuredEntity	296	314	T3-4	microscopy samples	{"HasProperty": "T2-4"}
+S1359645413009816-2243	4	Qualifier	409	417	T5-4	annealed	{"Qualifies": "T3-4"}

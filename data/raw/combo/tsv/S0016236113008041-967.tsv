@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-967	1	Quantity	40	62	T11-1	4.5 kg, 6 kg and 13 kg	{"mods": ["IsList"], "unit": "kg"}
+S0016236113008041-967	1	MeasuredEntity	63	70	T41-1	sorbent	{"HasQuantity": "T11-1"}

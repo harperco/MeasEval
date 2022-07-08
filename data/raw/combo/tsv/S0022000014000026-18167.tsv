@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022000014000026-18167	1	Quantity	1274	1275	T11-1	7	{"mods": ["IsCount"]}
+S0022000014000026-18167	1	MeasuredEntity	1284	1301	T41-1	wires per channel	{"HasQuantity": "T11-1"}
+S0022000014000026-18167	2	Quantity	1277	1282	T22-2	1-bit	{"unit": "bit"}
+S0022000014000026-18167	2	MeasuredEntity	1284	1289	T32-2	wires	{"HasQuantity": "T22-2"}
+S0022000014000026-18167	3	Quantity	5350	5353	T63-3	10%	{"unit": "%"}
+S0022000014000026-18167	3	MeasuredProperty	5332	5343	T53-3	probability	{"HasQuantity": "T63-3"}
+S0022000014000026-18167	3	MeasuredEntity	5360	5364	T73-3	node	{"HasProperty": "T53-3"}
+S0022000014000026-18167	3	Qualifier	5365	5377	T83-3	being faulty	{"Qualifies": "T53-3"}

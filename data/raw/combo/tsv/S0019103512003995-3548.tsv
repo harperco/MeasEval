@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-3548	1	Quantity	651	657	T41-1	1 μbar	{"unit": "μbar"}
+S0019103512003995-3548	1	MeasuredProperty	639	647	T141-1	pressure	{"HasQuantity": "T41-1"}
+S0019103512003995-3548	1	MeasuredEntity	624	637	T51-1	lower boundar	{"HasProperty": "T141-1"}
+S0019103512003995-3548	2	Quantity	851	863	T12-2	about 8250 K	{"mods": ["IsMean", "IsApproximate"], "unit": "K"}
+S0019103512003995-3548	2	MeasuredProperty	836	847	T62-2	temperature	{"HasQuantity": "T12-2"}
+S0019103512003995-3548	2	MeasuredEntity	871	893	T72-2	thermosphere below 3Rp	{"HasProperty": "T62-2"}
+S0019103512003995-3548	2	Qualifier	831	835	T102-2	mean	{"Qualifies": "T12-2"}
+S0019103512003995-3548	3	Quantity	1008	1028	T33-3	approximately 6000 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512003995-3548	3	MeasuredProperty	992	1003	T113-3	temperature	{"HasQuantity": "T33-3"}
+S0019103512003995-3548	3	MeasuredEntity	871	893	T73-3	thermosphere below 3Rp	{"HasProperty": "T113-3"}
+S0019103512003995-3548	3	Qualifier	961	966	T83-3	upper	{"Qualifies": "T113-3"}
+S0019103512003995-3548	4	Quantity	1033	1041	T24-4	11,000 K	{"mods": ["IsApproximate"], "unit": "K"}
+S0019103512003995-3548	4	MeasuredProperty	992	1003	T2-4	temperature	{"HasQuantity": "T24-4"}
+S0019103512003995-3548	4	MeasuredEntity	871	893	T3-4	thermosphere below 3Rp	{"HasProperty": "T2-4"}
+S0019103512003995-3548	4	Qualifier	971	976	T94-4	lower	{"Qualifies": "T2-4"}
+S0019103512003995-3548	4	Qualifier	1008	1021	T134-4	approximately	{"Qualifies": "T24-4"}

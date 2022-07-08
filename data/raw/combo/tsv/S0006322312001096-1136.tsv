@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1136	1	Quantity	73	77	T1-1	1991	
+S0006322312001096-1136	1	MeasuredEntity	49	69	T2-1	baseline examination	{"HasQuantity": "T1-1"}
+S0006322312001096-1136	2	Quantity	103	123	T1-2	1997, 2003, and 2008	{"mods": ["IsList"]}
+S0006322312001096-1136	2	MeasuredEntity	79	99	T2-2	follow-up screenings	{"HasQuantity": "T1-2"}
+S0006322312001096-1136	3	Quantity	205	222	T1-3	5318 participants	{"unit": "participants"}
+S0006322312001096-1136	3	MeasuredEntity	25	43	T3-3	Whitehall II study	{"HasQuantity": "T1-3"}
+S0006322312001096-1136	4	Quantity	233	243	T21-4	54.8 years	{"mods": ["IsMean"], "unit": "years"}
+S0006322312001096-1136	4	MeasuredProperty	224	232	T31-4	mean age	{"HasQuantity": "T21-4"}
+S0006322312001096-1136	4	MeasuredEntity	205	222	T41-4	5318 participants	{"HasProperty": "T31-4"}
+S0006322312001096-1136	5	Quantity	245	248	T12-5	31%	{"unit": "%"}
+S0006322312001096-1136	5	MeasuredProperty	249	254	T52-5	women	{"HasQuantity": "T12-5"}
+S0006322312001096-1136	5	MeasuredEntity	205	222	T42-5	5318 participants	{"HasProperty": "T52-5"}
+S0006322312001096-1136	6	Quantity	576	579	T1-6	≥16	{"mods": ["IsRange"]}
+S0006322312001096-1136	6	MeasuredProperty	570	575	T2-6	score	{"HasQuantity": "T1-6"}
+S0006322312001096-1136	6	MeasuredEntity	520	569	T3-6	Center for Epidemiologic Studies Depression Scale	{"HasProperty": "T2-6"}

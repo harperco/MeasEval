@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1405	1	Quantity	626	628	T41-1	20	{"mods": ["IsCount"]}
+S0012821X12004384-1405	1	MeasuredEntity	629	638	T11-1	specimens	{"HasQuantity": "T41-1"}
+S0012821X12004384-1405	2	Quantity	775	784	T22-2	0% to 80%	{"mods": ["IsRange"], "unit": "%"}
+S0012821X12004384-1405	2	MeasuredProperty	726	760	T62-2	%low salinity dinoflagellate cysts	{"HasQuantity": "T22-2"}
+S0012821X12004384-1405	2	MeasuredEntity	602	609	T52-2	Samples	{"HasProperty": "T62-2"}
+S0012821X12004384-1405	2	Qualifier	610	657	T32-2	with fewer than 20 specimens were also excluded	{"Qualifies": "T52-2"}

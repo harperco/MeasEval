@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5227	1	Quantity	44	55	T1-1	up to 700 K	{"mods": ["IsRange"], "unit": "K"}
+S0032063313003218-5227	1	MeasuredProperty	29	40	T3-1	temperature	{"HasQuantity": "T1-1"}
+S0032063313003218-5227	1	MeasuredEntity	4	28	T2-1	Jovian upper atmospheric	{"HasProperty": "T3-1"}
+S0032063313003218-5227	1	Qualifier	56	105	T4-1	higher than that predicted by solar heating alone	{"Qualifies": "T1-1"}
+S0032063313003218-5227	2	Quantity	244	257	T1-2	over 40 years	{"mods": ["IsRange"], "unit": "years"}
+S0032063313003218-5227	2	MeasuredProperty	221	228	T4-2	puzzled	{"HasQuantity": "T1-2"}
+S0032063313003218-5227	2	MeasuredEntity	229	239	T3-2	scientists	{"HasProperty": "T4-2"}
+S0032063313003218-5227	2	Qualifier	162	216	T5-2	‘energy crisis’ at Jupiter and the other giant planets	{"Qualifies": "T4-2"}

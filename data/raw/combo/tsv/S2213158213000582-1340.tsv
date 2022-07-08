@@ -1,0 +1,35 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1340	1	Quantity	28	35	T1-1	5–55 Hz	{"unit": "Hz"}
+S2213158213000582-1340	1	MeasuredEntity	36	51	T3-1	bandpass filter	{"HasQuantity": "T1-1"}
+S2213158213000582-1340	2	Quantity	99	108	T1-2	30–130 ms	{"mods": ["IsRange"], "unit": "ms"}
+S2213158213000582-1340	2	MeasuredProperty	81	98	T3-2	examined activity	{"HasQuantity": "T1-2"}
+S2213158213000582-1340	2	MeasuredEntity	65	80	T2-2	VESTAL analyses	{"HasProperty": "T3-2"}
+S2213158213000582-1340	2	Qualifier	109	122	T5-2	post-stimulus	{"Qualifies": "T1-2"}
+S2213158213000582-1340	3	Quantity	298	304	T1-3	95.81%	{"mods": ["IsMean"], "unit": "%"}
+S2213158213000582-1340	3	MeasuredProperty	225	259	T2-3	average percent variance explained	{"HasQuantity": "T1-3"}
+S2213158213000582-1340	3	MeasuredEntity	264	293	T3-3	gradiometer data using VESTAL	{"HasProperty": "T2-3"}
+S2213158213000582-1340	3	Qualifier	309	311	T4-3	HC	{"Qualifies": "T2-3"}
+S2213158213000582-1340	4	Quantity	316	322	T1-4	94.38%	{"unit": "%"}
+S2213158213000582-1340	4	MeasuredProperty	225	259	T2-4	average percent variance explained	{"HasQuantity": "T1-4"}
+S2213158213000582-1340	4	MeasuredEntity	264	293	T5-4	gradiometer data using VESTAL	{"HasProperty": "T2-4"}
+S2213158213000582-1340	4	Qualifier	327	329	T4-4	SZ	{"Qualifies": "T2-4"}
+S2213158213000582-1340	5	Quantity	417	423	T1-5	96.24%	{"mods": ["IsMean"], "unit": "%"}
+S2213158213000582-1340	5	MeasuredProperty	335	369	T2-5	average percent variance explained	{"HasQuantity": "T1-5"}
+S2213158213000582-1340	5	MeasuredEntity	374	404	T3-5	magnetometer data using VESTAL	{"HasProperty": "T2-5"}
+S2213158213000582-1340	5	Qualifier	428	430	T5-5	HC	{"Qualifies": "T2-5"}
+S2213158213000582-1340	6	Quantity	435	441	T1-6	93.17%	{"mods": ["IsMean"], "unit": "%"}
+S2213158213000582-1340	6	MeasuredProperty	335	369	T2-6	average percent variance explained	{"HasQuantity": "T1-6"}
+S2213158213000582-1340	6	MeasuredEntity	374	404	T3-6	magnetometer data using VESTAL	{"HasProperty": "T2-6"}
+S2213158213000582-1340	6	Qualifier	446	448	T5-6	SZ	{"Qualifies": "T2-6"}
+S2213158213000582-1340	7	Quantity	542	546	T1-7	1.16	
+S2213158213000582-1340	7	MeasuredProperty	534	539	T3-7	t(39)	{"HasQuantity": "T1-7"}
+S2213158213000582-1340	7	MeasuredEntity	516	532	T2-7	gradiometer data	{"HasProperty": "T3-7"}
+S2213158213000582-1340	8	Quantity	552	556	T1-8	0.25	
+S2213158213000582-1340	8	MeasuredProperty	548	549	T3-8	p	{"HasQuantity": "T1-8"}
+S2213158213000582-1340	8	MeasuredEntity	516	532	T2-8	gradiometer data	{"HasProperty": "T3-8"}
+S2213158213000582-1340	9	Quantity	588	592	T1-9	1.31	
+S2213158213000582-1340	9	MeasuredProperty	580	585	T3-9	t(39)	{"HasQuantity": "T1-9"}
+S2213158213000582-1340	9	MeasuredEntity	561	578	T2-9	magnetometer data	{"HasProperty": "T3-9"}
+S2213158213000582-1340	10	Quantity	599	602	T1-10	.20	
+S2213158213000582-1340	10	MeasuredProperty	594	595	T2-10	p	{"HasQuantity": "T1-10"}
+S2213158213000582-1340	10	MeasuredEntity	561	578	T3-10	magnetometer data	{"HasProperty": "T2-10"}

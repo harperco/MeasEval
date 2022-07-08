@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-841	1	Quantity	51	58	T1-1	6 weeks	{"unit": "weeks"}
+S2211124713006475-841	1	MeasuredProperty	59	80	T3-1	after transplantation	{"HasQuantity": "T1-1"}
+S2211124713006475-841	1	MeasuredEntity	4	20	T2-1	GH plasma levels	{"HasProperty": "T3-1"}

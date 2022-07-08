@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6138	1	Quantity	202	229	T1-1	from 0.25 Mbps to 0.01 Mbps	{"mods": ["IsRange"], "unit": "Mbps"}
+S1389128612002496-6138	1	MeasuredProperty	191	200	T4-1	decreases	{"HasQuantity": "T1-1"}
+S1389128612002496-6138	1	MeasuredEntity	188	190	T3-1	Rb	{"HasProperty": "T4-1"}

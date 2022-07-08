@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0301010413004096-693	1	Quantity	575	579	T1-1	77 K	{"unit": "K"}
+S0301010413004096-693	1	MeasuredProperty	548	560	T3-1	temperatures	{"HasQuantity": "T1-1"}
+S0301010413004096-693	1	MeasuredEntity	538	547	T4-1	cryogenic	{"HasProperty": "T3-1"}
+S0301010413004096-693	2	Quantity	602	609	T1-2	∼16 wt%	{"mods": ["IsApproximate"], "unit": "wt%"}
+S0301010413004096-693	2	MeasuredProperty	610	631	T3-2	total uptake capacity	{"HasQuantity": "T1-2"}
+S0301010413004096-693	2	MeasuredEntity	502	504	T4-2	H2	{"HasProperty": "T3-2"}
+S0301010413004096-693	2	Qualifier	431	469	T5-2	Several members within this MOF family	{"Qualifies": "T3-2"}
+S0301010413004096-693	3	Quantity	1174	1184	T1-3	below 10 K	{"mods": ["IsRange"], "unit": "K"}
+S0301010413004096-693	3	MeasuredEntity	1130	1170	T3-3	In situ neutron powder diffraction (NPD)	{"HasQuantity": "T1-3"}

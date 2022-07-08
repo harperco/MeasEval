@@ -1,0 +1,18 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813001955-812	1	Quantity	194	206	T1-1	41.73 mg/mL.	{"unit": "mg/mL"}
+S0927024813001955-812	1	MeasuredProperty	0	112	T3-1	P3HT (poly(3-hexylthiophene-2,5-diyl), Rieke) and PCBM ([6,6]-phenyl-C61-buyric acid methyl ester, Sigma Aldrich	{"HasQuantity": "T1-1"}
+S0927024813001955-812	1	MeasuredEntity	151	164	T2-1	chlorobenzene	{"HasProperty": "T3-1"}
+S0927024813001955-812	2	Quantity	233	236	T1-2	2 h	{"unit": "h"}
+S0927024813001955-812	2	MeasuredProperty	221	228	T4-2	stirred	{"HasQuantity": "T1-2"}
+S0927024813001955-812	2	MeasuredEntity	207	216	T3-2	Each vial	{"HasProperty": "T4-2"}
+S0927024813001955-812	2	Qualifier	258	269	T5-2	in the dark	{"Qualifies": "T4-2"}
+S0927024813001955-812	3	Quantity	240	247	T1-3	800 rpm	{"unit": "rpm"}
+S0927024813001955-812	3	MeasuredProperty	221	228	T4-3	stirred	{"HasQuantity": "T1-3"}
+S0927024813001955-812	3	MeasuredEntity	207	216	T3-3	Each vial	{"HasProperty": "T4-3"}
+S0927024813001955-812	3	Qualifier	258	269	T5-3	in the dark	{"Qualifies": "T4-3"}
+S0927024813001955-812	4	Quantity	252	257	T1-4	60 °C	{"unit": "°C"}
+S0927024813001955-812	4	MeasuredProperty	221	228	T3-4	stirred	{"HasQuantity": "T1-4"}
+S0927024813001955-812	4	MeasuredEntity	207	216	T2-4	Each vial	{"HasProperty": "T3-4"}
+S0927024813001955-812	4	Qualifier	258	269	T5-4	in the dark	{"Qualifies": "T3-4"}
+S0927024813001955-812	5	Quantity	275	278	T1-5	two	{"mods": ["IsCount"]}
+S0927024813001955-812	5	MeasuredEntity	279	288	T2-5	solutions	{"HasQuantity": "T1-5"}

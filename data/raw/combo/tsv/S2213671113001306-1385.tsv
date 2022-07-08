@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1385	1	Quantity	310	323	T1-1	beyond 1 week	{"mods": ["IsRange"], "unit": "week"}
+S2213671113001306-1385	1	MeasuredEntity	293	308	T2-1	follow-up exams	{"HasQuantity": "T1-1"}
+S2213671113001306-1385	1	Qualifier	324	337	T4-1	postoperation	{"Qualifies": "T1-1"}

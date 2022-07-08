@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1849	1	Quantity	34	37	T31-1	350	{"mods": ["IsCount"]}
+S0019103512002801-1849	1	MeasuredEntity	38	47	T41-1	electrons	{"HasQuantity": "T31-1"}
+S0019103512002801-1849	2	Quantity	127	129	T12-2	1%	{"unit": "%"}
+S0019103512002801-1849	2	MeasuredProperty	130	142	T22-2	level of Erk	{"HasQuantity": "T12-2"}
+S0019103512002801-1849	2	MeasuredEntity	110	119	T52-2	electrons	{"HasProperty": "T22-2"}
+S0019103512002801-1849	3	Quantity	144	149	T63-3	1 keV	{"unit": "keV"}
+S0019103512002801-1849	3	MeasuredProperty	130	142	T23-3	level of Erk	{"HasQuantity": "T63-3"}
+S0019103512002801-1849	3	MeasuredEntity	110	119	T53-3	electrons	{"HasProperty": "T23-3"}

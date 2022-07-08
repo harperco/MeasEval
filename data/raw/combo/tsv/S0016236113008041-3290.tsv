@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3290	1	Quantity	139	145	T11-1	<1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3290	1	MeasuredProperty	100	114	T71-1	Concentrations	{"HasQuantity": "T11-1"}
+S0016236113008041-3290	1	MeasuredEntity	18	39	T81-1	gaseous major element	{"HasProperty": "T71-1"}
+S0016236113008041-3290	2	Quantity	203	207	T52-2	0.63	{"unit": "ppm"}
+S0016236113008041-3290	2	MeasuredProperty	185	199	T182-2	concentrations	{"HasQuantity": "T52-2"}
+S0016236113008041-3290	2	MeasuredEntity	152	154	T92-2	Fe	{"HasProperty": "T182-2"}
+S0016236113008041-3290	3	Quantity	212	220	T23-3	0.51 ppm	{"unit": "ppm"}
+S0016236113008041-3290	3	MeasuredProperty	185	199	T103-3	concentrations	{"HasQuantity": "T23-3"}
+S0016236113008041-3290	3	MeasuredEntity	159	161	T193-3	Si	{"HasProperty": "T103-3"}
+S0016236113008041-3290	4	Quantity	257	265	T34-4	1000 ppm	{"unit": "ppm"}
+S0016236113008041-3290	4	MeasuredEntity	266	269	T114-4	SO2	{"HasQuantity": "T34-4"}
+S0016236113008041-3290	5	Quantity	424	438	T45-5	0 and 2000 ppm	{"mods": ["IsList"], "unit": "ppm"}
+S0016236113008041-3290	5	MeasuredEntity	439	442	T65-5	SO2	{"HasQuantity": "T45-5"}

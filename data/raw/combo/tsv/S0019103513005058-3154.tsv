@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-3154	1	Quantity	175	189	T1-1	1.3 ± 0.5 wt.%	{"mods": ["HasTolerance"], "unit": "wt.%"}
+S0019103513005058-3154	1	MeasuredEntity	144	159	T3-1	Soluble sulfate	{"HasQuantity": "T1-1"}
+S0019103513005058-3154	2	Quantity	391	400	T1-2	∼0.5 wt.%	{"mods": ["IsApproximate"], "unit": "wt.%"}
+S0019103513005058-3154	2	MeasuredProperty	327	346	T4-2	perchlorate (ClO4-)	{"HasQuantity": "T1-2"}
+S0019103513005058-3154	2	MeasuredEntity	383	387	T3-2	soil	{"HasProperty": "T4-2"}
+S0019103513005058-3154	2	Qualifier	353	361	T5-2	inferred	{"Qualifies": "T1-2"}
+S0019103513005058-3154	3	Quantity	820	830	T1-3	1000 times	{"unit": "times"}
+S0019103513005058-3154	3	MeasuredProperty	787	807	T4-3	sensitive to nitrate	{"HasQuantity": "T1-3"}
+S0019103513005058-3154	3	MeasuredEntity	724	755	T2-3	perchlorate-sensitive electrode	{"HasProperty": "T4-3"}
+S0019103513005058-3154	3	Qualifier	831	860	T3-3	more sensitive to perchlorate	{"Qualifies": "T1-3"}
+S0019103513005058-3154	4	Quantity	1641	1646	T1-4	⩽1.6%	{"mods": ["IsRange"], "unit": "%"}
+S0019103513005058-3154	4	MeasuredProperty	1647	1658	T2-4	perchlorate	{"HasQuantity": "T1-4"}
+S0019103513005058-3154	4	MeasuredEntity	1667	1702	T3-4	Viking 1 and Viking 2 landing sites	{"HasProperty": "T2-4"}
+S0019103513005058-3154	5	Quantity	1913	1927	T1-5	<1 ppm by mass	{"mods": ["IsRange"], "unit": "ppm by mass"}
+S0019103513005058-3154	5	MeasuredProperty	1808	1826	T2-5	Native perchlorate	{"HasQuantity": "T1-5"}
+S0019103513005058-3154	5	MeasuredEntity	1866	1893	T3-5	martian meteorite EETA79001	{"HasProperty": "T2-5"}

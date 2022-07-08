@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-996	1	Quantity	289	292	T1-1	0.1	
+S0019103511004994-996	1	MeasuredEntity	275	286	T2-1	parameter a	{"HasQuantity": "T1-1"}
+S0019103511004994-996	2	Quantity	328	331	T1-2	10%	{"unit": "%"}
+S0019103511004994-996	2	MeasuredProperty	300	324	T4-2	assumed surface velocity	{"HasQuantity": "T1-2"}
+S0019103511004994-996	2	MeasuredEntity	348	365	T3-2	upstream velocity	{"HasProperty": "T4-2"}

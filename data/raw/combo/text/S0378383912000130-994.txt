@@ -1,0 +1,1 @@
+Definition of flow quantities in the confined region of the beach of cell i during uprush (left panel) and during backwash (right panel). The bold dashed line marks the boundary between vertical filtration and horizontal groundwater flow within the confined region of the beach.

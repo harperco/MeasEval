@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-1205	1	Quantity	663	670	T1-1	4 weeks	{"unit": "weeks"}
+S2211124713006475-1205	1	MeasuredEntity	641	662	T2-1	Histological analysis	{"HasQuantity": "T1-1"}
+S2211124713006475-1205	1	Qualifier	671	692	T4-1	after transplantation	{"Qualifies": "T1-1"}
+S2211124713006475-1205	2	Quantity	906	907	T1-2	6	
+S2211124713006475-1205	2	MeasuredProperty	902	903	T2-2	n	{"HasQuantity": "T1-2"}
+S2211124713006475-1205	2	MeasuredEntity	840	900	T3-2	GFP+ fibers showed extensive projections into the host brain	{"HasProperty": "T2-2"}

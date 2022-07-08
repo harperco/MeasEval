@@ -1,0 +1,1 @@
+Schematic fabrication process for the dual-layer carbon film. The processes were carried out in a silica tube furnace at 1000 °C. The surface of SiC was converted into CDC by etching in a chlorine-containing gas mixture. The shape of the sample stayed unchanged. The CVD layer was prepared by pyrolyzing CCl4 on top surface of CDC layer and increased the sample thickness.

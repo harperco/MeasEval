@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-6078	1	Quantity	117	121	T1-1	3 h.	{"unit": "h"}
+S0032063313003218-6078	1	MeasuredProperty	96	101	T4-1	lasts	{"HasQuantity": "T1-1"}
+S0032063313003218-6078	1	MeasuredEntity	54	89	T2-1	magnetospheric compression scenario	{"HasProperty": "T4-1"}

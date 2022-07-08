@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003995-2737	1	Quantity	110	114	T1-1	5–10	{"mods": ["IsRange"]}
+S0019103512003995-2737	1	MeasuredProperty	115	123	T2-1	stronger	{"HasQuantity": "T1-1"}
+S0019103512003995-2737	1	MeasuredEntity	29	91	T3-1	stellar XUV flux, or the corresponding alternative heat source	{"HasProperty": "T2-1"}
+S0019103512003995-2737	1	Qualifier	124	151	T4-1	than the average solar flux	{"Qualifies": "T2-1"}
+S0019103512003995-2737	2	Quantity	182	205	T1-2	between 8000 and 9000 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003995-2737	2	MeasuredEntity	165	181	T3-2	mean temperature	{"HasQuantity": "T1-2"}
+S0019103512003995-2737	3	Quantity	812	827	T1-3	109–1010 kg s−1	{"mods": ["IsRange"], "unit": "kg s−1"}
+S0019103512003995-2737	3	MeasuredProperty	798	808	T3-3	loss rates	{"HasQuantity": "T1-3"}
+S0019103512003995-2737	3	MeasuredEntity	793	797	T4-3	mass	{"HasProperty": "T3-3"}
+S0019103512003995-2737	4	Quantity	848	855	T1-4	10–100%	{"mods": ["IsRange"], "unit": "%"}
+S0019103512003995-2737	4	MeasuredProperty	840	844	T4-4	loss	{"HasQuantity": "T1-4"}
+S0019103512003995-2737	4	MeasuredEntity	863	876	T3-4	planet’s mass	{"HasProperty": "T4-4"}
+S0019103512003995-2737	4	Qualifier	877	918	T5-4	over the estimated lifetime of the system	{"Qualifies": "T4-4"}
+S0019103512003995-2737	5	Quantity	973	992	T1-5	less than ∼10 times	{"mods": ["IsApproximate", "IsRange"], "unit": "times"}
+S0019103512003995-2737	5	MeasuredProperty	956	969	T4-5	energy inputs	{"HasQuantity": "T1-5"}
+S0019103512003995-2737	5	MeasuredEntity	997	1023	T3-5	solar average on HD209458b	{"HasProperty": "T4-5"}

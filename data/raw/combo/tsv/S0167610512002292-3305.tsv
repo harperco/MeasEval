@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167610512002292-3305	1	Quantity	17	22	T1-1	three	{"mods": ["IsCount"]}
+S0167610512002292-3305	1	MeasuredEntity	23	44	T2-1	different simulations	{"HasQuantity": "T1-1"}
+S0167610512002292-3305	2	Quantity	75	81	T1-2	1.0 kg	{"unit": "kg"}
+S0167610512002292-3305	2	MeasuredEntity	82	87	T3-2	plate	{"HasQuantity": "T1-2"}
+S0167610512002292-3305	3	Quantity	105	112	T1-3	6.35 kg	{"unit": "kg"}
+S0167610512002292-3305	3	MeasuredEntity	113	118	T2-3	plate	{"HasQuantity": "T1-3"}
+S0167610512002292-3305	4	Quantity	172	177	T1-4	12 kg	{"unit": "kg"}
+S0167610512002292-3305	4	MeasuredEntity	178	183	T2-4	plate	{"HasQuantity": "T1-4"}
+S0167610512002292-3305	5	Quantity	358	364	T1-5	35 m/s	{"unit": "m/s"}
+S0167610512002292-3305	5	MeasuredProperty	344	354	T2-5	wind speed	{"HasQuantity": "T1-5"}
+S0167610512002292-3305	5	MeasuredEntity	309	325	T4-5	inflow condition	{"HasProperty": "T2-5"}
+S0167610512002292-3305	6	Quantity	366	374	T1-6	126 km/h	{"unit": "km/h"}
+S0167610512002292-3305	6	MeasuredProperty	344	354	T3-6	wind speed	{"HasQuantity": "T1-6"}
+S0167610512002292-3305	6	MeasuredEntity	309	325	T4-6	inflow condition	{"HasProperty": "T3-6"}

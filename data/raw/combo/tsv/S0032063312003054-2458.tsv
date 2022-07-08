@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312003054-2458	1	Quantity	190	195	T1-1	43.0%	{"unit": "%"}
+S0032063312003054-2458	1	MeasuredProperty	135	186	T2-1	ASPERA-3 observes electron precipitation signatures	{"HasQuantity": "T1-1"}
+S0032063312003054-2458	1	MeasuredEntity	199	217	T3-1	MEX orbits at Mars	{"HasProperty": "T2-1"}
+S0032063312003054-2458	2	Quantity	303	307	T1-2	∼70%	{"mods": ["IsApproximate"], "unit": "%"}
+S0032063312003054-2458	2	MeasuredProperty	223	294	T2-2	signatures of unaccelerated electron precipitation from electron spikes	{"HasQuantity": "T1-2"}
+S0032063312003054-2458	2	MeasuredEntity	153	186	T3-2	electron precipitation signatures	{"HasProperty": "T2-2"}
+S0032063312003054-2458	3	Quantity	336	341	T1-3	29.8%	{"unit": "%"}
+S0032063312003054-2458	3	MeasuredProperty	223	294	T2-3	signatures of unaccelerated electron precipitation from electron spikes	{"HasQuantity": "T1-3"}
+S0032063312003054-2458	3	MeasuredEntity	345	355	T3-3	MEX orbits	{"HasProperty": "T2-3"}
+S0032063312003054-2458	4	Quantity	572	575	T1-4	9.8	{"unit": "%"}
+S0032063312003054-2458	4	MeasuredProperty	458	528	T2-4	signatures of accelerated electron precipitation from peaked electrons	{"HasQuantity": "T1-4"}
+S0032063312003054-2458	4	MeasuredEntity	588	598	T3-4	MEX orbits	{"HasProperty": "T2-4"}
+S0032063312003054-2458	5	Quantity	580	584	T1-5	3.4%	{"unit": "%"}
+S0032063312003054-2458	5	MeasuredProperty	458	506	T3-5	signatures of accelerated electron precipitation	{"HasQuantity": "T1-5"}
+S0032063312003054-2458	5	MeasuredEntity	588	598	T5-5	MEX orbits	{"HasProperty": "T3-5"}
+S0032063312003054-2458	5	Qualifier	533	555	T4-5	“inverted-V” electrons	{"Qualifies": "T3-5"}

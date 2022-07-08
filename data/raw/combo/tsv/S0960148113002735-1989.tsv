@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113002735-1989	1	Quantity	68	74	T1-1	1800 s	{"unit": "s"}
+S0960148113002735-1989	1	MeasuredProperty	63	67	T3-1	time	{"HasQuantity": "T1-1"}
+S0960148113002735-1989	1	MeasuredEntity	44	59	T4-1	mutual topology	{"HasProperty": "T3-1"}
+S0960148113002735-1989	2	Quantity	365	368	T1-2	57%	{"unit": "%"}
+S0960148113002735-1989	2	MeasuredProperty	361	363	T3-2	CP	{"HasQuantity": "T1-2"}
+S0960148113002735-1989	2	MeasuredEntity	376	393	T5-2	separate topology	{"HasProperty": "T3-2"}
+S0960148113002735-1989	2	Qualifier	353	360	T4-2	reduced	{"Qualifies": "T3-2"}
+S0960148113002735-1989	3	Quantity	397	403	T1-3	1800 s	{"unit": "s"}
+S0960148113002735-1989	3	MeasuredEntity	376	393	T3-3	separate topology	{"HasQuantity": "T1-3"}
+S0960148113002735-1989	4	Quantity	495	507	T1-4	until 2700 s	{"mods": ["IsRange"], "unit": "s"}
+S0960148113002735-1989	4	MeasuredProperty	466	479	T4-4	extract power	{"HasQuantity": "T1-4"}
+S0960148113002735-1989	4	MeasuredEntity	437	454	T3-4	separate topology	{"HasProperty": "T4-4"}
+S0960148113002735-1989	4	Qualifier	480	494	T5-4	from turbine 4	{"Qualifies": "T4-4"}

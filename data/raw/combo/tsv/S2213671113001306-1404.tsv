@@ -1,0 +1,19 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-1404	1	Quantity	47	54	T1-1	4 weeks	{"unit": "weeks"}
+S2213671113001306-1404	1	MeasuredProperty	13	43	T5-1	sacrificed and perfusion-fixed	{"HasQuantity": "T1-1"}
+S2213671113001306-1404	1	MeasuredEntity	0	7	T4-1	Animals	{"HasProperty": "T5-1"}
+S2213671113001306-1404	1	Qualifier	55	74	T3-1	posttransplantation	{"Qualifies": "T1-1"}
+S2213671113001306-1404	2	Quantity	602	609	T1-2	1 month	{"unit": "month"}
+S2213671113001306-1404	2	MeasuredProperty	576	584	T4-2	survival	{"HasQuantity": "T1-2"}
+S2213671113001306-1404	2	MeasuredEntity	588	597	T3-2	human RPE	{"HasProperty": "T4-2"}
+S2213671113001306-1404	3	Quantity	1080	1097	T1-3	approximately 95%	{"mods": ["IsApproximate"], "unit": "%"}
+S2213671113001306-1404	3	MeasuredProperty	1065	1073	T4-3	survival	{"HasQuantity": "T1-3"}
+S2213671113001306-1404	3	MeasuredEntity	1050	1064	T3-3	human RPE cell	{"HasProperty": "T4-3"}
+S2213671113001306-1404	3	Qualifier	1098	1111	T5-3	after 1 month	{"Qualifies": "T4-3"}
+S2213671113001306-1404	4	Quantity	1098	1111	T1-4	after 1 month	{"mods": ["IsRange"], "unit": "month"}
+S2213671113001306-1404	4	MeasuredProperty	1065	1073	T4-4	survival	{"HasQuantity": "T1-4"}
+S2213671113001306-1404	4	MeasuredEntity	1050	1064	T3-4	human RPE cell	{"HasProperty": "T4-4"}
+S2213671113001306-1404	5	Quantity	1560	1572	T1-5	over 4 weeks	{"mods": ["IsRange"], "unit": "weeks"}
+S2213671113001306-1404	5	MeasuredProperty	1472	1480	T4-5	survival	{"HasQuantity": "T1-5"}
+S2213671113001306-1404	5	MeasuredEntity	1484	1503	T3-5	polarized human RPE	{"HasProperty": "T4-5"}
+S2213671113001306-1404	5	Qualifier	1504	1559	T5-5	from fetal and adult donors xenografted into rabbit SRS	{"Qualifies": "T3-5"}

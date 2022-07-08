@@ -1,0 +1,24 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1284	1	Quantity	146	149	T1-1	225	{"mods": ["IsCount"]}
+S0012821X12004384-1284	1	MeasuredEntity	150	157	T2-1	samples	{"HasQuantity": "T1-1"}
+S0012821X12004384-1284	2	Quantity	324	329	T1-2	1.167	
+S0012821X12004384-1284	3	Quantity	397	402	T1-3	±<0.1	{"mods": ["IsRangeHasTolerance"]}
+S0012821X12004384-1284	3	MeasuredProperty	384	393	T2-3	precision	{"HasQuantity": "T1-3"}
+S0012821X12004384-1284	3	MeasuredEntity	331	349	T3-3	Replicate analysis	{"HasProperty": "T2-3"}
+S0012821X12004384-1284	4	Quantity	447	450	T1-4	289	{"mods": ["IsCount"]}
+S0012821X12004384-1284	4	MeasuredEntity	451	468	T2-4	bulk rock samples	{"HasQuantity": "T1-4"}
+S0012821X12004384-1284	5	Quantity	748	752	T11-5	24 h	{"unit": "h"}
+S0012821X12004384-1284	5	MeasuredProperty	730	747	T51-5	were refluxed for	{"HasQuantity": "T11-5"}
+S0012821X12004384-1284	5	MeasuredEntity	722	729	T41-5	samples	{"HasProperty": "T51-5"}
+S0012821X12004384-1284	5	Qualifier	753	809	T61-5	in an azeotropic mixture of dichloromethane and methanol	{"Qualifies": "T51-5"}
+S0012821X12004384-1284	6	Quantity	811	820	T1-6	93:7, v/v	{"unit": "v/v"}
+S0012821X12004384-1284	6	MeasuredEntity	759	809	T3-6	azeotropic mixture of dichloromethane and methanol	{"HasQuantity": "T1-6"}
+S0012821X12004384-1284	7	Quantity	1128	1130	T22-7	5%	{"unit": "%"}
+S0012821X12004384-1284	7	MeasuredEntity	1131	1134	T72-7	HCl	{"HasQuantity": "T22-7"}
+S0012821X12004384-1284	8	Quantity	1252	1259	T33-8	>250 μm	{"mods": ["IsRange"], "unit": "μm"}
+S0012821X12004384-1284	8	MeasuredProperty	1260	1274	T83-8	size fractions	{"HasQuantity": "T33-8"}
+S0012821X12004384-1284	9	Quantity	1328	1330	T2-9	35	{"mods": ["IsCount"]}
+S0012821X12004384-1284	9	MeasuredEntity	1331	1338	T1-9	samples	{"HasQuantity": "T2-9"}
+S0012821X12004384-1284	10	Quantity	1711	1715	T114-10	0.4‰	{"unit": "‰"}
+S0012821X12004384-1284	10	MeasuredProperty	1658	1681	T94-10	mean standard deviation	{"HasQuantity": "T114-10"}
+S0012821X12004384-1284	10	MeasuredEntity	1689	1707	T104-10	replicate analyses	{"HasProperty": "T94-10"}

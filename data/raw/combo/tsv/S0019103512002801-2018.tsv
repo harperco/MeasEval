@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-2018	1	Quantity	495	498	T1-1	One	{"mods": ["IsCount"]}
+S0019103512002801-2018	1	MeasuredEntity	508	516	T2-1	features	{"HasQuantity": "T1-1"}
+S0019103512002801-2018	2	Quantity	1392	1404	T1-2	at least 10%	{"mods": ["IsRange"], "unit": "%"}
+S0019103512002801-2018	2	MeasuredProperty	1304	1350	T4-2	self-pick up process has been shown to lead to	{"HasQuantity": "T1-2"}
+S0019103512002801-2018	2	MeasuredEntity	1351	1390	T2-2	enhanced ULF wave activity in the lunar	{"HasProperty": "T4-2"}

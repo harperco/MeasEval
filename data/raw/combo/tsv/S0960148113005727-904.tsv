@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113005727-904	1	Quantity	268	282	T1-1	5–13% per year	{"mods": ["IsRange"], "unit": "% per year"}
+S0960148113005727-904	1	MeasuredProperty	214	226	T4-1	load factors	{"HasQuantity": "T1-1"}
+S0960148113005727-904	1	MeasuredEntity	230	250	T3-1	wind farms in the UK	{"HasProperty": "T4-1"}
+S0960148113005727-904	1	Qualifier	256	264	T5-1	declined	{"Qualifies": "T4-1"}

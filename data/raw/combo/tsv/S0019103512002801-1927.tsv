@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1927	1	Quantity	158	169	T21-1	0.1–0.2 s−1	{"mods": ["IsRange"], "unit": "s−1"}
+S0019103512002801-1927	1	MeasuredProperty	130	148	T41-1	linear growth rate	{"HasQuantity": "T21-1"}
+S0019103512002801-1927	1	MeasuredEntity	106	123	T31-1	flute instability	{"HasProperty": "T41-1"}
+S0019103512002801-1927	2	Quantity	212	218	T12-2	5–10 s	{"mods": ["IsRange"], "unit": "s"}
+S0019103512002801-1927	2	MeasuredProperty	197	208	T52-2	growth time	{"HasQuantity": "T12-2"}
+S0019103512002801-1927	2	MeasuredEntity	106	123	T32-2	flute instability	{"HasProperty": "T52-2"}
+S0019103512002801-1927	3	Quantity	388	393	T73-3	10RRh	{"unit": "RRh"}

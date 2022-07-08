@@ -1,0 +1,17 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3962	1	Quantity	55	61	T11-1	8250 K	{"mods": ["IsMean"], "unit": "K"}
+S0019103512004009-3962	1	MeasuredProperty	35	51	T21-1	mean temperature	{"HasQuantity": "T11-1"}
+S0019103512004009-3962	1	MeasuredEntity	69	94	T41-1	thermosphere of HD209458b	{"HasProperty": "T21-1"}
+S0019103512004009-3962	1	Qualifier	95	111	T51-1	with p0 = 1 μbar	{"Qualifies": "T21-1"}
+S0019103512004009-3962	2	Quantity	105	111	T62-2	1 μbar	{"unit": "μbar"}
+S0019103512004009-3962	2	MeasuredEntity	100	102	T32-2	p0	{"HasQuantity": "T62-2"}
+S0019103512004009-3962	3	Quantity	265	268	T73-3	0.5	
+S0019103512004009-3962	4	Quantity	316	326	T84-4	5–10 times	{"mods": ["IsRange"], "unit": "times"}
+S0019103512004009-3962	4	MeasuredProperty	291	299	T94-4	XUV flux	{"HasQuantity": "T84-4"}
+S0019103512004009-3962	4	MeasuredEntity	303	312	T104-4	HD209458b	{"HasProperty": "T94-4"}
+S0019103512004009-3962	4	Qualifier	253	268	T114-4	with ηnet = 0.5	{"Qualifies": "T94-4"}
+S0019103512004009-3962	4	Qualifier	327	367	T174-4	higher than the corresponding solar flux	{"Qualifies": "T84-4"}
+S0019103512004009-3962	5	Quantity	518	523	T125-5	twice	
+S0019103512004009-3962	5	MeasuredProperty	485	498	T135-5	rotation rate	{"HasQuantity": "T125-5"}
+S0019103512004009-3962	5	MeasuredEntity	502	510	T145-5	HD209458	{"HasProperty": "T135-5"}
+S0019103512004009-3962	5	Qualifier	524	563	T185-5	as fast as the rotation rate of the Sun	{"Qualifies": "T125-5"}

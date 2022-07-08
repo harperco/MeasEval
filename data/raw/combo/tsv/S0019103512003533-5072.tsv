@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5072	1	Quantity	102	119	T31-1	around 1300 m s−1	{"mods": ["IsApproximate"], "unit": "m s−1"}
+S0019103512003533-5072	1	MeasuredProperty	83	98	T21-1	peak velocities	{"HasQuantity": "T31-1"}
+S0019103512003533-5072	1	MeasuredEntity	41	79	T11-1	strong westward (sub-corotating) winds	{"HasProperty": "T21-1"}
+S0019103512003533-5072	1	Qualifier	120	137	T71-1	near 82° latitude	{"Qualifies": "T21-1"}
+S0019103512003533-5072	2	Quantity	125	128	T52-2	82°	{"unit": "°"}
+S0019103512003533-5072	2	MeasuredProperty	129	137	T62-2	latitude	{"HasQuantity": "T52-2"}
+S0019103512003533-5072	2	MeasuredEntity	378	384	T42-2	Saturn	{"HasProperty": "T62-2"}
+S0019103512003533-5072	3	Quantity	142	153	T83-3	∼1600 m s−1	{"mods": ["IsApproximate"], "unit": "m s−1"}
+S0019103512003533-5072	3	MeasuredProperty	83	98	T3-3	peak velocities	{"HasQuantity": "T83-3"}
+S0019103512003533-5072	3	MeasuredEntity	41	79	T2-3	strong westward (sub-corotating) winds	{"HasProperty": "T3-3"}
+S0019103512003533-5072	3	Qualifier	154	162	T103-3	near 78°	{"Qualifies": "T3-3"}
+S0019103512003533-5072	4	Quantity	159	162	T94-4	78°	{"unit": "°"}
+S0019103512003533-5072	4	MeasuredProperty	129	137	T64-4	latitude	{"HasQuantity": "T94-4"}
+S0019103512003533-5072	4	MeasuredEntity	378	384	T44-4	Saturn	{"HasProperty": "T64-4"}

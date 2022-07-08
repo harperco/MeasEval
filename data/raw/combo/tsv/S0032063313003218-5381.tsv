@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063313003218-5381	1	Quantity	402	439	T1-1	on the order of a few tens of minutes	{"mods": ["IsApproximate"], "unit": "minutes"}
+S0032063313003218-5381	1	MeasuredProperty	383	391	T4-1	responds	{"HasQuantity": "T1-1"}
+S0032063313003218-5381	1	MeasuredEntity	370	382	T3-1	thermosphere	{"HasProperty": "T4-1"}
+S0032063313003218-5381	1	Qualifier	269	275	T5-1	models	{"Qualifies": "T3-1"}
+S0032063313003218-5381	2	Quantity	526	548	T1-2	on the order of 2 days	{"mods": ["IsApproximate"], "unit": "days"}
+S0032063313003218-5381	2	MeasuredProperty	517	525	T3-2	responds	{"HasQuantity": "T1-2"}
+S0032063313003218-5381	2	MeasuredEntity	504	516	T2-2	thermosphere	{"HasProperty": "T3-2"}
+S0032063313003218-5381	2	Qualifier	269	275	T5-2	models	{"Qualifies": "T2-2"}

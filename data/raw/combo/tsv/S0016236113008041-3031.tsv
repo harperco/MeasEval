@@ -1,0 +1,48 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3031	1	Quantity	597	598	T151-1	2	{"mods": ["IsCount"]}
+S0016236113008041-3031	1	MeasuredEntity	599	614	T161-1	different coals	{"HasQuantity": "T151-1"}
+S0016236113008041-3031	2	Quantity	855	860	T172-2	eight	{"mods": ["IsCount"]}
+S0016236113008041-3031	2	MeasuredEntity	861	867	T182-2	cycles	{"HasQuantity": "T172-2"}
+S0016236113008041-3031	3	Quantity	868	886	T13-3	from ∼20 to 40 ppm	{"mods": ["IsApproximate", "IsRange"], "unit": "ppm"}
+S0016236113008041-3031	3	MeasuredProperty	848	849	T113-3	B	{"HasQuantity": "T13-3"}
+S0016236113008041-3031	3	MeasuredEntity	41	50	T403-3	limestone	{"HasProperty": "T113-3"}
+S0016236113008041-3031	3	Qualifier	850	867	T93-3	over eight cycles	{"Qualifies": "T113-3"}
+S0016236113008041-3031	3	Qualifier	836	844	T343-3	increase	{"Qualifies": "T13-3"}
+S0016236113008041-3031	3	Qualifier	808	821	T103-3	Lea Hall coal	{"Qualifies": "T403-3"}
+S0016236113008041-3031	4	Quantity	951	956	T354-4	first	{"mods": ["IsCount"]}
+S0016236113008041-3031	4	MeasuredEntity	957	962	T364-4	cycle	{"HasQuantity": "T354-4"}
+S0016236113008041-3031	5	Quantity	964	971	T25-5	∼15 ppm	{"mods": ["IsApproximate"], "unit": "ppm"}
+S0016236113008041-3031	5	MeasuredProperty	917	919	T135-5	Cu	{"HasQuantity": "T25-5"}
+S0016236113008041-3031	5	MeasuredEntity	921	928	T125-5	sorbent	{"HasProperty": "T135-5"}
+S0016236113008041-3031	5	Qualifier	973	1026	T375-5	remained the same over eight cycles for the two coals	{"Qualifies": "T25-5"}
+S0016236113008041-3031	6	Quantity	996	1001	T196-6	eight	{"mods": ["IsCount"]}
+S0016236113008041-3031	6	MeasuredEntity	1002	1008	T206-6	cycles	{"HasQuantity": "T196-6"}
+S0016236113008041-3031	7	Quantity	1017	1020	T217-7	two	{"mods": ["IsCount"]}
+S0016236113008041-3031	7	MeasuredEntity	1021	1026	T227-7	coals	{"HasQuantity": "T217-7"}
+S0016236113008041-3031	8	Quantity	1047	1051	T238-8	five	{"mods": ["IsCount"]}
+S0016236113008041-3031	8	MeasuredEntity	1052	1058	T248-8	cycles	{"HasQuantity": "T238-8"}
+S0016236113008041-3031	9	Quantity	1082	1106	T39-9	from ∼20 ppm to ∼180 ppm	{"mods": ["IsApproximate", "IsRange"], "unit": "ppm"}
+S0016236113008041-3031	9	MeasuredProperty	917	919	T139-9	Cu	{"HasQuantity": "T39-9"}
+S0016236113008041-3031	9	MeasuredEntity	921	928	T129-9	sorbent	{"HasProperty": "T139-9"}
+S0016236113008041-3031	9	Qualifier	1032	1081	T389-9	increased over five cycles in the presence of RDF	{"Qualifies": "T39-9"}
+S0016236113008041-3031	10	Quantity	1244	1265	T610-10	from ∼250 to ∼550 ppm	{"mods": ["IsApproximate", "IsRange"], "unit": "ppm"}
+S0016236113008041-3031	10	MeasuredProperty	1108	1110	T3910-10	Na	{"HasQuantity": "T610-10"}
+S0016236113008041-3031	10	MeasuredEntity	1137	1144	T4110-10	sorbent	{"HasProperty": "T3910-10"}
+S0016236113008041-3031	10	Qualifier	1198	1206	T410-10	increase	{"Qualifies": "T610-10"}
+S0016236113008041-3031	10	Qualifier	1222	1235	T2510-10	Lea Hall coal	{"Qualifies": "T4110-10"}
+S0016236113008041-3031	11	Quantity	1270	1290	T511-11	from ∼200 to 400 ppm	{"mods": ["IsApproximate", "IsRange"], "unit": "ppm"}
+S0016236113008041-3031	11	MeasuredProperty	1108	1110	T3911-11	Na	{"HasQuantity": "T511-11"}
+S0016236113008041-3031	11	MeasuredEntity	1137	1144	T4111-11	sorbent	{"HasProperty": "T3911-11"}
+S0016236113008041-3031	11	Qualifier	1198	1206	T411-11	increase	{"Qualifies": "T511-11"}
+S0016236113008041-3031	11	Qualifier	1240	1243	T2611-11	RDF	{"Qualifies": "T4111-11"}
+S0016236113008041-3031	12	Quantity	1410	1413	T2812-12	two	{"mods": ["IsCount"]}
+S0016236113008041-3031	12	MeasuredEntity	1414	1419	T2912-12	fuels	{"HasQuantity": "T2812-12"}
+S0016236113008041-3031	13	Quantity	1460	1465	T3013-13	eight	{"mods": ["IsCount"]}
+S0016236113008041-3031	13	MeasuredEntity	1466	1472	T3113-13	cycles	{"HasQuantity": "T3013-13"}
+S0016236113008041-3031	14	Quantity	1547	1551	T4214-14	five	{"mods": ["IsCount"]}
+S0016236113008041-3031	14	MeasuredEntity	1552	1558	T4314-14	cycles	{"HasQuantity": "T4214-14"}
+S0016236113008041-3031	15	Quantity	1559	1583	T715-15	from ∼50 ppm to ∼150 ppm	{"mods": ["IsApproximate", "IsRange"], "unit": "ppm"}
+S0016236113008041-3031	15	MeasuredProperty	1421	1423	T3315-15	Ti	{"HasQuantity": "T715-15"}
+S0016236113008041-3031	15	MeasuredEntity	1504	1511	T3215-15	sorbent	{"HasProperty": "T3315-15"}
+S0016236113008041-3031	15	Qualifier	1488	1496	T2715-15	increase	{"Qualifies": "T715-15"}
+S0016236113008041-3031	15	Qualifier	1512	1558	T815-15	cycled in the presence of RDF over five cycles	{"Qualifies": "T3215-15"}

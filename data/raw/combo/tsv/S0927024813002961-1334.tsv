@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002961-1334	1	Quantity	331	343	T1-1	less than 5%	{"mods": ["IsRange"], "unit": "%"}
+S0927024813002961-1334	1	MeasuredEntity	303	327	T2-1	annual energy prediction	{"HasQuantity": "T1-1"}
+S0927024813002961-1334	2	Quantity	816	828	T1-2	650–750 W/m2	{"mods": ["IsRange"], "unit": "W/m2"}
+S0927024813002961-1334	2	MeasuredProperty	796	812	T3-2	irradiance range	{"HasQuantity": "T1-2"}
+S0927024813002961-1334	2	MeasuredEntity	778	785	T4-2	devices	{"HasProperty": "T3-2"}
+S0927024813002961-1334	3	Quantity	866	874	T1-3	700 W/m2	{"unit": "W/m2"}
+S0927024813002961-1334	3	MeasuredProperty	796	806	T5-3	irradiance	{"HasQuantity": "T1-3"}
+S0927024813002961-1334	3	MeasuredEntity	778	785	T3-3	devices	{"HasProperty": "T5-3"}
+S0927024813002961-1334	3	Qualifier	853	862	T4-3	corrected	{"Qualifies": "T1-3"}
+S0927024813002961-1334	4	Quantity	879	884	T1-4	25 °C	{"unit": "°C"}
+S0927024813002961-1334	4	MeasuredEntity	778	785	T3-4	devices	{"HasQuantity": "T1-4"}
+S0927024813002961-1334	4	Qualifier	853	862	T4-4	corrected	{"Qualifies": "T1-4"}

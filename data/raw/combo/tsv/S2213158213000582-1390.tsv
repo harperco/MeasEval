@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1390	1	Quantity	23	28	T1-1	50 ms	{"unit": "ms"}
+S2213158213000582-1390	1	MeasuredEntity	0	19	T3-1	Group contrast maps	{"HasQuantity": "T1-1"}
+S2213158213000582-1390	2	Quantity	99	103	T3-2	0.05	
+S2213158213000582-1390	2	MeasuredProperty	95	96	T2-2	q	{"HasQuantity": "T3-2"}
+S2213158213000582-1390	2	MeasuredEntity	91	94	T1-2	FDR	{"HasProperty": "T2-2"}
+S2213158213000582-1390	3	Quantity	234	239	T1-3	50-ms	{"unit": "ms"}
+S2213158213000582-1390	3	MeasuredProperty	240	248	T4-3	activity	{"HasQuantity": "T1-3"}
+S2213158213000582-1390	3	MeasuredEntity	200	233	T3-3	left and right IFG (L-IFG, R-IFG)	{"HasProperty": "T4-3"}
+S2213158213000582-1390	4	Quantity	348	353	T1-4	50 ms	{"unit": "ms"}
+S2213158213000582-1390	4	MeasuredProperty	354	362	T3-4	activity	{"HasQuantity": "T1-4"}
+S2213158213000582-1390	4	MeasuredEntity	315	347	T2-4	left supramarginal gyrus (L-SMG)	{"HasProperty": "T3-4"}

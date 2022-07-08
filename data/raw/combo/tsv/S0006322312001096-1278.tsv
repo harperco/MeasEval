@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0006322312001096-1278	1	Quantity	449	451	T2-1	65	{"mods": ["IsRange"]}
+S0006322312001096-1278	1	MeasuredProperty	442	445	T3-1	age	{"HasQuantity": "T2-1"}
+S0006322312001096-1278	1	MeasuredEntity	411	430	T1-1	depressive symptoms	{"HasProperty": "T3-1"}
+S0006322312001096-1278	1	Qualifier	431	437	T4-1	before	{"Qualifies": "T2-1"}
+S0006322312001096-1278	1	Qualifier	373	405	T5-1	stroke risk score was associated	{"Qualifies": "T1-1"}
+S0006322312001096-1278	2	Quantity	635	643	T11-2	65 years	{"mods": ["IsRange"], "unit": "years"}
+S0006322312001096-1278	2	MeasuredEntity	598	617	T4-2	depressive symptoms	{"HasQuantity": "T11-2"}
+S0006322312001096-1278	2	Qualifier	462	594	T5-2	little evidence to suggest that standard clinical information on preclinical vascular risk status would be helpful in the prediction	{"Qualifies": "T4-2"}

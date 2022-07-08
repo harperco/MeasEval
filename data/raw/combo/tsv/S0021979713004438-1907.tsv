@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-1907	1	Quantity	815	821	T11-1	10 min	{"unit": "min"}
+S0021979713004438-1907	1	MeasuredProperty	797	808	T41-1	interrupted	{"HasQuantity": "T11-1"}
+S0021979713004438-1907	1	MeasuredEntity	772	792	T51-1	adsorption of Mefp-1	{"HasProperty": "T41-1"}
+S0021979713004438-1907	1	Qualifier	809	814	T31-1	after	{"Qualifies": "T11-1"}
+S0021979713004438-1907	2	Quantity	973	978	T22-2	10 μm	{"unit": "μm"}
+S0021979713004438-1907	2	MeasuredEntity	979	984	T72-2	FeCl3	{"HasQuantity": "T22-2"}

@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213000582-1309	1	Quantity	372	378	T1-1	500 ms	{"unit": "ms"}
+S2213158213000582-1309	1	MeasuredEntity	362	371	T2-1	S1 epochs	{"HasQuantity": "T1-1"}
+S2213158213000582-1309	1	Qualifier	379	391	T3-1	pre-stimulus	{"Qualifies": "T1-1"}
+S2213158213000582-1309	2	Quantity	395	401	T1-2	500 ms	{"unit": "ms"}
+S2213158213000582-1309	2	MeasuredEntity	362	371	T2-2	S1 epochs	{"HasQuantity": "T1-2"}
+S2213158213000582-1309	2	Qualifier	402	415	T4-2	post-stimulus	{"Qualifies": "T1-2"}
+S2213158213000582-1309	3	Quantity	502	514	T1-3	average, 103	{"mods": ["IsCount"]}
+S2213158213000582-1309	3	MeasuredEntity	515	521	T2-3	trials	{"HasQuantity": "T1-3"}
+S2213158213000582-1309	3	Qualifier	536	552	T3-3	for each subject	{"Qualifies": "T2-3"}
+S2213158213000582-1309	4	Quantity	628	632	T1-4	0.30	
+S2213158213000582-1309	4	MeasuredEntity	620	625	T2-4	t(39)	{"HasQuantity": "T1-4"}
+S2213158213000582-1309	5	Quantity	638	642	T1-5	0.77	
+S2213158213000582-1309	5	MeasuredEntity	634	635	T2-5	p	{"HasQuantity": "T1-5"}

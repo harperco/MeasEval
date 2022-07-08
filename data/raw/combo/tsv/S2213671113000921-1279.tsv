@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113000921-1279	1	Quantity	278	294	T1-1	greater than 70%	{"mods": ["IsRange"], "unit": "%"}
+S2213671113000921-1279	1	MeasuredProperty	252	272	T2-1	gene targeting rates	{"HasQuantity": "T1-1"}
+S2213671113000921-1279	1	MeasuredEntity	187	191	T4-1	SOX2	{"HasProperty": "T2-1"}

@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1654	1	Quantity	248	251	T1-1	50%	{"unit": "%"}
+S037842901300244X-1654	1	MeasuredProperty	270	285	T4-1	exerted stigmas	{"HasQuantity": "T1-1"}
+S037842901300244X-1654	1	MeasuredEntity	259	265	T3-1	plants	{"HasProperty": "T4-1"}
+S037842901300244X-1654	2	Quantity	767	786	T1-2	67, 101 and 121 das	{"mods": ["IsList"], "unit": "das"}
+S037842901300244X-1654	2	MeasuredProperty	755	763	T3-2	recorded	{"HasQuantity": "T1-2"}
+S037842901300244X-1654	2	MeasuredEntity	705	750	T4-2	number of emerged Striga plants for each plot	{"HasProperty": "T3-2"}

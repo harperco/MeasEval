@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071713001971-1427	1	Quantity	100	109	T1-1	two years	{"unit": "years"}
+S0038071713001971-1427	1	MeasuredEntity	76	89	T3-1	yield records	{"HasQuantity": "T1-1"}

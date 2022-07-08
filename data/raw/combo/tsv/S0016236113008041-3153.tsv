@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3153	1	Quantity	256	261	T11-1	13 kg	{"unit": "kg"}
+S0016236113008041-3153	1	MeasuredEntity	239	252	T31-1	bed inventory	{"HasQuantity": "T11-1"}
+S0016236113008041-3153	2	Quantity	383	389	T22-2	<2 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3153	2	MeasuredProperty	365	379	T42-2	concentrations	{"HasQuantity": "T22-2"}
+S0016236113008041-3153	2	MeasuredEntity	297	305	T62-2	elements	{"HasProperty": "T42-2"}

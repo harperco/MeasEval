@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0257897213007573-899	1	Quantity	141	153	T1-1	~ 1354 cm− 1	{"mods": ["IsApproximate"], "unit": "cm− 1"}
+S0257897213007573-899	1	MeasuredProperty	87	95	T3-1	position	{"HasQuantity": "T1-1"}
+S0257897213007573-899	1	MeasuredEntity	99	105	T2-1	D-band	{"HasProperty": "T3-1"}
+S0257897213007573-899	1	Qualifier	26	35	T5-1	CVD layer	{"Qualifies": "T2-1"}
+S0257897213007573-899	2	Quantity	712	716	T1-2	1.32	
+S0257897213007573-899	2	MeasuredProperty	687	692	T3-2	ratio	{"HasQuantity": "T1-2"}
+S0257897213007573-899	2	MeasuredEntity	694	699	T2-2	ID/IG	{"HasProperty": "T3-2"}
+S0257897213007573-899	3	Quantity	754	761	T1-3	3.75 nm	{"unit": "nm"}
+S0257897213007573-899	3	MeasuredProperty	748	750	T3-3	La	{"HasQuantity": "T1-3"}
+S0257897213007573-899	3	MeasuredEntity	610	619	T4-3	CVD layer	{"HasProperty": "T3-3"}

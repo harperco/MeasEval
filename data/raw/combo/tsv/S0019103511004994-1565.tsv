@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103511004994-1565	1	Quantity	243	250	T11-1	±10 min	{"mods": ["IsRange"], "unit": "min"}
+S0019103511004994-1565	1	MeasuredEntity	219	230	T21-1	time period	{"HasQuantity": "T11-1"}
+S0019103511004994-1565	1	Qualifier	251	274	T31-1	around closest approach	{"Qualifies": "T11-1"}
+S0019103511004994-1565	2	Quantity	1396	1406	T42-2	56–100 keV	{"mods": ["IsRange"], "unit": "keV"}
+S0019103511004994-1565	2	MeasuredProperty	1350	1381	T62-2	measured differential intensity	{"HasQuantity": "T42-2"}
+S0019103511004994-1565	2	MeasuredEntity	1385	1394	T52-2	electrons	{"HasProperty": "T62-2"}

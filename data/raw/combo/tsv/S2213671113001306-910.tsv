@@ -1,0 +1,14 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213671113001306-910	1	Quantity	901	908	T1-1	10,500×	{"unit": "×"}
+S2213671113001306-910	1	MeasuredProperty	909	922	T2-1	magnification	{"HasQuantity": "T1-1"}
+S2213671113001306-910	1	MeasuredEntity	865	876	T3-1	Left images	{"HasProperty": "T2-1"}
+S2213671113001306-910	2	Quantity	974	981	T1-2	25,000×	{"unit": "×"}
+S2213671113001306-910	2	MeasuredProperty	909	922	T3-2	magnification	{"HasQuantity": "T1-2"}
+S2213671113001306-910	2	MeasuredEntity	924	941	T2-2	right micrographs	{"HasProperty": "T3-2"}
+S2213671113001306-910	3	Quantity	1004	1008	T1-3	2 μm	{"unit": "μm"}
+S2213671113001306-910	3	MeasuredProperty	1022	1030	T4-3	distance	{"HasQuantity": "T1-3"}
+S2213671113001306-910	3	MeasuredEntity	983	993	T3-3	scale bars	{"HasProperty": "T4-3"}
+S2213671113001306-910	4	Quantity	1015	1021	T1-4	0.2 μm	{"unit": "μm"}
+S2213671113001306-910	4	MeasuredProperty	1022	1030	T2-4	distance	{"HasQuantity": "T1-4"}
+S2213671113001306-910	4	MeasuredEntity	983	993	T3-4	scale bars	{"HasProperty": "T2-4"}
+S2213671113001306-910	4	Qualifier	1009	1014	T5-4	inset	{"Qualifies": "T3-4"}

@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312002437-627	1	Quantity	343	348	T1-1	192 s	{"unit": "s"}
+S0032063312002437-627	1	MeasuredEntity	349	354	T2-1	cycle	{"HasQuantity": "T1-1"}
+S0032063312002437-627	2	Quantity	434	444	T1-2	15 or less	{"mods": ["IsRange"]}
+S0032063312002437-627	2	MeasuredProperty	385	404	T3-2	mass channel number	{"HasQuantity": "T1-2"}
+S0032063312002437-627	2	MeasuredEntity	412	429	T2-2	maximum ion count	{"HasProperty": "T3-2"}
+S0032063312002437-627	3	Quantity	585	600	T1-3	9th August 2008	
+S0032063312002437-627	3	MeasuredEntity	572	580	T2-3	data set	{"HasQuantity": "T1-3"}
+S0032063312002437-627	4	Quantity	627	656	T1-4	between 05:28 UT and 05:47 UT	{"mods": ["IsRange"], "unit": "UT"}
+S0032063312002437-627	4	MeasuredEntity	622	626	T2-4	data	{"HasQuantity": "T1-4"}

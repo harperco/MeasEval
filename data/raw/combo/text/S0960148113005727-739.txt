@@ -1,0 +1,1 @@
+Histograms summarising the vintage of UK wind farms in our dataset (a), the distribution of monthly observations from this fleet (b–c), and the distribution of load factors for individual farms over the last eleven years (d–e).

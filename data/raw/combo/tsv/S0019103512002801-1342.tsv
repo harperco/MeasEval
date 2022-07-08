@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1342	1	Quantity	43	47	T31-1	1RRh	{"unit": "RRh"}
+S0019103512002801-1342	1	MeasuredProperty	35	41	T81-1	radius	{"HasQuantity": "T31-1"}
+S0019103512002801-1342	1	MeasuredEntity	0	4	T71-1	Rhea	{"HasProperty": "T81-1"}
+S0019103512002801-1342	2	Quantity	50	56	T12-2	764 km	{"unit": "km"}
+S0019103512002801-1342	2	MeasuredProperty	35	41	T82-2	radius	{"HasQuantity": "T12-2"}
+S0019103512002801-1342	2	MeasuredEntity	0	4	T72-2	Rhea	{"HasProperty": "T82-2"}
+S0019103512002801-1342	3	Quantity	133	145	T43-3	about 8.74Rs	{"mods": ["IsApproximate"], "unit": "Rs"}
+S0019103512002801-1342	3	MeasuredProperty	121	129	T93-3	distance	{"HasQuantity": "T43-3"}
+S0019103512002801-1342	3	MeasuredEntity	101	115	T103-3	circular orbit	{"HasProperty": "T93-3"}
+S0019103512002801-1342	3	Qualifier	162	179	T23-3	(1Rs = 60,268 km)	{"Qualifies": "T43-3"}
+S0019103512002801-1342	3	Qualifier	147	161	T113-3	rom its center	{"Qualifies": "T93-3"}
+S0019103512002801-1342	4	Quantity	163	166	T54-4	1Rs	{"unit": "Rs"}
+S0019103512002801-1342	5	Quantity	169	178	T65-5	60,268 km	{"unit": "km"}
+S0019103512002801-1342	5	MeasuredEntity	163	166	T1-5	1Rs	{"HasQuantity": "T65-5"}

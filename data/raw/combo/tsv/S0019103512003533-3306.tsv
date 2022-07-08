@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-3306	1	Quantity	214	223	T1-1	320–500 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003533-3306	1	MeasuredProperty	160	186	T3-1	thermospheric temperatures	{"HasQuantity": "T1-1"}
+S0019103512003533-3306	1	MeasuredEntity	206	212	T4-1	Saturn	{"HasProperty": "T3-1"}
+S0019103512003533-3306	2	Quantity	430	442	T1-2	above ∼500 K	{"mods": ["IsApproximate", "IsRange"], "unit": "K"}
+S0019103512003533-3306	2	MeasuredProperty	417	429	T3-2	temperatures	{"HasQuantity": "T1-2"}
+S0019103512003533-3306	2	MeasuredEntity	206	212	T4-2	Saturn	{"HasProperty": "T3-2"}
+S0019103512003533-3306	2	Qualifier	381	416	T5-2	polar magnetospheric heating raises	{"Qualifies": "T3-2"}

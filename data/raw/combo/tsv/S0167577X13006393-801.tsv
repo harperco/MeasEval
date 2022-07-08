@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-801	1	Quantity	237	252	T1-1	less than 10 nm	{"mods": ["IsRange"], "unit": "nm"}
+S0167577X13006393-801	1	MeasuredProperty	222	236	T3-1	analysis depth	{"HasQuantity": "T1-1"}
+S0167577X13006393-801	1	MeasuredEntity	171	174	T4-1	XPS	{"HasProperty": "T3-1"}
+S0167577X13006393-801	2	Quantity	1087	1100	T1-2	below 1200 °C	{"mods": ["IsRange"], "unit": "°C"}
+S0167577X13006393-801	2	MeasuredProperty	1064	1086	T2-2	sintering temperatures	{"HasQuantity": "T1-2"}
+S0167577X13006393-801	2	MeasuredEntity	967	982	T3-2	dehydroxylation	{"HasProperty": "T2-2"}
+S0167577X13006393-801	2	Qualifier	1020	1027	T4-2	pure HA	{"Qualifies": "T3-2"}
+S0167577X13006393-801	3	Quantity	1129	1139	T1-3	0.4 to 0.5	{"mods": ["IsRange"]}
+S0167577X13006393-801	3	MeasuredProperty	1108	1125	T3-3	conversion degree	{"HasQuantity": "T1-3"}
+S0167577X13006393-801	3	MeasuredEntity	967	982	T2-3	dehydroxylation	{"HasProperty": "T3-3"}
+S0167577X13006393-801	3	Qualifier	1020	1027	T4-3	pure HA	{"Qualifies": "T2-3"}

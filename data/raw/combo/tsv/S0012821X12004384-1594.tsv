@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1594	1	Quantity	156	168	T11-1	above 2618 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X12004384-1594	1	MeasuredEntity	180	189	T21-1	CIE onset	{"HasQuantity": "T11-1"}
+S0012821X12004384-1594	2	Quantity	310	314	T62-2	40°N	{"unit": "°N"}
+S0012821X12004384-1594	2	MeasuredProperty	283	300	T42-2	southern boundary	{"HasQuantity": "T62-2"}
+S0012821X12004384-1594	2	MeasuredEntity	259	277	T52-2	northern rain belt	{"HasProperty": "T42-2"}

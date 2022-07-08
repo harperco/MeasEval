@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1389128612002496-6119	1	Quantity	205	225	T1-1	from 10 ms to 0.1 ms	{"mods": ["IsRange"], "unit": "ms"}
+S1389128612002496-6119	1	MeasuredEntity	191	193	T4-1	Tb	{"HasQuantity": "T1-1"}
+S1389128612002496-6119	1	Qualifier	194	203	T5-1	decreases	{"Qualifies": "T1-1"}
+S1389128612002496-6119	2	Quantity	320	333	T1-2	around 0.5 ms	{"mods": ["IsApproximate"], "unit": "ms"}
+S1389128612002496-6119	2	MeasuredEntity	314	316	T3-2	Tb	{"HasQuantity": "T1-2"}

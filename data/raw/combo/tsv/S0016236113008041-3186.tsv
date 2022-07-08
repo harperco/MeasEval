@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-3186	1	Quantity	109	129	T11-1	greater than 0.1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3186	1	MeasuredProperty	94	108	T91-1	concentrations	{"HasQuantity": "T11-1"}
+S0016236113008041-3186	1	MeasuredEntity	67	79	T101-1	Rb, Nb and W	{"HasProperty": "T91-1"}
+S0016236113008041-3186	2	Quantity	196	200	T52-2	0.06	{"unit": "ppm"}
+S0016236113008041-3186	2	MeasuredProperty	166	179	T122-2	concentration	{"HasQuantity": "T52-2"}
+S0016236113008041-3186	2	MeasuredEntity	131	132	T112-2	W	{"HasProperty": "T122-2"}
+S0016236113008041-3186	2	Qualifier	237	240	T182-2	4.5	{"Qualifies": "T122-2"}
+S0016236113008041-3186	3	Quantity	204	208	T63-3	0.42	{"unit": "ppm"}
+S0016236113008041-3186	3	MeasuredProperty	166	179	T123-3	concentration	{"HasQuantity": "T63-3"}
+S0016236113008041-3186	3	MeasuredEntity	131	132	T113-3	W	{"HasProperty": "T123-3"}
+S0016236113008041-3186	3	Qualifier	242	243	T193-3	6	{"Qualifies": "T123-3"}
+S0016236113008041-3186	4	Quantity	212	220	T24-4	0.74 ppm	{"unit": "ppm"}
+S0016236113008041-3186	4	MeasuredProperty	166	179	T124-4	concentration	{"HasQuantity": "T24-4"}
+S0016236113008041-3186	4	MeasuredEntity	131	132	T114-4	W	{"HasProperty": "T124-4"}
+S0016236113008041-3186	4	Qualifier	248	253	T34-4	13 kg	{"Qualifies": "T124-4"}
+S0016236113008041-3186	5	Quantity	237	253	T75-5	4.5, 6 and 13 kg	{"unit": "kg"}
+S0016236113008041-3186	5	MeasuredEntity	225	236	T135-5	inventories	{"HasQuantity": "T75-5"}
+S0016236113008041-3186	6	Quantity	343	351	T48-6	<0.1 ppm	{"mods": ["IsRange"], "unit": "ppm"}
+S0016236113008041-3186	6	MeasuredProperty	286	309	T158-6	flue gas concentrations	{"HasQuantity": "T48-6"}
+S0016236113008041-3186	6	MeasuredEntity	272	285	T148-6	trace element	{"HasProperty": "T158-6"}

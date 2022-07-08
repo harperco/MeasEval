@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0165587612003680-953	1	Quantity	295	308	T1-1	more than 90%	{"mods": ["IsRange"], "unit": "%"}
+S0165587612003680-953	1	MeasuredProperty	193	249	T3-1	biofilms have been identified on human middle ear mucosa	{"HasQuantity": "T1-1"}
+S0165587612003680-953	1	MeasuredEntity	253	291	T2-1	children with OME and/or recurrent AOM	{"HasProperty": "T3-1"}

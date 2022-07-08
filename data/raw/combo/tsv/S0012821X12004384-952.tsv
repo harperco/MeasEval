@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-952	1	Quantity	249	253	T1-1	<30%	{"mods": ["IsRange"], "unit": "%"}
+S0012821X12004384-952	1	MeasuredProperty	254	271	T2-1	wood/plant tissue	{"HasQuantity": "T1-1"}
+S0012821X12004384-952	1	MeasuredEntity	236	243	T3-1	samples	{"HasProperty": "T2-1"}
+S0012821X12004384-952	2	Quantity	380	384	T1-2	>30%	{"mods": ["IsRange"], "unit": "%"}
+S0012821X12004384-952	2	MeasuredProperty	385	402	T3-2	wood/plant tissue	{"HasQuantity": "T1-2"}
+S0012821X12004384-952	2	MeasuredEntity	367	374	T2-2	samples	{"HasProperty": "T3-2"}
+S0012821X12004384-952	3	Quantity	658	677	T1-3	2614.7 and 2619.6 m	{"mods": ["IsList"], "unit": "m"}
+S0012821X12004384-952	3	MeasuredEntity	641	654	T2-3	Values shaded	{"HasQuantity": "T1-3"}

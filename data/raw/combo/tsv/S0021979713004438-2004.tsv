@@ -1,0 +1,5 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0021979713004438-2004	1	Quantity	1145	1162	T1-1	38 MPa to 185 MPa	{"mods": ["IsRange"], "unit": "MPa"}
+S0021979713004438-2004	1	MeasuredProperty	1117	1124	T2-1	modulus	{"HasQuantity": "T1-1"}
+S0021979713004438-2004	1	MeasuredEntity	988	1004	T5-1	surface hardness	{"HasProperty": "T2-1"}
+S0021979713004438-2004	1	Qualifier	1126	1133	T3-1	average	{"Qualifies": "T1-1"}

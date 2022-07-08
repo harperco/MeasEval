@@ -1,0 +1,27 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1427	1	Quantity	244	248	T1-1	five	{"mods": ["IsCount"]}
+S037842901300244X-1427	1	MeasuredEntity	249	255	T2-1	cycles	{"HasQuantity": "T1-1"}
+S037842901300244X-1427	2	Quantity	420	431	T1-2	Two-hundred	{"mods": ["IsCount"]}
+S037842901300244X-1427	2	MeasuredEntity	432	449	T2-2	full-sib families	{"HasQuantity": "T1-2"}
+S037842901300244X-1427	3	Quantity	820	823	T1-3	51%	{"unit": "%"}
+S037842901300244X-1427	3	MeasuredProperty	827	851	T3-3	lower Striga infestation	{"HasQuantity": "T1-3"}
+S037842901300244X-1427	3	MeasuredEntity	625	665	T5-3	Striga-infested fields at Sadoré (Niger)	{"HasProperty": "T3-3"}
+S037842901300244X-1427	4	Quantity	824	826	T1-4	1%	{"unit": "%"}
+S037842901300244X-1427	4	MeasuredProperty	827	851	T3-4	lower Striga infestation	{"HasQuantity": "T1-4"}
+S037842901300244X-1427	4	MeasuredEntity	625	647	T5-4	Striga-infested fields	{"HasProperty": "T3-4"}
+S037842901300244X-1427	4	Qualifier	670	684	T4-4	Cinzana (Mali)	{"Qualifies": "T5-4"}
+S037842901300244X-1427	5	Quantity	914	921	T1-5	46%/62%	{"unit": "%"}
+S037842901300244X-1427	5	MeasuredProperty	922	950	T4-5	lower downy mildew incidence	{"HasQuantity": "T1-5"}
+S037842901300244X-1427	5	MeasuredEntity	765	807	T2-5	accumulated percentage gain from selection	{"HasProperty": "T4-5"}
+S037842901300244X-1427	6	Quantity	956	963	T1-6	49%/31%	{"unit": "%"}
+S037842901300244X-1427	6	MeasuredProperty	964	997	T3-6	higher panicle yield of the C5-FS	{"HasQuantity": "T1-6"}
+S037842901300244X-1427	6	MeasuredEntity	765	807	T4-6	accumulated percentage gain from selection	{"HasProperty": "T3-6"}
+S037842901300244X-1427	7	Quantity	1312	1315	T1-7	76%	{"unit": "%"}
+S037842901300244X-1427	7	MeasuredEntity	1284	1308	T3-7	operative heritabilities	{"HasQuantity": "T1-7"}
+S037842901300244X-1427	7	Qualifier	1317	1324	T2-7	Cinzana	{"Qualifies": "T3-7"}
+S037842901300244X-1427	8	Quantity	1327	1330	T1-8	84%	{"unit": "%"}
+S037842901300244X-1427	8	MeasuredEntity	1284	1308	T4-8	operative heritabilities	{"HasQuantity": "T1-8"}
+S037842901300244X-1427	8	Qualifier	1332	1338	T3-8	Sadoré	{"Qualifies": "T4-8"}
+S037842901300244X-1427	9	Quantity	1344	1347	T1-9	34%	{"unit": "%"}
+S037842901300244X-1427	9	MeasuredEntity	1284	1308	T4-9	operative heritabilities	{"HasQuantity": "T1-9"}
+S037842901300244X-1427	9	Qualifier	1349	1374	T3-9	combined across locations	{"Qualifies": "T4-9"}

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0038071712001010-1044	1	Quantity	626	634	T1-1	∼0.4 mm2	{"mods": ["IsApproximate"], "unit": "mm2"}
+S0038071712001010-1044	1	MeasuredEntity	613	624	T2-1	small pores	{"HasQuantity": "T1-1"}
+S0038071712001010-1044	2	Quantity	2609	2616	T1-2	84 days	{"unit": "days"}
+S0038071712001010-1044	2	MeasuredProperty	2598	2604	T3-2	lasted	{"HasQuantity": "T1-2"}
+S0038071712001010-1044	2	MeasuredEntity	2587	2597	T2-2	experiment	{"HasProperty": "T3-2"}

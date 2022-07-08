@@ -1,0 +1,25 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1429	1	Quantity	114	117	T1-1	10%	
+S0925443913001385-1429	1	MeasuredProperty	124	146	T2-1	fetal calf serum (FCS)	{"HasQuantity": "T1-1"}
+S0925443913001385-1429	1	MeasuredEntity	40	51	T3-1	DMEM medium	{"HasProperty": "T2-1"}
+S0925443913001385-1429	1	Qualifier	96	108	T4-1	supplemented	{"Qualifies": "T3-1"}
+S0925443913001385-1429	1	Qualifier	118	123	T5-1	(v/v)	{"Qualifies": "T1-1"}
+S0925443913001385-1429	2	Quantity	148	152	T1-2	2 mM	{"unit": "mM"}
+S0925443913001385-1429	2	MeasuredProperty	153	164	T5-2	l-glutamine	{"HasQuantity": "T1-2"}
+S0925443913001385-1429	2	MeasuredEntity	40	51	T2-2	DMEM medium	{"HasProperty": "T5-2"}
+S0925443913001385-1429	2	Qualifier	96	108	T3-2	supplemented	{"Qualifies": "T2-2"}
+S0925443913001385-1429	3	Quantity	166	174	T1-3	50 μg/ml	{"unit": "μg/ml"}
+S0925443913001385-1429	3	MeasuredEntity	40	51	T5-3	DMEM medium	{"HasQuantity": "T1-3"}
+S0925443913001385-1429	3	Qualifier	96	108	T4-3	supplemented	{"Qualifies": "T5-3"}
+S0925443913001385-1429	4	Quantity	184	193	T1-4	110 μg/ml	{"unit": "μg/ml"}
+S0925443913001385-1429	4	MeasuredProperty	194	202	T3-4	pyruvate	{"HasQuantity": "T1-4"}
+S0925443913001385-1429	4	MeasuredEntity	40	51	T4-4	DMEM medium	{"HasProperty": "T3-4"}
+S0925443913001385-1429	4	Qualifier	96	108	T5-4	supplemented	{"Qualifies": "T4-4"}
+S0925443913001385-1429	5	Quantity	204	215	T1-5	10,000 U/ml	{"unit": "U/ml"}
+S0925443913001385-1429	5	MeasuredProperty	216	228	T3-5	penicillin G	{"HasQuantity": "T1-5"}
+S0925443913001385-1429	5	MeasuredEntity	40	51	T4-5	DMEM medium	{"HasProperty": "T3-5"}
+S0925443913001385-1429	5	Qualifier	96	108	T5-5	supplemented	{"Qualifies": "T4-5"}
+S0925443913001385-1429	6	Quantity	233	245	T1-6	10,000 μg/ml	{"unit": "μg/ml"}
+S0925443913001385-1429	6	MeasuredProperty	246	258	T3-6	streptomycin	{"HasQuantity": "T1-6"}
+S0925443913001385-1429	6	MeasuredEntity	40	51	T4-6	DMEM medium	{"HasProperty": "T3-6"}
+S0925443913001385-1429	6	Qualifier	96	108	T5-6	supplemented	{"Qualifies": "T4-6"}

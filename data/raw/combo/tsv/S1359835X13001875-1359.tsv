@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S1359835X13001875-1359	1	Quantity	87	90	T1-1	1 m	{"unit": "m"}
+S1359835X13001875-1359	1	MeasuredProperty	68	79	T4-1	side length	{"HasQuantity": "T1-1"}
+S1359835X13001875-1359	1	MeasuredEntity	24	53	T5-1	two-dimensional square system	{"HasProperty": "T4-1"}
+S1359835X13001875-1359	2	Quantity	107	130	T1-2	1000 discrete particles	{"unit": "discrete particles"}
+S1359835X13001875-1359	2	MeasuredEntity	24	53	T3-2	two-dimensional square system	{"HasQuantity": "T1-2"}
+S1359835X13001875-1359	3	Quantity	233	241	T1-3	1000 m−2	{"unit": "m−2"}
+S1359835X13001875-1359	3	MeasuredProperty	205	212	T3-3	density	{"HasQuantity": "T1-3"}
+S1359835X13001875-1359	3	MeasuredEntity	198	204	T4-3	number	{"HasProperty": "T3-3"}

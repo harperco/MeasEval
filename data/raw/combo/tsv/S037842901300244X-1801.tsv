@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S037842901300244X-1801	1	Quantity	414	425	T1-1	three weeks	{"unit": "weeks"}
+S037842901300244X-1801	1	MeasuredProperty	405	413	T4-1	flowered	{"HasQuantity": "T1-1"}
+S037842901300244X-1801	1	MeasuredEntity	392	404	T5-1	S1 progenies	{"HasProperty": "T4-1"}
+S037842901300244X-1801	1	Qualifier	426	443	T2-1	later than the FS	{"Qualifies": "T4-1"}
+S037842901300244X-1801	2	Quantity	575	584	T1-2	484 g m−2	{"unit": "g m−2"}
+S037842901300244X-1801	2	MeasuredProperty	560	573	T2-2	panicle yield	{"HasQuantity": "T1-2"}
+S037842901300244X-1801	2	MeasuredEntity	612	614	T3-2	FS	{"HasProperty": "T2-2"}

@@ -1,0 +1,10 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103513005058-4302	1	Quantity	581	601	T1-1	3.5–6.1 (×10−4) wt.%	{"mods": ["IsRange"], "unit": "wt.%"}
+S0019103513005058-4302	1	MeasuredProperty	544	565	T5-1	input of odd nitrogen	{"HasQuantity": "T1-1"}
+S0019103513005058-4302	1	MeasuredEntity	602	603	T2-1	N	{"HasProperty": "T5-1"}
+S0019103513005058-4302	1	Qualifier	604	659	T4-1	accumulated over 3 byr and mixed into 1.5–2.6 m of soil	{"Qualifies": "T5-1"}
+S0019103513005058-4302	2	Quantity	616	626	T1-2	over 3 byr	{"unit": "byr"}
+S0019103513005058-4302	2	MeasuredProperty	604	615	T3-2	accumulated	{"HasQuantity": "T1-2"}
+S0019103513005058-4302	2	MeasuredEntity	544	565	T4-2	input of odd nitrogen	{"HasProperty": "T3-2"}
+S0019103513005058-4302	3	Quantity	642	651	T1-3	1.5–2.6 m	{"mods": ["IsRange"], "unit": "m"}
+S0019103513005058-4302	3	MeasuredEntity	655	659	T2-3	soil	{"HasQuantity": "T1-3"}

@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0016236113008041-890	1	Quantity	97	119	T31-1	4.5 kg, 6 kg and 13 kg	{"mods": ["IsList"], "unit": "kg"}
+S0016236113008041-890	1	MeasuredProperty	120	125	T51-1	CaCO3	{"HasQuantity": "T31-1"}
+S0016236113008041-890	1	MeasuredEntity	78	93	T41-1	bed inventories	{"HasProperty": "T51-1"}

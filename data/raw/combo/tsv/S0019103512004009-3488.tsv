@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512004009-3488	1	Quantity	181	187	T101-1	3 mbar	{"unit": "mbar"}
+S0019103512004009-3488	1	MeasuredProperty	188	193	T91-1	level	{"HasQuantity": "T101-1"}
+S0019103512004009-3488	1	MeasuredEntity	109	125	T31-1	upper atmosphere	{"HasProperty": "T91-1"}
+S0019103512004009-3488	2	Quantity	550	566	T12-2	1300 K to 3500 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512004009-3488	2	MeasuredProperty	515	526	T52-2	temperature	{"HasQuantity": "T12-2"}
+S0019103512004009-3488	2	MeasuredEntity	109	125	T32-2	upper atmosphere	{"HasProperty": "T52-2"}
+S0019103512004009-3488	2	Qualifier	527	536	T42-2	increases	{"Qualifies": "T12-2"}
+S0019103512004009-3488	2	Qualifier	567	588	T62-2	near the 1 μbar level	{"Qualifies": "T52-2"}
+S0019103512004009-3488	3	Quantity	576	582	T73-3	1 μbar	{"unit": "μbar"}
+S0019103512004009-3488	3	MeasuredProperty	583	588	T113-3	level	{"HasQuantity": "T73-3"}
+S0019103512004009-3488	3	MeasuredEntity	109	125	T33-3	upper atmosphere	{"HasProperty": "T113-3"}
+S0019103512004009-3488	4	Quantity	812	818	T24-4	3 mbar	{"unit": "mbar"}
+S0019103512004009-3488	4	MeasuredProperty	819	824	T84-4	level	{"HasQuantity": "T24-4"}
+S0019103512004009-3488	4	MeasuredEntity	109	125	T34-4	upper atmosphere	{"HasProperty": "T84-4"}

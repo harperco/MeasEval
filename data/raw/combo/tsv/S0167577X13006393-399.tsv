@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167577X13006393-399	1	Quantity	187	201	T1-1	1065–1280 cm−1	{"mods": ["IsRange"], "unit": "cm−1"}
+S0167577X13006393-399	1	MeasuredProperty	148	172	T4-1	C3O characteristic bands	{"HasQuantity": "T1-1"}
+S0167577X13006393-399	1	MeasuredEntity	119	137	T3-1	pure PLGA spectrum	{"HasProperty": "T4-1"}
+S0167577X13006393-399	2	Quantity	305	319	T1-2	about 964 cm−1	{"mods": ["IsApproximate"], "unit": "cm−1"}
+S0167577X13006393-399	2	MeasuredProperty	284	301	T3-2	ν1 vibration mode	{"HasQuantity": "T1-2"}
+S0167577X13006393-399	2	MeasuredEntity	207	232	T2-2	spectrum of HA nanopowder	{"HasProperty": "T3-2"}
+S0167577X13006393-399	3	Quantity	342	351	T1-3	1031 cm−1	{"unit": "cm−1"}
+S0167577X13006393-399	3	MeasuredProperty	321	338	T3-3	ν3 vibration mode	{"HasQuantity": "T1-3"}
+S0167577X13006393-399	3	MeasuredEntity	207	232	T2-3	spectrum of HA nanopowder	{"HasProperty": "T3-3"}
+S0167577X13006393-399	4	Quantity	356	365	T1-4	1091 cm−1	{"unit": "cm−1"}
+S0167577X13006393-399	4	MeasuredProperty	321	338	T3-4	ν3 vibration mode	{"HasQuantity": "T1-4"}
+S0167577X13006393-399	4	MeasuredEntity	207	232	T2-4	spectrum of HA nanopowder	{"HasProperty": "T3-4"}
+S0167577X13006393-399	4	Qualifier	367	377	T5-4	asymmetric	{"Qualifies": "T3-4"}
+S0167577X13006393-399	5	Quantity	427	430	T1-5	50%	
+S0167577X13006393-399	5	MeasuredEntity	419	426	T2-5	PLGA–HA	{"HasQuantity": "T1-5"}

@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-4685	1	Quantity	179	182	T21-1	78°	{"unit": "°"}
+S0019103512003533-4685	1	MeasuredEntity	137	177	T11-1	region of maximum electron precipitation	{"HasQuantity": "T21-1"}
+S0019103512003533-4685	2	Quantity	255	257	T52-2	0°	{"unit": "°"}
+S0019103512003533-4685	2	MeasuredProperty	246	254	T42-2	latitude	{"HasQuantity": "T52-2"}
+S0019103512003533-4685	2	MeasuredEntity	229	244	T32-2	sub-solar point	{"HasProperty": "T42-2"}
+S0019103512003533-4685	3	Quantity	580	600	T63-3	below around 1000 km	{"mods": ["IsApproximate", "IsRange"], "unit": "km"}
+S0019103512003533-4685	3	MeasuredEntity	601	609	T73-3	altitude	{"HasQuantity": "T63-3"}

@@ -1,0 +1,19 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167880913001229-1323	1	Quantity	249	256	T1-1	0–10 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0167880913001229-1323	1	MeasuredProperty	257	262	T3-1	depth	{"HasQuantity": "T1-1"}
+S0167880913001229-1323	1	MeasuredEntity	236	245	T5-1	SOC stock	{"HasProperty": "T3-1"}
+S0167880913001229-1323	1	Qualifier	134	138	T2-1	soil	{"Qualifies": "T3-1"}
+S0167880913001229-1323	2	Quantity	330	338	T1-2	20–40 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0167880913001229-1323	2	MeasuredProperty	339	344	T3-2	depth	{"HasQuantity": "T1-2"}
+S0167880913001229-1323	2	MeasuredEntity	367	376	T5-2	SOC stock	{"HasProperty": "T3-2"}
+S0167880913001229-1323	2	Qualifier	134	138	T2-2	soil	{"Qualifies": "T3-2"}
+S0167880913001229-1323	3	Quantity	525	532	T1-3	0–10 cm	{"mods": ["IsRange"], "unit": "cm"}
+S0167880913001229-1323	3	MeasuredProperty	533	538	T2-3	depth	{"HasQuantity": "T1-3"}
+S0167880913001229-1323	3	MeasuredEntity	539	542	T5-3	SOC	{"HasProperty": "T2-3"}
+S0167880913001229-1323	3	Qualifier	134	138	T3-3	soil	{"Qualifies": "T2-3"}
+S0167880913001229-1323	4	Quantity	549	553	T1-4	0.07	
+S0167880913001229-1323	4	MeasuredProperty	544	546	T3-4	r2	{"HasQuantity": "T1-4"}
+S0167880913001229-1323	4	MeasuredEntity	443	463	T2-4	positive correlation	{"HasProperty": "T3-4"}
+S0167880913001229-1323	5	Quantity	557	563	T1-5	< 0.05	{"mods": ["IsRange"]}
+S0167880913001229-1323	5	MeasuredProperty	555	556	T3-5	p	{"HasQuantity": "T1-5"}
+S0167880913001229-1323	5	MeasuredEntity	443	463	T2-5	positive correlation	{"HasProperty": "T3-5"}

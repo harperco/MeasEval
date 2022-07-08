@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002420-1032	1	Quantity	430	437	T1-1	80 vol%	{"unit": "vol%"}
+S0927024813002420-1032	1	MeasuredProperty	441	444	T3-1	C60	{"HasQuantity": "T1-1"}
+S0927024813002420-1032	1	MeasuredEntity	421	424	T4-1	BHJ	{"HasProperty": "T3-1"}
+S0927024813002420-1032	2	Quantity	464	469	T1-2	70 nm	{"unit": "nm"}
+S0927024813002420-1032	2	MeasuredProperty	451	460	T3-2	thickness	{"HasQuantity": "T1-2"}
+S0927024813002420-1032	2	MeasuredEntity	421	424	T2-2	BHJ	{"HasProperty": "T3-2"}
+S0927024813002420-1032	3	Quantity	573	584	T1-3	∼2–3 mA/cm2	{"mods": ["IsApproximate", "IsRange"], "unit": "mA/cm2"}
+S0927024813002420-1032	3	MeasuredProperty	570	573	T4-3	Jsc	{"HasQuantity": "T1-3"}
+S0927024813002420-1032	3	MeasuredEntity	539	568	T3-3	planar heterojunction devices	{"HasProperty": "T4-3"}
+S0927024813002420-1032	4	Quantity	592	604	T1-4	∼0.40–0.45 V	{"mods": ["IsApproximate", "IsRange"], "unit": "V"}
+S0927024813002420-1032	4	MeasuredProperty	589	592	T3-4	Voc	{"HasQuantity": "T1-4"}
+S0927024813002420-1032	4	MeasuredEntity	539	568	T4-4	planar heterojunction devices	{"HasProperty": "T3-4"}

@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S016412121300188X-4937	1	Quantity	558	561	T1-1	two	{"mods": ["IsCount"]}
+S016412121300188X-4937	1	MeasuredEntity	562	579	T3-1	coherent clusters	{"HasQuantity": "T1-1"}
+S016412121300188X-4937	2	Quantity	614	624	T1-2	around 10%	{"mods": ["IsApproximate"], "unit": "%"}
+S016412121300188X-4937	2	MeasuredProperty	562	579	T2-2	coherent clusters	{"HasQuantity": "T1-2"}
+S016412121300188X-4937	2	MeasuredEntity	632	636	T5-2	code	{"HasProperty": "T2-2"}
+S016412121300188X-4937	2	Qualifier	599	606	T3-2	smaller	{"Qualifies": "T2-2"}
+S016412121300188X-4937	3	Quantity	657	667	T1-3	around 40%	{"mods": ["IsApproximate"], "unit": "%"}
+S016412121300188X-4937	3	MeasuredProperty	562	579	T2-3	coherent clusters	{"HasQuantity": "T1-3"}
+S016412121300188X-4937	3	MeasuredEntity	675	679	T4-3	code	{"HasProperty": "T2-3"}
+S016412121300188X-4937	3	Qualifier	647	653	T3-3	larger	{"Qualifies": "T2-3"}

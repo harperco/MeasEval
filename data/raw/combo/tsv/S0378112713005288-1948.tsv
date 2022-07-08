@@ -1,0 +1,20 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378112713005288-1948	1	Quantity	249	252	T1-1	4.1	
+S0378112713005288-1948	1	MeasuredProperty	237	246	T2-1	F(3, 8.9)	{"HasQuantity": "T1-1"}
+S0378112713005288-1948	1	MeasuredEntity	182	203	T4-1	significant variation	{"HasProperty": "T2-1"}
+S0378112713005288-1948	1	Qualifier	207	235	T3-1	total regeneration densities	{"Qualifies": "T4-1"}
+S0378112713005288-1948	2	Quantity	258	262	T1-2	0.03	
+S0378112713005288-1948	2	MeasuredProperty	254	255	T3-2	p	{"HasQuantity": "T1-2"}
+S0378112713005288-1948	2	MeasuredEntity	182	235	T4-2	significant variation in total regeneration densities	{"HasProperty": "T3-2"}
+S0378112713005288-1948	3	Quantity	265	268	T1-3	20%	{"unit": "%"}
+S0378112713005288-1948	3	MeasuredProperty	312	354	T4-3	variation between the different site types	{"HasQuantity": "T1-3"}
+S0378112713005288-1948	3	MeasuredEntity	276	300	T3-3	total observed variation	{"HasProperty": "T4-3"}
+S0378112713005288-1948	4	Quantity	483	489	T1-4	< 0.01	{"mods": ["IsRange"]}
+S0378112713005288-1948	4	MeasuredProperty	481	482	T2-4	p	{"HasQuantity": "T1-4"}
+S0378112713005288-1948	4	MeasuredEntity	424	445	T4-4	significantly greater	{"HasProperty": "T2-4"}
+S0378112713005288-1948	5	Quantity	766	770	T1-5	1.75	
+S0378112713005288-1948	5	MeasuredProperty	753	763	T3-5	F(1, 3.95)	{"HasQuantity": "T1-5"}
+S0378112713005288-1948	5	MeasuredEntity	649	700	T2-5	No significant difference in regeneration densities	{"HasProperty": "T3-5"}
+S0378112713005288-1948	6	Quantity	776	780	T1-6	n.s.	
+S0378112713005288-1948	6	MeasuredProperty	772	773	T4-6	p	{"HasQuantity": "T1-6"}
+S0378112713005288-1948	6	MeasuredEntity	649	700	T3-6	No significant difference in regeneration densities	{"HasProperty": "T4-6"}

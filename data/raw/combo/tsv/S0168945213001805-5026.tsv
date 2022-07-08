@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0168945213001805-5026	1	Quantity	0	13	T1-1	Four-year-old	{"unit": "year-old"}
+S0168945213001805-5026	1	MeasuredEntity	14	34	T3-1	wild-type cottonwood	{"HasQuantity": "T1-1"}
+S0168945213001805-5026	2	Quantity	201	204	T1-2	13%	{"unit": "%"}
+S0168945213001805-5026	2	MeasuredProperty	181	191	T3-2	net growth	{"HasQuantity": "T1-2"}
+S0168945213001805-5026	2	MeasuredEntity	159	174	T4-2	wild-type trees	{"HasProperty": "T3-2"}
+S0168945213001805-5026	2	Qualifier	205	259	T5-2	less than those over-expressing the cry toxins from Bt	{"Qualifies": "T1-2"}
+S0168945213001805-5026	3	Quantity	431	436	T1-3	three	{"mods": ["IsCount"]}
+S0168945213001805-5026	3	MeasuredEntity	437	451	T2-3	beetle species	{"HasQuantity": "T1-3"}

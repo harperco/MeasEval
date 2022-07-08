@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2211124713006475-1195	1	Quantity	429	437	T1-1	Two days	{"unit": "days"}
+S2211124713006475-1195	1	MeasuredProperty	500	509	T5-1	dispersed	{"HasQuantity": "T1-1"}
+S2211124713006475-1195	1	MeasuredEntity	468	488	T4-1	surviving GFP+ cells	{"HasProperty": "T5-1"}
+S2211124713006475-1195	1	Qualifier	438	466	T3-1	after in ovo transplantation	{"Qualifies": "T1-1"}
+S2211124713006475-1195	2	Quantity	812	818	T1-2	2 days	{"unit": "days"}
+S2211124713006475-1195	2	MeasuredEntity	788	811	T4-2	in vivo fiber outgrowth	{"HasQuantity": "T1-2"}
+S2211124713006475-1195	2	Qualifier	819	840	T5-2	after transplantation	{"Qualifies": "T1-2"}

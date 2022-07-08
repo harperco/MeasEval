@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-4971	1	Quantity	242	255	T11-1	less than 6 K	{"mods": ["IsRange"], "unit": "K"}
+S0019103512003533-4971	1	MeasuredProperty	197	235	T31-1	daily variations of polar temperatures	{"HasQuantity": "T11-1"}
+S0019103512003533-4971	1	MeasuredEntity	443	468	T41-1	Saturn’s upper atmosphere	{"HasProperty": "T31-1"}

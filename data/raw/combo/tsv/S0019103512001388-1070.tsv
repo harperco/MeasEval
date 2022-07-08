@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512001388-1070	1	Quantity	40	58	T1-1	6 November 2011 UT	{"unit": "UT"}
+S0019103512001388-1070	1	MeasuredProperty	31	36	T4-1	taken	{"HasQuantity": "T1-1"}
+S0019103512001388-1070	1	MeasuredEntity	0	30	T3-1	H-band slit-viewing VLT images	{"HasProperty": "T4-1"}
+S0019103512001388-1070	2	Quantity	65	73	T1-2	two days	{"unit": "days"}
+S0019103512001388-1070	2	MeasuredProperty	31	36	T5-2	taken	{"HasQuantity": "T1-2"}
+S0019103512001388-1070	2	MeasuredEntity	0	30	T4-2	H-band slit-viewing VLT images	{"HasProperty": "T5-2"}
+S0019103512001388-1070	2	Qualifier	74	114	T2-2	before the close approach of BS1 and BS2	{"Qualifies": "T1-2"}
+S0019103512001388-1070	3	Quantity	596	602	T1-3	30 min	{"mods": ["IsRange"], "unit": "min"}
+S0019103512001388-1070	3	MeasuredProperty	549	589	T3-3	should have crossed the central meridian	{"HasQuantity": "T1-3"}
+S0019103512001388-1070	3	MeasuredEntity	523	541	T2-3	deeper BS2 feature	{"HasProperty": "T3-3"}
+S0019103512001388-1070	3	Qualifier	603	612	T4-3	after BS1	{"Qualifies": "T1-3"}

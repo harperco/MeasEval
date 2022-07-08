@@ -1,0 +1,9 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3203	1	Quantity	438	444	T1-1	10 min	{"unit": "min"}
+S0960148113004989-3203	1	MeasuredProperty	434	435	T3-1	P	{"HasQuantity": "T1-1"}
+S0960148113004989-3203	1	MeasuredEntity	403	415	T2-1	tidal period	{"HasProperty": "T3-1"}
+S0960148113004989-3203	2	Quantity	481	487	T1-2	±12 m.	{"mods": ["HasTolerance"], "unit": "m"}
+S0960148113004989-3203	2	MeasuredEntity	466	477	T3-2	tidal range	{"HasQuantity": "T1-2"}
+S0960148113004989-3203	3	Quantity	566	570	T1-3	12 s	{"unit": "s"}
+S0960148113004989-3203	3	MeasuredProperty	548	563	T2-3	time step of Δt	{"HasQuantity": "T1-3"}
+S0960148113004989-3203	3	MeasuredEntity	492	507	T4-3	simulation time	{"HasProperty": "T2-3"}

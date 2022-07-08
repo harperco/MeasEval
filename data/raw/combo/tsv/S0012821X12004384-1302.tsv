@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X12004384-1302	1	Quantity	553	557	T91-1	Five	{"mods": ["IsCount"]}
+S0012821X12004384-1302	1	MeasuredEntity	558	565	T101-1	samples	{"HasQuantity": "T91-1"}
+S0012821X12004384-1302	2	Quantity	588	637	T12-2	2619.60, 2617.35, 2617.44, 2614.73, and 2614.71 m	{"mods": ["IsList"], "unit": "m"}
+S0012821X12004384-1302	2	MeasuredEntity	558	565	T102-2	samples	{"HasQuantity": "T12-2"}
+S0012821X12004384-1302	2	Qualifier	571	584	T152-2	below the CIE	{"Qualifies": "T102-2"}
+S0012821X12004384-1302	3	Quantity	769	800	T23-3	2619.60, 2614.73, and 2614.71 m	{"mods": ["IsList"], "unit": "m"}
+S0012821X12004384-1302	3	MeasuredEntity	760	767	T113-3	samples	{"HasQuantity": "T23-3"}
+S0012821X12004384-1302	4	Quantity	1481	1484	T34-4	two	{"mods": ["IsCount"]}
+S0012821X12004384-1302	4	MeasuredEntity	1485	1492	T144-4	samples	{"HasQuantity": "T34-4"}
+S0012821X12004384-1302	5	Quantity	1493	1512	T135-5	2619.60 and 2614.71	{"mods": ["IsList"]}
+S0012821X12004384-1302	5	MeasuredEntity	1485	1492	T145-5	samples	{"HasQuantity": "T135-5"}

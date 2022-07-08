@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13002185-1061	1	Quantity	147	155	T21-1	∼33.7 Ma	{"mods": ["IsApproximate"], "unit": "Ma"}
+S0012821X13002185-1061	1	MeasuredEntity	141	144	T61-1	Oi1	{"HasQuantity": "T21-1"}
+S0012821X13002185-1061	2	Quantity	296	316	T12-2	between 60% and 100%	{"mods": ["IsRange"], "unit": "%"}
+S0012821X13002185-1061	2	MeasuredProperty	325	352	T72-2	present today on Antarctica	{"HasQuantity": "T12-2"}
+S0012821X13002185-1061	2	MeasuredEntity	285	295	T32-2	ice volume	{"HasProperty": "T72-2"}
+S0012821X13002185-1061	2	Qualifier	208	211	T92-2	Oi1	{"Qualifies": "T32-2"}
+S0012821X13002185-1061	3	Quantity	363	370	T53-3	∼400 ka	{"mods": ["IsApproximate"], "unit": "ka"}
+S0012821X13002185-1061	3	MeasuredProperty	267	295	T83-3	emplacement of an ice volume	{"HasQuantity": "T53-3"}
+S0012821X13002185-1061	3	MeasuredEntity	208	211	T43-3	Oi1	{"HasProperty": "T83-3"}
+S0012821X13002185-1061	4	Quantity	390	402	T104-4	million-year	{"unit": "year"}
+S0012821X13002185-1061	4	MeasuredEntity	403	412	T114-4	timescale	{"HasQuantity": "T104-4"}
+S0012821X13002185-1061	5	Quantity	870	875	T145-5	∼2 Ma	{"mods": ["IsApproximate"], "unit": "Ma"}
+S0012821X13002185-1061	5	MeasuredProperty	864	869	T135-5	began	{"HasQuantity": "T145-5"}
+S0012821X13002185-1061	5	MeasuredEntity	851	858	T125-5	decline	{"HasProperty": "T135-5"}
+S0012821X13002185-1061	5	Qualifier	876	948	T155-5	prior to geological and stable isotope evidence for Antarctic glaciation	{"Qualifies": "T145-5"}

@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S027737911400050X-2401	1	Quantity	641	691	T1-1	several hundred or even more than a thousand years	{"mods": ["IsRange"], "unit": "years"}
+S027737911400050X-2401	1	MeasuredProperty	593	604	T2-1	offset from	{"HasQuantity": "T1-1"}
+S027737911400050X-2401	1	MeasuredEntity	609	617	T3-1	real age	{"HasProperty": "T2-1"}
+S027737911400050X-2401	2	Quantity	1392	1404	T1-2	3.00–3.05 ka	{"mods": ["IsRange"], "unit": "ka"}
+S027737911400050X-2401	2	MeasuredEntity	1405	1442	T3-2	cal BP Alpehué Pumice (So-A) eruption	{"HasQuantity": "T1-2"}

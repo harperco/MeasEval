@@ -1,0 +1,4 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S2213158213001253-2583	1	Quantity	2647	2659	T1-1	4 × 4 × 5 mm	{"unit": "mm"}
+S2213158213001253-2583	1	MeasuredProperty	2617	2627	T3-1	resolution	{"HasQuantity": "T1-1"}
+S2213158213001253-2583	1	MeasuredEntity	2635	2645	T2-1	fMRI scans	{"HasProperty": "T3-1"}

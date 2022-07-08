@@ -1,0 +1,16 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0960148113004989-3327	1	Quantity	36	39	T1-1	one	{"mods": ["IsCount"]}
+S0960148113004989-3327	1	MeasuredEntity	40	45	T2-1	cycle	{"HasQuantity": "T1-1"}
+S0960148113004989-3327	2	Quantity	59	62	T1-2	22%	{"unit": "%"}
+S0960148113004989-3327	2	MeasuredProperty	4	28	T2-2	averaged power extracted	{"HasQuantity": "T1-2"}
+S0960148113004989-3327	2	MeasuredEntity	36	45	T3-2	one cycle	{"HasProperty": "T2-2"}
+S0960148113004989-3327	2	Qualifier	46	55	T4-2	increased	{"Qualifies": "T2-2"}
+S0960148113004989-3327	3	Quantity	68	86	T1-3	48.4 MW to 59.0 MW	{"mods": ["IsRange"], "unit": "MW"}
+S0960148113004989-3327	3	MeasuredProperty	4	28	T3-3	averaged power extracted	{"HasQuantity": "T1-3"}
+S0960148113004989-3327	3	MeasuredEntity	36	45	T4-3	one cycle	{"HasProperty": "T3-3"}
+S0960148113004989-3327	3	Qualifier	46	55	T2-3	increased	{"Qualifies": "T3-3"}
+S0960148113004989-3327	4	Quantity	175	178	T1-4	one	
+S0960148113004989-3327	4	MeasuredProperty	179	190	T2-4	full period	{"HasQuantity": "T1-4"}
+S0960148113004989-3327	4	MeasuredEntity	151	166	T3-4	simulation time	{"HasProperty": "T2-4"}
+S0960148113004989-3327	5	Quantity	379	382	T1-5	two	{"mods": ["IsCount"]}
+S0960148113004989-3327	5	MeasuredEntity	383	401	T2-5	distorted ∨ shapes	{"HasQuantity": "T1-5"}

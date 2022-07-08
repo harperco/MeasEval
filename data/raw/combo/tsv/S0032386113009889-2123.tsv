@@ -1,0 +1,11 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032386113009889-2123	1	Quantity	1001	1013	T1-1	about 70 MPa	{"mods": ["IsApproximate"], "unit": "MPa"}
+S0032386113009889-2123	1	MeasuredProperty	974	997	T2-1	applied uniaxial stress	{"HasQuantity": "T1-1"}
+S0032386113009889-2123	1	MeasuredEntity	946	955	T3-1	debonding	{"HasProperty": "T2-1"}
+S0032386113009889-2123	2	Quantity	1073	1086	T1-2	about 210 MPa	{"mods": ["IsApproximate"], "unit": "MPa"}
+S0032386113009889-2123	2	MeasuredProperty	1034	1052	T2-2	hydrostatic stress	{"HasQuantity": "T1-2"}
+S0032386113009889-2123	2	MeasuredEntity	946	955	T3-2	debonding	{"HasProperty": "T2-2"}
+S0032386113009889-2123	2	Qualifier	1060	1069	T5-2	crack tip	{"Qualifies": "T2-2"}
+S0032386113009889-2123	3	Quantity	1185	1192	T1-3	210 MPa	{"unit": "MPa"}
+S0032386113009889-2123	3	MeasuredProperty	1155	1181	T2-3	applied hydrostatic stress	{"HasQuantity": "T1-3"}
+S0032386113009889-2123	3	MeasuredEntity	1098	1133	T4-3	finite-element analysis simulations	{"HasProperty": "T2-3"}

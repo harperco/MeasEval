@@ -1,0 +1,12 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-1200	1	Quantity	282	297	T1-1	from 5≤2θ/°≤120	{"mods": ["IsRange"]}
+S0022459611006116-1200	1	MeasuredProperty	274	280	T2-1	period	{"HasQuantity": "T1-1"}
+S0022459611006116-1200	1	MeasuredEntity	240	244	T3-1	data	{"HasProperty": "T2-1"}
+S0022459611006116-1200	1	Qualifier	250	259	T4-1	collected	{"Qualifies": "T2-1"}
+S0022459611006116-1200	2	Quantity	318	323	T1-2	0.02°	{"unit": "°"}
+S0022459611006116-1200	2	MeasuredProperty	310	314	T2-2	size	{"HasQuantity": "T1-2"}
+S0022459611006116-1200	2	MeasuredEntity	305	309	T3-2	step	{"HasProperty": "T2-2"}
+S0022459611006116-1200	3	Quantity	324	333	T1-3	over 14 h	{"unit": "h"}
+S0022459611006116-1200	3	MeasuredProperty	274	280	T5-3	period	{"HasQuantity": "T1-3"}
+S0022459611006116-1200	3	MeasuredEntity	240	244	T3-3	data	{"HasProperty": "T5-3"}
+S0022459611006116-1200	3	Qualifier	250	259	T4-3	collected	{"Qualifies": "T3-3"}

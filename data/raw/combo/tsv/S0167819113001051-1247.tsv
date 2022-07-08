@@ -1,0 +1,6 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0167819113001051-1247	1	Quantity	23	31	T1-1	18 cores	{"unit": "cores"}
+S0167819113001051-1247	1	MeasuredEntity	14	18	T3-1	node	{"HasQuantity": "T1-1"}
+S0167819113001051-1247	2	Quantity	327	349	T2-2	from 50% to around 80%	{"mods": ["IsRange", "IsApproximate"], "unit": "%"}
+S0167819113001051-1247	2	MeasuredProperty	284	305	T1-2	improve the usability	{"HasQuantity": "T2-2"}
+S0167819113001051-1247	2	MeasuredEntity	309	326	T3-2	manufactured dice	{"HasProperty": "T1-2"}

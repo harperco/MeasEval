@@ -1,0 +1,29 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0927024813002420-975	1	Quantity	194	199	T1-1	99.9%	{"unit": "%"}
+S0927024813002420-975	1	MeasuredProperty	200	204	T3-1	pure	{"HasQuantity": "T1-1"}
+S0927024813002420-975	1	MeasuredEntity	189	192	T4-1	C60	{"HasProperty": "T3-1"}
+S0927024813002420-975	2	Quantity	407	413	T1-2	7.5–80	
+S0927024813002420-975	2	MeasuredEntity	414	429	T3-2	DC Power Supply	{"HasQuantity": "T1-2"}
+S0927024813002420-975	3	Quantity	453	458	T1-3	8–300	
+S0927024813002420-975	3	MeasuredEntity	459	474	T2-3	DC Power Supply	{"HasQuantity": "T1-3"}
+S0927024813002420-975	4	Quantity	535	547	T1-4	∼1×10−5 Torr	{"mods": ["IsApproximate"], "unit": "Torr"}
+S0927024813002420-975	4	MeasuredProperty	528	534	T4-4	vacuum	{"HasQuantity": "T1-4"}
+S0927024813002420-975	4	MeasuredEntity	494	505	T3-4	evaporation	{"HasProperty": "T4-4"}
+S0927024813002420-975	5	Quantity	568	577	T1-5	300±15 °C	{"mods": ["HasTolerance"], "unit": "°C"}
+S0927024813002420-975	5	MeasuredProperty	553	564	T3-5	temperature	{"HasQuantity": "T1-5"}
+S0927024813002420-975	5	MeasuredEntity	494	505	T4-5	evaporation	{"HasProperty": "T3-5"}
+S0927024813002420-975	6	Quantity	629	639	T1-6	∼0.5–5 Å/s	{"mods": ["IsApproximate", "IsRange"], "unit": "Å/s"}
+S0927024813002420-975	6	MeasuredProperty	594	598	T4-6	rate	{"HasQuantity": "T1-6"}
+S0927024813002420-975	6	MeasuredEntity	602	624	T3-6	PTh and C60 deposition	{"HasProperty": "T4-6"}
+S0927024813002420-975	7	Quantity	717	727	T1-7	∼1.5–3 Å/s	{"mods": ["IsApproximate", "IsMean"], "unit": "Å/s"}
+S0927024813002420-975	7	MeasuredProperty	678	698	T3-7	average overall rate	{"HasQuantity": "T1-7"}
+S0927024813002420-975	7	MeasuredEntity	602	624	T5-7	PTh and C60 deposition	{"HasProperty": "T3-7"}
+S0927024813002420-975	8	Quantity	1030	1049	T1-8	20–25 monomer units	{"mods": ["IsRange"], "unit": "monomer units"}
+S0927024813002420-975	8	MeasuredProperty	1000	1028	T3-8	effective conjugation length	{"HasQuantity": "T1-8"}
+S0927024813002420-975	8	MeasuredEntity	984	987	T4-8	PTh	{"HasProperty": "T3-8"}
+S0927024813002420-975	9	Quantity	1053	1060	T1-9	≈2.0 eV	{"mods": ["IsApproximate"], "unit": "eV"}
+S0927024813002420-975	9	MeasuredProperty	1051	1053	T3-9	Eg	{"HasQuantity": "T1-9"}
+S0927024813002420-975	9	MeasuredEntity	984	987	T4-9	PTh	{"HasProperty": "T3-9"}
+S0927024813002420-975	10	Quantity	1086	1104	T1-10	~1500–2000 g mol−1	{"mods": ["IsApproximate", "IsRange"], "unit": "g mol−1"}
+S0927024813002420-975	10	MeasuredProperty	1084	1086	T3-10	Mw	{"HasQuantity": "T1-10"}
+S0927024813002420-975	10	MeasuredEntity	984	987	T4-10	PTh	{"HasProperty": "T3-10"}

@@ -1,0 +1,15 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512003533-5598	1	Quantity	842	854	T51-1	74°S to 90°S	{"mods": ["IsRange"], "unit": "°S"}
+S0019103512003533-5598	1	MeasuredEntity	856	879	T61-1	the summer polar region	{"HasQuantity": "T51-1"}
+S0019103512003533-5598	2	Quantity	884	889	T22-2	490 K	{"mods": ["IsMean"], "unit": "K"}
+S0019103512003533-5598	2	MeasuredProperty	804	827	T42-2	exospheric temperatures	{"HasQuantity": "T22-2"}
+S0019103512003533-5598	2	MeasuredEntity	770	795	T122-2	solstice simulation (R19)	{"HasProperty": "T42-2"}
+S0019103512003533-5598	2	Qualifier	842	880	T72-2	74°S to 90°S (the summer polar region)	{"Qualifies": "T42-2"}
+S0019103512003533-5598	2	Qualifier	828	836	T82-2	averaged	{"Qualifies": "T22-2"}
+S0019103512003533-5598	3	Quantity	988	993	T13-3	430 K	{"mods": ["IsMean"], "unit": "K"}
+S0019103512003533-5598	3	MeasuredProperty	804	827	T43-3	exospheric temperatures	{"HasQuantity": "T13-3"}
+S0019103512003533-5598	3	MeasuredEntity	770	795	T123-3	solstice simulation (R19)	{"HasProperty": "T43-3"}
+S0019103512003533-5598	3	Qualifier	907	970	T103-3	over the same latitude band in the northern (winter) hemisphere	{"Qualifies": "T43-3"}
+S0019103512003533-5598	3	Qualifier	897	906	T93-3	averaging	{"Qualifies": "T13-3"}
+S0019103512003533-5598	4	Quantity	1014	1018	T34-4	60 K	{"unit": "K"}
+S0019103512003533-5598	4	MeasuredEntity	1000	1010	T114-4	difference	{"HasQuantity": "T34-4"}

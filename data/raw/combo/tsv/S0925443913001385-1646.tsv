@@ -1,0 +1,7 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0925443913001385-1646	1	Quantity	277	283	T1-1	10–30%	{"mods": ["IsRange"], "unit": "%"}
+S0925443913001385-1646	1	MeasuredEntity	247	275	T2-1	isokinetic sucrose gradients	{"HasQuantity": "T1-1"}
+S0925443913001385-1646	2	Quantity	1438	1441	T1-2	63%	{"unit": "%"}
+S0925443913001385-1646	2	MeasuredProperty	1391	1419	T2-2	levels in the subject sample	{"HasQuantity": "T1-2"}
+S0925443913001385-1646	2	MeasuredEntity	1445	1458	T4-2	control value	{"HasProperty": "T2-2"}
+S0925443913001385-1646	2	Qualifier	1425	1437	T3-2	decreased to	{"Qualifies": "T2-2"}

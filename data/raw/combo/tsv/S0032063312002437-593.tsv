@@ -1,0 +1,13 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0032063312002437-593	1	Quantity	88	97	T1-1	near 86°N	{"mods": ["IsApproximate"], "unit": "°N"}
+S0032063312002437-593	1	MeasuredProperty	78	87	T4-1	periapsis	{"HasQuantity": "T1-1"}
+S0032063312002437-593	1	MeasuredEntity	67	72	T3-1	orbit	{"HasProperty": "T4-1"}
+S0032063312002437-593	1	Qualifier	37	56	T5-1	Venus Express (VEX)	{"Qualifies": "T3-1"}
+S0032063312002437-593	2	Quantity	114	139	T1-2	between 185 km and 215 km	{"mods": ["IsRange"], "unit": "km"}
+S0032063312002437-593	2	MeasuredProperty	105	113	T4-2	altitude	{"HasQuantity": "T1-2"}
+S0032063312002437-593	2	MeasuredEntity	67	72	T2-2	orbit	{"HasProperty": "T4-2"}
+S0032063312002437-593	2	Qualifier	37	56	T3-2	Venus Express (VEX)	{"Qualifies": "T2-2"}
+S0032063312002437-593	3	Quantity	145	157	T1-3	about 10 min	{"mods": ["IsApproximate"], "unit": "min"}
+S0032063312002437-593	3	MeasuredProperty	158	181	T5-3	spent in the ionosphere	{"HasQuantity": "T1-3"}
+S0032063312002437-593	3	MeasuredEntity	67	72	T3-3	orbit	{"HasProperty": "T5-3"}
+S0032063312002437-593	3	Qualifier	37	56	T2-3	Venus Express (VEX)	{"Qualifies": "T3-3"}

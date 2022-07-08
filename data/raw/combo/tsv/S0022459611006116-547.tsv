@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0022459611006116-547	1	Quantity	64	70	T1-1	298 K.	{"unit": "K"}
+S0022459611006116-547	1	MeasuredEntity	0	60	T2-1	Refined crystallographic parameters for (1) from PXD and PND	{"HasQuantity": "T1-1"}

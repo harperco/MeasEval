@@ -1,0 +1,3 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0019103512002801-1608	1	Quantity	84	98	T11-1	about 5 km s−1	{"mods": ["IsApproximate"], "unit": "km s−1"}
+S0019103512002801-1608	1	MeasuredEntity	57	80	T21-1	outward radial velocity	{"HasQuantity": "T11-1"}

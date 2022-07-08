@@ -1,0 +1,8 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0378383912000130-3891	1	Quantity	94	97	T1-1	two	{"mods": ["IsCount"]}
+S0378383912000130-3891	1	MeasuredEntity	98	130	T2-1	permeable coarse-grained beaches	{"HasQuantity": "T1-1"}
+S0378383912000130-3891	2	Quantity	132	149	T2-2	1.5 mm and 8.5 mm	{"mods": ["IsList"], "unit": "mm"}
+S0378383912000130-3891	2	MeasuredProperty	150	158	T3-2	sediment	{"HasQuantity": "T2-2"}
+S0378383912000130-3891	2	MeasuredEntity	94	130	T4-2	two permeable coarse-grained beaches	{"HasProperty": "T3-2"}
+S0378383912000130-3891	3	Quantity	534	537	T1-3	two	{"mods": ["IsCount"]}
+S0378383912000130-3891	3	MeasuredEntity	538	547	T2-3	sediments	{"HasQuantity": "T1-3"}

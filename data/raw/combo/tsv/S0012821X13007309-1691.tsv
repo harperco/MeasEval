@@ -1,0 +1,21 @@
+docId	annotSet	annotType	startOffset	endOffset	annotId	text	other
+S0012821X13007309-1691	1	Quantity	147	150	T1-1	1 m	{"unit": "m"}
+S0012821X13007309-1691	1	MeasuredProperty	151	156	T3-1	thick	{"HasQuantity": "T1-1"}
+S0012821X13007309-1691	1	MeasuredEntity	124	141	T4-1	Livello Bonarelli	{"HasProperty": "T3-1"}
+S0012821X13007309-1691	2	Quantity	333	343	T1-2	Up to 20 m	{"mods": ["IsRange"], "unit": "m"}
+S0012821X13007309-1691	2	MeasuredProperty	344	365	T3-2	beneath the Bonarelli	{"HasQuantity": "T1-2"}
+S0012821X13007309-1691	2	MeasuredEntity	382	433	T4-2	numerous centimetre scale organic-rich shale layers	{"HasProperty": "T3-2"}
+S0012821X13007309-1691	3	Quantity	537	554	T1-3	∼−25.9 to −26.5‰.	{"mods": ["IsApproximate", "IsRange"], "unit": "‰"}
+S0012821X13007309-1691	3	MeasuredProperty	483	535	T4-3	narrow variation in background values prior to OAE 2	{"HasQuantity": "T1-3"}
+S0012821X13007309-1691	3	MeasuredEntity	462	476	T3-3	δ13Corg record	{"HasProperty": "T4-3"}
+S0012821X13007309-1691	4	Quantity	609	611	T1-4	4‰	{"unit": "‰"}
+S0012821X13007309-1691	4	MeasuredProperty	612	617	T2-4	shift	{"HasQuantity": "T1-4"}
+S0012821X13007309-1691	4	MeasuredEntity	559	603	T3-4	characteristic positive excursion in δ13Corg	{"HasProperty": "T2-4"}
+S0012821X13007309-1691	4	Qualifier	636	659	T5-4	occurring within <0.5 m	{"Qualifies": "T2-4"}
+S0012821X13007309-1691	5	Quantity	619	634	T1-5	−27.2 to −23.1‰	{"mods": ["IsRange"], "unit": "‰"}
+S0012821X13007309-1691	5	MeasuredProperty	612	617	T4-5	shift	{"HasQuantity": "T1-5"}
+S0012821X13007309-1691	5	MeasuredEntity	559	603	T3-5	characteristic positive excursion in δ13Corg	{"HasProperty": "T4-5"}
+S0012821X13007309-1691	5	Qualifier	636	659	T5-5	occurring within <0.5 m	{"Qualifies": "T4-5"}
+S0012821X13007309-1691	6	Quantity	646	659	T1-6	within <0.5 m	{"unit": "m"}
+S0012821X13007309-1691	6	MeasuredProperty	612	617	T3-6	shift	{"HasQuantity": "T1-6"}
+S0012821X13007309-1691	6	MeasuredEntity	559	603	T2-6	characteristic positive excursion in δ13Corg	{"HasProperty": "T3-6"}
