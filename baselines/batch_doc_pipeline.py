@@ -79,91 +79,69 @@ def read_data(reshuffle_docs = False):
 
 
 
-def tokenize_and_align_labels(docs_or_sents, txt, annotation, tokenizer):
+# def tokenize_and_align_labels(docs_or_sents, txt, annotation, tokenizer, task_list):
 
-    toks_with_labels = []
+#     toks_with_labels = []
 
-    for doc in docs_or_sents:
-        # print(doc)
+#     for doc in docs_or_sents:
+#         # print(doc)
 
-        encoded_txt = tokenizer(txt[doc], padding='max_length', max_length=512, truncation=True)
-        # print(encoded_txt)
+#         encoded_txt = tokenizer(txt[doc], padding='max_length', max_length=512, truncation=True)
+#         # print(encoded_txt)
 
-        encoded_tokens = encoded_txt['input_ids']
-        # print(encoded_tokens)
+#         encoded_tokens = encoded_txt['input_ids']
+#         # print(encoded_tokens)
 
-        doc_annot = annotation.loc[annotation['docId'] == doc]
-        # print(doc_annot)
+#         doc_annot = annotation.loc[annotation['docId'] == doc]
+#         # print(doc_annot)
 
-        annot_spans = np.array(doc_annot[['startOffset','endOffset']])
-        # print(f'annot_spans={annot_spans}')
+#         annot_spans = doc_annot['annotType','startOffset','endOffset']
+#         # print(f'annot_spans={annot_spans}')
 
-        label_ids = np.full(len(encoded_tokens),0)
-        special_ids = tokenizer.all_special_ids
-        # print(label_ids.shape)
 
-        for token_idx, token in enumerate(encoded_tokens):
-            # decoded_token = tokenizer.decode(token)
-            # print(f"token index: {token_idx}")
-            # print(f"decoded token: {decoded_token}")
+#         special_ids = tokenizer.all_special_ids
+#         # print(label_ids.shape)
 
-            if token in special_ids:
-                label_ids[token_idx] = 0
-                # print('special token')
+#         for task in task_list:
+#             label_ids = np.full(len(encoded_tokens),0)
+#             task_spans = np.array(annot_spans.loc[annot_spans['annotType']==task][['startOffset','endOffset']])
+            
+#             for token_idx, token in enumerate(encoded_tokens):
+#                 # decoded_token = tokenizer.decode(token)
+#                 # print(f"token index: {token_idx}")
+#                 # print(f"decoded token: {decoded_token}")
 
-            else:
-                token_start_char = encoded_txt.token_to_chars(token_idx).start
-                token_end_char = encoded_txt.token_to_chars(token_idx).end
-                # print(f"token span: {[token_start_char,token_end_char]}")
-                for start, end in annot_spans:
-                    if start <= token_start_char <= end:
-                        label_ids[token_idx] = 1
-                        # print(f'{type} entity found spanning {[start,end]}')
-                        break
-                    else:
-                        label_ids[token_idx] = 0
-                        # print("no entity found")
+#                 if token in special_ids:
+#                     label_ids[token_idx] = 0
+#                     # print('special token')
+
+#                 else:
+#                     token_start_char = encoded_txt.token_to_chars(token_idx).start
+#                     token_end_char = encoded_txt.token_to_chars(token_idx).end
+#                     # print(f"token span: {[token_start_char,token_end_char]}")
+#                     for start, end in task_spans:
+#                         if start <= token_start_char <= end:
+#                             label_ids[token_idx] = 1
+#                             # print(f'{type} entity found spanning {[start,end]}')
+#                             break
+#                         else:
+#                             label_ids[token_idx] = 0
+#                             # print("no entity found")
+
+#             encoded_txt[str(task+'_label')] = label_ids
+           
         
-        encoded_txt['doc_or_sent_id'] = doc
-        encoded_txt['labels'] = list(label_ids)
-        toks_with_labels.append(encoded_txt)
+#         encoded_txt['doc_or_sent_id'] = doc
+#         encoded_txt['labels'] = list(label_ids)
+        
+#         toks_with_labels.append(encoded_txt)
     
-    # return toks_with_labels
-    return pd.DataFrame.from_dict(toks_with_labels)
+#     # return toks_with_labels
+#     return pd.DataFrame.from_dict(toks_with_labels)
 
 
 
-def batchify(tokenized_dataset, batch_size, device):
-    num_examples = int(tokenized_dataset.shape[0] / batch_size)
-    batch_sizes = [batch_size for x in range(num_examples)]
-    last_batch_size = tokenized_dataset.shape[0] % batch_size
-    if last_batch_size:
-        batch_sizes.append(last_batch_size)
-    # print(batch_sizes)
 
-    batched_dataset = []
-
-    for idx, size in enumerate(batch_sizes):
-        start = sum(batch_sizes[:idx])
-        end = sum(batch_sizes[:idx]) + size - 1
-        # print(start,end,idx)
-        input_ids = torch.LongTensor(tokenized_dataset['input_ids'].loc[start:end].tolist()).to(device)
-        attention_mask = torch.LongTensor(tokenized_dataset['attention_mask'].loc[start:end].tolist()).to(device)
-        labels = torch.LongTensor(tokenized_dataset['labels'].loc[start:end].tolist()).to(device)
-        # print(labels.shape)
-        doc_or_sent_id = list(tokenized_dataset['doc_or_sent_id'].loc[start:end])
-        
-        batch = {
-            'input_ids':input_ids,
-            'labels':labels,
-            'attention_mask':attention_mask,
-            'doc_or_sent_id':doc_or_sent_id
-
-        }
-        
-        batched_dataset.append(batch)
-
-    return batched_dataset
 
 
 
