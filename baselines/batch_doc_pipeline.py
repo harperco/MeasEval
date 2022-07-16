@@ -6,75 +6,55 @@ import numpy as np
 import torch
 
 
-def read_data(reshuffle_docs = False):
 
-    currentdir = os.getcwd() # ~/MeasEval/baselines
 
-    combopath_txt = os.path.join(currentdir, "../data/raw/combo/text/")
-    combopath_annot = os.path.join(currentdir, "../data/raw/combo/tsv/")
+        # n_doc = len(docIds)
+        # split_train = int(np.round(n_doc * percent_to_train))
+        # split_dev = split_train + int(np.round(n_doc * percent_to_dev))
 
-    interimpath = os.path.join(currentdir, "../data/interim/")
+        # docs_train = docIds[:split_train]
+        # docs_dev = docIds[split_train:split_dev]
+        # docs_test = docIds[split_dev:]
 
-    if reshuffle_docs == True:
-        docIds = []
-        combo_txt = {}
-        for fn in os.listdir(combopath_txt):
-            docIds.append(fn[:-4])
-            path = combopath_txt+fn
-            with open(path) as textfile:
-                    text = textfile.read()
-                    #[:-4] strips off the .txt to get the id
-                    combo_txt[fn[:-4]] = text
+        # train_annot = combo_annot.loc[combo_annot['docId'].isin(docs_train)]
+        # dev_annot = combo_annot.loc[combo_annot['docId'].isin(docs_dev)]
+        # test_annot = combo_annot.loc[combo_annot['docId'].isin(docs_test)]
 
-        combo_annot = pd.DataFrame()
-        for fn in os.listdir(combopath_annot):
-            path = combopath_annot+fn
-            file = pd.read_csv(path,delimiter='\t',encoding='utf-8')
-            combo_annot = pd.concat([combo_annot, file],ignore_index=True)
+        # # save data
+        # train_annot.to_csv(interimpath+'train_annot.csv')
+        # dev_annot.to_csv(interimpath+'dev_annot.csv')
+        # test_annot.to_csv(interimpath+'test_annot.csv')
 
-        random.shuffle(docIds)
-
-        n_doc = len(docIds)
-        split_train = int(np.round(n_doc * percent_to_train))
-        split_dev = split_train + int(np.round(n_doc * percent_to_dev))
-
-        docs_train = docIds[:split_train]
-        docs_dev = docIds[split_train:split_dev]
-        docs_test = docIds[split_dev:]
-
-        train_annot = combo_annot.loc[combo_annot['docId'].isin(docs_train)]
-        dev_annot = combo_annot.loc[combo_annot['docId'].isin(docs_dev)]
-        test_annot = combo_annot.loc[combo_annot['docId'].isin(docs_test)]
-
-        # save data
-        train_annot.to_csv(interimpath+'train_annot.csv')
-        dev_annot.to_csv(interimpath+'dev_annot.csv')
-        test_annot.to_csv(interimpath+'test_annot.csv')
-
-        train_txt = {d: combo_txt[d] for d in docs_train}
-        dev_txt = {d: combo_txt[d] for d in docs_dev}
-        test_txt = {d: combo_txt[d] for d in docs_test}
+        # train_txt = {d: combo_txt[d] for d in docs_train}
+        # dev_txt = {d: combo_txt[d] for d in docs_dev}
+        # test_txt = {d: combo_txt[d] for d in docs_test}
         
-        with open(interimpath+'train_txt.json','w') as f:
-            json.dump(train_txt, f)
-        with open(interimpath+'dev_txt.json','w') as f:
-            json.dump(dev_txt, f)
-        with open(interimpath+'test_txt.json','w') as f:
-            json.dump(test_txt, f)
+        # with open(interimpath+'train_txt.json','w') as f:
+        #     json.dump(train_txt, f)
+        # with open(interimpath+'dev_txt.json','w') as f:
+        #     json.dump(dev_txt, f)
+        # with open(interimpath+'test_txt.json','w') as f:
+        #     json.dump(test_txt, f)
 
     else:
-        train_annot = pd.read_csv(interimpath+'train_annot.csv')
-        dev_annot = pd.read_csv(interimpath+'dev_annot.csv')
-        test_annot = pd.read_csv(interimpath+'test_annot.csv')
+        combo_annot = pd.read_csv(interimpath+'combo_annot.csv')
 
-        with open(interimpath+'train_txt.json','r') as f:
-            train_txt = json.load(f)
-        with open(interimpath+'dev_txt.json','r') as f:
-            dev_txt = json.load(f)
-        with open(interimpath+'test_txt.json','r') as f:
-            test_txt = json.load(f)
+        with open(interimpath+'combo_txt.json','r') as f:
+            combo_txt = json.load(f)
+
+        docIds = list(combo_txt.keys())
+
+        # dev_annot = pd.read_csv(interimpath+'dev_annot.csv')
+        # test_annot = pd.read_csv(interimpath+'test_annot.csv')
+
+        # with open(interimpath+'train_txt.json','r') as f:
+        #     train_txt = json.load(f)
+        # with open(interimpath+'dev_txt.json','r') as f:
+        #     dev_txt = json.load(f)
+        # with open(interimpath+'test_txt.json','r') as f:
+        #     test_txt = json.load(f)
     
-    return train_annot, dev_annot, test_annot, train_txt, dev_txt, test_txt
+        return docIds, combo_txt, combo_annot
 
 
 
